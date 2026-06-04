@@ -285,7 +285,16 @@ footer{
 </div>
 
 <script>
-document.getElementById("publicidad").src = `data/publicidad${numeroPublicidad}.jpg`;
+const ruta = `data/publicidad${numeroPublicidad}.jpg`;
+
+console.log("Cargando:", ruta);
+
+const img = document.getElementById("publicidad");
+
+img.onload = () => console.log("Imagen cargada");
+img.onerror = () => console.log("ERROR cargando imagen");
+
+img.src = ruta;
 </script>
 
 </body>
