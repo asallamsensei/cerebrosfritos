@@ -11,36 +11,78 @@
 body{
   margin:0;
   font-family:Arial, sans-serif;
-  background:radial-gradient(circle at top,#17132b,#050510);
   color:white;
   text-align:center;
+  min-height:100vh;
   padding:24px 14px 50px;
+  background:
+    radial-gradient(circle at 18% 10%, rgba(255,122,24,.24), transparent 26%),
+    radial-gradient(circle at 80% 12%, rgba(255,60,172,.20), transparent 30%),
+    radial-gradient(circle at 50% 90%, rgba(125,92,255,.18), transparent 34%),
+    linear-gradient(160deg,#070712,#17132b 55%,#050510);
+}
+
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background-image:
+    linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:42px 42px;
+  mask-image:linear-gradient(to bottom,black,transparent 85%);
 }
 
 .wrap{
-  max-width:900px;
+  max-width:980px;
   margin:auto;
+  position:relative;
+  z-index:1;
 }
 
 h1{
-  font-size:clamp(30px,6vw,46px);
-  margin:18px 0 24px;
+  display:inline-block;
+  font-size:clamp(28px,5vw,44px);
+  line-height:1.12;
+  margin:16px 0 24px;
+  padding:12px 18px;
+  border-radius:22px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.16);
+  box-shadow:
+    0 0 18px rgba(255,122,24,.24),
+    0 0 34px rgba(255,60,172,.16),
+    inset 0 0 18px rgba(255,255,255,.04);
+  text-shadow:
+    0 0 10px rgba(255,122,24,.55),
+    0 0 20px rgba(255,60,172,.35);
+}
+
+.main-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+  align-items:stretch;
 }
 
 .card{
   position:relative;
   overflow:hidden;
-  background:rgba(255,255,255,0.06);
+  background:rgba(255,255,255,0.065);
   border:1px solid rgba(255,255,255,0.16);
-  border-radius:16px;
-  padding:18px;
-  margin:16px 0;
-  box-shadow:0 10px 25px rgba(0,0,0,0.35);
+  border-radius:18px;
+  padding:16px;
+  box-shadow:0 14px 34px rgba(0,0,0,0.38);
+  transition:.25s ease;
 }
 
 .card:hover{
-  transform:translateY(-3px);
+  transform:translateY(-4px);
   border-color:#ff7a18;
+  box-shadow:
+    0 16px 38px rgba(0,0,0,.45),
+    0 0 22px rgba(255,122,24,.16);
 }
 
 .card::before{
@@ -53,10 +95,11 @@ h1{
   background:linear-gradient(
     120deg,
     transparent,
-    rgba(255,255,255,0.28),
+    rgba(255,255,255,0.26),
     transparent
   );
   transform:skewX(-25deg);
+  pointer-events:none;
 }
 
 .card:hover::before{
@@ -67,64 +110,143 @@ h1{
   100%{left:150%}
 }
 
-img{
+.image-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.image-card img{
   width:100%;
-  max-width:100%;
+  max-height:420px;
+  object-fit:contain;
   display:block;
   border-radius:14px;
 }
 
-.price{
-  font-size:28px;
-  font-weight:bold;
+.cookie-title{
+  margin:0 0 12px;
+  font-size:clamp(20px,3vw,28px);
   color:#ffd166;
-  margin:12px 0 6px;
+  text-shadow:0 0 14px rgba(255,209,102,.25);
 }
 
-.small{
+.cookie-card img{
+  width:100%;
+  max-height:300px;
+  object-fit:contain;
+  display:block;
+  border-radius:14px;
+  margin:0 auto;
+}
+
+.summary{
+  margin-top:18px;
+  text-align:left;
+}
+
+.summary h2{
+  text-align:center;
+  margin:0 0 16px;
+  font-size:28px;
+  color:#fff2b8;
+}
+
+.row{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  padding:12px 0;
+  border-bottom:1px solid rgba(255,255,255,.12);
+  font-size:17px;
+}
+
+.row:last-child{
+  border-bottom:0;
+}
+
+.label{
   color:#d7d4ff;
-  font-size:15px;
+  font-weight:bold;
+}
+
+.value{
+  text-align:right;
+  font-weight:bold;
+}
+
+.price{
+  color:#ffd166;
+  font-size:22px;
 }
 
 .btn{
   display:block;
   width:100%;
   padding:14px 16px;
-  margin-top:12px;
+  margin-top:14px;
   border-radius:14px;
   color:white;
   text-decoration:none;
   font-weight:bold;
   border:1px solid rgba(255,255,255,.18);
+  text-align:center;
+  transition:.2s ease;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
 }
 
 .paypal{
   background:linear-gradient(135deg,#0070ba,#003087);
+  box-shadow:0 0 20px rgba(0,112,186,.22);
 }
 
 .wa{
   background:linear-gradient(135deg,#25d366,#128c7e);
+  box-shadow:0 0 20px rgba(37,211,102,.18);
 }
 
-input, select, textarea{
-  width:100%;
-  padding:13px;
-  margin-top:10px;
-  border-radius:12px;
-  border:1px solid rgba(255,255,255,.16);
-  background:rgba(0,0,0,.25);
-  color:white;
-  font:inherit;
-}
-
-textarea{
-  min-height:80px;
+.note{
+  margin-top:12px;
+  color:#d7d4ff;
+  font-size:14px;
+  line-height:1.45;
+  text-align:center;
 }
 
 footer{
   margin-top:20px;
   color:#aaa;
   font-size:13px;
+}
+
+@media(max-width:800px){
+  .main-grid{
+    grid-template-columns:1fr;
+  }
+
+  .image-card img{
+    max-height:360px;
+  }
+
+  .cookie-card img{
+    max-height:260px;
+  }
+
+  .summary{
+    text-align:left;
+  }
+
+  .row{
+    flex-direction:column;
+    gap:4px;
+  }
+
+  .value{
+    text-align:left;
+  }
 }
 </style>
 </head>
@@ -133,63 +255,64 @@ footer{
 
 <div class="wrap">
 
-  <h1>Japonés para Cerebros Fritos</h1>
+  <h1>🧠✨ Japonés para Cerebros Fritos ✨🧠</h1>
 
-  <div class="card">
-    <img id="publicidad" src="data/publicidad1.png" alt="Japonés para Cerebros Fritos">
+  <div class="main-grid">
+
+    <div class="card image-card">
+      <img id="publicidad" alt="Japonés para Cerebros Fritos">
+    </div>
+
+    <div class="card cookie-card">
+      <h2 class="cookie-title">Al mismo precio de las Galletas Ángulo</h2>
+      <img src="data/angulo.png" alt="Galletas Ángulo">
+    </div>
+
   </div>
 
-  <div class="card">
-    <h2>Al mismo precio de las Galletas Ángulo</h2>
-    <img src="data/angulo.png" alt="Galletas Ángulo">
-    <div class="price">USD $1.50</div>
-    <p class="small">
-      Donación obligatoria 😂 por PayPal.
-      <br>
-      En moneda local puede variar por comisiones.
-    </p>
+  <div class="card summary">
+    <h2>Resumen</h2>
+
+    <div class="row">
+      <div class="label">Precio</div>
+      <div class="value price">USD $1.50</div>
+    </div>
+
+    <div class="row">
+      <div class="label">Donación</div>
+      <div class="value">Obligatoria 😂</div>
+    </div>
+
+    <div class="row">
+      <div class="label">Fecha</div>
+      <div class="value">Por cuadrar</div>
+    </div>
+
+    <div class="row">
+      <div class="label">Pago</div>
+      <div class="value">PayPal / moneda local</div>
+    </div>
+
+    <div class="row">
+      <div class="label">Contacto</div>
+      <div class="value">WhatsApp</div>
+    </div>
 
     <a class="btn paypal" href="https://paypal.me/asallamsensei" target="_blank">
       Pagar por PayPal
     </a>
-  </div>
 
-  <div class="card">
-    <h2>Inscripción</h2>
-
-    <input id="nombre" type="text" placeholder="Tu nombre">
-    <input id="pais" type="text" placeholder="País">
-    <input id="correo" type="email" placeholder="Correo">
-
-    <select id="pago">
-      <option value="">Forma de pago</option>
-      <option>PayPal</option>
-      <option>Peso mexicano</option>
-      <option>Soles</option>
-      <option>Peso colombiano</option>
-    </select>
-
-    <textarea id="mensaje" placeholder="Mensaje opcional"></textarea>
-
-    <a class="btn wa" href="#" onclick="inscribirme()">
+    <a class="btn wa" id="waInscripcion" href="https://wa.me/##########" target="_blank">
       Inscribirme por WhatsApp
-    </a>
-
-    <p class="small">
-      Fecha: por cuadrar.
-    </p>
-  </div>
-
-  <div class="card">
-    <h2>Contacto</h2>
-
-    <a class="btn wa" href="https://wa.me/##########" target="_blank">
-      WhatsApp Asallam
     </a>
 
     <a class="btn wa" href="https://wa.me/##########" target="_blank">
       WhatsApp Tomoe
     </a>
+
+    <p class="note">
+      En moneda local puede variar por comisiones y costos extras más allá de nuestro control.
+    </p>
   </div>
 
   <footer>
@@ -204,32 +327,15 @@ const publicidades = [
   "data/publicidad2.png"
 ];
 
-document.getElementById("publicidad").src =
-  publicidades[Math.floor(Math.random() * publicidades.length)];
+const escogida = publicidades[Math.floor(Math.random() * publicidades.length)];
+document.getElementById("publicidad").src = escogida;
 
-function inscribirme(){
-  const nombre = document.getElementById("nombre").value.trim();
-  const pais = document.getElementById("pais").value.trim();
-  const correo = document.getElementById("correo").value.trim();
-  const pago = document.getElementById("pago").value;
-  const mensaje = document.getElementById("mensaje").value.trim();
+const mensaje = encodeURIComponent(
+  "Hola, quiero inscribirme a Japonés para Cerebros Fritos 🧠✨\n\nVengo desde cerebrosfritos.com"
+);
 
-  const texto =
-`Hola, quiero inscribirme a Japonés para Cerebros Fritos.
-
-Nombre: ${nombre || "No indicado"}
-País: ${pais || "No indicado"}
-Correo: ${correo || "No indicado"}
-Forma de pago: ${pago || "No indicada"}
-Mensaje: ${mensaje || "Sin mensaje"}
-
-Vengo desde cerebrosfritos.com`;
-
-  const numeroWhatsApp = "##########";
-  const url = "https://wa.me/" + numeroWhatsApp + "?text=" + encodeURIComponent(texto);
-
-  window.open(url, "_blank");
-}
+document.getElementById("waInscripcion").href =
+  "https://wa.me/##########?text=" + mensaje;
 </script>
 
 </body>
