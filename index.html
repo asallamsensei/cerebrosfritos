@@ -145,11 +145,18 @@ h1{
   text-shadow:0 0 12px rgba(220,38,38,.35);
 }
 
+.btn-group{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top:14px;
+}
+  
 .btn{
-  display:block;
   width:fit-content;
   padding:14px 24px;
-  margin:14px auto 0;
+  margin:0;
   border-radius:14px;
   color:white;
   text-decoration:none;
@@ -263,17 +270,21 @@ footer{
       Pagar por PayPal
     </a>
 
-    <a class="btn wa"
-       href="https://wa.me/573217876009?text=Hola,%20quiero%20inscribirme%20a%20Japon%C3%A9s%20para%20Cerebros%20Fritos"
-       target="_blank">
-       WhatsApp Colombia 🇨🇴
-    </a>
+    <div class="btn-group">
     
-    <a class="btn wa"
-       href="https://wa.me/5215529411954?text=Hola,%20quiero%20inscribirme%20a%20Japon%C3%A9s%20para%20Cerebros%20Fritos"
-       target="_blank">
-       WhatsApp México 🇲🇽
-    </a>
+      <a class="btn wa"
+         href="https://wa.me/573217876009"
+         target="_blank">
+         🇨🇴 Asallam
+      </a>
+    
+      <a class="btn wa"
+         href="https://wa.me/5215529411954"
+         target="_blank">
+         🇲🇽 Tomoe
+      </a>
+    
+    </div>
 
     <p class="note">
       En moneda local puede variar por comisiones y costos extras más allá de nuestro control.
