@@ -77,18 +77,18 @@ h1{
   display:flex;
   align-items:center;
   justify-content:center;
-  min-height:430px;
+  height:430px;
 }
 
 .image-card img{
   width:100%;
-  height:auto;
+  height:100%;
   max-height:500px;
   object-fit:contain;
   display:block;
   border-radius:14px;
 }
-
+  
 .cookie-title{
   margin:0 0 12px;
   font-size:clamp(17px,2.4vw,23px);
@@ -188,12 +188,12 @@ footer{
   }
 
   .image-card{
-    min-height:auto;
+    height:auto;
   }
 
   .image-card img,
   .cookie-card img{
-    max-height:none;
+    max-height:80vh;
     height:auto;
   }
 
