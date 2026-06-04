@@ -6,7 +6,7 @@
 <title>Japonés para Cerebros Fritos</title>
 
 <script>
-const numeroPublicidad = Math.random() < 0.5 ? 1 : 2;
+const numerocurso = Math.random() < 0.5 ? 1 : 2;
 </script>
 
 <style>
@@ -224,7 +224,7 @@ footer{
   <div class="main-grid">
 
     <div class="card image-card">
-      <img id="publicidad" alt="Japonés para Cerebros Fritos">
+      <img id="curso" alt="Japonés para Cerebros Fritos">
     </div>
 
     <div class="card cookie-card">
@@ -285,11 +285,11 @@ footer{
 </div>
 
 <script>
-const ruta = `data/publicidad${numeroPublicidad}.jpg`;
+const ruta = `data/curso${numerocurso}.jpg`;
 
 console.log("Cargando:", ruta);
 
-const img = document.getElementById("publicidad");
+const img = document.getElementById("curso");
 
 img.onload = () => console.log("Imagen cargada");
 img.onerror = () => console.log("ERROR cargando imagen");
