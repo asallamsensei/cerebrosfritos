@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japonés para Cerebros Fritos</title>
+
+<style>
+:root{
+  --bg1:#070712;
+  --bg2:#17132b;
+  --card:rgba(255,255,255,.075);
+  --card2:rgba(255,255,255,.11);
+  --line:rgba(255,255,255,.16);
+  --text:#fff;
+  --muted:#d7d4ff;
+  --accent:#ff7a18;
+  --accent2:#ff3cac;
+  --accent3:#7d5cff;
+  --green:#25d366;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:var(--text);
+  background:
+    radial-gradient(circle at 15% 10%,rgba(255,122,24,.22),transparent 28%),
+    radial-gradient(circle at 85% 5%,rgba(255,60,172,.18),transparent 30%),
+    radial-gradient(circle at 50% 80%,rgba(125,92,255,.18),transparent 35%),
+    linear-gradient(160deg,var(--bg1),var(--bg2));
+  min-height:100vh;
+  overflow-x:hidden;
+}
+
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background-image:
+    linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:42px 42px;
+  mask-image:linear-gradient(to bottom,black,transparent 85%);
+}
+
+.wrap{
+  width:min(1100px,100%);
+  margin:auto;
+  padding:28px 16px 60px;
+  position:relative;
+  z-index:1;
+}
+
+.hero{
+  text-align:center;
+  padding:26px 0 14px;
+}
+
+.badge{
+  display:inline-block;
+  padding:8px 14px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:rgba(255,255,255,.07);
+  font-weight:800;
+  color:#ffe7b3;
+  box-shadow:0 0 22px rgba(255,122,24,.18);
+}
+
+h1{
+  font-size:clamp(34px,7vw,72px);
+  line-height:1;
+  margin:20px 0 12px;
+  text-shadow:
+    0 0 14px rgba(255,122,24,.35),
+    0 0 28px rgba(255,60,172,.22);
+}
+
+.subtitle{
+  max-width:760px;
+  margin:0 auto;
+  font-size:clamp(18px,3vw,25px);
+  font-weight:800;
+  color:var(--muted);
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  gap:18px;
+  margin-top:24px;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:22px;
+  box-shadow:0 18px 45px rgba(0,0,0,.35);
+  backdrop-filter:blur(8px);
+}
+
+.ad img,
+.cookie img{
+  width:100%;
+  display:block;
+  border-radius:18px;
+  border:1px solid var(--line);
+  box-shadow:0 12px 35px rgba(0,0,0,.35);
+}
+
+.price{
+  font-size:38px;
+  font-weight:900;
+  margin:8px 0;
+  color:#fff2b8;
+}
+
+.small{
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.45;
+}
+
+.btn{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  width:100%;
+  margin-top:14px;
+  padding:15px 18px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,.2);
+  color:white;
+  text-decoration:none;
+  font-weight:900;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  box-shadow:0 0 26px rgba(255,60,172,.25);
+  cursor:pointer;
+  font-size:16px;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
+}
+
+.btn.paypal{
+  background:linear-gradient(135deg,#0070ba,#003087);
+}
+
+.btn.wa{
+  background:linear-gradient(135deg,#25d366,#128c7e);
+}
+
+h2{
+  margin:0 0 14px;
+  font-size:26px;
+}
+
+ul{
+  margin:0;
+  padding-left:20px;
+}
+
+li{
+  margin:8px 0;
+}
+
+.form-grid{
+  display:grid;
+  gap:12px;
+}
+
+input, textarea, select{
+  width:100%;
+  padding:13px 14px;
+  border-radius:14px;
+  border:1px solid var(--line);
+  background:rgba(0,0,0,.22);
+  color:white;
+  font:inherit;
+}
+
+textarea{
+  min-height:90px;
+  resize:vertical;
+}
+
+.note{
+  padding:12px 14px;
+  border-radius:16px;
+  background:rgba(255,255,255,.07);
+  border:1px solid var(--line);
+  color:var(--muted);
+  font-weight:700;
+}
+
+.phrases{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+}
+
+.phrase{
+  padding:12px;
+  border-radius:14px;
+  background:rgba(255,255,255,.07);
+  border:1px solid var(--line);
+}
+
+.jp{
+  font-size:20px;
+  font-weight:900;
+}
+
+.es{
+  color:var(--muted);
+  font-size:14px;
+  margin-top:4px;
+}
+
+.cookie{
+  text-align:center;
+}
+
+.cookie p{
+  color:var(--muted);
+  font-weight:800;
+}
+
+footer{
+  margin-top:24px;
+  text-align:center;
+  color:var(--muted);
+  font-size:13px;
+}
+
+@media(max-width:850px){
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .phrases{
+    grid-template-columns:1fr;
+  }
+
+  .card{
+    padding:18px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+  <section class="hero">
+    <div class="badge">Masterclass de supervivencia japonesa</div>
+    <h1>🧠 Japonés para Cerebros Fritos 🍳</h1>
+    <p class="subtitle">
+      Aprende japonés útil para sobrevivir en Japón aunque tu cerebro ya esté en modo ahorro de energía.
+    </p>
+  </section>
+
+  <div class="grid">
+
+    <div class="card ad">
+      <img id="mainAd" src="data/publicidad1.png" alt="Publicidad Japonés para Cerebros Fritos">
+    </div>
+
+    <div class="card">
+      <h2>Donación obligatoria 😂</h2>
+      <div class="price">USD $1.50</div>
+
+      <p class="small">
+        Por PayPal. En moneda local puede variar por comisiones y costos extras más allá de nuestro control.
+      </p>
+
+      <a class="btn paypal" href="https://paypal.me/asallamsensei" target="_blank">
+        Pagar por PayPal
+      </a>
+
+      <div class="note" style="margin-top:14px;">
+        También aceptamos peso mexicano, soles y peso colombiano. Para pagar en moneda local, escríbenos por WhatsApp.
+      </div>
+
+      <p class="small">
+        <strong>Fecha:</strong> por cuadrar.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="grid">
+
+    <div class="card">
+      <h2>¿Qué vas a aprender?</h2>
+      <ul>
+        <li>Cómo decir que no entiendes nada sin morir socialmente.</li>
+        <li>Cómo pedir que te hablen más despacio.</li>
+        <li>Cómo sobrevivir en konbinis, restaurantes y situaciones reales.</li>
+        <li>Frases para cuando tu cerebro se frió en tiempo real.</li>
+        <li>Japonés mínimo viable para seguir funcionando.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Frases modo emergencia</h2>
+
+      <div class="phrases">
+        <div class="phrase">
+          <div class="jp">わかりません。</div>
+          <div class="es">No entiendo.</div>
+        </div>
+
+        <div class="phrase">
+          <div class="jp">ゆっくりお願いします。</div>
+          <div class="es">Más despacio, por favor.</div>
+        </div>
+
+        <div class="phrase">
+          <div class="jp">日本語が話せません。</div>
+          <div class="es">No hablo japonés.</div>
+        </div>
+
+        <div class="phrase">
+          <div class="jp">もう無理です。</div>
+          <div class="es">Ya no puedo más.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="grid">
+
+    <div class="card">
+      <h2>Formulario de inscripción</h2>
+
+      <div class="form-grid">
+        <input id="nombre" type="text" placeholder="Tu nombre">
+        <input id="pais" type="text" placeholder="País">
+        <input id="correo" type="email" placeholder="Correo">
+        <select id="pago">
+          <option value="">Forma de pago preferida</option>
+          <option>PayPal</option>
+          <option>Peso mexicano</option>
+          <option>Soles</option>
+          <option>Peso colombiano</option>
+        </select>
+        <textarea id="mensaje" placeholder="Mensaje opcional"></textarea>
+
+        <button class="btn wa" onclick="inscribirme()">
+          Inscribirme por WhatsApp
+        </button>
+      </div>
+    </div>
+
+    <div class="card cookie">
+      <h2>Precio antiinflación espiritual</h2>
+      <img src="data/angulo.png" alt="Galletas Ángulo">
+      <p>
+        El mismo precio de las Galletas Ángulo: te entran por la boca y te salen por el...
+      </p>
+    </div>
+
+  </div>
+
+  <div class="card" style="margin-top:18px;">
+    <h2>Contacto</h2>
+
+    <a class="btn wa" href="https://wa.me/##########" target="_blank">
+      WhatsApp Asallam: ##########
+    </a>
+
+    <a class="btn wa" href="https://wa.me/##########" target="_blank">
+      WhatsApp Tomoe: ##########
+    </a>
+  </div>
+
+  <footer>
+    © Cerebros Fritos · Japonés para gente que ya no procesa.
+  </footer>
+
+</div>
+
+<script>
+const ads = [
+  "data/publicidad1.png",
+  "data/publicidad2.png"
+];
+
+document.getElementById("mainAd").src = ads[Math.floor(Math.random() * ads.length)];
+
+function inscribirme(){
+  const nombre = document.getElementById("nombre").value.trim();
+  const pais = document.getElementById("pais").value.trim();
+  const correo = document.getElementById("correo").value.trim();
+  const pago = document.getElementById("pago").value;
+  const mensaje = document.getElementById("mensaje").value.trim();
+
+  const texto =
+`Hola, quiero inscribirme a Japonés para Cerebros Fritos 🧠🍳
+
+Nombre: ${nombre || "No indicado"}
+País: ${pais || "No indicado"}
+Correo: ${correo || "No indicado"}
+Forma de pago: ${pago || "No indicada"}
+Mensaje: ${mensaje || "Sin mensaje"}
+
+Vengo desde cerebrosfritos.com`;
+
+  const numeroWhatsApp = "##########";
+  const url = "https://wa.me/" + numeroWhatsApp + "?text=" + encodeURIComponent(texto);
+
+  window.open(url, "_blank");
+}
+</script>
+
+</body>
+</html>
