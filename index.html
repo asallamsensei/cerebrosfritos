@@ -220,13 +220,11 @@ footer{
   <div class="main-grid">
 
     <div class="card image-card">
-      <script>
-        const publicidad = Math.random() < 0.5
-          ? "data/publicidad1.png"
-          : "data/publicidad2.png";
-
-        document.write('<img src="' + publicidad + '" alt="Japonés para Cerebros Fritos">');
-      </script>
+      <img
+        src="data/publicidad1.png"
+        alt="Japonés para Cerebros Fritos"
+        id="publicidad"
+      >
     </div>
 
     <div class="card cookie-card">
@@ -285,6 +283,15 @@ footer{
   </footer>
 
 </div>
+
+<script>
+const publicidad =
+  Math.random() < 0.5
+    ? "data/publicidad1.png"
+    : "data/publicidad2.png";
+
+document.getElementById("publicidad").src = publicidad;
+</script>
 
 </body>
 </html>
