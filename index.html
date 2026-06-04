@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Japonés para Cerebros Fritos</title>
 
+<script>
+const numeroPublicidad = Math.random() < 0.5 ? 1 : 2;
+</script>
+
 <style>
 *{box-sizing:border-box}
 
@@ -220,11 +224,7 @@ footer{
   <div class="main-grid">
 
     <div class="card image-card">
-      <img
-        src="data/publicidad1.png"
-        alt="Japonés para Cerebros Fritos"
-        id="publicidad"
-      >
+      <img id="publicidad" alt="Japonés para Cerebros Fritos">
     </div>
 
     <div class="card cookie-card">
@@ -285,12 +285,7 @@ footer{
 </div>
 
 <script>
-const publicidad =
-  Math.random() < 0.5
-    ? "data/publicidad1.png"
-    : "data/publicidad2.png";
-
-document.getElementById("publicidad").src = publicidad;
+document.getElementById("publicidad").src = `data/publicidad${numeroPublicidad}.png`;
 </script>
 
 </body>
