@@ -16,10 +16,10 @@ body{
   min-height:100vh;
   padding:24px 14px 50px;
   background:
-    radial-gradient(circle at 18% 10%, rgba(255,122,24,.24), transparent 26%),
-    radial-gradient(circle at 80% 12%, rgba(255,60,172,.20), transparent 30%),
-    radial-gradient(circle at 50% 90%, rgba(125,92,255,.18), transparent 34%),
-    linear-gradient(160deg,#070712,#17132b 55%,#050510);
+    radial-gradient(circle at 18% 10%, rgba(220,38,38,.24), transparent 28%),
+    radial-gradient(circle at 82% 12%, rgba(124,58,237,.24), transparent 32%),
+    radial-gradient(circle at 50% 90%, rgba(37,99,235,.18), transparent 34%),
+    linear-gradient(160deg,#08040f,#1b102e 55%,#050510);
 }
 
 .wrap{
@@ -32,22 +32,23 @@ h1{
   font-size:clamp(28px,5vw,44px);
   line-height:1.12;
   margin:16px 0 24px;
-  padding:12px 18px;
+  padding:12px 22px;
   border-radius:22px;
   background:rgba(255,255,255,.06);
   border:1px solid rgba(255,255,255,.16);
   box-shadow:
-    0 0 18px rgba(255,122,24,.24),
-    0 0 34px rgba(255,60,172,.16);
+    0 0 18px rgba(220,38,38,.26),
+    0 0 34px rgba(124,58,237,.20);
   text-shadow:
-    0 0 10px rgba(255,122,24,.55),
-    0 0 20px rgba(255,60,172,.35);
+    0 0 10px rgba(220,38,38,.55),
+    0 0 20px rgba(37,99,235,.35);
 }
 
 .main-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:18px;
+  align-items:stretch;
 }
 
 .card{
@@ -62,12 +63,23 @@ h1{
 
 .card:hover{
   transform:translateY(-4px);
-  border-color:#ff7a18;
+  border-color:#dc2626;
+  box-shadow:
+    0 16px 38px rgba(0,0,0,.45),
+    0 0 22px rgba(124,58,237,.22);
 }
 
-.card img{
+.image-card{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:430px;
+}
+
+.image-card img{
   width:100%;
-  max-height:330px;
+  height:100%;
+  max-height:500px;
   object-fit:contain;
   display:block;
   border-radius:14px;
@@ -75,27 +87,35 @@ h1{
 
 .cookie-title{
   margin:0 0 12px;
-  font-size:clamp(20px,3vw,28px);
-  color:#ffd166;
-  text-shadow:0 0 14px rgba(255,209,102,.25);
+  font-size:clamp(17px,2.4vw,23px);
+  line-height:1.15;
+  color:#ff6b6b;
+  text-shadow:
+    0 0 10px rgba(220,38,38,.45),
+    0 0 18px rgba(124,58,237,.25);
+}
+
+.cookie-card img{
+  width:100%;
+  max-height:360px;
+  object-fit:contain;
+  display:block;
+  border-radius:14px;
+  margin:auto;
 }
 
 .summary{
+  display:inline-block;
+  width:auto;
+  min-width:min(720px,100%);
   margin-top:18px;
   text-align:left;
-}
-
-.summary h2{
-  text-align:center;
-  margin:0 0 16px;
-  font-size:28px;
-  color:#fff2b8;
 }
 
 .row{
   display:flex;
   justify-content:space-between;
-  gap:16px;
+  gap:22px;
   padding:12px 0;
   border-bottom:1px solid rgba(255,255,255,.12);
   font-size:17px;
@@ -106,7 +126,7 @@ h1{
 }
 
 .label{
-  color:#d7d4ff;
+  color:#c7d2fe;
   font-weight:bold;
 }
 
@@ -116,8 +136,9 @@ h1{
 }
 
 .price{
-  color:#ffd166;
+  color:#ff6b6b;
   font-size:22px;
+  text-shadow:0 0 12px rgba(220,38,38,.35);
 }
 
 .btn{
@@ -134,16 +155,18 @@ h1{
 }
 
 .paypal{
-  background:linear-gradient(135deg,#0070ba,#003087);
+  background:linear-gradient(135deg,#2563eb,#1e1b4b);
+  box-shadow:0 0 20px rgba(37,99,235,.25);
 }
 
 .wa{
-  background:linear-gradient(135deg,#25d366,#128c7e);
+  background:linear-gradient(135deg,#dc2626,#7c3aed);
+  box-shadow:0 0 20px rgba(124,58,237,.25);
 }
 
 .note{
   margin-top:12px;
-  color:#d7d4ff;
+  color:#c7d2fe;
   font-size:14px;
   line-height:1.45;
   text-align:center;
@@ -158,6 +181,22 @@ footer{
 @media(max-width:800px){
   .main-grid{
     grid-template-columns:1fr;
+  }
+
+  .image-card{
+    min-height:auto;
+  }
+
+  .image-card img,
+  .cookie-card img{
+    max-height:none;
+    height:auto;
+  }
+
+  .summary{
+    display:block;
+    width:100%;
+    min-width:0;
   }
 
   .row{
@@ -180,7 +219,7 @@ footer{
 
   <div class="main-grid">
 
-    <div class="card">
+    <div class="card image-card">
       <script>
         const publicidad = Math.random() < 0.5
           ? "data/publicidad1.png"
@@ -190,7 +229,7 @@ footer{
       </script>
     </div>
 
-    <div class="card">
+    <div class="card cookie-card">
       <h2 class="cookie-title">Al mismo precio de las Galletas Ángulo</h2>
       <img src="data/angulo.png" alt="Galletas Ángulo">
     </div>
@@ -198,7 +237,6 @@ footer{
   </div>
 
   <div class="card summary">
-    <h2>Resumen</h2>
 
     <div class="row">
       <div class="label">Precio</div>
