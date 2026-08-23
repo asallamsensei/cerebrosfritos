@@ -1,0 +1,1178 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Constitución Política y función pública",
+    "pregunta": "Un empleo de carrera administrativa queda definitivamente vacante. Como regla constitucional, el criterio central para su provisión definitiva debe ser:",
+    "opciones": {
+      "a": "Antigüedad en la entidad.",
+      "b": "Recomendación del nominador.",
+      "c": "Mérito demostrado mediante el sistema de carrera.",
+      "d": "Residencia en el lugar del empleo."
+    },
+    "respuesta": "c",
+    "explicacion": "La carrera administrativa se fundamenta constitucionalmente en el mérito; la Ley 909 desarrolla ese principio."
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Constitución Política y función pública",
+    "pregunta": "¿Cuál conjunto corresponde mejor a principios constitucionales de la función administrativa?",
+    "opciones": {
+      "a": "Rentabilidad, autonomía privada y oportunidad comercial.",
+      "b": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
+      "c": "Confidencialidad, discrecionalidad y jerarquía exclusivamente.",
+      "d": "Productividad, competencia y libertad contractual."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 209 constitucional establece los principios fundamentales de la función administrativa."
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Constitución Política y función pública",
+    "pregunta": "Una persona vinculada a una entidad pública ejerce funciones en los términos establecidos por la Constitución, la ley y el reglamento. La disposición constitucional sobre servidores públicos busca, entre otras cosas, subrayar que:",
+    "opciones": {
+      "a": "El servidor puede ejercer cualquier competencia que considere conveniente.",
+      "b": "La función pública está sometida al ordenamiento jurídico.",
+      "c": "Todos los servidores son empleados de libre nombramiento.",
+      "d": "Los contratistas adquieren automáticamente derechos de carrera."
+    },
+    "respuesta": "b",
+    "explicacion": "El servidor ejerce atribuciones dentro del marco constitucional, legal y reglamentario; no existe competencia pública ilimitada."
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Constitución Política y función pública",
+    "pregunta": "El derecho colectivo a gozar de un ambiente sano está reconocido principalmente en:",
+    "opciones": {
+      "a": "El régimen presupuestal.",
+      "b": "El capítulo ambiental de la Constitución.",
+      "c": "El Código de Comercio.",
+      "d": "La legislación electoral exclusivamente."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 79 reconoce el derecho a gozar de un ambiente sano."
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Constitución Política y función pública",
+    "pregunta": "De acuerdo con la Constitución, la planificación estatal del manejo y aprovechamiento de los recursos naturales debe orientarse, entre otros fines, a:",
+    "opciones": {
+      "a": "Maximizar su explotación sin restricciones.",
+      "b": "Garantizar desarrollo sostenible, conservación, restauración o sustitución.",
+      "c": "Eliminar toda actividad económica que utilice recursos.",
+      "d": "Transferir automáticamente todas las decisiones a las entidades territoriales."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 80 vincula planificación de recursos con desarrollo sostenible, conservación, restauración o sustitución."
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Carrera administrativa y CNSC",
+    "pregunta": "¿Qué institución tiene un papel constitucional y legal central en la administración y vigilancia del sistema general de carrera administrativa?",
+    "opciones": {
+      "a": "ANLA.",
+      "b": "CNSC.",
+      "c": "Contraloría General exclusivamente.",
+      "d": "Ministerio de Hacienda."
+    },
+    "respuesta": "b",
+    "explicacion": "La CNSC es pieza central del régimen de carrera administrativa."
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Carrera administrativa y CNSC",
+    "pregunta": "Después de las modificaciones introducidas al régimen de carrera, los concursos para la provisión definitiva pueden desarrollarse, según corresponda, mediante:",
+    "opciones": {
+      "a": "Solo concursos cerrados.",
+      "b": "Procesos abiertos y de ascenso.",
+      "c": "Contratación directa.",
+      "d": "Designación rotatoria."
+    },
+    "respuesta": "b",
+    "explicacion": "La Ley 1960 modificó la Ley 909 y contempla procesos abiertos y de ascenso."
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "CPACA y derecho de petición",
+    "pregunta": "Una entidad decide no publicar una decisión administrativa que legalmente debe hacerse pública, alegando que divulgarla “genera demasiadas preguntas”. El principio más directamente comprometido es:",
+    "opciones": {
+      "a": "Publicidad.",
+      "b": "Subsidiariedad penal.",
+      "c": "Libertad contractual.",
+      "d": "Autonomía universitaria."
+    },
+    "respuesta": "a",
+    "explicacion": "Ocultar injustificadamente una actuación que debe ser pública compromete especialmente el principio de publicidad."
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "CPACA y derecho de petición",
+    "pregunta": "En una actuación administrativa sancionatoria, la autoridad niega al investigado toda posibilidad de conocer los cargos y controvertir las pruebas. El defecto principal es:",
+    "opciones": {
+      "a": "Falta de rentabilidad.",
+      "b": "Violación del debido proceso.",
+      "c": "Falta de competencia ciudadana.",
+      "d": "Violación de reserva bancaria."
+    },
+    "respuesta": "b",
+    "explicacion": "Conocer cargos, ejercer defensa y controvertir prueba son manifestaciones del debido proceso administrativo."
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "CPACA y derecho de petición",
+    "pregunta": "Un acto administrativo que no ha sido suspendido ni anulado:",
+    "opciones": {
+      "a": "Carece siempre de efecto hasta que un juez lo ratifique.",
+      "b": "Se presume legal en los términos del CPACA.",
+      "c": "Solo es válido si el destinatario está de acuerdo.",
+      "d": "Se convierte en ley."
+    },
+    "respuesta": "b",
+    "explicacion": "Los actos administrativos gozan de presunción de legalidad mientras no sean anulados, en los términos del CPACA."
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "CPACA y derecho de petición",
+    "pregunta": "Como regla general del derecho de petición, una petición ordinaria debe resolverse dentro de:",
+    "opciones": {
+      "a": "Cinco días.",
+      "b": "Diez días.",
+      "c": "Quince días.",
+      "d": "Treinta días."
+    },
+    "respuesta": "c",
+    "explicacion": "Regla general: quince días para resolver peticiones."
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "CPACA y derecho de petición",
+    "pregunta": "Una petición de información y copias, salvo excepción legal, tiene un término general de:",
+    "opciones": {
+      "a": "Diez días.",
+      "b": "Quince días.",
+      "c": "Treinta días.",
+      "d": "Dos meses."
+    },
+    "respuesta": "a",
+    "explicacion": "Peticiones de documentos e información: regla general de diez días."
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "CPACA y derecho de petición",
+    "pregunta": "Una consulta elevada a una autoridad sobre materias a su cargo tiene, como regla general, un término de:",
+    "opciones": {
+      "a": "Tres días.",
+      "b": "Diez días.",
+      "c": "Quince días.",
+      "d": "Treinta días."
+    },
+    "respuesta": "d",
+    "explicacion": "Consultas a autoridades sobre materias a su cargo: regla general de treinta días."
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "MIPG y competencias del servicio público",
+    "pregunta": "El propósito más coherente con MIPG es:",
+    "opciones": {
+      "a": "Gestionar cada sistema institucional sin articulación.",
+      "b": "Integrar dimensiones de gestión orientadas a resultados y generación de valor público.",
+      "c": "Reemplazar toda la legislación administrativa.",
+      "d": "Convertir los planes institucionales en normas constitucionales."
+    },
+    "respuesta": "b",
+    "explicacion": "MIPG integra gestión institucional orientada al desempeño y valor público."
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "MIPG y competencias del servicio público",
+    "pregunta": "¿Cuál de las siguientes es una competencia que tiene sentido dentro del marco comportamental común del servicio público?",
+    "opciones": {
+      "a": "Manipular información para evitar críticas.",
+      "b": "Orientación al usuario y al ciudadano.",
+      "c": "Maximizar beneficios personales.",
+      "d": "Evitar aprender nuevos procedimientos."
+    },
+    "respuesta": "b",
+    "explicacion": "El Decreto 815 regula competencias comportamentales comunes del servicio público, incluida la orientación al usuario/ciudadano."
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Concurso de méritos, SIMO y OPEC",
+    "pregunta": "El propósito fundamental de un concurso de méritos es seleccionar:",
+    "opciones": {
+      "a": "A quien tenga mejores contactos institucionales.",
+      "b": "A quien demuestre el mérito y las competencias exigidas por el empleo.",
+      "c": "Necesariamente al aspirante de mayor edad.",
+      "d": "Al contratista con más años en la entidad, sin prueba."
+    },
+    "respuesta": "b",
+    "explicacion": "El mérito y las competencias del empleo son la lógica del sistema de selección."
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Concurso de méritos, SIMO y OPEC",
+    "pregunta": "Para determinar qué debe estudiar un aspirante a un empleo ANLA concreto, el documento individual más importante es:",
+    "opciones": {
+      "a": "Una publicación informal en redes sociales.",
+      "b": "La OPEC del empleo y sus funciones/conocimientos asociados.",
+      "c": "El temario de una convocatoria de otra entidad.",
+      "d": "Un examen universitario genérico."
+    },
+    "respuesta": "b",
+    "explicacion": "La prueba funcional evalúa capacidades en el contexto del empleo; por eso la OPEC y el manual funcional son la base de preparación específica."
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Concurso de méritos, SIMO y OPEC",
+    "pregunta": "En el proceso ANLA 2671, un aspirante podía inscribirse simultáneamente a varios empleos del mismo proceso para luego escoger después de presentar las pruebas.",
+    "opciones": {
+      "a": "Sí, sin límite.",
+      "b": "Sí, máximo cinco.",
+      "c": "No; la inscripción del proceso se formaliza respecto del empleo elegido conforme a sus reglas.",
+      "d": "Solo si los cargos tienen el mismo grado."
+    },
+    "respuesta": "c",
+    "explicacion": "Las reglas de inscripción del proceso se articulan alrededor del empleo concreto escogido en SIMO, no de múltiples postulaciones simultáneas dentro del mismo proceso."
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "ANLA: naturaleza y funciones",
+    "pregunta": "La ANLA fue creada mediante:",
+    "opciones": {
+      "a": "Ley 909 de 2004.",
+      "b": "Decreto-Ley 3573 de 2011.",
+      "c": "Decreto 1083 de 2015.",
+      "d": "Ley 1755 de 2015."
+    },
+    "respuesta": "b",
+    "explicacion": "La ANLA fue creada por el Decreto-Ley 3573 de 2011."
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "ANLA: naturaleza y funciones",
+    "pregunta": "¿Cuál enunciado describe mejor el papel institucional de ANLA?",
+    "opciones": {
+      "a": "Administrar exclusivamente parques nacionales.",
+      "b": "Ejercer las funciones nacionales que le han sido asignadas en materia de licencias, permisos y trámites ambientales y verificar obligaciones dentro de su competencia.",
+      "c": "Expedir toda política ambiental nacional en reemplazo del Ministerio.",
+      "d": "Ejercer funciones judiciales ambientales."
+    },
+    "respuesta": "b",
+    "explicacion": "Su objeto y funciones se concentran en licencias, permisos, trámites y cumplimiento ambiental dentro de su competencia."
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "ANLA: naturaleza y funciones",
+    "pregunta": "Entre las funciones expresamente asignadas a ANLA está:",
+    "opciones": {
+      "a": "Otorgar o negar licencias, permisos y trámites ambientales de su competencia.",
+      "b": "Reformar la Constitución.",
+      "c": "Juzgar delitos ambientales.",
+      "d": "Aprobar el presupuesto de todas las CAR."
+    },
+    "respuesta": "a",
+    "explicacion": "Es una de las funciones expresamente señaladas en el Decreto 3573."
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Marco ambiental, SINA y principios",
+    "pregunta": "La ley que organizó el Sistema Nacional Ambiental —SINA— es:",
+    "opciones": {
+      "a": "Ley 99 de 1993.",
+      "b": "Ley 80 de 1993.",
+      "c": "Ley 909 de 2004.",
+      "d": "Ley 1437 de 2011."
+    },
+    "respuesta": "a",
+    "explicacion": "La Ley 99 de 1993 organizó el SINA."
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Marco ambiental, SINA y principios",
+    "pregunta": "Ante peligro de daño ambiental grave e irreversible y ausencia de certeza científica absoluta, la postura más coherente con el principio de precaución es:",
+    "opciones": {
+      "a": "Abstenerse siempre de actuar hasta lograr certeza de 100 %.",
+      "b": "Considerar medidas eficaces para prevenir la degradación ambiental pese a la incertidumbre.",
+      "c": "Presumir que no existe riesgo.",
+      "d": "Delegar la decisión al promotor del proyecto."
+    },
+    "respuesta": "b",
+    "explicacion": "El principio de precaución permite adoptar medidas eficaces frente al riesgo grave o irreversible pese a falta de certeza científica absoluta."
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Marco ambiental, SINA y principios",
+    "pregunta": "Desarrollo sostenible supone:",
+    "opciones": {
+      "a": "Que el crecimiento económico desplaza necesariamente toda consideración ambiental.",
+      "b": "Compatibilizar aprovechamiento y desarrollo con conservación y necesidades presentes y futuras.",
+      "c": "Prohibir cualquier uso de recursos naturales.",
+      "d": "Tratar los impactos ambientales solo después de que ocurran."
+    },
+    "respuesta": "b",
+    "explicacion": "El desarrollo sostenible exige una relación compatible entre desarrollo y protección del patrimonio ambiental, no la supremacía absoluta de uno de los extremos."
+  },
+  {
+    "id": 25,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "La licencia ambiental debe entenderse principalmente como:",
+    "opciones": {
+      "a": "Una autorización privada entre empresas.",
+      "b": "Un instrumento administrativo ambiental sujeto a condiciones, obligaciones y seguimiento.",
+      "c": "Una sentencia judicial.",
+      "d": "Una certificación tributaria."
+    },
+    "respuesta": "b",
+    "explicacion": "La licencia es un instrumento administrativo ambiental sujeto a condiciones y control."
+  },
+  {
+    "id": 26,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "En la evaluación ambiental de un proyecto sujeto a licenciamiento, el Estudio de Impacto Ambiental es relevante porque:",
+    "opciones": {
+      "a": "Sustituye automáticamente la decisión de la autoridad.",
+      "b": "Aporta información para identificar, valorar y manejar impactos y sustentar la evaluación.",
+      "c": "Elimina la necesidad de seguimiento.",
+      "d": "Autoriza por sí mismo la ejecución del proyecto."
+    },
+    "respuesta": "b",
+    "explicacion": "El EIA aporta el soporte técnico para evaluar impactos y las medidas correspondientes; no sustituye la decisión de la autoridad."
+  },
+  {
+    "id": 27,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "El Diagnóstico Ambiental de Alternativas:",
+    "opciones": {
+      "a": "Es idéntico al acto administrativo que concede la licencia.",
+      "b": "Permite analizar alternativas cuando la regulación lo exige antes de la etapa correspondiente de licenciamiento.",
+      "c": "Es una sanción ambiental.",
+      "d": "Solo puede elaborarlo la autoridad después de ejecutar el proyecto."
+    },
+    "respuesta": "b",
+    "explicacion": "El DAA es un instrumento previo relacionado con el estudio de alternativas en los casos definidos reglamentariamente."
+  },
+  {
+    "id": 28,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "Ante un impacto que puede evitarse modificando la localización de una obra, la primera respuesta técnicamente más sólida es:",
+    "opciones": {
+      "a": "Compensar inmediatamente sin estudiar otras opciones.",
+      "b": "Evaluar una medida de prevención o evitación.",
+      "c": "Esperar a que ocurra el daño.",
+      "d": "Sustituir la licencia por una petición."
+    },
+    "respuesta": "b",
+    "explicacion": "Evitar el impacto es preferible conceptualmente a limitarse a compensar un daño que podía prevenirse."
+  },
+  {
+    "id": 29,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "Durante el seguimiento de un proyecto licenciado, la ANLA encuentra que el titular no ha realizado un monitoreo expresamente ordenado. La acción técnica inicial más apropiada es:",
+    "opciones": {
+      "a": "Ignorar la omisión si otros parámetros parecen adecuados.",
+      "b": "Documentar y verificar el incumplimiento y aplicar el procedimiento o medida que jurídicamente corresponda.",
+      "c": "Modificar informalmente la obligación.",
+      "d": "Eliminar el requerimiento del expediente."
+    },
+    "respuesta": "b",
+    "explicacion": "El seguimiento exige verificar obligaciones y dejar evidencia del eventual incumplimiento para que se adopte la actuación jurídicamente procedente."
+  },
+  {
+    "id": 30,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "Un proyecto requiere aprovechamiento de recursos naturales además de la autorización principal. El evaluador debe:",
+    "opciones": {
+      "a": "Ignorar esos usos porque una licencia solo analiza construcción.",
+      "b": "Verificar integralmente los permisos, autorizaciones o concesiones aplicables conforme al régimen ambiental.",
+      "c": "Remitir siempre el asunto a un juez penal.",
+      "d": "Dar por autorizado cualquier uso solicitado."
+    },
+    "respuesta": "b",
+    "explicacion": "El análisis ambiental debe integrar los instrumentos necesarios para el uso o afectación de recursos naturales conforme al Decreto 1076."
+  },
+  {
+    "id": 31,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "La captación de agua de una fuente para un uso sujeto a autorización se relaciona típicamente con:",
+    "opciones": {
+      "a": "Concesión de aguas.",
+      "b": "Licencia de conducción.",
+      "c": "Permiso electoral.",
+      "d": "Registro mercantil."
+    },
+    "respuesta": "a",
+    "explicacion": "La concesión es el instrumento típicamente asociado al aprovechamiento autorizado del recurso hídrico en los casos regulados."
+  },
+  {
+    "id": 32,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "Una descarga de aguas residuales a un cuerpo receptor debe analizarse, según corresponda, dentro del régimen de:",
+    "opciones": {
+      "a": "Vertimientos.",
+      "b": "Carrera administrativa.",
+      "c": "Contratación estatal exclusivamente.",
+      "d": "Catastro."
+    },
+    "respuesta": "a",
+    "explicacion": "La descarga de aguas residuales se ubica en el régimen de vertimientos."
+  },
+  {
+    "id": 33,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "La remoción o aprovechamiento de bosque natural, cuando jurídicamente procede, obliga a examinar el régimen de:",
+    "opciones": {
+      "a": "Aprovechamiento forestal.",
+      "b": "Carrera diplomática.",
+      "c": "Control fiscal.",
+      "d": "Habeas data exclusivamente."
+    },
+    "respuesta": "a",
+    "explicacion": "El uso o remoción de cobertura forestal regulada requiere analizar las reglas de aprovechamiento forestal aplicables."
+  },
+  {
+    "id": 34,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "La descarga de contaminantes a la atmósfera por una fuente que requiere autorización puede involucrar:",
+    "opciones": {
+      "a": "Permiso de emisiones atmosféricas.",
+      "b": "Permiso de conducción vehicular.",
+      "c": "Autorización electoral.",
+      "d": "Registro civil."
+    },
+    "respuesta": "a",
+    "explicacion": "Determinadas fuentes requieren permiso de emisiones atmosféricas conforme al régimen ambiental."
+  },
+  {
+    "id": 35,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "La participación ciudadana en decisiones ambientales:",
+    "opciones": {
+      "a": "Es incompatible con la evaluación técnica.",
+      "b": "Forma parte de la gobernanza ambiental y tiene mecanismos definidos legalmente.",
+      "c": "Sustituye siempre la competencia de la autoridad.",
+      "d": "Solo existe después de impuesta una sanción."
+    },
+    "respuesta": "b",
+    "explicacion": "La participación es parte del marco ambiental colombiano y de la garantía constitucional del ambiente sano."
+  },
+  {
+    "id": 36,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licenciamiento, permisos y evaluación ambiental",
+    "pregunta": "Un estudio presenta dos escenarios: el primero genera menor costo privado pero mayor pérdida de hábitat; el segundo cuesta más pero evita una zona ecológicamente sensible. La autoridad debe:",
+    "opciones": {
+      "a": "Escoger automáticamente el de menor costo económico.",
+      "b": "Evaluar integralmente impactos, restricciones, alternativas y criterios jurídicos/técnicos aplicables.",
+      "c": "Escoger mediante sorteo.",
+      "d": "Permitir que el solicitante sea la única autoridad decisora."
+    },
+    "respuesta": "b",
+    "explicacion": "La decisión ambiental no se reduce al costo privado; requiere valoración técnica y jurídica integral."
+  },
+  {
+    "id": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Procedimiento sancionatorio ambiental",
+    "pregunta": "La norma base del procedimiento sancionatorio ambiental colombiano es:",
+    "opciones": {
+      "a": "Ley 1333 de 2009.",
+      "b": "Ley 909 de 2004.",
+      "c": "Ley 80 de 1993.",
+      "d": "Decreto 1083 de 2015."
+    },
+    "respuesta": "a",
+    "explicacion": "La Ley 1333 de 2009 estableció el procedimiento sancionatorio ambiental."
+  },
+  {
+    "id": 38,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Procedimiento sancionatorio ambiental",
+    "pregunta": "El régimen de la Ley 1333 de 2009 debe estudiarse actualmente teniendo en cuenta especialmente:",
+    "opciones": {
+      "a": "Ley 2387 de 2024.",
+      "b": "Ley 100 de 1993.",
+      "c": "Código Electoral.",
+      "d": "Ley 30 de 1992."
+    },
+    "respuesta": "a",
+    "explicacion": "La Ley 2387 de 2024 modificó ese procedimiento y debe estudiarse de manera integrada con la Ley 1333."
+  },
+  {
+    "id": 39,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Procedimiento sancionatorio ambiental",
+    "pregunta": "Una medida preventiva ambiental y una sanción:",
+    "opciones": {
+      "a": "Son necesariamente lo mismo.",
+      "b": "Responden a finalidades y momentos jurídicos distintos; una medida preventiva puede buscar evitar o contener una afectación sin equivaler por sí misma a la sanción definitiva.",
+      "c": "Solo pueden imponerse por un juez penal.",
+      "d": "Nunca pueden relacionarse con un mismo expediente."
+    },
+    "respuesta": "b",
+    "explicacion": "Las medidas preventivas buscan una reacción protectora y no equivalen automáticamente a la sanción final."
+  },
+  {
+    "id": 40,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Procedimiento sancionatorio ambiental",
+    "pregunta": "En un procedimiento sancionatorio ambiental, aun ante indicios fuertes de incumplimiento, la autoridad debe:",
+    "opciones": {
+      "a": "Respetar el debido proceso.",
+      "b": "Omitir la defensa por razones de eficiencia.",
+      "c": "Sancionar antes de individualizar la conducta.",
+      "d": "Destruir las pruebas contradictorias."
+    },
+    "respuesta": "a",
+    "explicacion": "La potestad sancionatoria administrativa está sometida al debido proceso."
+  },
+  {
+    "id": 41,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Procedimiento sancionatorio ambiental",
+    "pregunta": "Para establecer una infracción ambiental no basta con una opinión genérica del evaluador; se requiere:",
+    "opciones": {
+      "a": "Vincular los hechos con el marco jurídico ambiental y los elementos de responsabilidad correspondientes.",
+      "b": "Usar únicamente percepciones personales.",
+      "c": "Evitar documentar el expediente.",
+      "d": "Exigir confesión en todos los casos."
+    },
+    "respuesta": "a",
+    "explicacion": "Una actuación sancionatoria exige hechos probados y subsunción jurídica, no una mera apreciación subjetiva."
+  },
+  {
+    "id": 42,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis técnico, seguimiento y trazabilidad",
+    "pregunta": "Si una muestra ambiental presenta una concentración extraordinariamente superior a toda la serie histórica y además existen dudas de calibración del instrumento, la mejor práctica técnica es:",
+    "opciones": {
+      "a": "Adoptarla automáticamente como verdad definitiva.",
+      "b": "Verificar calidad, trazabilidad, calibración y consistencia antes de inferir una tendencia.",
+      "c": "Borrar el dato porque es atípico.",
+      "d": "Promediarlo dos veces para reducirlo."
+    },
+    "respuesta": "b",
+    "explicacion": "Es una aplicación de aseguramiento de calidad y razonamiento técnico: un valor atípico es una señal que debe verificarse, no ignorarse ni asumirse acríticamente."
+  },
+  {
+    "id": 43,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis técnico, seguimiento y trazabilidad",
+    "pregunta": "Que un proyecto tenga impacto ambiental significa que ANLA siempre es la autoridad competente.",
+    "opciones": {
+      "a": "Correcto.",
+      "b": "Incorrecto; la competencia depende del tipo de proyecto, obra o actividad y de las reglas legales y reglamentarias aplicables."
+    },
+    "respuesta": "b",
+    "explicacion": "La competencia nacional de ANLA está delimitada normativamente; no todo proyecto con impacto ambiental es competencia de ANLA."
+  },
+  {
+    "id": 44,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis técnico, seguimiento y trazabilidad",
+    "pregunta": "Un evaluador encuentra información faltante en un expediente. Su primera pregunta debe ser:",
+    "opciones": {
+      "a": "“¿Cómo puedo negar el proyecto inmediatamente?”",
+      "b": "“¿La información es jurídicamente exigible y materialmente necesaria para la evaluación bajo el procedimiento aplicable?”",
+      "c": "“¿Qué documento no relacionado puedo solicitar?”",
+      "d": "“¿Cómo evito dejar registro de la solicitud?”"
+    },
+    "respuesta": "b",
+    "explicacion": "La administración debe solicitar y valorar información pertinente dentro de sus competencias y del procedimiento aplicable."
+  },
+  {
+    "id": 45,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis técnico, seguimiento y trazabilidad",
+    "pregunta": "En evaluación ambiental, la trazabilidad significa principalmente:",
+    "opciones": {
+      "a": "Poder reconstruir fuentes de datos, análisis, decisiones y fundamentos.",
+      "b": "Escribir informes más largos.",
+      "c": "Eliminar versiones anteriores.",
+      "d": "Evitar referencias al expediente."
+    },
+    "respuesta": "a",
+    "explicacion": "La trazabilidad permite reproducir y auditar el camino desde las fuentes hasta la conclusión."
+  },
+  {
+    "id": 46,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis técnico, seguimiento y trazabilidad",
+    "pregunta": "Dos proyectos separados afectan el mismo sistema hídrico. Una evaluación rigurosa debería, cuando sea pertinente:",
+    "opciones": {
+      "a": "Considerar interacciones y posibles efectos acumulativos, además de los impactos individuales.",
+      "b": "Asumir que los proyectos nunca interactúan porque tienen expedientes diferentes.",
+      "c": "Analizar únicamente el costo de cada proyecto.",
+      "d": "Ignorar la escala regional."
+    },
+    "respuesta": "a",
+    "explicacion": "La evaluación ambiental contemporánea puede requerir análisis regional y de impactos acumulativos cuando varios proyectos afectan un mismo sistema; la propia ANLA desarrolla estrategias de seguimiento regional de este tipo."
+  },
+  {
+    "id": 47,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis técnico, seguimiento y trazabilidad",
+    "pregunta": "Una medida que reduce la intensidad de un impacto que no pudo evitarse es conceptualmente una medida de:",
+    "opciones": {
+      "a": "Mitigación.",
+      "b": "Privatización.",
+      "c": "Selección de personal.",
+      "d": "Notificación."
+    },
+    "respuesta": "a",
+    "explicacion": "Mitigar significa reducir la intensidad o alcance de impactos que no pudieron evitarse completamente."
+  },
+  {
+    "id": 48,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis técnico, seguimiento y trazabilidad",
+    "pregunta": "Una medida que busca reparar o restablecer condiciones alteradas se aproxima principalmente a:",
+    "opciones": {
+      "a": "Corrección/restauración, según el instrumento y contexto.",
+      "b": "Publicidad administrativa.",
+      "c": "Carrera administrativa.",
+      "d": "Contratación directa."
+    },
+    "respuesta": "a",
+    "explicacion": "La corrección/restauración se orienta a tratar afectaciones ya producidas, según el marco particular."
+  },
+  {
+    "id": 49,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis técnico, seguimiento y trazabilidad",
+    "pregunta": "Si un impacto residual significativo permanece después de prevenir y mitigar, el análisis ambiental puede requerir:",
+    "opciones": {
+      "a": "Examinar las medidas de compensación que sean jurídicamente y técnicamente procedentes.",
+      "b": "Declararlo inexistente.",
+      "c": "Sustituirlo por una encuesta de satisfacción.",
+      "d": "Eliminarlo del estudio."
+    },
+    "respuesta": "a",
+    "explicacion": "Los impactos residuales pueden exigir medidas compensatorias cuando así resulte técnica y jurídicamente procedente."
+  },
+  {
+    "id": 50,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis técnico, seguimiento y trazabilidad",
+    "pregunta": "¿Qué comportamiento refleja mejor el trabajo de un evaluador técnico de ANLA?",
+    "opciones": {
+      "a": "Partir de una conclusión y seleccionar solo evidencia que la confirme.",
+      "b": "Examinar evidencia pertinente, normativa, impactos, incertidumbres y medidas, dejando trazabilidad de la conclusión.",
+      "c": "Decidir según preferencias personales.",
+      "d": "Delegar al solicitante la decisión administrativa."
+    },
+    "respuesta": "b",
+    "explicacion": "Es la única respuesta compatible con evaluación objetiva, legalidad, evidencia y trazabilidad."
+  },
+  {
+    "id": 51,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Razonamiento",
+    "tema": "Razonamiento cuantitativo y lógico",
+    "pregunta": "Una oficina debe revisar 240 expedientes en 12 días laborables. Hay cuatro profesionales con igual productividad. ¿Cuántos expedientes debe revisar en promedio cada profesional por día para terminar exactamente a tiempo?",
+    "opciones": {
+      "a": "4.",
+      "b": "5.",
+      "c": "10.",
+      "d": "20."
+    },
+    "respuesta": "b",
+    "explicacion": "240 ÷ 12 ÷ 4 = **5** expedientes por profesional/día."
+  },
+  {
+    "id": 52,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Razonamiento",
+    "tema": "Razonamiento cuantitativo y lógico",
+    "pregunta": "De 160 obligaciones verificadas, 136 se encuentran cumplidas. El porcentaje de cumplimiento observado es:",
+    "opciones": {
+      "a": "75 %.",
+      "b": "80 %.",
+      "c": "85 %.",
+      "d": "90 %."
+    },
+    "respuesta": "c",
+    "explicacion": "136 ÷ 160 = **0,85 = 85 %**."
+  },
+  {
+    "id": 53,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Razonamiento",
+    "tema": "Razonamiento cuantitativo y lógico",
+    "pregunta": "Un equipo dedica tiempo a tres componentes en proporción 2:3:5. Si dispone de 100 horas, ¿cuántas corresponden al componente de mayor peso?",
+    "opciones": {
+      "a": "20.",
+      "b": "30.",
+      "c": "40.",
+      "d": "50."
+    },
+    "respuesta": "d",
+    "explicacion": "2+3+5=10 partes; la mayor representa 5/10 de 100 = **50 horas**."
+  },
+  {
+    "id": 54,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Razonamiento",
+    "tema": "Razonamiento cuantitativo y lógico",
+    "pregunta": "Premisas: “Todo proyecto del grupo X exige seguimiento trimestral. El Proyecto Alfa pertenece al grupo X”. ¿Cuál conclusión se sigue necesariamente?",
+    "opciones": {
+      "a": "Alfa exige seguimiento trimestral.",
+      "b": "Todos los proyectos requieren seguimiento trimestral.",
+      "c": "Alfa es el único del grupo X.",
+      "d": "Ninguna."
+    },
+    "respuesta": "a",
+    "explicacion": "Es modus ponens: si todos los X tienen la propiedad y Alfa es X, Alfa tiene la propiedad."
+  },
+  {
+    "id": 55,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Razonamiento",
+    "tema": "Razonamiento cuantitativo y lógico",
+    "pregunta": "Cuatro informes —A, B, C y D— deben revisarse. A debe revisarse antes de C. B debe ir después de D. ¿Cuál secuencia es posible?",
+    "opciones": {
+      "a": "C-A-D-B.",
+      "b": "A-C-D-B.",
+      "c": "B-D-A-C.",
+      "d": "D-B-C-A."
+    },
+    "respuesta": "b",
+    "explicacion": "A aparece antes de C y D antes de B: **A-C-D-B** satisface ambas restricciones."
+  },
+  {
+    "id": 56,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Razonamiento",
+    "tema": "Razonamiento cuantitativo y lógico",
+    "pregunta": "Un indicador cae de 80 a 68 unidades. La disminución porcentual respecto del valor inicial es:",
+    "opciones": {
+      "a": "12 %.",
+      "b": "15 %.",
+      "c": "17,6 %.",
+      "d": "20 %."
+    },
+    "respuesta": "b",
+    "explicacion": "La disminución es 12; 12/80 = **15 %**."
+  },
+  {
+    "id": 57,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Razonamiento",
+    "tema": "Razonamiento cuantitativo y lógico",
+    "pregunta": "Si “cuando un dato crítico carece de trazabilidad, no puede utilizarse como único fundamento de la decisión”, y el dato Z carece de trazabilidad, entonces:",
+    "opciones": {
+      "a": "Z debe eliminarse físicamente del expediente.",
+      "b": "Z no debería utilizarse como único fundamento de la decisión.",
+      "c": "Z necesariamente es falso.",
+      "d": "La decisión debe aprobar el proyecto."
+    },
+    "respuesta": "b",
+    "explicacion": "La conclusión reproduce exactamente la consecuencia de la regla dada, sin inferir que el dato sea necesariamente falso."
+  },
+  {
+    "id": 58,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Razonamiento",
+    "tema": "Razonamiento cuantitativo y lógico",
+    "pregunta": "Cinco aspirantes obtienen en una prueba de práctica 92, 81, 88, 76 y 83. La mediana es:",
+    "opciones": {
+      "a": "81.",
+      "b": "82.",
+      "c": "83.",
+      "d": "88."
+    },
+    "respuesta": "c",
+    "explicacion": "Ordenados: 76, 81, **83**, 88, 92."
+  },
+  {
+    "id": 59,
+    "tipo_pregunta": "verdadero_falso",
+    "categoria": "Verdadero/Falso",
+    "tema": "Reglas del proceso ANLA 2671",
+    "pregunta": "Para el esquema general del proceso ANLA 2671, la prueba funcional tiene ponderación de 60 % y carácter eliminatorio.",
+    "opciones": {
+      "v": "Verdadero",
+      "f": "Falso"
+    },
+    "respuesta": "v",
+    "explicacion": "El esquema general asigna 60 % a funcional y la define como eliminatoria."
+  },
+  {
+    "id": 60,
+    "tipo_pregunta": "verdadero_falso",
+    "categoria": "Verdadero/Falso",
+    "tema": "Reglas del proceso ANLA 2671",
+    "pregunta": "La prueba comportamental del esquema general tiene un mínimo eliminatorio oficial de 65 puntos.",
+    "opciones": {
+      "v": "Verdadero",
+      "f": "Falso"
+    },
+    "respuesta": "f",
+    "explicacion": "Comportamental es clasificatoria; el mínimo de 65,00 corresponde a funcional."
+  },
+  {
+    "id": 61,
+    "tipo_pregunta": "verdadero_falso",
+    "categoria": "Verdadero/Falso",
+    "tema": "Reglas del proceso ANLA 2671",
+    "pregunta": "El puntaje mínimo oficial de la prueba funcional es 65,00.",
+    "opciones": {
+      "v": "Verdadero",
+      "f": "Falso"
+    },
+    "respuesta": "v",
+    "explicacion": "El acuerdo fija 65,00 como mínimo de funcional."
+  },
+  {
+    "id": 62,
+    "tipo_pregunta": "verdadero_falso",
+    "categoria": "Verdadero/Falso",
+    "tema": "Reglas del proceso ANLA 2671",
+    "pregunta": "En el esquema general de empleos con valoración de antecedentes, este componente representa 20 %.",
+    "opciones": {
+      "v": "Verdadero",
+      "f": "Falso"
+    },
+    "respuesta": "v",
+    "explicacion": "En el esquema general, antecedentes pesa 20 %."
+  },
+  {
+    "id": 63,
+    "tipo_pregunta": "verdadero_falso",
+    "categoria": "Verdadero/Falso",
+    "tema": "Reglas del proceso ANLA 2671",
+    "pregunta": "En los empleos de modalidad abierta que no requieren experiencia, la valoración de antecedentes pesa 20 %.",
+    "opciones": {
+      "v": "Verdadero",
+      "f": "Falso"
+    },
+    "respuesta": "f",
+    "explicacion": "Para empleos abiertos sin requisito de experiencia, el esquema publicado es 75 % funcional + 25 % comportamental."
+  },
+  {
+    "id": 64,
+    "tipo_pregunta": "verdadero_falso",
+    "categoria": "Verdadero/Falso",
+    "tema": "Reglas del proceso ANLA 2671",
+    "pregunta": "Los cuadernillos oficiales del actual concurso pueden copiarse libremente una vez un aspirante solicita acceso durante una reclamación.",
+    "opciones": {
+      "v": "Verdadero",
+      "f": "Falso"
+    },
+    "respuesta": "f",
+    "explicacion": "El acceso dentro de reclamaciones está sometido a reserva y el material no puede reproducirse."
+  },
+  {
+    "id": 65,
+    "tipo_pregunta": "verdadero_falso",
+    "categoria": "Verdadero/Falso",
+    "tema": "Reglas del proceso ANLA 2671",
+    "pregunta": "Para este proceso era indiferente la OPEC elegida porque todos los aspirantes ANLA presentan exactamente el mismo componente funcional.",
+    "opciones": {
+      "v": "Verdadero",
+      "f": "Falso"
+    },
+    "respuesta": "f",
+    "explicacion": "El componente funcional mide la competencia para el empleo específico; la OPEC importa precisamente porque los cargos difieren."
+  },
+  {
+    "id": 66,
+    "tipo_pregunta": "verdadero_falso",
+    "categoria": "Verdadero/Falso",
+    "tema": "Reglas del proceso ANLA 2671",
+    "pregunta": "Las reclamaciones contra resultados de pruebas escritas se tramitan por SIMO dentro del término fijado en el Anexo, que establece cinco días hábiles.",
+    "opciones": {
+      "v": "Verdadero",
+      "f": "Falso"
+    },
+    "respuesta": "v",
+    "explicacion": "El Anexo establece reclamación por SIMO dentro de cinco días hábiles respecto de resultados de pruebas escritas."
+  },
+  {
+    "id": 67,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Caso práctico",
+    "tema": "Derecho de petición",
+    "pregunta": "El lunes se recibe una petición ordinaria completa. El funcionario concluye que no podrá resolverla dentro del término legal y simplemente decide no informar al ciudadano hasta tener una respuesta final. ¿Cuál es la mejor actuación?",
+    "opciones": {
+      "a": "Correcta: mientras exista carga laboral no existe término.",
+      "b": "Incorrecta: debe respetarse el régimen del derecho de petición y, si excepcionalmente no puede resolverse dentro del término, actuar conforme a las reglas legales aplicables, informando oportunamente.",
+      "c": "Correcta si el ciudadano no insiste.",
+      "d": "Puede archivarse sin actuación."
+    },
+    "respuesta": "b",
+    "explicacion": "El derecho de petición impone términos y reglas para situaciones en las que excepcionalmente no sea posible resolver dentro de ellos; el silencio informal no es una solución."
+  },
+  {
+    "id": 68,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Caso práctico",
+    "tema": "Integridad e imparcialidad",
+    "pregunta": "En una evaluación ambiental, un profesional descubre que su hermano presta servicios remunerados al titular del proyecto evaluado. ¿Qué conducta es más consistente con imparcialidad e integridad?",
+    "opciones": {
+      "a": "Ocultarlo porque el profesional cree poder ser objetivo.",
+      "b": "Informar la situación y aplicar el régimen correspondiente de impedimentos/conflictos, evitando intervenir indebidamente.",
+      "c": "Pedir al hermano que no mencione el asunto.",
+      "d": "Continuar y eliminar del expediente toda referencia."
+    },
+    "respuesta": "b",
+    "explicacion": "La imparcialidad obliga a gestionar formalmente situaciones que puedan comprometer la objetividad del servidor."
+  },
+  {
+    "id": 69,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Caso práctico",
+    "tema": "Modificación de licencia ambiental",
+    "pregunta": "El titular de una licencia plantea una modificación sustancial de una obra. El analista debe:",
+    "opciones": {
+      "a": "Dar por cubierta cualquier modificación por la licencia original.",
+      "b": "Verificar si la modificación exige trámite de modificación de licencia o actuación ambiental conforme al Decreto 1076 y normas aplicables.",
+      "c": "Autorizarla por correo informal.",
+      "d": "Remitirla automáticamente al Congreso."
+    },
+    "respuesta": "b",
+    "explicacion": "Las modificaciones relevantes deben analizarse bajo el régimen reglamentario de modificación de licencias."
+  },
+  {
+    "id": 70,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Caso práctico",
+    "tema": "Calidad y trazabilidad de datos",
+    "pregunta": "Un informe de monitoreo registra pH 2,1 en una estación donde veinte mediciones históricas están entre 6,5 y 7,4. No existen metadatos sobre calibración. ¿Qué acción es mejor?",
+    "opciones": {
+      "a": "Declarar inmediatamente contaminación extrema como hecho definitivo.",
+      "b": "Ignorar para siempre la medición.",
+      "c": "Tratarlo como señal relevante, verificar QA/QC, calibración, muestreo y trazabilidad y luego evaluar su significancia.",
+      "d": "Reemplazar el valor por 7,0."
+    },
+    "respuesta": "c",
+    "explicacion": "Es la única alternativa que preserva el dato como alerta y, al mismo tiempo, verifica su confiabilidad antes de una inferencia fuerte."
+  },
+  {
+    "id": 71,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Caso práctico",
+    "tema": "Principio de precaución",
+    "pregunta": "Existe riesgo plausible de afectación grave a un ecosistema sensible, pero todavía hay incertidumbre científica sobre la magnitud exacta. La decisión más consistente con el principio de precaución es:",
+    "opciones": {
+      "a": "La incertidumbre impide cualquier medida.",
+      "b": "Evaluar medidas preventivas proporcionales sin exigir certeza absoluta sobre el daño.",
+      "c": "Suponer riesgo cero.",
+      "d": "Esperar necesariamente a que el daño sea irreversible."
+    },
+    "respuesta": "b",
+    "explicacion": "Precaución no significa actuar arbitrariamente, sino que la falta de certeza absoluta no impide adoptar medidas apropiadas frente a riesgo grave."
+  },
+  {
+    "id": 72,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Caso práctico",
+    "tema": "Procedimiento sancionatorio ambiental",
+    "pregunta": "Durante seguimiento se encuentra evidencia de un posible incumplimiento. El equipo técnico propone imponer directamente la sanción máxima en el mismo informe. Jurídicamente, la respuesta más sólida es:",
+    "opciones": {
+      "a": "Correcta, porque la evidencia técnica reemplaza el procedimiento.",
+      "b": "Debe documentarse el hallazgo y activar las actuaciones que correspondan respetando el procedimiento sancionatorio y el debido proceso.",
+      "c": "No puede hacerse nada.",
+      "d": "Todo incumplimiento es delito."
+    },
+    "respuesta": "b",
+    "explicacion": "El hallazgo técnico puede originar una actuación, pero no reemplaza el procedimiento sancionatorio ni el debido proceso."
+  },
+  {
+    "id": 73,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Caso práctico",
+    "tema": "Gestión y trazabilidad de información",
+    "pregunta": "Dos analistas llegan a conclusiones opuestas porque utilizaron versiones distintas de una base de datos. La acción institucional más robusta es:",
+    "opciones": {
+      "a": "Escoger la conclusión del servidor de mayor edad.",
+      "b": "Establecer la fuente oficial, versión, metadatos y trazabilidad; reproducir los análisis y documentar la reconciliación.",
+      "c": "Promediar las conclusiones.",
+      "d": "Borrar ambas bases."
+    },
+    "respuesta": "b",
+    "explicacion": "Resolver discrepancias mediante control de versiones, fuente, metadatos y reproducibilidad es superior a escoger una conclusión por jerarquía personal."
+  },
+  {
+    "id": 74,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Caso práctico",
+    "tema": "Priorización y gestión institucional",
+    "pregunta": "Hay 30 expedientes y capacidad para revisar 15 esta semana. Cinco presentan potencial riesgo ambiental alto y plazos próximos; diez tienen plazo próximo y riesgo bajo; quince no tienen plazo inmediato. ¿Cuál criterio de priorización es más defendible?",
+    "opciones": {
+      "a": "Orden alfabético únicamente.",
+      "b": "Riesgo, urgencia legal, impacto y obligaciones institucionales mediante un criterio transparente y documentado.",
+      "c": "Preferencia personal del analista.",
+      "d": "Orden del tamaño de las empresas."
+    },
+    "respuesta": "b",
+    "explicacion": "Es la alternativa que convierte la priorización en una decisión justificable, reproducible y orientada al riesgo y a obligaciones institucionales."
+  },
+  {
+    "id": 75,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia comportamental",
+    "tema": "Competencias comportamentales",
+    "pregunta": "Un ciudadano está molesto porque no entiende un requerimiento técnico. Usted:",
+    "opciones": {
+      "a": "Le dice que contrate un abogado porque la entidad no tiene por qué explicar.",
+      "b": "Explica de manera clara lo que puede aclararse, indica el canal y alcance correspondiente y mantiene trato respetuoso sin prometer resultados indebidos.",
+      "c": "Discute para demostrar que el ciudadano está equivocado."
+    },
+    "respuesta": "b",
+    "explicacion": "Combina orientación al ciudadano, respeto y cumplimiento del marco institucional sin prometer un resultado improcedente."
+  },
+  {
+    "id": 76,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia comportamental",
+    "tema": "Competencias comportamentales",
+    "pregunta": "Un nuevo procedimiento tecnológico reemplaza parcialmente un método que usted domina desde hace años. La mejor respuesta es:",
+    "opciones": {
+      "a": "Negarse hasta que desaparezca el cambio.",
+      "b": "Aprender el nuevo procedimiento, identificar riesgos de implementación y aportar a una transición efectiva.",
+      "c": "Continuar usando en secreto el método anterior."
+    },
+    "respuesta": "b",
+    "explicacion": "Refleja aprendizaje continuo y adaptación al cambio, dimensiones propias del marco de competencias comportamentales del servicio público."
+  },
+  {
+    "id": 77,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia comportamental",
+    "tema": "Competencias comportamentales",
+    "pregunta": "Un compañero comete un error de buena fe que puede corregirse antes de afectar la decisión. Usted:",
+    "opciones": {
+      "a": "Lo oculta permanentemente.",
+      "b": "Ayuda a identificarlo, corregirlo, documentarlo cuando corresponda y extraer aprendizaje para prevenir recurrencia.",
+      "c": "Lo publica en redes sociales para sancionarlo informalmente."
+    },
+    "respuesta": "b",
+    "explicacion": "Combina trabajo en equipo, responsabilidad y aprendizaje, sin encubrimiento ni exposición impropia."
+  },
+  {
+    "id": 78,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia comportamental",
+    "tema": "Competencias comportamentales",
+    "pregunta": "Usted recibe una solicitud informal de “dar prioridad” a un expediente por la importancia económica del interesado, sin fundamento jurídico ni criterio institucional.",
+    "opciones": {
+      "a": "Accede para evitar problemas.",
+      "b": "Mantiene los criterios objetivos de priorización, documenta la actuación necesaria y rechaza tratamientos privilegiados injustificados.",
+      "c": "Solicita una contraprestación."
+    },
+    "respuesta": "b",
+    "explicacion": "La igualdad, imparcialidad y moralidad administrativa impiden privilegios sin fundamento objetivo."
+  },
+  {
+    "id": 79,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia comportamental",
+    "tema": "Competencias comportamentales",
+    "pregunta": "En una reunión interdisciplinaria, dos especialistas discrepan técnicamente. La mejor actuación es:",
+    "opciones": {
+      "a": "Evitar toda discusión y escoger al azar.",
+      "b": "Precisar la pregunta técnica, contrastar evidencia y normas, escuchar argumentos y documentar la conclusión sustentada.",
+      "c": "Dejar que decida quien habla más fuerte."
+    },
+    "respuesta": "b",
+    "explicacion": "Es la opción compatible con trabajo en equipo, comunicación profesional, evidencia y toma de decisiones sustentada."
+  },
+  {
+    "id": 80,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia comportamental",
+    "tema": "Competencias comportamentales",
+    "pregunta": "Tiene tres entregables urgentes y advierte anticipadamente que, con los recursos disponibles, uno podría incumplirse. La conducta de mayor orientación a resultados es:",
+    "opciones": {
+      "a": "No decir nada y esperar al vencimiento.",
+      "b": "Priorizar, comunicar oportunamente el riesgo, proponer alternativas y hacer seguimiento a compromisos.",
+      "c": "Culpar preventivamente a otro equipo."
+    },
+    "respuesta": "b",
+    "explicacion": "La orientación a resultados no consiste en ocultar riesgos, sino en gestionarlos, priorizar y comunicar de manera oportuna."
+  }
+]
