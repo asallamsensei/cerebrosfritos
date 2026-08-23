@@ -356,6 +356,62 @@ h1{
 
 .hidden{ display:none !important; }
 
+.pantalla-acceso{
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  background:
+    radial-gradient(700px 500px at 50% 30%, rgba(125,92,255,.35), transparent 60%),
+    #0b1020;
+}
+
+.acceso-card{
+  width:min(420px,100%);
+  text-align:center;
+  padding:30px;
+  border-radius:20px;
+  background:rgba(255,255,255,.09);
+  border:1px solid rgba(255,255,255,.14);
+  box-shadow:0 25px 60px rgba(0,0,0,.4);
+}
+
+.acceso-card h2{
+  margin-top:0;
+}
+
+.acceso-card p{
+  color:var(--muted);
+}
+
+.acceso-card input{
+  width:100%;
+  padding:14px;
+  margin:12px 0;
+  border-radius:12px;
+  border:1px solid rgba(125,92,255,.5);
+  background:rgba(0,0,0,.25);
+  color:white;
+  font-size:16px;
+  text-align:center;
+  outline:none;
+}
+
+.acceso-card input:focus{
+  border-color:#a895ff;
+  box-shadow:0 0 18px rgba(125,92,255,.3);
+}
+
+.error-clave{
+  min-height:20px;
+  margin-top:12px;
+  color:#fca5a5;
+  font-size:14px;
+}
+  
 @media (max-width:900px){
   .layout{ grid-template-columns:1fr; }
   .side-panel{ position:static; }
@@ -372,6 +428,27 @@ h1{
 <body>
 <div class="wrap">
 
+<div id="pantallaAcceso" class="pantalla-acceso">
+  <div class="acceso-card">
+    <h2>🔐 Acceso al simulacro</h2>
+    <p>Ingresa tu clave para comenzar</p>
+
+    <input
+      type="text"
+      id="inputClave"
+      placeholder="Clave de acceso"
+      autocomplete="off"
+      autofocus
+    >
+
+    <button class="btn" onclick="validarClave()">
+      Ingresar
+    </button>
+
+    <div id="errorClave" class="error-clave"></div>
+  </div>
+</div>
+  
   <header>
     <h1>Simulacro ANLA / CNSC ★ Asallam Sensei</h1>
     <div class="subtitle">
@@ -566,11 +643,6 @@ function fisherYates(array){
   }
   return array;
 }
-  
-let preguntas = [];
-let indiceActual = 0;
-let respuestasUsuario = {};
-let preguntasValidadas = {};
 
 let preguntas = [];
 let indiceActual = 0;
@@ -591,60 +663,67 @@ const ACCESOS = {
 
 };
   
-const claveIngresada = prompt("Ingresa tu clave de acceso:")
-  ?.trim()
-  .toLowerCase();
+function validarClave(){
 
-const acceso = ACCESOS[claveIngresada];
+  const clave = document
+    .getElementById("inputClave")
+    .value
+    .trim()
+    .toLowerCase();
 
-if(!acceso){
+  const acceso = ACCESOS[clave];
 
-  document.getElementById("pregunta").innerText =
-    "Clave de acceso incorrecta.";
+  if(!acceso){
+    document.getElementById("errorClave").innerText =
+      "Clave incorrecta. Intenta nuevamente.";
+    return;
+  }
 
-  document.getElementById("opciones").innerHTML = "";
+  document.getElementById("errorClave").innerText = "";
 
-  document.getElementById("btnResponder").disabled = true;
-  document.getElementById("btnSiguiente").disabled = true;
-  document.getElementById("btnAnterior").disabled = true;
+  document.getElementById("estudianteNombre").innerText =
+    `★ ${acceso.estudiante} ★`;
 
-  throw new Error("Clave incorrecta");
+  document.getElementById("pantallaAcceso").style.display =
+    "none";
+
+  cargarSimulacro(acceso.archivo);
 }
 
-document.getElementById("estudianteNombre").innerText =
-  `★ ${acceso.estudiante} ★`;
-
-fetch(acceso.archivo)
-  .then(res => {
-    if(!res.ok) throw new Error("No se encontró el JSON.");
-    return res.json();
-  })
-  .then(data => {
-    preguntas = Array.isArray(data) ? fisherYates([...data]) : [];
-
-    if(!preguntas.length){
-      throw new Error("El JSON está vacío.");
+document.getElementById("inputClave")
+  .addEventListener("keydown", function(e){
+    if(e.key === "Enter"){
+      validarClave();
     }
-
-    renderPregunta();
-    actualizarPanel();
-  })
-  .catch(err => {
-    console.error(err);
-
-    document.getElementById("pregunta").innerText =
-      "Todavía no se pudo cargar data/simulacro_anla.json";
-
-    document.getElementById("opciones").innerHTML =
-      '<div style="color:rgba(238,242,255,.7); line-height:1.5;">' +
-      'Cuando hagamos el JSON, debe guardarse en esa ruta. ' +
-      'Abre la página con Live Server o GitHub Pages.' +
-      '</div>';
-
-    document.getElementById("btnResponder").disabled = true;
-    document.getElementById("btnSiguiente").disabled = true;
-    document.getElementById("btnAnterior").disabled = true;
   });
+  
+function cargarSimulacro(archivo){
+
+  fetch(archivo)
+    .then(res => {
+      if(!res.ok) throw new Error("No se encontró el JSON.");
+      return res.json();
+    })
+    .then(data => {
+
+      preguntas = Array.isArray(data)
+        ? fisherYates([...data])
+        : [];
+
+      if(!preguntas.length){
+        throw new Error("El JSON está vacío.");
+      }
+
+      renderPregunta();
+      actualizarPanel();
+    })
+    .catch(err => {
+      console.error(err);
+
+      document.getElementById("pregunta").innerText =
+        "No se pudo cargar el simulacro.";
+    });
+}
 
 function renderPregunta(){
   if(!preguntas.length) return;
