@@ -394,7 +394,7 @@ h1{
         </div>
 
         <section class="question-card">
-          <div class="question-label">Selecciona una respuesta</div>
+          <div class="question-label" id="tipoPreguntaLabel">Selecciona una respuesta</div>
 
           <p id="pregunta">
             Cargando preguntas...
@@ -522,8 +522,6 @@ let indiceActual = 0;
 let respuestasUsuario = {};
 let preguntasValidadas = {};
 
-const letras = ["a","b","c","d"];
-
 fetch("data/simulacro_anla.json")
   .then(res => {
     if(!res.ok) throw new Error("No se encontró el JSON.");
@@ -561,8 +559,13 @@ function renderPregunta(){
 
   const p = preguntas[indiceActual];
 
+  document.getElementById("tipoPreguntaLabel").innerText =
+    p.tipo_pregunta === "verdadero_falso"
+      ? "Verdadero o falso"
+      : "Selecciona una respuesta";
+  
   document.getElementById("badgeTipo").innerText =
-    p.tipo || "Simulacro";
+    p.categoria || "Simulacro";
 
   document.getElementById("badgeTema").innerText =
     p.tema || "General";
@@ -576,26 +579,34 @@ function renderPregunta(){
   const opcionesBox = document.getElementById("opciones");
   opcionesBox.innerHTML = "";
 
-  letras.forEach(letra => {
-    if(!p.opciones || !p.opciones[letra]) return;
-
+  const clavesOpciones = Object.keys(p.opciones || {});
+  
+  clavesOpciones.forEach(letra => {
+  
     const btn = document.createElement("button");
-
+  
     btn.type = "button";
     btn.className = "opcion";
     btn.dataset.letra = letra;
-
-    btn.innerHTML =
-      `<strong>${letra.toUpperCase()}.</strong> ${escapeHtml(p.opciones[letra])}`;
-
+  
+    let etiqueta = letra.toUpperCase();
+  
+    if(p.tipo_pregunta === "verdadero_falso"){
+      etiqueta = "";
+    }
+  
+    btn.innerHTML = p.tipo_pregunta === "verdadero_falso"
+      ? `<strong>${escapeHtml(p.opciones[letra])}</strong>`
+      : `<strong>${etiqueta}.</strong> ${escapeHtml(p.opciones[letra])}`;
+  
     btn.onclick = () => seleccionarRespuesta(letra);
-
+  
     const guardada = respuestasUsuario[indiceActual];
-
+  
     if(guardada === letra){
       btn.classList.add("seleccionada");
     }
-
+  
     opcionesBox.appendChild(btn);
   });
 
@@ -679,8 +690,14 @@ function mostrarCorreccion(){
     titulo.innerText = "Correcto ✔";
   }else{
     feedback.classList.add("incorrecto");
+
+    const textoCorrecto =
+      p.opciones && p.opciones[correcta]
+        ? p.opciones[correcta]
+        : correcta.toUpperCase();
+    
     titulo.innerText =
-      `Incorrecto ✘ — La respuesta correcta era ${correcta.toUpperCase()}.`;
+      `Incorrecto ✘ — La respuesta correcta era: ${textoCorrecto}`;    
   }
 
   explicacion.innerText =
