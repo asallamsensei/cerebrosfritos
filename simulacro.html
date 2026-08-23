@@ -546,6 +546,14 @@ data/simulacro_anla.json
 =============================================================
 */
 
+function fisherYates(array){
+  for(let i = array.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+  
 let preguntas = [];
 let indiceActual = 0;
 let respuestasUsuario = {};
@@ -557,7 +565,7 @@ fetch("data/simulacro_anla.json")
     return res.json();
   })
   .then(data => {
-    preguntas = Array.isArray(data) ? data : [];
+    preguntas = Array.isArray(data) ? fisherYates([...data]) : [];
 
     if(!preguntas.length){
       throw new Error("El JSON está vacío.");
@@ -608,7 +616,11 @@ function renderPregunta(){
   const opcionesBox = document.getElementById("opciones");
   opcionesBox.innerHTML = "";
 
-  const clavesOpciones = Object.keys(p.opciones || {});
+  let clavesOpciones = Object.keys(p.opciones || {});
+  
+  if(p.tipo_pregunta !== "verdadero_falso"){
+    clavesOpciones = fisherYates([...clavesOpciones]);
+  }
   
   clavesOpciones.forEach(letra => {
   
