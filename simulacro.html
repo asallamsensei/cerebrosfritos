@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Simulacro ANLA / CNSC — Asallam Sensei</title>
+
+<style>
+:root{
+  --bg:#0b1020;
+  --card:rgba(255,255,255,.08);
+  --card2:rgba(255,255,255,.11);
+  --text:#eef2ff;
+  --muted:rgba(238,242,255,.72);
+  --accent:#7d5cff;
+  --accentSoft:rgba(125,92,255,.18);
+  --success:#22c55e;
+  --danger:#ef4444;
+  --warning:#f59e0b;
+  --border:rgba(255,255,255,.14);
+}
+
+*{ box-sizing:border-box; }
+
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(1200px 700px at 20% 10%, rgba(125,92,255,.32), transparent 60%),
+    radial-gradient(900px 600px at 90% 20%, rgba(34,197,94,.18), transparent 60%),
+    radial-gradient(900px 600px at 30% 90%, rgba(239,68,68,.15), transparent 55%),
+    var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  padding:26px 14px 60px;
+}
+
+.wrap{
+  width:min(1120px,100%);
+  margin:auto;
+}
+
+header{
+  text-align:center;
+  margin-bottom:16px;
+}
+
+h1{
+  margin:0;
+  font-size:24px;
+}
+
+.subtitle{
+  margin-top:7px;
+  color:var(--muted);
+  font-size:14px;
+}
+
+.card{
+  background:linear-gradient(180deg,var(--card2),var(--card));
+  border:1px solid var(--border);
+  border-radius:18px;
+  box-shadow:0 18px 45px rgba(0,0,0,.32);
+}
+
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 280px;
+  gap:14px;
+  align-items:start;
+}
+
+.main-card{
+  padding:18px;
+}
+
+.side-panel{
+  padding:16px;
+  position:sticky;
+  top:16px;
+}
+
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-bottom:14px;
+}
+
+.badges{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.badge{
+  padding:7px 10px;
+  border-radius:999px;
+  background:rgba(255,255,255,.08);
+  border:1px solid var(--border);
+  color:var(--muted);
+  font-size:13px;
+  font-weight:700;
+}
+
+.badge.accent{
+  background:var(--accentSoft);
+  border-color:rgba(125,92,255,.45);
+  color:#eee9ff;
+}
+
+.progress-wrap{
+  margin:12px 0 18px;
+}
+
+.progress-label{
+  display:flex;
+  justify-content:space-between;
+  color:var(--muted);
+  font-size:13px;
+  margin-bottom:7px;
+}
+
+.progress{
+  width:100%;
+  height:10px;
+  background:rgba(255,255,255,.08);
+  border-radius:999px;
+  overflow:hidden;
+}
+
+.progress-fill{
+  height:100%;
+  width:0%;
+  background:linear-gradient(90deg,#7d5cff,#9f87ff);
+  transition:.25s ease;
+}
+
+.question-card{
+  padding:18px;
+  border-radius:16px;
+  background:rgba(0,0,0,.16);
+  border:1px solid rgba(255,255,255,.10);
+}
+
+.question-label{
+  color:#cfc8ff;
+  font-size:13px;
+  font-weight:800;
+  margin-bottom:8px;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+}
+
+#pregunta{
+  font-size:21px;
+  line-height:1.45;
+  font-weight:700;
+  margin:0;
+}
+
+.opciones{
+  display:grid;
+  gap:10px;
+  margin-top:16px;
+}
+
+.opcion{
+  width:100%;
+  text-align:left;
+  border:1px solid rgba(125,92,255,.42);
+  background:rgba(125,92,255,.10);
+  color:var(--text);
+  border-radius:14px;
+  padding:13px 14px;
+  cursor:pointer;
+  font-size:15px;
+  line-height:1.35;
+  transition:.15s;
+}
+
+.opcion:hover{
+  background:rgba(125,92,255,.18);
+  transform:translateY(-1px);
+}
+
+.opcion.seleccionada{
+  border-color:#a895ff;
+  background:rgba(125,92,255,.24);
+  box-shadow:0 0 0 1px rgba(125,92,255,.20);
+}
+
+.opcion.correcta{
+  border-color:rgba(34,197,94,.6);
+  background:rgba(34,197,94,.16);
+  color:#dcfce7;
+}
+
+.opcion.incorrecta{
+  border-color:rgba(239,68,68,.6);
+  background:rgba(239,68,68,.16);
+  color:#fecaca;
+}
+
+.feedback{
+  display:none;
+  margin-top:14px;
+  padding:14px;
+  border-radius:14px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.06);
+}
+
+.feedback.visible{ display:block; }
+
+.feedback-title{
+  font-weight:900;
+  margin-bottom:6px;
+}
+
+.feedback.correcto .feedback-title{ color:var(--success); }
+.feedback.incorrecto .feedback-title{ color:var(--danger); }
+
+.explicacion{
+  color:var(--muted);
+  line-height:1.45;
+  font-size:14px;
+}
+
+.actions{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin-top:16px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  border:none;
+  border-radius:12px;
+  padding:11px 15px;
+  cursor:pointer;
+  color:white;
+  background:var(--accent);
+  font-weight:800;
+  transition:.15s;
+}
+
+.btn:hover{
+  transform:translateY(-1px);
+  filter:brightness(1.05);
+}
+
+.btn:disabled{
+  opacity:.45;
+  cursor:not-allowed;
+  transform:none;
+}
+
+.btn-ghost{
+  background:rgba(255,255,255,.08);
+  border:1px solid var(--border);
+}
+
+.panel-title{
+  text-align:center;
+  font-weight:900;
+  margin-bottom:12px;
+}
+
+.side-block{
+  padding:12px 0;
+  border-top:1px solid rgba(255,255,255,.10);
+}
+
+.side-block:first-of-type{
+  border-top:none;
+  padding-top:0;
+}
+
+.stat-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+}
+
+.stat{
+  background:rgba(0,0,0,.16);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:12px;
+  padding:10px;
+  text-align:center;
+}
+
+.stat strong{
+  display:block;
+  font-size:20px;
+  margin-bottom:3px;
+}
+
+.stat span{
+  font-size:12px;
+  color:var(--muted);
+}
+
+.temas{
+  display:grid;
+  gap:7px;
+}
+
+.tema{
+  display:flex;
+  justify-content:space-between;
+  gap:8px;
+  font-size:13px;
+  color:var(--muted);
+}
+
+.tema b{ color:var(--text); }
+
+.resultado-final{
+  display:none;
+  text-align:center;
+  padding:24px 16px;
+}
+
+.resultado-final.visible{ display:block; }
+
+.nota-final{
+  font-size:44px;
+  font-weight:900;
+  margin:10px 0;
+}
+
+.mensaje-final{
+  color:var(--muted);
+  line-height:1.5;
+  max-width:680px;
+  margin:0 auto 18px;
+}
+
+.hidden{ display:none !important; }
+
+@media (max-width:900px){
+  .layout{ grid-template-columns:1fr; }
+  .side-panel{ position:static; }
+}
+
+@media (max-width:560px){
+  #pregunta{ font-size:18px; }
+  .main-card{ padding:14px; }
+  .question-card{ padding:14px; }
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Simulacro ANLA / CNSC ★ Asallam Sensei</h1>
+    <div class="subtitle">
+      Práctica de competencias funcionales, comportamentales y temas relacionados con el empleo.
+    </div>
+  </header>
+
+  <div class="layout">
+
+    <main class="card main-card">
+
+      <div id="zonaExamen">
+
+        <div class="topbar">
+          <div class="badges">
+            <span class="badge accent" id="badgeTipo">Simulacro</span>
+            <span class="badge" id="badgeTema">Tema</span>
+          </div>
+
+          <div class="badge" id="contadorPregunta">Pregunta 1 de 1</div>
+        </div>
+
+        <div class="progress-wrap">
+          <div class="progress-label">
+            <span>Progreso</span>
+            <span id="progresoTexto">0%</span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+        </div>
+
+        <section class="question-card">
+          <div class="question-label">Selecciona una respuesta</div>
+
+          <p id="pregunta">
+            Cargando preguntas...
+          </p>
+
+          <div class="opciones" id="opciones"></div>
+
+          <div class="feedback" id="feedback">
+            <div class="feedback-title" id="feedbackTitulo"></div>
+            <div class="explicacion" id="explicacion"></div>
+          </div>
+        </section>
+
+        <div class="actions">
+          <button class="btn btn-ghost" id="btnAnterior" type="button" onclick="anteriorPregunta()">
+            ← Anterior
+          </button>
+
+          <button class="btn" id="btnResponder" type="button" onclick="validarRespuesta()">
+            Comprobar
+          </button>
+
+          <button class="btn" id="btnSiguiente" type="button" onclick="siguientePregunta()" disabled>
+            Siguiente →
+          </button>
+        </div>
+
+      </div>
+
+      <section class="resultado-final" id="resultadoFinal">
+        <div class="badge accent">Simulacro completado</div>
+        <div class="nota-final" id="notaFinal">0%</div>
+
+        <div class="mensaje-final" id="mensajeFinal">
+          Aquí aparecerá el análisis de tu resultado.
+        </div>
+
+        <button class="btn" type="button" onclick="reiniciarSimulacro()">
+          Repetir simulacro
+        </button>
+      </section>
+
+    </main>
+
+    <aside class="card side-panel">
+
+      <div class="panel-title">Tu desempeño</div>
+
+      <div class="side-block">
+        <div class="stat-grid">
+          <div class="stat">
+            <strong id="aciertos">0</strong>
+            <span>Aciertos</span>
+          </div>
+
+          <div class="stat">
+            <strong id="errores">0</strong>
+            <span>Errores</span>
+          </div>
+
+          <div class="stat">
+            <strong id="respondidas">0</strong>
+            <span>Respondidas</span>
+          </div>
+
+          <div class="stat">
+            <strong id="precision">0%</strong>
+            <span>Precisión</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="side-block">
+        <div class="panel-title" style="font-size:15px;">Resultados por tema</div>
+        <div class="temas" id="resultadosTemas">
+          <div class="tema">
+            <b>Sin datos</b>
+            <span>—</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="side-block">
+        <button class="btn btn-ghost" style="width:100%;" type="button" onclick="reiniciarSimulacro()">
+          Reiniciar
+        </button>
+      </div>
+
+    </aside>
+
+  </div>
+
+</div>
+
+<script>
+/*
+=============================================================
+ESTRUCTURA ESPERADA DEL JSON
+=============================================================
+
+[
+  {
+    "id": 1,
+    "tipo": "Competencia funcional",
+    "tema": "Constitución Política",
+    "pregunta": "Texto de la pregunta...",
+    "opciones": {
+      "a": "Respuesta A",
+      "b": "Respuesta B",
+      "c": "Respuesta C",
+      "d": "Respuesta D"
+    },
+    "respuesta": "b",
+    "explicacion": "Explicación de por qué B es correcta."
+  }
+]
+
+Archivo previsto:
+data/simulacro_anla.json
+=============================================================
+*/
+
+let preguntas = [];
+let indiceActual = 0;
+let respuestasUsuario = {};
+let preguntasValidadas = {};
+
+const letras = ["a","b","c","d"];
+
+fetch("data/simulacro_anla.json")
+  .then(res => {
+    if(!res.ok) throw new Error("No se encontró el JSON.");
+    return res.json();
+  })
+  .then(data => {
+    preguntas = Array.isArray(data) ? data : [];
+
+    if(!preguntas.length){
+      throw new Error("El JSON está vacío.");
+    }
+
+    renderPregunta();
+    actualizarPanel();
+  })
+  .catch(err => {
+    console.error(err);
+
+    document.getElementById("pregunta").innerText =
+      "Todavía no se pudo cargar data/simulacro_anla.json";
+
+    document.getElementById("opciones").innerHTML =
+      '<div style="color:rgba(238,242,255,.7); line-height:1.5;">' +
+      'Cuando hagamos el JSON, debe guardarse en esa ruta. ' +
+      'Abre la página con Live Server o GitHub Pages.' +
+      '</div>';
+
+    document.getElementById("btnResponder").disabled = true;
+    document.getElementById("btnSiguiente").disabled = true;
+    document.getElementById("btnAnterior").disabled = true;
+  });
+
+function renderPregunta(){
+  if(!preguntas.length) return;
+
+  const p = preguntas[indiceActual];
+
+  document.getElementById("badgeTipo").innerText =
+    p.tipo || "Simulacro";
+
+  document.getElementById("badgeTema").innerText =
+    p.tema || "General";
+
+  document.getElementById("contadorPregunta").innerText =
+    `Pregunta ${indiceActual + 1} de ${preguntas.length}`;
+
+  document.getElementById("pregunta").innerText =
+    p.pregunta || "Pregunta sin texto.";
+
+  const opcionesBox = document.getElementById("opciones");
+  opcionesBox.innerHTML = "";
+
+  letras.forEach(letra => {
+    if(!p.opciones || !p.opciones[letra]) return;
+
+    const btn = document.createElement("button");
+
+    btn.type = "button";
+    btn.className = "opcion";
+    btn.dataset.letra = letra;
+
+    btn.innerHTML =
+      `<strong>${letra.toUpperCase()}.</strong> ${escapeHtml(p.opciones[letra])}`;
+
+    btn.onclick = () => seleccionarRespuesta(letra);
+
+    const guardada = respuestasUsuario[indiceActual];
+
+    if(guardada === letra){
+      btn.classList.add("seleccionada");
+    }
+
+    opcionesBox.appendChild(btn);
+  });
+
+  const validada = preguntasValidadas[indiceActual] === true;
+
+  if(validada){
+    mostrarCorreccion();
+    document.getElementById("btnResponder").disabled = true;
+    document.getElementById("btnSiguiente").disabled = false;
+  }else{
+    ocultarFeedback();
+    document.getElementById("btnResponder").disabled =
+      !respuestasUsuario[indiceActual];
+
+    document.getElementById("btnSiguiente").disabled = true;
+  }
+
+  document.getElementById("btnAnterior").disabled =
+    indiceActual === 0;
+
+  actualizarProgreso();
+}
+
+function seleccionarRespuesta(letra){
+  if(preguntasValidadas[indiceActual]) return;
+
+  respuestasUsuario[indiceActual] = letra;
+
+  document.querySelectorAll(".opcion").forEach(btn => {
+    btn.classList.toggle(
+      "seleccionada",
+      btn.dataset.letra === letra
+    );
+  });
+
+  document.getElementById("btnResponder").disabled = false;
+}
+
+function validarRespuesta(){
+  if(!preguntas.length) return;
+
+  const seleccion = respuestasUsuario[indiceActual];
+
+  if(!seleccion) return;
+
+  preguntasValidadas[indiceActual] = true;
+
+  mostrarCorreccion();
+  actualizarPanel();
+
+  document.getElementById("btnResponder").disabled = true;
+  document.getElementById("btnSiguiente").disabled = false;
+}
+
+function mostrarCorreccion(){
+  const p = preguntas[indiceActual];
+  const seleccion = respuestasUsuario[indiceActual];
+  const correcta = String(p.respuesta || "").toLowerCase();
+
+  document.querySelectorAll(".opcion").forEach(btn => {
+    btn.classList.remove("seleccionada");
+
+    if(btn.dataset.letra === correcta){
+      btn.classList.add("correcta");
+    }
+
+    if(btn.dataset.letra === seleccion && seleccion !== correcta){
+      btn.classList.add("incorrecta");
+    }
+  });
+
+  const feedback = document.getElementById("feedback");
+  const titulo = document.getElementById("feedbackTitulo");
+  const explicacion = document.getElementById("explicacion");
+
+  feedback.classList.add("visible");
+  feedback.classList.remove("correcto","incorrecto");
+
+  if(seleccion === correcta){
+    feedback.classList.add("correcto");
+    titulo.innerText = "Correcto ✔";
+  }else{
+    feedback.classList.add("incorrecto");
+    titulo.innerText =
+      `Incorrecto ✘ — La respuesta correcta era ${correcta.toUpperCase()}.`;
+  }
+
+  explicacion.innerText =
+    p.explicacion || "Esta pregunta todavía no tiene explicación.";
+}
+
+function ocultarFeedback(){
+  const feedback = document.getElementById("feedback");
+
+  feedback.classList.remove(
+    "visible",
+    "correcto",
+    "incorrecto"
+  );
+
+  document.getElementById("feedbackTitulo").innerText = "";
+  document.getElementById("explicacion").innerText = "";
+}
+
+function siguientePregunta(){
+  if(!preguntasValidadas[indiceActual]) return;
+
+  if(indiceActual < preguntas.length - 1){
+    indiceActual++;
+    renderPregunta();
+    return;
+  }
+
+  terminarSimulacro();
+}
+
+function anteriorPregunta(){
+  if(indiceActual <= 0) return;
+
+  indiceActual--;
+  renderPregunta();
+}
+
+function actualizarProgreso(){
+  if(!preguntas.length) return;
+
+  const pct =
+    Math.round(((indiceActual + 1) / preguntas.length) * 100);
+
+  document.getElementById("progressFill").style.width =
+    pct + "%";
+
+  document.getElementById("progresoTexto").innerText =
+    pct + "%";
+}
+
+function calcularStats(){
+  let aciertos = 0;
+  let errores = 0;
+  let respondidas = 0;
+
+  const temas = {};
+
+  preguntas.forEach((p, i) => {
+    if(!preguntasValidadas[i]) return;
+
+    respondidas++;
+
+    const tema = p.tema || "General";
+
+    if(!temas[tema]){
+      temas[tema] = {
+        total:0,
+        correctas:0
+      };
+    }
+
+    temas[tema].total++;
+
+    if(respuestasUsuario[i] === String(p.respuesta || "").toLowerCase()){
+      aciertos++;
+      temas[tema].correctas++;
+    }else{
+      errores++;
+    }
+  });
+
+  return {
+    aciertos,
+    errores,
+    respondidas,
+    temas
+  };
+}
+
+function actualizarPanel(){
+  const s = calcularStats();
+
+  document.getElementById("aciertos").innerText = s.aciertos;
+  document.getElementById("errores").innerText = s.errores;
+  document.getElementById("respondidas").innerText = s.respondidas;
+
+  const precision =
+    s.respondidas
+      ? Math.round((s.aciertos / s.respondidas) * 100)
+      : 0;
+
+  document.getElementById("precision").innerText =
+    precision + "%";
+
+  const box = document.getElementById("resultadosTemas");
+  const nombres = Object.keys(s.temas);
+
+  if(!nombres.length){
+    box.innerHTML =
+      '<div class="tema"><b>Sin datos</b><span>—</span></div>';
+
+    return;
+  }
+
+  box.innerHTML = nombres.map(nombre => {
+    const t = s.temas[nombre];
+
+    const pct =
+      Math.round((t.correctas / t.total) * 100);
+
+    return `
+      <div class="tema">
+        <b>${escapeHtml(nombre)}</b>
+        <span>${pct}%</span>
+      </div>
+    `;
+  }).join("");
+}
+
+function terminarSimulacro(){
+  actualizarPanel();
+
+  const s = calcularStats();
+
+  const precision =
+    preguntas.length
+      ? Math.round((s.aciertos / preguntas.length) * 100)
+      : 0;
+
+  document.getElementById("zonaExamen").classList.add("hidden");
+  document.getElementById("resultadoFinal").classList.add("visible");
+
+  document.getElementById("notaFinal").innerText =
+    precision + "%";
+
+  let mensaje = "";
+
+  if(precision >= 85){
+    mensaje =
+      "Muy buen desempeño. Mantén el nivel y revisa los pocos errores para llegar más seguro a la prueba.";
+  }
+  else if(precision >= 70){
+    mensaje =
+      "Buen avance. Ya tienes una base sólida, pero conviene reforzar los temas con menor porcentaje.";
+  }
+  else if(precision >= 50){
+    mensaje =
+      "Tienes una base, pero todavía hay vacíos importantes. Revisa tus errores y vuelve a practicar por temas.";
+  }
+  else{
+    mensaje =
+      "Este resultado sirve como diagnóstico. Empieza por los temas más débiles y repite prácticas cortas antes de hacer otro simulacro.";
+  }
+
+  document.getElementById("mensajeFinal").innerText =
+    mensaje;
+}
+
+function reiniciarSimulacro(){
+  indiceActual = 0;
+  respuestasUsuario = {};
+  preguntasValidadas = {};
+
+  document.getElementById("resultadoFinal").classList.remove("visible");
+  document.getElementById("zonaExamen").classList.remove("hidden");
+
+  renderPregunta();
+  actualizarPanel();
+}
+
+function escapeHtml(texto){
+  const div = document.createElement("div");
+  div.textContent = String(texto ?? "");
+  return div.innerHTML;
+}
+</script>
+
+</body>
+</html>
