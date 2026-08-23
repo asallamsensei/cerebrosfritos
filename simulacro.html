@@ -81,6 +81,18 @@ h1{
   top:16px;
 }
 
+.estudiante-nombre{
+  margin-top:10px;
+  font-size:18px;
+  font-weight:900;
+  color:#efe9ff;
+  text-shadow:
+    0 0 6px rgba(125,92,255,.8),
+    0 0 14px rgba(125,92,255,.55),
+    0 0 26px rgba(125,92,255,.30);
+  letter-spacing:.4px;
+}
+  
 .topbar{
   display:flex;
   justify-content:space-between;
@@ -365,6 +377,7 @@ h1{
     <div class="subtitle">
       Práctica de competencias funcionales, comportamentales y temas relacionados con el empleo.
     </div>
+    <div id="estudianteNombre" class="estudiante-nombre"></div>
   </header>
 
   <div class="layout">
@@ -559,7 +572,49 @@ let indiceActual = 0;
 let respuestasUsuario = {};
 let preguntasValidadas = {};
 
-fetch("data/simulacro_anla.json")
+let preguntas = [];
+let indiceActual = 0;
+let respuestasUsuario = {};
+let preguntasValidadas = {};
+
+const ACCESOS = {
+
+  mineria: {
+    estudiante: "Leyla",
+    archivo: "data/simulacro_anla.json"
+  },
+
+  anla: {
+    estudiante: "Estudiante ANLA",
+    archivo: "data/simulacro_anla.json"
+  }
+
+};
+  
+const claveIngresada = prompt("Ingresa tu clave de acceso:")
+  ?.trim()
+  .toLowerCase();
+
+const acceso = ACCESOS[claveIngresada];
+
+if(!acceso){
+
+  document.getElementById("pregunta").innerText =
+    "Clave de acceso incorrecta.";
+
+  document.getElementById("opciones").innerHTML = "";
+
+  document.getElementById("btnResponder").disabled = true;
+  document.getElementById("btnSiguiente").disabled = true;
+  document.getElementById("btnAnterior").disabled = true;
+
+  throw new Error("Clave incorrecta");
+}
+
+document.getElementById("estudianteNombre").innerText =
+  `★ ${acceso.estudiante} ★`;
+
+fetch(acceso.archivo)
   .then(res => {
     if(!res.ok) throw new Error("No se encontró el JSON.");
     return res.json();
