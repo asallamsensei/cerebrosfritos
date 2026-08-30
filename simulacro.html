@@ -449,13 +449,15 @@ h1{
   </div>
 </div>
   
-  <header>
-    <h1>Simulacro ANLA / CNSC ★ Asallam Sensei</h1>
-    <div class="subtitle">
-      Práctica de competencias funcionales, comportamentales y temas relacionados con el empleo.
-    </div>
-    <div id="estudianteNombre" class="estudiante-nombre"></div>
-  </header>
+<header>
+  <h1 id="tituloSimulacro">Simulacro ANLA / CNSC</h1>
+
+  <div class="subtitle" id="subtituloSimulacro">
+    Selecciona tu simulacro mediante la clave de acceso.
+  </div>
+
+  <div id="estudianteNombre" class="estudiante-nombre"></div>
+</header>
 
   <div class="layout">
 
@@ -653,11 +655,15 @@ const ACCESOS = {
 
   mina: {
     estudiante: "Leyla",
+    titulo: "Simulacro ANLA / CNSC ★ Competencia Funcional",
+    subtitulo: "Práctica general de competencias funcionales para la preparación del proceso ANLA / CNSC.",
     archivo: "data/simulacro_anla.json"
   },
 
   licencias: {
-    estudiante: "Leyla — Licencias Ambientales",
+    estudiante: "Leyla",
+    titulo: "Simulacro ANLA / CNSC ★ Licencias Ambientales",
+    subtitulo: "Ley 99 de 1993 — Arts. 1–4 y 49–57 · Decreto 1076 de 2015 — Capítulo 3 Licencias Ambientales.",
     archivo: "data/simulacro_ley99_decreto1076_licencias_ambientales.json"
   }
 
@@ -683,11 +689,21 @@ function validarClave(){
 
   document.getElementById("estudianteNombre").innerText =
     `★ ${acceso.estudiante} ★`;
-
+  
+  document.getElementById("tituloSimulacro").innerText =
+    acceso.titulo;
+  
+  document.getElementById("subtituloSimulacro").innerText =
+    acceso.subtitulo;
+  
+  // También cambia el título de la pestaña del navegador
+  document.title = acceso.titulo;
+  
   document.getElementById("pantallaAcceso").style.display =
     "none";
-
+  
   cargarSimulacro(acceso.archivo);
+  
 }
 
 document.getElementById("inputClave")
