@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Principios generales ambientales",
+    "pregunta": "Una autoridad descarta adoptar medidas preventivas frente a un riesgo de daño ambiental grave e irreversible porque aún no existe certeza científica absoluta. ¿Qué principio del artículo 1 de la Ley 99 de 1993 resulta directamente desconocido?",
+    "opciones": {
+      "a": "Principio de descentralización.",
+      "b": "Principio de precaución.",
+      "c": "Principio de publicidad.",
+      "d": "Principio de autonomía territorial."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 1 dispone que, ante peligro de daño grave e irreversible, la falta de certeza científica absoluta no puede utilizarse para postergar medidas eficaces dirigidas a impedir la degradación ambiental."
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Principios generales ambientales",
+    "pregunta": "De acuerdo con la Ley 99 de 1993, cuando existe competencia entre distintos usos de un recurso hídrico, ¿cuál debe recibir prioridad?",
+    "opciones": {
+      "a": "El uso industrial.",
+      "b": "El uso agrícola.",
+      "c": "El consumo humano.",
+      "d": "La generación eléctrica."
+    },
+    "respuesta": "c",
+    "explicacion": "El numeral 5 del artículo 1 establece que, en la utilización de los recursos hídricos, el consumo humano tendrá prioridad sobre cualquier otro uso."
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Principios generales ambientales",
+    "pregunta": "¿Cuál de los siguientes espacios recibe protección especial conforme a los principios generales ambientales de la Ley 99 de 1993?",
+    "opciones": {
+      "a": "Únicamente las áreas urbanas consolidadas.",
+      "b": "Páramos, subpáramos, nacimientos de agua y zonas de recarga de acuíferos.",
+      "c": "Exclusivamente los parques urbanos.",
+      "d": "Solo las zonas con explotación minera."
+    },
+    "respuesta": "b",
+    "explicacion": "El numeral 4 del artículo 1 señala expresamente como objeto de protección especial a los páramos, subpáramos, nacimientos de agua y zonas de recarga de acuíferos."
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Principios generales ambientales",
+    "pregunta": "La Ley 99 de 1993 considera que la biodiversidad del país:",
+    "opciones": {
+      "a": "Es un recurso exclusivamente privado.",
+      "b": "Es patrimonio nacional y de interés de la humanidad, por lo que debe protegerse prioritariamente y aprovecharse sosteniblemente.",
+      "c": "Puede aprovecharse sin restricciones cuando exista interés económico.",
+      "d": "Solo debe protegerse dentro de parques nacionales."
+    },
+    "respuesta": "b",
+    "explicacion": "El numeral 2 del artículo 1 califica la biodiversidad como patrimonio nacional y de interés de la humanidad y ordena su protección prioritaria y aprovechamiento sostenible."
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Principios generales ambientales",
+    "pregunta": "Según el artículo 1 de la Ley 99 de 1993, ¿qué instrumento es básico para tomar decisiones sobre obras y actividades que afecten significativamente el medio ambiente natural o artificial?",
+    "opciones": {
+      "a": "El estudio de impacto ambiental.",
+      "b": "El certificado presupuestal.",
+      "c": "El contrato de obra.",
+      "d": "La licencia urbanística."
+    },
+    "respuesta": "a",
+    "explicacion": "El numeral 11 del artículo 1 establece que los estudios de impacto ambiental son el instrumento básico para la toma de decisiones respecto de obras y actividades con afectación ambiental significativa."
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Principios generales ambientales",
+    "pregunta": "La protección y recuperación ambiental del país es concebida por la Ley 99 de 1993 como:",
+    "opciones": {
+      "a": "Una función exclusiva del Ministerio.",
+      "b": "Una tarea conjunta y coordinada entre Estado, comunidad, organizaciones no gubernamentales y sector privado.",
+      "c": "Una obligación exclusiva de los particulares.",
+      "d": "Una actividad reservada a las Corporaciones Autónomas Regionales."
+    },
+    "respuesta": "b",
+    "explicacion": "El numeral 10 del artículo 1 define la acción ambiental como una tarea conjunta y coordinada entre el Estado, la comunidad, las ONG y el sector privado."
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Principios generales ambientales",
+    "pregunta": "El manejo ambiental del país, según la Ley 99 de 1993, debe ser:",
+    "opciones": {
+      "a": "Centralizado, reservado y exclusivamente técnico.",
+      "b": "Descentralizado, democrático y participativo.",
+      "c": "Privado y contractual.",
+      "d": "Temporal y excepcional."
+    },
+    "respuesta": "b",
+    "explicacion": "El numeral 12 del artículo 1 establece que el manejo ambiental del país será descentralizado, democrático y participativo."
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Ministerio y SINA",
+    "pregunta": "Según el artículo 2 de la Ley 99 de 1993, el Ministerio del Medio Ambiente fue creado principalmente como:",
+    "opciones": {
+      "a": "Órgano judicial especializado.",
+      "b": "Organismo rector de la gestión del medio ambiente y de los recursos naturales renovables.",
+      "c": "Empresa industrial y comercial del Estado.",
+      "d": "Autoridad exclusivamente sancionatoria."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 2 lo define como organismo rector de la gestión del medio ambiente y de los recursos naturales renovables."
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Desarrollo sostenible",
+    "pregunta": "¿Cuál opción refleja mejor el concepto de desarrollo sostenible del artículo 3 de la Ley 99 de 1993?",
+    "opciones": {
+      "a": "Crecimiento económico sin considerar límites ecológicos.",
+      "b": "Bienestar social y crecimiento económico sin agotar la base de recursos naturales renovables ni afectar el derecho de las generaciones futuras.",
+      "c": "Prohibición de toda actividad productiva.",
+      "d": "Protección ambiental únicamente cuando no implique costos económicos."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 3 integra crecimiento económico, calidad de vida y bienestar social con la conservación de la base natural y los derechos de las generaciones futuras."
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — SINA",
+    "pregunta": "El Sistema Nacional Ambiental, SINA, es definido por la Ley 99 de 1993 como:",
+    "opciones": {
+      "a": "Una sola entidad administrativa nacional.",
+      "b": "El conjunto de orientaciones, normas, actividades, recursos, programas e instituciones que permiten poner en marcha los principios ambientales de la ley.",
+      "c": "Un fondo financiero para proyectos ambientales.",
+      "d": "Una red exclusiva de Corporaciones Autónomas Regionales."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 4 define el SINA como un sistema integrado por orientaciones, normas, actividades, recursos, programas e instituciones."
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — SINA",
+    "pregunta": "¿Cuál es el orden descendente de jerarquía del SINA indicado en el parágrafo del artículo 4 de la Ley 99 de 1993?",
+    "opciones": {
+      "a": "Municipios, departamentos, CAR, Ministerio.",
+      "b": "Ministerio, Corporaciones Autónomas Regionales, departamentos y distritos o municipios.",
+      "c": "CAR, Ministerio, departamentos y municipios.",
+      "d": "Ministerio, departamentos, municipios y CAR."
+    },
+    "respuesta": "b",
+    "explicacion": "El parágrafo del artículo 4 fija ese orden descendente: Ministerio, Corporaciones Autónomas Regionales, departamentos y distritos o municipios."
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Licencia ambiental",
+    "pregunta": "Conforme al artículo 49 de la Ley 99 de 1993, una obra, industria o actividad requiere licencia ambiental cuando:",
+    "opciones": {
+      "a": "Toda actividad económica, sin excepción.",
+      "b": "Pueda producir deterioro grave a los recursos naturales renovables o al medio ambiente, o introducir modificaciones considerables o notorias al paisaje.",
+      "c": "Sea ejecutada por una entidad pública.",
+      "d": "Supere un año de duración."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 49 vincula la obligatoriedad de la licencia con la posibilidad de deterioro grave ambiental o modificaciones considerables o notorias al paisaje, conforme a la ley y los reglamentos."
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Licencia ambiental",
+    "pregunta": "La licencia ambiental, según el artículo 50 de la Ley 99 de 1993, es:",
+    "opciones": {
+      "a": "Una autorización de la autoridad ambiental competente sujeta a requisitos de prevención, mitigación, corrección, compensación y manejo.",
+      "b": "Un contrato entre la autoridad y el constructor.",
+      "c": "Un permiso exclusivamente urbanístico.",
+      "d": "Una certificación de inexistencia de impactos."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 50 define la licencia como autorización ambiental condicionada al cumplimiento de requisitos para manejar los efectos ambientales de la obra o actividad."
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Competencia",
+    "pregunta": "Según el artículo 51 de la Ley 99 de 1993, las licencias ambientales serán otorgadas, de acuerdo con las competencias legales, por:",
+    "opciones": {
+      "a": "Únicamente el Ministerio.",
+      "b": "El Ministerio, las Corporaciones Autónomas Regionales y algunos municipios y distritos.",
+      "c": "Exclusivamente las gobernaciones.",
+      "d": "Cualquier entidad territorial."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 51 distribuye la competencia entre el Ministerio, las Corporaciones Autónomas Regionales y algunos municipios y distritos, según lo previsto en la ley."
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Competencia nacional",
+    "pregunta": "Un proyecto afecta directamente un área del Sistema de Parques Nacionales Naturales. Según el artículo 52 de la Ley 99 de 1993, la licencia ambiental corresponde de manera privativa a:",
+    "opciones": {
+      "a": "El municipio.",
+      "b": "La Corporación Autónoma Regional.",
+      "c": "El Ministerio del Medio Ambiente.",
+      "d": "La gobernación."
+    },
+    "respuesta": "c",
+    "explicacion": "El numeral 9 del artículo 52 incluye entre los casos de competencia privativa del Ministerio los proyectos que afecten el Sistema de Parques Nacionales Naturales."
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Competencia nacional",
+    "pregunta": "La construcción de un aeropuerto internacional, conforme al artículo 52 de la Ley 99 de 1993, corresponde en materia de licencia ambiental a:",
+    "opciones": {
+      "a": "La autoridad municipal.",
+      "b": "El Ministerio del Medio Ambiente, de manera privativa.",
+      "c": "La autoridad departamental.",
+      "d": "Cualquier autoridad ambiental concurrentemente."
+    },
+    "respuesta": "b",
+    "explicacion": "El numeral 5 del artículo 52 atribuye al Ministerio la licencia ambiental de los aeropuertos internacionales."
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Competencia nacional",
+    "pregunta": "Una represa proyectada tendrá capacidad superior a doscientos millones de metros cúbicos. De acuerdo con el artículo 52 de la Ley 99 de 1993, ¿quién tiene competencia privativa para la licencia?",
+    "opciones": {
+      "a": "La CAR.",
+      "b": "El municipio.",
+      "c": "El Ministerio del Medio Ambiente.",
+      "d": "El departamento."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 52 incluye las presas, represas o embalses con capacidad superior a doscientos millones de metros cúbicos dentro de la competencia privativa nacional."
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Delegación",
+    "pregunta": "Una Corporación Autónoma Regional pretende delegar a una entidad territorial el otorgamiento de una licencia para una obra que ejecutará esa misma entidad territorial. Según el artículo 54 de la Ley 99 de 1993:",
+    "opciones": {
+      "a": "Puede hacerlo sin limitación.",
+      "b": "No puede delegar en ese caso.",
+      "c": "Solo puede delegar si lo autoriza el Ministerio de Hacienda.",
+      "d": "Debe transferir además todas sus competencias ambientales."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 54 permite delegación, salvo para obras o actividades realizadas por la misma entidad territorial en la que se pretende delegar."
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — Grandes ciudades",
+    "pregunta": "Según el artículo 55 de la Ley 99 de 1993, las grandes ciudades adquieren competencia ambiental dentro de su perímetro urbano cuando su población urbana es:",
+    "opciones": {
+      "a": "Superior a 100.000 habitantes.",
+      "b": "Superior a 500.000 habitantes.",
+      "c": "Superior a 1.000.000 de habitantes.",
+      "d": "Superior a 2.000.000 de habitantes."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 55 utiliza el umbral de población urbana superior a un millón de habitantes."
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — DAA",
+    "pregunta": "¿Cuál es la finalidad principal del Diagnóstico Ambiental de Alternativas descrito en el artículo 56 de la Ley 99 de 1993?",
+    "opciones": {
+      "a": "Imponer una sanción al promotor.",
+      "b": "Comparar alternativas de localización y sus efectos, riesgos y posibles medidas de manejo antes de definir sobre cuál se elaborará el EIA.",
+      "c": "Sustituir definitivamente el estudio de impacto ambiental.",
+      "d": "Autorizar el inicio inmediato del proyecto."
+    },
+    "respuesta": "b",
+    "explicacion": "El DAA compara alternativas del proyecto considerando entorno, efectos, riesgos y medidas de control y mitigación, para que la autoridad seleccione la alternativa base del EIA."
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 99 de 1993 — EIA",
+    "pregunta": "Según el artículo 57 de la Ley 99 de 1993, el Estudio de Impacto Ambiental debe incluir, entre otros elementos:",
+    "opciones": {
+      "a": "Solo la descripción financiera del proyecto.",
+      "b": "Localización, componentes abióticos, bióticos y socioeconómicos, evaluación de impactos y planes de prevención, mitigación, corrección y compensación.",
+      "c": "Únicamente la relación de contratistas.",
+      "d": "Solo un mapa general del municipio."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 57 exige información del proyecto y del medio potencialmente afectado, evaluación de impactos y diseño de medidas de manejo, incluido el plan de manejo ambiental."
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Definiciones",
+    "pregunta": "En el Capítulo 3 del Decreto 1076 de 2015, un impacto ambiental puede ser:",
+    "opciones": {
+      "a": "Únicamente adverso.",
+      "b": "Adverso o beneficioso, total o parcial, atribuible a un proyecto, obra o actividad.",
+      "c": "Solo económico.",
+      "d": "Exclusivamente irreversible."
+    },
+    "respuesta": "b",
+    "explicacion": "La definición reglamentaria comprende cualquier alteración en los medios biótico, abiótico y socioeconómico, adversa o beneficiosa, total o parcial, atribuible al proyecto."
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Medidas de manejo",
+    "pregunta": "Una medida dirigida a evitar que se produzca un impacto ambiental negativo corresponde a una medida de:",
+    "opciones": {
+      "a": "Compensación.",
+      "b": "Corrección.",
+      "c": "Prevención.",
+      "d": "Seguimiento."
+    },
+    "respuesta": "c",
+    "explicacion": "Las medidas de prevención son las acciones encaminadas a evitar los impactos y efectos negativos que pueda generar el proyecto."
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Medidas de manejo",
+    "pregunta": "Si un impacto negativo no puede ser evitado, corregido ni mitigado y se adoptan acciones para resarcir y retribuir a comunidades y entorno natural, se trata de:",
+    "opciones": {
+      "a": "Prevención.",
+      "b": "Compensación.",
+      "c": "Corrección.",
+      "d": "Auditoría."
+    },
+    "respuesta": "b",
+    "explicacion": "La compensación busca resarcir y retribuir por impactos negativos que no pueden ser evitados, corregidos o mitigados."
+  },
+  {
+    "id": 25,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Autoridades competentes",
+    "pregunta": "¿Cuál de las siguientes aparece expresamente como autoridad competente para otorgar o negar licencias ambientales en el Decreto 1076 de 2015?",
+    "opciones": {
+      "a": "La ANLA.",
+      "b": "La Procuraduría General.",
+      "c": "La Contraloría General.",
+      "d": "El Consejo de Estado."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 2.2.2.3.1.2 incluye expresamente a la Autoridad Nacional de Licencias Ambientales —ANLA—."
+  },
+  {
+    "id": 26,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Autoridades competentes",
+    "pregunta": "Para delegar su competencia de licenciamiento en entidades territoriales, una CAR debe considerar especialmente:",
+    "opciones": {
+      "a": "La afinidad política de la administración local.",
+      "b": "La capacidad técnica, económica, administrativa y operativa de la entidad territorial.",
+      "c": "El tamaño físico del municipio únicamente.",
+      "d": "La existencia de una empresa pública local."
+    },
+    "respuesta": "b",
+    "explicacion": "El Decreto exige considerar especialmente la capacidad técnica, económica, administrativa y operativa de la entidad territorial que recibiría la delegación."
+  },
+  {
+    "id": 27,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Concepto y alcance",
+    "pregunta": "¿Cuál afirmación es correcta sobre la licencia ambiental en el Decreto 1076 de 2015?",
+    "opciones": {
+      "a": "Puede obtenerse después de iniciar la construcción.",
+      "b": "Debe obtenerse previamente a la iniciación del proyecto, obra o actividad.",
+      "c": "Solo se exige al finalizar la obra.",
+      "d": "Es opcional si existe un permiso sectorial."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 2.2.2.3.1.3 dispone expresamente que la licencia debe obtenerse previamente al inicio del proyecto, obra o actividad."
+  },
+  {
+    "id": 28,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Concepto y alcance",
+    "pregunta": "Un proyecto licenciado necesita permisos para uso y aprovechamiento de recursos naturales renovables durante su vida útil. Como regla del Decreto 1076 de 2015:",
+    "opciones": {
+      "a": "Todos deben tramitarse siempre en expedientes completamente independientes.",
+      "b": "La licencia ambiental lleva implícitos los permisos, autorizaciones y concesiones ambientales necesarios para el proyecto.",
+      "c": "Los permisos dejan de existir jurídicamente.",
+      "d": "Solo pueden otorgarse al finalizar la fase de construcción."
+    },
+    "respuesta": "b",
+    "explicacion": "La licencia ambiental lleva implícitos los permisos, autorizaciones y concesiones para el uso, aprovechamiento o afectación de recursos naturales renovables necesarios por la vida útil del proyecto."
+  },
+  {
+    "id": 29,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Concepto y alcance",
+    "pregunta": "Respecto del número de licencias ambientales por proyecto, el Decreto 1076 de 2015 establece que:",
+    "opciones": {
+      "a": "Se requiere una por cada fase.",
+      "b": "Se requiere una por cada permiso de recursos naturales.",
+      "c": "Ningún proyecto, obra o actividad requerirá más de una licencia ambiental.",
+      "d": "La autoridad decide libremente cuántas exige."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 2.2.2.3.1.3 consagra expresamente que ningún proyecto, obra o actividad requerirá más de una licencia ambiental."
+  },
+  {
+    "id": 30,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Licencia global",
+    "pregunta": "La licencia ambiental global prevista en el Decreto 1076 de 2015 se aplica al desarrollo de obras y actividades relacionadas con proyectos de:",
+    "opciones": {
+      "a": "Explotación minera y de hidrocarburos.",
+      "b": "Cualquier comercio minorista.",
+      "c": "Construcción de vivienda urbana.",
+      "d": "Servicios educativos."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 2.2.2.3.1.4 regula la licencia ambiental global para proyectos de explotación minera y de hidrocarburos."
+  },
+  {
+    "id": 31,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Licencia global",
+    "pregunta": "En una licencia ambiental global de hidrocarburos, una vez presentado el plan de manejo ambiental correspondiente a las actividades y obras definidas:",
+    "opciones": {
+      "a": "Siempre debe esperarse una nueva licencia independiente.",
+      "b": "El plan no está sujeto a evaluación previa y las obras pueden iniciarse, quedando sujetas a control y seguimiento ambiental.",
+      "c": "El proyecto queda exento de seguimiento.",
+      "d": "La licencia global pierde vigencia."
+    },
+    "respuesta": "b",
+    "explicacion": "El Decreto señala que ese plan de manejo ambiental no está sujeto a evaluación previa; una vez presentado, el interesado puede iniciar las obras y actividades, las cuales quedan sujetas a control y seguimiento."
+  },
+  {
+    "id": 32,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Relación con otras licencias",
+    "pregunta": "La obtención de la licencia ambiental frente a permisos, autorizaciones, concesiones, contratos y licencias expedidos por autoridades no ambientales es:",
+    "opciones": {
+      "a": "Posterior y facultativa.",
+      "b": "Condición previa para ejercer los derechos derivados de esos instrumentos.",
+      "c": "Irrelevante.",
+      "d": "Sustituida por el registro mercantil."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 2.2.2.3.1.5 establece que la obtención de la licencia ambiental es condición previa para ejercer los derechos derivados de autorizaciones de otras autoridades."
+  },
+  {
+    "id": 33,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Término de la licencia",
+    "pregunta": "La licencia ambiental se otorga, según el Decreto 1076 de 2015:",
+    "opciones": {
+      "a": "Por un máximo fijo de cinco años.",
+      "b": "Por la vida útil del proyecto, obra o actividad y cobija sus distintas fases.",
+      "c": "Solo por la etapa de construcción.",
+      "d": "Hasta la primera visita de seguimiento."
+    },
+    "respuesta": "b",
+    "explicacion": "La licencia se otorga por la vida útil del proyecto y cobija construcción, montaje, operación, mantenimiento, desmantelamiento, restauración final, abandono y/o terminación."
+  },
+  {
+    "id": 34,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Exigibilidad",
+    "pregunta": "¿Qué proyectos, obras o actividades están sujetos a licencia ambiental bajo la regla del artículo 2.2.2.3.2.1 del Decreto 1076 de 2015?",
+    "opciones": {
+      "a": "Todos los que una autoridad considere ambientalmente relevantes, aunque no estén listados.",
+      "b": "Únicamente los enumerados en los artículos 2.2.2.3.2.2 y 2.2.2.3.2.3.",
+      "c": "Todos los proyectos públicos.",
+      "d": "Solo los proyectos nacionales."
+    },
+    "respuesta": "b",
+    "explicacion": "La regla reglamentaria de exigibilidad establece que estarán sujetos a licencia únicamente los proyectos, obras y actividades enumerados en esos artículos."
+  },
+  {
+    "id": 35,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Competencia ANLA",
+    "pregunta": "Una explotación de carbón proyecta una producción de 850.000 toneladas por año. Conforme al umbral indicado en el Decreto 1076 de 2015 para el sector minero, la competencia para otorgar o negar la licencia corresponde de manera privativa a:",
+    "opciones": {
+      "a": "La ANLA.",
+      "b": "El municipio.",
+      "c": "La gobernación.",
+      "d": "La autoridad de tránsito."
+    },
+    "respuesta": "a",
+    "explicacion": "Para carbón, la competencia privativa de la ANLA aplica cuando la explotación proyectada es mayor o igual a 800.000 toneladas por año."
+  },
+  {
+    "id": 36,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Competencia ANLA",
+    "pregunta": "La construcción de una presa con capacidad superior a 200.000.000 de metros cúbicos de agua corresponde, según el Decreto 1076 de 2015, a competencia de:",
+    "opciones": {
+      "a": "La ANLA.",
+      "b": "Una alcaldía local.",
+      "c": "La superintendencia de servicios.",
+      "d": "La autoridad catastral."
+    },
+    "respuesta": "a",
+    "explicacion": "El listado de competencia privativa de la ANLA incluye la construcción de presas, represas o embalses con capacidad mayor de 200 millones de metros cúbicos de agua."
+  },
+  {
+    "id": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Estudios ambientales",
+    "pregunta": "¿Cuáles son los estudios ambientales señalados expresamente en el Capítulo 3 del Decreto 1076 de 2015?",
+    "opciones": {
+      "a": "Diagnóstico Ambiental de Alternativas y Estudio de Impacto Ambiental.",
+      "b": "Plan de Ordenamiento Territorial y licencia urbanística.",
+      "c": "Auditoría fiscal y estudio financiero.",
+      "d": "Plan de desarrollo y estudio de mercado."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 2.2.2.3.3.1 identifica como estudios ambientales el DAA y el EIA."
+  },
+  {
+    "id": 38,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Términos de referencia",
+    "pregunta": "Los términos de referencia para estudios ambientales son:",
+    "opciones": {
+      "a": "Lineamientos generales señalados por la autoridad ambiental para elaborar y ejecutar los estudios ambientales.",
+      "b": "La resolución final que otorga la licencia.",
+      "c": "Un contrato de consultoría obligatorio.",
+      "d": "Un permiso para iniciar obra."
+    },
+    "respuesta": "a",
+    "explicacion": "El Decreto los define como lineamientos generales para la elaboración y ejecución de los estudios ambientales que deben presentarse a la autoridad competente."
+  },
+  {
+    "id": 39,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Términos de referencia",
+    "pregunta": "Cuando el Ministerio no haya expedido términos de referencia para un determinado Estudio de Impacto Ambiental, la autoridad ambiental competente debe fijarlos específicamente dentro de:",
+    "opciones": {
+      "a": "Cinco días calendario.",
+      "b": "Quince días hábiles siguientes a la presentación de la solicitud.",
+      "c": "Treinta días calendario.",
+      "d": "Seis meses."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 2.2.2.3.3.2 prevé un término de quince días hábiles para fijar términos de referencia específicos cuando no existan términos expedidos por el Ministerio."
+  },
+  {
+    "id": 40,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — DAA",
+    "pregunta": "Al solicitar que la autoridad determine si un proyecto requiere Diagnóstico Ambiental de Alternativas, el interesado debe aportar, entre otros elementos:",
+    "opciones": {
+      "a": "Descripción, objetivo y alcance del proyecto y su localización mediante coordenadas y planos.",
+      "b": "Únicamente el nombre comercial del proyecto.",
+      "c": "Una licencia ya otorgada.",
+      "d": "Solo el presupuesto de publicidad."
+    },
+    "respuesta": "a",
+    "explicacion": "El trámite de pronunciamiento sobre la exigibilidad del DAA exige describir el proyecto, su objetivo y alcance y aportar su localización mediante coordenadas y planos."
+  },
+  {
+    "id": 41,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — DAA",
+    "pregunta": "Radicada la solicitud para que se determine la necesidad de presentar DAA, la autoridad ambiental debe pronunciarse inicialmente dentro de:",
+    "opciones": {
+      "a": "Cinco días hábiles.",
+      "b": "Diez días calendario.",
+      "c": "Quince días hábiles.",
+      "d": "Cuarenta y cinco días hábiles."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 2.2.2.3.6.1 establece un plazo de quince días hábiles para que la autoridad se pronuncie sobre la necesidad de presentar o no DAA."
+  },
+  {
+    "id": 42,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — DAA",
+    "pregunta": "Si el solicitante no allega la información requerida dentro del trámite de pronunciamiento sobre el DAA en los términos establecidos:",
+    "opciones": {
+      "a": "La licencia se entiende automáticamente otorgada.",
+      "b": "La autoridad ordenará el archivo de la solicitud y devolverá la documentación aportada.",
+      "c": "Se impone automáticamente una sanción penal.",
+      "d": "La autoridad debe escoger la alternativa sin información adicional."
+    },
+    "respuesta": "b",
+    "explicacion": "El procedimiento prevé el archivo de la solicitud de pronunciamiento sobre el DAA y la devolución de la documentación cuando la información requerida no es allegada oportunamente."
+  },
+  {
+    "id": 43,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — DAA",
+    "pregunta": "Una vez allegada la información requerida dentro del trámite de evaluación del DAA, la autoridad dispone de cuánto tiempo para evaluarlo, elegir la alternativa y fijar los términos de referencia respectivos?",
+    "opciones": {
+      "a": "Diez días hábiles.",
+      "b": "Treinta días calendario.",
+      "c": "Cuarenta y cinco días hábiles.",
+      "d": "Dos meses."
+    },
+    "respuesta": "a",
+    "explicacion": "El procedimiento establece un término de diez días hábiles para evaluar el DAA, elegir la alternativa y fijar los términos de referencia respectivos una vez allegada la información."
+  },
+  {
+    "id": 44,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — EIA",
+    "pregunta": "En la evaluación del Estudio de Impacto Ambiental, la autoridad debe verificar especialmente que:",
+    "opciones": {
+      "a": "El estudio garantice que no existirá ningún impacto.",
+      "b": "Contenga información relevante y suficiente sobre identificación y calificación de impactos, incluidos los que no puedan evitarse o mitigarse, y las medidas de manejo correspondientes.",
+      "c": "El promotor haya obtenido previamente todas las licencias no ambientales.",
+      "d": "El proyecto tenga rentabilidad financiera."
+    },
+    "respuesta": "b",
+    "explicacion": "Los criterios de evaluación exigen información relevante y suficiente sobre impactos, incluidos aquellos que no pueden evitarse o mitigarse, y las medidas de manejo ambiental correspondientes."
+  },
+  {
+    "id": 45,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Solicitud de licencia",
+    "pregunta": "Cuando no se requiere pronunciamiento sobre DAA, o este ya fue surtido, el interesado debe radicar para solicitar la licencia ambiental:",
+    "opciones": {
+      "a": "El Estudio de Impacto Ambiental y la documentación exigida por el decreto.",
+      "b": "Solo una carta de intención.",
+      "c": "Únicamente el certificado de existencia y representación legal.",
+      "d": "Un proyecto de acto administrativo."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 2.2.2.3.6.2 exige radicar el EIA y anexar la documentación prevista, como formulario único, planos, costo estimado y poder cuando corresponda."
+  },
+  {
+    "id": 46,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Solicitud de licencia",
+    "pregunta": "¿Cuál de los siguientes documentos aparece expresamente entre los requisitos de la solicitud de licencia ambiental?",
+    "opciones": {
+      "a": "Formulario Único de Licencia Ambiental.",
+      "b": "Registro electoral del representante legal.",
+      "c": "Certificado de tradición de todos los predios del municipio.",
+      "d": "Declaración juramentada de inexistencia de impactos."
+    },
+    "respuesta": "a",
+    "explicacion": "El Formulario Único de Licencia Ambiental aparece expresamente como uno de los requisitos de la solicitud."
+  },
+  {
+    "id": 47,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Modificación",
+    "pregunta": "Una modificación de licencia ambiental que pueda generar nuevos impactos debe acompañarse, entre otros documentos, de:",
+    "opciones": {
+      "a": "El complemento del EIA con descripción y evaluación de los nuevos impactos y propuesta de ajuste al plan de manejo ambiental.",
+      "b": "Solo una carta informal del contratista.",
+      "c": "Una nueva licencia independiente para todo el proyecto.",
+      "d": "Un certificado de no afectación ambiental sin soporte."
+    },
+    "respuesta": "a",
+    "explicacion": "Los requisitos de modificación incluyen el complemento del EIA con los nuevos impactos, si los hubiera, y la propuesta de ajuste del plan de manejo ambiental."
+  },
+  {
+    "id": 48,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Cambio de solicitante",
+    "pregunta": "Durante el trámite para otorgar una licencia ambiental, los interesados solicitan cambiar al solicitante. Conforme al Decreto 1076 de 2015:",
+    "opciones": {
+      "a": "El trámite debe comenzar desde cero.",
+      "b": "El cambio de solicitante puede hacerse y no afecta el trámite de la licencia.",
+      "c": "El cambio está prohibido.",
+      "d": "Solo puede hacerse después de otorgada la licencia."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 2.2.2.3.8.3 permite el cambio de solicitante durante el trámite y dispone que no afecta la actuación de licenciamiento."
+  },
+  {
+    "id": 49,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Cesión",
+    "pregunta": "La cesión total o parcial de una licencia ambiental implica:",
+    "opciones": {
+      "a": "Solo transferir beneficios económicos.",
+      "b": "La cesión de los derechos y obligaciones derivados de la licencia.",
+      "c": "Eliminar las obligaciones ambientales existentes.",
+      "d": "Expedir automáticamente una nueva licencia sin trámite."
+    },
+    "respuesta": "b",
+    "explicacion": "La cesión total o parcial comprende los derechos y las obligaciones derivados de la licencia ambiental."
+  },
+  {
+    "id": 50,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Cesión",
+    "pregunta": "La autoridad ambiental debe pronunciarse sobre una solicitud de cesión de licencia ambiental dentro de:",
+    "opciones": {
+      "a": "Cinco días hábiles.",
+      "b": "Quince días calendario.",
+      "c": "Treinta días hábiles.",
+      "d": "Noventa días hábiles."
+    },
+    "respuesta": "c",
+    "explicacion": "El Decreto establece que la autoridad se pronunciará sobre la cesión dentro de los treinta días hábiles siguientes al recibo de la solicitud."
+  },
+  {
+    "id": 51,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Cesión",
+    "pregunta": "Una cesión parcial de licencia ambiental procede cuando:",
+    "opciones": {
+      "a": "Las obligaciones pueden fraccionarse y las actividades son divisibles.",
+      "b": "El cedente desea liberarse de cualquier obligación, aunque el proyecto sea indivisible.",
+      "c": "La licencia tiene más de cinco años.",
+      "d": "La autoridad territorial no tiene competencia."
+    },
+    "respuesta": "a",
+    "explicacion": "La cesión parcial solo procede cuando las obligaciones puedan fraccionarse, lo que supone que las actividades propias de la ejecución tengan carácter divisible."
+  },
+  {
+    "id": 52,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Cesación del trámite",
+    "pregunta": "Si durante un trámite se determina que el proyecto ya no requiere licencia ambiental conforme al Decreto 1076 de 2015, la autoridad competente:",
+    "opciones": {
+      "a": "Debe otorgar una licencia preventiva.",
+      "b": "Declarará la cesación del trámite y ordenará el archivo, sin perjuicio de los permisos ambientales que sí sean necesarios.",
+      "c": "Debe imponer un plan de manejo ambiental en todos los casos.",
+      "d": "Debe remitir automáticamente el trámite a un juez."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 2.2.2.3.8.8 prevé la cesación y archivo cuando el proyecto no requiera licencia o el instrumento correspondiente, sin perjuicio de permisos, concesiones o autorizaciones ambientales aplicables."
+  },
+  {
+    "id": 53,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Control y seguimiento",
+    "pregunta": "¿Cuál de las siguientes es una finalidad del control y seguimiento ambiental?",
+    "opciones": {
+      "a": "Reemplazar al titular en la ejecución del proyecto.",
+      "b": "Constatar y exigir el cumplimiento de términos, obligaciones y condiciones de la licencia o plan de manejo ambiental.",
+      "c": "Modificar automáticamente el objeto social del titular.",
+      "d": "Garantizar rentabilidad financiera."
+    },
+    "respuesta": "b",
+    "explicacion": "Entre las finalidades del seguimiento está verificar y exigir el cumplimiento de todas las obligaciones y condiciones derivadas de la licencia ambiental o plan de manejo ambiental."
+  },
+  {
+    "id": 54,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Control y seguimiento",
+    "pregunta": "Durante el seguimiento, la autoridad identifica impactos ambientales no previstos en los estudios del proyecto. El Decreto 1076 de 2015 permite:",
+    "opciones": {
+      "a": "Ignorarlos porque no estaban en el EIA.",
+      "b": "Imponer medidas ambientales adicionales para prevenir, mitigar o corregir esos impactos.",
+      "c": "Autorizar al titular para suspender todo seguimiento.",
+      "d": "Trasladar obligatoriamente el proyecto a otra jurisdicción."
+    },
+    "respuesta": "b",
+    "explicacion": "El control y seguimiento permite imponer medidas ambientales adicionales para prevenir, mitigar o corregir impactos no previstos en los estudios ambientales."
+  },
+  {
+    "id": 55,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Control y seguimiento",
+    "pregunta": "Entre las actividades que puede realizar la autoridad ambiental durante el seguimiento se encuentra:",
+    "opciones": {
+      "a": "Visitar el lugar del proyecto, formular requerimientos y corroborar técnicamente resultados de monitoreo.",
+      "b": "Modificar contratos laborales del titular.",
+      "c": "Intervenir sus cuentas bancarias sin procedimiento.",
+      "d": "Sustituir al representante legal."
+    },
+    "respuesta": "a",
+    "explicacion": "El Decreto habilita visitas, requerimientos, imposición de obligaciones ambientales y verificación técnica o mediante pruebas de los resultados de monitoreo."
+  },
+  {
+    "id": 56,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Decreto 1076 de 2015 — Control y seguimiento",
+    "pregunta": "Para proyectos que pretendan iniciar su fase de construcción, la primera visita de seguimiento debe realizarse, de acuerdo con la naturaleza del proyecto, en un plazo no mayor a:",
+    "opciones": {
+      "a": "Dos meses después del inicio de las actividades de construcción.",
+      "b": "Seis meses después del cierre.",
+      "c": "Un año después del inicio.",
+      "d": "Treinta días antes de presentar el EIA."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo de control y seguimiento prevé una primera visita en un término no mayor a dos meses después del inicio de las actividades de construcción, de acuerdo con la naturaleza del proyecto."
+  },
+  {
+    "id": 57,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Integración normativa — Ley 99 de 1993 y Decreto 1076 de 2015",
+    "pregunta": "Un promotor sostiene que, como ya elaboró el Estudio de Impacto Ambiental, puede iniciar el proyecto sin esperar la licencia. ¿Cuál respuesta es correcta?",
+    "opciones": {
+      "a": "Sí, porque el EIA equivale a la licencia.",
+      "b": "No. El EIA es un estudio que sirve de soporte a la evaluación; la licencia es la autorización que debe obtenerse antes de iniciar el proyecto.",
+      "c": "Sí, siempre que el proyecto dure menos de un año.",
+      "d": "Sí, si ya informó a la CAR."
+    },
+    "respuesta": "b",
+    "explicacion": "La Ley 99 distingue el EIA de la licencia y el Decreto 1076 exige obtener la licencia previamente al inicio. El EIA no autoriza por sí mismo la ejecución."
+  },
+  {
+    "id": 58,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Integración normativa — Ley 99 de 1993 y Decreto 1076 de 2015",
+    "pregunta": "Un proyecto genera un impacto que puede evitarse cambiando el diseño antes de construir. Desde la lógica conjunta de la Ley 99 y el Decreto 1076, la respuesta ambiental preferente es:",
+    "opciones": {
+      "a": "Compensar directamente sin intentar evitarlo.",
+      "b": "Aplicar una medida de prevención para evitar el impacto.",
+      "c": "Esperar a que ocurra y luego corregirlo.",
+      "d": "Excluirlo del EIA."
+    },
+    "respuesta": "b",
+    "explicacion": "El régimen de licenciamiento prioriza la gestión anticipada de impactos. La prevención se dirige precisamente a evitar los impactos y efectos negativos antes de que ocurran."
+  },
+  {
+    "id": 59,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Integración normativa — Ley 99 de 1993 y Decreto 1076 de 2015",
+    "pregunta": "¿Qué relación existe entre el artículo 50 de la Ley 99 de 1993 y el artículo 2.2.2.3.1.3 del Decreto 1076 de 2015?",
+    "opciones": {
+      "a": "Son incompatibles porque uno elimina la licencia ambiental.",
+      "b": "Ambos conciben la licencia como autorización de la autoridad ambiental sujeta a obligaciones de prevención, mitigación, corrección, compensación y manejo.",
+      "c": "La ley define una sanción y el decreto un contrato.",
+      "d": "El decreto convierte la licencia en un permiso exclusivamente urbanístico."
+    },
+    "respuesta": "b",
+    "explicacion": "La reglamentación desarrolla el mismo núcleo conceptual de la Ley 99: autorización ambiental condicionada al manejo de los efectos ambientales del proyecto, obra o actividad."
+  },
+  {
+    "id": 60,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Integración normativa — Caso ANLA",
+    "pregunta": "Un aspirante a un cargo técnico en la ANLA analiza un expediente. ¿Cuál razonamiento refleja mejor el régimen estudiado?",
+    "opciones": {
+      "a": "La existencia de licencia elimina el seguimiento posterior.",
+      "b": "El licenciamiento comprende evaluación previa y, una vez autorizada la actividad, control y seguimiento del cumplimiento de obligaciones e impactos.",
+      "c": "La licencia se limita a verificar requisitos formales de la empresa.",
+      "d": "El EIA reemplaza todas las competencias de la autoridad."
+    },
+    "respuesta": "b",
+    "explicacion": "El régimen no termina con el otorgamiento: la autoridad evalúa previamente y posteriormente controla y sigue el cumplimiento de obligaciones, medidas de manejo, permisos e impactos."
+  }
+]
