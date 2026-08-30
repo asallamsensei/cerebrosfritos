@@ -772,25 +772,31 @@ function renderPregunta(){
     clavesOpciones = fisherYates([...clavesOpciones]);
   }
   
-  clavesOpciones.forEach(letra => {
-  
-    const btn = document.createElement("button");
-  
-    btn.type = "button";
-    btn.className = "opcion";
-    btn.dataset.letra = letra;
-  
-    let etiqueta = letra.toUpperCase();
-  
-    if(p.tipo_pregunta === "verdadero_falso"){
-      etiqueta = "";
-    }
-  
-    btn.innerHTML = p.tipo_pregunta === "verdadero_falso"
-      ? `<strong>${escapeHtml(p.opciones[letra])}</strong>`
-      : `<strong>${etiqueta}.</strong> ${escapeHtml(p.opciones[letra])}`;
-  
-    btn.onclick = () => seleccionarRespuesta(letra);
+clavesOpciones.forEach((letra, indice) => {
+
+  const btn = document.createElement("button");
+
+  btn.type = "button";
+  btn.className = "opcion";
+
+  // Guarda internamente la letra ORIGINAL del JSON
+  btn.dataset.letra = letra;
+
+  // Pero visualmente siempre muestra A, B, C, D en orden
+  const etiquetas = ["A", "B", "C", "D"];
+  let etiqueta = etiquetas[indice] || "";
+
+  if(p.tipo_pregunta === "verdadero_falso"){
+    etiqueta = "";
+  }
+
+  btn.innerHTML = p.tipo_pregunta === "verdadero_falso"
+    ? `<strong>${escapeHtml(p.opciones[letra])}</strong>`
+    : `<strong>${etiqueta}.</strong> ${escapeHtml(p.opciones[letra])}`;
+
+  // Sigue enviando la letra ORIGINAL,
+  // así la validación no se rompe
+  btn.onclick = () => seleccionarRespuesta(letra);
   
     const guardada = respuestasUsuario[indiceActual];
   
