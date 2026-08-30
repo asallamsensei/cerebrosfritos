@@ -863,17 +863,21 @@ function mostrarCorreccion(){
   const seleccion = respuestasUsuario[indiceActual];
   const correcta = String(p.respuesta || "").toLowerCase();
 
-  document.querySelectorAll(".opcion").forEach(btn => {
-    btn.classList.remove("seleccionada");
+document.querySelectorAll(".opcion").forEach(btn => {
 
-    if(btn.dataset.letra === correcta){
-      btn.classList.add("correcta");
-    }
+  btn.classList.remove(
+    "seleccionada",
+    "correcta",
+    "incorrecta"
+  );
 
-    if(btn.dataset.letra === seleccion && seleccion !== correcta){
-      btn.classList.add("incorrecta");
-    }
-  });
+  if(btn.dataset.letra === correcta){
+    btn.classList.add("correcta");
+  }else{
+    btn.classList.add("incorrecta");
+  }
+
+});
 
   const feedback = document.getElementById("feedback");
   const titulo = document.getElementById("feedbackTitulo");
@@ -882,23 +886,21 @@ function mostrarCorreccion(){
   feedback.classList.add("visible");
   feedback.classList.remove("correcto","incorrecto");
 
-  if(seleccion === correcta){
-    feedback.classList.add("correcto");
-    titulo.innerText = "Correcto ✔";
-    sonidoCorrecto();
-  }else{
-    sonidoIncorrecto();
-    feedback.classList.add("incorrecto");
+const textoCorrecto =
+  p.opciones && p.opciones[correcta]
+    ? p.opciones[correcta]
+    : correcta.toUpperCase();
 
-    const textoCorrecto =
-      p.opciones && p.opciones[correcta]
-        ? p.opciones[correcta]
-        : correcta.toUpperCase();
-    
-    titulo.innerText =
-      `Incorrecto ✘ — La respuesta correcta era: ${textoCorrecto}`;   
-    
-  }
+titulo.innerText =
+  `Respuesta correcta: ${textoCorrecto}`;
+
+feedback.classList.add("correcto");
+
+if(seleccion === correcta){
+  sonidoCorrecto();
+}else{
+  sonidoIncorrecto();
+}
 
   explicacion.innerText =
     p.explicacion || "Esta pregunta todavía no tiene explicación.";
