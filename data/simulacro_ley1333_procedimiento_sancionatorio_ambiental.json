@@ -1,0 +1,977 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Potestad sancionatoria",
+    "pregunta": "Según el artículo 1 de la Ley 1333 de 2009, ¿quién es el titular de la potestad sancionatoria en materia ambiental?",
+    "opciones": {
+      "a": "Exclusivamente la ANLA.",
+      "b": "El Estado.",
+      "c": "Únicamente el Ministerio de Ambiente y Desarrollo Sostenible.",
+      "d": "Las Corporaciones Autónomas Regionales, de manera exclusiva."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 1 establece que el Estado es titular de la potestad sancionatoria ambiental, ejercida a través de las autoridades competentes señaladas por la ley y los reglamentos."
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Responsabilidad ambiental",
+    "pregunta": "En materia sancionatoria ambiental, la Ley 1333 de 2009 parte de la presunción de que el infractor actuó:",
+    "opciones": {
+      "a": "Sin culpa ni dolo, hasta sentencia judicial.",
+      "b": "Con culpa o dolo, salvo que logre desvirtuar esa presunción.",
+      "c": "Siempre con dolo directo.",
+      "d": "Siempre por caso fortuito."
+    },
+    "respuesta": "b",
+    "explicacion": "El parágrafo del artículo 1 presume la culpa o el dolo del infractor y le atribuye la carga de desvirtuar dicha presunción mediante los medios probatorios legales."
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Facultad a prevención",
+    "pregunta": "Una autoridad investida de facultad a prevención impone una medida preventiva, pero no es la autoridad ambiental competente para sancionar. ¿Qué debe hacer?",
+    "opciones": {
+      "a": "Imponer también la sanción definitiva.",
+      "b": "Archivar inmediatamente la actuación.",
+      "c": "Trasladar las actuaciones a la autoridad ambiental competente dentro de los cinco días hábiles siguientes.",
+      "d": "Esperar a que el investigado solicite el traslado."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 2 permite imponer y ejecutar medidas preventivas a prevención, pero exige trasladar las actuaciones a la autoridad ambiental competente dentro de los cinco días hábiles siguientes."
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Competencia sancionatoria",
+    "pregunta": "¿Quién debe imponer la sanción ambiental cuando existe una licencia, permiso, concesión u otro instrumento ambiental?",
+    "opciones": {
+      "a": "Cualquier autoridad con facultad a prevención.",
+      "b": "La autoridad ambiental competente para otorgar el respectivo instrumento ambiental.",
+      "c": "La Policía Nacional exclusivamente.",
+      "d": "La autoridad territorial de mayor nivel."
+    },
+    "respuesta": "b",
+    "explicacion": "El parágrafo 1 del artículo 2 dispone que la sanción corresponde a la autoridad ambiental competente para otorgar el respectivo instrumento de manejo y control ambiental."
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Principios rectores",
+    "pregunta": "El procedimiento sancionatorio ambiental se rige, entre otros, por:",
+    "opciones": {
+      "a": "Solo principios del derecho penal.",
+      "b": "Los principios constitucionales y legales de las actuaciones administrativas y los principios ambientales aplicables.",
+      "c": "Exclusivamente la autonomía de la voluntad.",
+      "d": "Únicamente el principio de oportunidad."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 3 remite a los principios constitucionales y legales de las actuaciones administrativas y a los principios ambientales previstos en la normativa vigente."
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Definiciones",
+    "pregunta": "Según el artículo 3A, el daño ambiental se define como:",
+    "opciones": {
+      "a": "Toda pérdida económica de un particular.",
+      "b": "El deterioro, alteración o destrucción del medio ambiente, parcial o total.",
+      "c": "Solo la destrucción irreversible de un ecosistema.",
+      "d": "La mera existencia de un riesgo administrativo."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 3A define daño ambiental como el deterioro, alteración o destrucción del medio ambiente, parcial o total."
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Medidas de corrección y compensación",
+    "pregunta": "¿Cuál afirmación distingue correctamente las medidas de corrección de las medidas de compensación?",
+    "opciones": {
+      "a": "Las de corrección buscan recuperar, restaurar o reparar; las de compensación buscan resarcir y retribuir impactos que no pudieron evitarse, corregirse o mitigarse.",
+      "b": "Ambas son idénticas y tienen finalidad exclusivamente punitiva.",
+      "c": "Las de compensación sustituyen siempre la sanción.",
+      "d": "Las de corrección solo pueden ser económicas."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 3A diferencia la corrección, orientada a recuperar, restaurar o reparar, de la compensación, dirigida a resarcir y retribuir impactos o efectos negativos no evitables, corregibles o mitigables."
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Función de sanciones y medidas preventivas",
+    "pregunta": "Las sanciones administrativas ambientales tienen una función:",
+    "opciones": {
+      "a": "Exclusivamente recaudatoria.",
+      "b": "Preventiva, correctiva y compensatoria.",
+      "c": "Únicamente indemnizatoria.",
+      "d": "Solo disciplinaria."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 4 asigna a las sanciones administrativas ambientales una función preventiva, correctiva y compensatoria."
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Función de medidas preventivas",
+    "pregunta": "La finalidad principal de una medida preventiva ambiental es:",
+    "opciones": {
+      "a": "Declarar definitivamente la responsabilidad del investigado.",
+      "b": "Prevenir, impedir o evitar la continuación de hechos, actividades o situaciones que atenten contra el ambiente, los recursos naturales, el paisaje o la salud humana.",
+      "c": "Reemplazar toda investigación sancionatoria.",
+      "d": "Cobrar una multa anticipada."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 4 establece que las medidas preventivas buscan prevenir, impedir o evitar la continuación de hechos, actividades o situaciones lesivas o riesgosas."
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Infracción ambiental",
+    "pregunta": "¿Cuál de las siguientes conductas puede constituir infracción ambiental según el artículo 5?",
+    "opciones": {
+      "a": "Solo la comisión de un delito ambiental.",
+      "b": "Una acción u omisión que viole normas ambientales o actos administrativos con contenido ambiental expedidos por la autoridad competente.",
+      "c": "Únicamente el incumplimiento contractual entre particulares.",
+      "d": "Solo una conducta que produzca daño económico al Estado."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 5 considera infracción ambiental toda acción u omisión que viole las normas ambientales aplicables o actos administrativos con contenido ambiental expedidos por autoridad competente."
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Infracción por daño ambiental",
+    "pregunta": "Para que la comisión de un daño al medio ambiente constituya infracción bajo la regla del artículo 5, deben concurrir:",
+    "opciones": {
+      "a": "Daño, hecho generador con culpa o dolo y vínculo causal.",
+      "b": "Únicamente daño y beneficio económico.",
+      "c": "Daño y reincidencia.",
+      "d": "Solo una queja ciudadana."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 5 remite a los elementos de la responsabilidad civil extracontractual: daño, hecho generador con culpa o dolo y vínculo causal entre ambos."
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Carga de la prueba",
+    "pregunta": "Frente a la presunción de culpa o dolo en una infracción ambiental, ¿quién tiene la carga de desvirtuarla?",
+    "opciones": {
+      "a": "La autoridad ambiental exclusivamente.",
+      "b": "El infractor.",
+      "c": "El denunciante.",
+      "d": "La Procuraduría General de la Nación."
+    },
+    "respuesta": "b",
+    "explicacion": "El parágrafo 1 del artículo 5 reitera que se presume la culpa o dolo y que corresponde al infractor desvirtuar esa presunción."
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Atenuantes",
+    "pregunta": "¿Cuál es una circunstancia atenuante de responsabilidad ambiental?",
+    "opciones": {
+      "a": "Obstaculizar la acción de la autoridad.",
+      "b": "Confesar la infracción antes de iniciarse el procedimiento sancionatorio, salvo flagrancia.",
+      "c": "Reincidir en la conducta.",
+      "d": "Cometer la infracción para ocultar otra."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 6 contempla como atenuante confesar la infracción antes de iniciarse el procedimiento sancionatorio, excepto en casos de flagrancia."
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Atenuantes",
+    "pregunta": "Un presunto infractor, antes de iniciarse el procedimiento, mitiga por iniciativa propia el daño sin generar un daño mayor. Esa conducta puede operar como:",
+    "opciones": {
+      "a": "Agravante.",
+      "b": "Atenuante.",
+      "c": "Causal automática de nulidad.",
+      "d": "Sanción accesoria."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 6 reconoce como atenuante resarcir o mitigar por iniciativa propia el daño, o compensar o corregir el perjuicio antes del inicio del procedimiento, si no se genera un daño mayor."
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Atenuantes",
+    "pregunta": "Según el artículo 6, también constituye atenuante:",
+    "opciones": {
+      "a": "Que no exista daño al medio ambiente, recursos naturales, paisaje o salud humana.",
+      "b": "Que exista daño grave.",
+      "c": "Que se afecte un área protegida.",
+      "d": "Que se involucren residuos peligrosos."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 6 incluye como atenuante que con la infracción no exista daño al ambiente, recursos naturales, paisaje o salud humana."
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Agravantes",
+    "pregunta": "Para establecer la reincidencia como agravante, la autoridad debe consultar:",
+    "opciones": {
+      "a": "Únicamente el registro mercantil.",
+      "b": "El RUIA y cualquier otro medio que provea información sobre el comportamiento pasado del infractor.",
+      "c": "Solo antecedentes penales.",
+      "d": "Exclusivamente la historia laboral."
+    },
+    "respuesta": "b",
+    "explicacion": "El numeral 1 del artículo 7 exige consultar el RUIA y otros medios que suministren información sobre el comportamiento pasado del infractor."
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Agravantes",
+    "pregunta": "¿Cuál de las siguientes circunstancias es agravante?",
+    "opciones": {
+      "a": "Confesar antes de iniciar el procedimiento.",
+      "b": "Que la infracción genere daño grave al ambiente, recursos naturales, paisaje o salud humana.",
+      "c": "Que no exista daño ambiental.",
+      "d": "Mitigar voluntariamente el daño antes del procedimiento."
+    },
+    "respuesta": "b",
+    "explicacion": "El numeral 2 del artículo 7 señala como agravante que la infracción genere daño grave al ambiente, recursos naturales, paisaje o salud humana."
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Agravantes",
+    "pregunta": "Una persona incumple total o parcialmente una medida preventiva previamente impuesta. En el procedimiento sancionatorio ese comportamiento constituye:",
+    "opciones": {
+      "a": "Eximente.",
+      "b": "Agravante.",
+      "c": "Atenuante.",
+      "d": "Causal de cesación."
+    },
+    "respuesta": "b",
+    "explicacion": "El numeral 10 del artículo 7 establece como agravante el incumplimiento total o parcial de las medidas preventivas."
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Agravantes",
+    "pregunta": "Que una infracción involucre residuos peligrosos es:",
+    "opciones": {
+      "a": "Una circunstancia agravante.",
+      "b": "Una causal de archivo automático.",
+      "c": "Un eximente de responsabilidad.",
+      "d": "Una simple irregularidad sin efecto sancionatorio."
+    },
+    "respuesta": "a",
+    "explicacion": "El numeral 12 del artículo 7 contempla como agravante las infracciones que involucren residuos peligrosos."
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Eximentes",
+    "pregunta": "¿Cuál de los siguientes es un eximente de responsabilidad según el artículo 8?",
+    "opciones": {
+      "a": "Reincidencia.",
+      "b": "Fuerza mayor o caso fortuito.",
+      "c": "Provecho económico.",
+      "d": "Obstaculización de la autoridad."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 8 reconoce como eximentes la fuerza mayor o caso fortuito y el hecho de un tercero, sabotaje o acto terrorista."
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Eximentes",
+    "pregunta": "El hecho de un tercero, sabotaje o acto terrorista puede constituir:",
+    "opciones": {
+      "a": "Agravante automática.",
+      "b": "Eximente de responsabilidad.",
+      "c": "Sanción accesoria.",
+      "d": "Medida compensatoria."
+    },
+    "respuesta": "b",
+    "explicacion": "El numeral 2 del artículo 8 incluye el hecho de un tercero, sabotaje o acto terrorista como eximente."
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Cesación del procedimiento",
+    "pregunta": "¿Cuál es una causal de cesación del procedimiento sancionatorio ambiental?",
+    "opciones": {
+      "a": "Que el hecho investigado no sea constitutivo de infracción ambiental.",
+      "b": "Que la autoridad requiera una visita técnica.",
+      "c": "Que existan pruebas por practicar.",
+      "d": "Que el investigado interponga un recurso."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 9 contempla, entre otras, que el hecho investigado no constituya infracción, que la conducta no sea imputable o que la actividad esté legalmente amparada o autorizada."
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Cesación del procedimiento",
+    "pregunta": "Si se demuestra que la conducta investigada no es imputable al presunto infractor, procede:",
+    "opciones": {
+      "a": "Continuar hasta imponer multa.",
+      "b": "La cesación del procedimiento respecto de ese investigado.",
+      "c": "Imponer una medida de demolición.",
+      "d": "Declarar reincidencia."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 9 incluye como causal de cesación que la conducta investigada no sea imputable al presunto infractor."
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Situaciones societarias",
+    "pregunta": "Si un presunto infractor entra en proceso de disolución, fusión, escisión, reorganización, reestructuración, liquidación o insolvencia, debe:",
+    "opciones": {
+      "a": "Guardar silencio hasta terminar el proceso.",
+      "b": "Informar inmediatamente a la autoridad ambiental competente.",
+      "c": "Solicitar el archivo obligatorio.",
+      "d": "Trasladar la responsabilidad a los socios."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 9A impone el deber de informar inmediatamente a la autoridad ambiental competente sobre esas situaciones societarias o de insolvencia."
+  },
+  {
+    "id": 25,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Caducidad",
+    "pregunta": "Como regla general, la acción sancionatoria ambiental caduca:",
+    "opciones": {
+      "a": "A los 5 años.",
+      "b": "A los 10 años.",
+      "c": "A los 20 años de ocurrido el hecho u omisión generadora de la infracción.",
+      "d": "Nunca."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 10 fija un término de veinte años desde el hecho u omisión generadora; para hechos u omisiones sucesivos, el término corre desde el último día."
+  },
+  {
+    "id": 26,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Duración del procedimiento",
+    "pregunta": "Una vez iniciado oportunamente el procedimiento sancionatorio ambiental, como regla general no podrá extenderse más allá de:",
+    "opciones": {
+      "a": "Un año.",
+      "b": "Tres años.",
+      "c": "Cinco años, sin perjuicio de la prórroga motivada prevista en la ley.",
+      "d": "Veinte años adicionales."
+    },
+    "respuesta": "c",
+    "explicacion": "El parágrafo del artículo 10 dispone que, iniciado dentro del término de caducidad, el procedimiento no podrá extenderse más de cinco años, aunque puede prorrogarse motivadamente hasta por otro término igual en los casos previstos."
+  },
+  {
+    "id": 27,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Medidas preventivas",
+    "pregunta": "El objeto de las medidas preventivas del artículo 12 es:",
+    "opciones": {
+      "a": "Definir responsabilidad penal.",
+      "b": "Prevenir o impedir hechos, actividades o situaciones que atenten contra el ambiente, recursos naturales, paisaje o salud humana.",
+      "c": "Recaudar multas antes del proceso.",
+      "d": "Resolver recursos de apelación."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 12 define el objeto preventivo de estas medidas frente a amenazas al ambiente, recursos naturales, paisaje o salud humana."
+  },
+  {
+    "id": 28,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Imposición de medidas preventivas",
+    "pregunta": "Una vez conocido un hecho que podría justificar una medida preventiva, la autoridad competente debe:",
+    "opciones": {
+      "a": "Sancionar sin comprobación alguna.",
+      "b": "Comprobar el hecho y establecer la necesidad de la medida, que se impone mediante acto administrativo motivado.",
+      "c": "Remitir siempre el asunto a un juez.",
+      "d": "Esperar obligatoriamente una denuncia escrita."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 13 prevé que, de oficio o a petición de parte, se compruebe el hecho y la necesidad de la medida, y que esta sea impuesta mediante acto administrativo motivado."
+  },
+  {
+    "id": 29,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Flagrancia",
+    "pregunta": "En flagrancia que requiera medida preventiva en el lugar de los hechos, inicialmente debe levantarse:",
+    "opciones": {
+      "a": "Una sentencia.",
+      "b": "Un acta con los motivos, autoridad, lugar, fecha, hora, funcionario y sujeto o actividad afectados por la medida.",
+      "c": "Un contrato de transacción.",
+      "d": "Un recurso de reposición."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 15 ordena levantar un acta con los elementos esenciales de la imposición de la medida preventiva en flagrancia."
+  },
+  {
+    "id": 30,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Flagrancia",
+    "pregunta": "El acta de imposición de una medida preventiva en flagrancia debe ser legalizada mediante acto administrativo en un término no mayor a:",
+    "opciones": {
+      "a": "Tres días.",
+      "b": "Cinco días hábiles.",
+      "c": "Diez días.",
+      "d": "Treinta días."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 15 dispone que el acta sea legalizada mediante acto administrativo en un término no mayor a tres días."
+  },
+  {
+    "id": 31,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Continuidad de la actuación",
+    "pregunta": "Legalizada una medida preventiva, ¿en qué término máximo debe evaluarse si existe mérito para iniciar procedimiento sancionatorio?",
+    "opciones": {
+      "a": "Tres días.",
+      "b": "Cinco días.",
+      "c": "Diez días.",
+      "d": "Seis meses."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 16 ordena evaluar, en un término no mayor a diez días, si existe mérito para iniciar el procedimiento sancionatorio."
+  },
+  {
+    "id": 32,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Indagación preliminar",
+    "pregunta": "La indagación preliminar tiene como finalidad principal:",
+    "opciones": {
+      "a": "Imponer inmediatamente la sanción.",
+      "b": "Verificar la ocurrencia de la conducta, si constituye infracción y si existe un eximente de responsabilidad.",
+      "c": "Resolver la apelación.",
+      "d": "Ejecutar la multa."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 17 señala que la indagación preliminar busca establecer si existe mérito para iniciar el procedimiento, verificando la conducta, su carácter infractor y posibles eximentes."
+  },
+  {
+    "id": 33,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Indagación preliminar",
+    "pregunta": "El término máximo de la indagación preliminar es de:",
+    "opciones": {
+      "a": "Diez días.",
+      "b": "Treinta días.",
+      "c": "Seis meses.",
+      "d": "Dos años."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 17 fija un término máximo de seis meses, al cabo del cual procede archivo definitivo o auto de apertura de investigación."
+  },
+  {
+    "id": 34,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Inicio del procedimiento",
+    "pregunta": "El procedimiento sancionatorio ambiental puede iniciarse:",
+    "opciones": {
+      "a": "Solo por denuncia de un particular.",
+      "b": "De oficio, a petición de parte o como consecuencia de una medida preventiva impuesta.",
+      "c": "Solo por orden judicial.",
+      "d": "Únicamente por solicitud de la Procuraduría."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 18 establece esas tres vías de iniciación y exige acto administrativo motivado."
+  },
+  {
+    "id": 35,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Inicio del procedimiento",
+    "pregunta": "En casos de flagrancia o confesión, el artículo 18 dispone que se proceda a:",
+    "opciones": {
+      "a": "Recibir descargos.",
+      "b": "Imponer automáticamente la sanción definitiva.",
+      "c": "Cerrar el expediente.",
+      "d": "Remitir siempre el asunto a la Fiscalía."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 18 señala expresamente que en casos de flagrancia o confesión se procederá a recibir descargos."
+  },
+  {
+    "id": 36,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Suspensión y terminación anticipada",
+    "pregunta": "La suspensión del procedimiento por corrección y/o compensación ambiental del artículo 18A puede solicitarse:",
+    "opciones": {
+      "a": "Solo después de la sanción.",
+      "b": "Desde la iniciación del procedimiento y hasta antes de la decisión que define la responsabilidad.",
+      "c": "Únicamente durante la indagación preliminar.",
+      "d": "Solo ante un juez administrativo."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 18A permite que el presunto infractor solicite la suspensión desde el inicio del procedimiento hasta antes de la decisión sobre responsabilidad, presentando medidas técnicamente soportadas y viables."
+  },
+  {
+    "id": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Suspensión y terminación anticipada",
+    "pregunta": "Declarada la suspensión del procedimiento bajo el artículo 18A, el presunto infractor debe presentar garantía de cumplimiento dentro de:",
+    "opciones": {
+      "a": "Tres días calendario.",
+      "b": "Cinco días hábiles.",
+      "c": "Diez días hábiles.",
+      "d": "Treinta días."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 18A exige constituir y presentar la garantía a favor de la autoridad ambiental dentro de los cinco días hábiles siguientes a la suspensión."
+  },
+  {
+    "id": 38,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Suspensión y terminación anticipada",
+    "pregunta": "La suspensión prevista en el artículo 18A puede durar como máximo inicialmente:",
+    "opciones": {
+      "a": "Seis meses.",
+      "b": "Un año.",
+      "c": "Dos años, prorrogables hasta por la mitad del tiempo inicialmente establecido si técnicamente es necesario.",
+      "d": "Cinco años sin prórroga."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 18A establece una suspensión máxima de dos años y permite prórroga hasta por la mitad del tiempo inicialmente establecido bajo justificación técnica."
+  },
+  {
+    "id": 39,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Intervención y pruebas",
+    "pregunta": "Una vez iniciado el procedimiento sancionatorio, cualquier persona natural o jurídica puede:",
+    "opciones": {
+      "a": "Imponer sanciones.",
+      "b": "Intervenir para aportar pruebas o auxiliar al funcionario competente cuando sea procedente.",
+      "c": "Revocar el auto de apertura.",
+      "d": "Sustituir a la autoridad ambiental."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 20 permite la intervención de personas naturales o jurídicas para aportar pruebas o auxiliar al funcionario competente, en los términos legales."
+  },
+  {
+    "id": 40,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Remisión a otras autoridades",
+    "pregunta": "Si los hechos investigados también pueden constituir delito, falta disciplinaria u otra infracción administrativa, la autoridad ambiental debe:",
+    "opciones": {
+      "a": "Suspender obligatoriamente el proceso ambiental.",
+      "b": "Poner los hechos en conocimiento de las autoridades correspondientes y acompañar copia de los documentos pertinentes.",
+      "c": "Archivar el expediente ambiental.",
+      "d": "Elegir solamente una jurisdicción y renunciar a las demás."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 21 ordena comunicar los hechos a las autoridades correspondientes; la existencia de otros procesos no suspende el procedimiento sancionatorio ambiental."
+  },
+  {
+    "id": 41,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Verificación de hechos",
+    "pregunta": "Para determinar con certeza los hechos constitutivos de infracción, la autoridad ambiental puede:",
+    "opciones": {
+      "a": "Limitarse exclusivamente a testimonios.",
+      "b": "Realizar visitas técnicas, toma de muestras, exámenes de laboratorio, mediciones, caracterizaciones y otras diligencias pertinentes.",
+      "c": "Usar únicamente documentos aportados por el investigado.",
+      "d": "Prescindir completamente de prueba técnica."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 22 faculta a la autoridad para realizar las diligencias administrativas necesarias y pertinentes para verificar los hechos y completar los elementos probatorios."
+  },
+  {
+    "id": 42,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Cesación procesal",
+    "pregunta": "Como regla general, la cesación del procedimiento del artículo 23 solo puede declararse:",
+    "opciones": {
+      "a": "Después de imponer la sanción.",
+      "b": "Antes del auto de formulación de cargos, salvo la excepción prevista por fallecimiento del infractor.",
+      "c": "Después de resolver la apelación.",
+      "d": "Únicamente durante la práctica de pruebas."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 23 limita la declaratoria de cesación a la etapa anterior al auto de formulación de cargos, excepto en el supuesto de fallecimiento del infractor."
+  },
+  {
+    "id": 43,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Formulación de cargos",
+    "pregunta": "El pliego de cargos debe contener expresamente:",
+    "opciones": {
+      "a": "Solo el nombre del investigado.",
+      "b": "Las acciones u omisiones constitutivas de infracción y la individualización de las normas ambientales presuntamente violadas o el daño causado.",
+      "c": "Únicamente la sanción que se impondrá.",
+      "d": "Solo los antecedentes del denunciante."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 24 exige identificar las acciones u omisiones constitutivas de infracción y las normas estimadas como violadas o el daño causado."
+  },
+  {
+    "id": 44,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Formulación de cargos",
+    "pregunta": "Si existe riesgo o afectación ambiental al formular cargos, la autoridad debe:",
+    "opciones": {
+      "a": "Omitir esa información hasta la decisión final.",
+      "b": "Indicar esas circunstancias en la motivación y señalar y explicar los tipos de agravantes.",
+      "c": "Archivar obligatoriamente.",
+      "d": "Suspender indefinidamente el proceso."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 24, modificado, ordena indicar el riesgo o afectación ambiental en la motivación del pliego y señalar y explicar los tipos de agravantes."
+  },
+  {
+    "id": 45,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Formulación de cargos",
+    "pregunta": "Contra el acto administrativo que formula cargos:",
+    "opciones": {
+      "a": "Procede siempre apelación.",
+      "b": "Procede reposición y apelación.",
+      "c": "No procede recurso alguno.",
+      "d": "Procede únicamente queja."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 24 dispone expresamente que contra el acto que formula cargos no procede recurso alguno."
+  },
+  {
+    "id": 46,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Descargos",
+    "pregunta": "El presunto infractor dispone para presentar descargos por escrito, aportar o solicitar pruebas pertinentes y conducentes de:",
+    "opciones": {
+      "a": "Cinco días calendario.",
+      "b": "Diez días hábiles siguientes a la notificación del pliego de cargos.",
+      "c": "Treinta días hábiles.",
+      "d": "Seis meses."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 25 fija diez días hábiles siguientes a la notificación del pliego de cargos para presentar descargos y aportar o solicitar pruebas."
+  },
+  {
+    "id": 47,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Pruebas",
+    "pregunta": "Al decidir sobre las pruebas solicitadas, la autoridad debe valorar principalmente criterios de:",
+    "opciones": {
+      "a": "Popularidad, costo y antigüedad.",
+      "b": "Conducencia, pertinencia y necesidad.",
+      "c": "Reserva, jerarquía y conveniencia política.",
+      "d": "Rentabilidad y oportunidad comercial."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 26 ordena decretar las pruebas solicitadas conforme a criterios de conducencia, pertinencia y necesidad, y permite decretar pruebas de oficio."
+  },
+  {
+    "id": 48,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Pruebas",
+    "pregunta": "Las pruebas decretadas se practican, como regla general, dentro de:",
+    "opciones": {
+      "a": "Diez días sin prórroga.",
+      "b": "Treinta días, con posibilidad de una sola prórroga hasta por sesenta días sustentada en concepto técnico.",
+      "c": "Seis meses prorrogables indefinidamente.",
+      "d": "Ochenta días exactos."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 26 prevé treinta días para practicar pruebas y una sola prórroga hasta por sesenta días, sustentada en concepto técnico que justifique un plazo mayor."
+  },
+  {
+    "id": 49,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Pruebas",
+    "pregunta": "Contra el acto administrativo que niega la práctica de una prueba solicitada procede:",
+    "opciones": {
+      "a": "Ningún recurso.",
+      "b": "Recurso de reposición.",
+      "c": "Solo apelación.",
+      "d": "Acción penal."
+    },
+    "respuesta": "b",
+    "explicacion": "El parágrafo del artículo 26 prevé recurso de reposición contra el acto que niegue la práctica de pruebas solicitadas."
+  },
+  {
+    "id": 50,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Decisión y sanción",
+    "pregunta": "La autoridad debe decidir sobre responsabilidad y sanción, según el artículo 27 actualizado, dentro de los:",
+    "opciones": {
+      "a": "Diez días siguientes a la formulación de cargos.",
+      "b": "Treinta días siguientes a la apertura.",
+      "c": "Ochenta días siguientes al vencimiento del término para presentar descargos o alegatos de conclusión, según el caso.",
+      "d": "Cinco años siguientes a la denuncia."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 27 modificado fija ochenta días desde el vencimiento del término para descargos o alegatos de conclusión, según corresponda."
+  },
+  {
+    "id": 51,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Decisión y sanción",
+    "pregunta": "Si no hay lugar a declarar responsabilidad, la autoridad ambiental debe:",
+    "opciones": {
+      "a": "Imponer una amonestación por precaución.",
+      "b": "Exonerar a los presuntos infractores mediante acto administrativo motivado.",
+      "c": "Mantener el proceso abierto indefinidamente.",
+      "d": "Remitir el caso a una CAR distinta."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 27 dispone que, si no procede declarar responsabilidad, la autoridad exonerará mediante acto administrativo motivado."
+  },
+  {
+    "id": 52,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Recursos",
+    "pregunta": "Contra el acto administrativo que pone fin a una investigación sancionatoria ambiental procede:",
+    "opciones": {
+      "a": "Solo recurso de queja.",
+      "b": "Reposición y, cuando exista superior jerárquico, apelación.",
+      "c": "Ningún recurso.",
+      "d": "Únicamente revisión extraordinaria."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 30 establece reposición y, siempre que exista superior jerárquico, apelación, en los términos legales aplicables."
+  },
+  {
+    "id": 53,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Medidas compensatorias",
+    "pregunta": "La imposición de una sanción ambiental:",
+    "opciones": {
+      "a": "Exime al infractor de compensar o restaurar.",
+      "b": "No exime del cumplimiento de medidas para compensar y restaurar el daño o impacto causado.",
+      "c": "Impide imponer medidas de reparación.",
+      "d": "Elimina toda responsabilidad civil, penal, fiscal o disciplinaria."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 31 indica que la sanción no exime de las medidas pertinentes para compensar y restaurar el daño o impacto; además exige proporcionalidad."
+  },
+  {
+    "id": 54,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Carácter de medidas preventivas",
+    "pregunta": "Las medidas preventivas se caracterizan por ser:",
+    "opciones": {
+      "a": "De ejecución diferida y recurribles siempre.",
+      "b": "De ejecución inmediata, preventivas y transitorias, con efectos inmediatos y sin recurso.",
+      "c": "Sanciones penales anticipadas.",
+      "d": "Definitivas e irrevocables."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 32 dispone que son de ejecución inmediata, preventivas y transitorias, surten efectos inmediatos y contra ellas no procede recurso."
+  },
+  {
+    "id": 55,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Levantamiento de medidas preventivas",
+    "pregunta": "Una medida preventiva debe levantarse:",
+    "opciones": {
+      "a": "Únicamente por orden judicial.",
+      "b": "De oficio o a petición de parte cuando se compruebe que desaparecieron las causas que la originaron.",
+      "c": "Automáticamente a los tres días.",
+      "d": "Solo después de pagar una multa."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 35 establece que se levantan de oficio o a petición de parte cuando se compruebe la desaparición de sus causas."
+  },
+  {
+    "id": 56,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Tipos de medidas preventivas",
+    "pregunta": "¿Cuál de las siguientes es una medida preventiva contemplada en el artículo 36?",
+    "opciones": {
+      "a": "Prisión del infractor.",
+      "b": "Decomiso preventivo de productos, elementos, medios o implementos utilizados para cometer la infracción.",
+      "c": "Inhabilidad para ejercer cargos públicos.",
+      "d": "Embargo automático de todos los bienes."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 36 incluye, entre otras, decomiso preventivo, aprehensión preventiva, suspensión de proyecto, obra o actividad y realización de estudios y evaluaciones."
+  },
+  {
+    "id": 57,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Suspensión preventiva",
+    "pregunta": "La suspensión de un proyecto, obra o actividad como medida preventiva puede imponerse cuando:",
+    "opciones": {
+      "a": "Solo exista una sanción penal previa.",
+      "b": "Pueda derivarse daño o peligro ambiental, se haya iniciado sin el instrumento ambiental exigido o se incumplan sus términos y obligaciones.",
+      "c": "El proyecto sea económicamente rentable.",
+      "d": "El titular haya cambiado de domicilio."
+    },
+    "respuesta": "b",
+    "explicacion": "Los artículos 36 y 39 permiten la suspensión frente a daño o peligro, falta de licencia, permiso, concesión o autorización, o incumplimiento de sus condiciones y obligaciones."
+  },
+  {
+    "id": 58,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Amonestación",
+    "pregunta": "La amonestación pública escrita como sanción, según el artículo 37 actualizado:",
+    "opciones": {
+      "a": "Es secreta y no se registra.",
+      "b": "Debe publicarse y puede incluir cursos obligatorios de educación ambiental o servicio comunitario.",
+      "c": "Solo se aplica a personas jurídicas multinacionales.",
+      "d": "Siempre se acumula obligatoriamente con prisión."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 37 dispone una llamada de atención escrita, su publicación y la asistencia a cursos obligatorios de educación ambiental o servicio comunitario en los términos allí previstos."
+  },
+  {
+    "id": 59,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Decomiso y aprehensión",
+    "pregunta": "El decomiso y la aprehensión preventivos del artículo 38 consisten en:",
+    "opciones": {
+      "a": "Transferencia definitiva e inmediata de propiedad al Estado.",
+      "b": "Aprehensión material y temporal de especímenes y de productos, elementos, medios, equipos, vehículos, materias primas o implementos relacionados con la infracción.",
+      "c": "Una multa equivalente al valor del bien.",
+      "d": "Una medida aplicable únicamente a bienes inmuebles."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 38 define esta medida como aprehensión material y temporal de especímenes y de diversos bienes utilizados para cometer la infracción o producidos como resultado de ella."
+  },
+  {
+    "id": 60,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Sanciones",
+    "pregunta": "¿Cuál de las siguientes NO corresponde a una de las sanciones enumeradas en el artículo 40?",
+    "opciones": {
+      "a": "Multa hasta por cien mil salarios mínimos mensuales legales vigentes.",
+      "b": "Cierre temporal o definitivo del establecimiento, edificación o servicio.",
+      "c": "Demolición de obra a costa del infractor.",
+      "d": "Pena privativa de la libertad impuesta por la autoridad ambiental."
+    },
+    "respuesta": "d",
+    "explicacion": "El artículo 40 contempla sanciones administrativas como amonestación, multa, cierre, revocatoria o caducidad de instrumentos ambientales, demolición, decomiso definitivo y restitución de especímenes; la pena privativa de la libertad no es una sanción administrativa de este artículo."
+  },
+  {
+    "id": 61,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Sanciones",
+    "pregunta": "De acuerdo con el artículo 40 actualizado, la multa puede llegar hasta:",
+    "opciones": {
+      "a": "Mil salarios mínimos mensuales legales vigentes.",
+      "b": "Diez mil salarios mínimos mensuales legales vigentes.",
+      "c": "Cien mil salarios mínimos mensuales legales vigentes.",
+      "d": "Un millón de salarios mínimos mensuales legales vigentes."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 40 establece multas hasta por cien mil salarios mínimos mensuales legales vigentes."
+  },
+  {
+    "id": 62,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Sanciones",
+    "pregunta": "La imposición de una o varias sanciones del artículo 40:",
+    "opciones": {
+      "a": "Libera al infractor de restaurar el ambiente afectado.",
+      "b": "No exime de ejecutar las obras o acciones ordenadas para restaurar el ambiente, recursos, paisaje o ecosistemas afectados.",
+      "c": "Elimina cualquier acción civil o penal.",
+      "d": "Impide imponer medidas de corrección."
+    },
+    "respuesta": "b",
+    "explicacion": "El parágrafo 1 del artículo 40 señala que las sanciones no eximen al infractor de ejecutar las obras o acciones de restauración ordenadas y se aplican sin perjuicio de otras responsabilidades."
+  },
+  {
+    "id": 63,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Sanciones",
+    "pregunta": "Al definir la sanción, la ley ordena tener en cuenta, entre otros aspectos:",
+    "opciones": {
+      "a": "Solo la antigüedad de la empresa.",
+      "b": "La magnitud del daño o afectación ambiental y las capacidades socioeconómicas del infractor.",
+      "c": "Únicamente el valor comercial del proyecto.",
+      "d": "La popularidad de la actividad económica."
+    },
+    "respuesta": "b",
+    "explicacion": "Los parágrafos del artículo 40 ordenan considerar la magnitud del daño o afectación ambiental y la capacidad socioeconómica del infractor."
+  },
+  {
+    "id": 64,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Sanciones",
+    "pregunta": "Si la autoridad decide imponer una multa como única sanción, el artículo 40 actualizado exige:",
+    "opciones": {
+      "a": "Ninguna explicación adicional.",
+      "b": "Justificarlo técnicamente.",
+      "c": "Autorización judicial previa.",
+      "d": "Concepto vinculante de la Fiscalía."
+    },
+    "respuesta": "b",
+    "explicacion": "El parágrafo 3 del artículo 40 indica que, cuando se imponga multa sin sanción adicional, la autoridad debe justificar técnicamente esa decisión."
+  },
+  {
+    "id": 65,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 de 2009 — Sanciones",
+    "pregunta": "Para liquidar una multa expresada en salarios mínimos mensuales legales vigentes, se toma el valor del salario mínimo vigente:",
+    "opciones": {
+      "a": "En la fecha de la infracción, siempre.",
+      "b": "En la fecha de la denuncia.",
+      "c": "En la fecha de expedición del acto administrativo que determina la responsabilidad e impone la sanción.",
+      "d": "En la fecha de pago voluntario."
+    },
+    "respuesta": "c",
+    "explicacion": "El parágrafo 5 del artículo 40 establece que la multa se liquida con el salario mínimo vigente a la fecha del acto administrativo que determina responsabilidad e impone la sanción."
+  }
+]
