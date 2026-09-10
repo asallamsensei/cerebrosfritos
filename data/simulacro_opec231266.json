@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Seguimiento ambiental — Verificación de obligaciones",
+    "caso_id": 1,
+    "orden_en_caso": 1,
+    "caso": "Un profesional de la Subdirección de Seguimiento recibe el expediente de un proyecto lineal en operación. El titular presentó su Informe de Cumplimiento Ambiental y afirma haber cumplido todas las obligaciones del período. El expediente contiene la licencia, actos de seguimiento anteriores, fichas del Plan de Manejo Ambiental, resultados de monitoreo y anexos del ICA.",
+    "pregunta": "Para iniciar técnicamente la revisión del cumplimiento, la actuación más adecuada es:",
+    "opciones": {
+      "a": "Tomar como punto de partida la declaración de cumplimiento del titular y revisar únicamente las obligaciones que este reporte como pendientes.",
+      "b": "Construir o actualizar la matriz de obligaciones aplicables y contrastar cada obligación relevante con los soportes, resultados de monitoreo, antecedentes y condiciones establecidas en el instrumento ambiental.",
+      "c": "Concentrar la revisión en los resultados más recientes de laboratorio, porque constituyen la evidencia objetiva principal del seguimiento."
+    },
+    "respuesta": "b",
+    "explicacion": "El seguimiento debe contrastar sistemáticamente las obligaciones del instrumento con evidencia verificable. La declaración del titular o un único tipo de evidencia no sustituyen la revisión integral del expediente."
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Seguimiento ambiental — Verificación de obligaciones",
+    "caso_id": 1,
+    "orden_en_caso": 2,
+    "caso": "Un profesional de la Subdirección de Seguimiento recibe el expediente de un proyecto lineal en operación. El titular presentó su Informe de Cumplimiento Ambiental y afirma haber cumplido todas las obligaciones del período. El expediente contiene la licencia, actos de seguimiento anteriores, fichas del Plan de Manejo Ambiental, resultados de monitoreo y anexos del ICA.",
+    "pregunta": "Durante la revisión se identifica que una obligación exigía cuatro campañas trimestrales de monitoreo y solo aparecen soportes verificables de tres. ¿Cuál es la conclusión técnica más sólida?",
+    "opciones": {
+      "a": "Documentar que no se acreditó integralmente el cumplimiento de la frecuencia exigida, identificar la campaña faltante y valorar los soportes antes de formular la recomendación correspondiente.",
+      "b": "Declarar automáticamente que ocurrió daño ambiental, porque cualquier monitoreo omitido demuestra afectación al recurso.",
+      "c": "Considerar cumplida la obligación si el promedio anual de las tres campañas disponibles se encuentra dentro de los valores esperados."
+    },
+    "respuesta": "a",
+    "explicacion": "Cumplimiento de una frecuencia y calidad ambiental son asuntos distintos. La ausencia de una campaña puede representar incumplimiento de la obligación sin demostrar por sí sola daño ambiental."
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Seguimiento ambiental — Eficacia de medidas",
+    "caso_id": 1,
+    "orden_en_caso": 3,
+    "caso": "Un profesional de la Subdirección de Seguimiento recibe el expediente de un proyecto lineal en operación. El titular presentó su Informe de Cumplimiento Ambiental y afirma haber cumplido todas las obligaciones del período. El expediente contiene la licencia, actos de seguimiento anteriores, fichas del Plan de Manejo Ambiental, resultados de monitoreo y anexos del ICA.",
+    "pregunta": "Una medida de manejo fue ejecutada exactamente como estaba descrita, pero los indicadores muestran que el impacto que pretendía controlar continúa aumentando. El profesional debería:",
+    "opciones": {
+      "a": "Dar la medida por cumplida y cerrar su seguimiento porque la actividad prevista fue ejecutada.",
+      "b": "Considerar automáticamente incumplido todo el Plan de Manejo Ambiental.",
+      "c": "Diferenciar ejecución de eficacia, analizar las causas del bajo desempeño y sustentar si se requieren ajustes o medidas adicionales."
+    },
+    "respuesta": "c",
+    "explicacion": "El seguimiento no verifica solo que una actividad haya sido realizada; también examina la eficiencia y eficacia de las medidas frente a los impactos que deben manejar."
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Calidad y trazabilidad de información ambiental",
+    "caso_id": 2,
+    "orden_en_caso": 1,
+    "caso": "En un ICA aparecen resultados de calidad de agua de doce campañas. Once presentan un comportamiento consistente con la serie histórica y una registra una concentración varias veces superior. El informe no explica el dato atípico y en el anexo correspondiente falta información sobre la verificación del equipo.",
+    "pregunta": "Antes de utilizar el valor atípico como fundamento de una conclusión fuerte, lo más apropiado es:",
+    "opciones": {
+      "a": "Eliminarlo del análisis porque un valor muy diferente de los demás necesariamente es un error.",
+      "b": "Verificar trazabilidad, método, control de calidad, condiciones de muestreo y posibles causas ambientales u operativas antes de establecer su significado.",
+      "c": "Asumir que representa el estado normal del cuerpo de agua porque es el valor más conservador."
+    },
+    "respuesta": "b",
+    "explicacion": "Un dato atípico puede revelar tanto un evento ambiental real como un problema de calidad. La respuesta técnica correcta es investigarlo y documentar su confiabilidad, no descartarlo ni aceptarlo acríticamente."
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Calidad y trazabilidad de información ambiental",
+    "caso_id": 2,
+    "orden_en_caso": 2,
+    "caso": "En un ICA aparecen resultados de calidad de agua de doce campañas. Once presentan un comportamiento consistente con la serie histórica y una registra una concentración varias veces superior. El informe no explica el dato atípico y en el anexo correspondiente falta información sobre la verificación del equipo.",
+    "pregunta": "Además se encuentra que las coordenadas del punto de monitoreo del informe no coinciden con las de la base geográfica entregada. ¿Qué debería hacerse?",
+    "opciones": {
+      "a": "Definir cuál fuente es correcta, revisar versiones, metadatos y soportes de campo y dejar documentada la reconciliación de la ubicación.",
+      "b": "Utilizar las coordenadas que produzcan el resultado ambiental más desfavorable para mantener un criterio preventivo.",
+      "c": "Promediar las coordenadas de las dos fuentes y adoptar el punto intermedio como ubicación oficial."
+    },
+    "respuesta": "a",
+    "explicacion": "Las inconsistencias espaciales deben resolverse mediante trazabilidad y validación de la fuente. Promediar o escoger arbitrariamente una versión puede atribuir resultados a un lugar equivocado."
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Calidad y trazabilidad de información ambiental",
+    "caso_id": 2,
+    "orden_en_caso": 3,
+    "caso": "En un ICA aparecen resultados de calidad de agua de doce campañas. Once presentan un comportamiento consistente con la serie histórica y una registra una concentración varias veces superior. El informe no explica el dato atípico y en el anexo correspondiente falta información sobre la verificación del equipo.",
+    "pregunta": "Si no puede demostrarse la trazabilidad suficiente de esa medición específica, el concepto técnico debería:",
+    "opciones": {
+      "a": "Afirmar que el dato es falso y excluirlo definitivamente de cualquier análisis posterior.",
+      "b": "Usarlo de todas maneras como prueba concluyente porque fue presentado formalmente por el titular.",
+      "c": "Explicar la limitación de confiabilidad, evitar que sea el único soporte de una conclusión definitiva y establecer la necesidad de verificación que corresponda."
+    },
+    "respuesta": "c",
+    "explicacion": "La ausencia de trazabilidad reduce la fuerza probatoria técnica del dato, pero no autoriza inventar que sea falso. La incertidumbre debe quedar explícita y gestionarse."
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Visitas técnicas de seguimiento",
+    "caso_id": 3,
+    "orden_en_caso": 1,
+    "caso": "Se programa una visita de seguimiento a un proyecto de infraestructura. Hay numerosos actos administrativos, compromisos de visitas anteriores y reportes comunitarios recientes. El tiempo de campo es limitado y el equipo debe priorizar su verificación.",
+    "pregunta": "La preparación más adecuada antes de desplazarse al proyecto es:",
+    "opciones": {
+      "a": "Revisar antecedentes, obligaciones vigentes, hallazgos previos, información del titular y asuntos críticos para definir objetivos y puntos de verificación de la visita.",
+      "b": "Evitar revisar el expediente para llegar al sitio sin sesgos y observar únicamente lo que resulte visible.",
+      "c": "Limitar la planeación a seleccionar los sitios de más fácil acceso, pues las obligaciones pueden revisarse después."
+    },
+    "respuesta": "a",
+    "explicacion": "Una visita de seguimiento debe estar orientada por los antecedentes y obligaciones del proyecto, sin impedir que el equipo documente hallazgos nuevos durante el recorrido."
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Visitas técnicas de seguimiento",
+    "caso_id": 3,
+    "orden_en_caso": 2,
+    "caso": "Se programa una visita de seguimiento a un proyecto de infraestructura. Hay numerosos actos administrativos, compromisos de visitas anteriores y reportes comunitarios recientes. El tiempo de campo es limitado y el equipo debe priorizar su verificación.",
+    "pregunta": "Durante la visita, habitantes cercanos informan que después de lluvias intensas aumenta considerablemente la turbidez de una quebrada aguas abajo. En ese momento la corriente se observa clara. La mejor actuación es:",
+    "opciones": {
+      "a": "Descartar la información porque el equipo no observó turbidez durante la visita.",
+      "b": "Registrar el reporte, identificar lugares y momentos asociados, revisar medidas de manejo y evidencias disponibles y contrastarlo con monitoreos y condiciones hidrológicas.",
+      "c": "Concluir en el acta que el proyecto contaminó la quebrada porque varios habitantes coinciden en el relato."
+    },
+    "respuesta": "b",
+    "explicacion": "La información comunitaria es un insumo relevante que debe registrarse y verificarse. Ni la ausencia momentánea del fenómeno ni el testimonio por sí solo justifican una conclusión causal definitiva."
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Visitas técnicas de seguimiento",
+    "caso_id": 3,
+    "orden_en_caso": 3,
+    "caso": "Se programa una visita de seguimiento a un proyecto de infraestructura. Hay numerosos actos administrativos, compromisos de visitas anteriores y reportes comunitarios recientes. El tiempo de campo es limitado y el equipo debe priorizar su verificación.",
+    "pregunta": "Para fortalecer la utilidad posterior de una evidencia fotográfica tomada durante la visita conviene principalmente:",
+    "opciones": {
+      "a": "Tomar la mayor cantidad posible de fotografías aunque no sea posible conocer luego dónde fueron tomadas.",
+      "b": "Editar las fotografías para resaltar visualmente la posible afectación antes de incorporarlas al expediente.",
+      "c": "Asociarlas con fecha, lugar, objeto verificado y descripción suficiente para relacionarlas con el hallazgo y el expediente."
+    },
+    "respuesta": "c",
+    "explicacion": "La evidencia gana valor cuando puede reconstruirse su contexto. Cantidad o edición visual no sustituyen identificación, trazabilidad y relación con el aspecto verificado."
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Impactos ambientales no previstos",
+    "caso_id": 4,
+    "orden_en_caso": 1,
+    "caso": "Durante el seguimiento de un proyecto energético se detecta una disminución progresiva del nivel de agua en un humedal cercano. El impacto no estaba identificado de esa forma en los estudios iniciales. Existen varias posibles causas regionales y todavía no se ha establecido el aporte del proyecto.",
+    "pregunta": "La primera respuesta técnica más sólida es:",
+    "opciones": {
+      "a": "Caracterizar el cambio observado, analizar temporalidad, posibles vías causales y otras presiones y determinar qué información permite establecer la relación con el proyecto.",
+      "b": "Considerar que el fenómeno no puede ser objeto de seguimiento porque no fue previsto en el estudio original.",
+      "c": "Atribuir inmediatamente todo el cambio al proyecto porque la autoridad debe escoger siempre la hipótesis ambientalmente más desfavorable."
+    },
+    "respuesta": "a",
+    "explicacion": "Los impactos no previstos pueden requerir actuación, pero la recomendación debe sustentarse en análisis técnico de evidencia, causalidad y magnitud."
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Impactos ambientales no previstos",
+    "caso_id": 4,
+    "orden_en_caso": 2,
+    "caso": "Durante el seguimiento de un proyecto energético se detecta una disminución progresiva del nivel de agua en un humedal cercano. El impacto no estaba identificado de esa forma en los estudios iniciales. Existen varias posibles causas regionales y todavía no se ha establecido el aporte del proyecto.",
+    "pregunta": "El titular argumenta que, como su licencia no describió expresamente esa disminución del nivel del humedal, la autoridad no puede analizarla. El profesional debería considerar que:",
+    "opciones": {
+      "a": "El seguimiento también busca corroborar el comportamiento real del ambiente y permite analizar impactos que se evidencien durante la ejecución, dentro de las competencias de la autoridad.",
+      "b": "La afirmación es correcta: una licencia impide cualquier análisis de impactos que no hubieran sido anticipados.",
+      "c": "La única alternativa es cancelar automáticamente la licencia."
+    },
+    "respuesta": "a",
+    "explicacion": "El seguimiento contrasta las predicciones y medidas con el comportamiento real del medio. Un impacto no previsto no se vuelve jurídicamente irrelevante por no haber sido anticipado."
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Concepto técnico — Razonamiento causal",
+    "caso_id": 4,
+    "orden_en_caso": 3,
+    "caso": "Durante el seguimiento de un proyecto energético se detecta una disminución progresiva del nivel de agua en un humedal cercano. El impacto no estaba identificado de esa forma en los estudios iniciales. Existen varias posibles causas regionales y todavía no se ha establecido el aporte del proyecto.",
+    "pregunta": "Al redactar el concepto mientras la causalidad aún está en evaluación, la forma técnicamente más correcta es:",
+    "opciones": {
+      "a": "Presentar como hecho demostrado que el proyecto secó el humedal para evitar debilitar la decisión.",
+      "b": "Distinguir claramente los hechos observados, la hipótesis o inferencia causal, la evidencia que la respalda y las incertidumbres que todavía deben resolverse.",
+      "c": "Omitir el hallazgo hasta que exista certeza absoluta sobre todas las variables regionales."
+    },
+    "respuesta": "b",
+    "explicacion": "La calidad de un concepto depende de separar observación e inferencia y explicitar la incertidumbre. No es necesario ocultar el hallazgo ni convertir una hipótesis en hecho."
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Modificaciones y cambios en proyectos licenciados",
+    "caso_id": 5,
+    "orden_en_caso": 1,
+    "caso": "En seguimiento se observa que el titular desplazó parte de una obra respecto del diseño que sirvió de base al instrumento ambiental. El cambio fue motivado por condiciones geotécnicas encontradas durante la construcción. El nuevo emplazamiento se acerca a un drenaje y modifica el área inicialmente intervenida.",
+    "pregunta": "Antes de concluir sobre la procedencia del cambio, el profesional debe:",
+    "opciones": {
+      "a": "Dar por autorizado el desplazamiento porque respondió a una necesidad técnica de construcción.",
+      "b": "Comparar el cambio con el instrumento autorizado, sus impactos y obligaciones y determinar el trámite ambiental que resulte aplicable antes de asumir que está cubierto.",
+      "c": "Exigir siempre una licencia completamente nueva, independientemente de la naturaleza del cambio."
+    },
+    "respuesta": "b",
+    "explicacion": "No todo cambio tiene el mismo tratamiento. La evaluación debe partir del alcance autorizado, los nuevos impactos o áreas afectadas y el procedimiento aplicable."
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Modificaciones y cambios en proyectos licenciados",
+    "caso_id": 5,
+    "orden_en_caso": 2,
+    "caso": "En seguimiento se observa que el titular desplazó parte de una obra respecto del diseño que sirvió de base al instrumento ambiental. El cambio fue motivado por condiciones geotécnicas encontradas durante la construcción. El nuevo emplazamiento se acerca a un drenaje y modifica el área inicialmente intervenida.",
+    "pregunta": "El contratista sostiene que el cambio es 'menor' porque no aumenta el costo total del proyecto. El criterio más adecuado es:",
+    "opciones": {
+      "a": "El costo económico no determina por sí solo su relevancia ambiental; deben analizarse alcance, localización, impactos y condiciones del instrumento.",
+      "b": "Todo cambio que no incremente el presupuesto debe clasificarse como menor.",
+      "c": "La clasificación depende únicamente del porcentaje de avance físico alcanzado."
+    },
+    "respuesta": "a",
+    "explicacion": "La relevancia ambiental de un cambio no se define por su costo privado, sino por sus características, impactos y relación con lo autorizado."
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Modificaciones y cambios en proyectos licenciados",
+    "caso_id": 5,
+    "orden_en_caso": 3,
+    "caso": "En seguimiento se observa que el titular desplazó parte de una obra respecto del diseño que sirvió de base al instrumento ambiental. El cambio fue motivado por condiciones geotécnicas encontradas durante la construcción. El nuevo emplazamiento se acerca a un drenaje y modifica el área inicialmente intervenida.",
+    "pregunta": "Si la empresa argumenta que detener temporalmente la actividad afecta el cronograma contractual, el profesional debe:",
+    "opciones": {
+      "a": "Subordinar el análisis ambiental al cronograma porque el contrato de construcción es posterior a la licencia.",
+      "b": "Eliminar del concepto cualquier referencia al cambio para no afectar la ejecución del proyecto.",
+      "c": "Mantener el análisis conforme al instrumento y al marco ambiental aplicable, sin convertir la urgencia contractual en una autorización ambiental."
+    },
+    "respuesta": "c",
+    "explicacion": "Las necesidades operativas pueden contextualizar el caso, pero no sustituyen las condiciones y procedimientos ambientales aplicables."
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Vertimientos y calidad de agua",
+    "caso_id": 6,
+    "orden_en_caso": 1,
+    "caso": "Un proyecto industrial cuenta con obligaciones de seguimiento a su descarga de aguas residuales. El último informe muestra resultados obtenidos en un punto cuya descripción no coincide claramente con el punto autorizado, y la planta operaba a una carga reducida durante el muestreo.",
+    "pregunta": "Para determinar si los resultados sirven para verificar la obligación, lo primero es:",
+    "opciones": {
+      "a": "Comprobar representatividad del punto, condiciones operativas, parámetros y demás condiciones asociadas al monitoreo exigido.",
+      "b": "Comparar directamente todos los valores con cualquier norma de calidad de agua disponible.",
+      "c": "Aceptar el monitoreo porque fue realizado por un laboratorio y, por tanto, su contexto operativo deja de ser relevante."
+    },
+    "respuesta": "a",
+    "explicacion": "La interpretación exige confirmar que la medición corresponde al punto y condiciones que deben verificarse. Un resultado técnicamente válido puede ser poco representativo de la obligación si fue tomado en otro contexto."
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Calidad de agua",
+    "caso_id": 6,
+    "orden_en_caso": 2,
+    "caso": "Un proyecto industrial cuenta con obligaciones de seguimiento a su descarga de aguas residuales. El último informe muestra resultados obtenidos en un punto cuya descripción no coincide claramente con el punto autorizado, y la planta operaba a una carga reducida durante el muestreo.",
+    "pregunta": "Adicionalmente, una estación aguas abajo muestra deterioro respecto de campañas anteriores. Para explorar si la descarga contribuye a ese cambio, es más útil:",
+    "opciones": {
+      "a": "Analizar solo la estación aguas abajo, pues cualquier cambio allí representa el efecto directo de la descarga.",
+      "b": "Comparar condiciones aguas arriba y aguas abajo, caudales, temporalidad, operación de la fuente y otras presiones relevantes.",
+      "c": "Comparar únicamente el dato con el promedio nacional de cuerpos de agua similares."
+    },
+    "respuesta": "b",
+    "explicacion": "La atribución de cambios en un receptor requiere contexto espacial, temporal e hidrológico y considerar otras fuentes o presiones."
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Evidencia de incumplimiento",
+    "caso_id": 6,
+    "orden_en_caso": 3,
+    "caso": "Un proyecto industrial cuenta con obligaciones de seguimiento a su descarga de aguas residuales. El último informe muestra resultados obtenidos en un punto cuya descripción no coincide claramente con el punto autorizado, y la planta operaba a una carga reducida durante el muestreo.",
+    "pregunta": "Si una medición representativa y debidamente soportada evidencia un incumplimiento de una condición expresa del instrumento, el profesional de seguimiento debe principalmente:",
+    "opciones": {
+      "a": "Documentar el hecho, su soporte y la obligación aplicable y formular la recomendación técnica que corresponda dentro de sus competencias.",
+      "b": "Imponer personalmente la sanción definitiva en el concepto técnico.",
+      "c": "Esperar a que se repita varias veces antes de dejar registro en el expediente."
+    },
+    "respuesta": "a",
+    "explicacion": "El concepto técnico documenta y sustenta hallazgos y recomendaciones. La determinación jurídica de responsabilidad sigue el procedimiento y competencias correspondientes."
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Recurso hídrico",
+    "caso_id": 7,
+    "orden_en_caso": 1,
+    "caso": "Un proyecto autorizado para captar agua reporta un aumento sostenido de su demanda. Los registros de operación muestran períodos en los que el volumen captado puede haber superado las condiciones establecidas, especialmente durante la estación seca.",
+    "pregunta": "La revisión técnica debe partir de:",
+    "opciones": {
+      "a": "La capacidad máxima de las bombas instaladas, independientemente de las condiciones autorizadas.",
+      "b": "Las condiciones aplicables al aprovechamiento autorizado, los registros reales de captación y la consistencia temporal de la información.",
+      "c": "El consumo promedio anual, pues este compensa cualquier exceso diario o mensual."
+    },
+    "respuesta": "b",
+    "explicacion": "El seguimiento confronta el uso real del recurso con las condiciones autorizadas en las escalas temporales pertinentes; un promedio puede ocultar excesos relevantes."
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Hidrología",
+    "caso_id": 7,
+    "orden_en_caso": 2,
+    "caso": "Un proyecto autorizado para captar agua reporta un aumento sostenido de su demanda. Los registros de operación muestran períodos en los que el volumen captado puede haber superado las condiciones establecidas, especialmente durante la estación seca.",
+    "pregunta": "Para valorar el riesgo sobre la fuente en la época seca resulta especialmente importante:",
+    "opciones": {
+      "a": "Relacionar la captación real con el comportamiento hidrológico de la fuente y las condiciones ambientales establecidas para su aprovechamiento.",
+      "b": "Usar únicamente el caudal máximo registrado durante la temporada de lluvias.",
+      "c": "Asumir que una fuente superficial conserva el mismo caudal disponible durante todo el año."
+    },
+    "respuesta": "a",
+    "explicacion": "La disponibilidad hídrica y el efecto relativo de una captación pueden cambiar considerablemente entre épocas; el análisis debe ser temporalmente representativo."
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Licencia ambiental y permisos asociados",
+    "caso_id": 7,
+    "orden_en_caso": 3,
+    "caso": "Un proyecto autorizado para captar agua reporta un aumento sostenido de su demanda. Los registros de operación muestran períodos en los que el volumen captado puede haber superado las condiciones establecidas, especialmente durante la estación seca.",
+    "pregunta": "Si el aprovechamiento del recurso se encuentra incorporado dentro del instrumento ambiental del proyecto, en seguimiento corresponde:",
+    "opciones": {
+      "a": "Ignorar las condiciones del aprovechamiento porque únicamente se revisa la licencia en sentido general.",
+      "b": "Verificar también las condiciones y obligaciones relacionadas con el uso del recurso que formen parte del instrumento aplicable.",
+      "c": "Remitir automáticamente todo asunto de agua a otra autoridad sin revisar primero la competencia ni el instrumento."
+    },
+    "respuesta": "b",
+    "explicacion": "El seguimiento de una licencia comprende las obligaciones y autorizaciones ambientales que correspondan al proyecto dentro del ámbito de competencia de la autoridad."
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Calidad del aire",
+    "caso_id": 8,
+    "orden_en_caso": 1,
+    "caso": "Durante el seguimiento de una instalación industrial se presenta un monitoreo de una fuente atmosférica con un resultado elevado. El titular cuestiona el dato porque la planta estaba atravesando una condición operativa poco habitual.",
+    "pregunta": "Antes de concluir sobre el resultado, el profesional debería:",
+    "opciones": {
+      "a": "Verificar método, condiciones de operación durante la medición, representatividad, obligación aplicable y aseguramiento de calidad.",
+      "b": "Excluir el dato automáticamente porque la planta no operaba en su condición más frecuente.",
+      "c": "Aceptar el dato sin revisar cómo fue obtenido porque todo resultado de laboratorio es concluyente."
+    },
+    "respuesta": "a",
+    "explicacion": "La interpretación de una medición de emisiones requiere conocer cómo y bajo qué condiciones fue obtenida y qué condición del instrumento o norma pretende verificar."
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Emisiones y molestias",
+    "caso_id": 8,
+    "orden_en_caso": 2,
+    "caso": "Durante el seguimiento de una instalación industrial se presenta un monitoreo de una fuente atmosférica con un resultado elevado. El titular cuestiona el dato porque la planta estaba atravesando una condición operativa poco habitual.",
+    "pregunta": "Vecinos reportan episodios de olor en horas en las que no se realizaron monitoreos. La actuación más útil es:",
+    "opciones": {
+      "a": "Descartar las quejas porque el monitoreo programado no registró el episodio.",
+      "b": "Declarar una infracción exclusivamente con el número de quejas recibidas.",
+      "c": "Correlacionar horarios y condiciones meteorológicas y operativas, identificar fuentes potenciales y orientar verificaciones representativas."
+    },
+    "respuesta": "c",
+    "explicacion": "Los reportes ciudadanos pueden ayudar a identificar patrones, pero deben contrastarse con variables de fuente, operación y dispersión para sustentar la conclusión técnica."
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Integración de evidencia",
+    "caso_id": 8,
+    "orden_en_caso": 3,
+    "caso": "Durante el seguimiento de una instalación industrial se presenta un monitoreo de una fuente atmosférica con un resultado elevado. El titular cuestiona el dato porque la planta estaba atravesando una condición operativa poco habitual.",
+    "pregunta": "Si los resultados de un modelo de dispersión son consistentemente distintos de las observaciones de campo, la respuesta más rigurosa es:",
+    "opciones": {
+      "a": "Escoger siempre el modelo porque es matemático.",
+      "b": "Revisar supuestos, entradas, representatividad de los datos observados y posibles razones de la discrepancia antes de integrar la evidencia.",
+      "c": "Descartar el modelo y cualquier información histórica asociada."
+    },
+    "respuesta": "b",
+    "explicacion": "Modelos y mediciones son líneas de evidencia con supuestos y limitaciones. Una discrepancia debe investigarse, no resolverse por preferencia automática."
+  },
+  {
+    "id": 25,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Ruido",
+    "caso_id": 9,
+    "orden_en_caso": 1,
+    "caso": "Una comunidad cercana a un proyecto reporta incremento de ruido principalmente entre las 11 p. m. y las 3 a. m. El titular aporta una campaña realizada únicamente durante el día y sostiene que los resultados prueban que no existe afectación.",
+    "pregunta": "Para verificar adecuadamente el reporte se debería:",
+    "opciones": {
+      "a": "Planear una medición representativa de los períodos y condiciones en que se reporta el fenómeno, además de caracterizar las fuentes relevantes.",
+      "b": "Aceptar el monitoreo diurno porque cualquier medición del mismo proyecto es representativa de todo el día.",
+      "c": "Usar exclusivamente entrevistas comunitarias y prescindir de cualquier medición."
+    },
+    "respuesta": "a",
+    "explicacion": "El monitoreo debe representar el fenómeno que se pretende evaluar. Una campaña diurna puede no responder una queja específicamente nocturna."
+  },
+  {
+    "id": 26,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Ruido",
+    "caso_id": 9,
+    "orden_en_caso": 2,
+    "caso": "Una comunidad cercana a un proyecto reporta incremento de ruido principalmente entre las 11 p. m. y las 3 a. m. El titular aporta una campaña realizada únicamente durante el día y sostiene que los resultados prueban que no existe afectación.",
+    "pregunta": "En el área existen otras fuentes de ruido ajenas al proyecto. Para analizar la contribución del proyecto conviene:",
+    "opciones": {
+      "a": "Atribuir todo el nivel medido a la instalación de mayor tamaño.",
+      "b": "Diseñar la evaluación para caracterizar las fuentes y condiciones de operación y distinguir, en cuanto sea técnicamente posible, su contribución al ambiente acústico.",
+      "c": "Concluir que ninguna fuente puede evaluarse individualmente."
+    },
+    "respuesta": "b",
+    "explicacion": "La coexistencia de fuentes exige una mejor caracterización, no una atribución automática ni la renuncia al análisis."
+  },
+  {
+    "id": 27,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Eficacia de controles",
+    "caso_id": 9,
+    "orden_en_caso": 3,
+    "caso": "Una comunidad cercana a un proyecto reporta incremento de ruido principalmente entre las 11 p. m. y las 3 a. m. El titular aporta una campaña realizada únicamente durante el día y sostiene que los resultados prueban que no existe afectación.",
+    "pregunta": "Se confirma que meses atrás fueron reemplazados varios equipos por unidades de distinta potencia. El profesional debería:",
+    "opciones": {
+      "a": "Incorporar el cambio al inventario de fuentes y verificar si las medidas de manejo continúan siendo adecuadas y eficaces.",
+      "b": "Mantener el análisis del escenario anterior porque la licencia fue otorgada antes del reemplazo.",
+      "c": "Asumir que equipos más nuevos siempre generan menos ruido."
+    },
+    "respuesta": "a",
+    "explicacion": "El seguimiento analiza las condiciones reales del proyecto y la eficacia de las medidas frente a ellas; no puede basarse exclusivamente en un inventario desactualizado."
+  },
+  {
+    "id": 28,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Suelo y erosión",
+    "caso_id": 10,
+    "orden_en_caso": 1,
+    "caso": "En un talud intervenido se instalaron obras de drenaje y revegetación como medida de manejo. Durante una visita se observan cárcavas recientes, material depositado al pie de la pendiente y varias estructuras de drenaje obstruidas.",
+    "pregunta": "La evaluación debería centrarse inicialmente en:",
+    "opciones": {
+      "a": "Verificar únicamente si las obras aparecen reportadas como construidas.",
+      "b": "Determinar el funcionamiento real de drenajes y revegetación, el patrón de erosión y la necesidad de mantenimiento o ajuste de las medidas.",
+      "c": "Considerar que toda erosión en un talud intervenido es inevitable y, por tanto, no requiere análisis."
+    },
+    "respuesta": "b",
+    "explicacion": "La presencia física de una medida no demuestra su eficacia. El seguimiento debe valorar si controla efectivamente el proceso que motivó su implementación."
+  },
+  {
+    "id": 29,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Sedimentos",
+    "caso_id": 10,
+    "orden_en_caso": 2,
+    "caso": "En un talud intervenido se instalaron obras de drenaje y revegetación como medida de manejo. Durante una visita se observan cárcavas recientes, material depositado al pie de la pendiente y varias estructuras de drenaje obstruidas.",
+    "pregunta": "Una quebrada cercana presenta picos de turbidez durante lluvias. Para diferenciar el aporte del proyecto de la variabilidad natural es más útil:",
+    "opciones": {
+      "a": "Integrar puntos de referencia, condiciones de lluvia, conexión de drenajes, actividades del proyecto y series temporales disponibles.",
+      "b": "Usar solo el valor máximo registrado aguas abajo.",
+      "c": "Asumir que todo pico durante lluvia es natural."
+    },
+    "respuesta": "a",
+    "explicacion": "La atribución requiere contexto espacial y temporal. Tanto el proyecto como procesos naturales pueden contribuir a la señal observada."
+  },
+  {
+    "id": 30,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente abiótico — Restauración",
+    "caso_id": 10,
+    "orden_en_caso": 3,
+    "caso": "En un talud intervenido se instalaron obras de drenaje y revegetación como medida de manejo. Durante una visita se observan cárcavas recientes, material depositado al pie de la pendiente y varias estructuras de drenaje obstruidas.",
+    "pregunta": "Si el titular informa que la revegetación fue realizada, pero gran parte de la cobertura murió semanas después, el seguimiento debe:",
+    "opciones": {
+      "a": "Considerar satisfecha la medida porque la siembra ocurrió.",
+      "b": "Evaluar los criterios de éxito y estabilidad aplicables y, si corresponde, la necesidad de mantenimiento, resiembra o ajustes.",
+      "c": "Eliminar la medida del PMA porque demostró no funcionar en el primer intento."
+    },
+    "respuesta": "b",
+    "explicacion": "Las medidas de restauración o revegetación se valoran también por su desempeño y permanencia, no únicamente por la actividad inicial."
+  },
+  {
+    "id": 31,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente biótico — Fauna",
+    "caso_id": 11,
+    "orden_en_caso": 1,
+    "caso": "Un corredor vial sujeto a seguimiento implementó señalización, pasos de fauna y controles de velocidad. Los registros del último año muestran aumento de atropellamientos en dos sectores concretos, aunque el tránsito total cambió poco.",
+    "pregunta": "La respuesta técnica más apropiada es:",
+    "opciones": {
+      "a": "Analizar distribución espacial y temporal de eventos, especies afectadas, funcionamiento de las medidas y características de los sectores críticos.",
+      "b": "Concluir que las medidas funcionan porque fueron instaladas según el diseño aprobado.",
+      "c": "Retirar inmediatamente todos los pasos de fauna porque los atropellamientos aumentaron."
+    },
+    "respuesta": "a",
+    "explicacion": "El patrón de eventos puede revelar puntos críticos y fallas de eficacia. La solución requiere entender el mecanismo antes de ajustar las medidas."
+  },
+  {
+    "id": 32,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente biótico — Manejo de fauna",
+    "caso_id": 11,
+    "orden_en_caso": 2,
+    "caso": "Un corredor vial sujeto a seguimiento implementó señalización, pasos de fauna y controles de velocidad. Los registros del último año muestran aumento de atropellamientos en dos sectores concretos, aunque el tránsito total cambió poco.",
+    "pregunta": "En los archivos de rescate de fauna aparecen numerosos individuos capturados, pero no hay información suficiente sobre su disposición o liberación. El principal problema técnico es:",
+    "opciones": {
+      "a": "La ausencia de trazabilidad impide verificar integralmente el resultado de la medida de manejo.",
+      "b": "El número de capturas demuestra por sí mismo que la medida fue exitosa.",
+      "c": "La liberación de los individuos no forma parte del seguimiento cuando ya existe registro de captura."
+    },
+    "respuesta": "a",
+    "explicacion": "Una medida de manejo debe poder reconstruirse desde la intervención hasta su resultado. Un registro incompleto limita la verificación de cumplimiento y eficacia."
+  },
+  {
+    "id": 33,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente biótico — Nuevos hallazgos",
+    "caso_id": 11,
+    "orden_en_caso": 3,
+    "caso": "Un corredor vial sujeto a seguimiento implementó señalización, pasos de fauna y controles de velocidad. Los registros del último año muestran aumento de atropellamientos en dos sectores concretos, aunque el tránsito total cambió poco.",
+    "pregunta": "Durante la visita se confirma presencia recurrente de una especie sensible que no había sido registrada en la caracterización inicial. El profesional debería:",
+    "opciones": {
+      "a": "Ignorar la observación porque el estudio inicial es la única línea base jurídicamente válida.",
+      "b": "Documentar y verificar el hallazgo, analizar su relación con los impactos y revisar si las medidas actuales son suficientes.",
+      "c": "Declarar inmediatamente inviable todo el proyecto."
+    },
+    "respuesta": "b",
+    "explicacion": "El seguimiento incorpora evidencia del comportamiento real del medio. Un nuevo registro puede exigir análisis adicional, pero no determina por sí solo una consecuencia extrema."
+  },
+  {
+    "id": 34,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente biótico — Coberturas y áreas autorizadas",
+    "caso_id": 12,
+    "orden_en_caso": 1,
+    "caso": "En un proyecto se autorizó intervención de determinadas coberturas dentro de polígonos definidos. Una comparación preliminar de imágenes recientes sugiere apertura de áreas por fuera del límite aprobado.",
+    "pregunta": "Para sustentar técnicamente el hallazgo es prioritario:",
+    "opciones": {
+      "a": "Comparar cartografía autorizada y evidencia geográfica actual con sistemas de referencia, escalas y fechas compatibles y verificar en campo cuando sea pertinente.",
+      "b": "Medir visualmente la diferencia en una captura de pantalla y asumir que corresponde al área oficialmente intervenida.",
+      "c": "Usar el polígono más reciente entregado por el titular aunque no coincida con el acto administrativo."
+    },
+    "respuesta": "a",
+    "explicacion": "Un posible exceso espacial exige una comparación geográfica trazable entre el ámbito autorizado y la intervención real."
+  },
+  {
+    "id": 35,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente biótico — Revegetación",
+    "caso_id": 12,
+    "orden_en_caso": 2,
+    "caso": "En un proyecto se autorizó intervención de determinadas coberturas dentro de polígonos definidos. Una comparación preliminar de imágenes recientes sugiere apertura de áreas por fuera del límite aprobado.",
+    "pregunta": "En otra zona del proyecto se cumplió la meta de número de individuos sembrados, pero la supervivencia es muy baja. La evaluación correcta es:",
+    "opciones": {
+      "a": "La meta está completamente cumplida porque el indicador debe limitarse al número plantado.",
+      "b": "Debe valorarse también la supervivencia, estado y criterios de éxito previstos para establecer la eficacia real de la medida.",
+      "c": "Toda mortalidad de plantas demuestra daño ambiental sancionable."
+    },
+    "respuesta": "b",
+    "explicacion": "Los indicadores de ejecución y los de resultado no son equivalentes. La eficacia depende del objetivo y criterios definidos para la medida."
+  },
+  {
+    "id": 36,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Componente biótico — Conectividad ecológica",
+    "caso_id": 12,
+    "orden_en_caso": 3,
+    "caso": "En un proyecto se autorizó intervención de determinadas coberturas dentro de polígonos definidos. Una comparación preliminar de imágenes recientes sugiere apertura de áreas por fuera del límite aprobado.",
+    "pregunta": "Si el titular demuestra que compensó el mismo número de hectáreas intervenidas, pero el seguimiento evidencia pérdida relevante de conectividad ecológica, el profesional debería:",
+    "opciones": {
+      "a": "Dar por resuelto el impacto porque la igualdad de hectáreas garantiza equivalencia ecológica.",
+      "b": "Analizar además de la superficie las funciones ecológicas, localización y resultados de las medidas aplicables.",
+      "c": "Excluir cualquier análisis de conectividad porque solo es posible medir extensión."
+    },
+    "respuesta": "b",
+    "explicacion": "La extensión es una variable importante, pero la respuesta ambiental puede requerir considerar calidad, función y conectividad del componente biótico."
+  },
+  {
+    "id": 37,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Compensación y resultados ambientales",
+    "caso_id": 13,
+    "orden_en_caso": 1,
+    "caso": "Un titular presenta como cumplida una obligación de compensación porque realizó la intervención prevista hace dos años. Sin embargo, los informes disponibles se concentran en actividades ejecutadas y ofrecen poca evidencia sobre los resultados ecológicos alcanzados.",
+    "pregunta": "El seguimiento debería:",
+    "opciones": {
+      "a": "Verificar indicadores, metas, permanencia y resultados exigibles, además de la ejecución de las actividades.",
+      "b": "Aceptar el cumplimiento siempre que pueda demostrarse el gasto presupuestal correspondiente.",
+      "c": "Valorar únicamente el número de jornadas de trabajo realizadas."
+    },
+    "respuesta": "a",
+    "explicacion": "Una obligación ambiental orientada a resultados no se verifica únicamente con esfuerzo, gasto o actividad; debe contrastarse con los criterios de cumplimiento correspondientes."
+  },
+  {
+    "id": 38,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Jerarquía de manejo de impactos",
+    "caso_id": 13,
+    "orden_en_caso": 2,
+    "caso": "Un titular presenta como cumplida una obligación de compensación porque realizó la intervención prevista hace dos años. Sin embargo, los informes disponibles se concentran en actividades ejecutadas y ofrecen poca evidencia sobre los resultados ecológicos alcanzados.",
+    "pregunta": "Para una nueva intervención el titular propone compensar un impacto que técnicamente podría evitarse mediante un pequeño cambio de localización. La opción más coherente con el manejo ambiental es:",
+    "opciones": {
+      "a": "Examinar primero la posibilidad real de prevenir o evitar el impacto antes de depender de la compensación.",
+      "b": "Preferir siempre la compensación porque permite cuantificar hectáreas con facilidad.",
+      "c": "Permitir que el titular elija libremente cualquiera de las dos alternativas sin evaluación ambiental."
+    },
+    "respuesta": "a",
+    "explicacion": "Evitar un impacto técnicamente evitable es conceptualmente preferible a producirlo y trasladar toda la respuesta a una compensación posterior."
+  },
+  {
+    "id": 39,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Compensación — Correspondencia con el impacto",
+    "caso_id": 13,
+    "orden_en_caso": 3,
+    "caso": "Un titular presenta como cumplida una obligación de compensación porque realizó la intervención prevista hace dos años. Sin embargo, los informes disponibles se concentran en actividades ejecutadas y ofrecen poca evidencia sobre los resultados ecológicos alcanzados.",
+    "pregunta": "El titular propone contabilizar como compensación una actividad ambiental que ya estaba obligado a ejecutar por una obligación distinta. El profesional debería:",
+    "opciones": {
+      "a": "Aceptarla porque cualquier actividad beneficiosa para el ambiente puede contabilizarse varias veces.",
+      "b": "Verificar la correspondencia de la actividad con la obligación de compensación y evitar asumir que un mismo resultado satisface automáticamente obligaciones diferentes.",
+      "c": "Rechazar cualquier actividad que ya haya comenzado, aunque sea exactamente la exigida."
+    },
+    "respuesta": "b",
+    "explicacion": "La verificación exige identificar qué obligación satisface cada evidencia y evitar dobles contabilizaciones sin sustento."
+  },
+  {
+    "id": 40,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Contingencias ambientales",
+    "caso_id": 14,
+    "orden_en_caso": 1,
+    "caso": "Durante la operación de un proyecto ocurre un derrame accidental de combustible cerca de un drenaje. El titular activa brigadas internas y afirma que el evento fue controlado rápidamente. Horas después informa a la autoridad.",
+    "pregunta": "Desde el seguimiento, el análisis inicial debería verificar prioritariamente:",
+    "opciones": {
+      "a": "Respuesta y contención ejecutadas, magnitud y localización del evento, recursos potencialmente afectados, obligaciones de reporte y medidas de contingencia aplicables.",
+      "b": "Únicamente el costo económico del producto derramado.",
+      "c": "Solo si el titular utilizó personal propio o un contratista para atender la emergencia."
+    },
+    "respuesta": "a",
+    "explicacion": "El seguimiento de una contingencia requiere reconstruir el evento, la respuesta, la afectación potencial o real y el cumplimiento de las obligaciones correspondientes."
+  },
+  {
+    "id": 41,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Contingencias — Verificación posterior",
+    "caso_id": 14,
+    "orden_en_caso": 2,
+    "caso": "Durante la operación de un proyecto ocurre un derrame accidental de combustible cerca de un drenaje. El titular activa brigadas internas y afirma que el evento fue controlado rápidamente. Horas después informa a la autoridad.",
+    "pregunta": "Aunque ya no se observa producto libre, persisten olores y manchas en suelo. La conclusión adecuada es:",
+    "opciones": {
+      "a": "La emergencia terminó y, por tanto, el suelo deja de ser asunto de seguimiento.",
+      "b": "Deben evaluarse posibles residuos o afectaciones remanentes y la suficiencia de las acciones de recuperación y monitoreo.",
+      "c": "La ausencia de producto líquido visible demuestra por sí sola recuperación total."
+    },
+    "respuesta": "b",
+    "explicacion": "Controlar la fuente inmediata no equivale necesariamente a recuperar el medio afectado. La fase posterior debe verificar condiciones residuales."
+  },
+  {
+    "id": 42,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Contingencias — Mejora de medidas",
+    "caso_id": 14,
+    "orden_en_caso": 3,
+    "caso": "Durante la operación de un proyecto ocurre un derrame accidental de combustible cerca de un drenaje. El titular activa brigadas internas y afirma que el evento fue controlado rápidamente. Horas después informa a la autoridad.",
+    "pregunta": "Se constata que es el tercer evento similar causado por la misma falla operativa. Además de revisar cada evento, es técnicamente pertinente:",
+    "opciones": {
+      "a": "Analizar causas recurrentes y la eficacia del sistema preventivo y del plan de contingencia para sustentar medidas de mejora.",
+      "b": "Evaluar cada derrame de manera aislada y evitar cualquier análisis de tendencia.",
+      "c": "Considerar inevitable la recurrencia porque el plan de contingencia fue activado."
+    },
+    "respuesta": "a",
+    "explicacion": "La repetición de un mismo evento puede revelar una causa sistémica o una medida preventiva ineficaz que debe ser evaluada."
+  },
+  {
+    "id": 43,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Impactos acumulativos y contexto regional",
+    "caso_id": 15,
+    "orden_en_caso": 1,
+    "caso": "En una cuenca operan varios proyectos con instrumentos ambientales independientes. Los monitoreos regionales muestran deterioro gradual de un receptor, aunque cada proyecto analiza principalmente su propia área de influencia.",
+    "pregunta": "Para el seguimiento de uno de los proyectos es técnicamente razonable:",
+    "opciones": {
+      "a": "Excluir toda información de los demás proyectos porque pertenece a otros expedientes.",
+      "b": "Considerar el contexto regional y las posibles interacciones cuando sean relevantes para interpretar la contribución y eficacia de las medidas del proyecto seguido.",
+      "c": "Sumar directamente todos los impactos reportados sin comprobar compatibilidad de métodos ni escalas."
+    },
+    "respuesta": "b",
+    "explicacion": "El expediente individual sigue siendo la unidad de actuación, pero la interpretación ambiental puede requerir contexto regional cuando varios factores afectan el mismo receptor."
+  },
+  {
+    "id": 44,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Impactos acumulativos y contexto regional",
+    "caso_id": 15,
+    "orden_en_caso": 2,
+    "caso": "En una cuenca operan varios proyectos con instrumentos ambientales independientes. Los monitoreos regionales muestran deterioro gradual de un receptor, aunque cada proyecto analiza principalmente su propia área de influencia.",
+    "pregunta": "Si cada proyecto reporta individualmente valores aceptables pero el receptor muestra deterioro sostenido, el profesional debería:",
+    "opciones": {
+      "a": "Concluir que el deterioro regional no existe porque ningún proyecto por sí solo muestra excedencia.",
+      "b": "Examinar tendencias, escalas, presiones concurrentes y suficiencia de la información antes de atribuir o descartar contribuciones.",
+      "c": "Asignar por partes iguales la responsabilidad ambiental entre todos los proyectos."
+    },
+    "respuesta": "b",
+    "explicacion": "El estado de un receptor puede responder a múltiples presiones. La ausencia de una señal individual simple no permite ignorar una tendencia regional, pero tampoco autoriza distribuir causalidad arbitrariamente."
+  },
+  {
+    "id": 45,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Gestión de datos ambientales",
+    "caso_id": 15,
+    "orden_en_caso": 3,
+    "caso": "En una cuenca operan varios proyectos con instrumentos ambientales independientes. Los monitoreos regionales muestran deterioro gradual de un receptor, aunque cada proyecto analiza principalmente su propia área de influencia.",
+    "pregunta": "Para comparar datos producidos por distintos proyectos es fundamental:",
+    "opciones": {
+      "a": "Verificar compatibilidad de métodos, unidades, localización, períodos, calidad y versiones antes de integrar las series.",
+      "b": "Unir todos los archivos disponibles y promediar cada columna con el mismo nombre.",
+      "c": "Seleccionar únicamente los datos del proyecto con mayor número de registros."
+    },
+    "respuesta": "a",
+    "explicacion": "La integración de datos requiere comparabilidad y trazabilidad; de lo contrario, una aparente tendencia puede ser producto de diferencias metodológicas."
+  },
+  {
+    "id": 46,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Desmantelamiento y abandono",
+    "caso_id": 16,
+    "orden_en_caso": 1,
+    "caso": "Un proyecto anuncia que cesará definitivamente su operación y solicita cerrar cuanto antes el expediente ambiental. En varias áreas quedan instalaciones, suelos intervenidos y obligaciones de restauración cuyo resultado todavía no ha sido verificado.",
+    "pregunta": "El cese de operación implica que:",
+    "opciones": {
+      "a": "Las obligaciones ambientales terminan automáticamente el último día de producción.",
+      "b": "Deben continuar verificándose las obligaciones aplicables a desmantelamiento, restauración, abandono y cierre según el instrumento y el procedimiento correspondiente.",
+      "c": "El expediente puede archivarse si la empresa manifiesta por escrito que no realizará nuevas actividades."
+    },
+    "respuesta": "b",
+    "explicacion": "La vida ambiental de un proyecto puede extenderse a las fases de desmantelamiento, restauración y abandono; terminar la producción no borra obligaciones pendientes."
+  },
+  {
+    "id": 47,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Desmantelamiento y abandono",
+    "caso_id": 16,
+    "orden_en_caso": 2,
+    "caso": "Un proyecto anuncia que cesará definitivamente su operación y solicita cerrar cuanto antes el expediente ambiental. En varias áreas quedan instalaciones, suelos intervenidos y obligaciones de restauración cuyo resultado todavía no ha sido verificado.",
+    "pregunta": "Para valorar las medidas finales resulta más adecuado:",
+    "opciones": {
+      "a": "Basarse solamente en el plan redactado al inicio del proyecto.",
+      "b": "Contrastar el plan con las condiciones actuales del sitio, impactos remanentes, obligaciones y criterios de cierre aplicables.",
+      "c": "Presumir que cualquier terreno sin infraestructura visible está restaurado."
+    },
+    "respuesta": "b",
+    "explicacion": "El cierre debe responder al estado real del proyecto y a sus obligaciones, no únicamente a predicciones elaboradas años atrás."
+  },
+  {
+    "id": 48,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Desmantelamiento — Cierre de expediente",
+    "caso_id": 16,
+    "orden_en_caso": 3,
+    "caso": "Un proyecto anuncia que cesará definitivamente su operación y solicita cerrar cuanto antes el expediente ambiental. En varias áreas quedan instalaciones, suelos intervenidos y obligaciones de restauración cuyo resultado todavía no ha sido verificado.",
+    "pregunta": "Desde el punto de vista técnico, antes de recomendar un cierre o archivo debe existir:",
+    "opciones": {
+      "a": "Verificación suficiente del estado de las obligaciones y de los aspectos ambientales que deban estar resueltos conforme al instrumento.",
+      "b": "Únicamente certificación del área financiera de la empresa de que el proyecto terminó.",
+      "c": "Una declaración juramentada del contratista indicando que no existen impactos."
+    },
+    "respuesta": "a",
+    "explicacion": "El soporte técnico de un cierre exige verificar el cumplimiento y las condiciones ambientales pertinentes; una declaración privada no sustituye la comprobación."
+  },
+  {
+    "id": 49,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Medidas preventivas y seguimiento",
+    "caso_id": 17,
+    "orden_en_caso": 1,
+    "caso": "Durante una visita se detecta una actividad no prevista que está descargando material hacia un cauce y puede continuar durante las siguientes horas. El equipo dispone de evidencia suficiente para documentar la situación, pero todavía no se ha adelantado un procedimiento sancionatorio.",
+    "pregunta": "La actuación técnica más apropiada del profesional es:",
+    "opciones": {
+      "a": "Documentar rigurosamente el hecho, el riesgo o afectación y las condiciones observadas y activar o recomendar la actuación preventiva que corresponda según las competencias.",
+      "b": "Esperar obligatoriamente a que termine todo un proceso sancionatorio antes de informar el riesgo.",
+      "c": "Declarar en campo la responsabilidad definitiva del titular e imponer personalmente la máxima sanción."
+    },
+    "respuesta": "a",
+    "explicacion": "Las medidas preventivas responden a la necesidad de evitar o detener situaciones de riesgo o afectación y son diferentes de una sanción definitiva."
+  },
+  {
+    "id": 50,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Concepto técnico y procedimiento sancionatorio",
+    "caso_id": 17,
+    "orden_en_caso": 2,
+    "caso": "Durante una visita se detecta una actividad no prevista que está descargando material hacia un cauce y puede continuar durante las siguientes horas. El equipo dispone de evidencia suficiente para documentar la situación, pero todavía no se ha adelantado un procedimiento sancionatorio.",
+    "pregunta": "En el concepto técnico posterior, el profesional debe evitar:",
+    "opciones": {
+      "a": "Relacionar los hechos observados con las obligaciones que pudieran resultar relevantes.",
+      "b": "Incluir fotografías, mediciones y antecedentes que sustenten el hallazgo.",
+      "c": "Presentar la responsabilidad sancionatoria como definitivamente establecida por el solo concepto técnico, sustituyendo el procedimiento correspondiente."
+    },
+    "respuesta": "c",
+    "explicacion": "El concepto técnico es un soporte de la actuación administrativa; no reemplaza las garantías ni la decisión que corresponden al procedimiento sancionatorio."
+  },
+  {
+    "id": 51,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Levantamiento de medidas preventivas",
+    "caso_id": 17,
+    "orden_en_caso": 3,
+    "caso": "Durante una visita se detecta una actividad no prevista que está descargando material hacia un cauce y puede continuar durante las siguientes horas. El equipo dispone de evidencia suficiente para documentar la situación, pero todavía no se ha adelantado un procedimiento sancionatorio.",
+    "pregunta": "Meses después el titular solicita el levantamiento de una medida preventiva adoptada por la situación. Técnicamente, la decisión debe apoyarse en:",
+    "opciones": {
+      "a": "La comprobación de las condiciones actuales y de si desaparecieron o fueron controladas las causas que justificaron la medida.",
+      "b": "El simple transcurso del tiempo desde su imposición.",
+      "c": "El compromiso verbal del titular de evitar nuevos eventos."
+    },
+    "respuesta": "a",
+    "explicacion": "El levantamiento debe sustentarse en la verificación de que las causas que motivaron la protección preventiva ya no justifican mantenerla."
+  },
+  {
+    "id": 52,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Competencia de autoridades ambientales",
+    "caso_id": 18,
+    "orden_en_caso": 1,
+    "caso": "Durante el seguimiento de un proyecto nacional llega información sobre una actividad vecina que podría generar impactos en la misma zona. No es claro inicialmente si esa actividad está amparada por el instrumento de competencia de la ANLA o corresponde a otra autoridad ambiental.",
+    "pregunta": "Antes de emitir requerimientos sobre la actividad vecina, el profesional debe:",
+    "opciones": {
+      "a": "Determinar el instrumento, titular, alcance y autoridad competente y establecer la relación que la actividad pueda tener con el proyecto seguido.",
+      "b": "Asumir que todo asunto ambiental cercano a un proyecto ANLA es automáticamente competencia de ANLA.",
+      "c": "Ignorar la información porque proviene de un expediente distinto."
+    },
+    "respuesta": "a",
+    "explicacion": "La competencia administrativa debe verificarse. La proximidad geográfica a un proyecto de competencia nacional no transforma automáticamente cualquier actividad en competencia de la misma autoridad."
+  },
+  {
+    "id": 53,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Consultas y coordinación institucional",
+    "caso_id": 18,
+    "orden_en_caso": 2,
+    "caso": "Durante el seguimiento de un proyecto nacional llega información sobre una actividad vecina que podría generar impactos en la misma zona. No es claro inicialmente si esa actividad está amparada por el instrumento de competencia de la ANLA o corresponde a otra autoridad ambiental.",
+    "pregunta": "Si una consulta recibida incluye asuntos de competencia de la dependencia y otros que corresponden claramente a otra autoridad o dependencia, lo más adecuado es:",
+    "opciones": {
+      "a": "Responder de manera coordinada lo que corresponda dentro de la competencia y canalizar oportunamente los demás asuntos conforme al procedimiento aplicable.",
+      "b": "Responder sobre todos los asuntos para evitar cualquier traslado.",
+      "c": "Archivar toda la consulta porque una parte de ella no es competencia propia."
+    },
+    "respuesta": "a",
+    "explicacion": "Una respuesta institucional de calidad debe respetar la competencia sin desatender los asuntos que sí pueden gestionarse o canalizarse correctamente."
+  },
+  {
+    "id": 54,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Aplicación de normativa ambiental",
+    "caso_id": 18,
+    "orden_en_caso": 3,
+    "caso": "Durante el seguimiento de un proyecto nacional llega información sobre una actividad vecina que podría generar impactos en la misma zona. No es claro inicialmente si esa actividad está amparada por el instrumento de competencia de la ANLA o corresponde a otra autoridad ambiental.",
+    "pregunta": "Al encontrar en el expediente una referencia a una versión antigua de una norma, el profesional debería:",
+    "opciones": {
+      "a": "Aplicar siempre la norma citada originalmente, aunque haya cambiado, porque el expediente no puede actualizarse.",
+      "b": "Verificar la normativa aplicable al hecho, obligación y período analizado, su vigencia y eventuales reglas de transición, dejando claro el fundamento utilizado.",
+      "c": "Escoger la versión que genere el resultado más estricto sin revisar vigencia."
+    },
+    "respuesta": "b",
+    "explicacion": "La corrección jurídica del concepto exige identificar la norma realmente aplicable y justificar su uso, no escogerla por antigüedad o severidad."
+  },
+  {
+    "id": 55,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Elaboración de conceptos técnicos",
+    "caso_id": 19,
+    "orden_en_caso": 1,
+    "caso": "Un profesional recibe para revisión un borrador de concepto elaborado por el equipo. En el cuerpo del documento se afirma que una medida fue ineficaz, pero una tabla posterior reporta indicadores que aparentemente muestran cumplimiento. La diferencia no está explicada.",
+    "pregunta": "Antes de cerrar el concepto corresponde:",
+    "opciones": {
+      "a": "Mantener las dos versiones para que el decisor escoja la que considere más conveniente.",
+      "b": "Reconciliar la inconsistencia, revisar fuentes y metodología y explicar de forma coherente cómo la evidencia conduce a la conclusión.",
+      "c": "Eliminar la tabla porque contradice la conclusión inicialmente redactada."
+    },
+    "respuesta": "b",
+    "explicacion": "Un concepto debe permitir reconstruir el razonamiento. Las contradicciones no resueltas debilitan su calidad y trazabilidad."
+  },
+  {
+    "id": 56,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Elaboración de conceptos técnicos",
+    "caso_id": 19,
+    "orden_en_caso": 2,
+    "caso": "Un profesional recibe para revisión un borrador de concepto elaborado por el equipo. En el cuerpo del documento se afirma que una medida fue ineficaz, pero una tabla posterior reporta indicadores que aparentemente muestran cumplimiento. La diferencia no está explicada.",
+    "pregunta": "Una afirmación crítica del borrador remite a un anexo que no se encuentra en el expediente. La mejor actuación es:",
+    "opciones": {
+      "a": "Conservar la afirmación porque quien redactó el borrador probablemente vio el anexo.",
+      "b": "Reemplazar la referencia por 'según información conocida por la entidad'.",
+      "c": "Localizar y verificar el soporte o reformular la conclusión según la evidencia disponible, dejando trazabilidad suficiente."
+    },
+    "respuesta": "c",
+    "explicacion": "Las conclusiones relevantes deben poder rastrearse hasta sus soportes. La autoridad no debería descansar en evidencia que no puede ser verificada."
+  },
+  {
+    "id": 57,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Elaboración de conceptos técnicos",
+    "caso_id": 19,
+    "orden_en_caso": 3,
+    "caso": "Un profesional recibe para revisión un borrador de concepto elaborado por el equipo. En el cuerpo del documento se afirma que una medida fue ineficaz, pero una tabla posterior reporta indicadores que aparentemente muestran cumplimiento. La diferencia no está explicada.",
+    "pregunta": "Una recomendación técnica de requerimiento es más sólida cuando:",
+    "opciones": {
+      "a": "Identifica con precisión el hallazgo o necesidad, su fundamento, el resultado esperado y la relación con el instrumento o seguimiento.",
+      "b": "Utiliza expresiones amplias como 'presentar toda la información ambiental que la autoridad considere necesaria' sin delimitar el asunto.",
+      "c": "Solicita la mayor cantidad posible de información aunque no tenga relación material con la evaluación."
+    },
+    "respuesta": "a",
+    "explicacion": "Los requerimientos deben ser pertinentes, comprensibles y vinculados con una necesidad real del seguimiento."
+  },
+  {
+    "id": 58,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Participación ciudadana en seguimiento",
+    "caso_id": 20,
+    "orden_en_caso": 1,
+    "caso": "En una visita de seguimiento participan representantes del titular y habitantes del área. La comunidad entrega fotografías, fechas y ubicaciones de eventos que, según afirma, están relacionados con la operación del proyecto. El titular cuestiona que esa información sea considerada.",
+    "pregunta": "El equipo debería:",
+    "opciones": {
+      "a": "Recibir y registrar la información pertinente, incorporarla como insumo y someterla a la verificación técnica necesaria.",
+      "b": "Rechazarla porque solo el titular puede aportar información técnica al expediente.",
+      "c": "Asumirla como prueba concluyente de causalidad por provenir de varios ciudadanos."
+    },
+    "respuesta": "a",
+    "explicacion": "La participación aporta información relevante al seguimiento, pero esa información debe ser valorada con los demás elementos disponibles."
+  },
+  {
+    "id": 59,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Participación ciudadana en seguimiento",
+    "caso_id": 20,
+    "orden_en_caso": 2,
+    "caso": "En una visita de seguimiento participan representantes del titular y habitantes del área. La comunidad entrega fotografías, fechas y ubicaciones de eventos que, según afirma, están relacionados con la operación del proyecto. El titular cuestiona que esa información sea considerada.",
+    "pregunta": "El titular solicita que el equipo no se reúna con la comunidad porque considera que puede sesgar la visita. La respuesta más adecuada es:",
+    "opciones": {
+      "a": "Acceder, ya que el titular es responsable contractual del proyecto.",
+      "b": "Mantener los espacios de participación que correspondan y valorar la información de todos los actores con objetividad y criterios técnicos.",
+      "c": "Realizar la visita únicamente con la comunidad y excluir al titular."
+    },
+    "respuesta": "b",
+    "explicacion": "La objetividad no exige excluir actores; exige recibir y contrastar información sin conceder a una parte control sobre el proceso de seguimiento."
+  },
+  {
+    "id": 60,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Comunicación de resultados técnicos",
+    "caso_id": 20,
+    "orden_en_caso": 3,
+    "caso": "En una visita de seguimiento participan representantes del titular y habitantes del área. La comunidad entrega fotografías, fechas y ubicaciones de eventos que, según afirma, están relacionados con la operación del proyecto. El titular cuestiona que esa información sea considerada.",
+    "pregunta": "Al explicar a los participantes el alcance de la visita, el profesional debería:",
+    "opciones": {
+      "a": "Comunicar con claridad qué se está verificando y cómo se incorporará la información, evitando anticipar una decisión que aún no ha sido adoptada.",
+      "b": "Prometer a cada grupo que la decisión final recogerá sus pretensiones para mantener una buena relación.",
+      "c": "Evitar cualquier explicación porque la información técnica debe permanecer siempre reservada."
+    },
+    "respuesta": "a",
+    "explicacion": "La comunicación debe ser clara y transparente sin comprometer anticipadamente el sentido de una actuación que requiere evaluación."
+  },
+  {
+    "id": 61,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Solicitudes de información y atención institucional",
+    "caso_id": 21,
+    "orden_en_caso": 1,
+    "caso": "La Subdirección recibe con plazo próximo una solicitud de otra entidad que requiere información técnica sobre el estado de un proyecto. Los datos están distribuidos entre el expediente, una base institucional y un concepto que todavía está en revisión.",
+    "pregunta": "La mejor forma de preparar la respuesta es:",
+    "opciones": {
+      "a": "Identificar el alcance exacto de la solicitud, las fuentes oficiales y el estado de la información, verificar consistencia y responder dentro del procedimiento y término aplicables.",
+      "b": "Enviar inmediatamente todos los archivos del expediente para trasladar al solicitante la responsabilidad de interpretarlos.",
+      "c": "Utilizar únicamente el borrador más reciente aunque aún no haya sido validado."
+    },
+    "respuesta": "a",
+    "explicacion": "Atender una solicitud implica entregar información pertinente, confiable y contextualizada, no simplemente transferir un volumen indiscriminado de documentos."
+  },
+  {
+    "id": 62,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Acceso a información y reserva",
+    "caso_id": 21,
+    "orden_en_caso": 2,
+    "caso": "La Subdirección recibe con plazo próximo una solicitud de otra entidad que requiere información técnica sobre el estado de un proyecto. Los datos están distribuidos entre el expediente, una base institucional y un concepto que todavía está en revisión.",
+    "pregunta": "Si parte de los documentos contiene información sometida a una reserva legal específica, la actuación correcta es:",
+    "opciones": {
+      "a": "Negar toda la solicitud porque basta que un documento tenga un elemento reservado.",
+      "b": "Aplicar la reserva únicamente en los términos legalmente procedentes y gestionar el acceso al resto de la información que pueda suministrarse.",
+      "c": "Entregar todo sin revisión porque la transparencia elimina cualquier excepción legal."
+    },
+    "respuesta": "b",
+    "explicacion": "Publicidad y reserva deben aplicarse según el alcance jurídico correspondiente; una reserva específica no convierte automáticamente todo el expediente en secreto."
+  },
+  {
+    "id": 63,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Competencia y canalización de solicitudes",
+    "caso_id": 21,
+    "orden_en_caso": 3,
+    "caso": "La Subdirección recibe con plazo próximo una solicitud de otra entidad que requiere información técnica sobre el estado de un proyecto. Los datos están distribuidos entre el expediente, una base institucional y un concepto que todavía está en revisión.",
+    "pregunta": "Si después de revisar la solicitud se establece que una parte corresponde claramente a otra dependencia, lo más apropiado es:",
+    "opciones": {
+      "a": "Gestionar oportunamente la remisión o coordinación interna correspondiente y asegurar trazabilidad sobre quién atiende cada asunto.",
+      "b": "Dejar vencer el término mientras se define informalmente quién quiere responder.",
+      "c": "Responder sobre materias ajenas a la competencia para evitar la coordinación."
+    },
+    "respuesta": "a",
+    "explicacion": "La gestión de solicitudes requiere responsabilidad, oportunidad y trazabilidad, incluso cuando es necesario involucrar otras dependencias."
+  },
+  {
+    "id": 64,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Plan de Acción Institucional — Seguimiento",
+    "caso_id": 22,
+    "orden_en_caso": 1,
+    "caso": "El grupo debe reportar el avance de una meta del Plan de Acción Institucional. El indicador está por debajo de lo previsto y existen diferencias entre la base operativa y el consolidado que se venía presentando.",
+    "pregunta": "Antes de explicar la desviación, lo más apropiado es:",
+    "opciones": {
+      "a": "Modificar el valor reportado hasta aproximarlo a la meta para evitar una interpretación desfavorable.",
+      "b": "Validar fuente, fórmula, período, universo y consistencia del indicador y luego analizar las causas reales de la desviación.",
+      "c": "Usar la base que arroje el porcentaje más alto mientras ambas pertenezcan a la entidad."
+    },
+    "respuesta": "b",
+    "explicacion": "La gestión por indicadores requiere que el dato sea confiable antes de interpretar desempeño o plantear acciones."
+  },
+  {
+    "id": 65,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Plan de Acción Institucional — Indicadores",
+    "caso_id": 22,
+    "orden_en_caso": 2,
+    "caso": "El grupo debe reportar el avance de una meta del Plan de Acción Institucional. El indicador está por debajo de lo previsto y existen diferencias entre la base operativa y el consolidado que se venía presentando.",
+    "pregunta": "Se descubre que a mitad del año alguien cambió el denominador utilizado para calcular el indicador sin documentarlo. ¿Qué debe hacerse?",
+    "opciones": {
+      "a": "Mantener el cambio sin mencionarlo si mejora la cifra actual.",
+      "b": "Reconstruir la metodología aplicable, documentar el cambio y asegurar comparabilidad o explicar claramente la ruptura de serie.",
+      "c": "Promediar los resultados de las dos metodologías."
+    },
+    "respuesta": "b",
+    "explicacion": "Un indicador solo es interpretable si su método es trazable y consistente o, cuando cambia, la modificación está documentada."
+  },
+  {
+    "id": 66,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Plan de Acción Institucional — Evidencias",
+    "caso_id": 22,
+    "orden_en_caso": 3,
+    "caso": "El grupo debe reportar el avance de una meta del Plan de Acción Institucional. El indicador está por debajo de lo previsto y existen diferencias entre la base operativa y el consolidado que se venía presentando.",
+    "pregunta": "Para sustentar un logro reportado en el PAI, la mejor práctica es:",
+    "opciones": {
+      "a": "Vincular el resultado con evidencias verificables y mantener trazabilidad entre el dato reportado y su fuente.",
+      "b": "Sustentar el logro en la percepción general del equipo aunque no exista fuente consolidada.",
+      "c": "Esperar al cierre anual para intentar reconstruir las evidencias."
+    },
+    "respuesta": "a",
+    "explicacion": "La trazabilidad permite verificar el dato, facilita seguimiento y reduce el riesgo de reconstrucciones posteriores inconsistentes."
+  },
+  {
+    "id": 67,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Sistema Integrado de Gestión — Autocontrol",
+    "caso_id": 23,
+    "orden_en_caso": 1,
+    "caso": "Después de remitir internamente un informe técnico, el profesional descubre que una tabla contiene una transcripción incorrecta que cambia parcialmente la interpretación de un indicador. El error todavía puede corregirse antes de la decisión administrativa.",
+    "pregunta": "La actuación más coherente con el autocontrol es:",
+    "opciones": {
+      "a": "Informar oportunamente el error, verificar su alcance, corregirlo de manera controlada y conservar trazabilidad de la modificación.",
+      "b": "Esperar a que otra persona detecte el error para evitar asumir responsabilidad.",
+      "c": "Cambiar silenciosamente el archivo compartido sin dejar registro."
+    },
+    "respuesta": "a",
+    "explicacion": "Autocontrol implica revisar el propio trabajo, reconocer desviaciones y actuar para corregirlas de forma transparente y trazable."
+  },
+  {
+    "id": 68,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Sistema Integrado de Gestión — Mejora continua",
+    "caso_id": 23,
+    "orden_en_caso": 2,
+    "caso": "Después de remitir internamente un informe técnico, el profesional descubre que una tabla contiene una transcripción incorrecta que cambia parcialmente la interpretación de un indicador. El error todavía puede corregirse antes de la decisión administrativa.",
+    "pregunta": "Si errores similares se han presentado varias veces en el equipo, la respuesta de mejora más útil es:",
+    "opciones": {
+      "a": "Corregir cada archivo individualmente y evitar analizar el patrón para no aumentar la carga de trabajo.",
+      "b": "Identificar la causa recurrente, revisar controles del proceso y definir una acción que reduzca la probabilidad de repetición.",
+      "c": "Prohibir el uso de tablas en todos los conceptos técnicos."
+    },
+    "respuesta": "b",
+    "explicacion": "La mejora continua busca actuar sobre causas y controles del proceso, no limitarse a corregir repetidamente el efecto."
+  },
+  {
+    "id": 69,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Sistema Integrado de Gestión — Control documental",
+    "caso_id": 23,
+    "orden_en_caso": 3,
+    "caso": "Después de remitir internamente un informe técnico, el profesional descubre que una tabla contiene una transcripción incorrecta que cambia parcialmente la interpretación de un indicador. El error todavía puede corregirse antes de la decisión administrativa.",
+    "pregunta": "Durante la corrección se descubre que el equipo estaba utilizando una versión obsoleta de una plantilla institucional. Lo más apropiado es:",
+    "opciones": {
+      "a": "Continuar con la versión antigua hasta finalizar todos los expedientes del año.",
+      "b": "Verificar la versión controlada vigente, aplicar las reglas de transición que correspondan y evitar el uso inadvertido de documentos obsoletos.",
+      "c": "Permitir que cada profesional escoja la plantilla que prefiera mientras el contenido sea técnico."
+    },
+    "respuesta": "b",
+    "explicacion": "Un sistema de gestión requiere control de versiones y uso consciente de documentos vigentes para asegurar consistencia y trazabilidad."
+  },
+  {
+    "id": 70,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis interdisciplinario abiótico-biótico",
+    "caso_id": 24,
+    "orden_en_caso": 1,
+    "caso": "En el seguimiento de un proyecto, el equipo de hidrología no observa una reducción estadísticamente clara del caudal medio, mientras el equipo biótico detecta cambios en hábitats acuáticos de zonas someras. Los especialistas inicialmente llegan a conclusiones diferentes.",
+    "pregunta": "La mejor forma de resolver la discrepancia es:",
+    "opciones": {
+      "a": "Escoger el criterio del componente que tenga más años de datos.",
+      "b": "Integrar escalas, variables y mecanismos ecológicos e hidrológicos para determinar si ambas observaciones pueden ser compatibles y qué evidencia adicional se requiere.",
+      "c": "Eliminar del concepto uno de los dos componentes para evitar contradicciones."
+    },
+    "respuesta": "b",
+    "explicacion": "Variables distintas pueden responder en escalas diferentes. El análisis interdisciplinario busca comprender las relaciones causales en lugar de forzar una única lectura aislada."
+  },
+  {
+    "id": 71,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis interdisciplinario abiótico-biótico",
+    "caso_id": 24,
+    "orden_en_caso": 2,
+    "caso": "En el seguimiento de un proyecto, el equipo de hidrología no observa una reducción estadísticamente clara del caudal medio, mientras el equipo biótico detecta cambios en hábitats acuáticos de zonas someras. Los especialistas inicialmente llegan a conclusiones diferentes.",
+    "pregunta": "Si el cambio biótico es real pero todavía no se ha identificado un mecanismo abiótico asociado al proyecto, el profesional debería:",
+    "opciones": {
+      "a": "Declarar falso el cambio biótico porque todo efecto ecológico debe aparecer primero en el caudal medio.",
+      "b": "Mantener el hallazgo, explorar variables explicativas adicionales y evitar atribuir causalidad al proyecto sin soporte suficiente.",
+      "c": "Atribuirlo al proyecto únicamente porque ocurrió después del inicio de operación."
+    },
+    "respuesta": "b",
+    "explicacion": "La temporalidad es informativa pero no suficiente para probar causalidad. Un hallazgo válido puede mantenerse mientras se investigan sus mecanismos."
+  },
+  {
+    "id": 72,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis interdisciplinario — Triangulación",
+    "caso_id": 24,
+    "orden_en_caso": 3,
+    "caso": "En el seguimiento de un proyecto, el equipo de hidrología no observa una reducción estadísticamente clara del caudal medio, mientras el equipo biótico detecta cambios en hábitats acuáticos de zonas someras. Los especialistas inicialmente llegan a conclusiones diferentes.",
+    "pregunta": "Luego aparecen reportes comunitarios coincidentes sobre cambios estacionales en la zona. La mejor utilización de esa información es:",
+    "opciones": {
+      "a": "Integrarla con mediciones hidrológicas, observaciones bióticas, cronología y operación del proyecto para fortalecer o refutar hipótesis.",
+      "b": "Reemplazar todos los monitoreos instrumentales por testimonios.",
+      "c": "Excluirla porque no fue producida por un laboratorio."
+    },
+    "respuesta": "a",
+    "explicacion": "La triangulación usa líneas de evidencia diferentes sin asumir que todas tienen el mismo alcance; su convergencia o divergencia puede mejorar el análisis."
+  },
+  {
+    "id": 73,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Incertidumbre y principio de precaución",
+    "caso_id": 25,
+    "orden_en_caso": 1,
+    "caso": "Un proyecto plantea una actividad cercana a un ecosistema sensible. La información disponible no permite estimar con precisión la magnitud de un impacto potencial, pero existe un mecanismo técnicamente plausible de afectación grave si determinados supuestos se cumplen.",
+    "pregunta": "La incertidumbre debería manejarse mediante:",
+    "opciones": {
+      "a": "Asumir riesgo cero hasta obtener certeza científica completa.",
+      "b": "Caracterizar la incertidumbre y el riesgo, obtener información crítica cuando sea posible y valorar medidas preventivas proporcionales a la gravedad potencial.",
+      "c": "Asumir que el peor escenario ocurrirá con certeza y decidir únicamente con base en él."
+    },
+    "respuesta": "b",
+    "explicacion": "La precaución no equivale a ignorar evidencia ni a declarar cierto el peor escenario; permite gestionar de manera proporcionada riesgos serios aun cuando exista incertidumbre."
+  },
+  {
+    "id": 74,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis técnico — Sensibilidad",
+    "caso_id": 25,
+    "orden_en_caso": 2,
+    "caso": "Un proyecto plantea una actividad cercana a un ecosistema sensible. La información disponible no permite estimar con precisión la magnitud de un impacto potencial, pero existe un mecanismo técnicamente plausible de afectación grave si determinados supuestos se cumplen.",
+    "pregunta": "El resultado de un modelo depende fuertemente de un único supuesto para el que existe poca información. La práctica más útil es:",
+    "opciones": {
+      "a": "Ocultar el supuesto para evitar que el concepto parezca incierto.",
+      "b": "Evaluar la sensibilidad del resultado a valores plausibles del supuesto y explicar cómo afecta la confianza de la conclusión.",
+      "c": "Mantener un único valor porque todo modelo debe producir una sola respuesta."
+    },
+    "respuesta": "b",
+    "explicacion": "El análisis de sensibilidad permite identificar si la conclusión es robusta o depende críticamente de una condición incierta."
+  },
+  {
+    "id": 75,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Instrumentación técnica de decisiones",
+    "caso_id": 25,
+    "orden_en_caso": 3,
+    "caso": "Un proyecto plantea una actividad cercana a un ecosistema sensible. La información disponible no permite estimar con precisión la magnitud de un impacto potencial, pero existe un mecanismo técnicamente plausible de afectación grave si determinados supuestos se cumplen.",
+    "pregunta": "Al cerrar el concepto, la recomendación de mayor calidad es la que:",
+    "opciones": {
+      "a": "Expone la alternativa recomendada, la evidencia y normas que la sustentan, las incertidumbres relevantes y las acciones necesarias para gestionarlas.",
+      "b": "Presenta una conclusión categórica sin mencionar limitaciones para transmitir mayor seguridad.",
+      "c": "Enumera todas las alternativas posibles sin indicar cuál está mejor soportada."
+    },
+    "respuesta": "a",
+    "explicacion": "Un concepto útil para decidir no oculta incertidumbre ni se limita a listar posibilidades: explica por qué una actuación está mejor sustentada."
+  },
+  {
+    "id": 76,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Aprendizaje continuo y adaptación al cambio",
+    "caso_id": 26,
+    "orden_en_caso": 1,
+    "caso": "La entidad adopta una nueva herramienta para revisar información geográfica y actualiza un lineamiento que afecta la forma de documentar algunos hallazgos. El profesional conoce bien el método anterior, pero tiene poca experiencia con la nueva herramienta.",
+    "pregunta": "La conducta que mejor refleja aprendizaje continuo es:",
+    "opciones": {
+      "a": "Continuar con el método anterior hasta que la nueva herramienta sea obligatoria en todos los grupos.",
+      "b": "Consultar fuentes institucionales, capacitarse, practicar con casos reales controlados y aplicar progresivamente el conocimiento validado.",
+      "c": "Esperar a que un compañero produzca los análisis nuevos y utilizarlos sin comprender el procedimiento."
+    },
+    "respuesta": "b",
+    "explicacion": "El aprendizaje continuo implica identificar, incorporar y aplicar nuevos conocimientos relevantes para mantener actualizada la práctica laboral."
+  },
+  {
+    "id": 77,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Aprendizaje continuo y trabajo en equipo",
+    "caso_id": 26,
+    "orden_en_caso": 2,
+    "caso": "La entidad adopta una nueva herramienta para revisar información geográfica y actualiza un lineamiento que afecta la forma de documentar algunos hallazgos. El profesional conoce bien el método anterior, pero tiene poca experiencia con la nueva herramienta.",
+    "pregunta": "Después de dominar una función que resuelve un problema frecuente del equipo, la actuación más adecuada es:",
+    "opciones": {
+      "a": "Compartir el procedimiento y sus límites con los compañeros para que el conocimiento pueda incorporarse al trabajo del grupo.",
+      "b": "Reservarlo para sí mismo porque poseer una habilidad diferencial mejora su posición individual.",
+      "c": "Usarlo en todos los expedientes sin informar al equipo sobre el cambio metodológico."
+    },
+    "respuesta": "a",
+    "explicacion": "Compartir conocimiento fortalece el aprendizaje colectivo y disminuye dependencia de una sola persona."
+  },
+  {
+    "id": 78,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Adaptación al cambio",
+    "caso_id": 26,
+    "orden_en_caso": 3,
+    "caso": "La entidad adopta una nueva herramienta para revisar información geográfica y actualiza un lineamiento que afecta la forma de documentar algunos hallazgos. El profesional conoce bien el método anterior, pero tiene poca experiencia con la nueva herramienta.",
+    "pregunta": "Si durante la transición identifica que el nuevo flujo genera una dificultad no prevista, lo más adecuado es:",
+    "opciones": {
+      "a": "Volver unilateralmente al procedimiento anterior y no reportar la dificultad.",
+      "b": "Documentar el problema, aplicar el nuevo esquema dentro de su alcance y proponer por los canales establecidos un ajuste o solución.",
+      "c": "Suspender todas sus actividades hasta que la herramienta sea perfecta."
+    },
+    "respuesta": "b",
+    "explicacion": "Adaptarse no significa aceptar errores pasivamente; implica responder constructivamente al cambio y aportar a su implementación."
+  },
+  {
+    "id": 79,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Orientación a resultados",
+    "caso_id": 27,
+    "orden_en_caso": 1,
+    "caso": "El profesional tiene tres productos para la misma semana. Uno tiene un término institucional próximo y riesgo ambiental alto; otro es importante pero tiene plazo posterior; el tercero puede adelantarse con apoyo de otro integrante del grupo.",
+    "pregunta": "La decisión más orientada a resultados es:",
+    "opciones": {
+      "a": "Priorizar según plazo, impacto y compromisos, coordinar apoyos disponibles y organizar entregables para cumplir con calidad.",
+      "b": "Trabajar los tres en el orden en que llegaron, independientemente de riesgo y vencimiento.",
+      "c": "Concentrarse únicamente en el producto técnicamente más interesante."
+    },
+    "respuesta": "a",
+    "explicacion": "La orientación a resultados exige administrar prioridades y recursos para cumplir objetivos con eficacia, oportunidad y calidad."
+  },
+  {
+    "id": 80,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Orientación a resultados",
+    "caso_id": 27,
+    "orden_en_caso": 2,
+    "caso": "El profesional tiene tres productos para la misma semana. Uno tiene un término institucional próximo y riesgo ambiental alto; otro es importante pero tiene plazo posterior; el tercero puede adelantarse con apoyo de otro integrante del grupo.",
+    "pregunta": "Dos días antes del vencimiento advierte que información indispensable todavía no ha llegado y puede afectar el producto prioritario. Lo mejor es:",
+    "opciones": {
+      "a": "Esperar hasta el último día para confirmar si realmente habrá retraso.",
+      "b": "Comunicar anticipadamente el riesgo, gestionar la información faltante, plantear alternativas viables y hacer seguimiento.",
+      "c": "Presentar el producto como completo y agregar posteriormente la información sin dejar registro."
+    },
+    "respuesta": "b",
+    "explicacion": "La orientación a resultados incluye gestionar riesgos oportunamente, no ocultarlos hasta que se materialicen."
+  },
+  {
+    "id": 81,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Orientación a resultados y calidad",
+    "caso_id": 27,
+    "orden_en_caso": 3,
+    "caso": "El profesional tiene tres productos para la misma semana. Uno tiene un término institucional próximo y riesgo ambiental alto; otro es importante pero tiene plazo posterior; el tercero puede adelantarse con apoyo de otro integrante del grupo.",
+    "pregunta": "Un compañero propone omitir una validación crítica para terminar varias horas antes. ¿Qué debería hacer?",
+    "opciones": {
+      "a": "Omitirla porque cumplir el horario siempre es superior a la calidad del producto.",
+      "b": "Mantener la validación necesaria y reorganizar el trabajo o gestionar apoyo para cumplir de la manera más eficiente posible.",
+      "c": "Postergar automáticamente el producto una semana aunque existan alternativas."
+    },
+    "respuesta": "b",
+    "explicacion": "Orientación a resultados integra oportunidad con calidad; acelerar un producto eliminando un control crítico puede comprometer el resultado institucional."
+  },
+  {
+    "id": 82,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Orientación al usuario y al ciudadano",
+    "caso_id": 28,
+    "orden_en_caso": 1,
+    "caso": "Un ciudadano llama molesto porque recibió una comunicación técnica que no entiende. Solicita saber qué significa para su petición y exige que el profesional le garantice cuál será la decisión final.",
+    "pregunta": "La respuesta más apropiada es:",
+    "opciones": {
+      "a": "Explicar de manera clara el contenido que puede aclararse, orientar sobre el trámite y evitar prometer un resultado que todavía depende de la actuación correspondiente.",
+      "b": "Indicarle que debe contratar un consultor porque la entidad no está obligada a facilitar la comprensión.",
+      "c": "Garantizarle verbalmente una decisión favorable para reducir el conflicto."
+    },
+    "respuesta": "a",
+    "explicacion": "Orientación al ciudadano combina servicio, escucha, veracidad y respeto por los límites de la competencia."
+  },
+  {
+    "id": 83,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Comunicación efectiva y servicio",
+    "caso_id": 28,
+    "orden_en_caso": 2,
+    "caso": "Un ciudadano llama molesto porque recibió una comunicación técnica que no entiende. Solicita saber qué significa para su petición y exige que el profesional le garantice cuál será la decisión final.",
+    "pregunta": "Al explicar un término técnico imprescindible, el profesional debería:",
+    "opciones": {
+      "a": "Repetir literalmente la definición normativa aunque el ciudadano indique que sigue sin comprender.",
+      "b": "Traducirlo a un lenguaje claro sin alterar su significado y verificar que la explicación responda a la inquietud.",
+      "c": "Eliminar toda precisión técnica aunque cambie el sentido de la decisión."
+    },
+    "respuesta": "b",
+    "explicacion": "Comunicación efectiva busca comprensión sin sacrificar exactitud."
+  },
+  {
+    "id": 84,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Orientación al ciudadano e imparcialidad",
+    "caso_id": 28,
+    "orden_en_caso": 3,
+    "caso": "Un ciudadano llama molesto porque recibió una comunicación técnica que no entiende. Solicita saber qué significa para su petición y exige que el profesional le garantice cuál será la decisión final.",
+    "pregunta": "Posteriormente el ciudadano pide que su asunto sea atendido antes que otros porque conoce a una persona de la entidad. El profesional debe:",
+    "opciones": {
+      "a": "Aplicar los criterios institucionales objetivos de atención y explicar los canales correspondientes sin ofrecer privilegios injustificados.",
+      "b": "Dar prioridad para evitar una queja contra la entidad.",
+      "c": "Solicitarle que contacte directamente a la persona que conoce para obtener autorización informal."
+    },
+    "respuesta": "a",
+    "explicacion": "Orientación al usuario no equivale a trato privilegiado; el servicio debe prestarse con imparcialidad y conforme a criterios institucionales."
+  },
+  {
+    "id": 85,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Trabajo en equipo y comunicación efectiva",
+    "caso_id": 29,
+    "orden_en_caso": 1,
+    "caso": "En una reunión interdisciplinaria, dos profesionales llegan a conclusiones distintas sobre un mismo hallazgo. Ambos cuentan con experiencia y cada uno considera que su componente técnico es el determinante.",
+    "pregunta": "La actuación que más favorece el trabajo en equipo es:",
+    "opciones": {
+      "a": "Precisar el punto de desacuerdo, revisar conjuntamente evidencia y supuestos y construir una conclusión sustentada o dejar documentadas las diferencias técnicas reales.",
+      "b": "Escoger la posición del profesional de mayor antigüedad para terminar rápido.",
+      "c": "Evitar el tema en el concepto para impedir conflictos."
+    },
+    "respuesta": "a",
+    "explicacion": "El trabajo interdisciplinario exige aprovechar conocimientos diferentes y resolver desacuerdos mediante evidencia y comunicación profesional."
+  },
+  {
+    "id": 86,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Trabajo en equipo",
+    "caso_id": 29,
+    "orden_en_caso": 2,
+    "caso": "En una reunión interdisciplinaria, dos profesionales llegan a conclusiones distintas sobre un mismo hallazgo. Ambos cuentan con experiencia y cada uno considera que su componente técnico es el determinante.",
+    "pregunta": "Un integrante clave informa que tiene una carga excepcional y no podrá terminar a tiempo una tarea de la que depende el concepto. El equipo debería:",
+    "opciones": {
+      "a": "Esperar al vencimiento y registrar después que el incumplimiento fue responsabilidad individual.",
+      "b": "Revisar prioridades y dependencias, redistribuir o apoyar tareas cuando sea viable y dejar claros responsables y tiempos.",
+      "c": "Excluir al integrante de toda actividad futura del proyecto."
+    },
+    "respuesta": "b",
+    "explicacion": "El trabajo en equipo implica reconocer interdependencias y coordinar recursos para alcanzar el resultado común."
+  },
+  {
+    "id": 87,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Comunicación efectiva",
+    "caso_id": 29,
+    "orden_en_caso": 3,
+    "caso": "En una reunión interdisciplinaria, dos profesionales llegan a conclusiones distintas sobre un mismo hallazgo. Ambos cuentan con experiencia y cada uno considera que su componente técnico es el determinante.",
+    "pregunta": "Durante las reuniones una persona suele ocupar casi todo el tiempo y quedan aportes técnicos sin discutir. La mejor respuesta es:",
+    "opciones": {
+      "a": "Organizar la discusión alrededor de objetivos y temas, facilitar intervenciones pertinentes y sintetizar acuerdos y pendientes.",
+      "b": "Permitir que continúe porque quien habla más probablemente domina mejor el asunto.",
+      "c": "Cancelar las reuniones y resolver todos los temas únicamente por correo."
+    },
+    "respuesta": "a",
+    "explicacion": "La comunicación efectiva organiza la interacción para que la información necesaria llegue a la decisión, no para maximizar el tiempo de una sola voz."
+  },
+  {
+    "id": 88,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Aporte técnico-profesional",
+    "caso_id": 30,
+    "orden_en_caso": 1,
+    "caso": "Un superior pide al profesional revisar con urgencia un posible incumplimiento y le comenta que, por antecedentes del titular, espera que el concepto 'deje claro' desde el comienzo que hubo una infracción. La evidencia actual todavía admite más de una interpretación.",
+    "pregunta": "La conducta profesional adecuada es:",
+    "opciones": {
+      "a": "Ajustar la conclusión a la expectativa del superior y después seleccionar los datos que mejor la respalden.",
+      "b": "Analizar objetivamente la evidencia, expresar la conclusión que técnicamente pueda sustentarse y explicar las limitaciones que impidan una afirmación más fuerte.",
+      "c": "Negarse a analizar el expediente porque ya existe una expectativa del superior."
+    },
+    "respuesta": "b",
+    "explicacion": "El aporte técnico-profesional exige aplicar conocimientos con objetividad y calidad, incluso cuando la evidencia no coincide con una expectativa previa."
+  },
+  {
+    "id": 89,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Aporte técnico-profesional y mejora",
+    "caso_id": 30,
+    "orden_en_caso": 2,
+    "caso": "Un superior pide al profesional revisar con urgencia un posible incumplimiento y le comenta que, por antecedentes del titular, espera que el concepto 'deje claro' desde el comienzo que hubo una infracción. La evidencia actual todavía admite más de una interpretación.",
+    "pregunta": "Al revisar expedientes similares, el profesional detecta que el equipo pierde tiempo reconstruyendo siempre la misma información. Una contribución útil sería:",
+    "opciones": {
+      "a": "Proponer una herramienta o esquema estandarizado y validado que mejore trazabilidad sin eliminar análisis profesional.",
+      "b": "Crear una plantilla personal y no comunicarla para trabajar más rápido que los demás.",
+      "c": "Eliminar esas verificaciones porque se repiten con frecuencia."
+    },
+    "respuesta": "a",
+    "explicacion": "El aporte técnico también incluye identificar mejoras que eleven eficiencia y calidad institucional sin sacrificar controles necesarios."
+  },
+  {
+    "id": 90,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Aporte técnico-profesional",
+    "caso_id": 30,
+    "orden_en_caso": 3,
+    "caso": "Un superior pide al profesional revisar con urgencia un posible incumplimiento y le comenta que, por antecedentes del titular, espera que el concepto 'deje claro' desde el comienzo que hubo una infracción. La evidencia actual todavía admite más de una interpretación.",
+    "pregunta": "Ante un problema técnico nuevo para el que no existe un ejemplo idéntico en expedientes anteriores, el profesional debería:",
+    "opciones": {
+      "a": "Aplicar automáticamente la solución de un caso parecido aunque las condiciones sean diferentes.",
+      "b": "Identificar principios, normativa, evidencia y alternativas relevantes, consultar conocimiento especializado cuando se requiera y sustentar la propuesta.",
+      "c": "No formular ninguna alternativa hasta que aparezca un caso idéntico."
+    },
+    "respuesta": "b",
+    "explicacion": "El nivel profesional exige trasladar conocimiento a situaciones concretas y construir soluciones sustentadas, no depender exclusivamente de precedentes idénticos."
+  },
+  {
+    "id": 91,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Gestión de procedimientos",
+    "caso_id": 31,
+    "orden_en_caso": 1,
+    "caso": "Un expediente tiene término próximo. Un compañero propone saltar un paso de revisión interna porque 'normalmente nunca encuentra errores' y recuperar así un día del cronograma.",
+    "pregunta": "La conducta más adecuada es:",
+    "opciones": {
+      "a": "Omitir el paso porque la experiencia del compañero demuestra que es innecesario.",
+      "b": "Verificar si el control forma parte del procedimiento aplicable y gestionar el tiempo sin eliminar unilateralmente una etapa requerida.",
+      "c": "Detener el expediente indefinidamente hasta rediseñar todo el procedimiento."
+    },
+    "respuesta": "b",
+    "explicacion": "Gestionar procedimientos supone conocerlos y ejecutarlos eficazmente, no eliminar controles requeridos por conveniencia."
+  },
+  {
+    "id": 92,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Gestión de procedimientos",
+    "caso_id": 31,
+    "orden_en_caso": 2,
+    "caso": "Un expediente tiene término próximo. Un compañero propone saltar un paso de revisión interna porque 'normalmente nunca encuentra errores' y recuperar así un día del cronograma.",
+    "pregunta": "El procedimiento contiene una instrucción ambigua que dos grupos interpretan de forma distinta. El profesional debería:",
+    "opciones": {
+      "a": "Escoger informalmente la interpretación que requiera menos trabajo.",
+      "b": "Consultar el lineamiento o instancia institucional competente, documentar el criterio aplicable y promover una ejecución consistente.",
+      "c": "Aplicar en cada expediente una interpretación distinta para comparar resultados."
+    },
+    "respuesta": "b",
+    "explicacion": "Las ambigüedades deben gestionarse por canales que generen criterios consistentes y trazables."
+  },
+  {
+    "id": 93,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Gestión de procedimientos y cambio",
+    "caso_id": 31,
+    "orden_en_caso": 3,
+    "caso": "Un expediente tiene término próximo. Un compañero propone saltar un paso de revisión interna porque 'normalmente nunca encuentra errores' y recuperar así un día del cronograma.",
+    "pregunta": "Durante la actuación entra en uso una nueva versión institucional del procedimiento. Antes de cambiar la forma de tramitar el expediente, conviene:",
+    "opciones": {
+      "a": "Verificar vigencia, alcance y reglas de aplicación de la actualización y documentar qué versión corresponde al caso.",
+      "b": "Aplicar siempre la versión más nueva a todas las actuaciones anteriores sin revisar transición.",
+      "c": "Conservar siempre la versión con la que comenzó el expediente, aunque el nuevo lineamiento disponga otra cosa."
+    },
+    "respuesta": "a",
+    "explicacion": "Una adecuada gestión procedimental exige saber qué versión resulta aplicable y mantener trazabilidad del cambio."
+  },
+  {
+    "id": 94,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Instrumentación de decisiones",
+    "caso_id": 32,
+    "orden_en_caso": 1,
+    "caso": "Un seguimiento produce tres posibles alternativas de actuación. Todas tienen algún sustento, pero difieren en eficacia esperada, información disponible, carga institucional y capacidad para atender el riesgo identificado.",
+    "pregunta": "Para instrumentar adecuadamente la decisión, el profesional debería:",
+    "opciones": {
+      "a": "Comparar las alternativas según evidencia, objetivo, marco aplicable, riesgos y viabilidad y explicar por qué una responde mejor al problema.",
+      "b": "Escoger la alternativa más severa porque siempre reduce la posibilidad de crítica.",
+      "c": "Presentar las tres alternativas sin análisis para que otra persona asuma toda la evaluación."
+    },
+    "respuesta": "a",
+    "explicacion": "Instrumentar decisiones implica transformar análisis técnico en alternativas comparables y útiles para adoptar una actuación sustentada."
+  },
+  {
+    "id": 95,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Instrumentación de decisiones",
+    "caso_id": 32,
+    "orden_en_caso": 2,
+    "caso": "Un seguimiento produce tres posibles alternativas de actuación. Todas tienen algún sustento, pero difieren en eficacia esperada, información disponible, carga institucional y capacidad para atender el riesgo identificado.",
+    "pregunta": "La información disponible no permite diferenciar con suficiente confianza entre dos alternativas. Lo más profesional es:",
+    "opciones": {
+      "a": "Inventar un criterio adicional para evitar mostrar incertidumbre.",
+      "b": "Identificar qué información es decisiva, explicar la incertidumbre y definir cómo obtenerla o gestionarla dentro del tiempo disponible.",
+      "c": "Escoger al azar entre ambas para mantener neutralidad."
+    },
+    "respuesta": "b",
+    "explicacion": "Una decisión profesional puede reconocer límites de información y, precisamente por ello, establecer cómo reducir o manejar la incertidumbre."
+  },
+  {
+    "id": 96,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Instrumentación de decisiones y seguimiento",
+    "caso_id": 32,
+    "orden_en_caso": 3,
+    "caso": "Un seguimiento produce tres posibles alternativas de actuación. Todas tienen algún sustento, pero difieren en eficacia esperada, información disponible, carga institucional y capacidad para atender el riesgo identificado.",
+    "pregunta": "Una vez definida técnicamente la alternativa recomendada, el producto debería facilitar su ejecución mediante:",
+    "opciones": {
+      "a": "Acciones claras, alcance, soportes, resultados esperados y elementos que permitan verificar posteriormente su cumplimiento.",
+      "b": "Una recomendación genérica como 'mejorar la gestión ambiental' sin especificar el problema que debe resolverse.",
+      "c": "Una lista extensa de información no relacionada para cubrir cualquier eventualidad."
+    },
+    "respuesta": "a",
+    "explicacion": "Una recomendación instrumentable permite convertir el análisis en acciones concretas y verificables."
+  },
+  {
+    "id": 97,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Compromiso con la organización e imparcialidad",
+    "caso_id": 33,
+    "orden_en_caso": 1,
+    "caso": "El profesional es asignado a un proyecto y descubre que una persona con la que mantiene una relación personal cercana trabaja directamente para la empresa titular. Aunque cree que puede ser objetivo, sabe que la situación podría generar dudas sobre su imparcialidad.",
+    "pregunta": "La actuación más adecuada es:",
+    "opciones": {
+      "a": "Informar oportunamente la situación por los canales correspondientes y permitir que se determine el tratamiento institucional aplicable.",
+      "b": "Mantenerla en secreto mientras personalmente considere que puede ser imparcial.",
+      "c": "Continuar la actuación y pedir a la persona cercana que no revele la relación."
+    },
+    "respuesta": "a",
+    "explicacion": "La integridad institucional exige gestionar de manera transparente situaciones que puedan comprometer o aparentar comprometer la imparcialidad."
+  },
+  {
+    "id": 98,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Compromiso con la organización e integridad",
+    "caso_id": 33,
+    "orden_en_caso": 2,
+    "caso": "El profesional es asignado a un proyecto y descubre que una persona con la que mantiene una relación personal cercana trabaja directamente para la empresa titular. Aunque cree que puede ser objetivo, sabe que la situación podría generar dudas sobre su imparcialidad.",
+    "pregunta": "En otro expediente recibe presión informal para modificar un dato técnicamente validado porque 'complica demasiado la decisión'. ¿Qué debería hacer?",
+    "opciones": {
+      "a": "Modificarlo si la conclusión general probablemente seguirá siendo la misma.",
+      "b": "Mantener la integridad del dato y del análisis, documentar adecuadamente el soporte y utilizar los canales institucionales si la presión persiste.",
+      "c": "Eliminar toda la sección del informe para no confrontar a quien hizo la solicitud."
+    },
+    "respuesta": "b",
+    "explicacion": "El compromiso institucional no consiste en facilitar cualquier decisión, sino en proteger la confiabilidad y legalidad del trabajo de la entidad."
+  },
+  {
+    "id": 99,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Compromiso organizacional y manejo de información",
+    "caso_id": 33,
+    "orden_en_caso": 3,
+    "caso": "El profesional es asignado a un proyecto y descubre que una persona con la que mantiene una relación personal cercana trabaja directamente para la empresa titular. Aunque cree que puede ser objetivo, sabe que la situación podría generar dudas sobre su imparcialidad.",
+    "pregunta": "Un conocido externo le solicita por mensajería personal un borrador de concepto todavía no formalizado, argumentando que solo quiere 'entender por dónde va el caso'. La respuesta adecuada es:",
+    "opciones": {
+      "a": "Compartirlo si el conocido promete no difundirlo.",
+      "b": "Gestionar la información exclusivamente por los canales y reglas institucionales aplicables, sin utilizar una relación personal para otorgar acceso informal.",
+      "c": "Enviar únicamente las páginas que considere menos sensibles sin verificar su carácter."
+    },
+    "respuesta": "b",
+    "explicacion": "La información institucional debe manejarse conforme a los procedimientos de acceso, seguridad y publicidad aplicables, no mediante favores personales."
+  },
+  {
+    "id": 100,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Aprendizaje continuo, aporte técnico y mejora",
+    "caso_id": 34,
+    "orden_en_caso": 1,
+    "caso": "Después de recibir retroalimentación sobre un concepto, el profesional comprende que su análisis técnico era correcto, pero que la estructura del documento dificultaba seguir la relación entre evidencia, obligación, hallazgo y recomendación. El mismo problema puede repetirse en futuros productos.",
+    "pregunta": "La conducta que mejor integra aprendizaje continuo y aporte técnico-profesional es:",
+    "opciones": {
+      "a": "Incorporar la retroalimentación, ajustar su método de trabajo, verificar que la nueva estructura mejore la trazabilidad y compartir la práctica útil con el equipo.",
+      "b": "Mantener el formato anterior porque la conclusión técnica había sido correcta.",
+      "c": "Reducir al mínimo las explicaciones en futuros conceptos para evitar observaciones de forma."
+    },
+    "respuesta": "a",
+    "explicacion": "El desempeño profesional mejora cuando la retroalimentación se transforma en aprendizaje aplicable y, cuando es útil, en conocimiento compartido para elevar la calidad del equipo."
+  }
+]
