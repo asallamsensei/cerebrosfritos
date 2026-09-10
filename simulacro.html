@@ -272,6 +272,30 @@ h1{
   transform:none;
 }
 
+.caso-box{
+  margin-bottom:16px;
+  padding:15px;
+  border-radius:14px;
+  background:rgba(125,92,255,.10);
+  border:1px solid rgba(125,92,255,.32);
+}
+
+.caso-titulo{
+  font-size:13px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+  color:#cfc8ff;
+  margin-bottom:7px;
+}
+
+.caso-texto{
+  font-size:15px;
+  line-height:1.5;
+  color:var(--text);
+}
+
+  
 .btn-ghost{
   background:rgba(255,255,255,.08);
   border:1px solid var(--border);
@@ -486,6 +510,12 @@ h1{
         </div>
 
         <section class="question-card">
+
+          <div id="casoBox" class="caso-box hidden">
+            <div class="caso-titulo" id="casoTitulo"></div>
+            <div class="caso-texto" id="casoTexto"></div>
+          </div>
+          
           <div class="question-label" id="tipoPreguntaLabel">Selecciona una respuesta</div>
 
           <p id="pregunta">
@@ -726,6 +756,41 @@ document.getElementById("inputClave")
       validarClave();
     }
   });
+
+function barajarPorCasos(data){
+
+  const grupos = new Map();
+
+  data.forEach(p => {
+    const claveGrupo =
+      p.caso_id !== undefined && p.caso_id !== null
+        ? `caso-${p.caso_id}`
+        : `solo-${p.id}`;
+
+    if(!grupos.has(claveGrupo)){
+      grupos.set(claveGrupo, []);
+    }
+
+    grupos.get(claveGrupo).push(p);
+  });
+
+  const listaGrupos = [...grupos.values()];
+
+  // Conserva el orden de los enunciados dentro de cada caso
+  listaGrupos.forEach(grupo => {
+    grupo.sort(
+      (a,b) =>
+        (a.orden_en_caso || 1) -
+        (b.orden_en_caso || 1)
+    );
+  });
+
+  // Cambia el orden de los casos entre intentos
+  fisherYates(listaGrupos);
+
+  return listaGrupos.flat();
+}
+
   
 function cargarSimulacro(archivo){
 
@@ -737,7 +802,7 @@ function cargarSimulacro(archivo){
     .then(data => {
 
       preguntas = Array.isArray(data)
-        ? fisherYates([...data])
+        ? barajarPorCasos([...data])
         : [];
 
       if(!preguntas.length){
@@ -760,10 +825,29 @@ function renderPregunta(){
 
   const p = preguntas[indiceActual];
 
+  const casoBox = document.getElementById("casoBox");
+  const casoTitulo = document.getElementById("casoTitulo");
+  const casoTexto = document.getElementById("casoTexto");
+  
+  if(p.caso){
+    casoBox.classList.remove("hidden");
+    casoTitulo.innerText =
+      `Caso ${p.caso_id || ""} · Enunciado ${p.orden_en_caso || ""}`;
+    casoTexto.innerText = p.caso;
+  }else{
+    casoBox.classList.add("hidden");
+    casoTitulo.innerText = "";
+    casoTexto.innerText = "";
+  }
+
+
   document.getElementById("tipoPreguntaLabel").innerText =
-    p.tipo_pregunta === "verdadero_falso"
-      ? "Verdadero o falso"
-      : "Selecciona una respuesta";
+    p.tipo_pregunta === "juicio_situacional"
+      ? "Analiza el caso y selecciona la mejor respuesta"
+      : p.tipo_pregunta === "verdadero_falso"
+        ? "Verdadero o falso"
+        : "Selecciona una respuesta";
+
   
   document.getElementById("badgeTipo").innerText =
     p.categoria || "Simulacro";
