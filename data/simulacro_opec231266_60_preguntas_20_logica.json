@@ -1,0 +1,933 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Seguimiento ambiental — alcance",
+    "caso": "Un proyecto sujeto a licencia ambiental se encuentra en operación y presenta su ICA. El expediente contiene la licencia, actos posteriores, PMA, monitoreos y anexos.",
+    "pregunta": "¿Cuál debe ser el foco principal de la revisión de seguimiento?",
+    "opciones": {
+      "a": "Contrastar obligaciones, medidas, resultados y condiciones reales para establecer cumplimiento y eficacia.",
+      "b": "Revisar solo que el ICA haya sido radicado dentro del período señalado.",
+      "c": "Comparar únicamente los monitoreos recientes con los del año inmediatamente anterior.",
+      "d": "Verificar solo las obligaciones económicas porque las técnicas corresponden al titular."
+    },
+    "respuesta": "a",
+    "explicacion": "El seguimiento ambiental comprende cumplimiento de obligaciones y evaluación de la eficiencia y eficacia de las medidas, no una simple revisión formal."
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Seguimiento ambiental — frecuencia de monitoreo",
+    "caso": "Una obligación exige cuatro campañas trimestrales. El titular aporta soportes verificables de tres y afirma que el promedio anual es representativo.",
+    "pregunta": "¿Cuál conclusión técnica es más sólida?",
+    "opciones": {
+      "a": "Dar por cumplida la obligación si las tres campañas muestran resultados dentro de los valores esperados.",
+      "b": "Registrar que no se acreditó integralmente la frecuencia exigida y valorar la campaña faltante antes de recomendar la actuación.",
+      "c": "Concluir que existe daño ambiental porque la ausencia de una campaña prueba por sí sola una afectación.",
+      "d": "Descartar los tres monitoreos presentados porque una omisión vuelve inválida toda la información del período."
+    },
+    "respuesta": "b",
+    "explicacion": "Cumplir la frecuencia exigida y demostrar daño ambiental son cuestiones distintas; la omisión debe documentarse y valorarse."
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Seguimiento ambiental — eficacia de medidas",
+    "caso": "Una medida del PMA fue ejecutada como estaba descrita, pero los indicadores muestran que el impacto que pretendía controlar continúa aumentando.",
+    "pregunta": "¿Qué análisis corresponde?",
+    "opciones": {
+      "a": "Cerrar el seguimiento de la medida porque la actividad prevista fue ejecutada materialmente.",
+      "b": "Calificar todo el PMA como incumplido sin revisar otras medidas ni sus resultados.",
+      "c": "Diferenciar ejecución de eficacia, analizar causas y sustentar si se requieren ajustes o medidas adicionales.",
+      "d": "Mantener la medida sin análisis adicional hasta que termine completamente la vida útil del proyecto."
+    },
+    "respuesta": "c",
+    "explicacion": "El seguimiento evalúa tanto la implementación como la eficacia de las medidas frente a los impactos."
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "ICA — función",
+    "pregunta": "En el seguimiento de un proyecto licenciado, el Informe de Cumplimiento Ambiental sirve principalmente para:",
+    "opciones": {
+      "a": "Sustituir la licencia ambiental y redefinir por sí mismo las obligaciones del proyecto.",
+      "b": "Transferir a la autoridad ambiental la responsabilidad de ejecutar las medidas del PMA.",
+      "c": "Eliminar la necesidad de visitas o verificaciones cuando el documento está completo formalmente.",
+      "d": "Informar avance, efectividad y cumplimiento de los compromisos ambientales asumidos por el titular."
+    },
+    "respuesta": "d",
+    "explicacion": "El ICA es un instrumento de seguimiento y autocontrol sobre avance, efectividad y cumplimiento de compromisos."
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Seguimiento ambiental — fuentes de evidencia",
+    "caso": "El ICA reporta cumplimiento total de una obligación, pero un acta de visita y fotografías georreferenciadas muestran una condición diferente.",
+    "pregunta": "¿Cómo debe proceder el profesional?",
+    "opciones": {
+      "a": "Contrastar las fuentes, verificar su trazabilidad y sustentar la conclusión con el conjunto de evidencia disponible.",
+      "b": "Aceptar el ICA porque constituye la declaración oficial del titular y prevalece sobre la visita.",
+      "c": "Aceptar el acta sin revisar fechas, localización ni relación de las fotografías con la obligación.",
+      "d": "Promediar ambas versiones y registrar un cumplimiento parcial sin efectuar análisis técnico adicional."
+    },
+    "respuesta": "a",
+    "explicacion": "El seguimiento exige valoración integral y trazable de la evidencia; ninguna fuente debe aceptarse de manera automática."
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Visita de seguimiento",
+    "caso": "Antes de una visita a un proyecto extenso, el equipo dispone de tiempo limitado y existen obligaciones críticas pendientes.",
+    "pregunta": "¿Cuál preparación es más adecuada?",
+    "opciones": {
+      "a": "Recorrer primero las zonas de acceso más sencillo y decidir durante la visita qué obligaciones revisar.",
+      "b": "Revisar expediente y antecedentes, definir objetivos y puntos críticos, y preparar una lista de verificación basada en obligaciones.",
+      "c": "Solicitar al titular que seleccione los sitios que considere representativos y limitarse a esos puntos.",
+      "d": "Concentrarse en obtener fotografías generales y dejar la revisión de obligaciones para después de la visita."
+    },
+    "respuesta": "b",
+    "explicacion": "Una visita eficaz se planea con base en antecedentes, riesgos, obligaciones y evidencia que debe verificarse."
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Control y seguimiento — medidas adicionales",
+    "pregunta": "Durante el seguimiento se identifica un impacto ambiental no previsto en los estudios del proyecto. Dentro del marco de control y seguimiento, la autoridad puede:",
+    "opciones": {
+      "a": "Ignorar el impacto mientras el titular cumpla literalmente las fichas originalmente aprobadas.",
+      "b": "Modificar de oficio cualquier componente del proyecto sin motivación técnica ni actuación administrativa.",
+      "c": "Evaluar y, cuando proceda, imponer medidas ambientales adicionales para prevenir, mitigar o corregir el impacto.",
+      "d": "Trasladar siempre el asunto a la autoridad municipal y abstenerse de efectuar análisis propio."
+    },
+    "respuesta": "c",
+    "explicacion": "El control y seguimiento permite adoptar medidas adicionales frente a impactos no previstos, con el debido sustento."
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Licencia ambiental — integralidad",
+    "pregunta": "Respecto de un mismo proyecto, obra o actividad sujeto a licenciamiento ambiental, la regla general es que:",
+    "opciones": {
+      "a": "Necesitará una licencia distinta por cada recurso natural que pueda resultar afectado.",
+      "b": "Requerirá una licencia nacional y otra territorial cuando atraviese más de un municipio.",
+      "c": "Deberá renovar anualmente la licencia aunque no cambien las condiciones autorizadas.",
+      "d": "No requerirá más de una licencia ambiental."
+    },
+    "respuesta": "d",
+    "explicacion": "El régimen de licenciamiento establece que ningún proyecto, obra o actividad requerirá más de una licencia ambiental."
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Licencia ambiental — obligaciones",
+    "caso": "El titular sostiene que una obligación de un acto de seguimiento posterior no debe revisarse porque no estaba en la resolución inicial de licencia.",
+    "pregunta": "¿Qué debe hacer el profesional?",
+    "opciones": {
+      "a": "Revisar la licencia y los actos administrativos subsiguientes aplicables, pues el seguimiento comprende las obligaciones vigentes del instrumento.",
+      "b": "Limitarse a la resolución inicial porque ningún acto posterior puede integrar obligaciones de seguimiento.",
+      "c": "Excluir la obligación si el titular manifiesta desacuerdo, aun cuando el acto se encuentre vigente.",
+      "d": "Revisar únicamente el PMA presentado por el titular y omitir todos los actos administrativos posteriores."
+    },
+    "respuesta": "a",
+    "explicacion": "El seguimiento considera la licencia, el PMA y los actos administrativos subsiguientes que establezcan obligaciones vigentes."
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Permisos y autorizaciones ambientales",
+    "caso": "En visita se observa un uso de recurso natural asociado al proyecto. El titular afirma que basta con que la actividad aparezca descrita en el ICA.",
+    "pregunta": "¿Cuál verificación es pertinente?",
+    "opciones": {
+      "a": "Dar por autorizado el uso porque fue informado en un documento presentado ante la autoridad.",
+      "b": "Contrastar lo ejecutado con lo autorizado y con las condiciones de los permisos, concesiones o autorizaciones aplicables.",
+      "c": "Revisar únicamente si la actividad genera ingresos, pues ese criterio determina la autorización ambiental.",
+      "d": "Excluir el asunto del seguimiento porque los recursos naturales nunca forman parte del control de una licencia."
+    },
+    "respuesta": "b",
+    "explicacion": "El seguimiento verifica el cumplimiento de lo autorizado respecto del uso, aprovechamiento o afectación de recursos naturales."
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Concepto técnico — trazabilidad",
+    "caso": "Dos profesionales llegan a conclusiones diferentes sobre una obligación debido a que usan períodos y documentos distintos.",
+    "pregunta": "¿Qué mejora metodológica es prioritaria?",
+    "opciones": {
+      "a": "Escoger la conclusión más restrictiva sin revisar la diferencia entre las fuentes utilizadas.",
+      "b": "Promediar las dos conclusiones y registrar un resultado intermedio para cerrar la discrepancia.",
+      "c": "Definir la obligación, período, criterio de evaluación y evidencias utilizadas antes de establecer la conclusión.",
+      "d": "Eliminar del concepto la obligación discutida para evitar que la diferencia afecte el trámite."
+    },
+    "respuesta": "c",
+    "explicacion": "La trazabilidad exige hacer explícitos el criterio, el período y las evidencias que soportan cada conclusión."
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Concepto técnico — incertidumbre",
+    "caso": "Los datos disponibles sugieren un riesgo relevante, pero una variable crítica presenta incertidumbre que puede cambiar la magnitud estimada.",
+    "pregunta": "¿Cómo debe reflejarse esto en el concepto?",
+    "opciones": {
+      "a": "Ocultar la incertidumbre para que la recomendación parezca más concluyente ante el decisor.",
+      "b": "Descartar todos los datos porque cualquier incertidumbre impide formular una conclusión técnica útil.",
+      "c": "Elegir el valor más favorable al titular sin justificar por qué representa mejor las condiciones observadas.",
+      "d": "Explicar la incertidumbre, su efecto sobre la conclusión y las verificaciones o medidas necesarias para gestionarla."
+    },
+    "respuesta": "d",
+    "explicacion": "Una recomendación técnica robusta hace visibles los supuestos, límites e incertidumbres relevantes."
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Información geográfica — consistencia",
+    "caso": "El titular entrega coordenadas de una medida de compensación, pero al cargarlas en el sistema aparecen lejos del área reportada en los mapas.",
+    "pregunta": "¿Cuál es la actuación técnica inicial más adecuada?",
+    "opciones": {
+      "a": "Verificar sistema de referencia, formato, metadatos y consistencia con los demás soportes antes de concluir sobre la localización.",
+      "b": "Corregir manualmente las coordenadas hasta que coincidan visualmente con el polígono esperado.",
+      "c": "Asumir que el mapa es correcto y descartar las coordenadas sin revisar su sistema de referencia.",
+      "d": "Concluir incumplimiento definitivo solo porque la primera visualización muestra una ubicación inconsistente."
+    },
+    "respuesta": "a",
+    "explicacion": "Las inconsistencias espaciales deben someterse primero a controles de calidad y referencia antes de inferir incumplimiento."
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Información geográfica — evidencia",
+    "caso": "Una fotografía aportada para demostrar revegetalización no contiene fecha ni ubicación y podría corresponder a varios frentes.",
+    "pregunta": "¿Qué valoración es más apropiada?",
+    "opciones": {
+      "a": "Considerarla prueba plena porque una fotografía siempre demuestra el lugar y momento de la actividad.",
+      "b": "Reconocer su limitada trazabilidad y buscar soportes adicionales que permitan asociarla inequívocamente con la obligación evaluada.",
+      "c": "Descartarla y concluir incumplimiento definitivo sin revisar otros documentos o registros disponibles.",
+      "d": "Asignarle una fecha aproximada según el color de la vegetación y usar esa estimación como dato oficial."
+    },
+    "respuesta": "b",
+    "explicacion": "La evidencia debe ser pertinente y trazable; la falta de fecha y ubicación reduce su fuerza demostrativa."
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Monitoreo — comparabilidad",
+    "caso": "Se comparan dos campañas de calidad de agua tomadas en estaciones distintas y bajo condiciones hidrológicas muy diferentes.",
+    "pregunta": "¿Qué debe hacerse antes de atribuir el cambio al proyecto?",
+    "opciones": {
+      "a": "Atribuir toda diferencia al proyecto porque las campañas pertenecen al mismo cuerpo de agua.",
+      "b": "Promediar todos los resultados sin distinguir estaciones ni condiciones para obtener un único valor.",
+      "c": "Evaluar comparabilidad espacial, temporal y metodológica, además de posibles factores externos que expliquen la diferencia.",
+      "d": "Usar únicamente la campaña con mayor concentración porque representa necesariamente el peor impacto real."
+    },
+    "respuesta": "c",
+    "explicacion": "Una inferencia causal requiere comprobar que los datos sean comparables y considerar explicaciones alternativas."
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Monitoreo — dato atípico",
+    "caso": "Una serie estable contiene un valor extremo aislado. No hay aún evidencia de falla instrumental ni de evento ambiental.",
+    "pregunta": "¿Cuál es la respuesta técnica más adecuada?",
+    "opciones": {
+      "a": "Eliminar el valor automáticamente porque los datos extremos siempre corresponden a errores de medición.",
+      "b": "Aceptar el valor como prueba definitiva de daño porque es el resultado más alto de toda la serie.",
+      "c": "Sustituir el valor por el promedio histórico para conservar la continuidad estadística del conjunto.",
+      "d": "Revisar control de calidad, cadena de custodia, condiciones de muestreo y contexto antes de aceptar o descartar el dato."
+    },
+    "respuesta": "d",
+    "explicacion": "Un dato atípico debe investigarse; ni su exclusión ni su aceptación causal deben ser automáticas."
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Seguimiento — priorización por riesgo",
+    "caso": "El equipo tiene capacidad para revisar 12 expedientes. Algunos presentan riesgos altos y obligaciones próximas a vencer; otros son rutinarios y sin alertas.",
+    "pregunta": "¿Qué criterio de priorización es más defendible?",
+    "opciones": {
+      "a": "Combinar riesgo, urgencia, impacto potencial y obligaciones institucionales mediante criterios transparentes y documentados.",
+      "b": "Atender primero los expedientes de empresas más grandes porque su tamaño facilita la priorización.",
+      "c": "Ordenar exclusivamente por fecha de creación del expediente, sin considerar riesgo ni vencimientos.",
+      "d": "Permitir que cada analista elija libremente sus expedientes sin registrar el criterio utilizado."
+    },
+    "respuesta": "a",
+    "explicacion": "La priorización debe ser justificable, reproducible y orientada al riesgo y a las obligaciones institucionales."
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Seguimiento — cierre y abandono",
+    "pregunta": "El control y seguimiento ambiental de un proyecto sujeto a licencia puede extenderse a:",
+    "opciones": {
+      "a": "Solo la construcción, porque después de iniciada la operación termina la competencia ambiental.",
+      "b": "Las etapas de construcción, operación, desmantelamiento y abandono, según corresponda.",
+      "c": "Únicamente la operación comercial, excluyendo las actividades previas y posteriores del proyecto.",
+      "d": "Solo el período definido por el titular en sus informes, aunque existan obligaciones posteriores vigentes."
+    },
+    "respuesta": "b",
+    "explicacion": "El seguimiento cubre las etapas relevantes del proyecto, incluyendo desmantelamiento y abandono cuando aplique."
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Manual de Seguimiento Ambiental",
+    "pregunta": "El Manual de Seguimiento Ambiental de Proyectos tiene como propósito central:",
+    "opciones": {
+      "a": "Definir las tarifas tributarias aplicables a todos los proyectos que usan recursos naturales renovables.",
+      "b": "Reemplazar los actos administrativos particulares que contienen las obligaciones de cada proyecto.",
+      "c": "Establecer criterios técnicos y procedimientos para el seguimiento de proyectos licenciados o con PMA establecido.",
+      "d": "Determinar por sí solo las sanciones que deben imponerse ante cualquier hallazgo de seguimiento."
+    },
+    "respuesta": "c",
+    "explicacion": "El Manual orienta criterios y procedimientos de seguimiento; no sustituye los actos particulares ni el procedimiento sancionatorio."
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Manual de Seguimiento — productos",
+    "pregunta": "¿Cuál secuencia refleja mejor componentes típicos del seguimiento ambiental?",
+    "opciones": {
+      "a": "Radicación del ICA, aprobación automática, archivo del expediente y devolución de la licencia original.",
+      "b": "Visita inicial, negociación de obligaciones, expedición de una nueva licencia y cierre inmediato del expediente.",
+      "c": "Encuesta al titular, promedio de respuestas, publicación del resultado y sustitución del PMA vigente.",
+      "d": "Revisión del ICA, visita cuando corresponda, análisis de cumplimiento y efectividad, y comunicación mediante concepto técnico."
+    },
+    "respuesta": "d",
+    "explicacion": "El Manual contempla revisión documental, visita, análisis y comunicación técnica de resultados."
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Procedimiento sancionatorio ambiental",
+    "pregunta": "Frente a un posible incumplimiento identificado durante seguimiento, es técnicamente importante distinguir entre:",
+    "opciones": {
+      "a": "El hallazgo de seguimiento y la determinación de responsabilidad dentro del procedimiento sancionatorio correspondiente.",
+      "b": "La opinión del analista y una sanción automática, porque ambas producen el mismo efecto jurídico.",
+      "c": "El ICA y la licencia, porque el primero reemplaza jurídicamente a la segunda cuando es radicado.",
+      "d": "La visita y el concepto técnico, porque ninguno puede documentar hechos relevantes para otras actuaciones."
+    },
+    "respuesta": "a",
+    "explicacion": "El seguimiento puede documentar hechos y recomendar actuaciones, pero la responsabilidad sancionatoria se determina mediante su procedimiento."
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Ley 1333 y Ley 2387 de 2024",
+    "pregunta": "En la preparación normativa actual sobre procedimiento sancionatorio ambiental debe tenerse presente que:",
+    "opciones": {
+      "a": "La Ley 1333 de 2009 fue derogada íntegramente y dejó de regular cualquier materia sancionatoria.",
+      "b": "La Ley 1333 de 2009 fue modificada y adicionada por la Ley 2387 de 2024.",
+      "c": "La Ley 2387 de 2024 regula exclusivamente licencias urbanísticas y no tiene relación con sanciones ambientales.",
+      "d": "La Ley 99 de 1993 eliminó todo procedimiento sancionatorio posterior y es la única norma aplicable."
+    },
+    "respuesta": "b",
+    "explicacion": "La regulación actual debe estudiarse considerando las modificaciones y adiciones introducidas por la Ley 2387 de 2024."
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Principio de precaución — análisis técnico",
+    "caso": "Existe una amenaza plausible de afectación grave y la evidencia científica aún no permite cuantificarla con precisión.",
+    "pregunta": "¿Qué enfoque técnico es más consistente con una decisión ambiental responsable?",
+    "opciones": {
+      "a": "Esperar certeza científica absoluta antes de documentar cualquier riesgo o proponer una actuación preventiva.",
+      "b": "Suponer el peor escenario posible como hecho probado y omitir el análisis de probabilidad y evidencia disponible.",
+      "c": "Caracterizar la amenaza y la incertidumbre, valorar la evidencia disponible y sustentar medidas proporcionales cuando procedan.",
+      "d": "Descartar el riesgo por falta de cuantificación exacta, aunque exista un mecanismo plausible de afectación grave."
+    },
+    "respuesta": "c",
+    "explicacion": "La incertidumbre no debe ocultarse ni convertirse automáticamente en certeza; debe integrarse de forma explícita al análisis."
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Impactos acumulativos y sinérgicos",
+    "caso": "En una región operan varios proyectos y las comunidades reportan cambios que no parecen explicarse por una sola fuente.",
+    "pregunta": "¿Qué análisis aporta más al seguimiento?",
+    "opciones": {
+      "a": "Limitar el análisis a cada obligación aislada sin considerar ninguna dinámica territorial o interacción relevante.",
+      "b": "Atribuir todos los cambios al proyecto con mayor tamaño, aunque no exista evidencia que sustente esa relación.",
+      "c": "Excluir la información comunitaria por provenir de actores externos al titular y a la autoridad ambiental.",
+      "d": "Examinar el contexto regional y la posible interacción o acumulación de impactos, además del desempeño del proyecto evaluado."
+    },
+    "respuesta": "d",
+    "explicacion": "El seguimiento puede incorporar análisis regional para identificar impactos acumulativos y sinérgicos."
+  },
+  {
+    "id": 25,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Participación y seguimiento",
+    "caso": "Durante una visita, una comunidad entrega información concreta sobre un punto de vertimiento que no aparece en el recorrido propuesto por el titular.",
+    "pregunta": "¿Qué actuación es más adecuada?",
+    "opciones": {
+      "a": "Registrar la información, valorar su pertinencia y verificarla técnicamente cuando sea posible dentro del alcance del seguimiento.",
+      "b": "Descartarla porque solo los documentos presentados por el titular pueden orientar una visita de seguimiento.",
+      "c": "Aceptar la denuncia como prueba definitiva de incumplimiento sin efectuar ninguna verificación adicional.",
+      "d": "Suspender toda la visita hasta que la comunidad y el titular alcancen un acuerdo sobre la existencia del punto."
+    },
+    "respuesta": "a",
+    "explicacion": "La participación puede aportar información relevante, que debe documentarse y someterse a verificación técnica."
+  },
+  {
+    "id": 26,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Calidad del concepto técnico",
+    "caso": "El borrador de un concepto enumera 25 hallazgos, pero no relaciona cada uno con obligación, evidencia ni recomendación.",
+    "pregunta": "¿Qué ajuste mejora más su utilidad?",
+    "opciones": {
+      "a": "Agregar más fotografías al final sin indicar qué hallazgo u obligación demuestra cada una de ellas.",
+      "b": "Vincular cada hallazgo con el criterio aplicable, la evidencia analizada, la conclusión y la recomendación técnicamente sustentada.",
+      "c": "Reducir todos los hallazgos a una sola conclusión general para evitar diferencias entre obligaciones.",
+      "d": "Eliminar las referencias a actos administrativos y basar las recomendaciones solo en la experiencia del evaluador."
+    },
+    "respuesta": "b",
+    "explicacion": "Un concepto útil debe permitir reconstruir la ruta entre obligación, evidencia, análisis, conclusión y recomendación."
+  },
+  {
+    "id": 27,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis de tendencias",
+    "caso": "Un indicador cumple el límite en cada medición, pero muestra deterioro sostenido durante varios períodos.",
+    "pregunta": "¿Cuál interpretación es más rigurosa?",
+    "opciones": {
+      "a": "Concluir que no existe ningún asunto relevante porque ninguna medición individual supera el valor de referencia.",
+      "b": "Declarar incumplimiento normativo automático solo porque la serie presenta una tendencia desfavorable.",
+      "c": "Registrar el cumplimiento puntual y analizar separadamente la tendencia para determinar si anticipa pérdida de eficacia o riesgo.",
+      "d": "Eliminar las mediciones antiguas y conservar únicamente la más reciente para simplificar la evaluación."
+    },
+    "respuesta": "c",
+    "explicacion": "Cumplimiento puntual y tendencia son dimensiones distintas; una tendencia puede justificar análisis preventivo sin equivaler por sí sola a incumplimiento."
+  },
+  {
+    "id": 28,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Análisis de sensibilidad",
+    "caso": "Una estimación depende de un supuesto cuyo valor real está dentro de un rango plausible y la conclusión podría cambiar.",
+    "pregunta": "¿Qué debe hacer el profesional?",
+    "opciones": {
+      "a": "Escoger el valor medio sin justificación y presentarlo como si fuera el único valor técnicamente posible.",
+      "b": "Usar siempre el valor que produzca el menor impacto para evitar decisiones basadas en incertidumbre.",
+      "c": "Suspender indefinidamente el análisis porque ningún modelo puede utilizar supuestos o rangos de valores.",
+      "d": "Evaluar cómo cambia el resultado dentro del rango plausible y explicar la robustez de la conclusión."
+    },
+    "respuesta": "d",
+    "explicacion": "El análisis de sensibilidad muestra si la conclusión depende críticamente de un supuesto incierto."
+  },
+  {
+    "id": 29,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia funcional",
+    "tema": "Muestreo — representatividad",
+    "caso": "El titular presenta un único punto de muestreo para caracterizar un área ambientalmente heterogénea.",
+    "pregunta": "¿Qué pregunta técnica es prioritaria?",
+    "opciones": {
+      "a": "Si el diseño de muestreo representa adecuadamente la variabilidad espacial y el objetivo de seguimiento.",
+      "b": "Si el punto elegido es el más cercano a la vía principal, porque eso garantiza representatividad estadística.",
+      "c": "Si el laboratorio puede emitir el informe en menos páginas, independientemente del diseño de muestreo.",
+      "d": "Si el valor obtenido coincide con la expectativa del titular, pues esa coincidencia valida la ubicación escogida."
+    },
+    "respuesta": "a",
+    "explicacion": "La representatividad depende del objetivo, diseño y heterogeneidad del sistema, no de conveniencia logística o expectativa."
+  },
+  {
+    "id": 30,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencia funcional",
+    "tema": "Corroboración de monitoreos",
+    "pregunta": "En ejercicio de control y seguimiento, la autoridad ambiental puede:",
+    "opciones": {
+      "a": "Aceptar obligatoriamente todos los monitoreos del beneficiario si fueron firmados por un profesional.",
+      "b": "Corroborar técnicamente o mediante pruebas los resultados de monitoreos realizados por el beneficiario.",
+      "c": "Repetir cada monitoreo existente antes de poder utilizar cualquier dato aportado por el titular.",
+      "d": "Delegar en el beneficiario la decisión final sobre si sus propios resultados cumplen las obligaciones."
+    },
+    "respuesta": "b",
+    "explicacion": "Entre las actividades de seguimiento está la posibilidad de corroborar técnicamente los resultados de monitoreo."
+  },
+  {
+    "id": 31,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Aporte técnico-profesional",
+    "caso": "En una reunión interdisciplinaria, el profesional detecta que una propuesta puede generar un problema previsible dentro de su especialidad.",
+    "pregunta": "¿Qué conducta refleja mejor el aporte técnico-profesional?",
+    "opciones": {
+      "a": "Guardar la observación hasta que el problema ocurra para evitar cuestionar la propuesta del equipo.",
+      "b": "Imponer su criterio sin escuchar otras disciplinas porque su especialidad debe prevalecer en toda decisión.",
+      "c": "Explicar oportunamente el riesgo, aportar alternativas desde su especialidad y considerar los aportes de otras disciplinas.",
+      "d": "Limitarse a señalar que la propuesta es incorrecta sin explicar el riesgo ni plantear alternativas viables."
+    },
+    "respuesta": "c",
+    "explicacion": "El nivel profesional exige aportar saber experto, anticipar problemas y asumir la interdisciplinariedad."
+  },
+  {
+    "id": 32,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Comunicación efectiva",
+    "caso": "Un ciudadano solicita explicación de un requerimiento técnico que contiene lenguaje especializado.",
+    "pregunta": "¿Cuál respuesta es más adecuada?",
+    "opciones": {
+      "a": "Repetir literalmente el texto técnico aunque el ciudadano manifieste que continúa sin comprenderlo.",
+      "b": "Simplificar el requerimiento eliminando condiciones importantes para que la explicación resulte más breve.",
+      "c": "Indicar que toda aclaración debe hacerla un abogado externo porque la comunicación no corresponde al nivel profesional.",
+      "d": "Explicar con claridad y precisión el alcance del requerimiento, usando el canal apropiado y sin alterar su contenido técnico."
+    },
+    "respuesta": "d",
+    "explicacion": "La comunicación efectiva supone claridad, precisión, escucha y adaptación del mensaje sin deformar su contenido."
+  },
+  {
+    "id": 33,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Aprendizaje continuo",
+    "caso": "La entidad adopta una nueva herramienta geográfica y actualiza un lineamiento que afecta la revisión de información.",
+    "pregunta": "¿Qué conducta refleja mejor aprendizaje continuo?",
+    "opciones": {
+      "a": "Consultar fuentes institucionales, capacitarse, practicar y aplicar progresivamente el conocimiento validado.",
+      "b": "Continuar indefinidamente con el método anterior porque la experiencia previa reemplaza cualquier actualización.",
+      "c": "Esperar que otros produzcan los análisis y copiarlos sin comprender el nuevo procedimiento utilizado.",
+      "d": "Aprender solo las funciones mínimas de la herramienta y omitir la actualización del lineamiento institucional."
+    },
+    "respuesta": "a",
+    "explicacion": "El aprendizaje continuo exige actualizar y aplicar conocimientos relevantes para el desempeño."
+  },
+  {
+    "id": 34,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Orientación a resultados",
+    "caso": "Faltan pocos días para entregar un concepto y aparece información nueva que puede cambiar una conclusión relevante.",
+    "pregunta": "¿Qué conducta es más apropiada?",
+    "opciones": {
+      "a": "Ignorar la información nueva para cumplir la fecha original, aunque pueda modificar una conclusión sustancial.",
+      "b": "Reorganizar prioridades, verificar la información crítica y gestionar oportunamente el plazo o apoyo necesario sin sacrificar calidad.",
+      "c": "Rehacer todo el expediente desde cero sin priorizar la información que realmente puede afectar la decisión.",
+      "d": "Entregar el concepto incompleto y dejar que otra dependencia determine después si la información era importante."
+    },
+    "respuesta": "b",
+    "explicacion": "Orientación a resultados combina oportunidad, calidad, priorización y responsabilidad sobre el producto."
+  },
+  {
+    "id": 35,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Trabajo en equipo",
+    "caso": "Dos disciplinas discrepan sobre la interpretación de un hallazgo y ambas cuentan con evidencia relevante.",
+    "pregunta": "¿Cuál actuación favorece el trabajo en equipo?",
+    "opciones": {
+      "a": "Elegir la postura del profesional con mayor antigüedad sin revisar los argumentos técnicos de cada disciplina.",
+      "b": "Evitar discutir la diferencia y redactar dos conclusiones incompatibles dentro del mismo concepto técnico.",
+      "c": "Contrastar criterios y evidencias, identificar puntos de acuerdo y sustentar conjuntamente la conclusión o dejar explícita la diferencia técnica.",
+      "d": "Solicitar que una de las disciplinas retire su análisis para que el documento final tenga una sola perspectiva."
+    },
+    "respuesta": "c",
+    "explicacion": "El trabajo colaborativo integra perspectivas y resuelve diferencias mediante evidencia y argumentación."
+  },
+  {
+    "id": 36,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Adaptación al cambio",
+    "caso": "Un procedimiento institucional cambia mientras el profesional tiene varios expedientes en curso.",
+    "pregunta": "¿Qué respuesta es más adecuada?",
+    "opciones": {
+      "a": "Aplicar el procedimiento anterior a todos los expedientes porque fueron asignados antes de conocerse el cambio.",
+      "b": "Cambiar de método sin revisar vigencia, transición ni instrucciones institucionales aplicables a los expedientes.",
+      "c": "Suspender todos los productos hasta que cada integrante del equipo domine por completo el nuevo procedimiento.",
+      "d": "Identificar desde cuándo aplica el cambio, ajustar el trabajo afectado y comunicar oportunamente impactos sobre productos o plazos."
+    },
+    "respuesta": "d",
+    "explicacion": "Adaptarse implica comprender el cambio, aplicarlo correctamente y gestionar sus efectos sobre el trabajo."
+  },
+  {
+    "id": 37,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Compromiso con la organización",
+    "caso": "Un error de buena fe en un borrador puede corregirse antes de que se adopte una decisión.",
+    "pregunta": "¿Qué actuación es más apropiada?",
+    "opciones": {
+      "a": "Informar el error, corregirlo, documentar lo necesario y extraer aprendizaje para prevenir su repetición.",
+      "b": "Ocultarlo porque todavía no se ha firmado el documento y por ello no tiene ninguna relevancia institucional.",
+      "c": "Esperar a que otro integrante lo detecte para evitar asumir responsabilidad sobre la corrección del borrador.",
+      "d": "Mantener el texto original y explicar el error solo si posteriormente alguien formula una reclamación."
+    },
+    "respuesta": "a",
+    "explicacion": "El compromiso institucional exige actuar con responsabilidad, calidad y aprendizaje frente a errores corregibles."
+  },
+  {
+    "id": 38,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Manejo de información",
+    "caso": "Un conocido pide por mensajería personal un documento del expediente que no ha sido publicado y cuyo acceso debe tramitarse institucionalmente.",
+    "pregunta": "¿Qué debe hacer el servidor?",
+    "opciones": {
+      "a": "Enviar el archivo si la persona promete no divulgarlo, porque la confianza personal sustituye el procedimiento.",
+      "b": "Orientar al solicitante hacia el canal institucional correspondiente y abstenerse de compartir el documento por una vía informal.",
+      "c": "Compartir únicamente las páginas que el servidor considere poco importantes sin verificar las reglas de acceso.",
+      "d": "Tomar fotografías del documento y enviarlas desde un teléfono personal para evitar usar el correo institucional."
+    },
+    "respuesta": "b",
+    "explicacion": "El manejo responsable de información exige respetar canales, reglas de acceso y deberes institucionales."
+  },
+  {
+    "id": 39,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Toma de decisiones técnicas",
+    "caso": "Hay tres alternativas de actuación y ninguna elimina completamente la incertidumbre.",
+    "pregunta": "¿Cuál conducta profesional es más sólida?",
+    "opciones": {
+      "a": "Posponer cualquier recomendación hasta obtener certeza absoluta, aunque la decisión deba adoptarse con información disponible.",
+      "b": "Escoger la alternativa utilizada en el último expediente sin comprobar si las condiciones del caso son comparables.",
+      "c": "Comparar alternativas con criterios explícitos, usar la mejor evidencia disponible y asumir responsablemente la recomendación sustentada.",
+      "d": "Seleccionar la opción preferida por la mayoría del equipo aunque contradiga la evidencia técnica disponible."
+    },
+    "respuesta": "c",
+    "explicacion": "Las decisiones profesionales deben basarse en criterios y evidencia, incluso cuando existe incertidumbre."
+  },
+  {
+    "id": 40,
+    "tipo_pregunta": "juicio_situacional",
+    "categoria": "Competencia comportamental",
+    "tema": "Orientación al ciudadano",
+    "caso": "Una persona molesta afirma que la entidad nunca responde y eleva el tono durante una atención.",
+    "pregunta": "¿Cuál conducta es más apropiada?",
+    "opciones": {
+      "a": "Responder en el mismo tono para establecer límites y terminar la atención lo antes posible.",
+      "b": "Prometer una decisión favorable para reducir la tensión, aunque el servidor no tenga competencia para decidir.",
+      "c": "Negarse a brindar cualquier orientación hasta que la persona formule nuevamente toda su solicitud por escrito.",
+      "d": "Escuchar, mantener trato respetuoso, aclarar lo verificable y orientar sobre el canal y alcance de la actuación sin prometer resultados indebidos."
+    },
+    "respuesta": "d",
+    "explicacion": "La orientación al ciudadano combina respeto, claridad, servicio y actuación dentro de las competencias institucionales."
+  },
+  {
+    "id": 41,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Series numéricas",
+    "pregunta": "Complete la serie: 3, 7, 15, 31, 63, __.",
+    "opciones": {
+      "a": "127",
+      "b": "95",
+      "c": "126",
+      "d": "129"
+    },
+    "respuesta": "a",
+    "explicacion": "Cada término es el anterior multiplicado por 2 más 1: 63×2+1=127."
+  },
+  {
+    "id": 42,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Series numéricas",
+    "pregunta": "Complete la serie: 2, 6, 12, 20, 30, __.",
+    "opciones": {
+      "a": "36",
+      "b": "42",
+      "c": "40",
+      "d": "44"
+    },
+    "respuesta": "b",
+    "explicacion": "Las diferencias son 4, 6, 8, 10 y luego 12; por tanto 30+12=42."
+  },
+  {
+    "id": 43,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Razonamiento proporcional",
+    "pregunta": "Si 6 analistas revisan 18 expedientes en 3 días, al mismo ritmo ¿cuántos expedientes revisan 4 analistas en 6 días?",
+    "opciones": {
+      "a": "18",
+      "b": "30",
+      "c": "24",
+      "d": "36"
+    },
+    "respuesta": "c",
+    "explicacion": "La productividad es 18/(6×3)=1 expediente por analista-día; 4×6=24."
+  },
+  {
+    "id": 44,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Porcentajes",
+    "pregunta": "De 240 obligaciones revisadas, el 15 % requiere verificación adicional. ¿Cuántas son?",
+    "opciones": {
+      "a": "24",
+      "b": "30",
+      "c": "40",
+      "d": "36"
+    },
+    "respuesta": "d",
+    "explicacion": "240×0,15=36."
+  },
+  {
+    "id": 45,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Conjuntos",
+    "pregunta": "En 50 expedientes, 28 tienen componente hídrico, 25 componente biótico y 10 ambos. ¿Cuántos tienen al menos uno de los dos?",
+    "opciones": {
+      "a": "43",
+      "b": "33",
+      "c": "40",
+      "d": "53"
+    },
+    "respuesta": "a",
+    "explicacion": "Por inclusión-exclusión: 28+25−10=43."
+  },
+  {
+    "id": 46,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Silogismos",
+    "pregunta": "Todos los expedientes prioritarios reciben revisión especial. Algunos expedientes del grupo A son prioritarios. ¿Qué se concluye necesariamente?",
+    "opciones": {
+      "a": "Todos los expedientes del grupo A reciben revisión especial.",
+      "b": "Algunos expedientes del grupo A reciben revisión especial.",
+      "c": "Ningún expediente no prioritario recibe revisión especial.",
+      "d": "Todos los expedientes con revisión especial pertenecen al grupo A."
+    },
+    "respuesta": "b",
+    "explicacion": "Si algunos A son prioritarios y todo prioritario recibe revisión especial, esos A reciben revisión especial."
+  },
+  {
+    "id": 47,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Lógica condicional",
+    "pregunta": "Regla: «Si un informe está incompleto, se solicita subsanación». No se solicitó subsanación al informe X. Suponiendo que la regla se aplica sin excepciones, ¿qué se deduce?",
+    "opciones": {
+      "a": "El informe X fue aprobado definitivamente.",
+      "b": "El informe X contenía información falsa.",
+      "c": "El informe X no estaba incompleto.",
+      "d": "El informe X fue presentado fuera de plazo."
+    },
+    "respuesta": "c",
+    "explicacion": "Es modus tollens: si P implica Q y no Q, entonces no P."
+  },
+  {
+    "id": 48,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Ordenamiento",
+    "pregunta": "Cuatro informes A, B, C y D se revisan uno por turno. B va después de A; C va antes de D; A va después de C. ¿Cuál orden es posible?",
+    "opciones": {
+      "a": "A, C, D, B",
+      "b": "C, B, A, D",
+      "c": "D, C, A, B",
+      "d": "C, A, B, D"
+    },
+    "respuesta": "d",
+    "explicacion": "C,A,B,D cumple B después de A, C antes de D y A después de C."
+  },
+  {
+    "id": 49,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Razonamiento verbal",
+    "pregunta": "«Evidencia» es a «conclusión» como «datos» es a:",
+    "opciones": {
+      "a": "Análisis",
+      "b": "Archivo",
+      "c": "Formato",
+      "d": "Firma"
+    },
+    "respuesta": "a",
+    "explicacion": "Los datos alimentan el análisis del mismo modo que la evidencia sustenta una conclusión."
+  },
+  {
+    "id": 50,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Patrones alfabéticos",
+    "pregunta": "Complete la serie: A, C, F, J, O, __.",
+    "opciones": {
+      "a": "T",
+      "b": "U",
+      "c": "V",
+      "d": "W"
+    },
+    "respuesta": "b",
+    "explicacion": "Los saltos aumentan: +2, +3, +4, +5 y luego +6; O+6=U."
+  },
+  {
+    "id": 51,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Promedios",
+    "pregunta": "Cuatro mediciones son 8, 10, 12 y 14. ¿Qué quinta medición hace que el promedio sea 12?",
+    "opciones": {
+      "a": "14",
+      "b": "15",
+      "c": "16",
+      "d": "18"
+    },
+    "respuesta": "c",
+    "explicacion": "Para promedio 12 en cinco datos se requiere suma 60. Los cuatro suman 44; falta 16."
+  },
+  {
+    "id": 52,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Razones",
+    "pregunta": "En un lote, la razón entre expedientes con visita y sin visita es 3:5. Si hay 64 expedientes, ¿cuántos tienen visita?",
+    "opciones": {
+      "a": "20",
+      "b": "32",
+      "c": "40",
+      "d": "24"
+    },
+    "respuesta": "d",
+    "explicacion": "Hay 8 partes; 64/8=8 y 3×8=24."
+  },
+  {
+    "id": 53,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Probabilidad",
+    "pregunta": "Una caja contiene 3 fichas rojas, 2 azules y 5 verdes. Se extrae una al azar. ¿Cuál es la probabilidad de que sea azul?",
+    "opciones": {
+      "a": "1/5",
+      "b": "1/2",
+      "c": "2/5",
+      "d": "3/10"
+    },
+    "respuesta": "a",
+    "explicacion": "Hay 10 fichas y 2 azules: 2/10=1/5."
+  },
+  {
+    "id": 54,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Lógica de proposiciones",
+    "pregunta": "¿Cuál enunciado es la negación lógica de «Todos los informes tienen anexos completos»?",
+    "opciones": {
+      "a": "Ningún informe tiene anexos completos.",
+      "b": "Al menos un informe no tiene anexos completos.",
+      "c": "Todos los informes tienen anexos incompletos.",
+      "d": "Al menos un informe tiene anexos completos."
+    },
+    "respuesta": "b",
+    "explicacion": "La negación de «todos P» es «existe al menos uno que no P»."
+  },
+  {
+    "id": 55,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Problemas de trabajo",
+    "pregunta": "Un equipo procesa 120 registros en 8 horas a ritmo constante. ¿Cuántos procesa en 5 horas?",
+    "opciones": {
+      "a": "60",
+      "b": "72",
+      "c": "75",
+      "d": "80"
+    },
+    "respuesta": "c",
+    "explicacion": "La tasa es 15 registros por hora; en 5 horas procesa 75."
+  },
+  {
+    "id": 56,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Secuencias alternadas",
+    "pregunta": "Complete la serie: 10, 9, 18, 17, 34, 33, __.",
+    "opciones": {
+      "a": "64",
+      "b": "65",
+      "c": "67",
+      "d": "66"
+    },
+    "respuesta": "d",
+    "explicacion": "Se alterna −1 y ×2: 10−1=9; ×2=18; −1=17; ×2=34; −1=33; ×2=66."
+  },
+  {
+    "id": 57,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Deducción",
+    "pregunta": "Ningún expediente archivado está activo. El expediente K está activo. ¿Qué conclusión es necesaria?",
+    "opciones": {
+      "a": "El expediente K no está archivado.",
+      "b": "El expediente K está cerrado.",
+      "c": "Todo expediente no archivado está activo.",
+      "d": "Ningún expediente activo tiene documentos."
+    },
+    "respuesta": "a",
+    "explicacion": "Si ningún archivado es activo y K es activo, K no puede pertenecer al conjunto de archivados."
+  },
+  {
+    "id": 58,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Fracciones",
+    "pregunta": "Se revisó 3/5 de 150 obligaciones. ¿Cuántas quedan por revisar?",
+    "opciones": {
+      "a": "50",
+      "b": "60",
+      "c": "75",
+      "d": "90"
+    },
+    "respuesta": "b",
+    "explicacion": "Se revisaron 90; quedan 150−90=60."
+  },
+  {
+    "id": 59,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Razonamiento espacial",
+    "pregunta": "Un inspector mira al norte. Gira 90° a la derecha, luego 180° y finalmente 90° a la izquierda. ¿Hacia dónde queda mirando?",
+    "opciones": {
+      "a": "Norte",
+      "b": "Este",
+      "c": "Sur",
+      "d": "Oeste"
+    },
+    "respuesta": "c",
+    "explicacion": "Norte→Este→Oeste→Sur."
+  },
+  {
+    "id": 60,
+    "tipo_pregunta": "razonamiento_logico",
+    "categoria": "Lógica y razonamiento",
+    "tema": "Combinatoria básica",
+    "pregunta": "Hay 4 especialistas distintos y se deben elegir 2 para una visita, sin importar el orden. ¿Cuántas parejas diferentes pueden formarse?",
+    "opciones": {
+      "a": "4",
+      "b": "8",
+      "c": "12",
+      "d": "6"
+    },
+    "respuesta": "d",
+    "explicacion": "Las combinaciones de 4 elementos tomados de 2 en 2 son 4×3/2=6."
+  }
+]
