@@ -1191,6 +1191,23 @@ function escapeHtml(texto){
   div.textContent = String(texto ?? "");
   return div.innerHTML;
 }
+
+document.addEventListener("keydown", function(e){
+  if(e.key !== "Enter") return;
+  if(document.getElementById("pantallaAcceso").style.display !== "none") return;
+
+  e.preventDefault();
+
+  const btnComprobar = document.querySelector('[onclick="validarRespuesta()"]');
+  const btnSiguiente = document.querySelector('[onclick="siguientePregunta()"]');
+
+  if(btnSiguiente && !btnSiguiente.disabled){
+    siguientePregunta();
+  } else if(btnComprobar && !btnComprobar.disabled){
+    validarRespuesta();
+  }
+});
+  
 </script>
 
 </body>
