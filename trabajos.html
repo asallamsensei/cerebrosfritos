@@ -57,12 +57,12 @@ button,input{font:inherit}button{cursor:pointer;color:inherit}button:focus-visib
    Los checks son locales, no se sincronizan entre usuarios/dispositivos.
 */
 const PROYECTOS = {
-  aguacate: {
+  referencias: {
     id: 'gabriela', trabajo: 'Referencias', nombre: 'Gabriela',
     inicio: '2026-10-07T00:00:00-05:00', fin: '2026-10-14T23:59:00-05:00',
     items: [{id:'g1',texto:'Item 1'},{id:'g2',texto:'Item 2'},{id:'g3',texto:'Item 3'},{id:'g4',texto:'Item 4'},{id:'g5',texto:'Item 5'}]
   },
-  cafe: { // Clave provisional de Alexis: cámbiala aquí.
+  'por fin': {
     id: 'alexis', trabajo: 'Tesis', nombre: 'Alexis',
     inicio: '2026-10-07T00:00:00-05:00', fin: '2026-10-21T23:59:00-05:00',
     items: [{id:'a1',texto:'Item 1'},{id:'a2',texto:'Item 2'},{id:'a3',texto:'Item 3'},{id:'a4',texto:'Item 4'},{id:'a5',texto:'Item 5'}]
@@ -157,7 +157,7 @@ function simulate(dt){
  visualTime+=dt;evolveColors(dt);
  if(!timing(project).active){particles.length=0;return;}
  emitCarry+=dt*42;while(emitCarry>=1){emitCarry--;if(particles.length<95)newParticle();}
- const floor=400-surface(1-remaining);
+ const floor=400-surface(remaining);
  for(let i=particles.length-1;i>=0;i--){const p=particles[i];
   p.vy+=dt*200;p.x+=p.vx*dt;p.y+=p.vy*dt;
   // Un cambio suave hacia el tono del grano más próximo en la caída.
@@ -171,7 +171,7 @@ function pixel(x,y,size,hue,alpha=1,glow=0){
  ctx.globalAlpha=alpha;ctx.fillStyle=`hsl(${hue},85%,75%)`;ctx.shadowColor=`hsl(${hue},95%,68%)`;ctx.shadowBlur=glow;
  ctx.fillRect(x-size/2,y-size/2,size,size);ctx.shadowBlur=0;
 }
-function sand(bottom,fraction){if(fraction<=0)return;const sy=bottom?400-surface(fraction):surface(fraction);
+function sand(bottom,fraction){if(fraction<=0)return;const sy=bottom?400-surface(1-fraction):surface(fraction);
  ctx.save();chamber(bottom);ctx.clip();ctx.beginPath();ctx.rect(108,sy,184,bottom?342-sy:198-sy);ctx.clip();
  ctx.fillStyle='#312b4c';ctx.fillRect(108,58,184,284);
  const offset=bottom?COLS*ROWS:0;
