@@ -60,12 +60,24 @@ const PROYECTOS = {
   referencias: {
     id: 'gabriela', trabajo: 'Referencias', nombre: 'Gabriela',
     inicio: '2026-10-07T00:00:00-05:00', fin: '2026-10-14T23:59:00-05:00',
-    items: [{id:'g1',texto:'Item 1'},{id:'g2',texto:'Item 2'},{id:'g3',texto:'Item 3'},{id:'g4',texto:'Item 4'},{id:'g5',texto:'Item 5'}]
+    items: [
+     {id:'g1', texto:'Automatizar las referencias', listo:false},
+     {id:'g2', texto:'Revisar una por una', listo:false},
+     {id:'g3', texto:'Cuadrar las citas', listo:false},
+     {id:'g4', texto:'Reescribir lo necesario', listo:false},
+     {id:'g5', texto:'Detalles finales', listo:false}
+    ]
   },
   'por fin': {
     id: 'alexis', trabajo: 'Tesis', nombre: 'Alexis',
     inicio: '2026-10-07T00:00:00-05:00', fin: '2026-10-21T23:59:00-05:00',
-    items: [{id:'a1',texto:'Item 1'},{id:'a2',texto:'Item 2'},{id:'a3',texto:'Item 3'},{id:'a4',texto:'Item 4'},{id:'a5',texto:'Item 5'}]
+    items: [
+     {id:'g1', texto:'Cuadrar las referencias', listo:false},
+     {id:'g2', texto:'Corregir el documento', listo:false},
+     {id:'g3', texto:'Ampliar el documento', listo:false},
+     {id:'g4', texto:'Completar lo que falte', listo:false},
+     {id:'g5', texto:'Detalles finales', listo:false}
+    ]
   }
 };
 /* ═════════════ FIN DE LA CONFIGURACIÓN ═════════════ */
@@ -92,7 +104,10 @@ function openProject(p){
  document.title=`${p.trabajo} ★ ${p.nombre} · Entre granos`;
  $('task-list').replaceChildren();
  p.items.forEach(item=>{const li=document.createElement('li'),label=document.createElement('label'),input=document.createElement('input'),span=document.createElement('span');
- input.type='checkbox';input.checked=checked[item.id]===true;span.textContent=item.texto;
+ input.type='checkbox';
+ input.checked = checked[item.id] = item.listo === true;
+ input.disabled = true;
+ span.textContent=item.texto;
  input.addEventListener('change',()=>{checked[item.id]=input.checked;try{localStorage.setItem(storageKey(),JSON.stringify(checked));}catch{$('save-note').textContent='El navegador no permite guardar. Las marcas durarán mientras mantengas esta página abierta.';}updateTasks();});
  label.append(input,span);li.append(label);$('task-list').append(li);});
  const date=new Date(p.fin);$('deadline').dateTime=p.fin;
