@@ -4,60 +4,47 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0c101b">
-<meta name="description" content="Cada grano cuenta. Tu proyecto, tus próximos pasos y el tiempo para hacerlo realidad.">
+<meta name="description" content="Reloj de arena, fecha de entrega y tareas.">
 <title>Entre granos · Asallam Sensei</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c101b'/%3E%3Cpath d='M9 6h14v4l-6 6 6 6v4H9v-4l6-6-6-6z' fill='none' stroke='%23e8c178' stroke-width='2'/%3E%3C/svg%3E">
 <style>
-:root{color-scheme:dark;--bg:#0c101b;--text:#eeeae2;--muted:#a4a9b8;--gold:#e8c178;--line:#ffffff12}
-*{box-sizing:border-box} [hidden]{display:none!important}
-body{margin:0;background:radial-gradient(ellipse at 24% 42%,#26303b44,transparent 55%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100svh}
-button,input{font:inherit} button{cursor:pointer}button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:5px}
-button{color:inherit} .shell{max-width:1120px;margin:auto;padding:32px 40px 22px}
-.topbar{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:24px}
-.brand{display:flex;align-items:center;gap:12px;font-size:11px;letter-spacing:.19em;text-transform:uppercase;font-weight:650}.brand svg{width:22px;height:28px;color:var(--gold)}
-.byline{font-size:11px;color:var(--muted);letter-spacing:.07em}.quiet{background:transparent;border:1px solid #ffffff1e;border-radius:8px;padding:9px 13px;font-size:12px;color:#c8cad1}.quiet:hover{background:#ffffff09}
-.eyebrow{font-size:10px;letter-spacing:.22em;font-weight:650;text-transform:uppercase;color:var(--gold)}
-.login{max-width:420px;margin:clamp(60px,13vh,130px) auto 60px;text-align:center}.login .seal{width:64px;height:64px;margin:auto auto 28px;border:1px solid #e8c17830;border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:28px;background:#e8c17806}
-h1,h2,p{margin-top:0} .login h1{font-family:Georgia,serif;font-weight:400;font-size:43px;line-height:1.12;margin:17px 0}.login p{font-size:14px;color:var(--muted);line-height:1.8}.login form{margin-top:32px;text-align:left}.login label{display:block;font-size:12px;margin-bottom:10px;color:#ccd0d9}
-.inputrow{display:flex;background:#ffffff04;border:1px solid #ffffff26;border-radius:10px;overflow:hidden}.inputrow input{width:100%;min-width:0;background:none;border:0;padding:15px;color:var(--text)}.inputrow button{border:0;background:none;padding:12px;color:var(--muted);font-size:11px}.primary{width:100%;border:0;border-radius:10px;background:var(--gold);color:#282218;font-weight:650;padding:15px;margin-top:14px}.primary:hover{background:#f1d39b}#error{color:#f1a8a3;min-height:22px;font-size:12px;margin-top:12px}
-.intro{padding:38px 0 12px}.intro h1{font-family:Georgia,serif;font-size:clamp(28px,4vw,43px);font-weight:400;margin:14px 0 10px;letter-spacing:-.035em}.star{font-family:system-ui;color:var(--gold);font-size:.55em;vertical-align:middle;display:inline-block;margin:0 10px}.intro p{font-size:13px;color:var(--muted)}
-.workspace{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:65px;padding:0 0 32px}.clock{text-align:center;min-width:0}.stage{position:relative;max-width:460px;margin:0 auto;height:405px;background:radial-gradient(ellipse at 50% 52%,#b9905210,transparent 64%)}canvas{width:100%;height:100%;display:block}.orbit-label{position:absolute;right:2px;top:48%;writing-mode:vertical-rl;font-size:9px;letter-spacing:.26em;color:#818a9b;user-select:none}
-.timer-label{font-size:9px;letter-spacing:.21em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}.digits{display:flex;justify-content:center;gap:10px;align-items:flex-start}.unit{min-width:44px}.unit strong{display:block;font:400 26px ui-monospace,SFMono-Regular,Consolas,monospace;font-variant-numeric:tabular-nums;color:#f1d8a8;letter-spacing:.02em}.unit span{font-size:8px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}.colon{font:20px monospace;color:#716b5e;padding-top:2px}.deadline{font-size:11px;color:var(--muted);margin:20px 0 0;line-height:1.7}.deadline time{color:#c9ccd5}.clock-note{font:italic 13px Georgia,serif;color:#a6a0a0;margin:16px 0 0}
-.tasks{border:1px solid #ffffff13;background:linear-gradient(145deg,#ffffff05,#ffffff01);border-radius:16px;padding:27px}.task-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.counter{font:11px ui-monospace,monospace;color:var(--muted)}.tasks h2{font:400 27px Georgia,serif;margin:0 0 9px}.tasks .description{color:var(--muted);font-size:12px;line-height:1.7;margin-bottom:24px}.progress{height:3px;background:#ffffff0c;border-radius:5px;overflow:hidden;margin-bottom:18px}.progress div{height:100%;width:0;background:var(--gold);transition:width .25s}
-.task-list{list-style:none;margin:0;padding:0}.task-list li{border-bottom:1px solid #ffffff0b}.task-list li:last-child{border-bottom:0}.task-list label{display:flex;gap:13px;align-items:center;min-height:57px;cursor:pointer;font-size:13px}.task-list input{appearance:none;flex:0 0 18px;height:18px;margin:0;border:1px solid #73809277;border-radius:5px;display:grid;place-content:center;background:#0002}.task-list input:checked{background:var(--gold);border-color:var(--gold)}.task-list input:checked:after{content:'✓';color:#282218;font-size:13px;font-weight:800}.task-list input:checked+span{color:#858c9d;text-decoration:line-through}.save-note{font-size:10px;color:#9299a8;line-height:1.7;margin:21px 0 0;border-top:1px solid var(--line);padding-top:16px}
-.bottom{display:flex;align-items:center;justify-content:space-between;gap:18px;border-top:1px solid var(--line);padding-top:20px;font-size:10px;color:#8790a3}.motion{border:0;background:none;color:#acb3c2;font-size:10px;padding:5px 0}.status-dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--gold);margin-right:7px}
-@media(max-width:760px){.shell{padding:23px 22px}.byline{display:none}.intro{padding-top:30px}.workspace{grid-template-columns:1fr;gap:32px}.stage{height:350px}.tasks{max-width:460px;width:100%;margin:auto}.intro{text-align:center}.bottom{align-items:flex-start;font-size:9px}.clock-note{margin-bottom:0}.intro h1{line-height:1.35}.star{margin:0 5px}.login h1{font-size:39px}}
-@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+:root{color-scheme:dark;--bg:#0b1020;--text:#f2f1ff;--muted:#a0abc4;--gold:#bca6ff;--line:#ffffff18}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;background:radial-gradient(ellipse at 35% 40%,#25244b55,transparent 65%),var(--bg);color:var(--text);font-family:system-ui,sans-serif;min-height:100svh}
+button,input{font:inherit}button{cursor:pointer;color:inherit}button:focus-visible,input:focus-visible{outline:2px solid #c4b5fd;outline-offset:4px}
+.shell{max-width:1000px;margin:auto;padding:24px}.topbar{display:flex;justify-content:flex-end;gap:16px;min-height:32px}
+.quiet,.motion{border:0;background:none;color:var(--muted);font-size:12px;padding:7px}.quiet:hover,.motion:hover{color:white}
+.login{max-width:330px;margin:24vh auto 0}.login h1{font-size:26px;text-align:center;margin:0 0 25px}.login label{display:block;font-size:12px;color:var(--muted);margin-bottom:10px}
+.inputrow{display:flex;border:1px solid #ffffff29;border-radius:10px;background:#ffffff05}.inputrow input{width:100%;min-width:0;border:0;background:none;color:white;padding:14px}.inputrow button{border:0;background:none;font-size:11px;color:var(--muted);padding:10px}.primary{border:1px solid #b49aff55;background:#7d5cff35;border-radius:10px;width:100%;padding:13px;margin-top:12px}.primary:hover{background:#7d5cff55}#error{font-size:12px;min-height:18px;color:#ffacb1}
+.intro h1{font-size:clamp(25px,4vw,35px);font-weight:650;text-align:center;margin:20px 0 0}.star{color:#c4b5fd;font-size:.7em;margin:0 8px}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:20px;align-items:center}.clock{text-align:center;min-width:0}.stage{height:520px;max-width:580px;margin:auto}canvas{width:100%;height:100%;display:block}
+.timer-label{font-size:11px;color:var(--muted);margin:0 0 10px}.digits{display:flex;justify-content:center;gap:9px}.unit{min-width:38px}.unit strong{display:block;font:24px ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums;color:#ded2ff}.unit span{font-size:8px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.colon{font:20px monospace;color:#6f688a}.deadline{font-size:11px;color:var(--muted);line-height:1.8;margin:17px 0 0}
+.tasks{padding:23px;border:1px solid var(--line);border-radius:14px;background:#ffffff03}.task-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.task-head h2{font-size:16px;margin:0;font-weight:550}.counter{font-size:11px;color:var(--muted)}.task-list{list-style:none;padding:0;margin:0}.task-list li+li{border-top:1px solid #ffffff0b}.task-list label{display:flex;align-items:center;gap:12px;min-height:52px;cursor:pointer;font-size:14px}.task-list input{width:17px;height:17px;accent-color:#b49aff;margin:0}.task-list input:checked+span{text-decoration:line-through;color:#8690a7}.save-note{color:#e5b1b1;font-size:11px;line-height:1.5;margin-bottom:0}.save-note:empty{display:none}
+@media(max-width:650px){.shell{padding:16px}.workspace{grid-template-columns:1fr;gap:28px}.stage{height:440px}.tasks{width:100%;max-width:380px;margin:0 auto 24px}.intro h1{margin-top:15px}.login{margin-top:20vh}}
 </style>
 </head>
 <body>
 <div class="shell">
- <header class="topbar">
-  <div class="brand"><svg viewBox="0 0 24 32" fill="none" aria-hidden="true"><path d="M4 3h16M4 29h16M6 4c0 9 6 8 6 12S6 19 6 28M18 4c0 9-6 8-6 12s6 3 6 12" stroke="currentColor" stroke-width="1.5"/></svg> Entre granos</div>
-  <span class="byline">UN ESPACIO DE ASALLAM SENSEI</span>
-  <button class="quiet" id="logout" hidden>Cambiar clave ↗</button>
- </header>
+ <header class="topbar"><button class="motion" id="motion" hidden aria-pressed="false">Pausar animación</button><button class="quiet" id="logout" hidden>Cambiar clave</button></header>
  <main>
   <section class="login" id="login">
-   <div class="seal" aria-hidden="true">✧</div><span class="eyebrow">Un paso a la vez</span>
-   <h1>Las grandes ideas<br>toman su tiempo.</h1>
-   <p>Entra a tu espacio y descubre qué sigue.<br>Cada grano cuenta. Cada paso también.</p>
+   <h1>Ingresa tu clave</h1>
    <form id="access"><label for="key">Tu clave de acceso</label><div class="inputrow"><input id="key" type="password" placeholder="Escribe tu clave" autocomplete="off" autocapitalize="none" spellcheck="false" required aria-describedby="error"><button type="button" id="reveal" aria-label="Mostrar clave" aria-pressed="false">Mostrar</button></div><button class="primary" type="submit">Entrar a mi espacio <span aria-hidden="true">→</span></button><p id="error" role="alert"></p></form>
   </section>
   <section id="dashboard" hidden aria-labelledby="title">
-   <div class="intro"><span class="eyebrow">Tu proyecto en movimiento</span><h1 id="title" tabindex="-1"></h1><p>Un poco de enfoque hoy. Un gran paso para mañana.</p></div>
+   <div class="intro"><h1 id="title" tabindex="-1"></h1></div>
    <div class="workspace">
     <section class="clock" aria-label="Tiempo del proyecto">
-     <div class="stage"><canvas id="glass" role="img" aria-label="Reloj de arena: la arena superior representa el tiempo restante."></canvas><span class="orbit-label" aria-hidden="true">CADA GRANO CUENTA</span></div>
+     <div class="stage"><canvas id="glass" role="img" aria-label="Reloj de arena: la arena superior representa el tiempo restante."></canvas></div>
      <p class="timer-label" id="timer-label">Tiempo para tu entrega</p>
      <div class="digits" role="timer" aria-label="Tiempo restante" aria-live="off"><div class="unit"><strong id="days">00</strong><span>Días</span></div><span class="colon" aria-hidden="true">:</span><div class="unit"><strong id="hours">00</strong><span>Horas</span></div><span class="colon" aria-hidden="true">:</span><div class="unit"><strong id="minutes">00</strong><span>Min</span></div><span class="colon" aria-hidden="true">:</span><div class="unit"><strong id="seconds">00</strong><span>Seg</span></div></div>
-     <p class="deadline">Fecha de entrega<br><time id="deadline"></time></p><p class="clock-note" id="clock-note">Lo importante también se construye despacio.</p>
+     <p class="deadline"><time id="deadline"></time></p>
     </section>
-    <aside class="tasks" aria-labelledby="tasks-title"><div class="task-head"><span class="eyebrow">La ruta</span><span class="counter" id="count" aria-live="polite"></span></div><h2 id="tasks-title">Paso a paso</h2><p class="description">Cada tarea terminada es una idea que avanza.</p><div class="progress" role="progressbar" aria-label="Tareas completadas" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progress"></div></div><ul class="task-list" id="task-list"></ul><p class="save-note" id="save-note">Tus marcas se guardan en este navegador.<br>Avanza a tu ritmo, con intención.</p></aside>
+    <aside class="tasks" aria-labelledby="tasks-title"><div class="task-head"><h2 id="tasks-title">Tareas</h2><span class="counter" id="count" aria-live="polite"></span></div><ul class="task-list" id="task-list"></ul><p class="save-note" id="save-note" role="status"></p></aside>
    </div>
   </section>
  </main>
- <footer class="bottom"><span><span class="status-dot"></span>Hecho para concentrarte, no para correr.</span><button class="motion" id="motion" hidden aria-pressed="false">Pausar animación</button></footer>
+
 </div>
 <script>
 'use strict';
@@ -94,14 +81,12 @@ function timing(p,now=Date.now()){
 function storageKey(){return 'entre-granos:v1:'+project.id;}
 function updateTasks(){
  const n=project.items.filter(item=>checked[item.id]===true).length, total=project.items.length;
- $('count').textContent=`${n} / ${total} completos`;
- const percent=total?n/total*100:0;
- $('progress').style.width=percent+'%';$('progress').parentElement.setAttribute('aria-valuenow',Math.round(percent));
+ $('count').textContent=`${n} / ${total}`;
 }
 function openProject(p){
  project=p;checked={};
  try{const saved=JSON.parse(localStorage.getItem(storageKey())||'{}');if(saved&&typeof saved==='object'&&!Array.isArray(saved))checked=saved;}catch{}
- $('save-note').textContent='Tus marcas se guardan en este navegador. No se sincronizan con otros dispositivos.';
+ $('save-note').textContent='';particles.length=0;emitCarry=0;
  $('title').replaceChildren(document.createTextNode(p.trabajo+' '));
  const star=document.createElement('span');star.className='star';star.textContent='★';$('title').append(star,document.createTextNode(' '+p.nombre));
  document.title=`${p.trabajo} ★ ${p.nombre} · Entre granos`;
@@ -127,47 +112,105 @@ function updateTime(){if(!project)return;
  const values=[Math.floor(s/86400),Math.floor(s%86400/3600),Math.floor(s%3600/60),s%60];
  ['days','hours','minutes','seconds'].forEach((id,i)=>$(id).textContent=String(values[i]).padStart(2,'0'));
  $('timer-label').textContent=t.left===0?'El plazo ha terminado':Date.now()<Date.parse(project.inicio)?'Tiempo hasta la entrega':'Tiempo para tu entrega';
- $('clock-note').textContent=t.left===0?'Cada paso cuenta. Es momento de revisar tu entrega.':'Lo importante también se construye despacio.';
  canvas.setAttribute('aria-label',`Reloj de arena: queda ${(remaining*100).toFixed(1)} % del plazo. ${values[0]} días, ${values[1]} horas, ${values[2]} minutos y ${values[3]} segundos.`);
  if(paused||!t.active)draw(0);
 }
 setInterval(updateTime,1000);
-/* Reloj dibujado con Canvas: máximo 42 granos móviles y 3 destellos.
-   El volumen visual usa el área de la silueta, no una altura lineal.
-   No crea nodos ni partículas acumuladas. Se limita a unos 30 fps.
+/* ARENA TORNASOL
+   Cada 180 ms, cada grano tiene estas probabilidades:
+   70%: acercarse al color de un vecino; 25%: variar un poco; 5%: otro tono.
+   Se usa una copia del estado anterior para que todos cambien a la vez.
+   Los colores se interpolan suavemente: no hay parpadeos bruscos.
+   La caída es decorativa; el volumen de arena sigue el plazo real.
 */
-function halfWidth(y){const t=clamp((y-58)/140);return 5+83*Math.pow(Math.cos(t*Math.PI/2),1.15);}
-const slices=280, area=[0];for(let i=0;i<slices;i++){const y=58+(i+.5)*140/slices;area.push(area[i]+2*halfWidth(y)*140/slices);}
-function surface(fraction){const target=(1-clamp(fraction))*area[slices];let i=0;while(i<slices&&area[i]<target)i++;return 58+i*140/slices;}
-function chamber(bottom=false){ctx.beginPath();for(let i=0;i<=slices;i++){const y=58+i*140/slices;const yy=bottom?400-y:y;const x=200-halfWidth(y);i?ctx.lineTo(x,yy):ctx.moveTo(x,yy);}for(let i=slices;i>=0;i--){const y=58+i*140/slices;ctx.lineTo(200+halfWidth(y),bottom?400-y:y);}ctx.closePath();}
-function rand(i){const x=Math.sin(i*127.1+311.7)*43758.5453;return x-Math.floor(x);}
-function sand(bottom,fraction,time){if(fraction<=0)return;const level=surface(fraction),sy=bottom?400-level:level;
- ctx.save();chamber(bottom);ctx.clip();ctx.beginPath();ctx.rect(100,sy,200,bottom?342-sy:198-sy);ctx.clip();
- const gradient=ctx.createLinearGradient(0,bottom?sy:level,0,bottom?342:198);gradient.addColorStop(0,'#efd49b');gradient.addColorStop(.18,'#cda15d');gradient.addColorStop(1,'#896135');ctx.fillStyle=gradient;ctx.fillRect(100,50,200,300);
- for(let i=0;i<580;i++){const x=111+rand(i+1)*178,y=58+rand(i+901)*140,yy=bottom?400-y:y;ctx.globalAlpha=.17+rand(i+1901)*.35;ctx.fillStyle=i%4===0?'#fff2ca':'#795329';ctx.fillRect(x,yy,rand(i+2901)*1.6+.6,1);}
- ctx.globalAlpha=.8;ctx.strokeStyle='#ffe7b0';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(110,sy);ctx.lineTo(290,sy);ctx.stroke();
- if(time>0)for(let i=0;i<3;i++){const x=158+rand(i+83)*84,y=bottom?sy+12+rand(i+123)*(342-sy-15):sy+8+rand(i+321)*(198-sy-12);const alpha=Math.pow(Math.max(0,Math.sin(time*.0013+i*2.3)),8)*.8;spark(x,y,2.5,alpha);}
- ctx.restore();}
-function spark(x,y,size,alpha){ctx.save();ctx.globalAlpha=alpha;ctx.strokeStyle='#fff4d2';ctx.lineWidth=.9;ctx.shadowColor='#ffd382';ctx.shadowBlur=9;ctx.beginPath();ctx.moveTo(x-size,y);ctx.lineTo(x+size,y);ctx.moveTo(x,y-size);ctx.lineTo(x,y+size);ctx.stroke();ctx.restore();}
-function draw(time){if(!project||!ctx)return;ctx.clearRect(0,0,400,400);
- // Sombra, soportes y cristal: estructura inmóvil para destacar la arena.
- const shadow=ctx.createRadialGradient(200,365,3,200,365,110);shadow.addColorStop(0,'#e8c17816');shadow.addColorStop(1,'#e8c17800');ctx.fillStyle=shadow;ctx.fillRect(70,340,260,50);
- ctx.strokeStyle='#bda47a40';ctx.lineWidth=3;for(const x of [94,306]){ctx.beginPath();ctx.moveTo(x,48);ctx.lineTo(x,351);ctx.stroke();}
- for(const bottom of [false,true]){chamber(bottom);const glass=ctx.createLinearGradient(109,0,291,0);glass.addColorStop(0,'#e1e6f313');glass.addColorStop(.25,'#e1e6f303');glass.addColorStop(.8,'#e1e6f308');glass.addColorStop(1,'#e1e6f319');ctx.fillStyle=glass;ctx.fill();}
- sand(false,remaining,time);sand(true,1-remaining,time);
- const active=timing(project).active;
- if(active){const bottomSurface=400-surface(1-remaining);const end=Math.max(204,bottomSurface);
- ctx.save();chamber(true);ctx.clip();ctx.strokeStyle='#efc97c55';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(200,199);ctx.lineTo(200,end);ctx.stroke();
- for(let i=0;i<42;i++){const p=(rand(i+700)+(time?time*.00048:0))%1;const y=200+(end-200)*p;const x=200+(rand(i+800)-.5)*(2+p*3);ctx.globalAlpha=.25+rand(i+30)*.6;ctx.fillStyle=i%5?'#e8be73':'#fff4d5';ctx.fillRect(x,y,i%5?1:1.7,1.7);}
- if(time>0)spark(200,end-3,3,Math.pow(Math.max(0,Math.sin(time*.0018)),6)*.7);ctx.restore();}
- ctx.lineWidth=1.2;ctx.strokeStyle='#e4d7bd55';for(const b of [false,true]){chamber(b);ctx.stroke();}
- ctx.strokeStyle='#ffffff26';ctx.lineWidth=2;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(121,72);ctx.bezierCurveTo(126,116,155,151,175,173);ctx.moveTo(279,329);ctx.bezierCurveTo(274,287,249,256,228,235);ctx.stroke();
- const metal=ctx.createLinearGradient(92,0,308,0);metal.addColorStop(0,'#655037');metal.addColorStop(.24,'#dac194');metal.addColorStop(.5,'#aa8756');metal.addColorStop(.8,'#dfc69b');metal.addColorStop(1,'#645038');ctx.fillStyle=metal;
- for(const y of [43,347]){ctx.beginPath();ctx.roundRect(88,y,224,10,5);ctx.fill();ctx.fillStyle='#e9d4a966';ctx.fillRect(104,y+2,192,1);ctx.fillStyle=metal;}
+const PALETA=[175,195,225,260,285,320,345,40];
+const COLS=41,ROWS=33,STEP=4.4,grains=[],particles=[];
+let colorClock=0,emitCarry=0,visualTime=0;
+function rand(i){const n=Math.sin(i*127.1+311.7)*43758.5453;return n-Math.floor(n);}
+function halfWidth(y){return 5+83*Math.pow(Math.cos(clamp((y-58)/140)*Math.PI/2),1.15);}
+const slices=280,area=[0];for(let i=0;i<slices;i++)area.push(area[i]+2*halfWidth(58+(i+.5)*140/slices)*140/slices);
+function surface(f){const target=(1-clamp(f))*area[slices];let i=0;while(i<slices&&area[i]<target)i++;return 58+i*140/slices;}
+function chamber(bottom=false){ctx.beginPath();for(let i=0;i<=slices;i++){const y=58+i*140/slices,x=200-halfWidth(y),yy=bottom?400-y:y;i?ctx.lineTo(x,yy):ctx.moveTo(x,yy);}for(let i=slices;i>=0;i--){const y=58+i*140/slices;ctx.lineTo(200+halfWidth(y),bottom?400-y:y);}ctx.closePath();}
+for(let side=0;side<2;side++)for(let row=0;row<ROWS;row++)for(let col=0;col<COLS;col++){
+ const hue=PALETA[Math.floor((col/8+row/7+side*2))%PALETA.length];
+ grains.push({side,row,col,x:112+col*STEP+(rand(row*COLS+col)-.5)*2.8,y:58+row*STEP+(rand(row*73+col+41)-.5)*2.6,hue,target:hue,size:2.7+rand(row*51+col+99)*1.3});
 }
-function resize(){if(!project)return;const rect=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(rect.width*dpr);canvas.height=Math.round(rect.height*dpr);const scale=Math.min(canvas.width,canvas.height)/400;ctx?.setTransform(scale,0,0,scale,(canvas.width-400*scale)/2,(canvas.height-400*scale)/2);draw(0);}
-function animate(t){if(!project||paused||document.hidden)return;if(t-lastFrame>=32){draw(t);lastFrame=t;}frame=requestAnimationFrame(animate);}
-function restart(){cancelAnimationFrame(frame);$('motion').textContent=paused?'Activar animación':'Pausar animación';$('motion').setAttribute('aria-pressed',String(paused));if(project){draw(0);if(!paused&&!document.hidden)frame=requestAnimationFrame(animate);}}
+function hueDelta(a,b){return ((b-a+540)%360)-180;}
+function evolveColors(dt){
+ colorClock+=dt;
+ if(colorClock>=.18){colorClock%=.18;const old=grains.map(g=>g.target);
+  grains.forEach((g,i)=>{const r=Math.random();if(r<.7){
+   const [dc,dr]=[[1,0],[-1,0],[0,1],[0,-1]][Math.floor(Math.random()*4)];
+   const c=Math.max(0,Math.min(COLS-1,g.col+dc)),r2=Math.max(0,Math.min(ROWS-1,g.row+dr));
+   const near=old[g.side*COLS*ROWS+r2*COLS+c];g.target=(old[i]+hueDelta(old[i],near)*.65+360)%360;
+  }else if(r<.95)g.target=(old[i]+(Math.random()-.5)*24+360)%360;
+  else g.target=PALETA[Math.floor(Math.random()*PALETA.length)];});
+ }
+ const mix=1-Math.exp(-dt*3);for(const g of grains)g.hue=(g.hue+hueDelta(g.hue,g.target)*mix+360)%360;
+}
+function newParticle(){
+ // El grano que sale toma el color de un grano situado junto al cuello.
+ const neighbor=grains[(ROWS-2)*COLS+Math.floor(COLS/2)+(Math.random()<.5?0:1)];
+ particles.push({x:200+(Math.random()-.5)*5,y:195,vx:(Math.random()-.5)*5,vy:36+Math.random()*25,hue:(neighbor.hue+(Math.random()<.25?(Math.random()-.5)*90:0)+360)%360,size:2.5+Math.random()*2,age:0,landed:false,life:.45+Math.random()*.2});
+}
+function simulate(dt){
+ visualTime+=dt;evolveColors(dt);
+ if(!timing(project).active){particles.length=0;return;}
+ emitCarry+=dt*42;while(emitCarry>=1){emitCarry--;if(particles.length<95)newParticle();}
+ const floor=400-surface(1-remaining);
+ for(let i=particles.length-1;i>=0;i--){const p=particles[i];
+  p.vy+=dt*200;p.x+=p.vx*dt;p.y+=p.vy*dt;
+  // Un cambio suave hacia el tono del grano más próximo en la caída.
+  const near=particles[i?i-1:Math.min(1,particles.length-1)];
+  if(near)p.hue=(p.hue+hueDelta(p.hue,near.hue)*dt*.9+360)%360;
+  if(!p.landed&&p.y>=floor-2){p.landed=true;p.y=floor-2;p.vy=-20-Math.random()*19;p.vx=(Math.random()-.5)*35;}
+  if(p.landed){p.age+=dt;if(p.age>=p.life)particles.splice(i,1);}
+ }
+}
+function pixel(x,y,size,hue,alpha=1,glow=0){
+ ctx.globalAlpha=alpha;ctx.fillStyle=`hsl(${hue},85%,75%)`;ctx.shadowColor=`hsl(${hue},95%,68%)`;ctx.shadowBlur=glow;
+ ctx.fillRect(x-size/2,y-size/2,size,size);ctx.shadowBlur=0;
+}
+function sand(bottom,fraction){if(fraction<=0)return;const sy=bottom?400-surface(fraction):surface(fraction);
+ ctx.save();chamber(bottom);ctx.clip();ctx.beginPath();ctx.rect(108,sy,184,bottom?342-sy:198-sy);ctx.clip();
+ ctx.fillStyle='#312b4c';ctx.fillRect(108,58,184,284);
+ const offset=bottom?COLS*ROWS:0;
+ for(let i=offset;i<offset+COLS*ROWS;i++){const g=grains[i],y=bottom?400-g.y:g.y;
+  if(y<sy-3||(bottom?y>344:y>200))continue;
+  const shimmer=.68+.2*Math.sin(visualTime*1.3+g.col*.38+g.row*.23);
+  pixel(g.x,y,g.size,g.hue,shimmer);
+  // Pocos puntos luminosos: misma idea del halo de .px.gold del ejemplo.
+  if(i%83===0){const a=Math.pow(Math.max(0,Math.sin(visualTime*1.8+i)),6);pixel(g.x,y,g.size*.75,g.hue,a,7);}
+ }
+ ctx.restore();
+}
+function draw(){if(!project||!ctx)return;ctx.clearRect(0,0,400,400);
+ ctx.save();
+ ctx.strokeStyle='#b9b4d43b';ctx.lineWidth=2;for(const x of [97,303]){ctx.beginPath();ctx.moveTo(x,48);ctx.lineTo(x,351);ctx.stroke();}
+ for(const b of [false,true]){chamber(b);const glass=ctx.createLinearGradient(112,0,288,0);glass.addColorStop(0,'#c6d2ff18');glass.addColorStop(.5,'#c6d2ff02');glass.addColorStop(1,'#c6d2ff15');ctx.fillStyle=glass;ctx.fill();}
+ sand(false,remaining);sand(true,1-remaining);
+ ctx.save();
+ // Un solo recorte para ambos bulbos y el cuello: no se escapan granos.
+ ctx.beginPath();ctx.moveTo(112,58);for(let i=0;i<=slices;i++){const y=58+i*140/slices;ctx.lineTo(200-halfWidth(y),y);}
+ for(let i=slices;i>=0;i--){const y=58+i*140/slices;ctx.lineTo(200-halfWidth(y),400-y);}
+ for(let i=0;i<=slices;i++){const y=58+i*140/slices;ctx.lineTo(200+halfWidth(y),400-y);}
+ for(let i=slices;i>=0;i--){const y=58+i*140/slices;ctx.lineTo(200+halfWidth(y),y);}ctx.closePath();ctx.clip();
+ for(const p of particles){const fade=p.landed?1-p.age/p.life:1,size=p.size*(p.landed?.4+.6*fade:1);
+  if(!p.landed)for(let trail=3;trail>0;trail--)pixel(p.x-p.vx*.012*trail,p.y-p.vy*.012*trail,size*.7,p.hue,.09*(4-trail));
+  pixel(p.x,p.y,size,p.hue,fade,7);if(p.size>3.7)pixel(p.x,p.y,size*.36,p.hue,fade);
+ }
+ ctx.restore();
+ ctx.strokeStyle='#d0c9f377';ctx.lineWidth=1.1;for(const b of [false,true]){chamber(b);ctx.stroke();}
+ ctx.strokeStyle='#dcd5ff33';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(122,72);ctx.bezierCurveTo(128,115,153,148,174,172);ctx.moveTo(278,328);ctx.bezierCurveTo(274,290,248,255,228,235);ctx.stroke();
+ const metal=ctx.createLinearGradient(88,0,312,0);metal.addColorStop(0,'#4d4c69');metal.addColorStop(.28,'#c4bbdf');metal.addColorStop(.52,'#78748e');metal.addColorStop(.78,'#b2a9cf');metal.addColorStop(1,'#4d4c69');ctx.fillStyle=metal;
+ for(const y of [43,347]){ctx.beginPath();ctx.roundRect(89,y,222,9,4);ctx.fill();}
+ ctx.restore();
+}
+function resize(){if(!project)return;const rect=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(rect.width*dpr);canvas.height=Math.round(rect.height*dpr);
+ // Ajuste al cristal, no al lienzo: el reloj también se ve grande en móvil.
+ const scale=Math.min(canvas.width/270,canvas.height/340);ctx?.setTransform(scale,0,0,scale,canvas.width/2-200*scale,canvas.height/2-200*scale);draw();}
+function animate(t){frame=0;if(!project||paused||document.hidden)return;const elapsed=t-lastFrame;if(elapsed>=1000/30){const dt=lastFrame?Math.min(elapsed/1000,.065):1/30;lastFrame=t;simulate(dt);draw();}frame=requestAnimationFrame(animate);}
+function restart(){cancelAnimationFrame(frame);frame=0;lastFrame=0;$('motion').textContent=paused?'Animar arena':'Pausar animación';$('motion').setAttribute('aria-pressed',String(paused));if(project){draw();if(!paused&&!document.hidden)frame=requestAnimationFrame(animate);}}
 $('motion').addEventListener('click',()=>{paused=!paused;restart();});reduced.addEventListener('change',e=>{paused=e.matches;restart();});
 document.addEventListener('visibilitychange',()=>{if(project)updateTime();restart();});window.addEventListener('resize',resize);
 </script>
