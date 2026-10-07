@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0c101b">
+<meta name="description" content="Cada grano cuenta. Tu proyecto, tus próximos pasos y el tiempo para hacerlo realidad.">
+<title>Entre granos · Asallam Sensei</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c101b'/%3E%3Cpath d='M9 6h14v4l-6 6 6 6v4H9v-4l6-6-6-6z' fill='none' stroke='%23e8c178' stroke-width='2'/%3E%3C/svg%3E">
+<style>
+:root{color-scheme:dark;--bg:#0c101b;--text:#eeeae2;--muted:#a4a9b8;--gold:#e8c178;--line:#ffffff12}
+*{box-sizing:border-box} [hidden]{display:none!important}
+body{margin:0;background:radial-gradient(ellipse at 24% 42%,#26303b44,transparent 55%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100svh}
+button,input{font:inherit} button{cursor:pointer}button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:5px}
+button{color:inherit} .shell{max-width:1120px;margin:auto;padding:32px 40px 22px}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:24px}
+.brand{display:flex;align-items:center;gap:12px;font-size:11px;letter-spacing:.19em;text-transform:uppercase;font-weight:650}.brand svg{width:22px;height:28px;color:var(--gold)}
+.byline{font-size:11px;color:var(--muted);letter-spacing:.07em}.quiet{background:transparent;border:1px solid #ffffff1e;border-radius:8px;padding:9px 13px;font-size:12px;color:#c8cad1}.quiet:hover{background:#ffffff09}
+.eyebrow{font-size:10px;letter-spacing:.22em;font-weight:650;text-transform:uppercase;color:var(--gold)}
+.login{max-width:420px;margin:clamp(60px,13vh,130px) auto 60px;text-align:center}.login .seal{width:64px;height:64px;margin:auto auto 28px;border:1px solid #e8c17830;border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:28px;background:#e8c17806}
+h1,h2,p{margin-top:0} .login h1{font-family:Georgia,serif;font-weight:400;font-size:43px;line-height:1.12;margin:17px 0}.login p{font-size:14px;color:var(--muted);line-height:1.8}.login form{margin-top:32px;text-align:left}.login label{display:block;font-size:12px;margin-bottom:10px;color:#ccd0d9}
+.inputrow{display:flex;background:#ffffff04;border:1px solid #ffffff26;border-radius:10px;overflow:hidden}.inputrow input{width:100%;min-width:0;background:none;border:0;padding:15px;color:var(--text)}.inputrow button{border:0;background:none;padding:12px;color:var(--muted);font-size:11px}.primary{width:100%;border:0;border-radius:10px;background:var(--gold);color:#282218;font-weight:650;padding:15px;margin-top:14px}.primary:hover{background:#f1d39b}#error{color:#f1a8a3;min-height:22px;font-size:12px;margin-top:12px}
+.intro{padding:38px 0 12px}.intro h1{font-family:Georgia,serif;font-size:clamp(28px,4vw,43px);font-weight:400;margin:14px 0 10px;letter-spacing:-.035em}.star{font-family:system-ui;color:var(--gold);font-size:.55em;vertical-align:middle;display:inline-block;margin:0 10px}.intro p{font-size:13px;color:var(--muted)}
+.workspace{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:65px;padding:0 0 32px}.clock{text-align:center;min-width:0}.stage{position:relative;max-width:460px;margin:0 auto;height:405px;background:radial-gradient(ellipse at 50% 52%,#b9905210,transparent 64%)}canvas{width:100%;height:100%;display:block}.orbit-label{position:absolute;right:2px;top:48%;writing-mode:vertical-rl;font-size:9px;letter-spacing:.26em;color:#818a9b;user-select:none}
+.timer-label{font-size:9px;letter-spacing:.21em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}.digits{display:flex;justify-content:center;gap:10px;align-items:flex-start}.unit{min-width:44px}.unit strong{display:block;font:400 26px ui-monospace,SFMono-Regular,Consolas,monospace;font-variant-numeric:tabular-nums;color:#f1d8a8;letter-spacing:.02em}.unit span{font-size:8px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}.colon{font:20px monospace;color:#716b5e;padding-top:2px}.deadline{font-size:11px;color:var(--muted);margin:20px 0 0;line-height:1.7}.deadline time{color:#c9ccd5}.clock-note{font:italic 13px Georgia,serif;color:#a6a0a0;margin:16px 0 0}
+.tasks{border:1px solid #ffffff13;background:linear-gradient(145deg,#ffffff05,#ffffff01);border-radius:16px;padding:27px}.task-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.counter{font:11px ui-monospace,monospace;color:var(--muted)}.tasks h2{font:400 27px Georgia,serif;margin:0 0 9px}.tasks .description{color:var(--muted);font-size:12px;line-height:1.7;margin-bottom:24px}.progress{height:3px;background:#ffffff0c;border-radius:5px;overflow:hidden;margin-bottom:18px}.progress div{height:100%;width:0;background:var(--gold);transition:width .25s}
+.task-list{list-style:none;margin:0;padding:0}.task-list li{border-bottom:1px solid #ffffff0b}.task-list li:last-child{border-bottom:0}.task-list label{display:flex;gap:13px;align-items:center;min-height:57px;cursor:pointer;font-size:13px}.task-list input{appearance:none;flex:0 0 18px;height:18px;margin:0;border:1px solid #73809277;border-radius:5px;display:grid;place-content:center;background:#0002}.task-list input:checked{background:var(--gold);border-color:var(--gold)}.task-list input:checked:after{content:'✓';color:#282218;font-size:13px;font-weight:800}.task-list input:checked+span{color:#858c9d;text-decoration:line-through}.save-note{font-size:10px;color:#9299a8;line-height:1.7;margin:21px 0 0;border-top:1px solid var(--line);padding-top:16px}
+.bottom{display:flex;align-items:center;justify-content:space-between;gap:18px;border-top:1px solid var(--line);padding-top:20px;font-size:10px;color:#8790a3}.motion{border:0;background:none;color:#acb3c2;font-size:10px;padding:5px 0}.status-dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--gold);margin-right:7px}
+@media(max-width:760px){.shell{padding:23px 22px}.byline{display:none}.intro{padding-top:30px}.workspace{grid-template-columns:1fr;gap:32px}.stage{height:350px}.tasks{max-width:460px;width:100%;margin:auto}.intro{text-align:center}.bottom{align-items:flex-start;font-size:9px}.clock-note{margin-bottom:0}.intro h1{line-height:1.35}.star{margin:0 5px}.login h1{font-size:39px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+ <header class="topbar">
+  <div class="brand"><svg viewBox="0 0 24 32" fill="none" aria-hidden="true"><path d="M4 3h16M4 29h16M6 4c0 9 6 8 6 12S6 19 6 28M18 4c0 9-6 8-6 12s6 3 6 12" stroke="currentColor" stroke-width="1.5"/></svg> Entre granos</div>
+  <span class="byline">UN ESPACIO DE ASALLAM SENSEI</span>
+  <button class="quiet" id="logout" hidden>Cambiar clave ↗</button>
+ </header>
+ <main>
+  <section class="login" id="login">
+   <div class="seal" aria-hidden="true">✧</div><span class="eyebrow">Un paso a la vez</span>
+   <h1>Las grandes ideas<br>toman su tiempo.</h1>
+   <p>Entra a tu espacio y descubre qué sigue.<br>Cada grano cuenta. Cada paso también.</p>
+   <form id="access"><label for="key">Tu clave de acceso</label><div class="inputrow"><input id="key" type="password" placeholder="Escribe tu clave" autocomplete="off" autocapitalize="none" spellcheck="false" required aria-describedby="error"><button type="button" id="reveal" aria-label="Mostrar clave" aria-pressed="false">Mostrar</button></div><button class="primary" type="submit">Entrar a mi espacio <span aria-hidden="true">→</span></button><p id="error" role="alert"></p></form>
+  </section>
+  <section id="dashboard" hidden aria-labelledby="title">
+   <div class="intro"><span class="eyebrow">Tu proyecto en movimiento</span><h1 id="title" tabindex="-1"></h1><p>Un poco de enfoque hoy. Un gran paso para mañana.</p></div>
+   <div class="workspace">
+    <section class="clock" aria-label="Tiempo del proyecto">
+     <div class="stage"><canvas id="glass" role="img" aria-label="Reloj de arena: la arena superior representa el tiempo restante."></canvas><span class="orbit-label" aria-hidden="true">CADA GRANO CUENTA</span></div>
+     <p class="timer-label" id="timer-label">Tiempo para tu entrega</p>
+     <div class="digits" role="timer" aria-label="Tiempo restante" aria-live="off"><div class="unit"><strong id="days">00</strong><span>Días</span></div><span class="colon" aria-hidden="true">:</span><div class="unit"><strong id="hours">00</strong><span>Horas</span></div><span class="colon" aria-hidden="true">:</span><div class="unit"><strong id="minutes">00</strong><span>Min</span></div><span class="colon" aria-hidden="true">:</span><div class="unit"><strong id="seconds">00</strong><span>Seg</span></div></div>
+     <p class="deadline">Fecha de entrega<br><time id="deadline"></time></p><p class="clock-note" id="clock-note">Lo importante también se construye despacio.</p>
+    </section>
+    <aside class="tasks" aria-labelledby="tasks-title"><div class="task-head"><span class="eyebrow">La ruta</span><span class="counter" id="count" aria-live="polite"></span></div><h2 id="tasks-title">Paso a paso</h2><p class="description">Cada tarea terminada es una idea que avanza.</p><div class="progress" role="progressbar" aria-label="Tareas completadas" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progress"></div></div><ul class="task-list" id="task-list"></ul><p class="save-note" id="save-note">Tus marcas se guardan en este navegador.<br>Avanza a tu ritmo, con intención.</p></aside>
+   </div>
+  </section>
+ </main>
+ <footer class="bottom"><span><span class="status-dot"></span>Hecho para concentrarte, no para correr.</span><button class="motion" id="motion" hidden aria-pressed="false">Pausar animación</button></footer>
+</div>
+<script>
+'use strict';
+/* ═════════════ PERSONALIZA SOLO ESTE BLOQUE ═════════════
+   Guarda este archivo como index.html. No necesita dependencias.
+   Las fechas incluyen -05:00 para mantener la hora de Colombia.
+   inicio determina cuánta arena queda: NO se reinicia al abrir la página.
+   IMPORTANTE: estas claves seleccionan una vista; NO son autenticación
+   segura. El código de un sitio estático es visible para sus visitantes.
+   Los checks son locales, no se sincronizan entre usuarios/dispositivos.
+*/
+const PROYECTOS = {
+  aguacate: {
+    id: 'gabriela', trabajo: 'Referencias', nombre: 'Gabriela',
+    inicio: '2026-10-07T00:00:00-05:00', fin: '2026-10-14T23:59:00-05:00',
+    items: [{id:'g1',texto:'Item 1'},{id:'g2',texto:'Item 2'},{id:'g3',texto:'Item 3'},{id:'g4',texto:'Item 4'},{id:'g5',texto:'Item 5'}]
+  },
+  cafe: { // Clave provisional de Alexis: cámbiala aquí.
+    id: 'alexis', trabajo: 'Tesis', nombre: 'Alexis',
+    inicio: '2026-10-07T00:00:00-05:00', fin: '2026-10-21T23:59:00-05:00',
+    items: [{id:'a1',texto:'Item 1'},{id:'a2',texto:'Item 2'},{id:'a3',texto:'Item 3'},{id:'a4',texto:'Item 4'},{id:'a5',texto:'Item 5'}]
+  }
+};
+/* ═════════════ FIN DE LA CONFIGURACIÓN ═════════════ */
+const $ = id => document.getElementById(id);
+const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+let project=null, checked={}, paused=reduced.matches, frame=0, lastFrame=0, remaining=1;
+const canvas=$('glass'), ctx=canvas.getContext('2d');
+const clamp=v=>Math.max(0,Math.min(1,v));
+function timing(p,now=Date.now()){
+ const start=Date.parse(p.inicio), end=Date.parse(p.fin);
+ return {left:Math.max(0,end-now),ratio:clamp((end-now)/(end-start)),active:now>=start&&now<end};
+}
+function storageKey(){return 'entre-granos:v1:'+project.id;}
+function updateTasks(){
+ const n=project.items.filter(item=>checked[item.id]===true).length, total=project.items.length;
+ $('count').textContent=`${n} / ${total} completos`;
+ const percent=total?n/total*100:0;
+ $('progress').style.width=percent+'%';$('progress').parentElement.setAttribute('aria-valuenow',Math.round(percent));
+}
+function openProject(p){
+ project=p;checked={};
+ try{const saved=JSON.parse(localStorage.getItem(storageKey())||'{}');if(saved&&typeof saved==='object'&&!Array.isArray(saved))checked=saved;}catch{}
+ $('save-note').textContent='Tus marcas se guardan en este navegador. No se sincronizan con otros dispositivos.';
+ $('title').replaceChildren(document.createTextNode(p.trabajo+' '));
+ const star=document.createElement('span');star.className='star';star.textContent='★';$('title').append(star,document.createTextNode(' '+p.nombre));
+ document.title=`${p.trabajo} ★ ${p.nombre} · Entre granos`;
+ $('task-list').replaceChildren();
+ p.items.forEach(item=>{const li=document.createElement('li'),label=document.createElement('label'),input=document.createElement('input'),span=document.createElement('span');
+ input.type='checkbox';input.checked=checked[item.id]===true;span.textContent=item.texto;
+ input.addEventListener('change',()=>{checked[item.id]=input.checked;try{localStorage.setItem(storageKey(),JSON.stringify(checked));}catch{$('save-note').textContent='El navegador no permite guardar. Las marcas durarán mientras mantengas esta página abierta.';}updateTasks();});
+ label.append(input,span);li.append(label);$('task-list').append(li);});
+ const date=new Date(p.fin);$('deadline').dateTime=p.fin;
+ $('deadline').textContent=new Intl.DateTimeFormat('es-CO',{weekday:'long',day:'numeric',month:'long',year:'numeric',timeZone:'America/Bogota'}).format(date)+' · '+new Intl.DateTimeFormat('es-CO',{hour:'numeric',minute:'2-digit',hour12:true,timeZone:'America/Bogota'}).format(date)+' (Colombia)';
+ $('login').hidden=true;$('dashboard').hidden=false;$('logout').hidden=false;$('motion').hidden=false;
+ $('key').value='';$('key').type='password';$('reveal').textContent='Mostrar';$('reveal').setAttribute('aria-label','Mostrar clave');$('reveal').setAttribute('aria-pressed','false');$('error').textContent='';
+ updateTasks();updateTime();resize();restart();$('title').focus();
+}
+$('access').addEventListener('submit',e=>{e.preventDefault();const key=$('key').value.trim().toLowerCase();
+ if(!Object.hasOwn(PROYECTOS,key)){$('error').textContent='Esa clave no coincide. Revísala e inténtalo otra vez.';$('key').setAttribute('aria-invalid','true');return;}
+ $('key').removeAttribute('aria-invalid');openProject(PROYECTOS[key]);});
+$('key').addEventListener('input',()=>{$('error').textContent='';$('key').removeAttribute('aria-invalid');});
+$('reveal').addEventListener('click',()=>{const show=$('key').type==='password';$('key').type=show?'text':'password';$('reveal').textContent=show?'Ocultar':'Mostrar';$('reveal').setAttribute('aria-label',show?'Ocultar clave':'Mostrar clave');$('reveal').setAttribute('aria-pressed',String(show));});
+$('logout').addEventListener('click',()=>{project=null;cancelAnimationFrame(frame);$('dashboard').hidden=true;$('login').hidden=false;$('logout').hidden=true;$('motion').hidden=true;document.title='Entre granos · Asallam Sensei';$('key').focus();});
+function updateTime(){if(!project)return;
+ const t=timing(project);remaining=t.ratio;let s=Math.ceil(t.left/1000);
+ const values=[Math.floor(s/86400),Math.floor(s%86400/3600),Math.floor(s%3600/60),s%60];
+ ['days','hours','minutes','seconds'].forEach((id,i)=>$(id).textContent=String(values[i]).padStart(2,'0'));
+ $('timer-label').textContent=t.left===0?'El plazo ha terminado':Date.now()<Date.parse(project.inicio)?'Tiempo hasta la entrega':'Tiempo para tu entrega';
+ $('clock-note').textContent=t.left===0?'Cada paso cuenta. Es momento de revisar tu entrega.':'Lo importante también se construye despacio.';
+ canvas.setAttribute('aria-label',`Reloj de arena: queda ${(remaining*100).toFixed(1)} % del plazo. ${values[0]} días, ${values[1]} horas, ${values[2]} minutos y ${values[3]} segundos.`);
+ if(paused||!t.active)draw(0);
+}
+setInterval(updateTime,1000);
+/* Reloj dibujado con Canvas: máximo 42 granos móviles y 3 destellos.
+   El volumen visual usa el área de la silueta, no una altura lineal.
+   No crea nodos ni partículas acumuladas. Se limita a unos 30 fps.
+*/
+function halfWidth(y){const t=clamp((y-58)/140);return 5+83*Math.pow(Math.cos(t*Math.PI/2),1.15);}
+const slices=280, area=[0];for(let i=0;i<slices;i++){const y=58+(i+.5)*140/slices;area.push(area[i]+2*halfWidth(y)*140/slices);}
+function surface(fraction){const target=(1-clamp(fraction))*area[slices];let i=0;while(i<slices&&area[i]<target)i++;return 58+i*140/slices;}
+function chamber(bottom=false){ctx.beginPath();for(let i=0;i<=slices;i++){const y=58+i*140/slices;const yy=bottom?400-y:y;const x=200-halfWidth(y);i?ctx.lineTo(x,yy):ctx.moveTo(x,yy);}for(let i=slices;i>=0;i--){const y=58+i*140/slices;ctx.lineTo(200+halfWidth(y),bottom?400-y:y);}ctx.closePath();}
+function rand(i){const x=Math.sin(i*127.1+311.7)*43758.5453;return x-Math.floor(x);}
+function sand(bottom,fraction,time){if(fraction<=0)return;const level=surface(fraction),sy=bottom?400-level:level;
+ ctx.save();chamber(bottom);ctx.clip();ctx.beginPath();ctx.rect(100,sy,200,bottom?342-sy:198-sy);ctx.clip();
+ const gradient=ctx.createLinearGradient(0,bottom?sy:level,0,bottom?342:198);gradient.addColorStop(0,'#efd49b');gradient.addColorStop(.18,'#cda15d');gradient.addColorStop(1,'#896135');ctx.fillStyle=gradient;ctx.fillRect(100,50,200,300);
+ for(let i=0;i<580;i++){const x=111+rand(i+1)*178,y=58+rand(i+901)*140,yy=bottom?400-y:y;ctx.globalAlpha=.17+rand(i+1901)*.35;ctx.fillStyle=i%4===0?'#fff2ca':'#795329';ctx.fillRect(x,yy,rand(i+2901)*1.6+.6,1);}
+ ctx.globalAlpha=.8;ctx.strokeStyle='#ffe7b0';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(110,sy);ctx.lineTo(290,sy);ctx.stroke();
+ if(time>0)for(let i=0;i<3;i++){const x=158+rand(i+83)*84,y=bottom?sy+12+rand(i+123)*(342-sy-15):sy+8+rand(i+321)*(198-sy-12);const alpha=Math.pow(Math.max(0,Math.sin(time*.0013+i*2.3)),8)*.8;spark(x,y,2.5,alpha);}
+ ctx.restore();}
+function spark(x,y,size,alpha){ctx.save();ctx.globalAlpha=alpha;ctx.strokeStyle='#fff4d2';ctx.lineWidth=.9;ctx.shadowColor='#ffd382';ctx.shadowBlur=9;ctx.beginPath();ctx.moveTo(x-size,y);ctx.lineTo(x+size,y);ctx.moveTo(x,y-size);ctx.lineTo(x,y+size);ctx.stroke();ctx.restore();}
+function draw(time){if(!project||!ctx)return;ctx.clearRect(0,0,400,400);
+ // Sombra, soportes y cristal: estructura inmóvil para destacar la arena.
+ const shadow=ctx.createRadialGradient(200,365,3,200,365,110);shadow.addColorStop(0,'#e8c17816');shadow.addColorStop(1,'#e8c17800');ctx.fillStyle=shadow;ctx.fillRect(70,340,260,50);
+ ctx.strokeStyle='#bda47a40';ctx.lineWidth=3;for(const x of [94,306]){ctx.beginPath();ctx.moveTo(x,48);ctx.lineTo(x,351);ctx.stroke();}
+ for(const bottom of [false,true]){chamber(bottom);const glass=ctx.createLinearGradient(109,0,291,0);glass.addColorStop(0,'#e1e6f313');glass.addColorStop(.25,'#e1e6f303');glass.addColorStop(.8,'#e1e6f308');glass.addColorStop(1,'#e1e6f319');ctx.fillStyle=glass;ctx.fill();}
+ sand(false,remaining,time);sand(true,1-remaining,time);
+ const active=timing(project).active;
+ if(active){const bottomSurface=400-surface(1-remaining);const end=Math.max(204,bottomSurface);
+ ctx.save();chamber(true);ctx.clip();ctx.strokeStyle='#efc97c55';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(200,199);ctx.lineTo(200,end);ctx.stroke();
+ for(let i=0;i<42;i++){const p=(rand(i+700)+(time?time*.00048:0))%1;const y=200+(end-200)*p;const x=200+(rand(i+800)-.5)*(2+p*3);ctx.globalAlpha=.25+rand(i+30)*.6;ctx.fillStyle=i%5?'#e8be73':'#fff4d5';ctx.fillRect(x,y,i%5?1:1.7,1.7);}
+ if(time>0)spark(200,end-3,3,Math.pow(Math.max(0,Math.sin(time*.0018)),6)*.7);ctx.restore();}
+ ctx.lineWidth=1.2;ctx.strokeStyle='#e4d7bd55';for(const b of [false,true]){chamber(b);ctx.stroke();}
+ ctx.strokeStyle='#ffffff26';ctx.lineWidth=2;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(121,72);ctx.bezierCurveTo(126,116,155,151,175,173);ctx.moveTo(279,329);ctx.bezierCurveTo(274,287,249,256,228,235);ctx.stroke();
+ const metal=ctx.createLinearGradient(92,0,308,0);metal.addColorStop(0,'#655037');metal.addColorStop(.24,'#dac194');metal.addColorStop(.5,'#aa8756');metal.addColorStop(.8,'#dfc69b');metal.addColorStop(1,'#645038');ctx.fillStyle=metal;
+ for(const y of [43,347]){ctx.beginPath();ctx.roundRect(88,y,224,10,5);ctx.fill();ctx.fillStyle='#e9d4a966';ctx.fillRect(104,y+2,192,1);ctx.fillStyle=metal;}
+}
+function resize(){if(!project)return;const rect=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(rect.width*dpr);canvas.height=Math.round(rect.height*dpr);const scale=Math.min(canvas.width,canvas.height)/400;ctx?.setTransform(scale,0,0,scale,(canvas.width-400*scale)/2,(canvas.height-400*scale)/2);draw(0);}
+function animate(t){if(!project||paused||document.hidden)return;if(t-lastFrame>=32){draw(t);lastFrame=t;}frame=requestAnimationFrame(animate);}
+function restart(){cancelAnimationFrame(frame);$('motion').textContent=paused?'Activar animación':'Pausar animación';$('motion').setAttribute('aria-pressed',String(paused));if(project){draw(0);if(!paused&&!document.hidden)frame=requestAnimationFrame(animate);}}
+$('motion').addEventListener('click',()=>{paused=!paused;restart();});reduced.addEventListener('change',e=>{paused=e.matches;restart();});
+document.addEventListener('visibilitychange',()=>{if(project)updateTime();restart();});window.addEventListener('resize',resize);
+</script>
+</body>
+</html>
