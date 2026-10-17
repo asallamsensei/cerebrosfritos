@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "01 · Materia y mezclas",
+    "pregunta": "En una cocina imaginaria de laboratorio, el vaso 1 contiene únicamente agua pura (H₂O). El vaso 2 contiene agua y sal completamente disuelta. Ambos son transparentes. ¿Cómo se clasifican?",
+    "opciones": {
+      "a": "Ambos contienen elementos puros porque no se distinguen sus componentes.",
+      "b": "Ambos contienen compuestos puros porque tienen aspecto uniforme.",
+      "c": "El vaso 1 contiene una mezcla; el vaso 2, un elemento.",
+      "d": "El vaso 1 contiene un compuesto puro; el vaso 2, una mezcla homogénea."
+    },
+    "respuesta": "d",
+    "explicacion": "La transparencia no demuestra pureza. El agua pura es un compuesto: contiene hidrógeno y oxígeno unidos químicamente en una proporción definida. El agua salada es una mezcla homogénea: tiene composición uniforme, pero admite distintas cantidades de sal.\n\nAnalogía: una mezcla se parece a una receta cuya cantidad de sal puedes ajustar; un compuesto tiene una composición definida. Ojo: los ingredientes reales de cocina suelen ser compuestos o mezclas, no elementos químicos. La comparación sirve para imaginar, no para clasificarlos literalmente.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter"
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "01 · Materia y mezclas",
+    "pregunta": "Un frasco contiene solamente O₂: cada molécula está formada por dos átomos de oxígeno unidos. ¿Cuál descripción es correcta?",
+    "opciones": {
+      "a": "Es una sustancia elemental formada por moléculas de un solo elemento.",
+      "b": "Es un compuesto porque cada molécula tiene dos átomos.",
+      "c": "Es una mezcla porque hay muchas moléculas en el frasco.",
+      "d": "Es un compuesto formado por dos elementos llamados O y O₂."
+    },
+    "respuesta": "a",
+    "explicacion": "Para que una sustancia sea un compuesto debe contener átomos de elementos diferentes. En O₂ hay dos átomos, pero ambos son oxígeno. Por eso es una sustancia elemental y, al mismo tiempo, molecular.\n\nAnalogía: un equipo de dos cocineros no implica que haya dos profesiones distintas. No confundas cantidad de integrantes con variedad de integrantes. Del mismo modo, muchas moléculas idénticas no convierten una sustancia pura en una mezcla.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter"
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "01 · Materia y mezclas",
+    "pregunta": "Una ensalada tiene trozos visibles de tomate y pepino. Puedes preparar otra con más tomate y sigue siendo una ensalada. ¿Qué característica permite considerarla una mezcla heterogénea y no un compuesto puro?",
+    "opciones": {
+      "a": "Tiene más de un color, y todo material con varios colores es un compuesto.",
+      "b": "Presenta regiones de composición diferente y sus ingredientes pueden variar de proporción.",
+      "c": "Sus ingredientes están unidos químicamente en una proporción obligatoria.",
+      "d": "Al aumentar el tomate cambia el número de protones del pepino."
+    },
+    "respuesta": "b",
+    "explicacion": "En una mezcla heterogénea la composición no es igual en todas sus regiones: una porción puede tener más tomate y otra más pepino. Además, no existe una proporción química fija que defina a todas las ensaladas.\n\nAnalogía: en un compuesto, la fórmula funciona como una receta de composición definida; en la ensalada puedes ajustar las cantidades sin crear por ello un nuevo compuesto. Que haya muchos ingredientes no significa que reaccionen químicamente al juntarlos.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter"
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "01 · Materia y mezclas",
+    "pregunta": "En un ejercicio teórico hay sal de mesa y arena mezcladas. La sal se disuelve en agua y la arena no. ¿Qué secuencia permitiría recuperar por separado ambos sólidos?",
+    "opciones": {
+      "a": "Filtrar la mezcla seca con papel y esperar que toda la sal atraviese el papel.",
+      "b": "Agregar agua para disolver la sal, filtrar la arena y evaporar el agua del filtrado.",
+      "c": "Disolver la sal y filtrar para que la sal disuelta quede retenida junto con la arena.",
+      "d": "Evaporar directamente la mezcla seca para que la arena se convierta en agua."
+    },
+    "respuesta": "b",
+    "explicacion": "Primero se aprovecha una diferencia de solubilidad: el agua disuelve la sal, pero no la arena. El filtro retiene la arena y deja pasar la disolución salina. Después, al evaporarse el agua, queda la sal.\n\nAnalogía: un colador separa trozos grandes de una sopa, pero no quita la sal que ya está disuelta. Aquí se combinan dos herramientas de separación física; no se necesita transformar químicamente la sal ni la arena.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter"
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "01 · Materia y mezclas",
+    "pregunta": "Una muestra de aceite tiene una masa de 80 g y ocupa 100 mL. La densidad del agua es 1,0 g/mL y ambos líquidos no se mezclan. Usando densidad = masa ÷ volumen, ¿qué predicción es correcta?",
+    "opciones": {
+      "a": "El aceite tiene densidad de 1,25 g/mL y queda bajo el agua.",
+      "b": "El aceite tiene densidad de 0,80 g/mL y queda sobre el agua.",
+      "c": "El aceite tiene densidad de 0,80 g/mL y queda bajo el agua.",
+      "d": "El aceite tiene densidad de 80 g/mL y se mezcla por completo con el agua."
+    },
+    "respuesta": "b",
+    "explicacion": "La densidad es 80 g ÷ 100 mL = 0,80 g/mL. Como es menor que 1,0 g/mL, el aceite forma la capa superior cuando se separan ambos líquidos.\n\nAnalogía: compara dos tazas del mismo tamaño, una llena de un ingrediente ligero y otra de uno más pesado. Importa la masa por el mismo volumen, no la masa total del frasco. La densidad explica cuál capa queda arriba; por sí sola no explica por qué los líquidos no se mezclan.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter3/lesson5.html"
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "02 · Átomos e iones",
+    "pregunta": "Un modelo representa un átomo de oxígeno con 8 protones. ¿Cuál de los siguientes cambios haría que dejara de ser oxígeno y correspondiera a otro elemento?",
+    "opciones": {
+      "a": "Cambiar a 9 el número de protones de su núcleo.",
+      "b": "Agregarle un neutrón sin cambiar sus protones.",
+      "c": "Quitarle un electrón sin cambiar sus protones.",
+      "d": "Aumentar su temperatura sin cambiar su núcleo."
+    },
+    "respuesta": "a",
+    "explicacion": "La identidad de un elemento está determinada por su número de protones, llamado número atómico. Con 8 protones es oxígeno; con 9 corresponde a flúor. Cambiar electrones produce iones y cambiar neutrones puede producir otro isótopo, pero ninguna de esas dos cosas cambia el elemento.\n\nAnalogía: los protones son la etiqueta de identidad del ingrediente atómico. Cambiar su carga no equivale a cambiar esa etiqueta. En las reacciones químicas ordinarias se reorganizan electrones y enlaces, no se transforma así un núcleo en otro.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson1.html"
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "02 · Átomos e iones",
+    "pregunta": "Un átomo neutro tiene 11 protones y 12 neutrones. Los protones tienen carga +1, los electrones −1 y los neutrones 0. ¿Cuántos electrones debe tener?",
+    "opciones": {
+      "a": "12 electrones.",
+      "b": "11 electrones.",
+      "c": "23 electrones.",
+      "d": "1 electrón."
+    },
+    "respuesta": "b",
+    "explicacion": "Para que la carga total sea cero, las 11 cargas positivas de los protones necesitan 11 cargas negativas de electrones: +11 − 11 = 0. Los 12 neutrones no participan en ese balance porque no tienen carga eléctrica neta.\n\nAnalogía: si una cuenta tiene once cargos positivos, necesitas once negativos para equilibrarla. No necesitas sumar a quienes tienen saldo cero. Neutro significa sin carga neta, no sin partículas cargadas.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson1.html"
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "02 · Átomos e iones",
+    "pregunta": "Un átomo neutro de magnesio tiene 12 protones y 12 electrones. Al formar un ion pierde 2 electrones, sin modificar su núcleo. ¿Cómo queda?",
+    "opciones": {
+      "a": "Con 10 protones, 12 electrones y carga −2.",
+      "b": "Con 12 protones, 14 electrones y carga −2.",
+      "c": "Con 12 protones, 10 electrones y carga +2.",
+      "d": "Con 12 protones, 10 electrones y carga −2."
+    },
+    "respuesta": "c",
+    "explicacion": "Perder electrones significa perder cargas negativas. Quedan 12 cargas positivas y 10 negativas: +12 − 10 = +2. El ion se representa Mg²⁺ y sigue siendo magnesio porque conserva sus 12 protones.\n\nAnalogía: si retiras dos fichas negativas de una cuenta equilibrada, el saldo queda positivo. La palabra perder no implica siempre un signo negativo; importa qué clase de carga se perdió. Un ion positivo se llama catión.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter4.html"
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "02 · Átomos e iones",
+    "pregunta": "Dos átomos de carbono tienen 6 protones cada uno. Uno tiene 6 neutrones y el otro 8. ¿Qué relación existe entre ellos?",
+    "opciones": {
+      "a": "Son isótopos del mismo elemento y tienen distinto número de masa.",
+      "b": "Son elementos diferentes porque tienen distinta cantidad de neutrones.",
+      "c": "Son iones de cargas distintas necesariamente, aunque no sabemos sus electrones.",
+      "d": "Son moléculas diferentes porque sus núcleos tienen varios integrantes."
+    },
+    "respuesta": "a",
+    "explicacion": "Los isótopos tienen el mismo número de protones y diferente número de neutrones. Sus números de masa son 6 + 6 = 12 y 6 + 8 = 14: carbono-12 y carbono-14. No podemos deducir una diferencia de carga sin conocer sus electrones.\n\nAnalogía: conservan la misma etiqueta de ingrediente, pero cambia su versión de masa. El número de masa cuenta protones más neutrones; no es lo mismo que la masa atómica promedio que suele aparecer con decimales en la tabla periódica.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism"
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "02 · Átomos e iones",
+    "pregunta": "La ficha de un átomo neutro indica número atómico Z = 13 y número de masa A = 27. Recuerda: Z cuenta protones y A cuenta protones más neutrones. ¿Cuál es su inventario correcto?",
+    "opciones": {
+      "a": "13 protones, 27 neutrones y 13 electrones.",
+      "b": "13 protones, 14 neutrones y 13 electrones.",
+      "c": "14 protones, 13 neutrones y 14 electrones.",
+      "d": "13 protones, 14 neutrones y 27 electrones."
+    },
+    "respuesta": "b",
+    "explicacion": "Primero, Z = 13 indica 13 protones. Después, neutrones = A − Z = 27 − 13 = 14. Finalmente, al ser un átomo neutro, tiene 13 electrones para compensar sus 13 protones.\n\nAnalogía: A es el inventario completo del núcleo; Z te dice cuántos de esos integrantes son protones. Restar permite encontrar los neutrones que faltan. Los electrones se encuentran en la región externa del átomo y no se incluyen en el número de masa A.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism"
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "03 · Tabla periódica",
+    "pregunta": "Imaginas la tabla periódica como una despensa organizada. ¿Qué número determina el orden de los elementos en la tabla moderna?",
+    "opciones": {
+      "a": "El número de neutrones del isótopo más pesado.",
+      "b": "La masa de cualquier muestra del elemento que tengas a mano.",
+      "c": "La cantidad de átomos que aparecen en su molécula más común.",
+      "d": "El número atómico: la cantidad de protones de cada elemento."
+    },
+    "respuesta": "d",
+    "explicacion": "La tabla periódica moderna se ordena por número atómico creciente. Ese número indica cuántos protones tiene cada átomo de un elemento. La masa atómica es otro dato de la tabla y no es el criterio que define ese orden.\n\nAnalogía: los frascos de esta despensa tienen números de identidad, no están ordenados por cuánto pesa cada frasco lleno. Una muestra grande de carbono no cambia de posición por pesar más que una muestra pequeña de hierro.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson2.html"
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "03 · Tabla periódica",
+    "pregunta": "El sodio (Na) y el potasio (K) están en el grupo 1. Sus átomos neutros tienen un electrón en la capa externa. ¿Qué semejanza química puedes esperar?",
+    "opciones": {
+      "a": "Ambos tienen exactamente el mismo número de protones.",
+      "b": "Ambos tienen la misma masa atómica y son el mismo elemento.",
+      "c": "Ambos deben ganar siete protones para completar una capa electrónica.",
+      "d": "Ambos pueden perder ese electrón externo y formar iones de carga +1."
+    },
+    "respuesta": "d",
+    "explicacion": "Los electrones de la capa externa, llamados electrones de valencia, influyen mucho en cómo participa un átomo en los enlaces. Sodio y potasio suelen formar Na⁺ y K⁺ al perder un electrón. Sus propiedades son parecidas, no idénticas.\n\nAnalogía: dos cocineros pueden tener una herramienta similar disponible y trabajar de formas semejantes, aunque no sean la misma persona. Compartir grupo no significa compartir número de protones, masa ni todos los detalles de reactividad.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson3.html"
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "03 · Tabla periódica",
+    "pregunta": "En un modelo básico por capas, los 11 electrones del sodio se distribuyen como 2, 8, 1. Si el período indica el número de capas ocupadas en este caso, ¿a qué período pertenece?",
+    "opciones": {
+      "a": "Al período 1, porque queda un electrón en la última capa.",
+      "b": "Al período 8, porque esa es la capa con más electrones.",
+      "c": "Al período 3, porque hay tres capas ocupadas.",
+      "d": "Al período 11, porque tiene once electrones en total."
+    },
+    "respuesta": "c",
+    "explicacion": "La distribución 2, 8, 1 tiene tres capas ocupadas, por eso el sodio está en el período 3. El electrón de la última capa ayuda a explicar su pertenencia al grupo 1, pero grupo y período no son la misma cosa.\n\nAnalogía: piensa en un edificio con tres pisos ocupados. El número de personas del último piso no cambia cuántos pisos están ocupados. Este modelo por capas es una simplificación útil para comenzar, no un dibujo literal de órbitas como las de los planetas.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson3.html"
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "03 · Tabla periódica",
+    "pregunta": "Un átomo neutro de cloro tiene 7 electrones en su capa externa. En el modelo del octeto, ¿qué cambio electrónico sencillo le permite completar 8 y formar su ion más común?",
+    "opciones": {
+      "a": "Perder un electrón y formar Cl⁺.",
+      "b": "Ganar un protón y seguir siendo cloro neutro.",
+      "c": "Perder siete neutrones y formar Cl⁷⁻.",
+      "d": "Ganar un electrón y formar Cl⁻."
+    },
+    "respuesta": "d",
+    "explicacion": "Si tiene siete electrones externos, al ganar uno completa ocho. Ese electrón adicional aporta carga negativa, por eso el ion es Cl⁻, llamado cloruro. La identidad del elemento no cambia: mantiene sus protones.\n\nAnalogía: a una mesa de ocho puestos le falta un ocupante; añadir uno completa el grupo. El octeto es una regla orientativa para muchos elementos de los grupos principales, no una obligación universal ni una decisión consciente de los átomos.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson5.html"
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "03 · Tabla periódica",
+    "pregunta": "El neón tiene completa su capa electrónica externa y pertenece a los gases nobles. En condiciones ordinarias, ¿qué comportamiento es más razonable esperar?",
+    "opciones": {
+      "a": "Gran tendencia a reaccionar con todo porque tiene muchos electrones libres.",
+      "b": "Carga negativa obligatoria porque una capa completa siempre significa exceso de electrones.",
+      "c": "Ausencia de protones, porque noble significa que no posee cargas.",
+      "d": "Poca tendencia a formar enlaces, en comparación con elementos de capas externas incompletas."
+    },
+    "respuesta": "d",
+    "explicacion": "Una capa externa completa se asocia con una configuración especialmente estable. El neón tiene poca tendencia a ganar, perder o compartir electrones en condiciones ordinarias. Eso no significa que carezca de protones o electrones.\n\nAnalogía: un equipo con su organización completa suele necesitar menos cambios que uno con puestos disponibles. Tampoco conviene convertir la idea en una regla absoluta de que todos los gases nobles jamás reaccionan: existen compuestos de algunos de ellos en condiciones apropiadas.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson3.html"
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "04 · Enlaces y fórmulas",
+    "pregunta": "Dos átomos de hidrógeno forman H₂ compartiendo un par de electrones. ¿Qué tipo de enlace describe esa unión?",
+    "opciones": {
+      "a": "Covalente, porque comparten electrones.",
+      "b": "Iónico, porque todo enlace obliga a transferir electrones por completo.",
+      "c": "Nuclear, porque se fusionan los dos núcleos en uno solo.",
+      "d": "Metálico, porque todos los gases tienen electrones metálicos."
+    },
+    "respuesta": "a",
+    "explicacion": "En un enlace covalente, dos átomos comparten electrones. En H₂, el par compartido se relaciona con ambos núcleos y contribuye a mantener unidos a los átomos. Los núcleos no se fusionan ni nace por ello otro elemento.\n\nAnalogía: dos cocineros pueden compartir un utensilio sin entregárselo definitivamente al otro. Compartir representa aquí el enlace covalente; la analogía no implica que los electrones sean objetos inmóviles colocados entre dos personas.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson4.html"
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "04 · Enlaces y fórmulas",
+    "pregunta": "En la sal sólida hay iones Na⁺ y Cl⁻ organizados en una red. ¿Qué mantiene unida principalmente esa estructura?",
+    "opciones": {
+      "a": "La atracción eléctrica entre iones de cargas opuestas.",
+      "b": "La atracción entre iones que tienen exclusivamente la misma carga.",
+      "c": "La fusión de los núcleos de sodio y cloro en nuevos núcleos.",
+      "d": "El agua atrapada entre moléculas individuales de NaCl."
+    },
+    "respuesta": "a",
+    "explicacion": "El enlace iónico se basa en la atracción entre cargas opuestas. En el cristal de sal, cada ion interactúa con varios vecinos y se forma una red extensa. La fórmula NaCl expresa la proporción 1:1 de sus iones, no describe moléculas aisladas como las del agua.\n\nAnalogía: una pared se sostiene por una organización repetida de piezas, no por parejas sueltas flotando. La formación de la sal tampoco significa que los núcleos se fusionen: el sodio y el cloro conservan su identidad elemental.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson5.html"
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "04 · Enlaces y fórmulas",
+    "pregunta": "En una receta molecular aparece 3 CO₂. El 3 indica tres moléculas y el subíndice ₂ se aplica al oxígeno. ¿Cuántos átomos de cada elemento hay en total?",
+    "opciones": {
+      "a": "3 átomos de carbono y 6 de oxígeno.",
+      "b": "1 átomo de carbono y 6 de oxígeno.",
+      "c": "3 átomos de carbono y 2 de oxígeno.",
+      "d": "6 átomos de carbono y 3 de oxígeno."
+    },
+    "respuesta": "a",
+    "explicacion": "Cada molécula de CO₂ contiene un carbono y dos oxígenos. Tres moléculas tienen 3 × 1 = 3 carbonos y 3 × 2 = 6 oxígenos, para un total de nueve átomos.\n\nAnalogía: si cada sándwich lleva una porción de queso y dos rebanadas de pan, tres sándwiches necesitan tres porciones de queso y seis rebanadas. El número que va delante multiplica la fórmula completa; el subíndice indica la composición de cada unidad.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas"
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "04 · Enlaces y fórmulas",
+    "pregunta": "Quieres escribir la fórmula de un compuesto eléctricamente neutro formado por Mg²⁺ y Cl⁻. ¿Cuál es la proporción mínima correcta?",
+    "opciones": {
+      "a": "Un Mg²⁺ por cada Cl⁻: MgCl.",
+      "b": "Dos Mg²⁺ por cada Cl⁻: Mg₂Cl.",
+      "c": "Dos Mg²⁺ por cada dos Cl⁻: Mg₂Cl₂.",
+      "d": "Un Mg²⁺ por cada dos Cl⁻: MgCl₂."
+    },
+    "respuesta": "d",
+    "explicacion": "Un Mg²⁺ aporta +2. Cada Cl⁻ aporta −1, de modo que se necesitan dos: +2 − 1 − 1 = 0. La fórmula más sencilla es MgCl₂. No basta con usar la misma cantidad de cada ion; hay que equilibrar sus cargas.\n\nAnalogía: para compensar una ficha de valor +2 necesitas dos fichas de −1. En la fórmula se escribe cuántas unidades hacen falta, no se cambian las cargas de los iones para que la cuenta resulte cómoda.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/2-6-ionic-and-molecular-compounds"
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "04 · Enlaces y fórmulas",
+    "pregunta": "Una persona dice: “H₂O y H₂O₂ deben ser la misma sustancia, solo que la segunda está más concentrada”. ¿Cuál es la mejor corrección?",
+    "opciones": {
+      "a": "Son sustancias distintas porque cambia la composición de cada molécula.",
+      "b": "Son la misma sustancia porque contienen los mismos tipos de elementos.",
+      "c": "H₂O₂ significa exactamente dos moléculas de H₂O.",
+      "d": "La diferencia solo indica que H₂O₂ está a mayor temperatura."
+    },
+    "respuesta": "a",
+    "explicacion": "H₂O es agua y H₂O₂ es peróxido de hidrógeno. Compartir tipos de elementos no basta para ser la misma sustancia: cambia la proporción de átomos por molécula y cambian sus propiedades. Dos moléculas de agua se escriben 2 H₂O, no H₂O₂.\n\nAnalogía: duplicar las porciones de una receta no es lo mismo que cambiar sus ingredientes por porción. Más concentración significa más soluto respecto a una cantidad de disolución o solvente; no significa alterar los subíndices de la sustancia.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas"
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "05 · Estados y cambios",
+    "pregunta": "Un cubo de hielo conserva su forma sobre una mesa mientras no se derrite. ¿Qué descripción de sus moléculas explica mejor el estado sólido?",
+    "opciones": {
+      "a": "Están completamente inmóviles porque en todo sólido desaparece el movimiento.",
+      "b": "Se mantienen próximas y vibran alrededor de posiciones relativamente fijas.",
+      "c": "Están muy separadas y recorren libremente todo el espacio disponible.",
+      "d": "Se deslizan unas entre otras con la misma libertad que en el agua líquida."
+    },
+    "respuesta": "b",
+    "explicacion": "En un sólido, las partículas tienen movimiento, pero permanecen alrededor de posiciones relativamente fijas. No están quietas como una fotografía. Su organización y sus interacciones ayudan a que el sólido conserve la forma.\n\nAnalogía: los cocineros pueden moverse dentro de sus puestos sin abandonar la distribución de la cocina. En un líquido hay más libertad para desplazarse unos respecto a otros; en un gas, las partículas suelen estar mucho más separadas.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter1/lesson4.html"
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "05 · Estados y cambios",
+    "pregunta": "Sacas un vaso frío y seco del refrigerador. Poco después aparecen gotas por fuera, aunque el vaso no tiene grietas. ¿De dónde provienen principalmente esas gotas?",
+    "opciones": {
+      "a": "Del agua interior, que atraviesa el vidrio intacto por filtración.",
+      "b": "Del oxígeno del aire, que se transforma en agua al tocar cualquier objeto frío.",
+      "c": "Del vidrio, cuyos átomos se convierten en moléculas de agua.",
+      "d": "Del vapor de agua del aire, que se enfría y se condensa sobre el vaso."
+    },
+    "respuesta": "d",
+    "explicacion": "El aire puede contener agua en estado gaseoso. Junto a una superficie suficientemente fría, parte de ese vapor pasa a líquido: es condensación. No se necesita una fuga ni una reacción que fabrique agua.\n\nAnalogía: las moléculas cambian la manera de reunirse, como personas que dejan de circular separadas y se agrupan en mesas. Siguen siendo H₂O. La condensación es el cambio de gas a líquido; la evaporación ocurre en el sentido contrario.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter2/lesson3.html"
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "05 · Estados y cambios",
+    "pregunta": "Comparas dos procesos: disolver azúcar en agua sin calentar y caramelizar azúcar hasta que aparecen sustancias con nuevos aromas y color. ¿Cuál comparación es correcta?",
+    "opciones": {
+      "a": "Ambos son cambios químicos porque al final ya no se ven cristales.",
+      "b": "Disolver es un cambio físico en este caso; caramelizar implica cambios químicos.",
+      "c": "Ambos son solo cambios físicos porque el ingrediente inicial era azúcar.",
+      "d": "Disolver es químico y caramelizar es físico porque el calor no produce reacciones."
+    },
+    "respuesta": "b",
+    "explicacion": "Al disolver azúcar sin que reaccione, sus moléculas se distribuyen entre las del agua, pero mantienen su identidad. En la caramelización ocurren reacciones y aparecen sustancias nuevas. Por eso, perder la forma de un cristal no basta para demostrar un cambio químico.\n\nAnalogía: repartir los ingredientes entre varios tazones no equivale a transformarlos al cocinar. La pregunta útil es si cambió la identidad química de las sustancias, no solamente su aspecto o si el proceso parece fácil de deshacer.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties"
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "05 · Estados y cambios",
+    "pregunta": "Agua pura hierve aproximadamente a 100 °C a presión atmosférica normal. Mientras sigue hirviendo y todavía queda líquido, recibe más calor pero su temperatura se mantiene casi constante. ¿En qué se emplea principalmente esa energía?",
+    "opciones": {
+      "a": "En romper cada molécula de H₂O para producir hidrógeno y oxígeno.",
+      "b": "En aumentar la temperatura del agua líquida indefinidamente sin evaporarla.",
+      "c": "En vencer interacciones entre moléculas y permitir el paso de líquido a gas.",
+      "d": "En crear átomos nuevos para reemplazar los que desaparecen al hervir."
+    },
+    "respuesta": "c",
+    "explicacion": "Durante la ebullición a presión constante, la energía suministrada se utiliza principalmente en el cambio de estado. Se vencen interacciones entre moléculas para separarlas; no se rompen por ello los enlaces O–H dentro de cada molécula. El vapor sigue siendo H₂O.\n\nAnalogía: separar grupos de comensales de sus mesas no significa desarmar a cada persona. La temperatura de ebullición depende de la presión; por eso se especifican las condiciones y no se afirma que el agua siempre hierva a 100 °C.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions"
+  },
+  {
+    "id": 25,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "05 · Estados y cambios",
+    "pregunta": "Una jeringa cerrada contiene aire. En un modelo ideal, comprimes lentamente el gas hasta la mitad de su volumen, sin fugas y manteniendo la temperatura. ¿Qué ocurre con sus partículas?",
+    "opciones": {
+      "a": "Desaparece la mitad de las partículas para que el gas quepa.",
+      "b": "Cada molécula reduce a la mitad el tamaño de sus átomos.",
+      "c": "Se forman el doble de partículas al empujar el émbolo.",
+      "d": "Conservan su número y quedan, en promedio, más próximas entre sí."
+    },
+    "respuesta": "d",
+    "explicacion": "Comprimir un gas sin fugas no cambia la cantidad de partículas. Disminuye el espacio entre ellas, que en un gas suele ser grande en comparación con su tamaño. En el modelo de gas ideal, a temperatura constante, reducir el volumen a la mitad duplica la presión.\n\nAnalogía: los mismos comensales pueden reunirse en un salón más pequeño sin encogerse ni desaparecer. Cambia el espacio disponible por persona. No interpretes los cambios de volumen como cambios en el tamaño de los átomos.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law"
+  },
+  {
+    "id": 26,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "06 · Reacciones y energía",
+    "pregunta": "En una simulación, 4 g de una sustancia y 6 g de otra reaccionan dentro de un sistema cerrado. Parte de los productos es un gas que permanece dentro. Sin contar el recipiente, ¿qué masa total de materia habrá al final?",
+    "opciones": {
+      "a": "Menos de 10 g, porque los gases no tienen masa.",
+      "b": "Más de 10 g, porque producir sustancias nuevas crea materia adicional.",
+      "c": "Exactamente 6 g, porque siempre queda la masa del reactivo más abundante.",
+      "d": "10 g, incluyendo el gas y cualquier otra sustancia que quede dentro."
+    },
+    "respuesta": "d",
+    "explicacion": "En una reacción química ordinaria, la masa total se conserva si no entra ni sale materia. El inventario inicial es 4 + 6 = 10 g, y el final también es 10 g. El gas debe contarse: que sea invisible no significa que no tenga masa.\n\nAnalogía: todo lo que estaba en la despensa sigue en algún lugar de la cocina cerrada, aunque cambie de presentación. En un recipiente abierto puede parecer que se pierde masa cuando un gas escapa; hay que definir bien qué se está pesando.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6.html"
+  },
+  {
+    "id": 27,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "06 · Reacciones y energía",
+    "pregunta": "Quieres balancear H₂ + O₂ → H₂O sin cambiar las fórmulas. ¿Cuáles son los coeficientes enteros mínimos, en el orden H₂, O₂, H₂O?",
+    "opciones": {
+      "a": "1, 1, 1.",
+      "b": "1, 2, 1.",
+      "c": "2, 2, 2.",
+      "d": "2, 1, 2."
+    },
+    "respuesta": "d",
+    "explicacion": "La ecuación balanceada es 2 H₂ + O₂ → 2 H₂O. A la izquierda hay cuatro átomos de hidrógeno y dos de oxígeno; a la derecha también hay cuatro hidrógenos y dos oxígenos.\n\nAnalogía: preparas dos porciones siguiendo una receta que usa todo el inventario, sin inventar ni perder ingredientes atómicos. El balance exige igual cantidad de átomos de cada elemento en ambos lados, no igual cantidad de moléculas: aquí pasan tres moléculas de reactivos a dos de producto.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations"
+  },
+  {
+    "id": 28,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "06 · Reacciones y energía",
+    "pregunta": "Para balancear una ecuación donde el producto debe ser agua, alguien cambia H₂O por H₂O₂ porque así le cuadran los oxígenos. ¿Por qué ese procedimiento es incorrecto?",
+    "opciones": {
+      "a": "Porque altera la identidad del producto; debe ajustar coeficientes, no subíndices.",
+      "b": "Porque al balancear solo se permite cambiar los símbolos de los elementos.",
+      "c": "Porque los átomos de oxígeno no deben contarse en una ecuación química.",
+      "d": "Porque toda ecuación debe tener el mismo coeficiente en todas las sustancias."
+    },
+    "respuesta": "a",
+    "explicacion": "Cambiar un subíndice cambia la composición de la sustancia. H₂O y H₂O₂ no son dos cantidades distintas de agua, sino sustancias distintas. Para balancear se ajustan números delante de las fórmulas y se vuelven a contar los átomos.\n\nAnalogía: puedes decidir preparar dos o tres porciones de una receta, pero no cambiar qué contiene cada porción solo para que coincida tu lista de compras. Una ecuación balanceada respeta simultáneamente las sustancias de la reacción y la conservación de sus átomos.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations"
+  },
+  {
+    "id": 29,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "06 · Reacciones y energía",
+    "pregunta": "En un registro experimental, una reacción hace que el recipiente y el líquido circundante se calienten, sin una fuente externa de calor. ¿Cómo se clasifica ese intercambio de energía de la reacción?",
+    "opciones": {
+      "a": "Endotérmico: la reacción absorbe calor del entorno y por eso lo calienta.",
+      "b": "Neutro: si la masa se conserva, no puede intercambiarse energía.",
+      "c": "Exotérmico: la reacción libera energía hacia su entorno.",
+      "d": "Exclusivamente físico: toda reacción química debe enfriar el recipiente."
+    },
+    "respuesta": "c",
+    "explicacion": "Una reacción exotérmica libera energía al entorno, que puede calentarse. Una endotérmica absorbe energía de él. Conservar la masa no significa que la energía no pueda intercambiarse.\n\nAnalogía: la reacción entrega parte de su presupuesto energético a la cocina que la rodea. Romper enlaces requiere energía y formar enlaces libera energía; el balance global entre ambos procesos ayuda a explicar si la reacción libera o absorbe calor. No es correcto afirmar que romper enlaces, por sí solo, libera energía.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson7.html"
+  },
+  {
+    "id": 30,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "06 · Reacciones y energía",
+    "pregunta": "En una reacción, un catalizador permite obtener el producto más rápidamente, sin consumirse en el balance global. ¿Qué explicación es correcta?",
+    "opciones": {
+      "a": "Aporta los átomos de todos los productos y por eso nunca se agota.",
+      "b": "Ofrece una ruta de reacción con menor barrera energética, pero no crea reactivos adicionales.",
+      "c": "Aumenta sin límite el producto posible aunque se terminen los reactivos.",
+      "d": "Hace que la reacción deje de necesitar conservación de masa."
+    },
+    "respuesta": "b",
+    "explicacion": "Un catalizador proporciona una ruta con menor energía de activación: facilita que la reacción ocurra más rápido. Puede participar en pasos intermedios, pero se regenera en el proceso global. No es una fuente ilimitada de ingredientes ni aumenta el máximo estequiométrico que permiten los reactivos disponibles.\n\nAnalogía: un ayudante que conoce un procedimiento más eficiente acelera la preparación de la cena, pero no convierte diez porciones de ingredientes en cien. Rapidez de preparación y cantidad máxima de producto son ideas diferentes.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson5.html"
+  },
+  {
+    "id": 31,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "07 · El mol y las recetas",
+    "pregunta": "Un mol puede imaginarse como un paquete con una cantidad fija y enorme de partículas. Comparas 1 mol de moléculas de agua con 1 mol de moléculas de CO₂. ¿Qué tienen necesariamente en común?",
+    "opciones": {
+      "a": "La misma masa en gramos, porque un mol siempre pesa lo mismo.",
+      "b": "El mismo número de moléculas, aunque sus masas sean distintas.",
+      "c": "El mismo número total de átomos de oxígeno.",
+      "d": "El mismo volumen, aunque estén en estados físicos diferentes."
+    },
+    "respuesta": "b",
+    "explicacion": "Un mol contiene exactamente 6,02214076 × 10²³ entidades especificadas. Aquí las entidades son moléculas, así que ambos paquetes contienen el mismo número de ellas. No tienen necesariamente la misma masa ni el mismo volumen. Además, cada CO₂ tiene dos oxígenos y cada H₂O solo uno.\n\nAnalogía: una docena de huevos y una docena de sandías tienen doce unidades cada una, pero pesan distinto. El mol sirve para contar partículas; para pasar a gramos necesitas la masa molar de la sustancia.",
+    "fuente_conceptual": "https://www.bipm.org/en/si-base-units/mole"
+  },
+  {
+    "id": 32,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "07 · El mol y las recetas",
+    "pregunta": "La glucosa, un tipo de azúcar, tiene fórmula C₆H₁₂O₆. Usa las contribuciones molares aproximadas C = 12, H = 1 y O = 16 g/mol de átomos. ¿Cuál es la masa molar de la glucosa?",
+    "opciones": {
+      "a": "29 g/mol.",
+      "b": "180 g/mol.",
+      "c": "96 g/mol.",
+      "d": "108 g/mol."
+    },
+    "respuesta": "b",
+    "explicacion": "Se suma la contribución de todos los átomos de la fórmula: 6 × 12 + 12 × 1 + 6 × 16 = 72 + 12 + 96 = 180 g/mol. Eso significa que un mol de moléculas de glucosa tiene aproximadamente 180 g.\n\nAnalogía: para calcular el peso de una receta no sumas una sola unidad de cada ingrediente; multiplicas la cantidad indicada por lo que aporta cada unidad. Los subíndices son esenciales. La glucosa es un azúcar, pero no es la misma sustancia que la sacarosa de mesa.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+  },
+  {
+    "id": 33,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "07 · El mol y las recetas",
+    "pregunta": "Para contar moléculas a partir de una balanza, usas n = masa ÷ masa molar. Una muestra contiene 9 g de agua y la masa molar del agua es aproximadamente 18 g/mol. ¿Cuántos moles de agua hay?",
+    "opciones": {
+      "a": "0,50 mol.",
+      "b": "2 mol.",
+      "c": "9 mol.",
+      "d": "162 mol."
+    },
+    "respuesta": "a",
+    "explicacion": "Se calcula n = 9 g ÷ 18 g/mol = 0,50 mol. Las unidades de gramos se cancelan y queda mol. La muestra tiene la mitad de las moléculas que contiene un mol de agua.\n\nAnalogía: si una porción estándar de tu receta pesa 18 g, disponer de 9 g equivale a media porción estándar. Multiplicar 9 por 18 no responde cuántas porciones caben; para saberlo debes dividir la cantidad disponible entre el tamaño de cada porción.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+  },
+  {
+    "id": 34,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "07 · El mol y las recetas",
+    "pregunta": "En un cálculo teórico se usa la reacción 2 H₂ + O₂ → 2 H₂O. Hay hidrógeno suficiente y reaccionan por completo 3 mol de O₂. ¿Cuántos moles de agua pueden formarse?",
+    "opciones": {
+      "a": "1,5 mol de H₂O.",
+      "b": "3 mol de H₂O.",
+      "c": "9 mol de H₂O.",
+      "d": "6 mol de H₂O."
+    },
+    "respuesta": "d",
+    "explicacion": "La ecuación indica que por cada 1 mol de O₂ se forman 2 mol de H₂O. Entonces 3 mol de O₂ × 2 = 6 mol de agua. También se consumirían 6 mol de H₂, que el enunciado garantiza que están disponibles.\n\nAnalogía: si un lote de ingredientes permite servir dos platos, tres lotes permiten seis platos. Los coeficientes de la ecuación dan proporciones de partículas y de moles; no dicen que un gramo de O₂ produzca dos gramos de agua.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry"
+  },
+  {
+    "id": 35,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "07 · El mol y las recetas",
+    "pregunta": "Reto de inventario: para 2 H₂ + O₂ → 2 H₂O, tienes 5 mol de H₂ y 2 mol de O₂. Suponiendo reacción completa hasta agotar un reactivo, ¿qué resultado teórico es correcto?",
+    "opciones": {
+      "a": "Se forman 5 mol de H₂O y no sobra ningún reactivo.",
+      "b": "Se forman 2 mol de H₂O y sobran 3 mol de H₂.",
+      "c": "Se forman 4 mol de H₂O y sobra 1 mol de H₂.",
+      "d": "Se forman 7 mol de H₂O porque se suman todos los moles iniciales."
+    },
+    "respuesta": "c",
+    "explicacion": "Los 2 mol de O₂ necesitan 4 mol de H₂, porque la receta pide dos de hidrógeno por uno de oxígeno. Hay 5 mol de H₂, así que el oxígeno se agota primero: es el reactivo limitante. Se producen 4 mol de agua y queda 5 − 4 = 1 mol de H₂.\n\nAnalogía: tener queso de sobra no permite hacer más sándwiches cuando se termina el pan. La cantidad máxima de producto la determina el ingrediente que se agota según la proporción de la receta, no siempre el que tiene el número menor de gramos.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields"
+  },
+  {
+    "id": 36,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "08 · Disoluciones",
+    "pregunta": "En una bebida sencilla se disuelven por completo 20 g de azúcar en 180 g de agua, sin reacción química. ¿Cuál descripción identifica correctamente soluto y solvente?",
+    "opciones": {
+      "a": "El azúcar es el soluto y el agua es el solvente.",
+      "b": "El agua es el soluto y el azúcar es el solvente.",
+      "c": "Ambos son solventes porque la mezcla queda transparente.",
+      "d": "El azúcar deja de existir, por lo que ya no hay soluto."
+    },
+    "respuesta": "a",
+    "explicacion": "El azúcar es el soluto: la sustancia disuelta. El agua es el solvente o disolvente: el medio en el que se distribuye el azúcar. La disolución completa contiene ambos; dejar de ver los cristales no significa que el azúcar desaparezca.\n\nAnalogía: el caldo permite distribuir la sal entre muchas cucharadas, pero la sal sigue formando parte de la receta. Aquí se especifica que no hay reacción química: estamos describiendo disolución y distribución de sustancias.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/3-3-molarity"
+  },
+  {
+    "id": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "08 · Disoluciones",
+    "pregunta": "Preparas una disolución con 12 g de sal y 188 g de agua. El porcentaje en masa se calcula como masa de soluto ÷ masa total de disolución × 100. ¿Cuál es la concentración?",
+    "opciones": {
+      "a": "6,38 % m/m.",
+      "b": "12 % m/m.",
+      "c": "94 % m/m.",
+      "d": "6 % m/m."
+    },
+    "respuesta": "d",
+    "explicacion": "Primero se suma la masa de toda la disolución: 12 + 188 = 200 g. Después, 12 ÷ 200 × 100 = 6 % m/m. Esto equivale a 6 g de sal por cada 100 g de disolución.\n\nAnalogía: al preguntar qué fracción del plato es un ingrediente, el denominador es el plato completo, no solo los demás ingredientes. Dividir entre 188 usaría únicamente el agua y respondería otra relación, no el porcentaje en masa de la disolución.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/3-4-other-units-for-solution-concentrations"
+  },
+  {
+    "id": 38,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "08 · Disoluciones",
+    "pregunta": "Una disolución contiene 12 g de azúcar en un volumen final de 250 mL. Para expresar su concentración en g/L, recuerda que 250 mL = 0,250 L. ¿Cuál es el resultado?",
+    "opciones": {
+      "a": "3 g/L.",
+      "b": "0,048 g/L.",
+      "c": "48 g/L.",
+      "d": "12 g/L."
+    },
+    "respuesta": "c",
+    "explicacion": "La concentración en g/L es masa de soluto dividida entre volumen final de disolución: 12 g ÷ 0,250 L = 48 g/L. No significa que el vaso contenga 48 g, sino que un litro de disolución con esa misma proporción contendría 48 g.\n\nAnalogía: si un cuarto de jarra contiene 12 g de azúcar, una jarra completa a igual concentración necesita cuatro veces esa cantidad. Antes de dividir, comprueba las unidades y usa el volumen final, no un volumen de agua supuesto.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/3-4-other-units-for-solution-concentrations"
+  },
+  {
+    "id": 39,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "08 · Disoluciones",
+    "pregunta": "Tienes 100 mL de una disolución de concentración 2,0 M, donde M significa mol/L. Agregas agua hasta un volumen final de 400 mL, sin perder soluto ni provocar una reacción. ¿Cuál es la concentración final?",
+    "opciones": {
+      "a": "8,0 M.",
+      "b": "0,50 M.",
+      "c": "2,0 M.",
+      "d": "0,25 M."
+    },
+    "respuesta": "b",
+    "explicacion": "El volumen final es cuatro veces el inicial, pero la cantidad de soluto no cambia. Por eso la concentración se divide entre cuatro: 2,0 ÷ 4 = 0,50 M. También puedes usar C₁V₁ = C₂V₂: 2,0 × 100 = C₂ × 400.\n\nAnalogía: repartir la misma cantidad de concentrado en una jarra cuatro veces mayor produce una bebida cuatro veces menos concentrada. Hasta 400 mL significa volumen final de 400 mL, no agregar 400 mL a los 100 mL iniciales.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/3-3-molarity"
+  },
+  {
+    "id": 40,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "08 · Disoluciones",
+    "pregunta": "Una tabla hipotética indica que, a 20 °C, 100 g de agua disuelven como máximo 30 g de cierto sólido. Agregas 40 g, mantienes esa temperatura y esperas hasta alcanzar el equilibrio. ¿Qué queda?",
+    "opciones": {
+      "a": "40 g disueltos, porque agitar elimina cualquier límite de solubilidad.",
+      "b": "10 g disueltos y 30 g sin disolver; la disolución está diluida.",
+      "c": "30 g disueltos y 10 g de sólido sin disolver; la disolución está saturada.",
+      "d": "30 g disueltos y 10 g que desaparecen al llegar al equilibrio."
+    },
+    "respuesta": "c",
+    "explicacion": "La capacidad indicada es 30 g por 100 g de agua a esa temperatura. De los 40 g agregados, se disuelven 30 g y quedan 10 g como sólido. La fase líquida está saturada. Agitar puede acelerar la disolución, pero no aumenta por sí solo la cantidad máxima que se disuelve en las mismas condiciones.\n\nAnalogía: sentar más rápido a los comensales no aumenta el número de asientos del salón. Rapidez de disolución y solubilidad son cosas distintas. Cambiar la temperatura puede cambiar la solubilidad, pero el efecto depende de la sustancia.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson6.html"
+  },
+  {
+    "id": 41,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "09 · Ácidos, bases y pH",
+    "pregunta": "A 25 °C, tres disoluciones acuosas tienen pH 3, pH 7 y pH 10. ¿Cuál clasificación es correcta?",
+    "opciones": {
+      "a": "pH 3: ácida; pH 7: neutra; pH 10: básica.",
+      "b": "pH 3: básica; pH 7: neutra; pH 10: ácida.",
+      "c": "pH 3: neutra; pH 7: ácida; pH 10: básica.",
+      "d": "Las tres son ácidas porque el pH solo describe ácidos."
+    },
+    "respuesta": "a",
+    "explicacion": "Para disoluciones acuosas a 25 °C, un pH menor que 7 indica medio ácido; 7 corresponde a neutralidad y un pH mayor que 7 indica medio básico. Por eso 3, 7 y 10 corresponden respectivamente a ácido, neutro y básico.\n\nAnalogía: el pH funciona como un indicador de condición de la receta, no como una etiqueta de comestible o peligroso. No debes probar sustancias para identificar su pH. Además, la neutralidad se relaciona con igual concentración de H₃O⁺ y OH⁻; el valor de pH neutro cambia con la temperatura.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson8.html"
+  },
+  {
+    "id": 42,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "09 · Ácidos, bases y pH",
+    "pregunta": "En disoluciones diluidas, bajar una unidad de pH representa aproximadamente diez veces más concentración de H₃O⁺. Comparas pH 3 con pH 5. ¿Cómo es la concentración de H₃O⁺ en la primera respecto de la segunda?",
+    "opciones": {
+      "a": "Aproximadamente 2 veces mayor.",
+      "b": "Aproximadamente 20 veces mayor.",
+      "c": "Aproximadamente 100 veces mayor.",
+      "d": "Aproximadamente 100 veces menor."
+    },
+    "respuesta": "c",
+    "explicacion": "La diferencia es de dos unidades: de 5 a 4 aumenta diez veces, y de 4 a 3 otras diez. El resultado es 10 × 10 = 100 veces. El pH menor corresponde a mayor concentración de H₃O⁺ en este modelo.\n\nAnalogía: una escalera multiplicadora no se recorre sumando diez en cada escalón, sino multiplicando por diez. Por eso pH 3 no significa simplemente dos unidades más de acidez que pH 5. H₃O⁺ es el ion hidronio; en muchos ejercicios aparece abreviado como H⁺.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh"
+  },
+  {
+    "id": 43,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "09 · Ácidos, bases y pH",
+    "pregunta": "Ejercicio teórico: mezclas 20 mL de HCl 0,10 M con 10 mL de NaOH 0,10 M a 25 °C. Cada H⁺ del ácido neutraliza un OH⁻ de la base formando agua. ¿Cómo queda el medio después de reaccionar?",
+    "opciones": {
+      "a": "Neutro siempre, porque cualquier mezcla de ácido y base termina con pH 7.",
+      "b": "Ácido, porque quedan equivalentes de ácido sin neutralizar.",
+      "c": "Básico, porque una base siempre domina a un ácido.",
+      "d": "Neutro, porque ambas disoluciones tenían la misma concentración inicial."
+    },
+    "respuesta": "b",
+    "explicacion": "Como ambas concentraciones son 0,10 M, el doble de volumen contiene el doble de cantidad: el ácido aporta 0,002 mol de H⁺ y la base 0,001 mol de OH⁻. Se neutralizan 0,001 mol de cada uno y queda un exceso de 0,001 mol de H⁺. El medio resulta ácido.\n\nAnalogía: para emparejar dos ingredientes necesitas comparar cantidades, no solo lo concentradas que están sus mezclas. Neutralizar parte del ácido no significa neutralizarlo todo. Este es un cálculo de papel, no una indicación para mezclar productos domésticos.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
+  },
+  {
+    "id": 44,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "09 · Ácidos, bases y pH",
+    "pregunta": "Una etiqueta dice “ácido fuerte muy diluido” y otra “ácido débil concentrado”. ¿Por qué estas descripciones no son contradictorias?",
+    "opciones": {
+      "a": "Porque fuerte y concentrado significan exactamente lo mismo.",
+      "b": "Porque un ácido débil nunca produce iones en agua.",
+      "c": "Porque fuerza ácida y concentración describen aspectos diferentes de una disolución.",
+      "d": "Porque diluir un ácido cambia automáticamente el elemento de sus átomos."
+    },
+    "respuesta": "c",
+    "explicacion": "La fuerza ácida se relaciona con la tendencia del ácido a ceder protones al agua; un ácido fuerte se ioniza prácticamente por completo en disoluciones acuosas diluidas. La concentración indica cuánto ácido hay respecto a una cantidad de disolución. Puede haber poco de un ácido fuerte o mucho de uno débil.\n\nAnalogía: una especia puede ser muy intensa y usarse en poca cantidad, o suave y usarse en mucha. La comparación solo ayuda a separar dos ideas: sin más datos no puedes ordenar siempre los pH de ambas disoluciones ni deducir su seguridad.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases"
+  },
+  {
+    "id": 45,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "09 · Ácidos, bases y pH",
+    "pregunta": "La ficha simplificada de un indicador de este ejercicio dice: rojo en medio ácido, violeta cerca de la neutralidad y verde en medio básico. Una muestra lo vuelve verde. ¿Qué puedes concluir con esos datos?",
+    "opciones": {
+      "a": "Que la muestra es básica, pero no determinar su pH exacto ni su seguridad.",
+      "b": "Que su pH es exactamente 14, sin necesidad de otra medición.",
+      "c": "Que es segura para beber porque el indicador cambió de color.",
+      "d": "Que no contiene sustancias químicas porque el verde es un color natural."
+    },
+    "respuesta": "a",
+    "explicacion": "El cambio de color permite ubicar la muestra en el intervalo básico indicado por la ficha. No proporciona por sí solo un valor exacto de pH ni identifica todas las sustancias presentes. Tampoco demuestra que sea segura para beber o tocar.\n\nAnalogía: un semáforo comunica una categoría de situación, no todos los detalles del tránsito. Cada indicador tiene su propio intervalo de cambio de color: no debes aplicar los colores de esta ficha a cualquier indicador. Natural y químico tampoco son categorías opuestas.",
+    "fuente_conceptual": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson8.html"
+  },
+  {
+    "id": 46,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "10 · Química cotidiana",
+    "pregunta": "Dos vasos contienen agua: uno con sal de mesa disuelta y otro con azúcar disuelta. En una demostración con un equipo adecuado, el de sal conduce mucho mejor la corriente. ¿Cuál es la explicación principal?",
+    "opciones": {
+      "a": "El azúcar elimina todos los electrones del agua al disolverse.",
+      "b": "La sal forma un cable metálico continuo entre los electrodos.",
+      "c": "La sal aporta iones móviles en el agua; el azúcar disuelto permanece principalmente como moléculas neutras.",
+      "d": "Toda disolución transparente debe conducir la corriente por igual."
+    },
+    "respuesta": "c",
+    "explicacion": "Al disolverse, el NaCl se separa en iones Na⁺ y Cl⁻ que pueden moverse y transportar carga. El azúcar de mesa se dispersa principalmente como moléculas neutras y no aporta una cantidad comparable de iones. Por eso el aspecto transparente no permite predecir la conductividad.\n\nAnalogía: en una cocina hay personas que transportan bandejas y otras que están presentes sin llevarlas. Para la corriente importan los portadores móviles de carga. Esto explica el fenómeno, no propone realizar pruebas con electricidad doméstica y líquidos.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes"
+  },
+  {
+    "id": 47,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "10 · Química cotidiana",
+    "pregunta": "La grasa no se retira bien de un plato con agua sola. Las partículas de jabón tienen una parte que interactúa bien con el agua y otra con la grasa. ¿Cómo ayuda esa estructura a limpiar?",
+    "opciones": {
+      "a": "Transforma todos los átomos de grasa en átomos de agua.",
+      "b": "Aumenta la densidad de la grasa hasta convertirla en un metal soluble.",
+      "c": "Permite rodear pequeñas porciones de grasa y dispersarlas en el agua para arrastrarlas.",
+      "d": "Rompe siempre los núcleos de carbono para eliminar la suciedad."
+    },
+    "respuesta": "c",
+    "explicacion": "Las partículas de jabón tienen una región hidrófila, que interactúa con el agua, y una región hidrófoba que se asocia con sustancias como la grasa. Pueden organizarse en agregados llamados micelas y ayudar a dispersar material graso en el agua. Así puede retirarse durante el enjuague.\n\nAnalogía: el jabón actúa como un intermediario que puede relacionarse con dos grupos que no se mezclan bien. La limpieza descrita no requiere convertir químicamente toda la grasa en agua; importa cómo interactúan y se organizan las partículas.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/11-5-colloids"
+  },
+  {
+    "id": 48,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "10 · Química cotidiana",
+    "pregunta": "En un modelo de corrosión aparece este paso: Fe → Fe²⁺ + 2 e⁻. ¿Qué le ocurre al hierro en ese paso?",
+    "opciones": {
+      "a": "Se reduce porque pierde dos electrones.",
+      "b": "Se oxida porque gana dos electrones.",
+      "c": "Se oxida porque pierde dos electrones.",
+      "d": "Deja de ser hierro porque pierde dos protones."
+    },
+    "respuesta": "c",
+    "explicacion": "Los electrones están a la derecha: salen del hierro. Perder electrones es oxidarse; ganarlos es reducirse. El hierro pasa de carga 0 a +2, pero sigue siendo hierro porque no cambia su número de protones.\n\nAnalogía: sigue el movimiento de las fichas electrónicas en una cuenta. Si salen, hay oxidación; si entran, reducción. Oxidación no significa únicamente combinarse con oxígeno: la definición electrónica permite reconocer muchos otros procesos. El paso mostrado es una semirreacción, no toda la reacción de corrosión.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
+  },
+  {
+    "id": 49,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "10 · Química cotidiana",
+    "pregunta": "Para comenzar química orgánica, comparas CH₃–CH₂–OH (etanol) con CH₃–O–CH₃ (dimetil éter). Ambas moléculas tienen fórmula global C₂H₆O. ¿Qué detalle permite reconocer al etanol como un alcohol?",
+    "opciones": {
+      "a": "Tiene un grupo –OH unido a un carbono de la cadena; el éter tiene C–O–C.",
+      "b": "Tiene oxígeno, y toda molécula con oxígeno es necesariamente un alcohol.",
+      "c": "Tiene dos carbonos, y cualquier sustancia con dos carbonos es un alcohol.",
+      "d": "Tiene la misma fórmula global que el éter, por lo que ambas son la misma sustancia."
+    },
+    "respuesta": "a",
+    "explicacion": "En el etanol hay un grupo hidroxilo, –OH, unido a un carbono de la cadena; es el grupo funcional característico de los alcoholes en este contexto. En el éter, el oxígeno está entre dos carbonos y no está unido a un hidrógeno. Compartir C₂H₆O no implica compartir estructura ni propiedades.\n\nAnalogía: con los mismos ingredientes y cantidades puedes obtener preparaciones distintas si cambia cómo se organizan. Estas sustancias son isómeros: tienen la misma fórmula molecular, pero diferente estructura. No se necesita memorizar sus propiedades para reconocer la diferencia dibujada.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers"
+  },
+  {
+    "id": 50,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Química básica · Prenivel",
+    "tema": "10 · Química cotidiana",
+    "pregunta": "Reto final de cocina química: una disolución tiene 20 g de azúcar y 200 g de agua. Se evaporan 50 g de agua; no se pierde ni se descompone el azúcar y todo sigue disuelto. ¿Cuál es la conclusión correcta sobre lo que queda?",
+    "opciones": {
+      "a": "Quedan 170 g de disolución con 9,1 % m/m de azúcar; la concentración no cambia al evaporarse agua.",
+      "b": "Quedan 170 g de disolución con aproximadamente 11,8 % m/m de azúcar; es una concentración por cambio físico.",
+      "c": "Quedan 220 g de disolución con 11,8 % m/m de azúcar; evaporar no disminuye la masa que queda en el recipiente.",
+      "d": "Quedan 150 g de disolución con 13,3 % m/m de azúcar; el azúcar se convirtió en otra sustancia."
+    },
+    "respuesta": "b",
+    "explicacion": "La masa inicial es 20 + 200 = 220 g. Salen 50 g de agua, así que quedan 170 g: 150 g de agua y los mismos 20 g de azúcar. El porcentaje final es 20 ÷ 170 × 100 ≈ 11,8 %. Antes era 20 ÷ 220 × 100 ≈ 9,1 %, por lo que aumentó la concentración.\n\nAnalogía: reducir un caldo intensifica su concentración al retirar agua, sin necesidad de añadir más ingrediente. Bajo las condiciones indicadas no se forma otra sustancia: es un cambio físico. La masa que falta en el recipiente está en el vapor que salió; no desapareció.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/3-4-other-units-for-solution-concentrations"
+  }
+]
