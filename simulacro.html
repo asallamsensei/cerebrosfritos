@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>Simulacro ANLA / CNSC — Asallam Sensei</title>
+<title>Simulacros — Asallam Sensei</title>
 
 <style>
 :root{
@@ -474,7 +474,7 @@ h1{
 </div>
   
 <header>
-  <h1 id="tituloSimulacro">Simulacro ANLA / CNSC</h1>
+  <h1 id="tituloSimulacro">Simulacros</h1>
 
   <div class="subtitle" id="subtituloSimulacro">
     Selecciona tu simulacro mediante la clave de acceso.
@@ -723,6 +723,14 @@ fenix: {
     titulo: "Simulacro Definitivo ANLA / CNSC ★ OPEC 231266",
     subtitulo: "60 preguntas ★ 40 competencias OPEC 231266 + 20 de lógica y razonamiento",
     archivo: "data/simulacro_opec231266_60_preguntas_20_logica.json"
+  },
+
+  aprendamos: {
+    estudiante: "Fénix",
+    titulo: "🧪 Química básica · La cocina de la materia",
+    subtitulo: "50 preguntas · Aprende con analogías y retos paso a paso",
+    archivo: "data/simulacro_quimica_basica_50_preguntas.json",
+    ordenAleatorio: false
   }
   
 };
@@ -760,7 +768,7 @@ function validarClave(){
   document.getElementById("pantallaAcceso").style.display =
     "none";
   
-  cargarSimulacro(acceso.archivo);
+  cargarSimulacro(acceso.archivo, acceso.ordenAleatorio !== false);
   
 }
 
@@ -806,7 +814,7 @@ function barajarPorCasos(data){
 }
 
   
-function cargarSimulacro(archivo){
+function cargarSimulacro(archivo, ordenAleatorio = true){
 
   fetch(archivo)
     .then(res => {
@@ -816,7 +824,7 @@ function cargarSimulacro(archivo){
     .then(data => {
 
       preguntas = Array.isArray(data)
-        ? barajarPorCasos([...data])
+        ? (ordenAleatorio ? barajarPorCasos([...data]) : [...data])
         : [];
 
       if(!preguntas.length){
