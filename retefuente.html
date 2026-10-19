@@ -33,6 +33,41 @@
 <script>
 'use strict';
 const App = (() => {
+let audioCtx;
+
+async function sonarRespuesta(correcta) {
+  try {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!AudioCtx) return;
+
+    audioCtx ??= new AudioCtx();
+    if (audioCtx.state === 'suspended') await audioCtx.resume();
+
+    const inicio = audioCtx.currentTime;
+    const notas = correcta ? [660, 880] : [220, 165];
+
+    notas.forEach((frecuencia, i) => {
+      const osc = audioCtx.createOscillator();
+      const volumen = audioCtx.createGain();
+      const t = inicio + i * 0.13;
+
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(frecuencia, t);
+      volumen.gain.setValueAtTime(0, t);
+      volumen.gain.linearRampToValueAtTime(0.12, t + 0.01);
+      volumen.gain.exponentialRampToValueAtTime(0.001, t + 0.16);
+
+      osc.connect(volumen);
+      volumen.connect(audioCtx.destination);
+      osc.start(t);
+      osc.stop(t + 0.18);
+      osc.onended = () => {
+        osc.disconnect();
+        volumen.disconnect();
+      };
+    });
+  } catch (_) {}
+}
  let data, state, unlocked=false, storageOK=true, modal=null, transient={}, toastTimer, timerHandle;
  const $=id=>document.getElementById(id);
  const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -180,14 +215,15 @@ const App = (() => {
  function check(reveal=false){const {q,c,a}=activeContext();if(!q||a.resolved)return;
   if(reveal){a.resolved=true;a.correct=false;a.assisted=true;a.wrong=false;if(q.type==='choice')record(q,false);if(q.type==='entry')state.drafts[q.id]=c.ledgers[q.side].map(r=>({...r,amount:String(r.amount)}));}
   else{a.attempts=(a.attempts||0)+1;let ok;if(q.type==='entry'){const errors=entryErrors(c,q);transient.entryErrors??={};transient.entryErrors[q.id]=errors;ok=errors.every(e=>!Object.values(e).some(Boolean));}else{if(!a.selected)return;ok=a.selected===q.answer;record(q,ok)}
-   a.correct=ok;a.wrong=!ok;if(ok){a.resolved=true;a.assisted=!!a.hintUsed;if(q.type==='choice'&&(a.hintUsed||a.attempts>1))state.history[q.id].wrong=true}else{a.hint=true;a.hintUsed=true;}
+sonarRespuesta(ok);
+a.correct=ok;a.wrong=!ok;if(ok){a.resolved=true;a.assisted=!!a.hintUsed;if(q.type==='choice'&&(a.hintUsed||a.attempts>1))state.history[q.id].wrong=true}else{a.hint=true;a.hintUsed=true;}
   }save();render();if(a.resolved)document.querySelector('[data-action="next-step"],[data-action="session-next"]')?.focus({preventScroll:true});
  }
  function startSession(mode){const ids=shuffled(filteredPool()).slice(0,state.settings.length).map(q=>q.id);if(!ids.length){toast('No hay preguntas con esos filtros.');return}const ss={ids,at:0,answers:{},done:false,seed:Date.now()>>>0,endsAt:mode==='exam'&&state.settings.timer?Date.now()+state.settings.timer*60000:null,recorded:false};state[mode==='exam'?'exam':'practice']=ss;transient={};save();render(true)}
  function finishExam(){const ss=state.exam;if(!ss||ss.done)return;ss.done=true;if(!ss.recorded){for(const id of ss.ids){const q=findQuestion(id);record(q,ss.answers[id]?.selected===q.answer)}ss.recorded=true}closeModal();save();render(true)}
  function updateTimer(){const ss=state.exam;if(!ss||ss.done||!ss.endsAt)return;const remaining=Math.max(0,Math.ceil((ss.endsAt-Date.now())/1000));if(!remaining){finishExam();toast('Tiempo terminado. Ya puedes revisar tus respuestas.');return}const el=$('examTimer');if(el)el.textContent=`${String(Math.floor(remaining/60)).padStart(2,'0')}:${String(remaining%60).padStart(2,'0')}`}
  function startMatch(){const pairs=shuffled(filteredPairs()).slice(0,5);if(pairs.length<2){toast('Activa temas con al menos dos parejas.');return}state.match={ids:pairs.map(p=>p.id),matched:[],errors:0,seed:Date.now()>>>0};transient={};closeModal();save();render(true)}
- function matchTile(side,id){const m=state.match;if(!m||m.matched.includes(id))return;transient.matchWrong=null;transient.matchSelection??={};transient.matchSelection[side]=id;const sel=transient.matchSelection;if(sel.left&&sel.right){if(sel.left===sel.right){m.matched.push(sel.left);const p=data.parejas.find(p=>p.id===sel.left);transient.matchFeedback=`<strong class="success-text">✓ Conexión correcta</strong>${esc(p.explanation)}`;}else{m.errors++;transient.matchWrong={...sel};transient.matchFeedback='<strong class="error-text">No forman pareja todavía.</strong>Vuelve a elegir una tarjeta de cada columna.'}transient.matchSelection={};save()}render();}
+ function matchTile(side,id){const m=state.match;if(!m||m.matched.includes(id))return;transient.matchWrong=null;transient.matchSelection??={};transient.matchSelection[side]=id;const sel=transient.matchSelection;if(sel.left&&sel.right){sonarRespuesta(sel.left===sel.right);if(sel.left===sel.right){m.matched.push(sel.left);const p=data.parejas.find(p=>p.id===sel.left);transient.matchFeedback=`<strong class="success-text">✓ Conexión correcta</strong>${esc(p.explanation)}`;}else{m.errors++;transient.matchWrong={...sel};transient.matchFeedback='<strong class="error-text">No forman pareja todavía.</strong>Vuelve a elegir una tarjeta de cada columna.'}transient.matchSelection={};save()}render();}
  function download(name,content,type='application/json'){const blob=new Blob([content],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
  function exportClosing(){const cs=closingRows(),lines=[['Operacion','Tercero','Concepto','Base_renta_COP','Retencion_renta_COP','Base_reteIVA_COP','Retencion_IVA_COP','Neto_COP'],...cs.map(c=>[c.number,c.vendor,c.cat,c.values.base,c.values.rf,c.values.rv?c.values.vat:0,c.values.rv,c.values.net])];download('retefuente-anexo-didactico.csv','\ufeff'+lines.map(l=>l.map(x=>'"'+String(x).replace(/"/g,'""')+'"').join(';')).join('\r\n'),'text/csv;charset=utf-8')}
  function act(action,el){const value=el?.dataset.value;const ctx=activeContext();
