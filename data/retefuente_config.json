@@ -1,0 +1,136 @@
+{
+  "version": "1.0.0",
+  "schemaVersion": 1,
+  "title": "ReteFuente · Cuaderno de práctica",
+  "brand": "Asallam Sensei",
+  "period": "Septiembre de 2026",
+  "storageKey": "retefuente.cuaderno.v1",
+  "accessKey": "retefuente",
+  "uvt": 52374,
+  "iva": 0.19,
+  "reteiva": 0.15,
+  "topics": [
+    {
+      "id": "cuentas",
+      "label": "Cuentas"
+    },
+    {
+      "id": "fundamentos",
+      "label": "Desde cero"
+    },
+    {
+      "id": "iva",
+      "label": "IVA"
+    },
+    {
+      "id": "retenciones",
+      "label": "Retenciones"
+    },
+    {
+      "id": "asientos",
+      "label": "Asientos"
+    },
+    {
+      "id": "criterio",
+      "label": "Criterio"
+    },
+    {
+      "id": "cierre",
+      "label": "Cierre"
+    }
+  ],
+  "levels": [
+    {
+      "id": 0,
+      "label": "Desde cero"
+    },
+    {
+      "id": 1,
+      "label": "Aplicación"
+    },
+    {
+      "id": 2,
+      "label": "Taller"
+    }
+  ],
+  "notes": [
+    "Convención de este cuaderno: primero se causa la operación a crédito; el pago se muestra como un asiento posterior. Esto permite comparar comprador y vendedor.",
+    "Valores en pesos, redondeados al peso más cercano. El IVA de un total incluido se obtiene por diferencia entre total y base redondeada. No se redondean estas partidas a miles.",
+    "Los códigos son un mapa didáctico del PUC para comerciantes. Los nombres 2408-D y 2408-G identifican auxiliares didácticos de la misma cuenta 2408, no subcuentas oficiales.",
+    "Los servicios comunes conservan el IVA en un auxiliar por depurar. El taller no trae los ingresos completos del período para calcular su proporcionalidad definitiva.",
+    "La calidad de gran contribuyente, responsable del IVA y autorretenedor describe obligaciones diferentes. No se deduce una de otra.",
+    "La ruta trabaja retenciones ordinarias con los supuestos visibles de cada caso. No calcula autorretención especial de Sembremos sin actividad CIIU ni demás requisitos.",
+    "El anexo de cierre es un resumen didáctico de estas operaciones, no una declaración oficial ni un Formulario 350 listo para presentar."
+  ],
+  "rules": [
+    {
+      "concept": "Servicios generales",
+      "rate": "4% declarante / 6% no declarante",
+      "base": "2 UVT = $104.748",
+      "note": "Revisar excepciones y rentas de trabajo de personas naturales.",
+      "sources": [
+        "bases",
+        "servicios",
+        "pn"
+      ]
+    },
+    {
+      "concept": "Compras generales",
+      "rate": "2,5% declarante / 3,5% no declarante",
+      "base": "10 UVT = $523.740",
+      "note": "No trasladar esta regla a bienes con tratamiento especial.",
+      "sources": [
+        "vigencia",
+        "dur"
+      ]
+    },
+    {
+      "concept": "Honorarios",
+      "rate": "11% persona jurídica; 10% PN en el escenario elegido",
+      "base": "Sin base mínima en el régimen ordinario",
+      "note": "PN: evaluar artículo 383 y condiciones del 11%; ser responsable del IVA no decide la tarifa.",
+      "sources": [
+        "honorarios",
+        "pn"
+      ]
+    },
+    {
+      "concept": "Arrendamiento de inmuebles y transporte de pasajeros",
+      "rate": "3,5%",
+      "base": "10 UVT = $523.740",
+      "note": "Bases según régimen restablecido del Decreto 572; separar transporte de carga.",
+      "sources": [
+        "bases",
+        "vigencia"
+      ]
+    },
+    {
+      "concept": "Arrendamiento de bienes muebles",
+      "rate": "4%",
+      "base": "Sin base mínima en este concepto",
+      "note": "El alquiler de un equipo no es una compra del equipo.",
+      "sources": [
+        "muebles"
+      ]
+    },
+    {
+      "concept": "Compra de combustibles derivados del petróleo",
+      "rate": "0,1%",
+      "base": "Valor del pago o abono",
+      "note": "Aplicable a la compra a distribuidores mayoristas o minoristas.",
+      "sources": [
+        "combustible"
+      ]
+    },
+    {
+      "concept": "ReteIVA general",
+      "rate": "15% del IVA",
+      "base": "Ver agente, operación y cuantía",
+      "note": "No es el 15% del total; existen excepciones, entre ellas ciertas operaciones entre agentes.",
+      "sources": [
+        "reteiva",
+        "agentes"
+      ]
+    }
+  ]
+}

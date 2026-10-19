@@ -1,0 +1,330 @@
+[
+  {
+    "id": "a1105",
+    "left": "1105",
+    "right": "Caja",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Efectivo que entra o sale de la empresa."
+  },
+  {
+    "id": "a1110",
+    "left": "1110",
+    "right": "Bancos",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Dinero disponible en cuentas bancarias."
+  },
+  {
+    "id": "a1305",
+    "left": "1305",
+    "right": "Clientes",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Derecho a cobrar una venta o un servicio a crédito."
+  },
+  {
+    "id": "a135515",
+    "left": "135515",
+    "right": "Retención en la fuente a favor",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Anticipo de renta: lo retenido al vendedor, no una pérdida."
+  },
+  {
+    "id": "a135517",
+    "left": "135517",
+    "right": "IVA retenido a favor",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Valor de la retención de IVA que le practicaron al vendedor."
+  },
+  {
+    "id": "a1435",
+    "left": "1435",
+    "right": "Mercancías no fabricadas por la empresa",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Bienes adquiridos para revender."
+  },
+  {
+    "id": "a152805",
+    "left": "152805",
+    "right": "Equipos de procesamiento de datos",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Computadores que se usan en el negocio."
+  },
+  {
+    "id": "a2205",
+    "left": "2205",
+    "right": "Proveedores nacionales",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Obligación por compras a proveedores del país."
+  },
+  {
+    "id": "a2335",
+    "left": "2335",
+    "right": "Costos y gastos por pagar",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Obligación causada por servicios y gastos pendientes de pago."
+  },
+  {
+    "id": "a236515",
+    "left": "236515",
+    "right": "Retención por honorarios",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Renta retenida a terceros por honorarios."
+  },
+  {
+    "id": "a236525",
+    "left": "236525",
+    "right": "Retención por servicios",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Renta retenida a terceros por servicios."
+  },
+  {
+    "id": "a236530",
+    "left": "236530",
+    "right": "Retención por arrendamientos",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Renta retenida a terceros por arrendamientos."
+  },
+  {
+    "id": "a236540",
+    "left": "236540",
+    "right": "Retención por compras",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Renta retenida por compras; se puede detallar por auxiliar."
+  },
+  {
+    "id": "a236575",
+    "left": "236575",
+    "right": "Autorretenciones",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Retención que el propio beneficiario causa a su cargo."
+  },
+  {
+    "id": "a2367",
+    "left": "2367",
+    "right": "Impuesto a las ventas retenido",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "IVA retenido a terceros, pendiente de entregar a la DIAN."
+  },
+  {
+    "id": "a3115",
+    "left": "3115",
+    "right": "Aportes sociales",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Aportes de los socios en una sociedad de cuotas."
+  },
+  {
+    "id": "a4135",
+    "left": "4135",
+    "right": "Comercio al por mayor y al por menor",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Ingreso por venta de mercancías; no incluye el IVA."
+  },
+  {
+    "id": "a4145",
+    "left": "4145",
+    "right": "Transporte, almacenamiento y comunicaciones",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Ingreso por prestación de transporte, con auxiliar según actividad."
+  },
+  {
+    "id": "a4155",
+    "left": "4155",
+    "right": "Actividades inmobiliarias, empresariales y de alquiler",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Ingreso por asesorías o alquiler, detallado por actividad."
+  },
+  {
+    "id": "a511025",
+    "left": "511025",
+    "right": "Asesoría jurídica",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Honorarios por asesoría jurídica recibida."
+  },
+  {
+    "id": "a511035",
+    "left": "511035",
+    "right": "Asesoría técnica",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Honorarios por asesoría técnica recibida."
+  },
+  {
+    "id": "a512010",
+    "left": "512010",
+    "right": "Arrendamiento de construcciones y edificaciones",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Canon por uso de un local o edificio."
+  },
+  {
+    "id": "a512015",
+    "left": "512015",
+    "right": "Arrendamiento de maquinaria y equipo",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Canon por uso de un equipo; no se adquiere el bien."
+  },
+  {
+    "id": "a513550",
+    "left": "513550",
+    "right": "Transporte, fletes y acarreos",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Transporte contratado por la empresa."
+  },
+  {
+    "id": "a514515",
+    "left": "514515",
+    "right": "Mantenimiento de maquinaria y equipo",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Conservación o reparación ordinaria del equipo."
+  },
+  {
+    "id": "a519535",
+    "left": "519535",
+    "right": "Combustibles y lubricantes",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Combustible consumido en la operación."
+  },
+  {
+    "id": "a6135",
+    "left": "6135",
+    "right": "Costo de ventas de comercio",
+    "topic": "cuentas",
+    "level": 0,
+    "explanation": "Costo de la mercancía vendida; requiere conocer su costo contable."
+  },
+  {
+    "id": "c0",
+    "left": "Debe",
+    "right": "Lado izquierdo",
+    "topic": "fundamentos",
+    "level": 0,
+    "explanation": "Debe y haber nombran lados, no entradas y salidas de efectivo."
+  },
+  {
+    "id": "c1",
+    "left": "Haber",
+    "right": "Lado derecho",
+    "topic": "fundamentos",
+    "level": 0,
+    "explanation": "El haber siempre es el lado derecho de una cuenta T."
+  },
+  {
+    "id": "c2",
+    "left": "Activo",
+    "right": "Recurso controlado",
+    "topic": "fundamentos",
+    "level": 0,
+    "explanation": "Incluye bienes y derechos."
+  },
+  {
+    "id": "c3",
+    "left": "Pasivo",
+    "right": "Obligación con terceros",
+    "topic": "fundamentos",
+    "level": 0,
+    "explanation": "Una deuda se reconoce como pasivo."
+  },
+  {
+    "id": "c4",
+    "left": "Partida doble",
+    "right": "Debe total = haber total",
+    "topic": "asientos",
+    "level": 1,
+    "explanation": "La igualdad es necesaria; también deben ser correctos los conceptos."
+  },
+  {
+    "id": "c5",
+    "left": "IVA incluido al 19%",
+    "right": "Base = total ÷ 1,19",
+    "topic": "iva",
+    "level": 1,
+    "explanation": "El total equivale al 119% de la base."
+  },
+  {
+    "id": "c6",
+    "left": "IVA adicional al 19%",
+    "right": "IVA = base × 0,19",
+    "topic": "iva",
+    "level": 1,
+    "explanation": "Después se suma el IVA a la base."
+  },
+  {
+    "id": "c7",
+    "left": "ReteIVA general",
+    "right": "15% del IVA",
+    "topic": "retenciones",
+    "level": 1,
+    "explanation": "Primero comprueba que exista obligación de retener."
+  },
+  {
+    "id": "c8",
+    "left": "Retención al proveedor",
+    "right": "Pasivo del comprador",
+    "topic": "retenciones",
+    "level": 1,
+    "explanation": "La empresa retenedora debe entregar ese importe a la DIAN."
+  },
+  {
+    "id": "c9",
+    "left": "Retención sufrida",
+    "right": "Anticipo del vendedor",
+    "topic": "retenciones",
+    "level": 1,
+    "explanation": "Se reconoce como un valor a favor, no como gasto."
+  },
+  {
+    "id": "c10",
+    "left": "Valor neto al tercero",
+    "right": "Total menos retenciones",
+    "topic": "asientos",
+    "level": 1,
+    "explanation": "Conserva separado el total facturado de lo que se paga al proveedor."
+  },
+  {
+    "id": "c11",
+    "left": "Descuento condicionado",
+    "right": "Depende de un hecho futuro",
+    "topic": "criterio",
+    "level": 1,
+    "explanation": "No se descuenta automáticamente en la causación inicial."
+  },
+  {
+    "id": "c12",
+    "left": "IVA común",
+    "right": "Requiere depurar su destino",
+    "topic": "criterio",
+    "level": 1,
+    "explanation": "Si no hay imputación directa puede ser necesaria la proporcionalidad."
+  },
+  {
+    "id": "c13",
+    "left": "Anexo de retenciones",
+    "right": "Detalle por tercero y concepto",
+    "topic": "cierre",
+    "level": 1,
+    "explanation": "Permite conciliar bases y valores retenidos."
+  }
+]

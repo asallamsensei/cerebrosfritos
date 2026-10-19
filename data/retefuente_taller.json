@@ -1,0 +1,5216 @@
+{
+  "title": "Taller de retención en la fuente No. 2",
+  "period": "2026-09",
+  "company": "Sembremos Ltda.",
+  "cases": [
+    {
+      "id": "e01",
+      "title": "Compra con descuento condicionado",
+      "short": "Mercancía · Agronorte",
+      "kind": "Compra de mercancía",
+      "vendor": "Agronorte S.A.",
+      "buyer": "Sembremos Ltda.",
+      "amount": 6000000,
+      "included": true,
+      "vat": true,
+      "rate": 0.025,
+      "rv": false,
+      "acct": "1435",
+      "revenue": "4135",
+      "rfacct": "236540",
+      "cat": "Compras",
+      "paid": false,
+      "statement": "Sembremos compra a Agronorte S.A., gran contribuyente y responsable del IVA, mercancía gravada por $6.000.000 con IVA incluido. Ofrecen un descuento del 10% si paga antes de ocho días.",
+      "assumptions": [
+        "Mercancía gravada a la tarifa general del 19%, destinada a reventa gravada. No hay constancia de que se haya cumplido la condición del pronto pago.",
+        "Agronorte no figura como autorretenedor. Se trabaja la compra general a un declarante, por encima del umbral."
+      ],
+      "refs": [
+        "descuento",
+        "agentes"
+      ],
+      "review": "El apunte descuenta 10% antes de separar el IVA. Esta ruta conserva la factura inicial completa porque el beneficio es condicionado.",
+      "values": {
+        "base": 5042017,
+        "vat": 957983,
+        "total": 6000000,
+        "rf": 126050,
+        "rv": 0,
+        "net": 5873950
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "1435",
+            "side": "D",
+            "amount": 5042017,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-D",
+            "side": "D",
+            "amount": 957983,
+            "label": "IVA de la compra",
+            "reveal": "vat"
+          },
+          {
+            "account": "236540",
+            "side": "C",
+            "amount": 126050,
+            "label": "Retención de renta practicada",
+            "reveal": "rf"
+          },
+          {
+            "account": "2205",
+            "side": "C",
+            "amount": 5873950,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 5873950,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "135515",
+            "side": "D",
+            "amount": 126050,
+            "label": "Retención de renta a favor",
+            "reveal": "rf"
+          },
+          {
+            "account": "4135",
+            "side": "C",
+            "amount": 5042017,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-G",
+            "side": "C",
+            "amount": 957983,
+            "label": "IVA generado en la venta",
+            "reveal": "vat"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2205",
+            "side": "D",
+            "amount": 5873950,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 5873950,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 5873950,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 5873950,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e01-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w0",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w1",
+              "text": "Honorarios de persona jurídica"
+            },
+            {
+              "id": "w2",
+              "text": "Compra de activo fijo"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es compra de mercancía. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "descuento",
+            "agentes"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e01-decision",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Restamos ya el descuento del 10%?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "No: aún depende del pronto pago"
+            },
+            {
+              "id": "w0",
+              "text": "Sí: sobre el total y el IVA"
+            },
+            {
+              "id": "w1",
+              "text": "Sí: solo sobre la retefuente"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue una condición futura de un descuento ya concedido.",
+          "explanation": "Se registra inicialmente la factura completa. El descuento condicionado no reduce la base del IVA; su reconocimiento posterior exige conocer si se cumplió y cómo se pactó.",
+          "calculation": [],
+          "sources": [
+            "descuento",
+            "agentes"
+          ],
+          "stage": "decision",
+          "reveal": null
+        },
+        {
+          "id": "e01-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$5.042.017"
+            },
+            {
+              "id": "w0",
+              "text": "$6.000.000"
+            },
+            {
+              "id": "w1",
+              "text": "$4.860.000"
+            },
+            {
+              "id": "w2",
+              "text": "$5.142.017"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "El precio incluye IVA: $6.000.000 ÷ 1,19 = $5.042.017 (redondeado).",
+          "calculation": [
+            "El precio incluye IVA: $6.000.000 ÷ 1,19 = $5.042.017 (redondeado)."
+          ],
+          "sources": [
+            "descuento",
+            "agentes"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e01-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde Sembremos Ltda., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "152805 · Equipos de procesamiento de datos"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 1435 porque aumenta el activo o se reconoce el gasto. ",
+          "calculation": [],
+          "sources": [
+            "descuento",
+            "agentes"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e01-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$957.983"
+            },
+            {
+              "id": "w0",
+              "text": "$1.140.000"
+            },
+            {
+              "id": "w1",
+              "text": "$756.303"
+            },
+            {
+              "id": "w2",
+              "text": "$0"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "IVA = $6.000.000 − $5.042.017 = $957.983.",
+          "calculation": [
+            "IVA = $6.000.000 − $5.042.017 = $957.983."
+          ],
+          "sources": [
+            "descuento",
+            "agentes"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e01-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "2,5%"
+            },
+            {
+              "id": "w0",
+              "text": "4%"
+            },
+            {
+              "id": "w1",
+              "text": "11%"
+            },
+            {
+              "id": "w2",
+              "text": "3,5%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "Compra general a una sociedad declarante: se usa 2,5% sobre la base sin IVA. Ser gran contribuyente no significa ser autorretenedor.",
+          "calculation": [],
+          "sources": [
+            "descuento",
+            "agentes"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e01-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con la tarifa de 2,5%, ¿cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$126.050"
+            },
+            {
+              "id": "w0",
+              "text": "$150.000"
+            },
+            {
+              "id": "w1",
+              "text": "$176.471"
+            },
+            {
+              "id": "w2",
+              "text": "$201.681"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 2,5%. Aplica a la base sin IVA.",
+          "explanation": "Base $5.042.017 × 2,5% = $126.050. ",
+          "calculation": [
+            "$5.042.017 × 2,5% = $126.050"
+          ],
+          "sources": [
+            "descuento",
+            "agentes"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e01-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$143.697"
+            },
+            {
+              "id": "w1",
+              "text": "$756.303"
+            },
+            {
+              "id": "w2",
+              "text": "$900.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "Los dos participantes son grandes contribuyentes: opera la excepción entre estos agentes de reteIVA.",
+          "calculation": [],
+          "sources": [
+            "descuento",
+            "agentes"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e01-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$5.873.950"
+            },
+            {
+              "id": "w0",
+              "text": "$6.000.000"
+            },
+            {
+              "id": "w1",
+              "text": "$5.042.017"
+            },
+            {
+              "id": "w2",
+              "text": "$6.126.050"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $6.000.000 − $126.050 − $0 = $5.873.950. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $6.000.000",
+            "Renta: −$126.050",
+            "ReteIVA: −$0",
+            "Neto: $5.873.950"
+          ],
+          "sources": [
+            "descuento",
+            "agentes"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e01-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e01-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 1,
+      "sources": [
+        "descuento",
+        "agentes",
+        "puc",
+        "uvt",
+        "vigencia"
+      ]
+    },
+    {
+      "id": "e02",
+      "title": "Mantenimiento y dos retenciones",
+      "short": "Mantenimiento · Magiver",
+      "kind": "Servicio de mantenimiento",
+      "vendor": "Taller Magiver / Otoniel Samper",
+      "buyer": "Sembremos Ltda.",
+      "amount": 2000000,
+      "included": true,
+      "vat": true,
+      "rate": 0.04,
+      "rv": true,
+      "acct": "514515",
+      "revenue": "4155",
+      "rfacct": "236525",
+      "cat": "Servicios",
+      "paid": true,
+      "common": true,
+      "statement": "Se paga a Taller Magiver, de Otoniel Samper, responsable del IVA, mantenimiento del equipo de refrigeración por $2.000.000. Sus ingresos brutos del año anterior fueron $1.380.000.000.",
+      "assumptions": [
+        "Para seguir la lectura de clase, los $2.000.000 incluyen IVA del 19%; el enunciado no lo precisa.",
+        "Servicio empresarial de mantenimiento prestado por un declarante; se usa el régimen ordinario del 4%. Si fueran rentas personales de trabajo, se revisaría el artículo 383.",
+        "El IVA del servicio se conserva por depurar hasta conocer su destino y la proporción de operaciones del período."
+      ],
+      "refs": [
+        "servicios",
+        "pn",
+        "reteiva",
+        "prorrata"
+      ],
+      "values": {
+        "base": 1680672,
+        "vat": 319328,
+        "total": 2000000,
+        "rf": 67227,
+        "rv": 47899,
+        "net": 1884874
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "514515",
+            "side": "D",
+            "amount": 1680672,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-D",
+            "side": "D",
+            "amount": 319328,
+            "label": "IVA de la compra",
+            "reveal": "vat"
+          },
+          {
+            "account": "236525",
+            "side": "C",
+            "amount": 67227,
+            "label": "Retención de renta practicada",
+            "reveal": "rf"
+          },
+          {
+            "account": "2367",
+            "side": "C",
+            "amount": 47899,
+            "label": "Retención de IVA practicada",
+            "reveal": "rv"
+          },
+          {
+            "account": "2335",
+            "side": "C",
+            "amount": 1884874,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 1884874,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "135515",
+            "side": "D",
+            "amount": 67227,
+            "label": "Retención de renta a favor",
+            "reveal": "rf"
+          },
+          {
+            "account": "135517",
+            "side": "D",
+            "amount": 47899,
+            "label": "Retención de IVA a favor",
+            "reveal": "rv"
+          },
+          {
+            "account": "4155",
+            "side": "C",
+            "amount": 1680672,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-G",
+            "side": "C",
+            "amount": 319328,
+            "label": "IVA generado en la venta",
+            "reveal": "vat"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2335",
+            "side": "D",
+            "amount": 1884874,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 1884874,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 1884874,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 1884874,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e02-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Servicio de mantenimiento"
+            },
+            {
+              "id": "w0",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w1",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w2",
+              "text": "Honorarios de persona jurídica"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es servicio de mantenimiento. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "servicios",
+            "pn",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e02-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$1.680.672"
+            },
+            {
+              "id": "w0",
+              "text": "$2.000.000"
+            },
+            {
+              "id": "w1",
+              "text": "$1.620.000"
+            },
+            {
+              "id": "w2",
+              "text": "$1.780.672"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "El precio incluye IVA: $2.000.000 ÷ 1,19 = $1.680.672 (redondeado).",
+          "calculation": [
+            "El precio incluye IVA: $2.000.000 ÷ 1,19 = $1.680.672 (redondeado)."
+          ],
+          "sources": [
+            "servicios",
+            "pn",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e02-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde Sembremos Ltda., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "514515 · Mantenimiento de maquinaria y equipo"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 514515 porque aumenta el activo o se reconoce el gasto. ",
+          "calculation": [],
+          "sources": [
+            "servicios",
+            "pn",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e02-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$319.328"
+            },
+            {
+              "id": "w0",
+              "text": "$380.000"
+            },
+            {
+              "id": "w1",
+              "text": "$252.101"
+            },
+            {
+              "id": "w2",
+              "text": "$0"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "IVA = $2.000.000 − $1.680.672 = $319.328. Para Sembremos se mantiene por depurar: no se afirma que sea totalmente descontable.",
+          "calculation": [
+            "IVA = $2.000.000 − $1.680.672 = $319.328. Para Sembremos se mantiene por depurar: no se afirma que sea totalmente descontable."
+          ],
+          "sources": [
+            "servicios",
+            "pn",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e02-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "4%"
+            },
+            {
+              "id": "w0",
+              "text": "2,5%"
+            },
+            {
+              "id": "w1",
+              "text": "11%"
+            },
+            {
+              "id": "w2",
+              "text": "3,5%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "El servicio empresarial de mantenimiento se trabaja al 4% porque el beneficiario es declarante, según los ingresos informados y el escenario elegido.",
+          "calculation": [],
+          "sources": [
+            "servicios",
+            "pn",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e02-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con la tarifa de 4%, ¿cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$67.227"
+            },
+            {
+              "id": "w0",
+              "text": "$80.000"
+            },
+            {
+              "id": "w1",
+              "text": "$58.824"
+            },
+            {
+              "id": "w2",
+              "text": "$0"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 4%. Aplica a la base sin IVA.",
+          "explanation": "Base $1.680.672 × 4% = $67.227. La calidad de declarante lleva al 4% en el escenario de servicios.",
+          "calculation": [
+            "$1.680.672 × 4% = $67.227"
+          ],
+          "sources": [
+            "servicios",
+            "pn",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e02-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$47.899"
+            },
+            {
+              "id": "w0",
+              "text": "$252.101"
+            },
+            {
+              "id": "w1",
+              "text": "$0"
+            },
+            {
+              "id": "w2",
+              "text": "$300.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "ReteIVA = $319.328 × 15% = $47.899. Sembremos actúa como agente retenedor y el proveedor no está en la excepción del escenario.",
+          "calculation": [
+            "$319.328 × 15% = $47.899"
+          ],
+          "sources": [
+            "servicios",
+            "pn",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e02-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$1.884.874"
+            },
+            {
+              "id": "w0",
+              "text": "$2.000.000"
+            },
+            {
+              "id": "w1",
+              "text": "$1.680.672"
+            },
+            {
+              "id": "w2",
+              "text": "$2.115.126"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $2.000.000 − $67.227 − $47.899 = $1.884.874. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $2.000.000",
+            "Renta: −$67.227",
+            "ReteIVA: −$47.899",
+            "Neto: $1.884.874"
+          ],
+          "sources": [
+            "servicios",
+            "pn",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e02-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e02-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 2,
+      "sources": [
+        "servicios",
+        "pn",
+        "reteiva",
+        "prorrata",
+        "puc",
+        "uvt",
+        "vigencia"
+      ]
+    },
+    {
+      "id": "e03",
+      "title": "Alquiler de un equipo",
+      "short": "Alquiler · Amplificación",
+      "kind": "Arrendamiento de bien mueble",
+      "vendor": "Carlos Rodríguez",
+      "buyer": "Sembremos Ltda.",
+      "amount": 2000000,
+      "included": false,
+      "vat": false,
+      "rate": 0.04,
+      "rv": false,
+      "acct": "512015",
+      "revenue": "4155",
+      "rfacct": "236530",
+      "cat": "Arrendamientos",
+      "paid": true,
+      "statement": "Se paga a Carlos Rodríguez, no responsable del IVA, $2.000.000 por el alquiler de un equipo de amplificación para el aniversario.",
+      "assumptions": [
+        "Se alquila el equipo, sin comprarlo. El prestador no factura IVA por su condición de no responsable."
+      ],
+      "refs": [
+        "muebles"
+      ],
+      "values": {
+        "base": 2000000,
+        "vat": 0,
+        "total": 2000000,
+        "rf": 80000,
+        "rv": 0,
+        "net": 1920000
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "512015",
+            "side": "D",
+            "amount": 2000000,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "236530",
+            "side": "C",
+            "amount": 80000,
+            "label": "Retención de renta practicada",
+            "reveal": "rf"
+          },
+          {
+            "account": "2335",
+            "side": "C",
+            "amount": 1920000,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 1920000,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "135515",
+            "side": "D",
+            "amount": 80000,
+            "label": "Retención de renta a favor",
+            "reveal": "rf"
+          },
+          {
+            "account": "4155",
+            "side": "C",
+            "amount": 2000000,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2335",
+            "side": "D",
+            "amount": 1920000,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 1920000,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 1920000,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 1920000,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e03-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w0",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w1",
+              "text": "Honorarios de persona jurídica"
+            },
+            {
+              "id": "w2",
+              "text": "Compra de activo fijo"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es arrendamiento de bien mueble. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "muebles"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e03-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$2.000.000"
+            },
+            {
+              "id": "w0",
+              "text": "$1.620.000"
+            },
+            {
+              "id": "w1",
+              "text": "$2.380.000"
+            },
+            {
+              "id": "w2",
+              "text": "$2.100.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "No se adiciona IVA en este escenario. La base de la operación es $2.000.000.",
+          "calculation": [
+            "No se adiciona IVA en este escenario. La base de la operación es $2.000.000."
+          ],
+          "sources": [
+            "muebles"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e03-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde Sembremos Ltda., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "512015 · Arrendamiento de maquinaria y equipo"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 512015 porque aumenta el activo o se reconoce el gasto. ",
+          "calculation": [],
+          "sources": [
+            "muebles"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e03-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$380.000"
+            },
+            {
+              "id": "w1",
+              "text": "$300.000"
+            },
+            {
+              "id": "w2",
+              "text": "$190.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "En esta operación no se factura un IVA separado; su valor es $0.",
+          "calculation": [
+            "En esta operación no se factura un IVA separado; su valor es $0."
+          ],
+          "sources": [
+            "muebles"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e03-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "4%"
+            },
+            {
+              "id": "w0",
+              "text": "2,5%"
+            },
+            {
+              "id": "w1",
+              "text": "11%"
+            },
+            {
+              "id": "w2",
+              "text": "3,5%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "El alquiler de un equipo es arrendamiento de bien mueble: 4%. No se usa la tarifa del arrendamiento de un local.",
+          "calculation": [],
+          "sources": [
+            "muebles"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e03-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con la tarifa de 4%, ¿cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$80.000"
+            },
+            {
+              "id": "w0",
+              "text": "$70.000"
+            },
+            {
+              "id": "w1",
+              "text": "$0"
+            },
+            {
+              "id": "w2",
+              "text": "$90.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 4%. Aplica a la base sin IVA.",
+          "explanation": "Base $2.000.000 × 4% = $80.000. ",
+          "calculation": [
+            "$2.000.000 × 4% = $80.000"
+          ],
+          "sources": [
+            "muebles"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e03-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$300.000"
+            },
+            {
+              "id": "w1",
+              "text": "$15.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "No hay IVA facturado que retener en este escenario.",
+          "calculation": [],
+          "sources": [
+            "muebles"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e03-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$1.920.000"
+            },
+            {
+              "id": "w0",
+              "text": "$2.000.000"
+            },
+            {
+              "id": "w1",
+              "text": "$2.080.000"
+            },
+            {
+              "id": "w2",
+              "text": "$1.970.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $2.000.000 − $80.000 − $0 = $1.920.000. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $2.000.000",
+            "Renta: −$80.000",
+            "ReteIVA: −$0",
+            "Neto: $1.920.000"
+          ],
+          "sources": [
+            "muebles"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e03-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e03-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 3,
+      "sources": [
+        "muebles",
+        "puc",
+        "uvt",
+        "vigencia"
+      ]
+    },
+    {
+      "id": "e04",
+      "title": "Ahora Sembremos es el vendedor",
+      "short": "Venta · La Tienda Agrícola",
+      "kind": "Venta de mercancía",
+      "vendor": "Sembremos Ltda.",
+      "buyer": "La Tienda Agrícola S.A.S.",
+      "amount": 6000000,
+      "included": false,
+      "vat": true,
+      "rate": 0.025,
+      "rv": false,
+      "acct": "1435",
+      "revenue": "4135",
+      "rfacct": "236540",
+      "cat": "Compras",
+      "paid": false,
+      "statement": "Sembremos vende a La Tienda Agrícola S.A.S., responsable del IVA y autorretenedora, mercancía gravada por $6.000.000 más IVA.",
+      "assumptions": [
+        "Sembremos no está identificado como autorretenedor ordinario. La calidad de autorretenedor del comprador no elimina sus retenciones a terceros.",
+        "No se presume que el comprador sea agente de reteIVA por ser autorretenedor de renta. Tampoco se aporta el costo de la mercancía vendida."
+      ],
+      "refs": [
+        "agentes",
+        "puc"
+      ],
+      "values": {
+        "base": 6000000,
+        "vat": 1140000,
+        "total": 7140000,
+        "rf": 150000,
+        "rv": 0,
+        "net": 6990000
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "1435",
+            "side": "D",
+            "amount": 6000000,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-D",
+            "side": "D",
+            "amount": 1140000,
+            "label": "IVA de la compra",
+            "reveal": "vat"
+          },
+          {
+            "account": "236540",
+            "side": "C",
+            "amount": 150000,
+            "label": "Retención de renta practicada",
+            "reveal": "rf"
+          },
+          {
+            "account": "2205",
+            "side": "C",
+            "amount": 6990000,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 6990000,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "135515",
+            "side": "D",
+            "amount": 150000,
+            "label": "Retención de renta a favor",
+            "reveal": "rf"
+          },
+          {
+            "account": "4135",
+            "side": "C",
+            "amount": 6000000,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-G",
+            "side": "C",
+            "amount": 1140000,
+            "label": "IVA generado en la venta",
+            "reveal": "vat"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2205",
+            "side": "D",
+            "amount": 6990000,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 6990000,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 6990000,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 6990000,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e04-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Venta de mercancía"
+            },
+            {
+              "id": "w0",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w1",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w2",
+              "text": "Honorarios de persona jurídica"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es venta de mercancía. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "agentes",
+            "puc"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e04-decision",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿La calidad de autorretenedor del comprador elimina la retención a Sembremos?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "No: hay que revisar la calidad del vendedor"
+            },
+            {
+              "id": "w0",
+              "text": "Sí: nunca retiene a terceros"
+            },
+            {
+              "id": "w1",
+              "text": "Sí: también elimina el IVA"
+            }
+          ],
+          "answer": "ok",
+          "hint": "La autorretención trata los ingresos propios.",
+          "explanation": "La Tienda Agrícola debe analizar la compra a Sembremos como agente retenedor. Ser autorretenedora no la libera de retener a otros.",
+          "calculation": [],
+          "sources": [
+            "agentes",
+            "puc"
+          ],
+          "stage": "decision",
+          "reveal": null
+        },
+        {
+          "id": "e04-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$6.000.000"
+            },
+            {
+              "id": "w0",
+              "text": "$7.140.000"
+            },
+            {
+              "id": "w1",
+              "text": "$4.860.000"
+            },
+            {
+              "id": "w2",
+              "text": "$6.100.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "El valor indicado es antes de IVA: la base es $6.000.000.",
+          "calculation": [
+            "El valor indicado es antes de IVA: la base es $6.000.000."
+          ],
+          "sources": [
+            "agentes",
+            "puc"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e04-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde La Tienda Agrícola S.A.S., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "152805 · Equipos de procesamiento de datos"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 1435 porque aumenta el activo o se reconoce el gasto. ",
+          "calculation": [],
+          "sources": [
+            "agentes",
+            "puc"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e04-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$1.140.000"
+            },
+            {
+              "id": "w0",
+              "text": "$1.356.600"
+            },
+            {
+              "id": "w1",
+              "text": "$900.000"
+            },
+            {
+              "id": "w2",
+              "text": "$0"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "IVA = $6.000.000 × 19% = $1.140.000.",
+          "calculation": [
+            "IVA = $6.000.000 × 19% = $1.140.000."
+          ],
+          "sources": [
+            "agentes",
+            "puc"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e04-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "2,5%"
+            },
+            {
+              "id": "w0",
+              "text": "4%"
+            },
+            {
+              "id": "w1",
+              "text": "11%"
+            },
+            {
+              "id": "w2",
+              "text": "3,5%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "El comprador retiene a Sembremos por la compra general a un declarante: 2,5%. La autorretención del comprador es un asunto separado.",
+          "calculation": [],
+          "sources": [
+            "agentes",
+            "puc"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e04-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con la tarifa de 2,5%, ¿cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$150.000"
+            },
+            {
+              "id": "w0",
+              "text": "$178.500"
+            },
+            {
+              "id": "w1",
+              "text": "$210.000"
+            },
+            {
+              "id": "w2",
+              "text": "$240.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 2,5%. Aplica a la base sin IVA.",
+          "explanation": "Base $6.000.000 × 2,5% = $150.000. ",
+          "calculation": [
+            "$6.000.000 × 2,5% = $150.000"
+          ],
+          "sources": [
+            "agentes",
+            "puc"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e04-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$171.000"
+            },
+            {
+              "id": "w1",
+              "text": "$900.000"
+            },
+            {
+              "id": "w2",
+              "text": "$1.071.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "No se presume que el comprador sea agente de reteIVA por ser autorretenedor de renta; se revisa además la calidad del vendedor. En este escenario no se practica.",
+          "calculation": [],
+          "sources": [
+            "agentes",
+            "puc"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e04-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$6.990.000"
+            },
+            {
+              "id": "w0",
+              "text": "$7.140.000"
+            },
+            {
+              "id": "w1",
+              "text": "$6.000.000"
+            },
+            {
+              "id": "w2",
+              "text": "$7.290.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $7.140.000 − $150.000 − $0 = $6.990.000. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $7.140.000",
+            "Renta: −$150.000",
+            "ReteIVA: −$0",
+            "Neto: $6.990.000"
+          ],
+          "sources": [
+            "agentes",
+            "puc"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e04-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e04-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 4,
+      "sources": [
+        "agentes",
+        "puc",
+        "uvt",
+        "vigencia"
+      ]
+    },
+    {
+      "id": "e05",
+      "title": "Bien excluido y vendedor autorretenedor",
+      "short": "Compra · Casa del Agricultor",
+      "kind": "Compra de bien excluido",
+      "vendor": "La Casa del Agricultor S.A.",
+      "buyer": "Sembremos Ltda.",
+      "amount": 720000,
+      "included": false,
+      "vat": false,
+      "rate": 0,
+      "rv": false,
+      "acct": "1435",
+      "revenue": "4135",
+      "rfacct": "236540",
+      "cat": "Compras",
+      "paid": false,
+      "statement": "Se compran a La Casa del Agricultor S.A., responsable del IVA, gran contribuyente y autorretenedora, bienes excluidos por $720.000.",
+      "assumptions": [
+        "Se supone autorretenedor ordinario autorizado para este ingreso, no solo sujeto a autorretención especial.",
+        "No se calcula su autorretención propia: el enunciado no aporta resolución, alcance, tipo exacto del bien ni actividad CIIU. Eso no impide registrar la compra y venta."
+      ],
+      "refs": [
+        "puc",
+        "vigencia"
+      ],
+      "review": "No se copia automáticamente la autorretención de $18.000 del apunte: necesita precisar el régimen y el concepto del ingreso.",
+      "values": {
+        "base": 720000,
+        "vat": 0,
+        "total": 720000,
+        "rf": 0,
+        "rv": 0,
+        "net": 720000
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "1435",
+            "side": "D",
+            "amount": 720000,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "2205",
+            "side": "C",
+            "amount": 720000,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 720000,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "4135",
+            "side": "C",
+            "amount": 720000,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2205",
+            "side": "D",
+            "amount": 720000,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 720000,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 720000,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 720000,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e05-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Compra de bien excluido"
+            },
+            {
+              "id": "w0",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w1",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w2",
+              "text": "Honorarios de persona jurídica"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es compra de bien excluido. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "puc",
+            "vigencia"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e05-decision",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Se cobra IVA porque el vendedor es responsable del IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "No: el bien de esta operación es excluido"
+            },
+            {
+              "id": "w0",
+              "text": "Sí: todo responsable cobra 19%"
+            },
+            {
+              "id": "w1",
+              "text": "Sí: pero solo al comprador gran contribuyente"
+            }
+          ],
+          "answer": "ok",
+          "hint": "La condición del bien también importa.",
+          "explanation": "La condición del vendedor no vuelve gravado un bien excluido. Aquí el precio no lleva IVA.",
+          "calculation": [],
+          "sources": [
+            "puc",
+            "vigencia"
+          ],
+          "stage": "decision",
+          "reveal": null
+        },
+        {
+          "id": "e05-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$720.000"
+            },
+            {
+              "id": "w0",
+              "text": "$583.200"
+            },
+            {
+              "id": "w1",
+              "text": "$856.800"
+            },
+            {
+              "id": "w2",
+              "text": "$820.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "No se adiciona IVA en este escenario. La base de la operación es $720.000.",
+          "calculation": [
+            "No se adiciona IVA en este escenario. La base de la operación es $720.000."
+          ],
+          "sources": [
+            "puc",
+            "vigencia"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e05-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde Sembremos Ltda., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "152805 · Equipos de procesamiento de datos"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 1435 porque aumenta el activo o se reconoce el gasto. ",
+          "calculation": [],
+          "sources": [
+            "puc",
+            "vigencia"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e05-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$136.800"
+            },
+            {
+              "id": "w1",
+              "text": "$108.000"
+            },
+            {
+              "id": "w2",
+              "text": "$190.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "En esta operación no se factura un IVA separado; su valor es $0.",
+          "calculation": [
+            "En esta operación no se factura un IVA separado; su valor es $0."
+          ],
+          "sources": [
+            "puc",
+            "vigencia"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e05-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "El comprador no practica retención"
+            },
+            {
+              "id": "w0",
+              "text": "2,5%"
+            },
+            {
+              "id": "w1",
+              "text": "4%"
+            },
+            {
+              "id": "w2",
+              "text": "11%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "Bajo el supuesto de autorretenedor ordinario autorizado para este ingreso, Sembremos no le practica retención. Se debe verificar ese alcance en la realidad.",
+          "calculation": [],
+          "sources": [
+            "puc",
+            "vigencia"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e05-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$25.200"
+            },
+            {
+              "id": "w1",
+              "text": "$28.800"
+            },
+            {
+              "id": "w2",
+              "text": "$10.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 0%. Revisa quién es autorretenedor.",
+          "explanation": "Bajo el supuesto de autorretenedor ordinario del vendedor, el comprador no le practica esta retención. No confundir con autorretención especial.",
+          "calculation": [
+            "$720.000 × 0% = $0"
+          ],
+          "sources": [
+            "puc",
+            "vigencia"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e05-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$108.000"
+            },
+            {
+              "id": "w1",
+              "text": "$15.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "No hay IVA facturado que retener en este escenario.",
+          "calculation": [],
+          "sources": [
+            "puc",
+            "vigencia"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e05-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$720.000"
+            },
+            {
+              "id": "w0",
+              "text": "$770.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $720.000 − $0 − $0 = $720.000. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $720.000",
+            "Renta: −$0",
+            "ReteIVA: −$0",
+            "Neto: $720.000"
+          ],
+          "sources": [
+            "puc",
+            "vigencia"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e05-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e05-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 5,
+      "sources": [
+        "puc",
+        "vigencia",
+        "uvt"
+      ]
+    },
+    {
+      "id": "e06",
+      "title": "Honorarios de una sociedad",
+      "short": "Asesoría jurídica",
+      "kind": "Honorarios de persona jurídica",
+      "vendor": "Servicios Integrales S.A.",
+      "buyer": "Sembremos Ltda.",
+      "amount": 4800000,
+      "included": false,
+      "vat": true,
+      "rate": 0.11,
+      "rv": false,
+      "acct": "511025",
+      "revenue": "4155",
+      "rfacct": "236515",
+      "cat": "Honorarios",
+      "paid": true,
+      "common": true,
+      "statement": "Se paga a Servicios Integrales S.A., responsable del IVA y gran contribuyente, asesoría jurídica por $4.800.000 más IVA.",
+      "assumptions": [
+        "Se usan honorarios ordinarios al 11%; el proveedor no se identifica como autorretenedor.",
+        "El IVA del servicio común queda sujeto a depuración."
+      ],
+      "refs": [
+        "honorarios",
+        "agentes",
+        "prorrata"
+      ],
+      "values": {
+        "base": 4800000,
+        "vat": 912000,
+        "total": 5712000,
+        "rf": 528000,
+        "rv": 0,
+        "net": 5184000
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "511025",
+            "side": "D",
+            "amount": 4800000,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-D",
+            "side": "D",
+            "amount": 912000,
+            "label": "IVA de la compra",
+            "reveal": "vat"
+          },
+          {
+            "account": "236515",
+            "side": "C",
+            "amount": 528000,
+            "label": "Retención de renta practicada",
+            "reveal": "rf"
+          },
+          {
+            "account": "2335",
+            "side": "C",
+            "amount": 5184000,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 5184000,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "135515",
+            "side": "D",
+            "amount": 528000,
+            "label": "Retención de renta a favor",
+            "reveal": "rf"
+          },
+          {
+            "account": "4155",
+            "side": "C",
+            "amount": 4800000,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-G",
+            "side": "C",
+            "amount": 912000,
+            "label": "IVA generado en la venta",
+            "reveal": "vat"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2335",
+            "side": "D",
+            "amount": 5184000,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 5184000,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 5184000,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 5184000,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e06-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Honorarios de persona jurídica"
+            },
+            {
+              "id": "w0",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w1",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w2",
+              "text": "Compra de activo fijo"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es honorarios de persona jurídica. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "honorarios",
+            "agentes",
+            "prorrata"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e06-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$4.800.000"
+            },
+            {
+              "id": "w0",
+              "text": "$5.712.000"
+            },
+            {
+              "id": "w1",
+              "text": "$3.888.000"
+            },
+            {
+              "id": "w2",
+              "text": "$4.900.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "El valor indicado es antes de IVA: la base es $4.800.000.",
+          "calculation": [
+            "El valor indicado es antes de IVA: la base es $4.800.000."
+          ],
+          "sources": [
+            "honorarios",
+            "agentes",
+            "prorrata"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e06-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde Sembremos Ltda., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "511025 · Asesoría jurídica"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 511025 porque aumenta el activo o se reconoce el gasto. ",
+          "calculation": [],
+          "sources": [
+            "honorarios",
+            "agentes",
+            "prorrata"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e06-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$912.000"
+            },
+            {
+              "id": "w0",
+              "text": "$1.085.280"
+            },
+            {
+              "id": "w1",
+              "text": "$720.000"
+            },
+            {
+              "id": "w2",
+              "text": "$0"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "IVA = $4.800.000 × 19% = $912.000. Para Sembremos se mantiene por depurar: no se afirma que sea totalmente descontable.",
+          "calculation": [
+            "IVA = $4.800.000 × 19% = $912.000. Para Sembremos se mantiene por depurar: no se afirma que sea totalmente descontable."
+          ],
+          "sources": [
+            "honorarios",
+            "agentes",
+            "prorrata"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e06-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "11%"
+            },
+            {
+              "id": "w0",
+              "text": "2,5%"
+            },
+            {
+              "id": "w1",
+              "text": "4%"
+            },
+            {
+              "id": "w2",
+              "text": "3,5%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "Los honorarios ordinarios a una persona jurídica se trabajan al 11%.",
+          "calculation": [],
+          "sources": [
+            "honorarios",
+            "agentes",
+            "prorrata"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e06-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con la tarifa de 11%, ¿cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$528.000"
+            },
+            {
+              "id": "w0",
+              "text": "$628.320"
+            },
+            {
+              "id": "w1",
+              "text": "$168.000"
+            },
+            {
+              "id": "w2",
+              "text": "$192.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 11%. Aplica a la base sin IVA.",
+          "explanation": "Base $4.800.000 × 11% = $528.000. ",
+          "calculation": [
+            "$4.800.000 × 11% = $528.000"
+          ],
+          "sources": [
+            "honorarios",
+            "agentes",
+            "prorrata"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e06-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$136.800"
+            },
+            {
+              "id": "w1",
+              "text": "$720.000"
+            },
+            {
+              "id": "w2",
+              "text": "$856.800"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "Los dos participantes son grandes contribuyentes: opera la excepción entre estos agentes de reteIVA.",
+          "calculation": [],
+          "sources": [
+            "honorarios",
+            "agentes",
+            "prorrata"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e06-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$5.184.000"
+            },
+            {
+              "id": "w0",
+              "text": "$5.712.000"
+            },
+            {
+              "id": "w1",
+              "text": "$4.800.000"
+            },
+            {
+              "id": "w2",
+              "text": "$6.240.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $5.712.000 − $528.000 − $0 = $5.184.000. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $5.712.000",
+            "Renta: −$528.000",
+            "ReteIVA: −$0",
+            "Neto: $5.184.000"
+          ],
+          "sources": [
+            "honorarios",
+            "agentes",
+            "prorrata"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e06-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e06-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 6,
+      "sources": [
+        "honorarios",
+        "agentes",
+        "prorrata",
+        "puc",
+        "uvt",
+        "vigencia"
+      ]
+    },
+    {
+      "id": "e07",
+      "title": "Asesoría de una persona natural",
+      "short": "Software · Laurence Lara",
+      "kind": "Honorarios de persona natural",
+      "vendor": "Laurence Lara",
+      "buyer": "Sembremos Ltda.",
+      "amount": 2000000,
+      "included": true,
+      "vat": true,
+      "rate": 0.1,
+      "rv": true,
+      "acct": "511035",
+      "revenue": "4155",
+      "rfacct": "236515",
+      "cat": "Honorarios",
+      "paid": true,
+      "common": true,
+      "statement": "Se paga a Laurence Lara, responsable del IVA, asesoría en manejo de software contable por $2.000.000.",
+      "assumptions": [
+        "Se interpreta el precio con IVA incluido, como en los apuntes; hay que confirmar la factura.",
+        "Escenario didáctico: honorarios en régimen ordinario, con solicitud de costos/deducciones, sin superar los supuestos de 3.300 UVT que llevan al 11%. Se aplica 10%.",
+        "Sin ese supuesto no hay respuesta única: puede ser necesario aplicar la tabla del artículo 383. Ser responsable del IVA no basta para elegir 11%.",
+        "El IVA común queda pendiente de depuración."
+      ],
+      "refs": [
+        "pn",
+        "honorarios",
+        "prorrata"
+      ],
+      "review": "El apunte usa 11%. Esta ruta usa 10% solo bajo el supuesto declarado; no afirma que el enunciado por sí solo determine esa tarifa.",
+      "values": {
+        "base": 1680672,
+        "vat": 319328,
+        "total": 2000000,
+        "rf": 168067,
+        "rv": 47899,
+        "net": 1784034
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "511035",
+            "side": "D",
+            "amount": 1680672,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-D",
+            "side": "D",
+            "amount": 319328,
+            "label": "IVA de la compra",
+            "reveal": "vat"
+          },
+          {
+            "account": "236515",
+            "side": "C",
+            "amount": 168067,
+            "label": "Retención de renta practicada",
+            "reveal": "rf"
+          },
+          {
+            "account": "2367",
+            "side": "C",
+            "amount": 47899,
+            "label": "Retención de IVA practicada",
+            "reveal": "rv"
+          },
+          {
+            "account": "2335",
+            "side": "C",
+            "amount": 1784034,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 1784034,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "135515",
+            "side": "D",
+            "amount": 168067,
+            "label": "Retención de renta a favor",
+            "reveal": "rf"
+          },
+          {
+            "account": "135517",
+            "side": "D",
+            "amount": 47899,
+            "label": "Retención de IVA a favor",
+            "reveal": "rv"
+          },
+          {
+            "account": "4155",
+            "side": "C",
+            "amount": 1680672,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-G",
+            "side": "C",
+            "amount": 319328,
+            "label": "IVA generado en la venta",
+            "reveal": "vat"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2335",
+            "side": "D",
+            "amount": 1784034,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 1784034,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 1784034,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 1784034,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e07-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Honorarios de persona natural"
+            },
+            {
+              "id": "w0",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w1",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w2",
+              "text": "Honorarios de persona jurídica"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es honorarios de persona natural. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "pn",
+            "honorarios",
+            "prorrata"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e07-decision",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Qué falta antes de fijar la retefuente de Laurence?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Conocer el régimen de renta y condiciones del contrato"
+            },
+            {
+              "id": "w0",
+              "text": "Solo saber que es responsable del IVA"
+            },
+            {
+              "id": "w1",
+              "text": "El color de la factura"
+            }
+          ],
+          "answer": "ok",
+          "hint": "No conviertas una calidad de IVA en tarifa de renta.",
+          "explanation": "El taller omite datos. Para practicar elegimos expresamente honorarios ordinarios al 10%; la tabla del artículo 383 u otros supuestos pueden cambiar el resultado.",
+          "calculation": [],
+          "sources": [
+            "pn",
+            "honorarios",
+            "prorrata"
+          ],
+          "stage": "decision",
+          "reveal": null
+        },
+        {
+          "id": "e07-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$1.680.672"
+            },
+            {
+              "id": "w0",
+              "text": "$2.000.000"
+            },
+            {
+              "id": "w1",
+              "text": "$1.620.000"
+            },
+            {
+              "id": "w2",
+              "text": "$1.780.672"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "El precio incluye IVA: $2.000.000 ÷ 1,19 = $1.680.672 (redondeado).",
+          "calculation": [
+            "El precio incluye IVA: $2.000.000 ÷ 1,19 = $1.680.672 (redondeado)."
+          ],
+          "sources": [
+            "pn",
+            "honorarios",
+            "prorrata"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e07-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde Sembremos Ltda., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "511035 · Asesoría técnica"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 511035 porque aumenta el activo o se reconoce el gasto. ",
+          "calculation": [],
+          "sources": [
+            "pn",
+            "honorarios",
+            "prorrata"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e07-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$319.328"
+            },
+            {
+              "id": "w0",
+              "text": "$380.000"
+            },
+            {
+              "id": "w1",
+              "text": "$252.101"
+            },
+            {
+              "id": "w2",
+              "text": "$0"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "IVA = $2.000.000 − $1.680.672 = $319.328. Para Sembremos se mantiene por depurar: no se afirma que sea totalmente descontable.",
+          "calculation": [
+            "IVA = $2.000.000 − $1.680.672 = $319.328. Para Sembremos se mantiene por depurar: no se afirma que sea totalmente descontable."
+          ],
+          "sources": [
+            "pn",
+            "honorarios",
+            "prorrata"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e07-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "10%"
+            },
+            {
+              "id": "w0",
+              "text": "2,5%"
+            },
+            {
+              "id": "w1",
+              "text": "4%"
+            },
+            {
+              "id": "w2",
+              "text": "11%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "Se eligió explícitamente el régimen ordinario de honorarios de persona natural al 10%, sin los supuestos que obligan al 11%. El enunciado no basta para fijar la tarifa.",
+          "calculation": [],
+          "sources": [
+            "pn",
+            "honorarios",
+            "prorrata"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e07-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con la tarifa de 10%, ¿cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$168.067"
+            },
+            {
+              "id": "w0",
+              "text": "$200.000"
+            },
+            {
+              "id": "w1",
+              "text": "$58.824"
+            },
+            {
+              "id": "w2",
+              "text": "$67.227"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 10%. Aplica a la base sin IVA.",
+          "explanation": "Base $1.680.672 × 10% = $168.067.  El 10% depende del escenario elegido; no se infiere solo del enunciado.",
+          "calculation": [
+            "$1.680.672 × 10% = $168.067"
+          ],
+          "sources": [
+            "pn",
+            "honorarios",
+            "prorrata"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e07-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$47.899"
+            },
+            {
+              "id": "w0",
+              "text": "$252.101"
+            },
+            {
+              "id": "w1",
+              "text": "$0"
+            },
+            {
+              "id": "w2",
+              "text": "$300.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "ReteIVA = $319.328 × 15% = $47.899. Sembremos actúa como agente retenedor y el proveedor no está en la excepción del escenario.",
+          "calculation": [
+            "$319.328 × 15% = $47.899"
+          ],
+          "sources": [
+            "pn",
+            "honorarios",
+            "prorrata"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e07-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$1.784.034"
+            },
+            {
+              "id": "w0",
+              "text": "$2.000.000"
+            },
+            {
+              "id": "w1",
+              "text": "$1.680.672"
+            },
+            {
+              "id": "w2",
+              "text": "$2.215.966"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $2.000.000 − $168.067 − $47.899 = $1.784.034. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $2.000.000",
+            "Renta: −$168.067",
+            "ReteIVA: −$47.899",
+            "Neto: $1.784.034"
+          ],
+          "sources": [
+            "pn",
+            "honorarios",
+            "prorrata"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e07-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e07-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 7,
+      "sources": [
+        "pn",
+        "honorarios",
+        "prorrata",
+        "puc",
+        "uvt",
+        "vigencia"
+      ]
+    },
+    {
+      "id": "e08",
+      "title": "Transporte de pasajeros",
+      "short": "Transporte · Luis Garzón",
+      "kind": "Servicio de transporte de pasajeros",
+      "vendor": "Luis Antonio Garzón",
+      "buyer": "Sembremos Ltda.",
+      "amount": 1000000,
+      "included": false,
+      "vat": false,
+      "rate": 0.035,
+      "rv": false,
+      "acct": "513550",
+      "revenue": "4145",
+      "rfacct": "236525",
+      "cat": "Servicios",
+      "paid": true,
+      "statement": "Se paga a Luis Antonio Garzón, persona natural no responsable del IVA, transporte de pasajeros por $1.000.000.",
+      "assumptions": [
+        "Se trabaja transporte de pasajeros, no transporte de carga. El prestador no factura IVA.",
+        "La base supera 10 UVT de 2026 ($523.740), en el régimen aplicable al escenario de septiembre."
+      ],
+      "refs": [
+        "bases",
+        "vigencia"
+      ],
+      "values": {
+        "base": 1000000,
+        "vat": 0,
+        "total": 1000000,
+        "rf": 35000,
+        "rv": 0,
+        "net": 965000
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "513550",
+            "side": "D",
+            "amount": 1000000,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "236525",
+            "side": "C",
+            "amount": 35000,
+            "label": "Retención de renta practicada",
+            "reveal": "rf"
+          },
+          {
+            "account": "2335",
+            "side": "C",
+            "amount": 965000,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 965000,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "135515",
+            "side": "D",
+            "amount": 35000,
+            "label": "Retención de renta a favor",
+            "reveal": "rf"
+          },
+          {
+            "account": "4145",
+            "side": "C",
+            "amount": 1000000,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2335",
+            "side": "D",
+            "amount": 965000,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 965000,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 965000,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 965000,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e08-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Servicio de transporte de pasajeros"
+            },
+            {
+              "id": "w0",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w1",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w2",
+              "text": "Honorarios de persona jurídica"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es servicio de transporte de pasajeros. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "bases",
+            "vigencia"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e08-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$1.000.000"
+            },
+            {
+              "id": "w0",
+              "text": "$810.000"
+            },
+            {
+              "id": "w1",
+              "text": "$1.190.000"
+            },
+            {
+              "id": "w2",
+              "text": "$1.100.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "No se adiciona IVA en este escenario. La base de la operación es $1.000.000.",
+          "calculation": [
+            "No se adiciona IVA en este escenario. La base de la operación es $1.000.000."
+          ],
+          "sources": [
+            "bases",
+            "vigencia"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e08-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde Sembremos Ltda., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "513550 · Transporte, fletes y acarreos"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 513550 porque aumenta el activo o se reconoce el gasto. ",
+          "calculation": [],
+          "sources": [
+            "bases",
+            "vigencia"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e08-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$190.000"
+            },
+            {
+              "id": "w1",
+              "text": "$150.000"
+            },
+            {
+              "id": "w2",
+              "text": "$1.000.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "En esta operación no se factura un IVA separado; su valor es $0.",
+          "calculation": [
+            "En esta operación no se factura un IVA separado; su valor es $0."
+          ],
+          "sources": [
+            "bases",
+            "vigencia"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e08-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "3,5%"
+            },
+            {
+              "id": "w0",
+              "text": "2,5%"
+            },
+            {
+              "id": "w1",
+              "text": "4%"
+            },
+            {
+              "id": "w2",
+              "text": "11%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "El transporte de pasajeros se trabaja al 3,5%; supera el umbral de 10 UVT del régimen usado en septiembre de 2026.",
+          "calculation": [],
+          "sources": [
+            "bases",
+            "vigencia"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e08-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con la tarifa de 3,5%, ¿cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$35.000"
+            },
+            {
+              "id": "w0",
+              "text": "$40.000"
+            },
+            {
+              "id": "w1",
+              "text": "$0"
+            },
+            {
+              "id": "w2",
+              "text": "$45.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 3,5%. Aplica a la base sin IVA.",
+          "explanation": "Base $1.000.000 × 3,5% = $35.000. ",
+          "calculation": [
+            "$1.000.000 × 3,5% = $35.000"
+          ],
+          "sources": [
+            "bases",
+            "vigencia"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e08-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$150.000"
+            },
+            {
+              "id": "w1",
+              "text": "$15.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "No hay IVA facturado que retener en este escenario.",
+          "calculation": [],
+          "sources": [
+            "bases",
+            "vigencia"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e08-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$965.000"
+            },
+            {
+              "id": "w0",
+              "text": "$1.000.000"
+            },
+            {
+              "id": "w1",
+              "text": "$1.035.000"
+            },
+            {
+              "id": "w2",
+              "text": "$1.015.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $1.000.000 − $35.000 − $0 = $965.000. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $1.000.000",
+            "Renta: −$35.000",
+            "ReteIVA: −$0",
+            "Neto: $965.000"
+          ],
+          "sources": [
+            "bases",
+            "vigencia"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e08-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e08-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 8,
+      "sources": [
+        "bases",
+        "vigencia",
+        "puc",
+        "uvt"
+      ]
+    },
+    {
+      "id": "e09",
+      "title": "El arrendamiento del local",
+      "short": "Local · La Casona",
+      "kind": "Arrendamiento de bien inmueble",
+      "vendor": "Inmobiliaria La Casona Ltda.",
+      "buyer": "Sembremos Ltda.",
+      "amount": 3200000,
+      "included": false,
+      "vat": true,
+      "rate": 0.035,
+      "rv": true,
+      "acct": "512010",
+      "revenue": "4155",
+      "rfacct": "236530",
+      "cat": "Arrendamientos",
+      "paid": true,
+      "common": true,
+      "statement": "Se paga a la inmobiliaria La Casona Ltda. el arrendamiento del local por $3.200.000 más IVA.",
+      "assumptions": [
+        "Se supone que La Casona actúa como arrendadora directa, responsable del IVA, no gran contribuyente, ni autorretenedora, ni agente especial de reteIVA.",
+        "Si fuera intermediaria, habría que identificar al propietario y las condiciones del mandato. El IVA común del local requiere depuración."
+      ],
+      "refs": [
+        "bases",
+        "reteiva",
+        "prorrata"
+      ],
+      "values": {
+        "base": 3200000,
+        "vat": 608000,
+        "total": 3808000,
+        "rf": 112000,
+        "rv": 91200,
+        "net": 3604800
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "512010",
+            "side": "D",
+            "amount": 3200000,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-D",
+            "side": "D",
+            "amount": 608000,
+            "label": "IVA de la compra",
+            "reveal": "vat"
+          },
+          {
+            "account": "236530",
+            "side": "C",
+            "amount": 112000,
+            "label": "Retención de renta practicada",
+            "reveal": "rf"
+          },
+          {
+            "account": "2367",
+            "side": "C",
+            "amount": 91200,
+            "label": "Retención de IVA practicada",
+            "reveal": "rv"
+          },
+          {
+            "account": "2335",
+            "side": "C",
+            "amount": 3604800,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 3604800,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "135515",
+            "side": "D",
+            "amount": 112000,
+            "label": "Retención de renta a favor",
+            "reveal": "rf"
+          },
+          {
+            "account": "135517",
+            "side": "D",
+            "amount": 91200,
+            "label": "Retención de IVA a favor",
+            "reveal": "rv"
+          },
+          {
+            "account": "4155",
+            "side": "C",
+            "amount": 3200000,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-G",
+            "side": "C",
+            "amount": 608000,
+            "label": "IVA generado en la venta",
+            "reveal": "vat"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2335",
+            "side": "D",
+            "amount": 3604800,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 3604800,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 3604800,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 3604800,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e09-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Arrendamiento de bien inmueble"
+            },
+            {
+              "id": "w0",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w1",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w2",
+              "text": "Honorarios de persona jurídica"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es arrendamiento de bien inmueble. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "bases",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e09-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$3.200.000"
+            },
+            {
+              "id": "w0",
+              "text": "$3.808.000"
+            },
+            {
+              "id": "w1",
+              "text": "$2.592.000"
+            },
+            {
+              "id": "w2",
+              "text": "$3.300.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "El valor indicado es antes de IVA: la base es $3.200.000.",
+          "calculation": [
+            "El valor indicado es antes de IVA: la base es $3.200.000."
+          ],
+          "sources": [
+            "bases",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e09-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde Sembremos Ltda., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "512010 · Arrendamiento de construcciones y edificaciones"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 512010 porque aumenta el activo o se reconoce el gasto. ",
+          "calculation": [],
+          "sources": [
+            "bases",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e09-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$608.000"
+            },
+            {
+              "id": "w0",
+              "text": "$723.520"
+            },
+            {
+              "id": "w1",
+              "text": "$480.000"
+            },
+            {
+              "id": "w2",
+              "text": "$0"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "IVA = $3.200.000 × 19% = $608.000. Para Sembremos se mantiene por depurar: no se afirma que sea totalmente descontable.",
+          "calculation": [
+            "IVA = $3.200.000 × 19% = $608.000. Para Sembremos se mantiene por depurar: no se afirma que sea totalmente descontable."
+          ],
+          "sources": [
+            "bases",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e09-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "3,5%"
+            },
+            {
+              "id": "w0",
+              "text": "2,5%"
+            },
+            {
+              "id": "w1",
+              "text": "4%"
+            },
+            {
+              "id": "w2",
+              "text": "11%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "El arrendamiento de un inmueble se trabaja al 3,5% y supera el umbral de 10 UVT.",
+          "calculation": [],
+          "sources": [
+            "bases",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e09-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con la tarifa de 3,5%, ¿cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$112.000"
+            },
+            {
+              "id": "w0",
+              "text": "$133.280"
+            },
+            {
+              "id": "w1",
+              "text": "$128.000"
+            },
+            {
+              "id": "w2",
+              "text": "$0"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 3,5%. Aplica a la base sin IVA.",
+          "explanation": "Base $3.200.000 × 3,5% = $112.000. ",
+          "calculation": [
+            "$3.200.000 × 3,5% = $112.000"
+          ],
+          "sources": [
+            "bases",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e09-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$91.200"
+            },
+            {
+              "id": "w0",
+              "text": "$480.000"
+            },
+            {
+              "id": "w1",
+              "text": "$0"
+            },
+            {
+              "id": "w2",
+              "text": "$571.200"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "ReteIVA = $608.000 × 15% = $91.200. Sembremos actúa como agente retenedor y el proveedor no está en la excepción del escenario.",
+          "calculation": [
+            "$608.000 × 15% = $91.200"
+          ],
+          "sources": [
+            "bases",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e09-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$3.604.800"
+            },
+            {
+              "id": "w0",
+              "text": "$3.808.000"
+            },
+            {
+              "id": "w1",
+              "text": "$3.200.000"
+            },
+            {
+              "id": "w2",
+              "text": "$4.011.200"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $3.808.000 − $112.000 − $91.200 = $3.604.800. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $3.808.000",
+            "Renta: −$112.000",
+            "ReteIVA: −$91.200",
+            "Neto: $3.604.800"
+          ],
+          "sources": [
+            "bases",
+            "reteiva",
+            "prorrata"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e09-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e09-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 9,
+      "sources": [
+        "bases",
+        "reteiva",
+        "prorrata",
+        "puc",
+        "uvt",
+        "vigencia"
+      ]
+    },
+    {
+      "id": "e10",
+      "title": "Computadores para la oficina",
+      "short": "Activo fijo · Multilago",
+      "kind": "Compra de activo fijo",
+      "vendor": "Multilago Computadores Ltda.",
+      "buyer": "Sembremos Ltda.",
+      "amount": 28000000,
+      "included": true,
+      "vat": true,
+      "rate": 0.025,
+      "rv": false,
+      "acct": "152805",
+      "revenue": "4135",
+      "rfacct": "236540",
+      "cat": "Compras",
+      "paid": false,
+      "capital": true,
+      "statement": "Se compran a Multilago Computadores Ltda., responsable del IVA y gran contribuyente, equipos de sistemas para las oficinas por $28.000.000.",
+      "assumptions": [
+        "Como en el apunte, se interpretan $28.000.000 con IVA incluido al 19%. Se supone que los equipos no tienen exclusión aplicable; se debe verificar el valor y características por unidad.",
+        "Se usa el escenario de IVA no recuperable, incorporado al costo del activo. No se presume un descuento en renta del artículo 258-1 sin evaluar sus requisitos."
+      ],
+      "refs": [
+        "activo",
+        "agentes"
+      ],
+      "values": {
+        "base": 23529412,
+        "vat": 4470588,
+        "total": 28000000,
+        "rf": 588235,
+        "rv": 0,
+        "net": 27411765
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "152805",
+            "side": "D",
+            "amount": 28000000,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "236540",
+            "side": "C",
+            "amount": 588235,
+            "label": "Retención de renta practicada",
+            "reveal": "rf"
+          },
+          {
+            "account": "2205",
+            "side": "C",
+            "amount": 27411765,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 27411765,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "135515",
+            "side": "D",
+            "amount": 588235,
+            "label": "Retención de renta a favor",
+            "reveal": "rf"
+          },
+          {
+            "account": "4135",
+            "side": "C",
+            "amount": 23529412,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          },
+          {
+            "account": "2408-G",
+            "side": "C",
+            "amount": 4470588,
+            "label": "IVA generado en la venta",
+            "reveal": "vat"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2205",
+            "side": "D",
+            "amount": 27411765,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 27411765,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 27411765,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 27411765,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e10-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Compra de activo fijo"
+            },
+            {
+              "id": "w0",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w1",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w2",
+              "text": "Honorarios de persona jurídica"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es compra de activo fijo. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "activo",
+            "agentes"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e10-decision",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿El IVA de estos computadores se lleva automáticamente como IVA descontable ordinario?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "No: en este escenario integra el costo del activo"
+            },
+            {
+              "id": "w0",
+              "text": "Sí: siempre a IVA descontable"
+            },
+            {
+              "id": "w1",
+              "text": "Sí: se resta de la retefuente"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue un activo fijo de una mercancía para reventa.",
+          "explanation": "Se capitaliza el IVA no recuperable. Un posible beneficio del artículo 258-1 en renta requiere condiciones propias y no debe duplicarse.",
+          "calculation": [],
+          "sources": [
+            "activo",
+            "agentes"
+          ],
+          "stage": "decision",
+          "reveal": null
+        },
+        {
+          "id": "e10-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$23.529.412"
+            },
+            {
+              "id": "w0",
+              "text": "$28.000.000"
+            },
+            {
+              "id": "w1",
+              "text": "$22.680.000"
+            },
+            {
+              "id": "w2",
+              "text": "$23.629.412"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "El precio incluye IVA: $28.000.000 ÷ 1,19 = $23.529.412 (redondeado).",
+          "calculation": [
+            "El precio incluye IVA: $28.000.000 ÷ 1,19 = $23.529.412 (redondeado)."
+          ],
+          "sources": [
+            "activo",
+            "agentes"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e10-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde Sembremos Ltda., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "152805 · Equipos de procesamiento de datos"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 152805 porque aumenta el activo o se reconoce el gasto. El IVA no recuperable forma parte del costo del activo.",
+          "calculation": [],
+          "sources": [
+            "activo",
+            "agentes"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e10-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$4.470.588"
+            },
+            {
+              "id": "w0",
+              "text": "$5.320.000"
+            },
+            {
+              "id": "w1",
+              "text": "$3.529.412"
+            },
+            {
+              "id": "w2",
+              "text": "$0"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "IVA = $28.000.000 − $23.529.412 = $4.470.588.",
+          "calculation": [
+            "IVA = $28.000.000 − $23.529.412 = $4.470.588."
+          ],
+          "sources": [
+            "activo",
+            "agentes"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e10-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "2,5%"
+            },
+            {
+              "id": "w0",
+              "text": "4%"
+            },
+            {
+              "id": "w1",
+              "text": "11%"
+            },
+            {
+              "id": "w2",
+              "text": "3,5%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "La compra general a la sociedad declarante se retiene al 2,5% de la base sin IVA. El hecho de capitalizar el IVA en el activo no lo incluye en la base de esta retención.",
+          "calculation": [],
+          "sources": [
+            "activo",
+            "agentes"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e10-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con la tarifa de 2,5%, ¿cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$588.235"
+            },
+            {
+              "id": "w0",
+              "text": "$700.000"
+            },
+            {
+              "id": "w1",
+              "text": "$823.529"
+            },
+            {
+              "id": "w2",
+              "text": "$941.176"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 2,5%. Aplica a la base sin IVA.",
+          "explanation": "Base $23.529.412 × 2,5% = $588.235. ",
+          "calculation": [
+            "$23.529.412 × 2,5% = $588.235"
+          ],
+          "sources": [
+            "activo",
+            "agentes"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e10-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$670.588"
+            },
+            {
+              "id": "w1",
+              "text": "$3.529.412"
+            },
+            {
+              "id": "w2",
+              "text": "$4.200.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "Los dos participantes son grandes contribuyentes: opera la excepción entre estos agentes de reteIVA.",
+          "calculation": [],
+          "sources": [
+            "activo",
+            "agentes"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e10-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$27.411.765"
+            },
+            {
+              "id": "w0",
+              "text": "$28.000.000"
+            },
+            {
+              "id": "w1",
+              "text": "$23.529.412"
+            },
+            {
+              "id": "w2",
+              "text": "$28.588.235"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $28.000.000 − $588.235 − $0 = $27.411.765. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $28.000.000",
+            "Renta: −$588.235",
+            "ReteIVA: −$0",
+            "Neto: $27.411.765"
+          ],
+          "sources": [
+            "activo",
+            "agentes"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e10-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e10-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 10,
+      "sources": [
+        "activo",
+        "agentes",
+        "puc",
+        "uvt",
+        "vigencia"
+      ]
+    },
+    {
+      "id": "e11",
+      "title": "Combustible y una tarifa pequeña",
+      "short": "Combustible · Servinorte",
+      "kind": "Compra de combustible",
+      "vendor": "Servinorte",
+      "buyer": "Sembremos Ltda.",
+      "amount": 500000,
+      "included": false,
+      "vat": false,
+      "rate": 0.001,
+      "rv": false,
+      "acct": "519535",
+      "revenue": "4135",
+      "rfacct": "236540",
+      "cat": "Compras",
+      "paid": true,
+      "statement": "Se paga a Servinorte, responsable del IVA, combustible por $500.000. El taller indica que solo tiene IVA implícito en la etapa primaria.",
+      "assumptions": [
+        "Compra a un distribuidor de combustible derivado del petróleo. Se respeta el supuesto del enunciado: no se separa un nuevo IVA ni se calcula reteIVA.",
+        "La retención se detalla en un auxiliar de compras de combustible de 236540. 236510 corresponde a dividendos, no a combustible."
+      ],
+      "refs": [
+        "combustible",
+        "puc"
+      ],
+      "review": "Se corrige la clasificación del apunte: combustible no se lleva a 236510 (dividendos).",
+      "values": {
+        "base": 500000,
+        "vat": 0,
+        "total": 500000,
+        "rf": 500,
+        "rv": 0,
+        "net": 499500
+      },
+      "ledgers": {
+        "buyer": [
+          {
+            "account": "519535",
+            "side": "D",
+            "amount": 500000,
+            "label": "Bien o servicio recibido",
+            "reveal": "account"
+          },
+          {
+            "account": "236540",
+            "side": "C",
+            "amount": 500,
+            "label": "Retención de renta practicada",
+            "reveal": "rf"
+          },
+          {
+            "account": "2335",
+            "side": "C",
+            "amount": 499500,
+            "label": "Saldo a favor del proveedor",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1305",
+            "side": "D",
+            "amount": 499500,
+            "label": "Saldo a cobrar al cliente",
+            "reveal": "net"
+          },
+          {
+            "account": "135515",
+            "side": "D",
+            "amount": 500,
+            "label": "Retención de renta a favor",
+            "reveal": "rf"
+          },
+          {
+            "account": "4135",
+            "side": "C",
+            "amount": 500000,
+            "label": "Ingreso por la operación",
+            "reveal": "account"
+          }
+        ]
+      },
+      "payment": {
+        "buyer": [
+          {
+            "account": "2335",
+            "side": "D",
+            "amount": 499500,
+            "label": "Cancelación de la obligación",
+            "reveal": "net"
+          },
+          {
+            "account": "1110",
+            "side": "C",
+            "amount": 499500,
+            "label": "Salida de dinero",
+            "reveal": "net"
+          }
+        ],
+        "seller": [
+          {
+            "account": "1110",
+            "side": "D",
+            "amount": 499500,
+            "label": "Entrada de dinero",
+            "reveal": "net"
+          },
+          {
+            "account": "1305",
+            "side": "C",
+            "amount": 499500,
+            "label": "Cancelación del derecho de cobro",
+            "reveal": "net"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "id": "e11-concept",
+          "topic": "criterio",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Antes de calcular, ¿qué operación estás registrando?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "Compra de combustible"
+            },
+            {
+              "id": "w0",
+              "text": "Compra de mercancía"
+            },
+            {
+              "id": "w1",
+              "text": "Arrendamiento de bien mueble"
+            },
+            {
+              "id": "w2",
+              "text": "Honorarios de persona jurídica"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Mira qué recibe el comprador y para qué lo usará.",
+          "explanation": "Es compra de combustible. Primero identificamos el concepto; después, la base y las retenciones.",
+          "calculation": [],
+          "sources": [
+            "combustible",
+            "puc"
+          ],
+          "stage": "concept",
+          "reveal": null
+        },
+        {
+          "id": "e11-base",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuál es la base de la operación, sin IVA?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$500.000"
+            },
+            {
+              "id": "w0",
+              "text": "$405.000"
+            },
+            {
+              "id": "w1",
+              "text": "$595.000"
+            },
+            {
+              "id": "w2",
+              "text": "$600.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Si dice IVA incluido, divide entre 1,19; si dice más IVA, conserva la base.",
+          "explanation": "No se adiciona IVA en este escenario. La base de la operación es $500.000.",
+          "calculation": [
+            "No se adiciona IVA en este escenario. La base de la operación es $500.000."
+          ],
+          "sources": [
+            "combustible",
+            "puc"
+          ],
+          "stage": "base",
+          "reveal": null
+        },
+        {
+          "id": "e11-account",
+          "topic": "cuentas",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Desde Sembremos Ltda., ¿dónde registras lo recibido?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "519535 · Combustibles y lubricantes"
+            },
+            {
+              "id": "w0",
+              "text": "1110 · Bancos"
+            },
+            {
+              "id": "w1",
+              "text": "4135 · Comercio al por mayor y al por menor"
+            },
+            {
+              "id": "w2",
+              "text": "1435 · Mercancías no fabricadas por la empresa"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Piensa si recibes un bien para vender, un activo para usar o un servicio.",
+          "explanation": "Se debita 519535 porque aumenta el activo o se reconoce el gasto. ",
+          "calculation": [],
+          "sources": [
+            "combustible",
+            "puc"
+          ],
+          "stage": "account",
+          "reveal": "account"
+        },
+        {
+          "id": "e11-vat",
+          "topic": "iva",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto IVA corresponde a la operación?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$95.000"
+            },
+            {
+              "id": "w1",
+              "text": "$75.000"
+            },
+            {
+              "id": "w2",
+              "text": "$190.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Distingue el impuesto de la retención de ese impuesto.",
+          "explanation": "En esta operación no se factura un IVA separado; su valor es $0.",
+          "calculation": [
+            "En esta operación no se factura un IVA separado; su valor es $0."
+          ],
+          "sources": [
+            "combustible",
+            "puc"
+          ],
+          "stage": "vat",
+          "reveal": "vat"
+        },
+        {
+          "id": "e11-rate",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con las condiciones del escenario, ¿qué tarifa de renta usas?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "0,1%"
+            },
+            {
+              "id": "w0",
+              "text": "2,5%"
+            },
+            {
+              "id": "w1",
+              "text": "4%"
+            },
+            {
+              "id": "w2",
+              "text": "11%"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Consulta el concepto, las calidades de las partes y los supuestos del caso.",
+          "explanation": "La compra de combustible derivado del petróleo a un distribuidor tiene tarifa especial del 0,1%.",
+          "calculation": [],
+          "sources": [
+            "combustible",
+            "puc"
+          ],
+          "stage": "rate",
+          "reveal": null
+        },
+        {
+          "id": "e11-rf",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "Con la tarifa de 0,1%, ¿cuánta retención de renta practica el comprador?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$500"
+            },
+            {
+              "id": "w0",
+              "text": "$17.500"
+            },
+            {
+              "id": "w1",
+              "text": "$20.000"
+            },
+            {
+              "id": "w2",
+              "text": "$0"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Tarifa del escenario: 0,1%. Aplica a la base sin IVA.",
+          "explanation": "Base $500.000 × 0,1% = $500. ",
+          "calculation": [
+            "$500.000 × 0,1% = $500"
+          ],
+          "sources": [
+            "combustible",
+            "puc"
+          ],
+          "stage": "rf",
+          "reveal": "rf"
+        },
+        {
+          "id": "e11-rv",
+          "topic": "retenciones",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánta retención de IVA se practica?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$0"
+            },
+            {
+              "id": "w0",
+              "text": "$75.000"
+            },
+            {
+              "id": "w1",
+              "text": "$15.000"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Primero decide si procede; solo después calcula 15% del IVA.",
+          "explanation": "No hay IVA facturado que retener en este escenario.",
+          "calculation": [],
+          "sources": [
+            "combustible",
+            "puc"
+          ],
+          "stage": "rv",
+          "reveal": "rv"
+        },
+        {
+          "id": "e11-net",
+          "topic": "asientos",
+          "level": 2,
+          "type": "choice",
+          "prompt": "¿Cuánto queda por pagar al proveedor?",
+          "options": [
+            {
+              "id": "ok",
+              "text": "$499.500"
+            },
+            {
+              "id": "w0",
+              "text": "$500.000"
+            },
+            {
+              "id": "w1",
+              "text": "$500.500"
+            },
+            {
+              "id": "w2",
+              "text": "$549.500"
+            }
+          ],
+          "answer": "ok",
+          "hint": "Al total de factura réstale las retenciones practicadas.",
+          "explanation": "Neto = $500.000 − $500 − $0 = $499.500. La parte retenida se debe a la DIAN, no al proveedor.",
+          "calculation": [
+            "Total: $500.000",
+            "Renta: −$500",
+            "ReteIVA: −$0",
+            "Neto: $499.500"
+          ],
+          "sources": [
+            "combustible",
+            "puc"
+          ],
+          "stage": "net",
+          "reveal": "net"
+        },
+        {
+          "id": "e11-buyer",
+          "type": "entry",
+          "stage": "buyer",
+          "side": "buyer",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del comprador",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        },
+        {
+          "id": "e11-seller",
+          "type": "entry",
+          "stage": "seller",
+          "side": "seller",
+          "topic": "asientos",
+          "level": 2,
+          "prompt": "Construye el asiento del vendedor",
+          "hint": "Cada fila indica qué representa el movimiento. Elige la cuenta, su lado y el importe. Debe y haber deben sumar lo mismo.",
+          "explanation": "El registro está equilibrado y cada movimiento tiene su cuenta y su lado. Recuerda: retención practicada = obligación; retención sufrida = anticipo.",
+          "sources": [
+            "puc"
+          ]
+        }
+      ],
+      "number": 11,
+      "sources": [
+        "combustible",
+        "puc",
+        "uvt",
+        "vigencia"
+      ]
+    }
+  ]
+}

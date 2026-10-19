@@ -1,0 +1,2799 @@
+[
+  {
+    "id": "b001",
+    "topic": "fundamentos",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa un activo?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Un recurso controlado por la empresa"
+      },
+      {
+        "id": "w0",
+        "text": "Una obligación con terceros"
+      },
+      {
+        "id": "w1",
+        "text": "Cualquier ingreso recibido"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Piensa en caja, bancos o mercancía.",
+    "explanation": "Un activo es un recurso. Puede ser efectivo, un bien o un derecho a cobrar.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b002",
+    "topic": "fundamentos",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa un pasivo?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Una obligación presente"
+      },
+      {
+        "id": "w0",
+        "text": "Una ganancia asegurada"
+      },
+      {
+        "id": "w1",
+        "text": "Todo dinero que entra"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Piensa en lo que la empresa debe.",
+    "explanation": "Proveedores y retenciones por pagar son obligaciones: se clasifican como pasivos.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b003",
+    "topic": "fundamentos",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es la ecuación contable básica?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Activo = Pasivo + Patrimonio"
+      },
+      {
+        "id": "w0",
+        "text": "Activo = Ingresos + IVA"
+      },
+      {
+        "id": "w1",
+        "text": "Patrimonio = Activo + Pasivo"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Los recursos se financian con terceros y con recursos propios.",
+    "explanation": "El patrimonio es el valor residual: activo menos pasivo.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b004",
+    "topic": "fundamentos",
+    "level": 0,
+    "type": "choice",
+    "prompt": "En una cuenta T, ¿qué lado es el debe?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "El lado izquierdo"
+      },
+      {
+        "id": "w0",
+        "text": "El lado derecho"
+      },
+      {
+        "id": "w1",
+        "text": "Depende de si hubo ganancia"
+      }
+    ],
+    "answer": "ok",
+    "hint": "El nombre del lado nunca cambia.",
+    "explanation": "Debe es izquierda y haber es derecha. Eso no significa automáticamente entrada o salida de dinero.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b005",
+    "topic": "fundamentos",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cómo aumenta normalmente un activo?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Con un débito"
+      },
+      {
+        "id": "w0",
+        "text": "Con un crédito"
+      },
+      {
+        "id": "w1",
+        "text": "Siempre con una retención"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Observa qué pasa cuando entra dinero a caja.",
+    "explanation": "Los activos ordinarios aumentan al debe y disminuyen al haber; existen cuentas correctoras con dinámica distinta.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b006",
+    "topic": "fundamentos",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cómo aumenta normalmente un pasivo?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Con un crédito"
+      },
+      {
+        "id": "w0",
+        "text": "Con un débito"
+      },
+      {
+        "id": "w1",
+        "text": "Solo cuando se paga"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Una deuda nueva se ubica al haber.",
+    "explanation": "Al causar una obligación aumenta el pasivo; al pagarla se debita y disminuye.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b007",
+    "topic": "fundamentos",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué comprueba la partida doble?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Que el total del debe sea igual al total del haber"
+      },
+      {
+        "id": "w0",
+        "text": "Que todas las cuentas tengan saldo cero"
+      },
+      {
+        "id": "w1",
+        "text": "Que solo se usen dos cuentas"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Un asiento puede tener más de dos cuentas.",
+    "explanation": "Cada operación conserva la igualdad de los importes debitados y acreditados. Cuadrar es necesario, pero también deben ser correctas las cuentas.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b008",
+    "topic": "fundamentos",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Comprar a crédito significa que ya salió dinero?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No: nace una obligación por pagar"
+      },
+      {
+        "id": "w0",
+        "text": "Sí: siempre sale de bancos"
+      },
+      {
+        "id": "w1",
+        "text": "No se registra hasta pagar"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Separa causación y pago.",
+    "explanation": "La compra a crédito se registra con un pasivo. Cuando se paga, se cancela ese pasivo contra caja o bancos.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b009",
+    "topic": "iva",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿El IVA que factura un vendedor es su ingreso por ventas?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No: se registra separado del ingreso"
+      },
+      {
+        "id": "w0",
+        "text": "Sí: todo el total es ingreso"
+      },
+      {
+        "id": "w1",
+        "text": "Solo si cobra en efectivo"
+      }
+    ],
+    "answer": "ok",
+    "hint": "El IVA se recauda para el Estado.",
+    "explanation": "El ingreso se reconoce por el valor antes de IVA; el impuesto generado se reconoce por separado.",
+    "calculation": [],
+    "sources": [
+      "reteiva",
+      "prorrata"
+    ]
+  },
+  {
+    "id": "b010",
+    "topic": "iva",
+    "level": 1,
+    "type": "choice",
+    "prompt": "Un total de $119.000 incluye IVA del 19%. ¿Cuál es la base?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "$100.000"
+      },
+      {
+        "id": "w0",
+        "text": "$96.390"
+      },
+      {
+        "id": "w1",
+        "text": "$119.000"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Divide entre 1,19.",
+    "explanation": "Si el IVA está incluido, el total representa el 119% de la base. Restar 19% al total produce un valor equivocado.",
+    "calculation": [],
+    "sources": [
+      "reteiva",
+      "prorrata"
+    ]
+  },
+  {
+    "id": "b011",
+    "topic": "iva",
+    "level": 1,
+    "type": "choice",
+    "prompt": "Una venta de $100.000 más IVA del 19% suma…",
+    "options": [
+      {
+        "id": "ok",
+        "text": "$119.000"
+      },
+      {
+        "id": "w0",
+        "text": "$100.019"
+      },
+      {
+        "id": "w1",
+        "text": "$81.000"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Calcula primero el 19% de la base.",
+    "explanation": "IVA = $19.000. Total = base + IVA = $119.000.",
+    "calculation": [],
+    "sources": [
+      "reteiva",
+      "prorrata"
+    ]
+  },
+  {
+    "id": "b012",
+    "topic": "iva",
+    "level": 1,
+    "type": "choice",
+    "prompt": "Si el IVA facturado es $190.000, ¿cuánto es su reteIVA al 15%?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "$28.500"
+      },
+      {
+        "id": "w0",
+        "text": "$150.000"
+      },
+      {
+        "id": "w1",
+        "text": "$190.000"
+      }
+    ],
+    "answer": "ok",
+    "hint": "El porcentaje se aplica al impuesto.",
+    "explanation": "ReteIVA = $190.000 × 15% = $28.500. La base de esta retención es el IVA, no la base de la factura.",
+    "calculation": [],
+    "sources": [
+      "reteiva",
+      "prorrata"
+    ]
+  },
+  {
+    "id": "b013",
+    "topic": "retenciones",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué hace quien practica una retención?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Descuenta una parte del pago y la debe entregar a la DIAN"
+      },
+      {
+        "id": "w0",
+        "text": "Se queda con una utilidad adicional"
+      },
+      {
+        "id": "w1",
+        "text": "Elimina parte de la venta"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Retener genera una obligación.",
+    "explanation": "Para el retenedor nace una cuenta por pagar al Estado. Para el beneficiario es un anticipo de su impuesto.",
+    "calculation": [],
+    "sources": [
+      "bases",
+      "servicios",
+      "honorarios"
+    ]
+  },
+  {
+    "id": "b014",
+    "topic": "retenciones",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Ser responsable del IVA significa ser autorretenedor de renta?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No, son calidades distintas"
+      },
+      {
+        "id": "w0",
+        "text": "Sí, siempre"
+      },
+      {
+        "id": "w1",
+        "text": "Solo si la factura supera un millón"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Cada calidad responde a una obligación diferente.",
+    "explanation": "Hay que revisar por separado IVA, calidad de agente retenedor y autorretención.",
+    "calculation": [],
+    "sources": [
+      "bases",
+      "servicios",
+      "honorarios"
+    ]
+  },
+  {
+    "id": "b015",
+    "topic": "retenciones",
+    "level": 1,
+    "type": "choice",
+    "prompt": "Compra: base $2.000.000. Retención de renta al 2,5%. ¿Cuánto se retiene?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "$50.000"
+      },
+      {
+        "id": "w0",
+        "text": "$500.000"
+      },
+      {
+        "id": "w1",
+        "text": "$59.500"
+      }
+    ],
+    "answer": "ok",
+    "hint": "2,5% equivale a 0,025.",
+    "explanation": "La retención de renta de esta compra se calcula sobre la base sin IVA: $2.000.000 × 0,025.",
+    "calculation": [],
+    "sources": [
+      "bases",
+      "servicios",
+      "honorarios"
+    ]
+  },
+  {
+    "id": "b016",
+    "topic": "retenciones",
+    "level": 1,
+    "type": "choice",
+    "prompt": "Factura total $1.190.000; retefuente $25.000 y reteIVA $28.500. ¿Neto al proveedor?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "$1.136.500"
+      },
+      {
+        "id": "w0",
+        "text": "$1.243.500"
+      },
+      {
+        "id": "w1",
+        "text": "$1.165.000"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Resta ambas retenciones al total.",
+    "explanation": "Neto = $1.190.000 − $25.000 − $28.500 = $1.136.500. Los importes retenidos no se pagan al proveedor.",
+    "calculation": [],
+    "sources": [
+      "bases",
+      "servicios",
+      "honorarios"
+    ]
+  },
+  {
+    "id": "b017",
+    "topic": "retenciones",
+    "level": 1,
+    "type": "choice",
+    "prompt": "Honorarios pagados a una sociedad: tarifa ordinaria del ejercicio.",
+    "options": [
+      {
+        "id": "ok",
+        "text": "11%"
+      },
+      {
+        "id": "w0",
+        "text": "4%"
+      },
+      {
+        "id": "w1",
+        "text": "2,5%"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Identifica primero el concepto y luego el beneficiario.",
+    "explanation": "Los honorarios a una persona jurídica se trabajan al 11%, salvo un tratamiento especial aplicable.",
+    "calculation": [],
+    "sources": [
+      "bases",
+      "servicios",
+      "honorarios"
+    ]
+  },
+  {
+    "id": "b018",
+    "topic": "retenciones",
+    "level": 1,
+    "type": "choice",
+    "prompt": "¿Basta saber que una persona natural es responsable del IVA para fijar su retefuente por honorarios?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No: faltan datos del régimen y del contrato"
+      },
+      {
+        "id": "w0",
+        "text": "Sí: siempre es 11%"
+      },
+      {
+        "id": "w1",
+        "text": "Sí: siempre es 4%"
+      }
+    ],
+    "answer": "ok",
+    "hint": "IVA y renta son análisis diferentes.",
+    "explanation": "Se deben evaluar la tabla del artículo 383 y, en el régimen ordinario, los supuestos del 10% o 11%.",
+    "calculation": [],
+    "sources": [
+      "bases",
+      "servicios",
+      "honorarios"
+    ]
+  },
+  {
+    "id": "b019",
+    "topic": "retenciones",
+    "level": 1,
+    "type": "choice",
+    "prompt": "¿La reteIVA general se practica entre dos grandes contribuyentes en la operación ordinaria del taller?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No, se aplica la excepción entre esos agentes"
+      },
+      {
+        "id": "w0",
+        "text": "Sí, siempre al 15%"
+      },
+      {
+        "id": "w1",
+        "text": "Sí, al 100%"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Comprueba las calidades de ambos.",
+    "explanation": "El parágrafo 1 del artículo 437-2 excluye de esta retención las operaciones entre los agentes allí previstos.",
+    "calculation": [],
+    "sources": [
+      "bases",
+      "servicios",
+      "honorarios"
+    ]
+  },
+  {
+    "id": "b020",
+    "topic": "iva",
+    "level": 1,
+    "type": "choice",
+    "prompt": "Un proveedor no responsable del IVA no factura IVA. ¿Se inventa un IVA para retenerlo?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No"
+      },
+      {
+        "id": "w0",
+        "text": "Sí: 19% y luego 15%"
+      },
+      {
+        "id": "w1",
+        "text": "Sí: 15% del precio"
+      }
+    ],
+    "answer": "ok",
+    "hint": "No hay impuesto facturado que retener en ese escenario.",
+    "explanation": "En la operación ordinaria descrita no se calcula IVA ni reteIVA por el solo hecho de comprar a un no responsable.",
+    "calculation": [],
+    "sources": [
+      "reteiva",
+      "prorrata"
+    ]
+  },
+  {
+    "id": "b021",
+    "topic": "criterio",
+    "level": 2,
+    "type": "choice",
+    "prompt": "Un descuento depende de pagar antes de 8 días. Al registrar la factura inicial…",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No se resta automáticamente del valor ni del IVA"
+      },
+      {
+        "id": "w0",
+        "text": "Se reduce todo un 10% de inmediato"
+      },
+      {
+        "id": "w1",
+        "text": "Se elimina la retención"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Todavía no se ha cumplido la condición.",
+    "explanation": "El descuento condicionado requiere un análisis separado. Para IVA, el pronto pago condicionado no reduce la base gravable.",
+    "calculation": [],
+    "sources": [
+      "descuento",
+      "prorrata",
+      "pn"
+    ]
+  },
+  {
+    "id": "b022",
+    "topic": "criterio",
+    "level": 2,
+    "type": "choice",
+    "prompt": "Sembremos vende bienes gravados, exentos y excluidos. ¿Todo IVA de gastos comunes es descontable?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No: hay que revisar imputación y proporcionalidad"
+      },
+      {
+        "id": "w0",
+        "text": "Sí: todo va como descuento definitivo"
+      },
+      {
+        "id": "w1",
+        "text": "No: ningún IVA puede descontarse"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Un gasto puede apoyar varias clases de ventas.",
+    "explanation": "Si no puede imputarse directamente, el IVA común se distribuye según las operaciones del período. Faltan esos ingresos para cerrar la depuración.",
+    "calculation": [],
+    "sources": [
+      "descuento",
+      "prorrata",
+      "pn"
+    ]
+  },
+  {
+    "id": "b023",
+    "topic": "criterio",
+    "level": 1,
+    "type": "choice",
+    "prompt": "¿Exento y excluido significan exactamente lo mismo?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No: el tratamiento y los derechos asociados son distintos"
+      },
+      {
+        "id": "w0",
+        "text": "Sí, porque ambos se facturan sin cobro de IVA"
+      },
+      {
+        "id": "w1",
+        "text": "Sí, siempre generan devolución"
+      }
+    ],
+    "answer": "ok",
+    "hint": "No te quedes solo con el valor de la factura.",
+    "explanation": "Exento implica tarifa cero en los casos legales; excluido queda fuera del gravamen. El derecho a descuentos o devoluciones exige revisar las condiciones de cada régimen.",
+    "calculation": [],
+    "sources": [
+      "descuento",
+      "prorrata",
+      "pn"
+    ]
+  },
+  {
+    "id": "b024",
+    "topic": "asientos",
+    "level": 0,
+    "type": "choice",
+    "prompt": "Al causar una compra de mercancía a crédito, ¿qué aumenta?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Inventario y proveedores"
+      },
+      {
+        "id": "w0",
+        "text": "Bancos e ingresos"
+      },
+      {
+        "id": "w1",
+        "text": "Solo gastos"
+      }
+    ],
+    "answer": "ok",
+    "hint": "La empresa recibe un bien y adquiere una deuda.",
+    "explanation": "Se debita el inventario y se acredita el pasivo por pagar, separando los impuestos y retenciones que correspondan.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b025",
+    "topic": "asientos",
+    "level": 1,
+    "type": "choice",
+    "prompt": "En el vendedor, la retefuente que le practicó su cliente se registra…",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Al debe, como anticipo de renta"
+      },
+      {
+        "id": "w0",
+        "text": "Al haber, como ingreso"
+      },
+      {
+        "id": "w1",
+        "text": "Al debe, como pérdida"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Ese valor podrá imputarse a su impuesto.",
+    "explanation": "Se reconoce un derecho en 135515. No disminuye por sí mismo el ingreso facturado.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b026",
+    "topic": "asientos",
+    "level": 1,
+    "type": "choice",
+    "prompt": "El comprador paga una deuda ya registrada en proveedores. ¿Qué asiento hace?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Débito a proveedores y crédito a bancos"
+      },
+      {
+        "id": "w0",
+        "text": "Débito a compras y crédito a ingresos"
+      },
+      {
+        "id": "w1",
+        "text": "Débito a bancos y crédito a proveedores"
+      }
+    ],
+    "answer": "ok",
+    "hint": "La compra no debe registrarse dos veces.",
+    "explanation": "El pago cancela el pasivo y reduce bancos. El gasto o inventario ya se reconoció al causar la operación.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b027",
+    "topic": "asientos",
+    "level": 1,
+    "type": "choice",
+    "prompt": "Un computador se compra para usarlo en la oficina. ¿Qué representa?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Un activo fijo"
+      },
+      {
+        "id": "w0",
+        "text": "Mercancía para revender"
+      },
+      {
+        "id": "w1",
+        "text": "Ingreso de la empresa"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Importa el destino del bien.",
+    "explanation": "El equipo destinado al uso de la empresa se reconoce en propiedades, planta y equipo, no como inventario para venta.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b028",
+    "topic": "criterio",
+    "level": 2,
+    "type": "choice",
+    "prompt": "¿Puedes calcular el costo de venta solo con el precio de venta?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No, falta el costo contable del inventario vendido"
+      },
+      {
+        "id": "w0",
+        "text": "Sí, usando el precio sin IVA"
+      },
+      {
+        "id": "w1",
+        "text": "Sí, restando las retenciones"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Precio de venta y costo son magnitudes distintas.",
+    "explanation": "En una venta puede existir un asiento adicional de costo contra inventarios. Sin su costo no es correcto inventar el importe.",
+    "calculation": [],
+    "sources": [
+      "descuento",
+      "prorrata",
+      "pn"
+    ]
+  },
+  {
+    "id": "b029",
+    "topic": "cierre",
+    "level": 1,
+    "type": "choice",
+    "prompt": "Para el resumen de retenciones por pagar de Sembremos, ¿incluyes lo que le retuvieron sus clientes?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No: esas son retenciones a su favor"
+      },
+      {
+        "id": "w0",
+        "text": "Sí: todas las retenciones se suman"
+      },
+      {
+        "id": "w1",
+        "text": "Solo si hubo IVA"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Distingue 2365 de 135515.",
+    "explanation": "El resumen de obligaciones incluye lo que Sembremos retuvo a terceros. Lo que le retuvieron a Sembremos pertenece a sus anticipos.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b030",
+    "topic": "cierre",
+    "level": 1,
+    "type": "choice",
+    "prompt": "¿Las retenciones de renta e IVA se mezclan en una sola base?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No: se separan por impuesto y concepto"
+      },
+      {
+        "id": "w0",
+        "text": "Sí: ambas son dinero retenido"
+      },
+      {
+        "id": "w1",
+        "text": "Solo si tienen la misma tarifa"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Cada retención tiene una base diferente.",
+    "explanation": "La renta suele partir de la base del pago; la reteIVA parte del IVA. Deben conservarse separados para el anexo.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b031",
+    "topic": "cierre",
+    "level": 2,
+    "type": "choice",
+    "prompt": "¿El anexo de estas 11 operaciones garantiza por sí solo una declaración mensual completa?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No: puede faltar información del período"
+      },
+      {
+        "id": "w0",
+        "text": "Sí: siempre coincide con el formulario completo"
+      },
+      {
+        "id": "w1",
+        "text": "Sí: si el asiento cuadra"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Un taller puede omitir otras obligaciones.",
+    "explanation": "Para declarar se requieren todos los movimientos, ajustes y obligaciones aplicables, incluida autorretención especial cuando corresponda.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ]
+  },
+  {
+    "id": "b032",
+    "topic": "criterio",
+    "level": 1,
+    "type": "choice",
+    "prompt": "¿Qué significa abono en cuenta en este contexto?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Reconocer contablemente una obligación a favor del tercero"
+      },
+      {
+        "id": "w0",
+        "text": "Solo hacer una transferencia bancaria"
+      },
+      {
+        "id": "w1",
+        "text": "Registrar una nota de estudio"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Puede ocurrir antes del pago.",
+    "explanation": "La retención se analiza al pago o abono en cuenta, según lo que ocurra primero, bajo las condiciones del concepto aplicable.",
+    "calculation": [],
+    "sources": [
+      "descuento",
+      "prorrata",
+      "pn"
+    ]
+  },
+  {
+    "id": "b033",
+    "topic": "retenciones",
+    "level": 1,
+    "type": "choice",
+    "prompt": "En el régimen elegido, una compra general de $400.000 supera 10 UVT de 2026?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "No: 10 UVT son $523.740"
+      },
+      {
+        "id": "w0",
+        "text": "Sí: 10 UVT son $52.374"
+      },
+      {
+        "id": "w1",
+        "text": "Sí: toda compra supera el umbral"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Multiplica el valor de una UVT por diez.",
+    "explanation": "10 × $52.374 = $523.740. El ejercicio no supera ese umbral; deben revisarse agregaciones y reglas especiales si existen.",
+    "calculation": [],
+    "sources": [
+      "bases",
+      "servicios",
+      "honorarios"
+    ]
+  },
+  {
+    "id": "b034",
+    "topic": "retenciones",
+    "level": 1,
+    "type": "choice",
+    "prompt": "Una compra de combustible por $500.000 se retiene al 0,1%. Resultado:",
+    "options": [
+      {
+        "id": "ok",
+        "text": "$500"
+      },
+      {
+        "id": "w0",
+        "text": "$5.000"
+      },
+      {
+        "id": "w1",
+        "text": "$50.000"
+      }
+    ],
+    "answer": "ok",
+    "hint": "0,1% es 0,001.",
+    "explanation": "Para este concepto: $500.000 × 0,001 = $500.",
+    "calculation": [],
+    "sources": [
+      "bases",
+      "servicios",
+      "honorarios"
+    ]
+  },
+  {
+    "id": "b035",
+    "topic": "criterio",
+    "level": 2,
+    "type": "choice",
+    "prompt": "Si una respuesta del cuaderno y un apunte difieren, ¿qué se revisa primero?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Fecha, supuestos, concepto y fuente"
+      },
+      {
+        "id": "w0",
+        "text": "Se conserva siempre la cifra más alta"
+      },
+      {
+        "id": "w1",
+        "text": "Se elimina la pregunta"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Una misma cifra puede describir escenarios distintos.",
+    "explanation": "Antes de comparar importes hay que igualar fecha, base, impuestos incluidos, calidad de las partes y condiciones del contrato.",
+    "calculation": [],
+    "sources": [
+      "descuento",
+      "prorrata",
+      "pn"
+    ]
+  },
+  {
+    "id": "b036",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 1105?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Caja"
+      },
+      {
+        "id": "w0",
+        "text": "Bancos"
+      },
+      {
+        "id": "w1",
+        "text": "Costos y gastos por pagar"
+      },
+      {
+        "id": "w2",
+        "text": "Aportes sociales"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Efectivo que entra o sale de la empresa.",
+    "explanation": "1105 · Caja. Efectivo que entra o sale de la empresa.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b037",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Caja»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "1105"
+      },
+      {
+        "id": "w0",
+        "text": "1110"
+      },
+      {
+        "id": "w1",
+        "text": "2335"
+      },
+      {
+        "id": "w2",
+        "text": "3115"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Activo.",
+    "explanation": "1105 es la cuenta de caja. Efectivo que entra o sale de la empresa.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b038",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 1110?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Bancos"
+      },
+      {
+        "id": "w0",
+        "text": "IVA retenido a favor"
+      },
+      {
+        "id": "w1",
+        "text": "Retención por arrendamientos"
+      },
+      {
+        "id": "w2",
+        "text": "Actividades inmobiliarias, empresariales y de alquiler"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Dinero disponible en cuentas bancarias.",
+    "explanation": "1110 · Bancos. Dinero disponible en cuentas bancarias.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b039",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Bancos»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "1110"
+      },
+      {
+        "id": "w0",
+        "text": "135517"
+      },
+      {
+        "id": "w1",
+        "text": "236530"
+      },
+      {
+        "id": "w2",
+        "text": "4155"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Activo.",
+    "explanation": "1110 es la cuenta de bancos. Dinero disponible en cuentas bancarias.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b040",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 1305?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Clientes"
+      },
+      {
+        "id": "w0",
+        "text": "Proveedores nacionales"
+      },
+      {
+        "id": "w1",
+        "text": "Impuesto a las ventas retenido"
+      },
+      {
+        "id": "w2",
+        "text": "Arrendamiento de construcciones y edificaciones"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Derecho a cobrar una venta o un servicio a crédito.",
+    "explanation": "1305 · Clientes. Derecho a cobrar una venta o un servicio a crédito.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b041",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Clientes»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "1305"
+      },
+      {
+        "id": "w0",
+        "text": "2205"
+      },
+      {
+        "id": "w1",
+        "text": "2367"
+      },
+      {
+        "id": "w2",
+        "text": "512010"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Activo.",
+    "explanation": "1305 es la cuenta de clientes. Derecho a cobrar una venta o un servicio a crédito.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b042",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 135515?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Retención en la fuente a favor"
+      },
+      {
+        "id": "w0",
+        "text": "Retención por servicios"
+      },
+      {
+        "id": "w1",
+        "text": "Transporte, almacenamiento y comunicaciones"
+      },
+      {
+        "id": "w2",
+        "text": "Mantenimiento de maquinaria y equipo"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Anticipo de renta: lo retenido al vendedor, no una pérdida.",
+    "explanation": "135515 · Retención en la fuente a favor. Anticipo de renta: lo retenido al vendedor, no una pérdida.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b043",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Retención en la fuente a favor»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "135515"
+      },
+      {
+        "id": "w0",
+        "text": "236525"
+      },
+      {
+        "id": "w1",
+        "text": "4145"
+      },
+      {
+        "id": "w2",
+        "text": "514515"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Activo.",
+    "explanation": "135515 es la cuenta de retención en la fuente a favor. Anticipo de renta: lo retenido al vendedor, no una pérdida.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b044",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 135517?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "IVA retenido a favor"
+      },
+      {
+        "id": "w0",
+        "text": "Autorretenciones"
+      },
+      {
+        "id": "w1",
+        "text": "Asesoría técnica"
+      },
+      {
+        "id": "w2",
+        "text": "Caja"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Valor de la retención de IVA que le practicaron al vendedor.",
+    "explanation": "135517 · IVA retenido a favor. Valor de la retención de IVA que le practicaron al vendedor.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b045",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «IVA retenido a favor»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "135517"
+      },
+      {
+        "id": "w0",
+        "text": "236575"
+      },
+      {
+        "id": "w1",
+        "text": "511035"
+      },
+      {
+        "id": "w2",
+        "text": "1105"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Activo.",
+    "explanation": "135517 es la cuenta de iva retenido a favor. Valor de la retención de IVA que le practicaron al vendedor.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b046",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 1435?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Mercancías no fabricadas por la empresa"
+      },
+      {
+        "id": "w0",
+        "text": "Comercio al por mayor y al por menor"
+      },
+      {
+        "id": "w1",
+        "text": "Transporte, fletes y acarreos"
+      },
+      {
+        "id": "w2",
+        "text": "Retención en la fuente a favor"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Bienes adquiridos para revender.",
+    "explanation": "1435 · Mercancías no fabricadas por la empresa. Bienes adquiridos para revender.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b047",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Mercancías no fabricadas por la empresa»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "1435"
+      },
+      {
+        "id": "w0",
+        "text": "4135"
+      },
+      {
+        "id": "w1",
+        "text": "513550"
+      },
+      {
+        "id": "w2",
+        "text": "135515"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Activo.",
+    "explanation": "1435 es la cuenta de mercancías no fabricadas por la empresa. Bienes adquiridos para revender.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b048",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 152805?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Equipos de procesamiento de datos"
+      },
+      {
+        "id": "w0",
+        "text": "Asesoría jurídica"
+      },
+      {
+        "id": "w1",
+        "text": "Costo de ventas de comercio"
+      },
+      {
+        "id": "w2",
+        "text": "Proveedores nacionales"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Computadores que se usan en el negocio.",
+    "explanation": "152805 · Equipos de procesamiento de datos. Computadores que se usan en el negocio.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b049",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Equipos de procesamiento de datos»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "152805"
+      },
+      {
+        "id": "w0",
+        "text": "511025"
+      },
+      {
+        "id": "w1",
+        "text": "6135"
+      },
+      {
+        "id": "w2",
+        "text": "2205"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Activo.",
+    "explanation": "152805 es la cuenta de equipos de procesamiento de datos. Computadores que se usan en el negocio.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b050",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 2205?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Proveedores nacionales"
+      },
+      {
+        "id": "w0",
+        "text": "Arrendamiento de maquinaria y equipo"
+      },
+      {
+        "id": "w1",
+        "text": "Clientes"
+      },
+      {
+        "id": "w2",
+        "text": "Retención por servicios"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Obligación por compras a proveedores del país.",
+    "explanation": "2205 · Proveedores nacionales. Obligación por compras a proveedores del país.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b051",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Proveedores nacionales»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "2205"
+      },
+      {
+        "id": "w0",
+        "text": "512015"
+      },
+      {
+        "id": "w1",
+        "text": "1305"
+      },
+      {
+        "id": "w2",
+        "text": "236525"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Pasivo.",
+    "explanation": "2205 es la cuenta de proveedores nacionales. Obligación por compras a proveedores del país.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b052",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 2335?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Costos y gastos por pagar"
+      },
+      {
+        "id": "w0",
+        "text": "Combustibles y lubricantes"
+      },
+      {
+        "id": "w1",
+        "text": "Mercancías no fabricadas por la empresa"
+      },
+      {
+        "id": "w2",
+        "text": "Autorretenciones"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Obligación causada por servicios y gastos pendientes de pago.",
+    "explanation": "2335 · Costos y gastos por pagar. Obligación causada por servicios y gastos pendientes de pago.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b053",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Costos y gastos por pagar»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "2335"
+      },
+      {
+        "id": "w0",
+        "text": "519535"
+      },
+      {
+        "id": "w1",
+        "text": "1435"
+      },
+      {
+        "id": "w2",
+        "text": "236575"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Pasivo.",
+    "explanation": "2335 es la cuenta de costos y gastos por pagar. Obligación causada por servicios y gastos pendientes de pago.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b054",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 236515?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Retención por honorarios"
+      },
+      {
+        "id": "w0",
+        "text": "Bancos"
+      },
+      {
+        "id": "w1",
+        "text": "Costos y gastos por pagar"
+      },
+      {
+        "id": "w2",
+        "text": "Comercio al por mayor y al por menor"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Renta retenida a terceros por honorarios.",
+    "explanation": "236515 · Retención por honorarios. Renta retenida a terceros por honorarios.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b055",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Retención por honorarios»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "236515"
+      },
+      {
+        "id": "w0",
+        "text": "1110"
+      },
+      {
+        "id": "w1",
+        "text": "2335"
+      },
+      {
+        "id": "w2",
+        "text": "4135"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Pasivo.",
+    "explanation": "236515 es la cuenta de retención por honorarios. Renta retenida a terceros por honorarios.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b056",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 236525?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Retención por servicios"
+      },
+      {
+        "id": "w0",
+        "text": "IVA retenido a favor"
+      },
+      {
+        "id": "w1",
+        "text": "Retención por compras"
+      },
+      {
+        "id": "w2",
+        "text": "Asesoría jurídica"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Renta retenida a terceros por servicios.",
+    "explanation": "236525 · Retención por servicios. Renta retenida a terceros por servicios.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b057",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Retención por servicios»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "236525"
+      },
+      {
+        "id": "w0",
+        "text": "135517"
+      },
+      {
+        "id": "w1",
+        "text": "236540"
+      },
+      {
+        "id": "w2",
+        "text": "511025"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Pasivo.",
+    "explanation": "236525 es la cuenta de retención por servicios. Renta retenida a terceros por servicios.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b058",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 236530?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Retención por arrendamientos"
+      },
+      {
+        "id": "w0",
+        "text": "Proveedores nacionales"
+      },
+      {
+        "id": "w1",
+        "text": "Aportes sociales"
+      },
+      {
+        "id": "w2",
+        "text": "Arrendamiento de maquinaria y equipo"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Renta retenida a terceros por arrendamientos.",
+    "explanation": "236530 · Retención por arrendamientos. Renta retenida a terceros por arrendamientos.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b059",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Retención por arrendamientos»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "236530"
+      },
+      {
+        "id": "w0",
+        "text": "2205"
+      },
+      {
+        "id": "w1",
+        "text": "3115"
+      },
+      {
+        "id": "w2",
+        "text": "512015"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Pasivo.",
+    "explanation": "236530 es la cuenta de retención por arrendamientos. Renta retenida a terceros por arrendamientos.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b060",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 236540?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Retención por compras"
+      },
+      {
+        "id": "w0",
+        "text": "Retención por servicios"
+      },
+      {
+        "id": "w1",
+        "text": "Actividades inmobiliarias, empresariales y de alquiler"
+      },
+      {
+        "id": "w2",
+        "text": "Combustibles y lubricantes"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Renta retenida por compras; se puede detallar por auxiliar.",
+    "explanation": "236540 · Retención por compras. Renta retenida por compras; se puede detallar por auxiliar.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b061",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Retención por compras»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "236540"
+      },
+      {
+        "id": "w0",
+        "text": "236525"
+      },
+      {
+        "id": "w1",
+        "text": "4155"
+      },
+      {
+        "id": "w2",
+        "text": "519535"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Pasivo.",
+    "explanation": "236540 es la cuenta de retención por compras. Renta retenida por compras; se puede detallar por auxiliar.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b062",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 236575?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Autorretenciones"
+      },
+      {
+        "id": "w0",
+        "text": "Impuesto a las ventas retenido"
+      },
+      {
+        "id": "w1",
+        "text": "Arrendamiento de construcciones y edificaciones"
+      },
+      {
+        "id": "w2",
+        "text": "Bancos"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Retención que el propio beneficiario causa a su cargo.",
+    "explanation": "236575 · Autorretenciones. Retención que el propio beneficiario causa a su cargo.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b063",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Autorretenciones»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "236575"
+      },
+      {
+        "id": "w0",
+        "text": "2367"
+      },
+      {
+        "id": "w1",
+        "text": "512010"
+      },
+      {
+        "id": "w2",
+        "text": "1110"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Pasivo.",
+    "explanation": "236575 es la cuenta de autorretenciones. Retención que el propio beneficiario causa a su cargo.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b064",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 2367?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Impuesto a las ventas retenido"
+      },
+      {
+        "id": "w0",
+        "text": "Transporte, almacenamiento y comunicaciones"
+      },
+      {
+        "id": "w1",
+        "text": "Mantenimiento de maquinaria y equipo"
+      },
+      {
+        "id": "w2",
+        "text": "IVA retenido a favor"
+      }
+    ],
+    "answer": "ok",
+    "hint": "IVA retenido a terceros, pendiente de entregar a la DIAN.",
+    "explanation": "2367 · Impuesto a las ventas retenido. IVA retenido a terceros, pendiente de entregar a la DIAN.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b065",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Impuesto a las ventas retenido»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "2367"
+      },
+      {
+        "id": "w0",
+        "text": "4145"
+      },
+      {
+        "id": "w1",
+        "text": "514515"
+      },
+      {
+        "id": "w2",
+        "text": "135517"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Pasivo.",
+    "explanation": "2367 es la cuenta de impuesto a las ventas retenido. IVA retenido a terceros, pendiente de entregar a la DIAN.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b066",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 3115?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Aportes sociales"
+      },
+      {
+        "id": "w0",
+        "text": "Costo de ventas de comercio"
+      },
+      {
+        "id": "w1",
+        "text": "Equipos de procesamiento de datos"
+      },
+      {
+        "id": "w2",
+        "text": "Autorretenciones"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Aportes de los socios en una sociedad de cuotas.",
+    "explanation": "3115 · Aportes sociales. Aportes de los socios en una sociedad de cuotas.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b067",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Aportes sociales»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "3115"
+      },
+      {
+        "id": "w0",
+        "text": "6135"
+      },
+      {
+        "id": "w1",
+        "text": "152805"
+      },
+      {
+        "id": "w2",
+        "text": "236575"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Patrimonio.",
+    "explanation": "3115 es la cuenta de aportes sociales. Aportes de los socios en una sociedad de cuotas.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b068",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 4135?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Comercio al por mayor y al por menor"
+      },
+      {
+        "id": "w0",
+        "text": "Clientes"
+      },
+      {
+        "id": "w1",
+        "text": "Retención por honorarios"
+      },
+      {
+        "id": "w2",
+        "text": "Transporte, almacenamiento y comunicaciones"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Ingreso por venta de mercancías; no incluye el IVA.",
+    "explanation": "4135 · Comercio al por mayor y al por menor. Ingreso por venta de mercancías; no incluye el IVA.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b069",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Comercio al por mayor y al por menor»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "4135"
+      },
+      {
+        "id": "w0",
+        "text": "1305"
+      },
+      {
+        "id": "w1",
+        "text": "236515"
+      },
+      {
+        "id": "w2",
+        "text": "4145"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Ingreso.",
+    "explanation": "4135 es la cuenta de comercio al por mayor y al por menor. Ingreso por venta de mercancías; no incluye el IVA.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b070",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 4145?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Transporte, almacenamiento y comunicaciones"
+      },
+      {
+        "id": "w0",
+        "text": "Mercancías no fabricadas por la empresa"
+      },
+      {
+        "id": "w1",
+        "text": "Retención por compras"
+      },
+      {
+        "id": "w2",
+        "text": "Asesoría técnica"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Ingreso por prestación de transporte, con auxiliar según actividad.",
+    "explanation": "4145 · Transporte, almacenamiento y comunicaciones. Ingreso por prestación de transporte, con auxiliar según actividad.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b071",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Transporte, almacenamiento y comunicaciones»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "4145"
+      },
+      {
+        "id": "w0",
+        "text": "1435"
+      },
+      {
+        "id": "w1",
+        "text": "236540"
+      },
+      {
+        "id": "w2",
+        "text": "511035"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Ingreso.",
+    "explanation": "4145 es la cuenta de transporte, almacenamiento y comunicaciones. Ingreso por prestación de transporte, con auxiliar según actividad.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b072",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 4155?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Actividades inmobiliarias, empresariales y de alquiler"
+      },
+      {
+        "id": "w0",
+        "text": "Costos y gastos por pagar"
+      },
+      {
+        "id": "w1",
+        "text": "Aportes sociales"
+      },
+      {
+        "id": "w2",
+        "text": "Transporte, fletes y acarreos"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Ingreso por asesorías o alquiler, detallado por actividad.",
+    "explanation": "4155 · Actividades inmobiliarias, empresariales y de alquiler. Ingreso por asesorías o alquiler, detallado por actividad.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b073",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Actividades inmobiliarias, empresariales y de alquiler»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "4155"
+      },
+      {
+        "id": "w0",
+        "text": "2335"
+      },
+      {
+        "id": "w1",
+        "text": "3115"
+      },
+      {
+        "id": "w2",
+        "text": "513550"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Ingreso.",
+    "explanation": "4155 es la cuenta de actividades inmobiliarias, empresariales y de alquiler. Ingreso por asesorías o alquiler, detallado por actividad.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b074",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 511025?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Asesoría jurídica"
+      },
+      {
+        "id": "w0",
+        "text": "Retención por arrendamientos"
+      },
+      {
+        "id": "w1",
+        "text": "Actividades inmobiliarias, empresariales y de alquiler"
+      },
+      {
+        "id": "w2",
+        "text": "Costo de ventas de comercio"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Honorarios por asesoría jurídica recibida.",
+    "explanation": "511025 · Asesoría jurídica. Honorarios por asesoría jurídica recibida.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b075",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Asesoría jurídica»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "511025"
+      },
+      {
+        "id": "w0",
+        "text": "236530"
+      },
+      {
+        "id": "w1",
+        "text": "4155"
+      },
+      {
+        "id": "w2",
+        "text": "6135"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Gasto.",
+    "explanation": "511025 es la cuenta de asesoría jurídica. Honorarios por asesoría jurídica recibida.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b076",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 511035?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Asesoría técnica"
+      },
+      {
+        "id": "w0",
+        "text": "Impuesto a las ventas retenido"
+      },
+      {
+        "id": "w1",
+        "text": "Arrendamiento de maquinaria y equipo"
+      },
+      {
+        "id": "w2",
+        "text": "Clientes"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Honorarios por asesoría técnica recibida.",
+    "explanation": "511035 · Asesoría técnica. Honorarios por asesoría técnica recibida.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b077",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Asesoría técnica»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "511035"
+      },
+      {
+        "id": "w0",
+        "text": "2367"
+      },
+      {
+        "id": "w1",
+        "text": "512015"
+      },
+      {
+        "id": "w2",
+        "text": "1305"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Gasto.",
+    "explanation": "511035 es la cuenta de asesoría técnica. Honorarios por asesoría técnica recibida.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b078",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 512010?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Arrendamiento de construcciones y edificaciones"
+      },
+      {
+        "id": "w0",
+        "text": "Transporte, almacenamiento y comunicaciones"
+      },
+      {
+        "id": "w1",
+        "text": "Combustibles y lubricantes"
+      },
+      {
+        "id": "w2",
+        "text": "Mercancías no fabricadas por la empresa"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Canon por uso de un local o edificio.",
+    "explanation": "512010 · Arrendamiento de construcciones y edificaciones. Canon por uso de un local o edificio.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b079",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Arrendamiento de construcciones y edificaciones»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "512010"
+      },
+      {
+        "id": "w0",
+        "text": "4145"
+      },
+      {
+        "id": "w1",
+        "text": "519535"
+      },
+      {
+        "id": "w2",
+        "text": "1435"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Gasto.",
+    "explanation": "512010 es la cuenta de arrendamiento de construcciones y edificaciones. Canon por uso de un local o edificio.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b080",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 512015?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Arrendamiento de maquinaria y equipo"
+      },
+      {
+        "id": "w0",
+        "text": "Asesoría técnica"
+      },
+      {
+        "id": "w1",
+        "text": "Bancos"
+      },
+      {
+        "id": "w2",
+        "text": "Costos y gastos por pagar"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Canon por uso de un equipo; no se adquiere el bien.",
+    "explanation": "512015 · Arrendamiento de maquinaria y equipo. Canon por uso de un equipo; no se adquiere el bien.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b081",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Arrendamiento de maquinaria y equipo»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "512015"
+      },
+      {
+        "id": "w0",
+        "text": "511035"
+      },
+      {
+        "id": "w1",
+        "text": "1110"
+      },
+      {
+        "id": "w2",
+        "text": "2335"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Gasto.",
+    "explanation": "512015 es la cuenta de arrendamiento de maquinaria y equipo. Canon por uso de un equipo; no se adquiere el bien.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b082",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 513550?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Transporte, fletes y acarreos"
+      },
+      {
+        "id": "w0",
+        "text": "Mantenimiento de maquinaria y equipo"
+      },
+      {
+        "id": "w1",
+        "text": "IVA retenido a favor"
+      },
+      {
+        "id": "w2",
+        "text": "Retención por arrendamientos"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Transporte contratado por la empresa.",
+    "explanation": "513550 · Transporte, fletes y acarreos. Transporte contratado por la empresa.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b083",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Transporte, fletes y acarreos»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "513550"
+      },
+      {
+        "id": "w0",
+        "text": "514515"
+      },
+      {
+        "id": "w1",
+        "text": "135517"
+      },
+      {
+        "id": "w2",
+        "text": "236530"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Gasto.",
+    "explanation": "513550 es la cuenta de transporte, fletes y acarreos. Transporte contratado por la empresa.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b084",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 514515?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Mantenimiento de maquinaria y equipo"
+      },
+      {
+        "id": "w0",
+        "text": "Caja"
+      },
+      {
+        "id": "w1",
+        "text": "Proveedores nacionales"
+      },
+      {
+        "id": "w2",
+        "text": "Impuesto a las ventas retenido"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Conservación o reparación ordinaria del equipo.",
+    "explanation": "514515 · Mantenimiento de maquinaria y equipo. Conservación o reparación ordinaria del equipo.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b085",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Mantenimiento de maquinaria y equipo»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "514515"
+      },
+      {
+        "id": "w0",
+        "text": "1105"
+      },
+      {
+        "id": "w1",
+        "text": "2205"
+      },
+      {
+        "id": "w2",
+        "text": "2367"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Gasto.",
+    "explanation": "514515 es la cuenta de mantenimiento de maquinaria y equipo. Conservación o reparación ordinaria del equipo.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b086",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 519535?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Combustibles y lubricantes"
+      },
+      {
+        "id": "w0",
+        "text": "Retención en la fuente a favor"
+      },
+      {
+        "id": "w1",
+        "text": "Retención por servicios"
+      },
+      {
+        "id": "w2",
+        "text": "Transporte, almacenamiento y comunicaciones"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Combustible consumido en la operación.",
+    "explanation": "519535 · Combustibles y lubricantes. Combustible consumido en la operación.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b087",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Combustibles y lubricantes»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "519535"
+      },
+      {
+        "id": "w0",
+        "text": "135515"
+      },
+      {
+        "id": "w1",
+        "text": "236525"
+      },
+      {
+        "id": "w2",
+        "text": "4145"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Gasto.",
+    "explanation": "519535 es la cuenta de combustibles y lubricantes. Combustible consumido en la operación.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  },
+  {
+    "id": "b088",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Qué representa la cuenta 6135?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "Costo de ventas de comercio"
+      },
+      {
+        "id": "w0",
+        "text": "Equipos de procesamiento de datos"
+      },
+      {
+        "id": "w1",
+        "text": "Autorretenciones"
+      },
+      {
+        "id": "w2",
+        "text": "Asesoría técnica"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Costo de la mercancía vendida; requiere conocer su costo contable.",
+    "explanation": "6135 · Costo de ventas de comercio. Costo de la mercancía vendida; requiere conocer su costo contable.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "code-name"
+  },
+  {
+    "id": "b089",
+    "topic": "cuentas",
+    "level": 0,
+    "type": "choice",
+    "prompt": "¿Cuál es el código de «Costo de ventas de comercio»?",
+    "options": [
+      {
+        "id": "ok",
+        "text": "6135"
+      },
+      {
+        "id": "w0",
+        "text": "152805"
+      },
+      {
+        "id": "w1",
+        "text": "236575"
+      },
+      {
+        "id": "w2",
+        "text": "511035"
+      }
+    ],
+    "answer": "ok",
+    "hint": "Pertenece a: Costo.",
+    "explanation": "6135 es la cuenta de costo de ventas de comercio. Costo de la mercancía vendida; requiere conocer su costo contable.",
+    "calculation": [],
+    "sources": [
+      "puc"
+    ],
+    "direction": "name-code"
+  }
+]

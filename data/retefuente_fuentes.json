@@ -1,0 +1,114 @@
+[
+  {
+    "id": "puc",
+    "title": "Catálogo PUC para comerciantes",
+    "url": "https://puc.com.co/cuentas/",
+    "note": "Códigos y dinámica contable. Los auxiliares de 2408 se identifican por nombre, sin inventar subcuentas oficiales.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "uvt",
+    "title": "DIAN · UVT 2026",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0238_2025.htm",
+    "note": "UVT de 2026: $52.374.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "vigencia",
+    "title": "DIAN · Concepto 15414 de 2026",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_15414_2026.htm",
+    "note": "Explica la revocatoria de la suspensión de los artículos 2 a 8 del Decreto 572 de 2025. No extender a septiembre la suspensión anunciada en mayo.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "bases",
+    "title": "DIAN · Concepto 12329 de 2025",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_12329_2025.htm",
+    "note": "Bases de 2 UVT para servicios generales y 10 UVT para arrendamiento de inmuebles y transporte de pasajeros; tarifa de estos últimos: 3,5%.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "descuento",
+    "title": "DIAN · Descuentos condicionados",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_0335_2018.htm",
+    "note": "El descuento por pronto pago condicionado no reduce la base gravable del IVA.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "agentes",
+    "title": "DIAN · Operaciones entre agentes de reteIVA",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_903191_2020.htm",
+    "note": "Excepción del artículo 437-2, parágrafo 1, en operaciones entre agentes de los numerales allí señalados.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "reteiva",
+    "title": "DIAN · Tarifa general de reteIVA",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_54555_2014.htm",
+    "note": "Tarifa general del 15% del IVA, sin extenderla a las excepciones.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "servicios",
+    "title": "DIAN · Concepto 6491 de 2025",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_6491_2025.htm",
+    "note": "Servicios: revisar calidad de declarante; tarifa general del 4% para declarantes.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "honorarios",
+    "title": "DIAN · Honorarios y consultoría",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_0613_2019.htm",
+    "note": "Honorarios: 11% a personas jurídicas; 10% a naturales con los supuestos y excepciones de la norma.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "pn",
+    "title": "DIAN · Concepto 6997 de 2025",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_6997_2025.htm",
+    "note": "Para rentas de trabajo de personas naturales debe evaluarse la tabla del artículo 383; no basta su calidad frente al IVA.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "muebles",
+    "title": "DIAN · Arrendamiento de bienes muebles",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_19131_2014.htm",
+    "note": "Tarifa del 4% para el arrendamiento de bienes muebles.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "combustible",
+    "title": "DIAN · Retención por combustibles",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_32759_2018.htm",
+    "note": "0,1% del pago o abono a distribuidores de combustibles derivados del petróleo.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "prorrata",
+    "title": "Consejo de Estado · IVA de operaciones mixtas",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/25000-23-37-000-2017-00584-01(26585)_20230803.htm",
+    "note": "Si no hay imputación directa, el IVA común debe distribuirse según las operaciones del período (artículo 490).",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "activo",
+    "title": "DIAN · IVA en activos fijos reales productivos",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_907486_2020.htm",
+    "note": "Distinguir costo del activo y posible descuento en renta del artículo 258-1; no tratarlos como IVA descontable ordinario.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "dur",
+    "title": "Decreto 1625 · Retenciones especiales",
+    "url": "https://cancilleria.gov.co/sites/default/files/Normograma/docs/decreto_1625_2016_pr016.htm",
+    "note": "Consulta de tarifas especiales. Para bases modificadas se usan las fuentes de vigencia más recientes.",
+    "consultado": "2026-10-19"
+  },
+  {
+    "id": "videos",
+    "title": "Repase tu clase · Canal de apoyo",
+    "url": "https://www.youtube.com/@REPASETUCLASE",
+    "note": "Recurso complementario del usuario. No se atribuyen afirmaciones a videos no revisados.",
+    "consultado": "2026-10-19"
+  }
+]
