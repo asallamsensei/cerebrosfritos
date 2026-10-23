@@ -1,0 +1,779 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · La historia y sus fuentes",
+    "pregunta": "Para investigar las demandas obreras durante una huelga de 1906, ¿cuál de los siguientes materiales constituye una fuente primaria?",
+    "opciones": {
+      "a": "Una reseña reciente de un libro sobre el movimiento obrero.",
+      "b": "Un artículo de divulgación publicado en 2020 sobre la huelga.",
+      "c": "Un capítulo de un manual escolar actual que explica el conflicto.",
+      "d": "Un pliego de peticiones redactado por los huelguistas en 1906."
+    },
+    "respuesta": "d",
+    "explicacion": "El pliego fue producido por participantes del acontecimiento en la época estudiada. Por ello es una fuente primaria. Esto no garantiza que sea imparcial: debe analizarse su autoría, intención y contexto, y contrastarse con otras fuentes."
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Ilustración y revoluciones burguesas",
+    "pregunta": "Un pensador del siglo XVIII sostiene que, para impedir el abuso de poder, las funciones legislativa, ejecutiva y judicial deben ejercerse por órganos distintos. ¿Con qué autor se relaciona esta propuesta?",
+    "opciones": {
+      "a": "Thomas Hobbes.",
+      "b": "Jean-Jacques Rousseau.",
+      "c": "Montesquieu.",
+      "d": "Adam Smith."
+    },
+    "respuesta": "c",
+    "explicacion": "Montesquieu formuló la separación de poderes como medio para limitar el despotismo. Rousseau se asocia principalmente con la soberanía popular y la voluntad general; Adam Smith, con el liberalismo económico.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal1/unidad3/ilustracion/ilustracion"
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Ilustración y revoluciones burguesas",
+    "pregunta": "Una causa política del movimiento de independencia de las Trece Colonias británicas de Norteamérica fue el rechazo a",
+    "opciones": {
+      "a": "sustituir la monarquía británica por una monarquía francesa, como exigían las autoridades de Londres.",
+      "b": "pagar impuestos establecidos por un Parlamento en el que los colonos no tenían representantes.",
+      "c": "aceptar la independencia que la Corona británica había concedido unilateralmente a las colonias.",
+      "d": "financiar impuestos aprobados por representantes coloniales con voto en el Parlamento británico."
+    },
+    "respuesta": "b",
+    "explicacion": "Las nuevas cargas fiscales británicas, impuestas sin representación colonial en el Parlamento, alimentaron el conflicto. La protesta se unió a disputas por la autonomía y el comercio, y desembocó en la declaración de independencia de 1776."
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Ilustración y revoluciones burguesas",
+    "pregunta": "¿Qué principio de la Declaración de los Derechos del Hombre y del Ciudadano de 1789 cuestionaba directamente los privilegios jurídicos de la sociedad estamental?",
+    "opciones": {
+      "a": "La exención fiscal permanente de la nobleza.",
+      "b": "La igualdad de los ciudadanos ante la ley.",
+      "c": "La distribución de los cargos públicos por nacimiento.",
+      "d": "La soberanía exclusiva del monarca."
+    },
+    "respuesta": "b",
+    "explicacion": "La sociedad estamental concedía derechos y privilegios diferentes según el grupo de nacimiento. La igualdad jurídica cuestionó ese orden. Sin embargo, la revolución no estableció de inmediato igualdad política efectiva para toda la población, incluidas las mujeres.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal1/unidad3/revolucionFrancesa/etapa1789_1791"
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Liberalismo y nacionalismo",
+    "pregunta": "Tras la derrota de Napoleón, las principales potencias reunidas en el Congreso de Viena de 1814-1815 buscaron",
+    "opciones": {
+      "a": "organizar una federación europea basada en el sufragio universal.",
+      "b": "restaurar dinastías y establecer un equilibrio entre las potencias europeas.",
+      "c": "promover repúblicas democráticas en todos los territorios europeos.",
+      "d": "reconocer de inmediato la unificación de Alemania e Italia."
+    },
+    "respuesta": "b",
+    "explicacion": "El Congreso de Viena reorganizó Europa después de las guerras napoleónicas. Predominaron la restauración monárquica y el equilibrio de poder, con el propósito de frenar nuevas revoluciones y evitar la hegemonía de una sola potencia."
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Industrialización y movimiento obrero",
+    "pregunta": "¿Qué combinación corresponde a la primera Revolución Industrial, iniciada en Gran Bretaña durante la segunda mitad del siglo XVIII?",
+    "opciones": {
+      "a": "Mecanización textil, uso del carbón y expansión de la máquina de vapor.",
+      "b": "Industria petroquímica, motor de combustión interna y redes eléctricas.",
+      "c": "Producción artesanal gremial, fuerza animal y reducción del trabajo fabril.",
+      "d": "Microelectrónica, automatización digital y energía nuclear."
+    },
+    "respuesta": "a",
+    "explicacion": "La mecanización textil y el uso creciente del vapor alimentado con carbón fueron rasgos centrales de la primera industrialización. La electricidad y el petróleo adquirieron protagonismo en la segunda Revolución Industrial, durante la segunda mitad del siglo XIX.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal1/unidad3/revolucionindustrial/innovacionestecnologicas"
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Liberalismo y nacionalismo",
+    "pregunta": "Aunque tuvieron objetivos distintos según el territorio, las revoluciones europeas de 1848 compartieron, en varios casos, la demanda de",
+    "opciones": {
+      "a": "suprimir las constituciones para consolidar monarquías absolutas.",
+      "b": "restablecer los privilegios estamentales y fortalecer el derecho divino de los reyes.",
+      "c": "extender el gobierno de Napoleón Bonaparte sobre toda Europa.",
+      "d": "constituciones, ampliación de la participación política y reconocimiento de aspiraciones nacionales."
+    },
+    "respuesta": "d",
+    "explicacion": "Las revoluciones de 1848 combinaron demandas liberales, democráticas, nacionales y sociales. No constituyeron un movimiento uniforme: sectores burgueses, trabajadores y nacionalistas coincidieron temporalmente, pero también tuvieron intereses diferentes."
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Liberalismo y nacionalismo",
+    "pregunta": "La unificación alemana culminó en 1871 bajo la dirección política y militar de",
+    "opciones": {
+      "a": "Prusia, con Otto von Bismarck como figura central.",
+      "b": "Austria, con Klemens von Metternich como jefe del nuevo imperio.",
+      "c": "Piamonte-Cerdeña, con Camillo Cavour al frente del proceso.",
+      "d": "Francia, con Napoleón III como promotor de la unidad alemana."
+    },
+    "respuesta": "a",
+    "explicacion": "Prusia dirigió la unificación mediante la diplomacia y varias guerras impulsadas por Bismarck. En 1871 se proclamó el Imperio alemán. Cavour y Piamonte-Cerdeña corresponden al proceso de unificación italiana, no al alemán."
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Industrialización y movimiento obrero",
+    "pregunta": "¿Qué planteamiento corresponde al socialismo de Karl Marx y Friedrich Engels?",
+    "opciones": {
+      "a": "Las crisis del capitalismo se resuelven definitivamente mediante la restauración de privilegios feudales.",
+      "b": "El libre mercado elimina por sí mismo todos los conflictos entre obreros y empresarios.",
+      "c": "La desigualdad social debe mantenerse porque deriva de un orden natural inmodificable.",
+      "d": "La lucha de clases y las relaciones de producción son fundamentales para explicar las transformaciones sociales."
+    },
+    "respuesta": "d",
+    "explicacion": "Marx y Engels analizaron el capitalismo a partir de la propiedad de los medios de producción y del conflicto entre clases. Su propuesta buscaba superar la explotación del trabajo asalariado; no defendía la restauración del orden feudal."
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Imperialismo",
+    "pregunta": "La expansión de industrias como la siderúrgica, la química y la eléctrica durante la segunda mitad del siglo XIX favoreció",
+    "opciones": {
+      "a": "la sustitución generalizada de la producción mecanizada por la organización gremial artesanal.",
+      "b": "la separación definitiva entre los bancos y el financiamiento de actividades industriales.",
+      "c": "la fragmentación de las grandes empresas en talleres familiares como forma industrial dominante.",
+      "d": "la concentración de capital y el desarrollo de grandes empresas capaces de financiar inversiones costosas."
+    },
+    "respuesta": "d",
+    "explicacion": "Las nuevas industrias requerían instalaciones y tecnologías costosas. Esto favoreció la concentración empresarial y la vinculación entre capital bancario e industrial. La competencia continuó, pero coexistió con grandes compañías y acuerdos para controlar mercados.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/aprende/historiauniversal2/2darevolucionindustrial"
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Imperialismo",
+    "pregunta": "¿Qué relación explica mejor la expansión imperialista de las potencias industriales durante el último tercio del siglo XIX?",
+    "opciones": {
+      "a": "Las colonias se fundaron principalmente para establecer relaciones políticas de igualdad con los pueblos conquistados.",
+      "b": "La expansión industrial estimuló la búsqueda de materias primas, mercados y espacios para invertir capital.",
+      "c": "La reducción de la producción industrial volvió innecesario el control de recursos externos.",
+      "d": "La industrialización eliminó la competencia económica y territorial entre las potencias."
+    },
+    "respuesta": "b",
+    "explicacion": "La industria demandaba recursos y mercados, mientras los inversionistas buscaban oportunidades rentables. Estos intereses se combinaron con rivalidades estratégicas y justificaciones racistas o civilizatorias. El imperialismo implicó relaciones de dominación, no una asociación entre iguales.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/aprende/historiauniversal2/2darevolucionindustrial"
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Primera Guerra Mundial y Revolución rusa",
+    "pregunta": "¿Cuál opción distingue correctamente una causa de fondo y el detonante inmediato de la Primera Guerra Mundial?",
+    "opciones": {
+      "a": "Causa de fondo: rivalidades imperialistas y sistema de alianzas; detonante: asesinato del archiduque Francisco Fernando en Sarajevo.",
+      "b": "Causa de fondo: rivalidades imperialistas; detonante: invasión alemana de Polonia.",
+      "c": "Causa de fondo: Tratado de Versalles; detonante: asesinato del archiduque Francisco Fernando en Sarajevo.",
+      "d": "Causa de fondo: creación de la ONU; detonante: Revolución rusa de octubre."
+    },
+    "respuesta": "a",
+    "explicacion": "Las rivalidades entre potencias, el armamentismo y las alianzas hicieron posible la escalada de 1914. El atentado de Sarajevo precipitó la crisis. Versalles fue una consecuencia de la guerra; la invasión de Polonia corresponde a 1939.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/repositorio-de-sitios/historico-social/historia-universal-2/HUMCII/HUII-1a%20Guerra.htm"
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Primera Guerra Mundial y Revolución rusa",
+    "pregunta": "El Tratado de Versalles de 1919 estableció para Alemania",
+    "opciones": {
+      "a": "pérdidas territoriales, limitaciones militares y obligaciones de reparación económica.",
+      "b": "su división inmediata en una república federal y una república democrática.",
+      "c": "la incorporación de Austria y de todas sus antiguas colonias.",
+      "d": "la supresión de reparaciones y el reconocimiento de su victoria militar."
+    },
+    "respuesta": "a",
+    "explicacion": "Versalles impuso condiciones territoriales, militares y económicas a Alemania después de la Primera Guerra Mundial. Sus términos alimentaron resentimientos, pero no explican por sí solos el ascenso del nazismo. La división en dos Estados alemanes ocurrió en 1949.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/repositorio-de-sitios/historico-social/historia-universal-2/HUMCII/HUII-1a%20Guerra.htm"
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Primera Guerra Mundial y Revolución rusa",
+    "pregunta": "¿Qué secuencia describe correctamente los cambios de poder en Rusia durante 1917, según las denominaciones tradicionales de las revoluciones?",
+    "opciones": {
+      "a": "Febrero: caída del zarismo; octubre: derrocamiento del Gobierno provisional por los bolcheviques.",
+      "b": "Febrero: llegada de Stalin al poder; octubre: abdicación de Nicolás II.",
+      "c": "Febrero: creación de la URSS; octubre: establecimiento del Gobierno provisional.",
+      "d": "Febrero: triunfo bolchevique; octubre: restauración del zarismo."
+    },
+    "respuesta": "a",
+    "explicacion": "La Revolución de Febrero provocó la abdicación de Nicolás II y abrió paso al Gobierno provisional. En octubre, los bolcheviques encabezados por Lenin lo derrocaron. La URSS se constituyó en 1922, por lo que no debe confundirse con los acontecimientos de 1917.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal2/unidad2/revolucionrusa/1917Revolucion_octubre"
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Periodo de entreguerras",
+    "pregunta": "Frente a la Gran Depresión, el New Deal de Franklin D. Roosevelt se caracterizó por",
+    "opciones": {
+      "a": "abolir la propiedad privada y colectivizar la totalidad de las empresas.",
+      "b": "financiar la recuperación únicamente mediante nuevas conquistas coloniales.",
+      "c": "ampliar la intervención estatal mediante obras públicas, regulación financiera y medidas de protección social.",
+      "d": "retirar toda regulación bancaria y suspender el gasto en infraestructura."
+    },
+    "respuesta": "c",
+    "explicacion": "Desde 1933, el New Deal buscó aliviar el desempleo, recuperar la actividad económica y reformar el sistema financiero. Mantuvo el capitalismo con mayor intervención pública. No debe confundirse con la colectivización soviética ni con una solución instantánea a toda la crisis.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal2/unidad2/crisisEconomica1929/newDeal"
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Periodo de entreguerras",
+    "pregunta": "¿Qué conjunto de rasgos compartieron el fascismo italiano y el nazismo alemán?",
+    "opciones": {
+      "a": "División efectiva de poderes, libertad de prensa y rechazo del militarismo.",
+      "b": "Pluralismo partidista, independencia sindical y alternancia electoral.",
+      "c": "Nacionalismo extremo, culto al líder y represión de la oposición política.",
+      "d": "Internacionalismo obrero, eliminación del Estado y pacifismo."
+    },
+    "respuesta": "c",
+    "explicacion": "Ambos regímenes eliminaron el pluralismo y movilizaron a la sociedad alrededor del líder y de un nacionalismo agresivo. El nazismo incorporó además una doctrina racial y un antisemitismo centrales en su proyecto de persecución y exterminio.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal2/unidad2/regimenes_totalitarios/crisis_de_la_democracia"
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Segunda Guerra Mundial",
+    "pregunta": "¿Qué acontecimiento desencadenó las declaraciones de guerra de Gran Bretaña y Francia contra Alemania en septiembre de 1939?",
+    "opciones": {
+      "a": "La anexión de Austria al territorio alemán.",
+      "b": "La incorporación de los Sudetes a Alemania.",
+      "c": "La invasión alemana de Polonia.",
+      "d": "La ocupación alemana de Renania."
+    },
+    "respuesta": "c",
+    "explicacion": "Alemania invadió Polonia el 1 de septiembre de 1939; Gran Bretaña y Francia le declararon la guerra el día 3. La remilitarización de Renania y las anexiones de Austria y los Sudetes fueron antecedentes del expansionismo nazi."
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Segunda Guerra Mundial",
+    "pregunta": "¿Por qué la batalla de Stalingrado de 1942-1943 se considera un punto de inflexión en el frente oriental de la Segunda Guerra Mundial?",
+    "opciones": {
+      "a": "Porque la derrota de un importante ejército alemán frenó su avance y favoreció la iniciativa militar soviética.",
+      "b": "Porque provocó la rendición inmediata de Japón.",
+      "c": "Porque permitió a Alemania ocupar Moscú y retirar a la URSS de la guerra.",
+      "d": "Porque inició el desembarco angloestadounidense en Normandía."
+    },
+    "respuesta": "a",
+    "explicacion": "La victoria soviética en Stalingrado debilitó gravemente la ofensiva alemana y fue decisiva para cambiar el curso del frente oriental. No puso fin inmediato a la guerra: Alemania se rindió en mayo de 1945 y Japón lo hizo meses después."
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Orden mundial de posguerra",
+    "pregunta": "Una finalidad central de la Organización de las Naciones Unidas, fundada en 1945, fue",
+    "opciones": {
+      "a": "crear una alianza de defensa colectiva exclusiva de Europa occidental y Norteamérica.",
+      "b": "preservar la paz y la seguridad internacionales mediante la cooperación entre Estados.",
+      "c": "coordinar exclusivamente préstamos destinados a la reconstrucción y al desarrollo económico.",
+      "d": "integrar la producción europea de carbón y acero en una autoridad supranacional."
+    },
+    "respuesta": "b",
+    "explicacion": "La ONU se creó al terminar la Segunda Guerra Mundial para promover la paz, la cooperación y los derechos humanos. No es una alianza militar como la OTAN ni un gobierno mundial que sustituya a los Estados."
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Guerra Fría",
+    "pregunta": "¿Qué relación existió entre el Plan Marshall y la política estadounidense de contención del comunismo?",
+    "opciones": {
+      "a": "La ayuda a la reconstrucción europea buscó también estabilizar economías y reducir la influencia comunista.",
+      "b": "La ayuda se destinó a integrar a Europa occidental en el sistema de planificación soviético.",
+      "c": "El plan fue una alianza militar que estableció el mando conjunto de la OTAN en 1945.",
+      "d": "La ayuda sustituyó los acuerdos económicos de Estados Unidos con Europa por un aislamiento comercial permanente."
+    },
+    "respuesta": "a",
+    "explicacion": "El Plan Marshall, anunciado en 1947, ofreció asistencia para la recuperación europea. Además de sus objetivos económicos, tuvo una dimensión estratégica: fortalecer a los países occidentales frente a la expansión de la influencia soviética.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal2/unidad3/principales-conflictos-de-la-guerra-fria/ejercicio1"
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Fin del bloque soviético",
+    "pregunta": "Ordena cronológicamente los siguientes acontecimientos.\n\n1. Disolución de la URSS\n2. Construcción del Muro de Berlín\n3. Apertura del Muro de Berlín\n4. Reunificación alemana",
+    "opciones": {
+      "a": "2, 3, 4, 1.",
+      "b": "3, 2, 4, 1.",
+      "c": "2, 4, 1, 3.",
+      "d": "2, 3, 1, 4."
+    },
+    "respuesta": "a",
+    "explicacion": "El Muro de Berlín se construyó en 1961 y sus pasos fronterizos se abrieron en 1989. Alemania se reunificó en 1990 y la URSS se disolvió en 1991. Son acontecimientos relacionados, pero ocurrieron en años distintos."
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Descolonización",
+    "pregunta": "La independencia de la India británica en 1947 estuvo acompañada por",
+    "opciones": {
+      "a": "la formación inmediata de Bangladesh como tercer Estado independiente.",
+      "b": "la conservación de un único Estado colonial bajo gobierno británico directo.",
+      "c": "la partición del territorio en India y Pakistán, con desplazamientos masivos y violencia entre comunidades.",
+      "d": "la incorporación del territorio a la República Popular China."
+    },
+    "respuesta": "c",
+    "explicacion": "La retirada británica dio lugar a India y Pakistán en 1947. La partición provocó violencia y migraciones masivas; Pakistán tenía entonces dos sectores separados. Bangladesh surgió del sector oriental de Pakistán en 1971."
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Descolonización",
+    "pregunta": "La Conferencia de Bandung de 1955 fue importante porque reunió a países de Asia y África que promovían",
+    "opciones": {
+      "a": "la sustitución de las soberanías nacionales por un gobierno único afroasiático.",
+      "b": "la cooperación entre pueblos descolonizados, la soberanía y el rechazo al colonialismo.",
+      "c": "la adhesión obligatoria de sus participantes al Pacto de Varsovia.",
+      "d": "la integración de todos los Estados afroasiáticos en la OTAN."
+    },
+    "respuesta": "b",
+    "explicacion": "Bandung fortaleció la solidaridad afroasiática y la oposición al colonialismo. Fue un antecedente del Movimiento de Países No Alineados, fundado en 1961. No significó que todos los asistentes mantuvieran idéntica distancia respecto de las superpotencias."
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Revoluciones del siglo XX",
+    "pregunta": "El triunfo comunista en la guerra civil china condujo en 1949 a",
+    "opciones": {
+      "a": "el establecimiento de la República Popular China bajo Chiang Kai-shek.",
+      "b": "la anexión de China continental al territorio japonés.",
+      "c": "la proclamación de la República Popular China encabezada por Mao Zedong.",
+      "d": "la restauración de la dinastía Qing con apoyo soviético."
+    },
+    "respuesta": "c",
+    "explicacion": "Mao proclamó la República Popular China el 1 de octubre de 1949. El gobierno nacionalista encabezado por Chiang Kai-shek se replegó a Taiwán. El resultado transformó el equilibrio político de Asia durante la Guerra Fría."
+  },
+  {
+    "id": 25,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia Universal",
+    "tema": "HU · Mundo contemporáneo",
+    "pregunta": "¿Qué conjunto de políticas se asocia con las reformas neoliberales difundidas desde las últimas décadas del siglo XX?",
+    "opciones": {
+      "a": "Colectivización agraria, planificación central obligatoria y supresión general de empresas privadas.",
+      "b": "Privatización de empresas públicas, apertura comercial y desregulación de mercados.",
+      "c": "Nacionalización bancaria, control integral de precios y restricción general de la inversión extranjera.",
+      "d": "Ampliación sistemática de empresas estatales, protección arancelaria y producción orientada al mercado interno."
+    },
+    "respuesta": "b",
+    "explicacion": "Estas reformas buscaron ampliar el papel del mercado y reducir o transformar la intervención económica directa del Estado. Su aplicación varió según el país. La globalización es un proceso más amplio, por lo que no es un sinónimo exacto de neoliberalismo."
+  },
+  {
+    "id": 26,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · México prehispánico",
+    "pregunta": "¿Qué conjunto de rasgos se reconoce como parte de la tradición cultural mesoamericana?",
+    "opciones": {
+      "a": "Agricultura del maíz, calendarios rituales y práctica del juego de pelota.",
+      "b": "Nomadismo exclusivo, ausencia de agricultura y falta de centros ceremoniales.",
+      "c": "Escritura alfabética latina, cristianismo y organización municipal castellana.",
+      "d": "Uso generalizado del hierro, ganadería equina y arado de tiro animal."
+    },
+    "respuesta": "a",
+    "explicacion": "Mesoamérica reunió sociedades diversas que compartían prácticas como el cultivo del maíz, calendarios y el juego de pelota. No fue un solo pueblo ni un imperio único; culturas como la maya y la mexica tuvieron trayectorias y formas de organización distintas."
+  },
+  {
+    "id": 27,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Conquista y sociedad novohispana",
+    "pregunta": "¿Qué explicación reconoce mejor la complejidad de la caída de México-Tenochtitlan en 1521?",
+    "opciones": {
+      "a": "La desaparición previa de todos los pueblos enemigos de los mexicas.",
+      "b": "La acción exclusiva de un pequeño ejército español sin aliados locales.",
+      "c": "La combinación de alianzas indígenas con los españoles, epidemias y un prolongado sitio militar.",
+      "d": "La superioridad numérica de los españoles sobre toda la población mesoamericana."
+    },
+    "respuesta": "c",
+    "explicacion": "La conquista no se explica únicamente por el armamento europeo. Participaron numerosos aliados indígenas enfrentados al poder mexica, mientras la viruela y el sitio agravaron la crisis. Estos pueblos actuaron conforme a intereses propios, no como un bloque indígena uniforme."
+  },
+  {
+    "id": 28,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Conquista y sociedad novohispana",
+    "pregunta": "En la Nueva España temprana, la encomienda consistía fundamentalmente en",
+    "opciones": {
+      "a": "una gran propiedad rural dedicada a la producción agrícola y ganadera para el mercado.",
+      "b": "un reclutamiento rotativo de trabajadores indígenas para labores temporales remuneradas.",
+      "c": "una concesión de propiedad territorial otorgada por la Corona mediante una merced de tierras.",
+      "d": "la asignación del tributo de determinadas comunidades indígenas a un encomendero, con obligaciones de protección y evangelización."
+    },
+    "respuesta": "d",
+    "explicacion": "La encomienda otorgaba el derecho a recibir tributos, acompañado de obligaciones hacia los encomendados. No equivalía jurídicamente a poseer sus tierras o personas. La merced concedía tierras; el repartimiento regulaba turnos de trabajo; y la hacienda era una unidad de producción rural."
+  },
+  {
+    "id": 29,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Reformas borbónicas e Independencia",
+    "pregunta": "La creación de intendencias y la reorganización fiscal durante las reformas borbónicas del siglo XVIII buscaban principalmente",
+    "opciones": {
+      "a": "eliminar los impuestos coloniales y los monopolios de la Corona.",
+      "b": "transferir al virrey la soberanía absoluta sobre Nueva España.",
+      "c": "conceder independencia política a las colonias americanas.",
+      "d": "reforzar el control de la Corona e incrementar los ingresos de la monarquía."
+    },
+    "respuesta": "d",
+    "explicacion": "Las reformas borbónicas pretendían hacer más eficiente la administración y aumentar la recaudación imperial. Alteraron intereses locales y restringieron espacios de poder de distintos grupos. No fueron un programa de independencia para las colonias.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/materiales/al/matdi/leedu/Guia_Mexico1_Vallejo.pdf"
+  },
+  {
+    "id": 30,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Reformas borbónicas e Independencia",
+    "pregunta": "¿Por qué la invasión napoleónica de España y las abdicaciones de 1808 influyeron en la crisis política de Nueva España?",
+    "opciones": {
+      "a": "Porque reconocieron de inmediato la independencia de todas las colonias españolas.",
+      "b": "Porque transfirieron legalmente todas las colonias españolas al gobierno británico.",
+      "c": "Porque establecieron en Nueva España una república federal dirigida por Morelos.",
+      "d": "Porque abrieron una disputa sobre quién debía ejercer la soberanía en ausencia del monarca legítimo."
+    },
+    "respuesta": "d",
+    "explicacion": "La crisis de la monarquía cuestionó la legitimidad de las autoridades y dio lugar a propuestas de juntas y representación local. Fue un antecedente político inmediato de la Independencia, aunque sus causas también incluyeron tensiones sociales y económicas.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad4/independenciaMexico/antecedentes"
+  },
+  {
+    "id": 31,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Reformas borbónicas e Independencia",
+    "pregunta": "¿Qué propuesta forma parte de los Sentimientos de la Nación presentados por José María Morelos en 1813?",
+    "opciones": {
+      "a": "La creación de un imperio hereditario para Agustín de Iturbide.",
+      "b": "La soberanía exclusiva del rey español y la conservación de las castas.",
+      "c": "La subordinación del Congreso americano a Napoleón Bonaparte.",
+      "d": "La soberanía procedente del pueblo y la abolición de la esclavitud."
+    },
+    "respuesta": "d",
+    "explicacion": "Morelos defendió la independencia, la soberanía popular y la supresión de la esclavitud y de las distinciones de castas. Su programa también mantuvo la exclusividad de la religión católica: no debe atribuirse al documento una libertad religiosa que no propuso.",
+    "fuente_conceptual": "https://inehrm.gob.mx/es/inehrm/Jose_Maria_Morelos_y_Pavon_Cronologia_1765-1815"
+  },
+  {
+    "id": 32,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Reformas borbónicas e Independencia",
+    "pregunta": "¿Cuáles fueron las tres garantías proclamadas en el Plan de Iguala de 1821?",
+    "opciones": {
+      "a": "Sufragio efectivo, no reelección y reparto agrario.",
+      "b": "República, federalismo y libertad de cultos.",
+      "c": "Tierra, trabajo y educación socialista.",
+      "d": "Religión católica, independencia y unión."
+    },
+    "respuesta": "d",
+    "explicacion": "El Plan de Iguala propuso independencia, conservación de la religión católica y unión entre los grupos de la sociedad. Su proyecto político era una monarquía constitucional. La república federal se estableció después, con la Constitución de 1824."
+  },
+  {
+    "id": 33,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Construcción del Estado mexicano",
+    "pregunta": "La Constitución de 1824 organizó a México como",
+    "opciones": {
+      "a": "una república centralista dividida en departamentos.",
+      "b": "un virreinato autónomo subordinado a Fernando VII.",
+      "c": "una república representativa, popular y federal.",
+      "d": "una monarquía hereditaria gobernada por la dinastía de Iturbide."
+    },
+    "respuesta": "c",
+    "explicacion": "La Constitución de 1824 estableció una república federal integrada por estados con gobiernos propios. Conservó la religión católica como única permitida. El centralismo de las Siete Leyes corresponde a 1836 y no debe confundirse con este primer orden federal.",
+    "fuente_conceptual": "https://inehrm.gob.mx/es/inehrm/Independencia/"
+  },
+  {
+    "id": 34,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Construcción del Estado mexicano",
+    "pregunta": "El Tratado de Guadalupe Hidalgo, firmado en 1848, tuvo como consecuencia",
+    "opciones": {
+      "a": "la recuperación mexicana de Texas y de todos los territorios del norte.",
+      "b": "la venta de La Mesilla como único cambio territorial entre ambos países.",
+      "c": "el fin de la guerra con Estados Unidos y la cesión de una extensa porción del territorio mexicano.",
+      "d": "el reconocimiento estadounidense del Segundo Imperio de Maximiliano."
+    },
+    "respuesta": "c",
+    "explicacion": "El tratado puso fin a la guerra de 1846-1848 y reconoció la pérdida de extensos territorios del norte, incluidos Alta California y Nuevo México. La venta de La Mesilla se acordó en 1853 mediante otro tratado; no fue la misma operación."
+  },
+  {
+    "id": 35,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Reforma y República Restaurada",
+    "pregunta": "Relaciona cada ley de la Reforma liberal con su disposición principal.\n\n1. Ley Juárez\n2. Ley Lerdo\n3. Ley Iglesias\n\nI. Desamortización de bienes de corporaciones civiles y eclesiásticas\nII. Restricción de fueros eclesiásticos y militares en asuntos civiles\nIII. Regulación de cobros parroquiales y protección de personas pobres frente a esos cobros",
+    "opciones": {
+      "a": "1-II, 2-III, 3-I.",
+      "b": "1-II, 2-I, 3-III.",
+      "c": "1-III, 2-II, 3-I.",
+      "d": "1-I, 2-III, 3-II."
+    },
+    "respuesta": "b",
+    "explicacion": "La Ley Juárez de 1855 limitó fueros; la Ley Lerdo de 1856 ordenó desamortizar bienes corporativos; la Ley Iglesias de 1857 reguló cobros parroquiales. Desamortizar significa poner bienes en circulación mediante su venta, no es idéntico a nacionalizarlos.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/materiales/al/matdi/leedu/Guia_Mexico1_Vallejo.pdf"
+  },
+  {
+    "id": 36,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Reforma y República Restaurada",
+    "pregunta": "Ordena cronológicamente estos procesos de la historia de México.\n\n1. Segundo Imperio de Maximiliano\n2. Guerra de Reforma\n3. República Restaurada\n4. Promulgación de la Constitución de 1857",
+    "opciones": {
+      "a": "1, 2, 4, 3.",
+      "b": "4, 2, 1, 3.",
+      "c": "2, 4, 3, 1.",
+      "d": "4, 1, 2, 3."
+    },
+    "respuesta": "b",
+    "explicacion": "La Constitución se promulgó en 1857 y la Guerra de Reforma ocurrió entre 1858 y 1861. Después vino el imperio encabezado por Maximiliano, quien gobernó de 1864 a 1867. Su derrota abrió la etapa de la República Restaurada.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad5/contextomundial/introduccion"
+  },
+  {
+    "id": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Reforma y República Restaurada",
+    "pregunta": "¿Qué hecho dio inicio a la etapa conocida como República Restaurada en 1867?",
+    "opciones": {
+      "a": "La renuncia de Porfirio Díaz después de los Tratados de Ciudad Juárez.",
+      "b": "La promulgación de las Siete Leyes que establecieron el centralismo.",
+      "c": "La derrota del Segundo Imperio y el restablecimiento del gobierno republicano en la capital.",
+      "d": "La proclamación de Agustín de Iturbide como emperador."
+    },
+    "respuesta": "c",
+    "explicacion": "El triunfo republicano sobre el imperio de Maximiliano permitió a Benito Juárez restablecer su gobierno en la Ciudad de México. La República Restaurada se ubica entre 1867 y 1876 e incluye las presidencias de Juárez y Sebastián Lerdo de Tejada.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad5/contextomundial/introduccion"
+  },
+  {
+    "id": 38,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Porfiriato",
+    "pregunta": "¿Qué combinación describe mejor el desarrollo económico y social del Porfiriato?",
+    "opciones": {
+      "a": "Industrialización acompañada de sufragio universal efectivo y libertad sindical plena.",
+      "b": "Aislamiento comercial, desaparición de las haciendas y reparto generalizado de tierras.",
+      "c": "Ausencia de crecimiento industrial y eliminación de la minería de exportación.",
+      "d": "Expansión ferroviaria e inversión extranjera junto con concentración de tierras y fuertes desigualdades."
+    },
+    "respuesta": "d",
+    "explicacion": "Durante el Porfiriato crecieron ferrocarriles, minería e industrias, con importante inversión extranjera. Sus beneficios se distribuyeron de manera desigual; la concentración agraria y las condiciones laborales provocaron conflictos. Modernización económica no equivalió a democratización política.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad5/economiaMexicana1854-1900/introduccion"
+  },
+  {
+    "id": 39,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Revolución mexicana",
+    "pregunta": "Relaciona cada documento revolucionario con su objetivo central.\n\n1. Plan de San Luis\n2. Plan de Ayala\n3. Plan de Guadalupe\n\nI. Desconocer a Victoriano Huerta y organizar el movimiento constitucionalista\nII. Convocar al levantamiento contra la reelección de Porfirio Díaz\nIII. Exigir la restitución de tierras y desconocer a Madero",
+    "opciones": {
+      "a": "1-II, 2-III, 3-I.",
+      "b": "1-I, 2-II, 3-III.",
+      "c": "1-III, 2-I, 3-II.",
+      "d": "1-II, 2-I, 3-III."
+    },
+    "respuesta": "a",
+    "explicacion": "Madero proclamó el Plan de San Luis en 1910; Zapata y sus seguidores, el Plan de Ayala en 1911; y Carranza, el Plan de Guadalupe en 1913. Cada documento respondió a un momento y a adversarios distintos de la Revolución."
+  },
+  {
+    "id": 40,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Revolución mexicana",
+    "pregunta": "Relaciona los artículos de la Constitución de 1917 con la materia por la que son especialmente conocidos.\n\n1. Artículo 3\n2. Artículo 27\n3. Artículo 123\n\nI. Trabajo y derechos laborales\nII. Educación\nIII. Propiedad de tierras, aguas y recursos de la nación",
+    "opciones": {
+      "a": "1-II, 2-III, 3-I.",
+      "b": "1-I, 2-II, 3-III.",
+      "c": "1-II, 2-I, 3-III.",
+      "d": "1-III, 2-I, 3-II."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 3 se refiere a la educación; el 27, al régimen de propiedad de tierras, aguas y recursos; y el 123, al trabajo. Estas disposiciones expresaron demandas sociales de la Revolución. Su redacción ha recibido reformas posteriores a 1917."
+  },
+  {
+    "id": 41,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Reconstrucción e institucionalización",
+    "pregunta": "La creación del Partido Nacional Revolucionario en 1929 buscó principalmente",
+    "opciones": {
+      "a": "agrupar a las fuerzas revolucionarias y encauzar las disputas por el poder mediante una organización política nacional.",
+      "b": "sustituir la Constitución de 1917 por un régimen de juntas militares regionales.",
+      "c": "eliminar de inmediato las redes de los caudillos y garantizar la alternancia entre partidos en la presidencia.",
+      "d": "organizar una oposición electoral al gobierno de Calles bajo el liderazgo de los antiguos porfiristas."
+    },
+    "respuesta": "a",
+    "explicacion": "El PNR surgió tras el asesinato de Álvaro Obregón, en un contexto de conflictos entre grupos revolucionarios. Buscaba regular la sucesión y articular esas fuerzas. Después se transformó en PRM en 1938 y en PRI en 1946.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/repositorio-de-sitios/historico-social/historia-de-mexico-2/HMII/RespuestaCortaInsti.htm"
+  },
+  {
+    "id": 42,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Reconstrucción e institucionalización",
+    "pregunta": "El periodo conocido como Maximato se caracterizó por",
+    "opciones": {
+      "a": "la permanencia de Calles como presidente constitucional durante tres sexenios consecutivos.",
+      "b": "la influencia política de Plutarco Elías Calles sobre los gobiernos de Portes Gil, Ortiz Rubio y Abelardo L. Rodríguez.",
+      "c": "el gobierno imperial de Maximiliano de Habsburgo con apoyo francés.",
+      "d": "la dirección política de Emiliano Zapata sobre los gobiernos posteriores a 1940."
+    },
+    "respuesta": "b",
+    "explicacion": "Entre 1928 y 1934, Calles conservó gran influencia como Jefe Máximo de la Revolución, sin ocupar formalmente la presidencia. El Maximato no se refiere a Maximiliano ni a un mandato presidencial continuo de Calles.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/repositorio-de-sitios/historico-social/historia-de-mexico-2/HMII/CrossMaximato.htm"
+  },
+  {
+    "id": 43,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Cardenismo",
+    "pregunta": "¿Qué par de medidas corresponde al gobierno de Lázaro Cárdenas?",
+    "opciones": {
+      "a": "Creación de la Secretaría de Educación Pública en 1921 y firma de los Tratados de Bucareli en 1923.",
+      "b": "Ampliación del reparto agrario y expropiación petrolera en 1938.",
+      "c": "Fundación del Banco de México en 1925 y negociación de los arreglos que terminaron la Guerra Cristera en 1929.",
+      "d": "Creación del IMSS en 1943 y transformación del partido oficial en PRI en 1946."
+    },
+    "respuesta": "b",
+    "explicacion": "Cárdenas impulsó el reparto de tierras, especialmente mediante ejidos, y decretó la expropiación de los bienes de las compañías petroleras en 1938. Su política fortaleció la intervención estatal y la organización de trabajadores y campesinos.",
+    "fuente_conceptual": "https://www.inehrm.gob.mx/es/inehrm/Revolucion_Mexicana"
+  },
+  {
+    "id": 44,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Industrialización y desarrollo estabilizador",
+    "pregunta": "La industrialización por sustitución de importaciones buscaba",
+    "opciones": {
+      "a": "reemplazar la producción nacional por compras externas sin restricciones.",
+      "b": "reducir toda actividad industrial para concentrar la economía en el autoconsumo agrícola.",
+      "c": "producir en el país bienes que antes se compraban en el extranjero, con protección y apoyo a la industria nacional.",
+      "d": "eliminar el mercado interno y destinar toda la producción a la exportación."
+    },
+    "respuesta": "c",
+    "explicacion": "Este modelo promovió la fabricación nacional mediante aranceles, inversión pública y otros apoyos. En México se consolidó desde la década de 1940. Sustituir importaciones no significó dejar de importar: la industria siguió requiriendo maquinaria e insumos externos."
+  },
+  {
+    "id": 45,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Industrialización y desarrollo estabilizador",
+    "pregunta": "¿Qué rasgos económicos se asocian con el desarrollo estabilizador mexicano?",
+    "opciones": {
+      "a": "Crecimiento sostenido basado en devaluaciones frecuentes y aumento acelerado de precios.",
+      "b": "Especialización exportadora de materias primas y abandono de la industrialización nacional.",
+      "c": "Crecimiento industrial, inflación relativamente baja y estabilidad del tipo de cambio.",
+      "d": "Liberalización comercial generalizada y privatización masiva como ejes de la política económica."
+    },
+    "respuesta": "c",
+    "explicacion": "El desarrollo estabilizador, habitualmente ubicado entre 1954 y 1970, combinó crecimiento económico y estabilidad de precios y del peso. Estos logros no eliminaron la desigualdad social ni los desequilibrios entre el campo y las ciudades.",
+    "fuente_conceptual": "https://www.banxico.org.mx/conociendo-banxico/semblanza-historica-historia-.html"
+  },
+  {
+    "id": 46,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Movimientos sociales y apertura política",
+    "pregunta": "El movimiento estudiantil mexicano de 1968 expresó, entre otras demandas, la exigencia de",
+    "opciones": {
+      "a": "restringir el movimiento a mejoras académicas sin cuestionar la represión gubernamental.",
+      "b": "libertades democráticas, liberación de presos políticos y fin de la represión.",
+      "c": "sustituir el gobierno civil por una junta militar encargada de organizar elecciones.",
+      "d": "incorporar obligatoriamente las organizaciones estudiantiles al partido gobernante."
+    },
+    "respuesta": "b",
+    "explicacion": "El movimiento cuestionó el autoritarismo y reclamó derechos y libertades. La represión del 2 de octubre en Tlatelolco ocurrió durante la presidencia de Gustavo Díaz Ordaz. No se trató únicamente de un conflicto por asuntos internos de las escuelas."
+  },
+  {
+    "id": 47,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Movimientos sociales y apertura política",
+    "pregunta": "Una consecuencia de la reforma política de 1977 fue",
+    "opciones": {
+      "a": "establecer la elección presidencial directa por primera vez en la historia de México.",
+      "b": "crear el Instituto Federal Electoral con autonomía plena en ese mismo año.",
+      "c": "suprimir los partidos de oposición y establecer legalmente un partido único.",
+      "d": "ampliar las posibilidades de participación legal de fuerzas opositoras y su representación en la Cámara de Diputados."
+    },
+    "respuesta": "d",
+    "explicacion": "La reforma de 1977 favoreció el registro de nuevas fuerzas políticas y amplió la representación proporcional. Fue parte de un proceso gradual de apertura. El IFE se creó en 1990 y obtuvo autonomía respecto del Ejecutivo en 1996, no en 1977.",
+    "fuente_conceptual": "https://www.ine.mx/sobre-el-ine/historia/"
+  },
+  {
+    "id": 48,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Crisis y transformaciones contemporáneas",
+    "pregunta": "En el contexto de la crisis de deuda de 1982, el gobierno de José López Portillo decretó",
+    "opciones": {
+      "a": "la nacionalización de la banca privada y el control generalizado de cambios.",
+      "b": "la entrada en vigor del TLCAN y la autonomía del Banco de México.",
+      "c": "la adopción del dólar como moneda nacional y la cancelación de toda la deuda externa.",
+      "d": "la reprivatización de la banca y la liberalización total del mercado cambiario."
+    },
+    "respuesta": "a",
+    "explicacion": "La crisis de 1982 combinó problemas de endeudamiento, salida de capitales y devaluación. En septiembre, López Portillo anunció la nacionalización bancaria y el control de cambios. La privatización posterior de bancos pertenece a otra etapa, principalmente a comienzos de los años noventa.",
+    "fuente_conceptual": "https://www.banxico.org.mx/elib/hbm/16/9.html"
+  },
+  {
+    "id": 49,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Crisis y transformaciones contemporáneas",
+    "pregunta": "El Tratado de Libre Comercio de América del Norte, que entró en vigor en 1994, vinculó a",
+    "opciones": {
+      "a": "México, Canadá y España.",
+      "b": "México, Estados Unidos y Brasil.",
+      "c": "México, Argentina y Chile.",
+      "d": "México, Estados Unidos y Canadá."
+    },
+    "respuesta": "d",
+    "explicacion": "El TLCAN entró en vigor el 1 de enero de 1994 y profundizó la integración comercial de México con Estados Unidos y Canadá. Había sido firmado en 1992. Es importante distinguir la fecha de firma de la fecha en que comenzó a aplicarse.",
+    "fuente_conceptual": "https://portales.sre.gob.mx/mex-can/index.php/tlcan"
+  },
+  {
+    "id": 50,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Historia de México",
+    "tema": "HM · Crisis y transformaciones contemporáneas",
+    "pregunta": "¿Qué significado político tuvo la elección presidencial mexicana de 2000?",
+    "opciones": {
+      "a": "El PRI perdió por primera vez la mayoría absoluta en la Cámara de Diputados.",
+      "b": "La victoria de Vicente Fox produjo la primera alternancia en la presidencia frente al partido gobernante y sus antecesores desde 1929.",
+      "c": "Se creó el IFE como organismo encargado de organizar las elecciones federales.",
+      "d": "Un candidato opositor ganó por primera vez una gubernatura reconocida oficialmente."
+    },
+    "respuesta": "b",
+    "explicacion": "Fox, postulado por una alianza encabezada por el PAN, puso fin a la continuidad presidencial del PNR, PRM y PRI. Los otros hechos ocurrieron antes: creación del IFE en 1990, pérdida de la mayoría absoluta priista en Diputados en 1997 y triunfo opositor en Baja California en 1989.",
+    "fuente_conceptual": "https://portalanterior.ine.mx/archivos2/CDD/Reforma_Electoral2014/descargas/estudios_investigaciones/GobernabilidadPartidosYEleccionesEnMExico1977-2010.pdf"
+  }
+]
