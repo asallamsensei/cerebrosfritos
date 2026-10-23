@@ -446,6 +446,24 @@ h1{
   .main-card{ padding:14px; }
   .question-card{ padding:14px; }
 }
+
+#pregunta { white-space: pre-line; }
+.instrucciones { color:var(--muted); line-height:1.5; font-size:14px; margin:0 0 16px; }
+.reloj { font-variant-numeric:tabular-nums; }
+.reloj.urgente { color:#fecaca; border-color:var(--danger); }
+.revision { text-align:left; margin-top:24px; }
+.revision details { margin:10px 0; padding:14px; border:1px solid var(--border); border-radius:12px; background:rgba(0,0,0,.14); }
+.revision summary { cursor:pointer; font-weight:700; line-height:1.5; }
+.revision p { white-space:pre-line; line-height:1.5; font-size:14px; }
+.revision a { color:#cfc8ff; }
+.estado-bien { color:#86efac; }
+.estado-mal { color:#fca5a5; }
+.mapa-preguntas { display:grid; grid-template-columns:repeat(5,1fr); gap:6px; margin-top:12px; }
+.mapa-preguntas button { padding:8px 2px; border-radius:8px; background:rgba(255,255,255,.06); border:1px solid var(--border); color:var(--text); cursor:pointer; }
+.mapa-preguntas button.contestada { background:var(--accentSoft); border-color:#a895ff; }
+.mapa-preguntas button.actual { outline:2px solid #fff; outline-offset:1px; }
+.mapa-leyenda { color:var(--muted); font-size:12px; line-height:1.5; }
+.btn:focus-visible,.opcion:focus-visible,summary:focus-visible { outline:3px solid #cfc8ff; outline-offset:3px; }
 </style>
 </head>
 
@@ -456,6 +474,7 @@ h1{
   <div class="acceso-card">
     <h2>🔐 Acceso al simulacro</h2>
     <p>Ingresa tu clave para comenzar</p>
+    <p style="font-size:13px;">Historia: <b>historia</b> (examen) o <b>historia_estudio</b> (con explicaciones al responder).</p>
 
     <input
       type="text"
@@ -488,6 +507,12 @@ h1{
     <main class="card main-card">
 
       <div id="zonaExamen">
+        <p id="instruccionesModo" class="instrucciones hidden"></p>
+        <div id="cargaLocal" class="hidden instrucciones">
+          <label for="archivoLocal">Selecciona el archivo JSON del simulacro para cargarlo desde tu equipo:</label>
+          <input type="file" id="archivoLocal" accept=".json,application/json">
+          <p id="errorCarga" role="alert"></p>
+        </div>
 
         <div class="topbar">
           <div class="badges">
@@ -495,6 +520,7 @@ h1{
             <span class="badge" id="badgeTema">Tema</span>
           </div>
 
+          <div class="badge reloj hidden" id="reloj" role="timer" aria-label="Tiempo restante"></div>
           <div class="badge" id="contadorPregunta">Pregunta 1 de 1</div>
         </div>
 
@@ -539,6 +565,8 @@ h1{
             Comprobar
           </button>
 
+          <button class="btn btn-ghost hidden" id="btnEntregar" type="button" onclick="confirmarEntrega()">Entregar examen</button>
+
           <button class="btn" id="btnSiguiente" type="button" onclick="siguientePregunta()" disabled>
             Siguiente →
           </button>
@@ -557,6 +585,7 @@ h1{
         <button class="btn" type="button" onclick="reiniciarSimulacro()">
           Repetir simulacro
         </button>
+        <div id="revisionFinal" class="revision"></div>
       </section>
 
     </main>
@@ -599,6 +628,12 @@ h1{
         </div>
       </div>
 
+      <div id="navegacionExamen" class="side-block hidden">
+        <div class="panel-title" style="font-size:15px;">Preguntas</div>
+        <p class="mapa-leyenda">Morado: respondida. Borde blanco: pregunta actual. Puedes volver y cambiar respuestas antes de entregar.</p>
+        <div id="mapaPreguntas" class="mapa-preguntas"></div>
+      </div>
+
       <div class="side-block">
         <button class="btn btn-ghost" style="width:100%;" type="button" onclick="reiniciarSimulacro()">
           Reiniciar
@@ -613,10 +648,14 @@ h1{
 
 <script>
 
-const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+let audioCtx;
 
 function playBeep(freq, duration){
   try{
+    const Audio = window.AudioContext || window.webkitAudioContext;
+    if(!Audio) return;
+    audioCtx ||= new Audio();
+    if(audioCtx.state === "suspended") audioCtx.resume().catch(() => {});
     const osc = audioCtx.createOscillator();
     const gain = audioCtx.createGain();
 
@@ -680,8 +719,33 @@ let preguntas = [];
 let indiceActual = 0;
 let respuestasUsuario = {};
 let preguntasValidadas = {};
+let ordenOpciones = {};
+let accesoActual = null;
+let modoExamen = false;
+let examenFinalizado = false;
+let finExamen = null;
+let intervaloReloj = null;
 
 const ACCESOS = {
+
+  historia: {
+    estudiante: "Fénix",
+    titulo: "🏛️ Historia · Práctica de ingreso UNAM",
+    subtitulo: "50 preguntas originales · 25 de Historia Universal y 25 de México · Material de práctica no oficial",
+    archivo: "data/simulacro_historia_unam_50_preguntas.json",
+    ordenAleatorio: true,
+    modoExamen: true,
+    minutos: 75
+  },
+
+  historia_estudio: {
+    estudiante: "Fénix",
+    titulo: "🏛️ Historia · Modo estudio",
+    subtitulo: "50 preguntas originales · Explicaciones breves al comprobar · Material de práctica no oficial",
+    archivo: "data/simulacro_historia_unam_50_preguntas.json",
+    ordenAleatorio: false,
+    modoExamen: false
+  },
 
   mina: {
     estudiante: "Leyla",
@@ -768,6 +832,8 @@ function validarClave(){
   document.getElementById("pantallaAcceso").style.display =
     "none";
   
+  accesoActual = acceso;
+  modoExamen = acceso.modoExamen === true;
   cargarSimulacro(acceso.archivo, acceso.ordenAleatorio !== false);
   
 }
@@ -815,31 +881,113 @@ function barajarPorCasos(data){
 
   
 function cargarSimulacro(archivo, ordenAleatorio = true){
-
+  document.getElementById("btnResponder").disabled = true;
+  document.getElementById("btnSiguiente").disabled = true;
+  document.getElementById("cargaLocal").classList.add("hidden");
   fetch(archivo)
     .then(res => {
-      if(!res.ok) throw new Error("No se encontró el JSON.");
+      if(!res.ok) throw new Error("No se encontró el archivo JSON en la ruta configurada.");
       return res.json();
     })
-    .then(data => {
-
-      preguntas = Array.isArray(data)
-        ? (ordenAleatorio ? barajarPorCasos([...data]) : [...data])
-        : [];
-
-      if(!preguntas.length){
-        throw new Error("El JSON está vacío.");
-      }
-
-      renderPregunta();
-      actualizarPanel();
-    })
-    .catch(err => {
-      console.error(err);
-
-      document.getElementById("pregunta").innerText =
-        "No se pudo cargar el simulacro.";
+    .then(data => prepararPreguntas(data, ordenAleatorio))
+    .catch(() => {
+      document.getElementById("pregunta").innerText = "No se pudo cargar el simulacro automáticamente.";
+      document.getElementById("errorCarga").innerText = location.protocol === "file:"
+        ? "Al abrir el HTML directamente, el navegador puede bloquear la lectura automática. Selecciona abajo el JSON correspondiente."
+        : "Revisa la ruta de la carpeta data o selecciona el JSON correspondiente desde tu equipo.";
+      document.getElementById("cargaLocal").classList.remove("hidden");
     });
+}
+
+function prepararPreguntas(data, ordenAleatorio){
+  if(!Array.isArray(data) || !data.length) throw new Error("El JSON debe contener una lista de preguntas.");
+  const ids = new Set();
+  data.forEach((p, i) => {
+    if(!p || p.id == null || ids.has(p.id) || typeof p.pregunta !== "string" || !p.pregunta.trim()
+      || !p.opciones || typeof p.opciones !== "object" || Array.isArray(p.opciones)
+      || !Object.hasOwn(p.opciones, String(p.respuesta).toLowerCase())
+      || Object.values(p.opciones).some(op => typeof op !== "string" || !op.trim())){
+      throw new Error(`Revisa la estructura de la pregunta ${i + 1}.`);
+    }
+    ids.add(p.id);
+  });
+  preguntas = ordenAleatorio ? barajarPorCasos([...data]) : [...data];
+  document.getElementById("cargaLocal").classList.add("hidden");
+  reiniciarSimulacro();
+}
+
+document.getElementById("archivoLocal").addEventListener("change", async function(){
+  if(!this.files[0]) return;
+  try{
+    const data = JSON.parse(await this.files[0].text());
+    prepararPreguntas(data, accesoActual?.ordenAleatorio !== false);
+  }catch(err){
+    document.getElementById("errorCarga").innerText = `No se pudo leer el JSON: ${err.message}`;
+  }
+  this.value = "";
+});
+
+function configurarModo(){
+  const aviso = document.getElementById("instruccionesModo");
+  aviso.classList.toggle("hidden", !accesoActual?.archivo.includes("historia_unam"));
+  aviso.innerText = modoExamen
+    ? `Examen de práctica: ${accesoActual.minutos || 75} minutos sugeridos para este bloque. El tiempo comienza al cargar las preguntas. Puedes omitir, volver y cambiar respuestas; las explicaciones se muestran al entregar. Las omitidas no suman aciertos. Este tiempo y las 50 preguntas no son la distribución oficial por área de la UNAM.`
+    : "Modo estudio: selecciona una opción y pulsa Comprobar para ver la explicación. No hay límite de tiempo. Material original de práctica, no oficial de la UNAM.";
+  document.getElementById("btnResponder").classList.toggle("hidden", modoExamen);
+  document.getElementById("btnEntregar").classList.toggle("hidden", !modoExamen);
+  document.getElementById("reloj").classList.toggle("hidden", !modoExamen);
+  document.getElementById("navegacionExamen").classList.toggle("hidden", !modoExamen);
+}
+
+function actualizarReloj(){
+  if(!modoExamen || examenFinalizado || !finExamen) return;
+  const restante = Math.max(0, Math.ceil((finExamen - Date.now()) / 1000));
+  const reloj = document.getElementById("reloj");
+  reloj.innerText = `Tiempo: ${String(Math.floor(restante/60)).padStart(2,"0")}:${String(restante%60).padStart(2,"0")}`;
+  reloj.classList.toggle("urgente", restante <= 300);
+  if(restante === 0) terminarSimulacro(true);
+}
+
+function comprobarTiempo(){
+  if(modoExamen && !examenFinalizado && finExamen && Date.now() >= finExamen){
+    terminarSimulacro(true);
+    return false;
+  }
+  return !examenFinalizado;
+}
+
+document.addEventListener("visibilitychange", actualizarReloj);
+window.addEventListener("focus", actualizarReloj);
+
+function actualizarMapa(){
+  if(!modoExamen) return;
+  const box = document.getElementById("mapaPreguntas");
+  box.replaceChildren();
+  preguntas.forEach((p,i) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.innerText = i + 1;
+    btn.classList.toggle("contestada", !!respuestasUsuario[i]);
+    btn.classList.toggle("actual", i === indiceActual);
+    btn.setAttribute("aria-label", `Pregunta ${i+1}, ${respuestasUsuario[i] ? "respondida" : "sin responder"}`);
+    if(i === indiceActual) btn.setAttribute("aria-current", "step");
+    btn.disabled = examenFinalizado;
+    btn.onclick = () => {
+      if(!comprobarTiempo()) return;
+      indiceActual = i;
+      renderPregunta();
+    };
+    box.appendChild(btn);
+  });
+}
+
+function confirmarEntrega(){
+  if(!preguntas.length || !comprobarTiempo()) return;
+  const omitidas = preguntas.length - Object.keys(respuestasUsuario).length;
+  const mensaje = omitidas
+    ? `Tienes ${omitidas} pregunta(s) sin responder. No sumarán aciertos. ¿Quieres entregar el examen?`
+    : "¿Entregar el examen y ver los resultados? Ya no podrás cambiar tus respuestas.";
+  if(window.confirm(mensaje)) terminarSimulacro();
 }
 
 function renderPregunta(){
@@ -875,7 +1023,7 @@ function renderPregunta(){
     p.categoria || "Simulacro";
 
   document.getElementById("badgeTema").innerText =
-    p.tema || "General";
+    modoExamen && !examenFinalizado ? "Modo examen" : (p.tema || "General");
 
   document.getElementById("contadorPregunta").innerText =
     `Pregunta ${indiceActual + 1} de ${preguntas.length}`;
@@ -889,7 +1037,8 @@ function renderPregunta(){
   let clavesOpciones = Object.keys(p.opciones || {});
   
   if(p.tipo_pregunta !== "verdadero_falso"){
-    clavesOpciones = fisherYates([...clavesOpciones]);
+    if(!ordenOpciones[indiceActual]) ordenOpciones[indiceActual] = fisherYates([...clavesOpciones]);
+    clavesOpciones = ordenOpciones[indiceActual];
   }
   
 clavesOpciones.forEach((letra, indice) => {
@@ -929,7 +1078,11 @@ clavesOpciones.forEach((letra, indice) => {
 
   const validada = preguntasValidadas[indiceActual] === true;
 
-  if(validada){
+  if(modoExamen && !examenFinalizado){
+    ocultarFeedback();
+    document.getElementById("btnResponder").disabled = true;
+    document.getElementById("btnSiguiente").disabled = false;
+  }else if(validada){
     mostrarCorreccion();
     document.getElementById("btnResponder").disabled = true;
     document.getElementById("btnSiguiente").disabled = false;
@@ -944,26 +1097,26 @@ clavesOpciones.forEach((letra, indice) => {
   document.getElementById("btnAnterior").disabled =
     indiceActual === 0;
 
+  document.getElementById("btnSiguiente").innerText = indiceActual === preguntas.length - 1
+    ? (modoExamen ? "Entregar examen" : "Ver resultado") : "Siguiente →";
   actualizarProgreso();
+  actualizarMapa();
 }
 
 function seleccionarRespuesta(letra){
-  if(preguntasValidadas[indiceActual]) return;
-
+  if(!preguntas.length || !comprobarTiempo() || (!modoExamen && preguntasValidadas[indiceActual])) return;
   respuestasUsuario[indiceActual] = letra;
-
   document.querySelectorAll(".opcion").forEach(btn => {
-    btn.classList.toggle(
-      "seleccionada",
-      btn.dataset.letra === letra
-    );
+    btn.classList.toggle("seleccionada", btn.dataset.letra === letra);
   });
-
-  document.getElementById("btnResponder").disabled = false;
+  document.getElementById("btnResponder").disabled = modoExamen;
+  actualizarPanel();
+  actualizarProgreso();
+  actualizarMapa();
 }
 
 function validarRespuesta(){
-  if(!preguntas.length) return;
+  if(!preguntas.length || modoExamen || examenFinalizado) return;
 
   const seleccion = respuestasUsuario[indiceActual];
 
@@ -971,59 +1124,34 @@ function validarRespuesta(){
 
   preguntasValidadas[indiceActual] = true;
 
-  mostrarCorreccion();
+  mostrarCorreccion(true);
   actualizarPanel();
+  actualizarProgreso();
 
   document.getElementById("btnResponder").disabled = true;
   document.getElementById("btnSiguiente").disabled = false;
 }
 
-function mostrarCorreccion(){
+function mostrarCorreccion(conSonido = false){
+  if(modoExamen && !examenFinalizado) return;
   const p = preguntas[indiceActual];
   const seleccion = respuestasUsuario[indiceActual];
-  const correcta = String(p.respuesta || "").toLowerCase();
-
-document.querySelectorAll(".opcion").forEach(btn => {
-
-  btn.classList.remove(
-    "seleccionada",
-    "correcta",
-    "incorrecta"
-  );
-
-  if(btn.dataset.letra === correcta){
-    btn.classList.add("correcta");
-  }else{
-    btn.classList.add("incorrecta");
-  }
-
-});
-
+  const correcta = String(p.respuesta).toLowerCase();
+  const acierto = seleccion === correcta;
+  document.querySelectorAll(".opcion").forEach(btn => {
+    btn.classList.remove("seleccionada", "correcta", "incorrecta");
+    btn.classList.toggle("correcta", btn.dataset.letra === correcta);
+    btn.classList.toggle("incorrecta", btn.dataset.letra === seleccion && !acierto);
+  });
   const feedback = document.getElementById("feedback");
-  const titulo = document.getElementById("feedbackTitulo");
-  const explicacion = document.getElementById("explicacion");
-
   feedback.classList.add("visible");
-  feedback.classList.remove("correcto","incorrecto");
-
-const textoCorrecto =
-  p.opciones && p.opciones[correcta]
-    ? p.opciones[correcta]
-    : correcta.toUpperCase();
-
-titulo.innerText =
-  `Respuesta correcta: ${textoCorrecto}`;
-
-feedback.classList.add("correcto");
-
-if(seleccion === correcta){
-  sonidoCorrecto();
-}else{
-  sonidoIncorrecto();
-}
-
-  explicacion.innerText =
-    p.explicacion || "Esta pregunta todavía no tiene explicación.";
+  feedback.classList.toggle("correcto", acierto);
+  feedback.classList.toggle("incorrecto", !acierto);
+  document.getElementById("feedbackTitulo").innerText = `${acierto ? "Correcto" : "Incorrecto"}. Respuesta: ${p.opciones[correcta]}`;
+  document.getElementById("explicacion").innerText = p.explicacion || "Esta pregunta todavía no tiene explicación.";
+  if(conSonido){
+    if(acierto) sonidoCorrecto(); else sonidoIncorrecto();
+  }
 }
 
 function ocultarFeedback(){
@@ -1040,19 +1168,20 @@ function ocultarFeedback(){
 }
 
 function siguientePregunta(){
-  if(!preguntasValidadas[indiceActual]) return;
-
+  if(!preguntas.length || !comprobarTiempo()) return;
+  if(!modoExamen && !preguntasValidadas[indiceActual]) return;
   if(indiceActual < preguntas.length - 1){
     indiceActual++;
     renderPregunta();
-    return;
+  }else if(modoExamen){
+    confirmarEntrega();
+  }else{
+    terminarSimulacro();
   }
-
-  terminarSimulacro();
 }
 
 function anteriorPregunta(){
-  if(indiceActual <= 0) return;
+  if(indiceActual <= 0 || !comprobarTiempo()) return;
 
   indiceActual--;
   renderPregunta();
@@ -1060,57 +1189,40 @@ function anteriorPregunta(){
 
 function actualizarProgreso(){
   if(!preguntas.length) return;
-
-  const pct =
-    Math.round(((indiceActual + 1) / preguntas.length) * 100);
-
-  document.getElementById("progressFill").style.width =
-    pct + "%";
-
-  document.getElementById("progresoTexto").innerText =
-    pct + "%";
+  const n = modoExamen ? Object.keys(respuestasUsuario).length : Object.keys(preguntasValidadas).length;
+  const pct = Math.round(n / preguntas.length * 100);
+  document.getElementById("progressFill").style.width = pct + "%";
+  document.getElementById("progresoTexto").innerText = `${n}/${preguntas.length} respondidas · ${pct}%`;
 }
 
 function calcularStats(){
-  let aciertos = 0;
-  let errores = 0;
-  let respondidas = 0;
-
+  let aciertos = 0, errores = 0, respondidas = 0, omitidas = 0;
   const temas = {};
-
-  preguntas.forEach((p, i) => {
-    if(!preguntasValidadas[i]) return;
-
-    respondidas++;
-
+  preguntas.forEach((p,i) => {
+    if(!examenFinalizado && !preguntasValidadas[i]) return;
+    const seleccion = respuestasUsuario[i];
     const tema = p.tema || "General";
-
-    if(!temas[tema]){
-      temas[tema] = {
-        total:0,
-        correctas:0
-      };
-    }
-
+    temas[tema] ||= { total:0, correctas:0 };
     temas[tema].total++;
-
-    if(respuestasUsuario[i] === String(p.respuesta || "").toLowerCase()){
+    if(!seleccion){ omitidas++; return; }
+    respondidas++;
+    if(seleccion === String(p.respuesta).toLowerCase()){
       aciertos++;
       temas[tema].correctas++;
-    }else{
-      errores++;
-    }
+    }else errores++;
   });
-
-  return {
-    aciertos,
-    errores,
-    respondidas,
-    temas
-  };
+  return { aciertos, errores, respondidas, omitidas, temas };
 }
 
 function actualizarPanel(){
+  if(modoExamen && !examenFinalizado){
+    document.getElementById("aciertos").innerText = "—";
+    document.getElementById("errores").innerText = "—";
+    document.getElementById("precision").innerText = "—";
+    document.getElementById("respondidas").innerText = Object.keys(respuestasUsuario).length;
+    document.getElementById("resultadosTemas").innerText = "Los resultados se mostrarán al entregar.";
+    return;
+  }
   const s = calcularStats();
 
   document.getElementById("aciertos").innerText = s.aciertos;
@@ -1118,8 +1230,8 @@ function actualizarPanel(){
   document.getElementById("respondidas").innerText = s.respondidas;
 
   const precision =
-    s.respondidas
-      ? Math.round((s.aciertos / s.respondidas) * 100)
+    (examenFinalizado ? preguntas.length : s.respondidas)
+      ? Math.round(s.aciertos / (examenFinalizado ? preguntas.length : s.respondidas) * 100)
       : 0;
 
   document.getElementById("precision").innerText =
@@ -1150,8 +1262,13 @@ function actualizarPanel(){
   }).join("");
 }
 
-function terminarSimulacro(){
+function terminarSimulacro(tiempoAgotado = false){
+  if(examenFinalizado || !preguntas.length) return;
+  examenFinalizado = true;
+  clearInterval(intervaloReloj);
+  finExamen = null;
   actualizarPanel();
+  actualizarMapa();
 
   const s = calcularStats();
 
@@ -1186,19 +1303,59 @@ function terminarSimulacro(){
   }
 
   document.getElementById("mensajeFinal").innerText =
-    mensaje;
+    `${tiempoAgotado ? "Tiempo agotado. " : ""}${s.aciertos} aciertos de ${preguntas.length} · ${s.errores} errores · ${s.omitidas} sin responder. ${mensaje} Este porcentaje es de práctica; no equivale al resultado global ni garantiza ingreso a la UNAM.`;
+  mostrarRevision();
+}
+
+function mostrarRevision(){
+  const box = document.getElementById("revisionFinal");
+  box.replaceChildren();
+  const titulo = document.createElement("h2");
+  titulo.innerText = "Revisión y explicaciones";
+  box.appendChild(titulo);
+  preguntas.forEach((p,i) => {
+    const elegida = respuestasUsuario[i];
+    const correcta = String(p.respuesta).toLowerCase();
+    const bien = elegida === correcta;
+    const details = document.createElement("details");
+    const summary = document.createElement("summary");
+    summary.className = bien ? "estado-bien" : "estado-mal";
+    summary.innerText = `${i+1}. ${bien ? "Correcta" : elegida ? "Incorrecta" : "Sin responder"} · ${p.tema || "General"}`;
+    details.appendChild(summary);
+    const lineas = [p.pregunta, `Tu respuesta: ${elegida ? p.opciones[elegida] : "Sin responder"}`, `Respuesta correcta: ${p.opciones[correcta]}`, p.explicacion || "Sin explicación disponible."];
+    lineas.forEach(texto => { const parrafo = document.createElement("p"); parrafo.innerText = texto; details.appendChild(parrafo); });
+    if(p.fuente_conceptual && /^https?:\/\//.test(p.fuente_conceptual)){
+      const enlace = document.createElement("a");
+      enlace.href = p.fuente_conceptual;
+      enlace.target = "_blank";
+      enlace.rel = "noopener noreferrer";
+      enlace.innerText = "Consultar referencia";
+      details.appendChild(enlace);
+    }
+    box.appendChild(details);
+  });
 }
 
 function reiniciarSimulacro(){
+  if(!preguntas.length) return;
+  clearInterval(intervaloReloj);
   indiceActual = 0;
   respuestasUsuario = {};
   preguntasValidadas = {};
-
+  ordenOpciones = {};
+  examenFinalizado = false;
+  finExamen = null;
+  document.getElementById("revisionFinal").replaceChildren();
   document.getElementById("resultadoFinal").classList.remove("visible");
   document.getElementById("zonaExamen").classList.remove("hidden");
-
+  configurarModo();
   renderPregunta();
   actualizarPanel();
+  if(modoExamen){
+    finExamen = Date.now() + (accesoActual.minutos || 75)*60*1000;
+    actualizarReloj();
+    intervaloReloj = setInterval(actualizarReloj, 1000);
+  }
 }
 
 function escapeHtml(texto){
@@ -1208,7 +1365,8 @@ function escapeHtml(texto){
 }
 
 document.addEventListener("keydown", function(e){
-  if(e.key !== "Enter") return;
+  if(e.key !== "Enter" || examenFinalizado) return;
+  if(e.target.closest("input,button,select,a,summary")) return;
   if(document.getElementById("pantallaAcceso").style.display !== "none") return;
 
   e.preventDefault();
