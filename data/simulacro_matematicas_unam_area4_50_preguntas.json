@@ -1,0 +1,952 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "01 · Operaciones con números y expresiones algebraicas",
+    "subtema": "Suma y resta de fracciones",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es el resultado de 3/4 − 2/3?",
+    "opciones": {
+      "a": "1/12",
+      "b": "−1/12",
+      "c": "1/7",
+      "d": "5/12"
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. Busca un denominador común: el mínimo común múltiplo de 4 y 3 es 12.\nPaso 2. Convierte: 3/4 = 9/12 y 2/3 = 8/12.\nPaso 3. Resta los numeradores: (9 − 8)/12 = 1/12.\nRecuerda: no se restan los denominadores.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 1.1.1, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "01 · Operaciones con números y expresiones algebraicas",
+    "subtema": "Signos y jerarquía de operaciones",
+    "dificultad": "Básico",
+    "pregunta": "Calcula: −3 × (2 − 5) + 4² ÷ 8.",
+    "opciones": {
+      "a": "11",
+      "b": "5",
+      "c": "−7",
+      "d": "18"
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. Resuelve el paréntesis: 2 − 5 = −3.\nPaso 2. Calcula la potencia: 4² = 16.\nPaso 3. Multiplica y divide: (−3)(−3) = 9 y 16/8 = 2.\nPaso 4. Suma: 9 + 2 = 11.\nDos factores negativos producen un producto positivo.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 1.1.1 y 1.1.2, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "01 · Operaciones con números y expresiones algebraicas",
+    "subtema": "Potencias con exponente racional",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuánto vale 27^(2/3)?",
+    "opciones": {
+      "a": "6",
+      "b": "18",
+      "c": "81",
+      "d": "9"
+    },
+    "respuesta": "d",
+    "explicacion": "Paso 1. El denominador 3 del exponente indica raíz cúbica.\nPaso 2. La raíz cúbica de 27 es 3.\nPaso 3. El numerador 2 indica elevar al cuadrado: 3² = 9.\nAsí, 27^(2/3) = (∛27)². El exponente fraccionario no significa multiplicar 27 por 2/3.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 1.1.3, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "01 · Operaciones con números y expresiones algebraicas",
+    "subtema": "Suma de números complejos",
+    "dificultad": "Básico",
+    "pregunta": "Si i² = −1, ¿cuál es la suma (3 − 2i) + (1 + 5i)?",
+    "opciones": {
+      "a": "4 + 7i",
+      "b": "4 − 3i",
+      "c": "2 + 3i",
+      "d": "4 + 3i"
+    },
+    "respuesta": "d",
+    "explicacion": "Paso 1. Suma las partes reales: 3 + 1 = 4.\nPaso 2. Suma los coeficientes de i: −2 + 5 = 3.\nResultado: 4 + 3i.\nLa parte real y la imaginaria se agrupan por separado, como términos semejantes.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 1.2.1, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "01 · Operaciones con números y expresiones algebraicas",
+    "subtema": "Multiplicación de números complejos",
+    "dificultad": "Intermedio",
+    "pregunta": "Usando i² = −1, simplifica (2 + i)(3 − 2i).",
+    "opciones": {
+      "a": "4 − i",
+      "b": "8 − i",
+      "c": "6 − 2i",
+      "d": "8 + i"
+    },
+    "respuesta": "b",
+    "explicacion": "Paso 1. Distribuye: 2×3 + 2×(−2i) + i×3 + i×(−2i).\nPaso 2. Obtienes 6 − 4i + 3i − 2i².\nPaso 3. Sustituye i² = −1: −2i² = 2.\nPaso 4. Agrupa: 6 + 2 − i = 8 − i.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 1.2.2, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "01 · Operaciones con números y expresiones algebraicas",
+    "subtema": "Resta de polinomios",
+    "dificultad": "Básico",
+    "pregunta": "Simplifica: (4x² − 3x + 1) − (x² + 2x − 5).",
+    "opciones": {
+      "a": "3x² − x − 4",
+      "b": "5x² − x − 4",
+      "c": "3x² − 5x + 6",
+      "d": "3x² − 5x − 4"
+    },
+    "respuesta": "c",
+    "explicacion": "Paso 1. El signo menos delante del segundo paréntesis cambia TODOS sus signos: −x² − 2x + 5.\nPaso 2. Agrupa: (4x² − x²) + (−3x − 2x) + (1 + 5).\nResultado: 3x² − 5x + 6.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 1.3.1, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "01 · Operaciones con números y expresiones algebraicas",
+    "subtema": "División de monomios",
+    "dificultad": "Básico",
+    "pregunta": "Para x ≠ 0 e y ≠ 0, simplifica (12x³y²)/(3xy).",
+    "opciones": {
+      "a": "4x³y²",
+      "b": "4x⁴y³",
+      "c": "4x²y",
+      "d": "9x²y"
+    },
+    "respuesta": "c",
+    "explicacion": "Paso 1. Divide coeficientes: 12/3 = 4.\nPaso 2. Al dividir potencias de la misma base, resta exponentes: x³/x = x² y y²/y = y.\nResultado: 4x²y.\nLas restricciones x ≠ 0 e y ≠ 0 evitan que el denominador original sea cero.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 1.3.2, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "01 · Operaciones con números y expresiones algebraicas",
+    "subtema": "Operaciones con radicales",
+    "dificultad": "Intermedio",
+    "pregunta": "Simplifica: √50 − 2√8.",
+    "opciones": {
+      "a": "3√2",
+      "b": "√2",
+      "c": "−3√2",
+      "d": "√34"
+    },
+    "respuesta": "b",
+    "explicacion": "Paso 1. Extrae cuadrados perfectos: √50 = √(25×2) = 5√2 y √8 = √(4×2) = 2√2.\nPaso 2. Sustituye: 5√2 − 2(2√2).\nPaso 3. Resta: 5√2 − 4√2 = √2.\nNo se pueden restar los números dentro de las raíces directamente.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 1.3.4, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "02 · Productos notables y factorización",
+    "subtema": "Binomio de Newton",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál es el desarrollo de (x − 2)³?",
+    "opciones": {
+      "a": "x³ − 8",
+      "b": "x³ − 6x² + 12x − 8",
+      "c": "x³ − 6x² − 12x − 8",
+      "d": "x³ − 2x² + 4x − 8"
+    },
+    "respuesta": "b",
+    "explicacion": "Usa (a − b)³ = a³ − 3a²b + 3ab² − b³.\nPaso 1. Sustituye a = x y b = 2.\nPaso 2. Calcula cada término: x³, −6x², +12x y −8.\nResultado: x³ − 6x² + 12x − 8.\nElevar una resta al cubo no equivale a elevar por separado sus dos términos.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 2.1, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "02 · Productos notables y factorización",
+    "subtema": "Factorización de trinomios",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es la factorización de x² − 7x + 12?",
+    "opciones": {
+      "a": "(x − 2)(x − 6)",
+      "b": "(x − 3)(x − 4)",
+      "c": "(x + 3)(x + 4)",
+      "d": "(x + 3)(x − 4)"
+    },
+    "respuesta": "b",
+    "explicacion": "Paso 1. Busca dos números cuyo producto sea 12 y cuya suma sea −7.\nPaso 2. Esos números son −3 y −4.\nPaso 3. Escribe (x − 3)(x − 4).\nComprobación: x² − 4x − 3x + 12 = x² − 7x + 12.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 2, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "02 · Productos notables y factorización",
+    "subtema": "Teorema del residuo",
+    "dificultad": "Intermedio",
+    "pregunta": "Al dividir P(x) = x³ − 2x + 4 entre x − 2, ¿cuál es el residuo?",
+    "opciones": {
+      "a": "−8",
+      "b": "8",
+      "c": "4",
+      "d": "0"
+    },
+    "respuesta": "b",
+    "explicacion": "El teorema del residuo dice que, al dividir P(x) entre x − a, el residuo es P(a).\nPaso 1. Aquí a = 2.\nPaso 2. Evalúa P(2) = 2³ − 2(2) + 4 = 8 − 4 + 4 = 8.\nComo el residuo no es cero, x − 2 no es factor de P(x).",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 2.2, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "02 · Productos notables y factorización",
+    "subtema": "Simplificación de fracciones algebraicas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué expresión equivale a (x² − 9)/(x − 3) en su dominio original?",
+    "opciones": {
+      "a": "x + 3, para todo número real",
+      "b": "x − 6, con x ≠ 3",
+      "c": "x − 3, con x ≠ 3",
+      "d": "x + 3, con x ≠ 3"
+    },
+    "respuesta": "d",
+    "explicacion": "Paso 1. Factoriza la diferencia de cuadrados: x² − 9 = (x − 3)(x + 3).\nPaso 2. Cancela el factor x − 3, siempre que x ≠ 3.\nResultado: x + 3, con x ≠ 3.\nAunque la expresión simplificada se pueda evaluar en 3, la fracción original no está definida allí.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 2.3, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "02 · Productos notables y factorización",
+    "subtema": "Suma de fracciones algebraicas",
+    "dificultad": "Intermedio",
+    "pregunta": "Para x ≠ 0 y x ≠ −1, simplifica 1/x + 1/(x + 1).",
+    "opciones": {
+      "a": "(2x + 1)/[x(x + 1)]",
+      "b": "(x + 2)/[x(x + 1)]",
+      "c": "2/(2x + 1)",
+      "d": "1/[x(x + 1)]"
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. Usa el denominador común x(x + 1).\nPaso 2. Reescribe: 1/x = (x + 1)/[x(x + 1)] y 1/(x + 1) = x/[x(x + 1)].\nPaso 3. Suma numeradores: x + 1 + x = 2x + 1.\nResultado: (2x + 1)/[x(x + 1)].",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 2.4, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "03 · Ecuaciones",
+    "subtema": "Ecuación e identidad",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál igualdad es una identidad, es decir, se cumple para TODO número real x?",
+    "opciones": {
+      "a": "x + 1 = x − 1",
+      "b": "2x + 3 = 7",
+      "c": "x² = x",
+      "d": "2(x + 3) = 2x + 6"
+    },
+    "respuesta": "d",
+    "explicacion": "Al distribuir 2 en 2(x + 3), se obtiene 2x + 6 sin imponer ningún valor de x; por eso es una identidad.\nEn cambio, 2x + 3 = 7 solo se cumple para x = 2; x² = x solo para x = 0 o x = 1; y x + 1 = x − 1 no tiene solución.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 3.1, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "03 · Ecuaciones",
+    "subtema": "Ecuación de primer grado",
+    "dificultad": "Básico",
+    "pregunta": "Resuelve: (2x − 1)/3 = (x + 2)/2.",
+    "opciones": {
+      "a": "x = 4",
+      "b": "x = 8",
+      "c": "x = 2",
+      "d": "x = −8"
+    },
+    "respuesta": "b",
+    "explicacion": "Paso 1. Multiplica ambos lados por 6: 2(2x − 1) = 3(x + 2).\nPaso 2. Distribuye: 4x − 2 = 3x + 6.\nPaso 3. Resta 3x y suma 2 a ambos lados: x = 8.\nComprobación: (16 − 1)/3 = 5 y (8 + 2)/2 = 5.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 3.2, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "03 · Ecuaciones",
+    "subtema": "Ecuación cuadrática por factorización",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuáles son las soluciones de x² − 5x + 6 = 0?",
+    "opciones": {
+      "a": "x = −2 y x = −3",
+      "b": "x = 1 y x = 6",
+      "c": "x = −1 y x = −6",
+      "d": "x = 2 y x = 3"
+    },
+    "respuesta": "d",
+    "explicacion": "Paso 1. Factoriza: x² − 5x + 6 = (x − 2)(x − 3).\nPaso 2. Un producto es cero cuando al menos uno de sus factores es cero.\nPaso 3. Resuelve x − 2 = 0 o x − 3 = 0.\nLas soluciones son x = 2 y x = 3.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 3.3, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "03 · Ecuaciones",
+    "subtema": "Ecuación cuadrática con coeficiente principal distinto de uno",
+    "dificultad": "Intermedio",
+    "pregunta": "Resuelve: 2x² + 3x − 2 = 0.",
+    "opciones": {
+      "a": "x = 1/2 y x = −2",
+      "b": "x = 2 y x = −1/2",
+      "c": "x = −1/2 y x = −2",
+      "d": "x = 1 y x = −2"
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. Factoriza: 2x² + 3x − 2 = (2x − 1)(x + 2).\nPaso 2. Iguala cada factor a cero. De 2x − 1 = 0 resulta x = 1/2; de x + 2 = 0 resulta x = −2.\nTambién puedes usar la fórmula general: x = [−3 ± √(9 + 16)]/4 = (−3 ± 5)/4.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 3.3, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "04 · Desigualdades",
+    "subtema": "Desigualdad y cambio de sentido",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es la solución de −3x + 6 > 12?",
+    "opciones": {
+      "a": "x < 2",
+      "b": "x > 2",
+      "c": "x < −2",
+      "d": "x > −2"
+    },
+    "respuesta": "c",
+    "explicacion": "Paso 1. Resta 6 a ambos lados: −3x > 6.\nPaso 2. Divide entre −3. Al dividir una desigualdad entre un número negativo, invierte su sentido: x < −2.\nComprobación: con x = −3, el lado izquierdo original vale 15, que sí es mayor que 12.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 4.1, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "04 · Desigualdades",
+    "subtema": "Desigualdad compuesta e intervalos",
+    "dificultad": "Intermedio",
+    "pregunta": "Resuelve la desigualdad compuesta: 2 ≤ 3x − 1 < 11.",
+    "opciones": {
+      "a": "1 ≤ x ≤ 4",
+      "b": "1/3 ≤ x < 10/3",
+      "c": "1 ≤ x < 4",
+      "d": "1 < x ≤ 4"
+    },
+    "respuesta": "c",
+    "explicacion": "Paso 1. Suma 1 en las tres partes: 3 ≤ 3x < 12.\nPaso 2. Divide todas las partes entre 3, que es positivo: 1 ≤ x < 4.\nEl extremo 1 se incluye y el extremo 4 se excluye. En notación de intervalos: [1, 4).",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 4.1, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "05 · Sistemas de ecuaciones",
+    "subtema": "Sistema de dos ecuaciones: eliminación",
+    "dificultad": "Básico",
+    "pregunta": "Resuelve el sistema:\nx + y = 7\n2x − y = 5",
+    "opciones": {
+      "a": "x = 6, y = 1",
+      "b": "x = 4, y = 3",
+      "c": "x = 3, y = 4",
+      "d": "x = 2, y = 5"
+    },
+    "respuesta": "b",
+    "explicacion": "Paso 1. Suma las ecuaciones para eliminar y: 3x = 12.\nPaso 2. Despeja x = 4.\nPaso 3. Sustituye en x + y = 7: 4 + y = 7, por lo que y = 3.\nComprueba también la segunda ecuación: 2(4) − 3 = 5.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 5.1.1, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "05 · Sistemas de ecuaciones",
+    "subtema": "Regla de Cramer",
+    "dificultad": "Intermedio",
+    "pregunta": "En el sistema 2x + y = 7 y x − y = 2, ¿cuál es el valor de x? Puedes usar la regla de Cramer.",
+    "opciones": {
+      "a": "x = −3",
+      "b": "x = 1",
+      "c": "x = 9",
+      "d": "x = 3"
+    },
+    "respuesta": "d",
+    "explicacion": "Para una matriz de dos por dos, el determinante es ad − bc.\nPaso 1. El determinante de coeficientes es D = 2(−1) − 1(1) = −3.\nPaso 2. Sustituye la columna de x por los resultados 7 y 2: Dₓ = 7(−1) − 1(2) = −9.\nPaso 3. x = Dₓ/D = (−9)/(−3) = 3. Al sustituir, y = 1.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 5.1.1 y preparación para 5.2.1, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "05 · Sistemas de ecuaciones",
+    "subtema": "Sistema de tres ecuaciones",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué terna (x, y, z) satisface el sistema?\nx + y + z = 6\n2x − y + z = 3\nx + 2y − z = 2",
+    "opciones": {
+      "a": "(1, 2, 3)",
+      "b": "(2, 1, 3)",
+      "c": "(1, 3, 2)",
+      "d": "(3, 2, 1)"
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. Resta la primera ecuación de la segunda: x − 2y = −3.\nPaso 2. Suma la primera y la tercera: 2x + 3y = 8.\nPaso 3. De x = 2y − 3, sustituye: 2(2y − 3) + 3y = 8; así, 7y = 14 y y = 2.\nPaso 4. Obtén x = 1 y luego z = 6 − 1 − 2 = 3. La terna satisface las tres ecuaciones.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 5.2, página 12",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "06 · Funciones algebraicas",
+    "subtema": "Evaluación de una función",
+    "dificultad": "Básico",
+    "pregunta": "Si f(x) = x² − 2x, ¿cuánto vale f(−3)?",
+    "opciones": {
+      "a": "−3",
+      "b": "3",
+      "c": "−15",
+      "d": "15"
+    },
+    "respuesta": "d",
+    "explicacion": "Paso 1. Sustituye x por −3 en TODOS los lugares: f(−3) = (−3)² − 2(−3).\nPaso 2. Calcula (−3)² = 9 y −2(−3) = 6.\nPaso 3. Suma: 9 + 6 = 15.\nUsa paréntesis al sustituir un número negativo.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 6.1, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "06 · Funciones algebraicas",
+    "subtema": "Dominio con raíz y denominador",
+    "dificultad": "Intermedio",
+    "pregunta": "Para valores reales de x, ¿cuál es el dominio de f(x) = √(x − 2)/(x − 5)?",
+    "opciones": {
+      "a": "Todos los x ≤ 2",
+      "b": "Todos los x ≥ 2, incluido x = 5",
+      "c": "Todos los x > 2, excepto x = 5",
+      "d": "Todos los x ≥ 2, excepto x = 5"
+    },
+    "respuesta": "d",
+    "explicacion": "Paso 1. Para que la raíz sea real, exige x − 2 ≥ 0: x ≥ 2.\nPaso 2. El denominador no puede ser cero: x − 5 ≠ 0, así que x ≠ 5.\nPaso 3. Cumple ambas condiciones a la vez: [2, 5) ∪ (5, ∞).\nEl valor x = 2 sí se permite: la raíz puede valer cero.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 6.1, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 25,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "06 · Funciones algebraicas",
+    "subtema": "Rango de una función cuadrática",
+    "dificultad": "Intermedio",
+    "pregunta": "Si f(x) = x² + 1 tiene dominio en todos los números reales, ¿cuál es su rango o imagen?",
+    "opciones": {
+      "a": "Todos los y ≤ 1",
+      "b": "Todos los y > 1",
+      "c": "Todos los y ≥ 1",
+      "d": "Todos los números reales"
+    },
+    "respuesta": "c",
+    "explicacion": "Paso 1. Para todo real x, se cumple x² ≥ 0.\nPaso 2. Entonces x² + 1 ≥ 1. El mínimo 1 sí se alcanza cuando x = 0.\nPaso 3. Cualquier y ≥ 1 puede obtenerse tomando x = √(y − 1).\nPor tanto, el rango es [1, ∞).",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 6.2 y 6.3, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 26,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "06 · Funciones algebraicas",
+    "subtema": "Crecimiento y continuidad",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué descripción corresponde a la función f(x) = −2x + 3 en los números reales?",
+    "opciones": {
+      "a": "Es decreciente y continua en todo su dominio.",
+      "b": "Es creciente y continua en todo su dominio.",
+      "c": "Es constante y continua en todo su dominio.",
+      "d": "Es decreciente y tiene una discontinuidad en x = 0."
+    },
+    "respuesta": "a",
+    "explicacion": "La pendiente de la recta es −2: por cada unidad que aumenta x, el valor de f(x) disminuye 2. Por ello es decreciente.\nAdemás, una función de la forma mx + b está definida y es continua para todo número real: su gráfica no presenta saltos ni huecos.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 6.5 y 6.6, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 27,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "06 · Funciones algebraicas",
+    "subtema": "Composición de funciones",
+    "dificultad": "Intermedio",
+    "pregunta": "Sean f(x) = 2x + 1 y g(x) = x². ¿Cuánto vale f(g(3))?",
+    "opciones": {
+      "a": "10",
+      "b": "49",
+      "c": "18",
+      "d": "19"
+    },
+    "respuesta": "d",
+    "explicacion": "Paso 1. Evalúa primero la función interior: g(3) = 3² = 9.\nPaso 2. Usa ese resultado como entrada de f: f(9) = 2(9) + 1 = 19.\nOjo: g(f(3)) sería otra composición y daría 49. El orden importa.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 6.7, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 28,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "07 · Trigonometría",
+    "subtema": "Conversión de grados a radianes",
+    "dificultad": "Básico",
+    "pregunta": "¿A cuántos radianes equivalen 150°?",
+    "opciones": {
+      "a": "3π/4",
+      "b": "5π/3",
+      "c": "5π/6",
+      "d": "π/6"
+    },
+    "respuesta": "c",
+    "explicacion": "Paso 1. Usa la equivalencia 180° = π radianes.\nPaso 2. Multiplica 150 por π/180: 150π/180.\nPaso 3. Simplifica dividiendo entre 30: 5π/6.\nPara pasar de grados a radianes se multiplica por π/180.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.1, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 29,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "07 · Trigonometría",
+    "subtema": "Razones trigonométricas",
+    "dificultad": "Básico",
+    "pregunta": "En un triángulo rectángulo, respecto del ángulo agudo θ, el cateto opuesto mide 6 cm, el adyacente 8 cm y la hipotenusa 10 cm. ¿Cuánto vale sen θ?",
+    "opciones": {
+      "a": "5/3",
+      "b": "3/5",
+      "c": "3/4",
+      "d": "4/5"
+    },
+    "respuesta": "b",
+    "explicacion": "El seno es cateto opuesto dividido entre hipotenusa.\nPaso 1. Identifica el cateto opuesto a θ: 6 cm.\nPaso 2. Divide entre la hipotenusa: sen θ = 6/10 = 3/5.\nEl cociente 8/10 corresponde al coseno y 6/8 corresponde a la tangente.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.2, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 30,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "07 · Trigonometría",
+    "subtema": "Resolución de un triángulo rectángulo",
+    "dificultad": "Intermedio",
+    "pregunta": "Una escalera de 10 m forma un ángulo de 60° con un suelo horizontal y se apoya en una pared vertical. ¿A qué altura llega? Usa sen 60° = √3/2.",
+    "opciones": {
+      "a": "20/√3 m",
+      "b": "5 m",
+      "c": "10√3 m",
+      "d": "5√3 m"
+    },
+    "respuesta": "d",
+    "explicacion": "Paso 1. La escalera es la hipotenusa y la altura es el cateto opuesto al ángulo con el suelo.\nPaso 2. Plantea sen 60° = altura/10.\nPaso 3. Despeja: altura = 10(√3/2) = 5√3 m, aproximadamente 8.66 m.\nLa altura debe ser menor que la longitud de la escalera.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.3, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 31,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "07 · Trigonometría",
+    "subtema": "Ley de los senos",
+    "dificultad": "Intermedio",
+    "pregunta": "En un triángulo, el ángulo A mide 30° y su lado opuesto a mide 5 cm. El ángulo B mide 45°. ¿Cuánto mide el lado b, opuesto a B? Usa sen 30° = 1/2 y sen 45° = √2/2.",
+    "opciones": {
+      "a": "5√2 cm",
+      "b": "5/√2 cm",
+      "c": "5 cm",
+      "d": "10√2 cm"
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. Aplica a/sen A = b/sen B.\nPaso 2. Despeja b = a(sen B)/(sen A).\nPaso 3. Sustituye: b = 5(√2/2)/(1/2) = 5√2 cm.\nEl lado b debe ser mayor que a porque su ángulo opuesto, 45°, es mayor que 30°.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.4 y 7.1.5, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 32,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "07 · Trigonometría",
+    "subtema": "Ley de los cosenos",
+    "dificultad": "Intermedio",
+    "pregunta": "Dos lados de un triángulo miden 5 cm y 8 cm, y el ángulo comprendido entre ellos es de 60°. ¿Cuánto mide el tercer lado? Usa cos 60° = 1/2.",
+    "opciones": {
+      "a": "√89 cm",
+      "b": "√129 cm",
+      "c": "7 cm",
+      "d": "3 cm"
+    },
+    "respuesta": "c",
+    "explicacion": "Paso 1. Usa a² = b² + c² − 2bc cos A, donde A es el ángulo comprendido entre b y c.\nPaso 2. Sustituye: a² = 5² + 8² − 2(5)(8)(1/2) = 25 + 64 − 40 = 49.\nPaso 3. Como es una longitud, a = √49 = 7 cm.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.4 y 7.1.5, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 33,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "07 · Trigonometría",
+    "subtema": "Razones trigonométricas en otros cuadrantes",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál es el valor de cos 120°?",
+    "opciones": {
+      "a": "−1/2",
+      "b": "1/2",
+      "c": "√3/2",
+      "d": "−√3/2"
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. Ubica 120° en el segundo cuadrante, donde el coseno es negativo.\nPaso 2. Su ángulo de referencia es 180° − 120° = 60°.\nPaso 3. Usa cos 60° = 1/2 y aplica el signo: cos 120° = −1/2.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.6 y 7.2.1, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 34,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "07 · Trigonometría",
+    "subtema": "Amplitud, periodo y desfase",
+    "dificultad": "Reto",
+    "pregunta": "Con x medido en radianes, ¿qué características tiene y = 3 sen(2x − π)?",
+    "opciones": {
+      "a": "Amplitud 3, periodo π y desplazamiento π/2 hacia la izquierda.",
+      "b": "Amplitud 3, periodo 2π y desplazamiento π hacia la derecha.",
+      "c": "Amplitud 3, periodo π y desplazamiento π/2 hacia la derecha.",
+      "d": "Amplitud 2, periodo 3π y desplazamiento π/2 hacia la izquierda."
+    },
+    "respuesta": "c",
+    "explicacion": "Paso 1. Reescribe el argumento: 2x − π = 2(x − π/2).\nPaso 2. En A sen[B(x − h)], la amplitud es |A|, el periodo es 2π/|B| y h indica el desplazamiento horizontal.\nPaso 3. Aquí la amplitud es 3, el periodo es 2π/2 = π y h = π/2 corresponde a un desplazamiento a la derecha.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.2.2.2 y 7.2.2.3, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 35,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "08 · Funciones exponenciales y logarítmicas",
+    "subtema": "Función exponencial: hallar una entrada",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué valor de x satisface 2^(x + 1) = 16?",
+    "opciones": {
+      "a": "x = 3",
+      "b": "x = 15",
+      "c": "x = 4",
+      "d": "x = 7"
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. Escribe 16 como potencia de 2: 16 = 2⁴.\nPaso 2. Como 2^(x + 1) = 2⁴ y la función exponencial de base 2 es uno a uno, iguala exponentes: x + 1 = 4.\nPaso 3. Resta 1: x = 3.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 8, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 36,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "08 · Funciones exponenciales y logarítmicas",
+    "subtema": "Significado del logaritmo",
+    "dificultad": "Básico",
+    "pregunta": "Si log₁₀(x) = −2, ¿cuánto vale x?",
+    "opciones": {
+      "a": "100",
+      "b": "−100",
+      "c": "1/100",
+      "d": "−1/100"
+    },
+    "respuesta": "c",
+    "explicacion": "Un logaritmo responde qué exponente necesita la base para producir el argumento.\nPaso 1. Convierte a forma exponencial: x = 10^(−2).\nPaso 2. Un exponente negativo indica recíproco: 10^(−2) = 1/10² = 1/100.\nEl argumento de un logaritmo real debe ser positivo; que el logaritmo sea negativo no hace negativo a x.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 8, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "08 · Funciones exponenciales y logarítmicas",
+    "subtema": "Dominio y asíntota de una función logarítmica",
+    "dificultad": "Intermedio",
+    "pregunta": "Para f(x) = ln(x − 2), donde ln es el logaritmo natural, ¿cuáles son su dominio real y su asíntota vertical?",
+    "opciones": {
+      "a": "Dominio: x > 2; asíntota vertical: x = 2.",
+      "b": "Dominio: x ≥ 2; asíntota vertical: x = 2.",
+      "c": "Dominio: x < 2; asíntota vertical: x = 2.",
+      "d": "Dominio: x > 0; asíntota vertical: x = 0."
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. El argumento debe ser estrictamente positivo: x − 2 > 0, por lo que x > 2.\nPaso 2. Cuando x se acerca a 2 por la derecha, x − 2 se acerca a cero por valores positivos y ln(x − 2) disminuye sin límite.\nPor ello, x = 2 es una asíntota vertical. El valor 2 no pertenece al dominio.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 8.1 y 8.2, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 38,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "09 · Recta",
+    "subtema": "Distancia entre dos puntos",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es la distancia entre A(−1, 2) y B(5, 10) en el plano cartesiano?",
+    "opciones": {
+      "a": "14 unidades",
+      "b": "10 unidades",
+      "c": "√52 unidades",
+      "d": "100 unidades"
+    },
+    "respuesta": "b",
+    "explicacion": "Paso 1. Calcula las diferencias de coordenadas: 5 − (−1) = 6 y 10 − 2 = 8.\nPaso 2. Usa d = √[(Δx)² + (Δy)²].\nPaso 3. Obtén d = √(6² + 8²) = √100 = 10.\nEs el teorema de Pitágoras aplicado al plano.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 9.1, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 39,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "09 · Recta",
+    "subtema": "División interna de un segmento",
+    "dificultad": "Intermedio",
+    "pregunta": "El punto P está entre A(0, 0) y B(9, 6), de modo que AP:PB = 1:2. ¿Cuáles son sus coordenadas?",
+    "opciones": {
+      "a": "P(6, 4)",
+      "b": "P(3, 2)",
+      "c": "P(9, 3)",
+      "d": "P(4.5, 3)"
+    },
+    "respuesta": "b",
+    "explicacion": "Paso 1. La razón 1:2 divide el segmento en tres partes iguales: una de A a P y dos de P a B.\nPaso 2. P está a un tercio del recorrido desde A hacia B.\nPaso 3. Calcula P = (0, 0) + (1/3)(9, 6) = (3, 2).\nEl punto (6, 4) correspondería a la razón AP:PB = 2:1.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 9.2, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 40,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "09 · Recta",
+    "subtema": "Ecuación de la recta",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es la ecuación de la recta que pasa por (2, 3) y tiene pendiente −2?",
+    "opciones": {
+      "a": "y = −2x − 1",
+      "b": "y = −2x + 7",
+      "c": "y = −2x + 3",
+      "d": "y = 2x − 1"
+    },
+    "respuesta": "b",
+    "explicacion": "Paso 1. Usa la forma punto-pendiente: y − y₁ = m(x − x₁).\nPaso 2. Sustituye: y − 3 = −2(x − 2).\nPaso 3. Distribuye y despeja: y − 3 = −2x + 4; así, y = −2x + 7.\nComprueba: cuando x = 2, y = −4 + 7 = 3.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 9.3 y 9.4, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 41,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "09 · Recta",
+    "subtema": "Perpendicularidad de rectas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué pendiente tiene una recta perpendicular a 3x + 2y − 6 = 0?",
+    "opciones": {
+      "a": "−3/2",
+      "b": "−2/3",
+      "c": "2/3",
+      "d": "3/2"
+    },
+    "respuesta": "c",
+    "explicacion": "Paso 1. Despeja y: 2y = −3x + 6, por lo que y = (−3/2)x + 3. La pendiente original es −3/2.\nPaso 2. Para dos rectas no verticales perpendiculares, sus pendientes cumplen m₁m₂ = −1.\nPaso 3. La pendiente buscada es el recíproco con signo opuesto: 2/3.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 9.5, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 42,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "09 · Recta",
+    "subtema": "Distancia de un punto a una recta",
+    "dificultad": "Reto",
+    "pregunta": "¿Cuál es la distancia del punto P(1, 2) a la recta 3x + 4y − 1 = 0?",
+    "opciones": {
+      "a": "10 unidades",
+      "b": "2 unidades",
+      "c": "12/5 unidades",
+      "d": "5 unidades"
+    },
+    "respuesta": "b",
+    "explicacion": "Usa d = |Ax₀ + By₀ + C|/√(A² + B²) para la recta Ax + By + C = 0.\nPaso 1. Aquí A = 3, B = 4, C = −1 y P = (1, 2).\nPaso 2. El numerador es |3(1) + 4(2) − 1| = |10| = 10.\nPaso 3. El denominador es √(9 + 16) = 5.\nResultado: d = 10/5 = 2.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 9.6, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 43,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "10 · Circunferencia",
+    "subtema": "Ecuación ordinaria de la circunferencia",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué ecuación representa una circunferencia con centro (2, −1) y radio 3?",
+    "opciones": {
+      "a": "(x − 2)² − (y + 1)² = 9",
+      "b": "(x + 2)² + (y − 1)² = 9",
+      "c": "(x − 2)² + (y + 1)² = 9",
+      "d": "(x − 2)² + (y + 1)² = 3"
+    },
+    "respuesta": "c",
+    "explicacion": "La forma ordinaria es (x − h)² + (y − k)² = r².\nPaso 1. Sustituye h = 2, k = −1 y r = 3.\nPaso 2. Como y − (−1) = y + 1 y 3² = 9, queda (x − 2)² + (y + 1)² = 9.\nLos signos dentro de los paréntesis son opuestos a los de las coordenadas del centro.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 10.3 y 10.4, página 14",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 44,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "10 · Circunferencia",
+    "subtema": "Completar cuadrados en una circunferencia",
+    "dificultad": "Reto",
+    "pregunta": "La circunferencia x² + y² − 6x + 4y − 12 = 0 tiene:",
+    "opciones": {
+      "a": "Centro (−3, 2) y radio 5.",
+      "b": "Centro (3, −2) y radio 25.",
+      "c": "Centro (3, −2) y radio √12.",
+      "d": "Centro (3, −2) y radio 5."
+    },
+    "respuesta": "d",
+    "explicacion": "Paso 1. Agrupa y mueve la constante: (x² − 6x) + (y² + 4y) = 12.\nPaso 2. Completa cuadrados añadiendo 9 y 4 a ambos lados: (x − 3)² + (y + 2)² = 12 + 9 + 4 = 25.\nPaso 3. Lee el centro (3, −2) y el radio √25 = 5.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 10.3 y 10.4, página 14",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 45,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "11 · Parábola",
+    "subtema": "Foco y directriz de una parábola",
+    "dificultad": "Intermedio",
+    "pregunta": "Para la parábola y² = 8x, ¿cuáles son el foco y la directriz?",
+    "opciones": {
+      "a": "Foco (2, 0); directriz x = −2.",
+      "b": "Foco (0, 2); directriz y = −2.",
+      "c": "Foco (−2, 0); directriz x = 2.",
+      "d": "Foco (8, 0); directriz x = −8."
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. Compara con y² = 4px.\nPaso 2. De 4p = 8 resulta p = 2.\nPaso 3. En esta forma, el vértice es (0, 0), el foco es (p, 0) y la directriz es x = −p.\nAsí, el foco es (2, 0) y la directriz x = −2; la parábola abre hacia la derecha.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 11.2 y 11.4, página 14",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 46,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "11 · Parábola",
+    "subtema": "Parábola con vértice trasladado",
+    "dificultad": "Reto",
+    "pregunta": "Para la parábola (x − 1)² = −12(y + 2), ¿cuáles son el vértice y el foco?",
+    "opciones": {
+      "a": "Vértice (1, −2); foco (1, 1).",
+      "b": "Vértice (1, −2); foco (1, −5).",
+      "c": "Vértice (1, −2); foco (−2, −2).",
+      "d": "Vértice (−1, 2); foco (−1, −1)."
+    },
+    "respuesta": "b",
+    "explicacion": "Paso 1. Compara con (x − h)² = 4p(y − k). De aquí h = 1, k = −2 y 4p = −12.\nPaso 2. Calcula p = −3.\nPaso 3. El vértice es (h, k) = (1, −2) y el foco es (h, k + p) = (1, −5).\nComo p es negativo y el eje es vertical, abre hacia abajo.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 11.3 y 11.4, página 14",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 47,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "12 · Elipse",
+    "subtema": "Focos de una elipse",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuáles son los focos de la elipse x²/25 + y²/9 = 1?",
+    "opciones": {
+      "a": "(−4, 0) y (4, 0)",
+      "b": "(−√34, 0) y (√34, 0)",
+      "c": "(−5, 0) y (5, 0)",
+      "d": "(0, −4) y (0, 4)"
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. El denominador mayor está bajo x²; el eje mayor es horizontal. Aquí a² = 25 y b² = 9.\nPaso 2. Para una elipse, c² = a² − b² = 25 − 9 = 16; así, c = 4.\nPaso 3. Con centro en el origen, los focos son (−c, 0) y (c, 0): (−4, 0) y (4, 0).\nLos puntos (±5, 0) son vértices, no focos.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 12.2, 12.3 y 12.5, página 14",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 48,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "13 · Hipérbola",
+    "subtema": "Centro y asíntotas de una hipérbola",
+    "dificultad": "Reto",
+    "pregunta": "Para la hipérbola (x − 2)²/9 − (y + 1)²/16 = 1, ¿cuáles son el centro y las asíntotas?",
+    "opciones": {
+      "a": "Centro (2, −1); asíntotas y + 1 = ±(16/9)(x − 2).",
+      "b": "Centro (−2, 1); asíntotas y − 1 = ±(4/3)(x + 2).",
+      "c": "Centro (2, −1); asíntotas y + 1 = ±(3/4)(x − 2).",
+      "d": "Centro (2, −1); asíntotas y + 1 = ±(4/3)(x − 2)."
+    },
+    "respuesta": "d",
+    "explicacion": "Paso 1. Compara con (x − h)²/a² − (y − k)²/b² = 1. El centro es (h, k) = (2, −1).\nPaso 2. Extrae raíces: a = 3 y b = 4.\nPaso 3. Para esta hipérbola horizontal, las asíntotas son y − k = ±(b/a)(x − h).\nResultado: y + 1 = ±(4/3)(x − 2). Se usa b/a, no b²/a².",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 13.4 y 13.5, página 14",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 49,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "14 · Ecuación general de segundo grado",
+    "subtema": "Identificación de una cónica",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué cónica representa 4x² + 9y² − 8x + 18y − 23 = 0?",
+    "opciones": {
+      "a": "Una hipérbola.",
+      "b": "Una circunferencia.",
+      "c": "Una elipse.",
+      "d": "Una parábola."
+    },
+    "respuesta": "c",
+    "explicacion": "Paso 1. Agrupa: 4(x² − 2x) + 9(y² + 2y) = 23.\nPaso 2. Completa cuadrados: 4(x − 1)² + 9(y + 1)² = 23 + 4 + 9 = 36.\nPaso 3. Divide entre 36: (x − 1)²/9 + (y + 1)²/4 = 1.\nEs una elipse real con centro (1, −1) y semiejes 3 y 2.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 14.1, 14.2 y 14.3, página 14",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  },
+  {
+    "id": 50,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas · UNAM área 4",
+    "tema": "14 · Ecuación general de segundo grado",
+    "subtema": "Traslación de ejes",
+    "dificultad": "Reto",
+    "pregunta": "En la ecuación x² + y² − 4x + 2y − 4 = 0 se introducen las nuevas coordenadas X = x − 2 y Y = y + 1. ¿Cómo queda la ecuación?",
+    "opciones": {
+      "a": "X² + Y² = 9",
+      "b": "X² + Y² = 3",
+      "c": "X² − Y² = 9",
+      "d": "X² + Y² = 4"
+    },
+    "respuesta": "a",
+    "explicacion": "Paso 1. Reordena: (x² − 4x) + (y² + 2y) = 4.\nPaso 2. Completa cuadrados añadiendo 4 y 1: (x − 2)² + (y + 1)² = 9.\nPaso 3. Sustituye X = x − 2 y Y = y + 1: X² + Y² = 9.\nLa traslación coloca el origen nuevo en el centro (2, −1); el radio sigue siendo 3.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 14.4, página 14",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía."
+  }
+]
