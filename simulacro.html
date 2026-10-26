@@ -728,6 +728,25 @@ let intervaloReloj = null;
 
 const ACCESOS = {
 
+  matematicas: {
+    estudiante: "Patita",
+    titulo: "📐 Matemáticas · UNAM área 4",
+    subtitulo: "50 preguntas originales · Humanidades y Artes · Práctica no oficial",
+    archivo: "data/simulacro_matematicas_unam_area4_50_preguntas.json",
+    ordenAleatorio: true,
+    modoExamen: true,
+    minutos: 75
+  },
+
+  matematicas_estudio: {
+    estudiante: "Patita",
+    titulo: "📐 Matemáticas · Modo estudio",
+    subtitulo: "50 preguntas por tema · Explicaciones paso a paso · Sin límite de tiempo",
+    archivo: "data/simulacro_matematicas_unam_area4_50_preguntas.json",
+    ordenAleatorio: false,
+    modoExamen: false
+  },
+  
   historia: {
     estudiante: "Patita",
     titulo: "🏛️ Historia · Práctica de ingreso UNAM",
@@ -929,7 +948,11 @@ document.getElementById("archivoLocal").addEventListener("change", async functio
 
 function configurarModo(){
   const aviso = document.getElementById("instruccionesModo");
-  aviso.classList.toggle("hidden", !accesoActual?.archivo.includes("historia_unam"));
+
+  aviso.classList.toggle(
+    "hidden",
+    !/historia_unam|matematicas_unam/.test(accesoActual?.archivo || "")
+  );
   aviso.innerText = modoExamen
     ? `Examen de práctica: ${accesoActual.minutos || 75} minutos sugeridos para este bloque. El tiempo comienza al cargar las preguntas. Puedes omitir, volver y cambiar respuestas; las explicaciones se muestran al entregar. Las omitidas no suman aciertos. Este tiempo y las 50 preguntas no son la distribución oficial por área de la UNAM.`
     : "Modo estudio: selecciona una opción y pulsa Comprobar para ver la explicación. No hay límite de tiempo. Material original de práctica, no oficial de la UNAM.";
