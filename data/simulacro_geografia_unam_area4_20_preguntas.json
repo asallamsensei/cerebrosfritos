@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Coordenadas geográficas",
+    "pregunta": "Un observatorio está situado en 20° de latitud norte y 100° de longitud oeste. ¿En qué hemisferios se encuentra?",
+    "opciones": {
+      "a": "Norte y oriental",
+      "b": "Norte y occidental",
+      "c": "Sur y occidental",
+      "d": "Sur y oriental"
+    },
+    "respuesta": "b",
+    "explicacion": "La latitud norte sitúa el lugar al norte del ecuador; la longitud oeste lo ubica al oeste del meridiano de Greenwich.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/explora/geografia/ubicacion/"
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Escala cartográfica",
+    "pregunta": "En un mapa a escala 1:50 000, dos puntos están separados por 6 cm. ¿Qué distancia horizontal representan en el terreno?",
+    "opciones": {
+      "a": "300 m",
+      "b": "30 km",
+      "c": "0.3 km",
+      "d": "3 km"
+    },
+    "respuesta": "d",
+    "explicacion": "Cada centímetro representa 50 000 cm, equivalentes a 500 m. Por tanto, 6 × 500 m = 3 000 m = 3 km.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/descubre/geografia/escala/"
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Movimientos terrestres y estaciones",
+    "pregunta": "¿Por qué el verano del hemisferio norte coincide con el invierno del hemisferio sur?",
+    "opciones": {
+      "a": "La inclinación del eje terrestre produce una distribución estacional diferente de la radiación solar entre ambos hemisferios.",
+      "b": "La Tierra está más cerca del Sol durante todo el verano de ambos hemisferios.",
+      "c": "La rotación terrestre se invierte cada seis meses.",
+      "d": "El hemisferio sur deja de recibir luz solar durante seis meses completos."
+    },
+    "respuesta": "a",
+    "explicacion": "La inclinación del eje, junto con la traslación, hace que un hemisferio reciba luz más directa y días más largos mientras el otro recibe luz menos directa y días más cortos.",
+    "fuente_conceptual": "https://spaceplace.nasa.gov/seasons/en/"
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Tectónica y sismicidad de México",
+    "pregunta": "¿Qué interacción tectónica explica una parte importante de la sismicidad frente a las costas de Guerrero?",
+    "opciones": {
+      "a": "La separación de la placa Africana y la Euroasiática.",
+      "b": "La colisión de la placa India con la Euroasiática.",
+      "c": "La subducción de la placa de Cocos bajo la de Norteamérica.",
+      "d": "La subducción de la placa de Norteamérica bajo la Antártica."
+    },
+    "respuesta": "c",
+    "explicacion": "Frente a Guerrero, la placa oceánica de Cocos se introduce bajo la placa de Norteamérica. La acumulación y liberación de esfuerzos en esta zona puede generar sismos.",
+    "fuente_conceptual": "https://www.dgcs.unam.mx/boletin/bdboletin/2008_482.html"
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Relieve de México",
+    "pregunta": "Al ubicar las grandes unidades del relieve mexicano, ¿qué sistema montañoso se extiende principalmente por el occidente del país, en dirección aproximadamente noroeste-sureste?",
+    "opciones": {
+      "a": "Sierra Madre Oriental",
+      "b": "Eje Neovolcánico",
+      "c": "Sierra Madre de Chiapas",
+      "d": "Sierra Madre Occidental"
+    },
+    "respuesta": "d",
+    "explicacion": "La Sierra Madre Occidental recorre el occidente de México con orientación general noroeste-sureste. La Oriental se encuentra al este; el Eje Neovolcánico cruza el centro de oeste a este y la Sierra Madre de Chiapas se localiza en el sureste.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/explora/geografia/relieve/"
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Ciclo hidrológico",
+    "pregunta": "Después de una lluvia, parte del agua penetra desde la superficie hacia el suelo. ¿Cómo se llama este proceso?",
+    "opciones": {
+      "a": "Evaporación",
+      "b": "Infiltración",
+      "c": "Condensación",
+      "d": "Precipitación"
+    },
+    "respuesta": "b",
+    "explicacion": "La infiltración es la entrada del agua en el suelo. No debe confundirse con la evaporación hacia la atmósfera ni con la caída de agua desde las nubes.",
+    "fuente_conceptual": "https://www.usgs.gov/water-science-school/science/el-ciclo-del-agua-water-cycle-spanish"
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Agua y urbanización",
+    "pregunta": "Una zona permeable se cubre con pavimento impermeable. Si la lluvia y las demás condiciones no cambian, ¿qué efecto inmediato es esperable?",
+    "opciones": {
+      "a": "Mayor infiltración y menor escurrimiento superficial.",
+      "b": "Desaparición de la evaporación en toda la cuenca.",
+      "c": "Menor infiltración y mayor escurrimiento superficial.",
+      "d": "Transformación de toda la lluvia en agua subterránea."
+    },
+    "respuesta": "c",
+    "explicacion": "El pavimento dificulta que el agua entre en el suelo. Una mayor proporción circula por la superficie, lo que puede aumentar la presión sobre el drenaje.",
+    "fuente_conceptual": "https://www.usgs.gov/water-science-school/science/infiltration-and-water-cycle"
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Factores del clima",
+    "pregunta": "Dos localidades mexicanas están a una latitud similar, pero una se ubica cerca del nivel del mar y otra a 2 500 m. Si se mantienen comparables los demás factores, ¿qué diferencia se espera?",
+    "opciones": {
+      "a": "La localidad de mayor altitud tenderá a tener temperaturas más bajas.",
+      "b": "La localidad de mayor altitud tendrá siempre clima tropical lluvioso.",
+      "c": "Ambas tendrán necesariamente la misma temperatura.",
+      "d": "La localidad costera carecerá de variaciones de temperatura."
+    },
+    "respuesta": "a",
+    "explicacion": "La altitud es un factor del clima: en términos generales, la temperatura del aire disminuye al ascender en la troposfera. La latitud por sí sola no determina el clima.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/descubre/geografia/climas/"
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Riesgo y vulnerabilidad",
+    "pregunta": "Dos comunidades están expuestas a inundaciones de intensidad semejante. Una cuenta con viviendas resistentes, alertas y rutas de evacuación; la otra carece de estas medidas. ¿Qué diferencia explica mejor su distinto riesgo?",
+    "opciones": {
+      "a": "La intensidad de la amenaza natural, que necesariamente es mayor donde faltan alertas.",
+      "b": "La frecuencia de las inundaciones, que disminuye por contar con viviendas resistentes.",
+      "c": "La vulnerabilidad de la población y de sus construcciones.",
+      "d": "La exposición geográfica, que desaparece por contar con rutas de evacuación."
+    },
+    "respuesta": "c",
+    "explicacion": "El riesgo no depende únicamente del fenómeno natural. La vulnerabilidad influye en el daño potencial; construcciones adecuadas y preparación pueden reducirla.",
+    "fuente_conceptual": "https://www.cab.unam.mx/aprendizajes_esenciales_2023/16_geografia.pdf"
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Deterioro ambiental y cambio climático",
+    "pregunta": "¿Qué cadena causal relaciona correctamente la quema de carbón con el calentamiento global?",
+    "opciones": {
+      "a": "Emisión de CO₂ → aumento de su concentración atmosférica → intensificación del efecto invernadero.",
+      "b": "Emisión de CO₂ → destrucción directa de la capa de ozono → principal causa del calentamiento global.",
+      "c": "Liberación del calor de las calderas → acumulación de ese calor como principal causa del calentamiento global.",
+      "d": "Emisión de CO₂ → aumento de la radiación emitida por el Sol → calentamiento de la Tierra."
+    },
+    "respuesta": "a",
+    "explicacion": "La combustión del carbón libera dióxido de carbono. Su acumulación intensifica el efecto invernadero natural y contribuye al calentamiento global.",
+    "fuente_conceptual": "https://www.un.org/es/climatechange/what-is-climate-change"
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Densidad de población",
+    "pregunta": "Una región hipotética tiene 180 000 habitantes y una superficie de 900 km². ¿Cuál es su densidad media de población?",
+    "opciones": {
+      "a": "20 habitantes por km²",
+      "b": "2 000 habitantes por km²",
+      "c": "900 habitantes por km²",
+      "d": "200 habitantes por km²"
+    },
+    "respuesta": "d",
+    "explicacion": "La densidad se obtiene al dividir población entre superficie: 180 000 ÷ 900 = 200 habitantes por km². Es un promedio, no implica una distribución uniforme.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/explora/poblacion/densidad/"
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Migración interna",
+    "pregunta": "Una familia cambia su residencia habitual de una comunidad rural de Oaxaca a la ciudad de Monterrey. ¿Cómo se clasifica este desplazamiento?",
+    "opciones": {
+      "a": "Migración internacional de retorno.",
+      "b": "Migración interna de tipo campo-ciudad.",
+      "c": "Turismo internacional temporal.",
+      "d": "Migración externa de tipo ciudad-campo."
+    },
+    "respuesta": "b",
+    "explicacion": "El cambio ocurre dentro de México, por lo que es migración interna. Como el origen es rural y el destino urbano, también es un flujo campo-ciudad.",
+    "fuente_conceptual": "https://www.inegi.org.mx/temas/migracion/"
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Emigración e inmigración",
+    "pregunta": "Una persona deja su residencia en México y se establece en Canadá. ¿Cómo se denomina desde la perspectiva de Canadá?",
+    "opciones": {
+      "a": "Inmigrante",
+      "b": "Emigrante de Canadá",
+      "c": "Turista nacional",
+      "d": "Migrante interna de Canadá"
+    },
+    "respuesta": "a",
+    "explicacion": "La misma persona es emigrante respecto al país del que sale e inmigrante respecto al país al que llega a establecer su residencia.",
+    "fuente_conceptual": "https://cuentame.inegi.gob.mx/explora/poblacion/migracion/"
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Interpretación de indicadores demográficos",
+    "pregunta": "Una región A tiene 100 000 habitantes en 100 km² y una región B tiene 300 000 habitantes en 1 000 km². ¿Qué conclusión es correcta?",
+    "opciones": {
+      "a": "B tiene mayor densidad porque siempre la región más poblada es la más densa.",
+      "b": "Ambas tienen la misma densidad.",
+      "c": "A tiene menor población total, pero mayor densidad que B.",
+      "d": "A tiene mayor población total y menor densidad."
+    },
+    "respuesta": "c",
+    "explicacion": "A tiene 1 000 habitantes por km² y B tiene 300 habitantes por km². Una población total mayor no implica necesariamente una densidad mayor.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/explora/poblacion/densidad/"
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Sectores de la economía",
+    "pregunta": "Una fábrica transforma algodón en telas. ¿A qué gran sector económico corresponde esta transformación industrial?",
+    "opciones": {
+      "a": "Primario",
+      "b": "Secundario",
+      "c": "Terciario",
+      "d": "Ningún sector, porque utiliza una materia prima agrícola."
+    },
+    "respuesta": "b",
+    "explicacion": "La transformación de materias primas en bienes industriales pertenece al sector secundario. Cultivar algodón es una actividad primaria; comercializar la tela es terciaria.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/explora/economia/pib/"
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Globalización económica",
+    "pregunta": "Una empresa diseña un producto en un país, compra componentes en otros y lo ensambla en México para exportarlo. ¿Qué proceso ejemplifica?",
+    "opciones": {
+      "a": "La sustitución de importaciones orientada a producir todos los componentes dentro de México.",
+      "b": "La integración vertical exclusivamente nacional de todas las etapas del producto.",
+      "c": "La especialización de cada país en elaborar un producto completo sin intercambiar insumos.",
+      "d": "La integración de una cadena de producción internacional."
+    },
+    "respuesta": "d",
+    "explicacion": "La globalización vincula economías mediante flujos de bienes, inversiones, tecnología y servicios. Distribuir etapas productivas entre países es una manifestación de esa integración.",
+    "fuente_conceptual": "https://www.imf.org/es/publications/fandd/issues/2024/06/b2b-globalization-today-adam-jakubik-and-elizabeth-van-heuvelen"
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Indicadores de desarrollo",
+    "pregunta": "¿Qué conjunto de dimensiones utiliza el Índice de Desarrollo Humano para evaluar el desarrollo más allá de la producción económica?",
+    "opciones": {
+      "a": "Superficie, longitud de costas y número de fronteras.",
+      "b": "Producción minera, altitud y precipitación.",
+      "c": "Población total, número de ciudades y husos horarios.",
+      "d": "Salud, educación y nivel de vida medido mediante el ingreso."
+    },
+    "respuesta": "d",
+    "explicacion": "El IDH reúne indicadores de una vida larga y saludable, acceso al conocimiento y nivel de vida. Por ello no equivale simplemente al tamaño total de una economía.",
+    "fuente_conceptual": "https://hdr.undp.org/data-center/human-development-index"
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Recursos energéticos",
+    "pregunta": "¿Cuál de las siguientes parejas está formada únicamente por fuentes de energía renovable?",
+    "opciones": {
+      "a": "Solar y eólica",
+      "b": "Petróleo y solar",
+      "c": "Carbón y gas natural",
+      "d": "Gas natural y eólica"
+    },
+    "respuesta": "a",
+    "explicacion": "La radiación solar y el viento se reponen mediante procesos naturales en escalas de tiempo humanas. El carbón, el petróleo y el gas natural son combustibles fósiles no renovables.",
+    "fuente_conceptual": "https://www.un.org/es/climatechange/raising-ambition/renewable-energy"
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Límites y fronteras de México",
+    "pregunta": "¿Con qué dos países comparte México fronteras terrestres al sur y sureste?",
+    "opciones": {
+      "a": "Honduras y El Salvador",
+      "b": "Guatemala y Belice",
+      "c": "Costa Rica y Panamá",
+      "d": "Cuba y Jamaica"
+    },
+    "respuesta": "b",
+    "explicacion": "México comparte su frontera terrestre meridional con Guatemala y Belice. Su otra frontera terrestre internacional es con Estados Unidos, al norte.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/explora/geografia/division_territorial/"
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Geografía",
+    "tema": "Representación del espacio geográfico",
+    "pregunta": "Para estudiar la distribución de la población entre municipios, ¿qué representación resulta más directamente útil?",
+    "opciones": {
+      "a": "Un mapa que solo muestre corrientes marinas.",
+      "b": "Un mapa que solo muestre altitudes, sin información demográfica.",
+      "c": "Un mapa temático de densidad de población por municipio.",
+      "d": "Un mapa del cielo nocturno con constelaciones."
+    },
+    "respuesta": "c",
+    "explicacion": "Un mapa temático permite representar espacialmente una variable específica. La densidad municipal facilita comparar la concentración relativa de población entre territorios.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/descubre/geografia/mapas/"
+  }
+]

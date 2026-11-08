@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Funciones de la lengua",
+    "pregunta": "En el aviso «Entrega la solicitud antes del viernes», ¿qué función de la lengua predomina?",
+    "opciones": {
+      "a": "Apelativa",
+      "b": "Referencial",
+      "c": "Metalingüística",
+      "d": "Poética"
+    },
+    "respuesta": "a",
+    "explicacion": "La instrucción busca que el receptor realice una acción. Por ello predomina la función apelativa, no la explicación del código ni la elaboración estética del mensaje.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/materiales/libros/pdfs/librocch_hablarescuchar.pdf"
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Funciones de la lengua",
+    "pregunta": "Un manual afirma: «El adverbio es una clase de palabra generalmente invariable». ¿Qué función predomina?",
+    "opciones": {
+      "a": "Emotiva",
+      "b": "Metalingüística",
+      "c": "Fática",
+      "d": "Apelativa"
+    },
+    "respuesta": "b",
+    "explicacion": "El lenguaje se utiliza para explicar el propio código lingüístico: se define una categoría gramatical.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/materiales/libros/pdfs/librocch_hablarescuchar.pdf"
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Comprensión de lectura: idea central",
+    "pregunta": "Lee: «Guardar agua no basta para evitar su desperdicio. También es necesario reparar fugas y revisar el consumo cotidiano. Solo la combinación de estas medidas permite aprovecharla mejor». ¿Qué opción expresa la idea central?",
+    "opciones": {
+      "a": "Almacenar agua elimina por sí solo el desperdicio.",
+      "b": "Las fugas son el único problema del consumo de agua.",
+      "c": "El aprovechamiento del agua exige combinar almacenamiento, reparación y revisión del consumo.",
+      "d": "Revisar el consumo hace innecesario reparar las tuberías."
+    },
+    "respuesta": "c",
+    "explicacion": "La idea central integra las tres medidas y su finalidad. Las otras opciones contradicen la necesidad de combinarlas.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/resumirInformacion/laParafrasis"
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Comprensión de lectura: inferencias",
+    "pregunta": "Lee: «El taller cerraba a las seis. Julia llegó a las cinco cincuenta, pero la fila de entregas avanzaba muy despacio; decidió volver al día siguiente». ¿Qué inferencia está mejor sustentada?",
+    "opciones": {
+      "a": "El taller había cerrado antes del horario anunciado.",
+      "b": "Julia consideró que el tiempo restante podía ser insuficiente para realizar la entrega.",
+      "c": "Julia olvidó el objeto que quería entregar.",
+      "d": "El personal se negó a recibir a Julia."
+    },
+    "respuesta": "b",
+    "explicacion": "La cercanía del cierre y la lentitud de la fila explican su decisión. El texto no afirma cierre anticipado, olvido ni rechazo.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/resumirInformacion/laParafrasis"
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Texto argumentativo: tesis",
+    "pregunta": "Lee: «La biblioteca debería abrir los domingos. Muchos estudiantes trabajan entre semana y necesitan un lugar de consulta en su día libre». ¿Cuál es la tesis?",
+    "opciones": {
+      "a": "Muchos estudiantes trabajan entre semana.",
+      "b": "La biblioteca debería abrir los domingos.",
+      "c": "Los estudiantes necesitan consultar materiales.",
+      "d": "El domingo es un día de la semana."
+    },
+    "respuesta": "b",
+    "explicacion": "La tesis es la propuesta defendida. El trabajo entre semana y la necesidad de consultar materiales son razones que la apoyan.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid2/unidad1/textosmodelo/textoArgumentativo"
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Texto argumentativo: pertinencia",
+    "pregunta": "¿Qué argumento apoya directamente la propuesta de instalar rampas en una escuela?",
+    "opciones": {
+      "a": "La accesibilidad de la escuela debería limitarse a colocar letreros, sin modificar los accesos.",
+      "b": "Como la mayoría usa escaleras, no es necesario adaptar la entrada para otras personas.",
+      "c": "La entrada ya permite el paso autónomo de todas las personas, por lo que una rampa no aportaría una mejora.",
+      "d": "Las rampas permiten que personas con movilidad reducida accedan a aulas y servicios."
+    },
+    "respuesta": "d",
+    "explicacion": "El acceso de personas con movilidad reducida justifica directamente la instalación de rampas. Las otras opciones restringen indebidamente la accesibilidad, desatienden a una parte de la comunidad o niegan que exista una necesidad de adaptación.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid2/unidad1/textosmodelo/textoArgumentativo"
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Cohesión: conectores",
+    "pregunta": "Completa con el conector que expresa contraste: «El informe reúne datos valiosos; ___, sus conclusiones no se derivan de ellos».",
+    "opciones": {
+      "a": "sin embargo",
+      "b": "por lo tanto",
+      "c": "además",
+      "d": "en consecuencia"
+    },
+    "respuesta": "a",
+    "explicacion": "«Sin embargo» introduce una objeción frente a la valoración positiva inicial. Los conectores consecutivos expresarían una consecuencia y «además» una adición.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad2/usodelParrafo/cohesionElementosLinguisticos"
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Cohesión: referencia pronominal",
+    "pregunta": "En «Clara compró dos revistas y las guardó en la mochila», ¿a qué se refiere «las»?",
+    "opciones": {
+      "a": "A Clara",
+      "b": "A la mochila",
+      "c": "A las dos revistas",
+      "d": "A las compras futuras"
+    },
+    "respuesta": "c",
+    "explicacion": "El pronombre de objeto directo «las» retoma el grupo femenino plural «dos revistas», evitando repetirlo.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad2/usodelParrafo/cohesionElementosLinguisticos"
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Sintaxis: concordancia y sujeto",
+    "pregunta": "En «Llegaron al museo los visitantes del turno matutino», ¿qué grupo funciona como sujeto?",
+    "opciones": {
+      "a": "Al museo",
+      "b": "Llegaron",
+      "c": "Los visitantes del turno matutino",
+      "d": "Del turno matutino"
+    },
+    "respuesta": "c",
+    "explicacion": "El grupo «los visitantes del turno matutino» concuerda en plural con «llegaron». Su posición después del verbo no cambia su función.",
+    "fuente_conceptual": "https://www.rae.es/dpd/concordancia"
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Concordancia nominal",
+    "pregunta": "Elige la oración con concordancia nominal correcta.",
+    "opciones": {
+      "a": "Las ventanas nuevas permanecían cerradas.",
+      "b": "Las ventanas nuevo permanecían cerradas.",
+      "c": "Las ventanas nuevas permanecían cerrado.",
+      "d": "La ventanas nuevas permanecían cerradas."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo y los adjetivos deben concordar en femenino plural con «ventanas»: las, nuevas y cerradas.",
+    "fuente_conceptual": "https://www.rae.es/dpd/concordancia"
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Concordancia verbal",
+    "pregunta": "Elige la forma que completa correctamente: «La directora y el secretario ___ el acta ayer».",
+    "opciones": {
+      "a": "firmó",
+      "b": "firmamos",
+      "c": "firmaron",
+      "d": "firmaste"
+    },
+    "respuesta": "c",
+    "explicacion": "Dos sujetos coordinados que designan personas distintas exigen aquí tercera persona del plural: «firmaron».",
+    "fuente_conceptual": "https://www.rae.es/dpd/concordancia"
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Verbos impersonales",
+    "pregunta": "¿Qué oración usa correctamente «haber» con sentido de existencia en la lengua formal?",
+    "opciones": {
+      "a": "Habían tres cuadernos sobre la mesa.",
+      "b": "Había tres cuadernos sobre la mesa.",
+      "c": "Hubieron tres cuadernos sobre la mesa.",
+      "d": "Habrán tres cuadernos sobre la mesa."
+    },
+    "respuesta": "b",
+    "explicacion": "El «haber» existencial es impersonal y se mantiene en tercera persona singular, aunque su complemento sea plural. En este contexto corresponde «había».",
+    "fuente_conceptual": "https://www.rae.es/dpd/haber"
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Régimen preposicional",
+    "pregunta": "¿Qué oración evita el queísmo?",
+    "opciones": {
+      "a": "Me di cuenta de que faltaba una página.",
+      "b": "Me di cuenta que faltaba una página.",
+      "c": "Estoy seguro que faltaba una página.",
+      "d": "Me acuerdo que faltaba una página."
+    },
+    "respuesta": "a",
+    "explicacion": "La locución «darse cuenta de» exige la preposición: «de eso» y «de que faltaba una página». Suprimirla produce queísmo. También la exigen «estar seguro de» y «acordarse de».",
+    "fuente_conceptual": "https://www.rae.es/dpd/que%C3%ADsmo"
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Puntuación: vocativo",
+    "pregunta": "Si se pide a Daniel que cierre una ventana, ¿qué oración puntúa correctamente el vocativo?",
+    "opciones": {
+      "a": "Daniel cierra, la ventana.",
+      "b": "Daniel cierra la, ventana.",
+      "c": "Daniel cierra la ventana,",
+      "d": "Daniel, cierra la ventana."
+    },
+    "respuesta": "d",
+    "explicacion": "El nombre de la persona a quien se dirige la orden es un vocativo y debe separarse mediante coma. Sin esa separación, la secuencia podría leerse como una afirmación sobre Daniel.",
+    "fuente_conceptual": "https://www.rae.es/dpd/coma"
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Puntuación: inciso",
+    "pregunta": "¿Qué oración delimita correctamente una explicación intercalada?",
+    "opciones": {
+      "a": "El río, que nace en la sierra atraviesa el pueblo.",
+      "b": "El río que, nace en la sierra, atraviesa el pueblo.",
+      "c": "El río que nace, en la sierra atraviesa el pueblo.",
+      "d": "El río, que nace en la sierra, atraviesa el pueblo."
+    },
+    "respuesta": "d",
+    "explicacion": "La relativa explicativa «que nace en la sierra» es un inciso intercalado y queda encerrada entre dos comas.",
+    "fuente_conceptual": "https://www.rae.es/dpd/coma"
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Acentuación: hiatos",
+    "pregunta": "¿Por qué lleva tilde «baúl»?",
+    "opciones": {
+      "a": "Porque contiene una vocal cerrada tónica junto a una abierta átona y forma hiato.",
+      "b": "Porque todas las palabras terminadas en l llevan tilde.",
+      "c": "Porque es una palabra esdrújula.",
+      "d": "Porque la secuencia au siempre forma diptongo."
+    },
+    "respuesta": "a",
+    "explicacion": "En «ba-úl», la vocal cerrada tónica ú forma hiato con la abierta a y lleva tilde, independientemente de las reglas generales de acentuación.",
+    "fuente_conceptual": "https://www.rae.es/dpd/tilde"
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Acentuación diacrítica",
+    "pregunta": "Elige la oración correctamente acentuada.",
+    "opciones": {
+      "a": "Tu sabes que tú cuaderno está aquí.",
+      "b": "Tú sabes que tu cuaderno está aquí.",
+      "c": "Tú sabes que tú cuaderno está aquí.",
+      "d": "Tu sabes que tu cuaderno está aquí."
+    },
+    "respuesta": "b",
+    "explicacion": "«Tú» es pronombre personal y lleva tilde; «tu», delante de «cuaderno», es posesivo y no la lleva.",
+    "fuente_conceptual": "https://www.rae.es/dpd/tilde"
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Ortografía: porque y por qué",
+    "pregunta": "Completa: «¿___ cambiaste de ruta? Lo hice ___ la calle estaba cerrada».",
+    "opciones": {
+      "a": "Porque / por qué",
+      "b": "Porqué / por que",
+      "c": "Por que / porqué",
+      "d": "Por qué / porque"
+    },
+    "respuesta": "d",
+    "explicacion": "«Por qué» introduce la pregunta por la causa. «Porque» es la conjunción causal que introduce la explicación.",
+    "fuente_conceptual": "https://www.rae.es/sites/default/files/Libro_de_estilo_prensa_RAE.pdf"
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Paráfrasis",
+    "pregunta": "¿Cuál es una paráfrasis fiel de «El préstamo se renovará únicamente si no existe otra solicitud del mismo libro»?",
+    "opciones": {
+      "a": "Cualquier préstamo puede renovarse aunque otra persona haya solicitado el libro.",
+      "b": "El préstamo nunca admite renovación.",
+      "c": "Para renovar, es obligatorio que otra persona solicite el mismo libro.",
+      "d": "Solo se podrá extender el préstamo cuando ninguna otra persona haya solicitado ese libro."
+    },
+    "respuesta": "d",
+    "explicacion": "La opción conserva la condición restrictiva del original con una redacción distinta. Las demás eliminan, niegan o invierten esa condición.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/resumirInformacion/laParafrasis"
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Cohesión: orden textual",
+    "pregunta": "Ordena las oraciones para formar una secuencia coherente: 1. Finalmente, se redactó un informe con los resultados. 2. Primero, se definió el problema que se estudiaría. 3. Con ese problema delimitado, se recolectaron los datos. 4. Después de la recolección, se analizaron los datos obtenidos.",
+    "opciones": {
+      "a": "1, 4, 3, 2",
+      "b": "3, 2, 1, 4",
+      "c": "2, 3, 4, 1",
+      "d": "2, 4, 1, 3"
+    },
+    "respuesta": "c",
+    "explicacion": "Los marcadores y las referencias fijan el orden: definir el problema, recolectar los datos, analizarlos y redactar el informe.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad2/usodelParrafo/cohesionElementosLinguisticos"
+  }
+]

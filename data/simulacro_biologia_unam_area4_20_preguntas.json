@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "La célula: teoría celular",
+    "pregunta": "Al observar una herida, se detecta que las células del tejido vecino se dividen para repararla. ¿Qué postulado de la teoría celular ilustra directamente este hecho?",
+    "opciones": {
+      "a": "Los seres vivos se forman espontáneamente",
+      "b": "Todas las células tienen el mismo tamaño",
+      "c": "Todas las células poseen cloroplastos",
+      "d": "Toda célula proviene de otra célula"
+    },
+    "respuesta": "d",
+    "explicacion": "Las nuevas células se originan por división de células preexistentes. La teoría celular no afirma que todas tengan los mismos organelos o tamaño.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/4-chapter-summary"
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "La célula: procariotas y eucariotas",
+    "pregunta": "Una célula tiene membrana plasmática, ribosomas y ADN en una región no rodeada por membrana nuclear. ¿Cómo se clasifica?",
+    "opciones": {
+      "a": "Virus",
+      "b": "Procariota",
+      "c": "Eucariota animal",
+      "d": "Eucariota vegetal"
+    },
+    "respuesta": "b",
+    "explicacion": "Una célula procariota carece de núcleo delimitado por membrana. Tanto bacterias como arqueas presentan esta organización; un virus no tiene organización celular.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/4-chapter-summary"
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "La célula: ósmosis",
+    "pregunta": "Un glóbulo rojo se coloca en una solución con mayor concentración de solutos no permeables que su citoplasma. ¿Qué ocurrirá inicialmente por ósmosis?",
+    "opciones": {
+      "a": "Ganará agua y aumentará su volumen",
+      "b": "Mantendrá su volumen porque el agua no atraviesa la membrana",
+      "c": "Bombeará agua al exterior mediante transporte activo",
+      "d": "Perderá agua y disminuirá su volumen"
+    },
+    "respuesta": "d",
+    "explicacion": "El medio externo es hipertónico. El agua cruza la membrana hacia el medio con mayor concentración efectiva de solutos, por lo que la célula se encoge.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport"
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Biomoléculas",
+    "pregunta": "Una sustancia se descompone por hidrólisis en muchos aminoácidos. ¿A qué grupo pertenece?",
+    "opciones": {
+      "a": "Polisacáridos",
+      "b": "Triglicéridos",
+      "c": "Ácidos nucleicos",
+      "d": "Proteínas"
+    },
+    "respuesta": "d",
+    "explicacion": "Las proteínas son polímeros de aminoácidos unidos por enlaces peptídicos. Los ácidos nucleicos contienen nucleótidos y los polisacáridos, monosacáridos.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/3-chapter-summary"
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Metabolismo: enzimas",
+    "pregunta": "Una enzima acelera una reacción celular. ¿Cuál es su efecto directo sobre la barrera energética de esa reacción?",
+    "opciones": {
+      "a": "Aumenta la energía de activación",
+      "b": "Elimina la necesidad de reactivos",
+      "c": "Disminuye la energía de activación",
+      "d": "Se consume obligatoriamente como combustible"
+    },
+    "respuesta": "c",
+    "explicacion": "Las enzimas proporcionan una vía con menor energía de activación. No sustituyen a los reactivos ni se consumen de forma neta en cada ciclo catalítico.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/6-chapter-summary"
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Metabolismo: fotosíntesis",
+    "pregunta": "Una planta incorpora carbono a sus azúcares mediante la fotosíntesis. ¿De qué sustancia obtiene directamente ese carbono?",
+    "opciones": {
+      "a": "Oxígeno molecular",
+      "b": "Nitrógeno molecular",
+      "c": "Agua",
+      "d": "Dióxido de carbono"
+    },
+    "respuesta": "d",
+    "explicacion": "El carbono del CO₂ se fija durante el ciclo de Calvin y se utiliza para formar moléculas orgánicas. El agua aporta electrones y el oxígeno liberado procede del agua.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/8-chapter-summary"
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Metabolismo: respiración celular",
+    "pregunta": "En la respiración aerobia, ¿qué papel cumple el oxígeno al final de la cadena de transporte de electrones?",
+    "opciones": {
+      "a": "Acepta electrones y contribuye a formar agua",
+      "b": "Duplica el ADN mitocondrial",
+      "c": "Se convierte en dióxido de carbono",
+      "d": "Se transforma directamente en glucosa"
+    },
+    "respuesta": "a",
+    "explicacion": "El oxígeno actúa como aceptor final de electrones; al combinarse con electrones y protones forma agua. Esto permite mantener el flujo electrónico de la cadena.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/7-chapter-summary"
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Ciclo celular: replicación",
+    "pregunta": "Una célula eucariota se prepara para dividirse por mitosis. ¿En qué fase duplica su ADN?",
+    "opciones": {
+      "a": "Fase G₁ de la interfase",
+      "b": "Fase S de la interfase",
+      "c": "Citocinesis",
+      "d": "Telofase"
+    },
+    "respuesta": "b",
+    "explicacion": "La síntesis o replicación del ADN ocurre en la fase S, antes de la mitosis. En la mitosis se distribuyen las copias ya producidas.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/10-chapter-summary"
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Reproducción: meiosis",
+    "pregunta": "En una especie animal, las células somáticas tienen 18 cromosomas. ¿Cuántos tiene normalmente un gameto producido por meiosis?",
+    "opciones": {
+      "a": "18",
+      "b": "27",
+      "c": "9",
+      "d": "36"
+    },
+    "respuesta": "c",
+    "explicacion": "Las células somáticas son diploides: 2n = 18. La meiosis reduce a la mitad el número de juegos cromosómicos, por lo que un gameto haploide tiene n = 9.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/11-chapter-summary"
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Herencia mendeliana",
+    "pregunta": "En una planta, A determina flores moradas y domina completamente sobre a, que determina flores blancas. Al cruzar Aa × Aa, ¿qué probabilidad tiene cada descendiente de presentar flores blancas?",
+    "opciones": {
+      "a": "0 %",
+      "b": "25 %",
+      "c": "75 %",
+      "d": "50 %"
+    },
+    "respuesta": "b",
+    "explicacion": "Los genotipos posibles son AA, Aa, Aa y aa. Solo aa produce flores blancas, de modo que la probabilidad es 1/4 = 25 %.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/12-chapter-summary"
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Herencia: cruzamiento de prueba",
+    "pregunta": "En un rasgo con dominancia completa, se cruza un individuo Aa con otro aa. ¿Qué proporción de descendientes heterocigotos se espera?",
+    "opciones": {
+      "a": "75 %",
+      "b": "50 %",
+      "c": "25 %",
+      "d": "100 %"
+    },
+    "respuesta": "b",
+    "explicacion": "El individuo Aa produce gametos A y a en igual proporción; el individuo aa solo produce gametos a. Se espera la mitad Aa y la mitad aa.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/12-chapter-summary"
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "ADN: complementariedad",
+    "pregunta": "En una muestra de ADN de doble cadena, el 30 % de las bases son adenina. ¿Qué porcentaje corresponde a citosina?",
+    "opciones": {
+      "a": "40 %",
+      "b": "20 %",
+      "c": "70 %",
+      "d": "30 %"
+    },
+    "respuesta": "b",
+    "explicacion": "En ADN de doble cadena, A = T y C = G. Si A y T suman 60 %, queda 40 % para C y G, por lo que C representa 20 %.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/14-chapter-summary"
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Expresión genética",
+    "pregunta": "Una célula utiliza un ARN mensajero como guía para unir aminoácidos en un ribosoma. ¿Qué proceso realiza?",
+    "opciones": {
+      "a": "Meiosis",
+      "b": "Transcripción",
+      "c": "Traducción",
+      "d": "Replicación"
+    },
+    "respuesta": "c",
+    "explicacion": "La traducción usa los codones del ARN mensajero para construir un polipéptido. La transcripción, en cambio, produce ARN a partir de una plantilla de ADN.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/15-chapter-summary"
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Origen de la vida: evolución química",
+    "pregunta": "En el experimento de Miller y Urey se obtuvieron compuestos orgánicos a partir de sustancias simples y una fuente de energía. ¿Qué conclusión es compatible con ese resultado?",
+    "opciones": {
+      "a": "Algunas moléculas orgánicas pueden formarse por procesos abióticos",
+      "b": "Se identificó con certeza la composición exacta de la atmósfera primitiva",
+      "c": "Se demostró que toda vida actual surge espontáneamente",
+      "d": "Se crearon células completas en el laboratorio"
+    },
+    "respuesta": "a",
+    "explicacion": "El experimento mostró síntesis abiótica de compuestos orgánicos bajo las condiciones ensayadas. No produjo seres vivos ni demostró que esas condiciones fueran idénticas a las de la Tierra primitiva.",
+    "fuente_conceptual": "https://openstax.org/books/microbiology/pages/7-introduction"
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Evolución: selección natural",
+    "pregunta": "Antes de aplicar un insecticida, una población presenta unos pocos insectos con resistencia heredable. Tras varias generaciones de exposición, estos son más frecuentes. ¿Cuál es la mejor explicación?",
+    "opciones": {
+      "a": "Los resistentes dejaron proporcionalmente más descendientes",
+      "b": "Los individuos adquirieron resistencia por uso y la heredaron",
+      "c": "El insecticida provocó en todos la mutación específica necesaria",
+      "d": "La resistencia aumentó sin diferencias en supervivencia ni reproducción"
+    },
+    "respuesta": "a",
+    "explicacion": "La variación heredable ya existía. El insecticida favoreció la supervivencia y reproducción de los resistentes, aumentando su frecuencia por selección natural.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/18-chapter-summary"
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Evolución: evidencias",
+    "pregunta": "El brazo humano y la aleta anterior de una ballena presentan un patrón óseo semejante, aunque cumplen funciones distintas. ¿Cómo se interpretan estas estructuras?",
+    "opciones": {
+      "a": "Como homólogas, relacionadas con un ancestro común",
+      "b": "Como análogas, surgidas por convergencia sin origen estructural común",
+      "c": "Como vestigiales, porque ambas han perdido su función",
+      "d": "Como evidencia de que humanos y ballenas pertenecen a una sola especie"
+    },
+    "respuesta": "a",
+    "explicacion": "Las estructuras homólogas conservan un origen evolutivo compartido aunque sus funciones puedan divergir. La semejanza del patrón óseo apoya esa relación.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/20-chapter-summary"
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Biodiversidad: clasificación",
+    "pregunta": "Dos organismos se clasifican en la misma especie. En la jerarquía taxonómica tradicional, ¿qué categoría también deben compartir?",
+    "opciones": {
+      "a": "Hábitat",
+      "b": "Población local",
+      "c": "Género",
+      "d": "Nicho ecológico"
+    },
+    "respuesta": "c",
+    "explicacion": "Una especie pertenece a un género, por lo que los organismos de esa especie comparten género. Pueden habitar lugares distintos y no pertenecer a una misma población local.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/20-1-organizing-life-on-earth"
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Ecología: flujo de energía",
+    "pregunta": "En una cadena alimentaria, los productores almacenan 20 000 kJ. Si en este modelo se transfiere el 10 % de energía entre niveles, ¿cuánto reciben los consumidores secundarios?",
+    "opciones": {
+      "a": "200 kJ",
+      "b": "20 000 kJ",
+      "c": "20 kJ",
+      "d": "2000 kJ"
+    },
+    "respuesta": "a",
+    "explicacion": "Los consumidores primarios reciben 2000 kJ y los secundarios el 10 % de esa cantidad: 200 kJ. El 10 % es el supuesto del modelo, no una eficiencia universal.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/46-chapter-summary"
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Ecología: ciclos biogeoquímicos",
+    "pregunta": "¿Qué función cumplen los hongos y las bacterias descomponedoras en un ecosistema?",
+    "opciones": {
+      "a": "Devuelven toda la energía térmica a los productores",
+      "b": "Producen siempre alimento mediante fotosíntesis",
+      "c": "Impiden cualquier circulación de materia",
+      "d": "Transforman restos orgánicos y liberan nutrientes reutilizables"
+    },
+    "respuesta": "d",
+    "explicacion": "Los descomponedores degradan materia orgánica y devuelven nutrientes a reservorios del ambiente. La materia se recicla, mientras que parte de la energía se disipa como calor.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/46-chapter-summary"
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Biodiversidad: conservación",
+    "pregunta": "Una carretera divide un bosque y aísla poblaciones de una especie. ¿Qué medida favorece de manera más directa la conectividad y el intercambio genético entre ellas?",
+    "opciones": {
+      "a": "Crear un banco de semillas sin modificar las barreras entre fragmentos",
+      "b": "Monitorear la población sin intervenir en la conectividad",
+      "c": "Establecer corredores biológicos adecuados para la especie",
+      "d": "Aumentar alimento en cada fragmento manteniendo las barreras al desplazamiento"
+    },
+    "respuesta": "c",
+    "explicacion": "Los corredores adecuados facilitan el movimiento entre fragmentos y pueden favorecer el flujo génico. Las barreras y la pérdida adicional de hábitat intensifican el aislamiento.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity"
+  }
+]

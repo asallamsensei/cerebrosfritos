@@ -727,6 +727,101 @@ let intervaloReloj = null;
 
 const ACCESOS = {
 
+  "español": {
+    "estudiante": "Patita",
+    "titulo": "📖 Español · UNAM área 4",
+    "subtitulo": "20 preguntas originales · Humanidades y Artes · Práctica no oficial",
+    "archivo": "data/simulacro_espanol_unam_area4_20_preguntas.json",
+    "ordenAleatorio": true,
+    "modoExamen": true,
+    "minutos": 30
+},
+
+  "español_estudiar": {
+    "estudiante": "Patita",
+    "titulo": "📖 Español · Modo estudio",
+    "subtitulo": "20 preguntas por tema · Explicaciones al comprobar · Sin límite de tiempo",
+    "archivo": "data/simulacro_espanol_unam_area4_20_preguntas.json",
+    "ordenAleatorio": false,
+    "modoExamen": false
+},
+
+  "literatura": {
+    "estudiante": "Patita",
+    "titulo": "📚 Literatura · UNAM área 4",
+    "subtitulo": "20 preguntas originales · Humanidades y Artes · Práctica no oficial",
+    "archivo": "data/simulacro_literatura_unam_area4_20_preguntas.json",
+    "ordenAleatorio": true,
+    "modoExamen": true,
+    "minutos": 30
+},
+
+  "literatura_estudiar": {
+    "estudiante": "Patita",
+    "titulo": "📚 Literatura · Modo estudio",
+    "subtitulo": "20 preguntas por tema · Explicaciones al comprobar · Sin límite de tiempo",
+    "archivo": "data/simulacro_literatura_unam_area4_20_preguntas.json",
+    "ordenAleatorio": false,
+    "modoExamen": false
+},
+
+  "física": {
+    "estudiante": "Patita",
+    "titulo": "⚙️ Física · UNAM área 4",
+    "subtitulo": "20 preguntas originales · Humanidades y Artes · Práctica no oficial",
+    "archivo": "data/simulacro_fisica_unam_area4_20_preguntas.json",
+    "ordenAleatorio": true,
+    "modoExamen": true,
+    "minutos": 30
+},
+
+  "física_estudiar": {
+    "estudiante": "Patita",
+    "titulo": "⚙️ Física · Modo estudio",
+    "subtitulo": "20 preguntas por tema · Explicaciones al comprobar · Sin límite de tiempo",
+    "archivo": "data/simulacro_fisica_unam_area4_20_preguntas.json",
+    "ordenAleatorio": false,
+    "modoExamen": false
+},
+
+  "biología": {
+    "estudiante": "Patita",
+    "titulo": "🧬 Biología · UNAM área 4",
+    "subtitulo": "20 preguntas originales · Humanidades y Artes · Práctica no oficial",
+    "archivo": "data/simulacro_biologia_unam_area4_20_preguntas.json",
+    "ordenAleatorio": true,
+    "modoExamen": true,
+    "minutos": 30
+},
+
+  "biología_estudiar": {
+    "estudiante": "Patita",
+    "titulo": "🧬 Biología · Modo estudio",
+    "subtitulo": "20 preguntas por tema · Explicaciones al comprobar · Sin límite de tiempo",
+    "archivo": "data/simulacro_biologia_unam_area4_20_preguntas.json",
+    "ordenAleatorio": false,
+    "modoExamen": false
+},
+
+  "geografía": {
+    "estudiante": "Patita",
+    "titulo": "🌎 Geografía · UNAM área 4",
+    "subtitulo": "20 preguntas originales · Humanidades y Artes · Práctica no oficial",
+    "archivo": "data/simulacro_geografia_unam_area4_20_preguntas.json",
+    "ordenAleatorio": true,
+    "modoExamen": true,
+    "minutos": 30
+},
+
+  "geografía_estudiar": {
+    "estudiante": "Patita",
+    "titulo": "🌎 Geografía · Modo estudio",
+    "subtitulo": "20 preguntas por tema · Explicaciones al comprobar · Sin límite de tiempo",
+    "archivo": "data/simulacro_geografia_unam_area4_20_preguntas.json",
+    "ordenAleatorio": false,
+    "modoExamen": false
+},
+
   "filosofía": {
     estudiante: "Patita",
     titulo: "🦉 Filosofía · UNAM área 4",
@@ -845,7 +940,8 @@ function validarClave(){
     .normalize("NFC")
     .toLowerCase();
 
-  const acceso = ACCESOS[clave === "filosofia_estudiar" ? "filosofía_estudiar" : clave];
+  const aliasClaves = {"filosofia_estudiar": "filosofía_estudiar", "espanol": "español", "espanol_estudiar": "español_estudiar", "fisica": "física", "fisica_estudiar": "física_estudiar", "biologia": "biología", "biologia_estudiar": "biología_estudiar", "geografia": "geografía", "geografia_estudiar": "geografía_estudiar"};
+  const acceso = ACCESOS[aliasClaves[clave] || clave];
 
   if(!acceso){
     document.getElementById("errorClave").innerText =
@@ -970,7 +1066,7 @@ function configurarModo(){
 
   aviso.classList.toggle(
     "hidden",
-    !/historia_unam|matematicas_unam|filosofia_unam/.test(accesoActual?.archivo || "")
+    !/historia_unam|matematicas_unam|filosofia_unam|espanol_unam|literatura_unam|fisica_unam|biologia_unam|geografia_unam/.test(accesoActual?.archivo || "")
   );
   aviso.innerText = modoExamen
     ? `Examen de práctica: ${accesoActual.minutos || 75} minutos sugeridos para este bloque. El tiempo comienza al cargar las preguntas. Puedes omitir, volver y cambiar respuestas; las explicaciones se muestran al entregar. Las omitidas no suman aciertos. Este tiempo y las ${preguntas.length} preguntas no son la distribución oficial por área de la UNAM.`
@@ -1427,4 +1523,5 @@ document.addEventListener("keydown", function(e){
 
 </body>
 </html>
+
 

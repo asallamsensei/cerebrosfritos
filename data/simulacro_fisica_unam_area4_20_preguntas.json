@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Cinemática: rapidez media",
+    "pregunta": "Una ciclista recorre 1.8 km en 6 minutos. ¿Cuál es su rapidez media en unidades del SI?",
+    "opciones": {
+      "a": "18 m/s",
+      "b": "300 m/s",
+      "c": "0.3 m/s",
+      "d": "5 m/s"
+    },
+    "respuesta": "d",
+    "explicacion": "La distancia es 1800 m y el tiempo 360 s. La rapidez media es 1800/360 = 5 m/s.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/2-section-summary"
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Cinemática: aceleración",
+    "pregunta": "Un carrito pasa de 2 m/s a 14 m/s en 4 s con aceleración constante en línea recta. ¿Cuánto vale su aceleración?",
+    "opciones": {
+      "a": "48 m/s²",
+      "b": "4 m/s²",
+      "c": "12 m/s²",
+      "d": "3 m/s²"
+    },
+    "respuesta": "d",
+    "explicacion": "La aceleración es el cambio de velocidad dividido entre el tiempo: (14 − 2)/4 = 3 m/s².",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/2-section-summary"
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Cinemática: caída libre",
+    "pregunta": "Se deja caer una pelota desde el reposo. Sin resistencia del aire y usando g = 10 m/s², ¿qué distancia desciende en los primeros 2 s?",
+    "opciones": {
+      "a": "5 m",
+      "b": "20 m",
+      "c": "40 m",
+      "d": "10 m"
+    },
+    "respuesta": "b",
+    "explicacion": "Desde el reposo, la distancia es gt²/2 = (10)(2²)/2 = 20 m. No debe confundirse con la rapidez final de 20 m/s.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/2-section-summary"
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Dinámica: segunda ley de Newton",
+    "pregunta": "Sobre una caja de 4 kg actúan dos fuerzas horizontales opuestas: 18 N hacia la derecha y 6 N hacia la izquierda. ¿Cuál es su aceleración horizontal?",
+    "opciones": {
+      "a": "3 m/s² hacia la derecha",
+      "b": "3 m/s² hacia la izquierda",
+      "c": "0 m/s²",
+      "d": "6 m/s² hacia la derecha"
+    },
+    "respuesta": "a",
+    "explicacion": "La fuerza neta es 18 − 6 = 12 N hacia la derecha; a = F/m = 12/4 = 3 m/s² en esa dirección.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/4-section-summary"
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Dinámica: tercera ley de Newton",
+    "pregunta": "Una nadadora empuja el agua hacia atrás con sus manos. ¿Qué fuerza forma el par de acción y reacción con ese empuje?",
+    "opciones": {
+      "a": "El peso de la nadadora hacia abajo",
+      "b": "La resistencia del aire sobre su cabeza",
+      "c": "La fuerza de una mano sobre la otra",
+      "d": "La fuerza del agua sobre las manos hacia adelante"
+    },
+    "respuesta": "d",
+    "explicacion": "Los pares de la tercera ley actúan sobre cuerpos diferentes: las manos ejercen una fuerza sobre el agua y el agua ejerce otra igual y opuesta sobre las manos.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/4-section-summary"
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Gravitación universal",
+    "pregunta": "Dos cuerpos de masas constantes se atraen con una fuerza F. Si la distancia entre sus centros se triplica, ¿cuál es la nueva fuerza gravitacional?",
+    "opciones": {
+      "a": "3F",
+      "b": "9F",
+      "c": "F/9",
+      "d": "F/3"
+    },
+    "respuesta": "c",
+    "explicacion": "La fuerza gravitacional es inversamente proporcional al cuadrado de la distancia. Al multiplicar la distancia por 3, la fuerza se divide entre 3² = 9.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/6-section-summary"
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Trabajo mecánico",
+    "pregunta": "Una fuerza constante de 25 N tira de un objeto en la misma dirección que su desplazamiento de 3 m. ¿Qué trabajo realiza esa fuerza?",
+    "opciones": {
+      "a": "75 J",
+      "b": "28 J",
+      "c": "0 J",
+      "d": "8.33 J"
+    },
+    "respuesta": "a",
+    "explicacion": "El trabajo es W = Fd cos θ. Como la fuerza y el desplazamiento tienen la misma dirección, θ = 0° y W = 25 × 3 = 75 J.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/7-section-summary"
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Conservación de la energía mecánica",
+    "pregunta": "Un objeto de 2 kg se suelta desde el reposo a 5 m sobre el suelo. Si no hay rozamiento y g = 10 m/s², ¿cuál es su energía cinética justo antes de tocar el suelo?",
+    "opciones": {
+      "a": "10 J",
+      "b": "50 J",
+      "c": "100 J",
+      "d": "20 J"
+    },
+    "respuesta": "c",
+    "explicacion": "La energía potencial inicial mgh = 2 × 10 × 5 = 100 J se transforma en energía cinética. Se toma el suelo como nivel de energía potencial cero.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/7-section-summary"
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Calor y temperatura",
+    "pregunta": "Un bloque de 0.5 kg tiene calor específico de 400 J/(kg·°C). ¿Cuánto calor requiere para aumentar su temperatura en 10 °C, sin cambio de fase?",
+    "opciones": {
+      "a": "2000 J",
+      "b": "200 J",
+      "c": "20 J",
+      "d": "8000 J"
+    },
+    "respuesta": "a",
+    "explicacion": "Q = mcΔT = 0.5 × 400 × 10 = 2000 J. La fórmula corresponde a un cambio de temperatura sin transición de fase.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/14-section-summary"
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Primera ley de la termodinámica",
+    "pregunta": "Un gas recibe 500 J de calor y realiza 180 J de trabajo sobre el entorno. ¿Cuál es el cambio de su energía interna?",
+    "opciones": {
+      "a": "Aumenta 680 J",
+      "b": "Disminuye 680 J",
+      "c": "Aumenta 320 J",
+      "d": "Disminuye 320 J"
+    },
+    "respuesta": "c",
+    "explicacion": "Con W positivo para el trabajo realizado por el gas, ΔU = Q − W = 500 − 180 = 320 J. La energía interna aumenta.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/15-section-summary"
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Ondas: rapidez de propagación",
+    "pregunta": "Una onda tiene frecuencia de 12 Hz y longitud de onda de 0.5 m. ¿Con qué rapidez se propaga?",
+    "opciones": {
+      "a": "12.5 m/s",
+      "b": "24 m/s",
+      "c": "0.042 m/s",
+      "d": "6 m/s"
+    },
+    "respuesta": "d",
+    "explicacion": "La rapidez de una onda periódica es v = fλ = 12 × 0.5 = 6 m/s.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/16-section-summary"
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Ondas: frecuencia y periodo",
+    "pregunta": "Una cuerda completa 50 oscilaciones en 10 s. ¿Cuál es su periodo?",
+    "opciones": {
+      "a": "0.5 s",
+      "b": "500 s",
+      "c": "0.2 s",
+      "d": "5 s"
+    },
+    "respuesta": "c",
+    "explicacion": "La frecuencia es 50/10 = 5 Hz. El periodo es el tiempo de una oscilación: T = 1/f = 0.2 s.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/16-section-summary"
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Electrostática: ley de Coulomb",
+    "pregunta": "Dos cargas puntuales positivas se repelen en el vacío. Si una de las cargas se duplica y la distancia entre ellas no cambia, ¿qué ocurre con la magnitud de la fuerza?",
+    "opciones": {
+      "a": "Se duplica",
+      "b": "Permanece igual",
+      "c": "Se cuadruplica",
+      "d": "Se reduce a la mitad"
+    },
+    "respuesta": "a",
+    "explicacion": "En F = k|q₁q₂|/r², la fuerza es proporcional a cada carga. Duplicar solo una duplica la fuerza; continúa siendo repulsiva.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/18-section-summary"
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Electricidad: ley de Ohm",
+    "pregunta": "Un resistor óhmico de 8 Ω se conecta a una diferencia de potencial de 24 V. ¿Qué corriente circula por él?",
+    "opciones": {
+      "a": "0.33 A",
+      "b": "3 A",
+      "c": "16 A",
+      "d": "192 A"
+    },
+    "respuesta": "b",
+    "explicacion": "La ley de Ohm da I = V/R = 24/8 = 3 A.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/20-section-summary"
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Electricidad: potencia",
+    "pregunta": "Un aparato opera con 120 V y consume una corriente de 2 A. ¿Cuál es su potencia eléctrica?",
+    "opciones": {
+      "a": "122 W",
+      "b": "0.017 W",
+      "c": "240 W",
+      "d": "60 W"
+    },
+    "respuesta": "c",
+    "explicacion": "La potencia eléctrica es P = VI = 120 × 2 = 240 W. El watt expresa energía consumida por unidad de tiempo.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/20-section-summary"
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Magnetismo",
+    "pregunta": "Se corta por la mitad un imán de barra y se obtienen dos fragmentos que siguen magnetizados. ¿Qué polos presenta cada fragmento?",
+    "opciones": {
+      "a": "Solo un polo norte en ambos fragmentos",
+      "b": "Un polo norte y un polo sur",
+      "c": "Un fragmento tiene solo norte y el otro solo sur",
+      "d": "Solo un polo sur en ambos fragmentos"
+    },
+    "respuesta": "b",
+    "explicacion": "Al dividir un imán de barra no se aíslan sus polos: cada fragmento magnetizado constituye un nuevo imán con polo norte y polo sur.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/22-section-summary"
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Fluidos: presión hidrostática",
+    "pregunta": "¿Cuál es la presión manométrica debida al agua a 3 m de profundidad? Usa densidad = 1000 kg/m³ y g = 10 m/s².",
+    "opciones": {
+      "a": "30 000 Pa",
+      "b": "3000 Pa",
+      "c": "130 000 Pa",
+      "d": "300 Pa"
+    },
+    "respuesta": "a",
+    "explicacion": "La presión manométrica del líquido es ρgh = 1000 × 10 × 3 = 30 000 Pa. No incluye la presión atmosférica.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/11-section-summary"
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Fluidos: principio de Arquímedes",
+    "pregunta": "Un bloque flota en reposo en agua y pesa 12 N. ¿Cuál es la magnitud del empuje que recibe?",
+    "opciones": {
+      "a": "24 N",
+      "b": "6 N",
+      "c": "0 N",
+      "d": "12 N"
+    },
+    "respuesta": "d",
+    "explicacion": "Al flotar en equilibrio, la fuerza neta vertical es cero. El empuje hacia arriba iguala al peso hacia abajo: 12 N.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/11-section-summary"
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Óptica: reflexión",
+    "pregunta": "Un rayo luminoso incide sobre un espejo plano formando 35° con la normal. ¿Qué ángulo forma el rayo reflejado con la normal?",
+    "opciones": {
+      "a": "55°",
+      "b": "35°",
+      "c": "90°",
+      "d": "70°"
+    },
+    "respuesta": "b",
+    "explicacion": "La ley de la reflexión establece que el ángulo de reflexión iguala al de incidencia, y ambos se miden respecto a la normal, no a la superficie.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/25-section-summary"
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Física contemporánea: radiactividad",
+    "pregunta": "Una muestra contiene inicialmente 80 millones de núcleos de un isótopo con vida media de 4 horas. ¿Cuántos núcleos de ese isótopo quedan, aproximadamente, después de 12 horas?",
+    "opciones": {
+      "a": "20 millones",
+      "b": "10 millones",
+      "c": "40 millones",
+      "d": "60 millones"
+    },
+    "respuesta": "b",
+    "explicacion": "Doce horas equivalen a tres vidas medias. La cantidad esperada se reduce a la mitad tres veces: 80 → 40 → 20 → 10 millones.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/31-section-summary"
+  }
+]

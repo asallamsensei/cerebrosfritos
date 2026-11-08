@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Géneros literarios",
+    "pregunta": "¿Qué rasgo permite clasificar principalmente como lírico un texto?",
+    "opciones": {
+      "a": "La obligación de presentar personajes hablando sobre un escenario.",
+      "b": "La expresión de emociones y percepciones mediante una voz poética.",
+      "c": "La exposición de un procedimiento experimental verificable.",
+      "d": "La narración exhaustiva de una guerra sin voz subjetiva."
+    },
+    "respuesta": "b",
+    "explicacion": "La lírica privilegia una voz que expresa sentimientos o percepciones. Esa voz no debe identificarse automáticamente con la persona del autor.",
+    "fuente_conceptual": "https://rua2024.unam.mx/portal/recursos/ficha/20172/generos-literarios-dramatico-lirico-narrativo"
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Género dramático",
+    "pregunta": "Lee el fragmento original: «MARA: No abriré la puerta. IVÁN: Entonces tendremos que esperar. (Se apaga la lámpara.)». ¿Qué rasgo lo vincula con el género dramático?",
+    "opciones": {
+      "a": "La presencia obligatoria de un narrador omnisciente.",
+      "b": "La explicación de un concepto científico.",
+      "c": "La presentación de una acción mediante diálogos y una acotación escénica.",
+      "d": "El uso de rima consonante en todos sus versos."
+    },
+    "respuesta": "c",
+    "explicacion": "Las intervenciones de personajes y la indicación escénica construyen una acción representable, característica del texto dramático.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid3/unidad4/interpretacionteatro/representacion"
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Acotaciones",
+    "pregunta": "En un guion aparece: «(Habla en voz baja y retrocede hacia la puerta.)». ¿Cuál es la función principal de ese segmento?",
+    "opciones": {
+      "a": "Añadir una intervención que el personaje debe decir literalmente.",
+      "b": "Identificar la editorial de la obra.",
+      "c": "Resumir la opinión de un lector ajeno a la obra.",
+      "d": "Orientar la interpretación y el movimiento del personaje."
+    },
+    "respuesta": "d",
+    "explicacion": "La acotación aporta instrucciones para la representación. No forma parte de las palabras pronunciadas por el personaje.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid3/unidad4/interpretacionteatro/representacion"
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Narrador protagonista",
+    "pregunta": "Lee el fragmento original: «Yo escondí la carta y, desde ese día, temí que mi hermana la encontrara». ¿Qué tipo de narrador se presenta?",
+    "opciones": {
+      "a": "Omnisciente ajeno a los hechos",
+      "b": "Protagonista en primera persona",
+      "c": "Observador externo en tercera persona",
+      "d": "Narrador en segunda persona"
+    },
+    "respuesta": "b",
+    "explicacion": "La voz cuenta su propia acción y su temor mediante la primera persona: participa como figura central del episodio.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid2/unidad1/perspectiva/introduccion"
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Narrador omnisciente",
+    "pregunta": "Lee el fragmento original: «Rosa ignoraba la noticia y soñaba con el viaje. En otra ciudad, Tomás sabía que la estación había cerrado y temía decepcionarla». ¿Qué característica del narrador se manifiesta?",
+    "opciones": {
+      "a": "Solo puede relatar lo que capta una cámara.",
+      "b": "Participa explícitamente como personaje que habla en primera persona.",
+      "c": "Conoce estados mentales de personajes situados en lugares distintos.",
+      "d": "Se dirige a un protagonista mediante el pronombre tú."
+    },
+    "respuesta": "c",
+    "explicacion": "La voz accede al desconocimiento, las expectativas y el temor de varios personajes, información que excede la observación externa.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid2/unidad1/perspectiva/introduccion"
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Autor y narrador",
+    "pregunta": "Una novela está escrita por una autora adulta, pero la historia la cuenta un niño ficticio. ¿Qué afirmación es correcta?",
+    "opciones": {
+      "a": "La autora es la persona real que crea el texto; el narrador es la voz construida para contar la historia.",
+      "b": "La autora debe tener exactamente la edad del niño.",
+      "c": "El narrador es siempre una persona real distinta de la autora.",
+      "d": "La primera persona convierte toda novela en autobiografía factual."
+    },
+    "respuesta": "a",
+    "explicacion": "Autor y narrador pertenecen a planos distintos: producción real y enunciación del relato. Una voz infantil puede ser una construcción literaria.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid2/unidad1/perspectiva/introduccion"
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Lenguaje figurado: metáfora",
+    "pregunta": "En el verso original «Tu memoria es un faro en mi camino», ¿qué interpretación corresponde a la metáfora?",
+    "opciones": {
+      "a": "La memoria es literalmente una torre con una lámpara.",
+      "b": "La persona trabaja necesariamente en un puerto.",
+      "c": "El camino descrito es forzosamente una carretera costera.",
+      "d": "El recuerdo de la persona orienta a quien habla."
+    },
+    "respuesta": "d",
+    "explicacion": "La identificación de la memoria con un faro transfiere la idea de guía u orientación. No debe interpretarse como una equivalencia material.",
+    "fuente_conceptual": "https://dle.rae.es/met%C3%A1fora"
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Figuras retóricas: anáfora",
+    "pregunta": "¿Qué figura destaca en estos versos originales: «Vuelve la lluvia al patio, / vuelve la sombra al muro, / vuelve tu nombre al sueño»?",
+    "opciones": {
+      "a": "Anáfora",
+      "b": "Hipérbaton",
+      "c": "Onomatopeya",
+      "d": "Antítesis"
+    },
+    "respuesta": "a",
+    "explicacion": "La repetición de «vuelve» al comienzo de varios versos constituye una anáfora retórica y refuerza la idea del regreso.",
+    "fuente_conceptual": "https://dle.rae.es/an%C3%A1fora"
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Métrica: sinalefa",
+    "pregunta": "En una lectura métrica, ¿qué sucede si se aplica sinalefa a la secuencia «la estrella»?",
+    "opciones": {
+      "a": "Se añade obligatoriamente una sílaba al final del verso.",
+      "b": "Se elimina la sílaba tónica de «estrella».",
+      "c": "La a final de «la» y la e inicial de «estrella» se cuentan en una sola sílaba métrica.",
+      "d": "Se transforma «estrella» en una palabra aguda."
+    },
+    "respuesta": "c",
+    "explicacion": "La sinalefa reúne en una sílaba métrica vocales contiguas situadas al final y al inicio de palabras distintas. No cambia la acentuación léxica.",
+    "fuente_conceptual": "https://dle.rae.es/sinalefa"
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Formas poéticas: soneto",
+    "pregunta": "¿Qué descripción corresponde al soneto clásico de tradición italiana en español?",
+    "opciones": {
+      "a": "Ocho versos octosílabos organizados en dos cuartetas.",
+      "b": "Catorce versos endecasílabos organizados en dos cuartetos y dos tercetos.",
+      "c": "Un número indeterminado de versos sin organización estrófica.",
+      "d": "Diez versos octosílabos con estructura de décima."
+    },
+    "respuesta": "b",
+    "explicacion": "La forma clásica consta de catorce endecasílabos: dos cuartetos y dos tercetos. Existen variantes históricas, pero la pregunta especifica el modelo clásico.",
+    "fuente_conceptual": "https://dle.rae.es/soneto"
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Romanticismo",
+    "pregunta": "Un personaje desafía las normas sociales, exalta su libertad y proyecta su desesperación en un paisaje tormentoso. ¿Con qué corriente se relaciona principalmente esa combinación de rasgos?",
+    "opciones": {
+      "a": "Romanticismo",
+      "b": "Realismo social de observación documental",
+      "c": "Neoclasicismo de intención normativa",
+      "d": "Costumbrismo descriptivo sin conflicto subjetivo"
+    },
+    "respuesta": "a",
+    "explicacion": "La libertad individual, la intensidad emocional y la naturaleza asociada al estado de ánimo son rasgos característicos del Romanticismo.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal1/unidad4/culturaSigloXIX/romanticismo"
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Realismo",
+    "pregunta": "Una novela representa con detalle los oficios, las viviendas y las tensiones económicas de una ciudad del siglo XIX, buscando verosimilitud social. ¿Qué corriente describe mejor ese proyecto?",
+    "opciones": {
+      "a": "Surrealismo basado en asociaciones oníricas",
+      "b": "Romanticismo de evasión legendaria",
+      "c": "Realismo",
+      "d": "Vanguardismo de ruptura tipográfica"
+    },
+    "respuesta": "c",
+    "explicacion": "El Realismo presta atención a la vida contemporánea y a las relaciones sociales, con descripciones que hacen reconocible y verosímil el mundo representado.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal1/unidad4/culturaSigloXIX/realismo"
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Modernismo: autores y obras",
+    "pregunta": "¿Qué pareja de autor y obra se vincula de manera central con el modernismo hispanoamericano?",
+    "opciones": {
+      "a": "Miguel de Cervantes — Don Quijote de la Mancha",
+      "b": "Rubén Darío — Azul…",
+      "c": "Benito Pérez Galdós — Fortunata y Jacinta",
+      "d": "Fernando de Rojas — La Celestina"
+    },
+    "respuesta": "b",
+    "explicacion": "Azul…, publicado inicialmente en 1888, es una obra emblemática de Rubén Darío y del modernismo hispanoamericano. Las otras parejas corresponden a contextos literarios distintos.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/publicaciones-digitales/azul"
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Interpretación literaria",
+    "pregunta": "Lee el fragmento original: «Guardó durante años la llave de una casa demolida. Cada noche la colocaba junto a la puerta de su nuevo cuarto». ¿Qué interpretación está mejor sustentada?",
+    "opciones": {
+      "a": "La llave puede simbolizar un vínculo persistente con el pasado.",
+      "b": "La casa demolida continúa necesariamente en pie.",
+      "c": "La llave garantiza que el personaje regresará físicamente a esa casa.",
+      "d": "El narrador afirma que el nuevo cuarto carece de puerta."
+    },
+    "respuesta": "a",
+    "explicacion": "La conservación y el uso ritual de un objeto ya inútil sugieren apego a un lugar perdido. Las otras lecturas añaden o contradicen hechos.",
+    "fuente_conceptual": "https://dle.rae.es/s%C3%ADmbolo"
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Función poética",
+    "pregunta": "¿Qué enunciado destaca por orientar la atención a la elaboración estética del mensaje?",
+    "opciones": {
+      "a": "La reunión empieza a las cuatro.",
+      "b": "El formulario contiene tres apartados.",
+      "c": "El adjetivo modifica al sustantivo.",
+      "d": "La tarde borda oro en las ventanas."
+    },
+    "respuesta": "d",
+    "explicacion": "La imagen de la tarde que borda y la asociación con el oro destacan la forma expresiva y la sugerencia del mensaje, propias de la función poética.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/materiales/libros/pdfs/librocch_hablarescuchar.pdf"
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Texto argumentativo: ensayo",
+    "pregunta": "Un ensayo defiende que releer transforma la interpretación de una obra y desarrolla razones y ejemplos para sostenerlo. ¿Qué organización predomina?",
+    "opciones": {
+      "a": "Una lista de instrucciones sin justificación",
+      "b": "Una transcripción de diálogos teatrales sin comentarios",
+      "c": "Un inventario sin relación entre sus elementos",
+      "d": "Argumentativa"
+    },
+    "respuesta": "d",
+    "explicacion": "El ensayo descrito propone una tesis y la sostiene con razones y ejemplos, de modo que predomina la argumentación.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid2/unidad1/textosmodelo/textoArgumentativo"
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Investigación documental: cita textual",
+    "pregunta": "Al copiar literalmente una oración de un estudio crítico para incluirla en una ficha, ¿qué procedimiento es adecuado?",
+    "opciones": {
+      "a": "Cambiar el nombre del autor por el del estudiante.",
+      "b": "Distinguirla como cita textual e identificar su fuente y localización.",
+      "c": "Presentarla como una idea propia por tratarse de una oración breve.",
+      "d": "Omitir la fuente si el estudio está disponible en internet."
+    },
+    "respuesta": "b",
+    "explicacion": "La cita textual reproduce palabras ajenas y exige distinguirlas de la redacción propia, además de registrar los datos que permitan localizarlas.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad3/fichasTrabajo/tiposFichas"
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Investigación documental: paráfrasis",
+    "pregunta": "Una estudiante reformula con sus palabras la interpretación de una novela propuesta por una investigadora. ¿Qué debe hacer?",
+    "opciones": {
+      "a": "Omitir la referencia porque cambió la redacción.",
+      "b": "Colocar comillas como si las nuevas palabras fueran una copia literal.",
+      "c": "Conservar fielmente la idea y reconocer la fuente, aunque no copie sus palabras.",
+      "d": "Modificar la conclusión para hacerla pasar por la de la investigadora."
+    },
+    "respuesta": "c",
+    "explicacion": "La paráfrasis modifica la expresión, no la autoría de la idea. Debe respetar el sentido y reconocer la fuente sin presentarse como reproducción literal.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/resumirInformacion/laParafrasis"
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Investigación documental: fichas",
+    "pregunta": "Para registrar de manera abreviada las ideas principales de un artículo completo, ¿qué tipo de ficha conviene elaborar?",
+    "opciones": {
+      "a": "Ficha de resumen",
+      "b": "Ficha de cita textual que copie una sola oración secundaria",
+      "c": "Acotación escénica",
+      "d": "Lista de personajes inventados"
+    },
+    "respuesta": "a",
+    "explicacion": "La ficha de resumen sintetiza lo esencial de una fuente. No equivale a reproducir literalmente una frase aislada ni a crear elementos de ficción.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid4/unidad3/procesamiento/queFichasUsar"
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Relación entre forma y género",
+    "pregunta": "¿Cuál afirmación sobre la clasificación de textos literarios es la más adecuada?",
+    "opciones": {
+      "a": "Todo texto en verso pertenece necesariamente a la lírica.",
+      "b": "Todo texto en prosa es necesariamente una novela.",
+      "c": "Un texto con diálogo es siempre teatro, aunque lo enmarque un narrador.",
+      "d": "Para distinguir géneros se consideran rasgos de organización y enunciación, no solo si hay verso o prosa."
+    },
+    "respuesta": "d",
+    "explicacion": "La clasificación no depende exclusivamente de verso o prosa: puede haber narraciones en verso, poesía en prosa y diálogos dentro de novelas.",
+    "fuente_conceptual": "https://rua2024.unam.mx/portal/recursos/ficha/20172/generos-literarios-dramatico-lirico-narrativo"
+  }
+]
