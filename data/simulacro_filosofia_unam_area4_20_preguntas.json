@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Lógica · Lenguaje",
+    "pregunta": "¿Cuál de los siguientes enunciados expresa una proposición que puede ser verdadera o falsa?",
+    "opciones": {
+      "a": "¡Cierra la ventana!",
+      "b": "¿Qué hora es?",
+      "c": "La Luna es un satélite natural de la Tierra.",
+      "d": "¡Ojalá llueva mañana!"
+    },
+    "respuesta": "c",
+    "explicacion": "Una proposición afirma o niega algo y admite un valor de verdad. Las órdenes, preguntas y expresiones de deseo no afirman por sí mismas algo verdadero o falso.",
+    "fuente_conceptual": "https://www.filosoficas.unam.mx/~Tdl/proposic.htm"
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Lógica · Conectivas",
+    "pregunta": "Si p significa «Estudio» y q significa «Apruebo», ¿qué fórmula representa «Estudio, pero no apruebo»?",
+    "opciones": {
+      "a": "p ∧ ¬q",
+      "b": "p ∨ q",
+      "c": "¬p → q",
+      "d": "p ↔ q"
+    },
+    "respuesta": "a",
+    "explicacion": "«Pero» une aquí dos afirmaciones como una conjunción: estudio y no apruebo. Por eso se usa ∧ y se niega únicamente q.",
+    "fuente_conceptual": "https://www.filosoficas.unam.mx/~Tdl/proposic.htm"
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Lógica · Condicional",
+    "pregunta": "En lógica proposicional clásica, el condicional p → q es falso únicamente cuando",
+    "opciones": {
+      "a": "p es falsa y q es verdadera.",
+      "b": "p y q son falsas.",
+      "c": "p y q son verdaderas.",
+      "d": "p es verdadera y q es falsa."
+    },
+    "respuesta": "d",
+    "explicacion": "El condicional material excluye el caso en que se cumple el antecedente p y no se cumple el consecuente q. En las otras tres combinaciones se considera verdadero.",
+    "fuente_conceptual": "https://www.filosoficas.unam.mx/~Tdl/proposic.htm"
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Lógica · Negación",
+    "pregunta": "¿Cuál es la negación lógica de «Todos los estudiantes aprobaron»?",
+    "opciones": {
+      "a": "Ningún estudiante aprobó.",
+      "b": "Al menos un estudiante no aprobó.",
+      "c": "Algunos estudiantes aprobaron.",
+      "d": "Todos los estudiantes reprobaron dos materias."
+    },
+    "respuesta": "b",
+    "explicacion": "Para negar una afirmación universal basta un contraejemplo: un estudiante que no haya aprobado. «Ningún estudiante aprobó» es una afirmación más fuerte y no es la negación exacta.",
+    "fuente_conceptual": "https://www.filosoficas.unam.mx/~Tdl/proposic.htm"
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Lógica · Argumentación",
+    "pregunta": "Lee el argumento: «Todos los mamíferos son vertebrados. Los delfines son mamíferos. Por lo tanto, los delfines son vertebrados». ¿Cuál es su conclusión?",
+    "opciones": {
+      "a": "Todos los mamíferos son vertebrados.",
+      "b": "Los delfines son mamíferos.",
+      "c": "Los delfines son vertebrados.",
+      "d": "Todos los vertebrados son delfines."
+    },
+    "respuesta": "c",
+    "explicacion": "La conclusión es lo que las premisas buscan sostener. En este caso aparece después de «por lo tanto» y se sigue deductivamente de las dos afirmaciones anteriores.",
+    "fuente_conceptual": "https://www.filosoficas.unam.mx/~Tdl/proposic.htm"
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Lógica · Inferencias",
+    "pregunta": "¿Qué argumento tiene la forma válida modus tollens?",
+    "opciones": {
+      "a": "Si estudio, apruebo. Apruebo. Por tanto, estudio.",
+      "b": "Si estudio, apruebo. No estudio. Por tanto, no apruebo.",
+      "c": "Estudio o trabajo. Estudio. Por tanto, no trabajo.",
+      "d": "Si estudio, apruebo. No apruebo. Por tanto, no estudio."
+    },
+    "respuesta": "d",
+    "explicacion": "El modus tollens tiene la forma p → q; ¬q; por tanto, ¬p. Afirmar el consecuente o negar el antecedente no permite esas conclusiones. En la disyunción inclusiva, p y q pueden ser verdaderas a la vez.",
+    "fuente_conceptual": "https://www.filosoficas.unam.mx/~Tdl/proposic.htm"
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Lógica · Falacias",
+    "pregunta": "Una persona rechaza un argumento sobre reciclaje diciendo: «No puede tener razón, porque quien lo presentó viste muy mal». ¿Qué falacia comete?",
+    "opciones": {
+      "a": "Ad hominem.",
+      "b": "Petición de principio.",
+      "c": "Falso dilema.",
+      "d": "Generalización apresurada."
+    },
+    "respuesta": "a",
+    "explicacion": "El ataque ad hominem pretende refutar una idea desacreditando a quien la sostiene, en lugar de examinar sus razones. La vestimenta no determina la validez de ese argumento.",
+    "fuente_conceptual": "https://www.filosoficas.unam.mx/~Modus/MP1/mp1colec.htm"
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Lógica · Validez y verdad",
+    "pregunta": "Un argumento deductivo es válido cuando",
+    "opciones": {
+      "a": "su conclusión es verdadera, aunque no se siga de las premisas.",
+      "b": "es imposible que sus premisas sean verdaderas y su conclusión falsa.",
+      "c": "sus premisas resultan convincentes para la mayoría.",
+      "d": "todas sus premisas describen hechos comprobados experimentalmente."
+    },
+    "respuesta": "b",
+    "explicacion": "La validez depende de la relación de consecuencia entre premisas y conclusión. No garantiza que las premisas sean verdaderas. Un argumento válido con premisas verdaderas es, además, sólido.",
+    "fuente_conceptual": "https://www.filosoficas.unam.mx/~Tdl/proposic.htm"
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Ética · Ética y moral",
+    "pregunta": "¿Qué distingue a la ética de la moral, en el uso filosófico habitual?",
+    "opciones": {
+      "a": "La ética describe únicamente leyes estatales y la moral, leyes físicas.",
+      "b": "La ética exige obediencia sin reflexión y la moral rechaza toda norma.",
+      "c": "La ética se limita a costumbres antiguas y la moral solo a decisiones actuales.",
+      "d": "La ética reflexiona críticamente sobre la moral y sus fundamentos."
+    },
+    "respuesta": "d",
+    "explicacion": "La moral comprende normas, valores y prácticas con las que se orienta la conducta. La ética estudia y discute su justificación, sus criterios y sus problemas; no se reduce a obedecerlas.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Ética · Responsabilidad moral",
+    "pregunta": "¿Qué situación ofrece las condiciones más claras para atribuir responsabilidad moral por una acción?",
+    "opciones": {
+      "a": "Una persona actúa deliberadamente, comprende lo que hace y puede elegir entre alternativas.",
+      "b": "Una persona causa un movimiento mientras sufre una convulsión involuntaria.",
+      "c": "Una persona mueve un objeto sin advertir una consecuencia absolutamente imprevisible.",
+      "d": "Una persona produce un sonido como reflejo durante el sueño."
+    },
+    "respuesta": "a",
+    "explicacion": "La responsabilidad moral supone, de manera central, conocimiento y libertad de decisión. La ignorancia no culpable, la involuntariedad o la coacción pueden disminuirla o excluirla según las circunstancias.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Ética · Autonomía",
+    "pregunta": "Una estudiante rechaza copiar porque considera que hacerlo contradice un principio que reconoce como válido, aunque nadie la vigile. Esto ilustra principalmente",
+    "opciones": {
+      "a": "obediencia por temor al castigo.",
+      "b": "ausencia de normas morales.",
+      "c": "autonomía moral.",
+      "d": "determinismo biológico."
+    },
+    "respuesta": "c",
+    "explicacion": "La autonomía consiste en guiarse por principios asumidos racionalmente, no solo por vigilancia, premio o castigo. No significa actuar sin reglas ni hacer cualquier cosa que se desee.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Ética · Teorías de los valores",
+    "pregunta": "Una persona sostiene que la crueldad es moralmente mala aunque una sociedad la apruebe. En el debate sobre los valores, esta postura se acerca al",
+    "opciones": {
+      "a": "subjetivismo, porque hace depender el valor del gusto individual.",
+      "b": "objetivismo, porque el valor no depende solo de la aprobación de quienes juzgan.",
+      "c": "relativismo cultural, porque cada costumbre determina por sí sola lo correcto.",
+      "d": "escepticismo radical, porque niega toda posibilidad de formular juicios morales."
+    },
+    "respuesta": "b",
+    "explicacion": "El objetivismo axiológico sostiene que los valores no se reducen a las preferencias individuales o a la aprobación social. El caso afirma un criterio moral que pretende valer incluso cuando una comunidad no lo comparte.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Ética · Valores",
+    "pregunta": "¿Qué disciplina filosófica estudia la naturaleza de los valores y los criterios para valorarlos?",
+    "opciones": {
+      "a": "Cosmología.",
+      "b": "Lógica formal.",
+      "c": "Ontología.",
+      "d": "Axiología."
+    },
+    "respuesta": "d",
+    "explicacion": "La axiología examina qué son los valores, cómo se relacionan y cómo se justifican las valoraciones. La lógica estudia inferencias y la ontología se ocupa del ser y de lo que existe.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Ética · Normas",
+    "pregunta": "¿Cuál de estos ejemplos se refiere principalmente a una norma moral, más que a una regla técnica o de cortesía?",
+    "opciones": {
+      "a": "Usar una herramienta según su manual para evitar que se averíe.",
+      "b": "No engañar a otra persona, porque merece un trato honesto y respetuoso.",
+      "c": "Colocar una copa en un lugar determinado según un protocolo de mesa.",
+      "d": "Aplicar una fórmula para convertir metros en centímetros."
+    },
+    "respuesta": "b",
+    "explicacion": "El ejemplo apela a razones sobre lo correcto y lo incorrecto en el trato a otros. Las reglas técnicas orientan la eficacia de una tarea y las de cortesía regulan convenciones sociales; una misma conducta también puede tener dimensiones jurídicas o morales.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Filosofía · Características",
+    "pregunta": "¿Cuál de las siguientes actividades expresa mejor una actitud filosófica?",
+    "opciones": {
+      "a": "Examinar los supuestos de una creencia y evaluar las razones que la sostienen.",
+      "b": "Aceptar una afirmación solo porque se repite con frecuencia.",
+      "c": "Descartar toda pregunta que no tenga una respuesta inmediata.",
+      "d": "Sustituir los argumentos por la autoridad de quien habla."
+    },
+    "respuesta": "a",
+    "explicacion": "La filosofía plantea preguntas, examina supuestos y construye argumentos. Su carácter crítico no exige rechazar toda creencia, sino considerar las razones para aceptarla o revisarla.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Filosofía · Disciplinas",
+    "pregunta": "Relaciona cada disciplina con su problema principal.\n\n1. Ontología\n2. Estética\n3. Epistemología\n\nI. La justificación y los límites del conocimiento\nII. El ser y lo que existe\nIII. La experiencia estética y el arte",
+    "opciones": {
+      "a": "1-I, 2-II, 3-III.",
+      "b": "1-III, 2-I, 3-II.",
+      "c": "1-II, 2-III, 3-I.",
+      "d": "1-II, 2-I, 3-III."
+    },
+    "respuesta": "c",
+    "explicacion": "La ontología pregunta por el ser y la existencia; la estética estudia problemas del arte y de la experiencia estética; la epistemología analiza el conocimiento, sus fuentes, justificación y límites.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Epistemología · Conocimiento",
+    "pregunta": "Alguien adivina el resultado de un experimento sin disponer de ninguna razón y acierta por casualidad. ¿Qué muestra este caso?",
+    "opciones": {
+      "a": "Que una creencia verdadera no basta por sí sola para hablar de conocimiento justificado.",
+      "b": "Que toda creencia verdadera es necesariamente conocimiento científico.",
+      "c": "Que la justificación depende únicamente de la confianza personal.",
+      "d": "Que el conocimiento exige que todas las personas tengan la misma opinión."
+    },
+    "respuesta": "a",
+    "explicacion": "Acertar por azar permite tener una creencia verdadera sin una justificación adecuada. La relación entre verdad, creencia y justificación es un problema central de la epistemología, y su análisis no se reduce a la seguridad subjetiva.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Epistemología · Corrientes",
+    "pregunta": "¿Qué postura sostiene que la experiencia sensible es una fuente fundamental del conocimiento y rechaza que todo su contenido provenga de ideas innatas?",
+    "opciones": {
+      "a": "Dogmatismo moral.",
+      "b": "Racionalismo innatista.",
+      "c": "Idealismo platónico.",
+      "d": "Empirismo."
+    },
+    "respuesta": "d",
+    "explicacion": "El empirismo destaca el papel de la experiencia en el origen del conocimiento. Se contrasta habitualmente con el racionalismo, que concede un papel privilegiado a la razón; eso no significa que el empirismo prescinda de razonar.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Epistemología · Tipos de conocimiento",
+    "pregunta": "¿Qué rasgo distingue mejor el conocimiento científico del conocimiento cotidiano?",
+    "opciones": {
+      "a": "Se transmite por la experiencia habitual sin requerir procedimientos explícitos.",
+      "b": "Emplea métodos sistemáticos y somete sus afirmaciones a revisión y contraste.",
+      "c": "Se justifica por las preferencias individuales de quien formula las afirmaciones.",
+      "d": "Se distingue por recopilar observaciones sin buscar explicaciones ni relaciones."
+    },
+    "respuesta": "b",
+    "explicacion": "La ciencia busca explicar y contrastar sus afirmaciones mediante procedimientos explícitos y sistemáticos. El saber cotidiano puede ser útil y verdadero, pero no siempre procede de una investigación de ese tipo. El conocimiento científico es revisable.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Epistemología · Verdad y justificación",
+    "pregunta": "Según una concepción de la verdad como correspondencia, una afirmación es verdadera si",
+    "opciones": {
+      "a": "agrada a quien la escucha.",
+      "b": "ha sido aceptada por todas las generaciones anteriores.",
+      "c": "concuerda con los hechos o con la realidad a la que se refiere.",
+      "d": "se expresa con gran seguridad."
+    },
+    "respuesta": "c",
+    "explicacion": "La teoría de la correspondencia vincula la verdad con los hechos. La popularidad, la antigüedad o la convicción no bastan para establecerla; tampoco deben confundirse verdad y los medios usados para justificar una creencia.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia"
+  }
+]

@@ -474,6 +474,7 @@ h1{
   <div class="acceso-card">
     <h2>🔐 Acceso al simulacro</h2>
     <p>Ingresa tu clave para comenzar</p>
+    <p style="font-size:13px;">Filosofía: <b>filosofía</b> (examen) o <b>filosofía_estudiar</b> (con explicaciones al responder).</p>
     <p style="font-size:13px;">Historia: <b>historia</b> (examen) o <b>historia_estudio</b> (con explicaciones al responder).</p>
 
     <input
@@ -728,6 +729,25 @@ let intervaloReloj = null;
 
 const ACCESOS = {
 
+  "filosofía": {
+    estudiante: "Patita",
+    titulo: "🦉 Filosofía · UNAM área 4",
+    subtitulo: "20 preguntas originales · Lógica, Ética y Filosofía · Práctica no oficial",
+    archivo: "data/simulacro_filosofia_unam_area4_20_preguntas.json",
+    ordenAleatorio: true,
+    modoExamen: true,
+    minutos: 30
+  },
+
+  "filosofía_estudiar": {
+    estudiante: "Patita",
+    titulo: "🦉 Filosofía · Modo estudio",
+    subtitulo: "20 preguntas por tema · Explicaciones al comprobar · Sin límite de tiempo",
+    archivo: "data/simulacro_filosofia_unam_area4_20_preguntas.json",
+    ordenAleatorio: false,
+    modoExamen: false
+  },
+
   matematicas: {
     estudiante: "Patita",
     titulo: "📐 Matemáticas · UNAM área 4",
@@ -824,6 +844,7 @@ function validarClave(){
     .getElementById("inputClave")
     .value
     .trim()
+    .normalize("NFC")
     .toLowerCase();
 
   const acceso = ACCESOS[clave];
@@ -951,10 +972,10 @@ function configurarModo(){
 
   aviso.classList.toggle(
     "hidden",
-    !/historia_unam|matematicas_unam/.test(accesoActual?.archivo || "")
+    !/historia_unam|matematicas_unam|filosofia_unam/.test(accesoActual?.archivo || "")
   );
   aviso.innerText = modoExamen
-    ? `Examen de práctica: ${accesoActual.minutos || 75} minutos sugeridos para este bloque. El tiempo comienza al cargar las preguntas. Puedes omitir, volver y cambiar respuestas; las explicaciones se muestran al entregar. Las omitidas no suman aciertos. Este tiempo y las 50 preguntas no son la distribución oficial por área de la UNAM.`
+    ? `Examen de práctica: ${accesoActual.minutos || 75} minutos sugeridos para este bloque. El tiempo comienza al cargar las preguntas. Puedes omitir, volver y cambiar respuestas; las explicaciones se muestran al entregar. Las omitidas no suman aciertos. Este tiempo y las ${preguntas.length} preguntas no son la distribución oficial por área de la UNAM.`
     : "Modo estudio: selecciona una opción y pulsa Comprobar para ver la explicación. No hay límite de tiempo. Material original de práctica, no oficial de la UNAM.";
   document.getElementById("btnResponder").classList.toggle("hidden", modoExamen);
   document.getElementById("btnEntregar").classList.toggle("hidden", !modoExamen);
@@ -1408,3 +1429,4 @@ document.addEventListener("keydown", function(e){
 
 </body>
 </html>
+
