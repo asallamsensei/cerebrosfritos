@@ -845,7 +845,7 @@ function validarClave(){
     .normalize("NFC")
     .toLowerCase();
 
-  const acceso = ACCESOS[clave];
+  const acceso = ACCESOS[clave === "filosofia_estudiar" ? "filosofía_estudiar" : clave];
 
   if(!acceso){
     document.getElementById("errorClave").innerText =
