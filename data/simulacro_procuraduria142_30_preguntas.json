@@ -8,10 +8,10 @@
     "fuente_conceptual": "https://www.procuraduria.gov.co/procuraduria/conozca-entidad/Pages/objetivos-funciones.aspx",
     "id": 1,
     "opciones": {
-      "a": "Recopilar información, valorar el riesgo y proyectar requerimientos a las autoridades competentes para revisión del jefe, con seguimiento documentado.",
-      "b": "Ordenar directamente al contratista el rediseño técnico de la obra y asumir su supervisión permanente.",
-      "c": "Sustituir la evaluación de la autoridad ambiental por un concepto preventivo vinculante sobre la viabilidad.",
-      "d": "Expedir la licencia ambiental con condiciones de protección para resolver oportunamente la solicitud."
+      "a": "Identificar riesgos y proyectar requerimientos para revisión y seguimiento.",
+      "b": "Expedir la licencia con condiciones que eviten el riesgo para el abastecimiento.",
+      "c": "Asumir la supervisión de la obra y ordenar al contratista los ajustes técnicos.",
+      "d": "Emitir un concepto vinculante que sustituya la evaluación de la autoridad ambiental."
     },
     "respuesta": "a"
   },
@@ -24,10 +24,10 @@
     "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/constitucion_politica_1991.htm",
     "id": 2,
     "opciones": {
-      "a": "Reemplazar al juez cuando el expediente involucre un interés colectivo de alta relevancia.",
-      "b": "Intervenir cuando sea necesario para defender el orden jurídico, el patrimonio público o los derechos y garantías fundamentales.",
-      "c": "Intervenir únicamente cuando una de las partes particulares otorgue poder al profesional.",
-      "d": "Actuar como representante judicial de la entidad demandada por tratarse siempre de recursos estatales."
+      "a": "Actuar solo cuando una parte particular otorgue poder al Ministerio Público.",
+      "b": "Defender el orden jurídico, el patrimonio público o los derechos fundamentales.",
+      "c": "Representar a la entidad demandada cuando el proceso afecte recursos estatales.",
+      "d": "Asumir la decisión judicial cuando esté comprometido un interés colectivo."
     },
     "respuesta": "b"
   },
@@ -40,10 +40,10 @@
     "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/constitucion_politica_1991.htm",
     "id": 3,
     "opciones": {
-      "a": "Solicitar al investigado que demuestre su inocencia antes de revisar la integridad del material.",
-      "b": "Adoptar la versión de la denuncia porque el video le otorga corroboración suficiente sin más análisis.",
-      "c": "Contrastar autenticidad, contexto y demás pruebas, garantizando las oportunidades de defensa y contradicción aplicables.",
-      "d": "Excluir el video por ser un archivo digital y decidir únicamente con documentos impresos."
+      "a": "Dar por corroborada la denuncia, pues el video coincide con el hecho denunciado.",
+      "b": "Descartar el video por su formato digital y basarse en documentos impresos.",
+      "c": "Contrastar la integridad y el contexto del video, con defensa y contradicción.",
+      "d": "Exigir prueba de inocencia al investigado antes de verificar el material recibido."
     },
     "respuesta": "c"
   },
@@ -56,10 +56,10 @@
     "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/constitucion_politica_1991.htm",
     "id": 4,
     "opciones": {
-      "a": "Usar exclusivamente el orden de llegada, incluso ante vencimientos legales y amenazas graves documentadas.",
-      "b": "Repartir el mismo número de expedientes por organización sin valorar diferencias de complejidad o urgencia.",
-      "c": "Atender primero a la organización cercana si tiene capacidad de ayudar a resolver otros asuntos.",
-      "d": "Priorizar mediante criterios objetivos de urgencia, riesgo y plazos, dejando trazabilidad del criterio aplicado."
+      "a": "Priorizar a la organización cercana por su contribución a la gestión institucional.",
+      "b": "Aplicar solo el orden de llegada, aun ante riesgos graves y vencimientos inmediatos.",
+      "c": "Igualar el número de casos por organización sin diferenciar urgencia ni complejidad.",
+      "d": "Priorizar por urgencia, riesgo y plazos, dejando registrados los criterios aplicados."
     },
     "respuesta": "d"
   },
@@ -72,10 +72,10 @@
     "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334",
     "id": 5,
     "opciones": {
-      "a": "Informar al interesado y remitirla al competente dentro de los cinco días hábiles siguientes a la recepción, enviando copia del oficio remisorio.",
-      "b": "Esperar el término general de quince días y responder únicamente que carece de competencia.",
-      "c": "Archivar la petición e indicar al ciudadano que presente otra ante la entidad que considere competente.",
-      "d": "Resolver de fondo para evitar el traslado, aunque el asunto corresponda legalmente a otra autoridad."
+      "a": "Remitir al competente en cinco días hábiles e informar al peticionario con copia.",
+      "b": "Responder en quince días hábiles que no es competente, sin trasladar la petición.",
+      "c": "Resolver el asunto en cinco días hábiles para evitar el traslado a otra autoridad.",
+      "d": "Archivar y pedir al interesado que radique de nuevo ante la autoridad competente."
     },
     "respuesta": "a"
   },
@@ -88,10 +88,10 @@
     "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334",
     "id": 6,
     "opciones": {
-      "a": "Cinco días hábiles siguientes a su recepción por tratarse de información pública.",
-      "b": "Diez días hábiles siguientes a su recepción.",
-      "c": "Quince días hábiles siguientes a su recepción, como toda petición.",
-      "d": "Treinta días hábiles siguientes a su recepción por requerir búsqueda documental."
+      "a": "Quince días hábiles siguientes a la recepción.",
+      "b": "Diez días hábiles siguientes a la recepción.",
+      "c": "Treinta días hábiles siguientes a la recepción.",
+      "d": "Cinco días hábiles siguientes a la recepción."
     },
     "respuesta": "b"
   },
@@ -100,14 +100,14 @@
     "categoria": "Conocimientos generales",
     "tema": "Conflicto de interés e imparcialidad",
     "pregunta": "Al revisar un asunto administrativo, el profesional advierte que su cónyuge tiene interés particular y directo en la decisión. ¿Cómo debe proceder?",
-    "explicacion": "El interés particular y directo del cónyuge es causal de impedimento. Debe declararse por el procedimiento de los artículos 11 y 12 del CPACA. Informarlo al final, gestionar una renuncia informal o agregar otra firma no sustituye ese trámite ni resuelve el conflicto.",
+    "explicacion": "El interés particular y directo del cónyuge es causal de impedimento. Debe declararse por el procedimiento de los artículos 11 y 12 del CPACA. Informarlo al final, gestionar una renuncia informal o encargar el análisis a otro y firmar sin revelar el vínculo no sustituye ese trámite ni resuelve el conflicto.",
     "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41249",
     "id": 7,
     "opciones": {
-      "a": "Pedir al cónyuge que renuncie informalmente a su interés y conservar el expediente sin informar.",
-      "b": "Solicitar una segunda firma de otro profesional y continuar sustanciando el expediente sin declarar el impedimento.",
-      "c": "Declarar el impedimento por el canal previsto y poner el asunto en conocimiento de quien deba resolverlo, sin continuar como si no existiera el conflicto.",
-      "d": "Continuar y mencionar la relación familiar únicamente en la decisión final para asegurar transparencia."
+      "a": "Continuar el trámite y revelar el vínculo familiar al presentar la decisión final.",
+      "b": "Solicitar al cónyuge una renuncia informal al interés y mantener el expediente.",
+      "c": "Declarar el impedimento y remitirlo para decisión conforme al procedimiento.",
+      "d": "Asignar el análisis a un compañero y suscribir la decisión sin informar el vínculo."
     },
     "respuesta": "c"
   },
@@ -120,10 +120,10 @@
     "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=184686",
     "id": 8,
     "opciones": {
-      "a": "La confianza previa puede desplazar los factores publicados si se explica en el acta de evaluación.",
-      "b": "Es válido modificar los factores de evaluación después de conocer las ofertas para elegir al proveedor conocido.",
-      "c": "Debe escogerse siempre el precio más bajo, cualquiera que sea la modalidad y los factores previstos.",
-      "d": "La selección debe ajustarse a los factores objetivos establecidos y a la oferta más favorable, sin motivos de afecto o interés subjetivo."
+      "a": "Usar la confianza previa como factor adicional, explicándolo en el acta final.",
+      "b": "Escoger el menor precio sin considerar la modalidad ni los factores publicados.",
+      "c": "Ajustar los factores después de abrir ofertas para favorecer al proveedor conocido.",
+      "d": "Aplicar los factores publicados y excluir preferencias o intereses de tipo subjetivo."
     },
     "respuesta": "d"
   },
@@ -136,10 +136,10 @@
     "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4275",
     "id": 9,
     "opciones": {
-      "a": "Conservar las versiones según el procedimiento documental, identificar la vigente y registrar autoría, fechas y motivo de la corrección.",
-      "b": "Eliminar la versión anterior sin dejar constancia para que ningún lector se confunda.",
-      "c": "Conservar ambas como finales y permitir que cada lector elija la que considere más reciente.",
-      "d": "Reemplazar el archivo original manteniendo su fecha anterior para no alterar la cronología del trámite."
+      "a": "Conservar la trazabilidad y distinguir la versión vigente según las reglas de archivo.",
+      "b": "Eliminar la versión previa sin registro, para impedir que se consulte por error.",
+      "c": "Mantener ambas como finales para que cada lector determine cuál debe aplicar.",
+      "d": "Reemplazar la anterior conservando su fecha, para mantener la secuencia del trámite."
     },
     "respuesta": "a"
   },
@@ -152,10 +152,10 @@
     "fuente_conceptual": "https://www.meritoconstruyendoexcelencia.com.co/",
     "id": 10,
     "opciones": {
-      "a": "La oportunidad es 180% al sumar las dos tasas trimestrales.",
-      "b": "Aumentó el número de respuestas oportunas, pero la tasa de oportunidad se mantuvo en 90%.",
-      "c": "La tasa de oportunidad aumentó 50% porque las respuestas oportunas pasaron de 72 a 108.",
-      "d": "La oportunidad bajó porque el segundo trimestre tuvo más peticiones pendientes de resolver oportunamente."
+      "a": "La tasa subió 50%, igual que el número de respuestas oportunas.",
+      "b": "El volumen oportuno aumentó, pero la tasa se mantuvo en 90%.",
+      "c": "La tasa bajó porque aumentó el número de casos no oportunos.",
+      "d": "La tasa acumulada fue 180%, al sumar los porcentajes trimestrales."
     },
     "respuesta": "b"
   },
@@ -164,14 +164,14 @@
     "categoria": "Conocimientos generales",
     "tema": "Formulación de proyectos: resultado e indicador",
     "pregunta": "Un plan preventivo busca reducir los incumplimientos de obligaciones ambientales identificados en visitas. ¿Cuál indicador evalúa mejor ese resultado, en vez de limitarse a contar actividades?",
-    "explicacion": "El resultado se refiere al cambio logrado, no solo a insumos o actividades. Un indicador necesita universo, verificación, periodicidad y línea base. Reuniones, correos y páginas pueden medir actividad, pero por sí solos no acreditan corrección. Alineado con funciones 1, 12 y 14 del perfil.",
+    "explicacion": "El resultado se refiere al cambio logrado, no solo a insumos o actividades. Un indicador necesita universo, verificación, periodicidad y línea base. Reuniones, requerimientos e informes pueden medir actividad, pero por sí solos no acreditan corrección. Alineado con funciones 1, 12 y 14 del perfil.",
     "fuente_conceptual": "https://www.meritoconstruyendoexcelencia.com.co/",
     "id": 11,
     "opciones": {
-      "a": "Número de páginas de los informes técnicos producidos.",
-      "b": "Número de reuniones convocadas por el equipo durante el semestre.",
-      "c": "Porcentaje de incumplimientos priorizados que se corrigen y verifican dentro del plazo definido, con línea base y criterio de cierre.",
-      "d": "Cantidad de correos enviados a las entidades vigiladas, sin distinguir su propósito."
+      "a": "Porcentaje de reuniones ejecutadas respecto de las previstas en el plan preventivo.",
+      "b": "Porcentaje de requerimientos enviados respecto de las entidades incluidas en el plan.",
+      "c": "Porcentaje de incumplimientos priorizados corregidos y verificados dentro del plazo.",
+      "d": "Porcentaje de informes elaborados respecto de los programados para el seguimiento."
     },
     "respuesta": "c"
   },
@@ -184,10 +184,10 @@
     "fuente_conceptual": "https://www.meritoconstruyendoexcelencia.com.co/",
     "id": 12,
     "opciones": {
-      "a": "La falta de certeza causal impide recopilar información o adoptar cualquier actuación preventiva dentro de la competencia.",
-      "b": "La lluvia descarta cualquier contribución minera y justifica cerrar el seguimiento.",
-      "c": "La coincidencia temporal demuestra por sí sola que la mina causó toda la turbidez registrada.",
-      "d": "Hay una señal que exige contrastar línea base, lluvias, otros aportes y datos comparables antes de atribuir causalidad exclusiva a la obra."
+      "a": "Atribuir el aumento a la obra, pues la medición es posterior a su inicio.",
+      "b": "Descartar la contribución minera, pues hubo lluvias intensas en la zona.",
+      "c": "Suspender toda actuación preventiva hasta contar con certeza causal plena.",
+      "d": "Investigar la señal y contrastar causas antes de atribuirla solo a la mina."
     },
     "respuesta": "d"
   },
@@ -200,10 +200,10 @@
     "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/constitucion_politica_1991.htm",
     "id": 13,
     "opciones": {
-      "a": "Ofrecer la información en un formato accesible y verificar comprensión, preservando reserva y canales institucionales.",
-      "b": "Enviar la imagen habitual y considerar atendida la solicitud porque se usa el mismo formato para todos.",
-      "c": "Exigir que un familiar gestione toda la consulta para evitar adaptar el canal.",
-      "d": "Enviar el expediente completo a cualquier acompañante sin verificar autorización para facilitar la comunicación."
+      "a": "Adaptar el formato y verificar comprensión, respetando reserva y autorizaciones.",
+      "b": "Enviar la imagen habitual, pues el mismo formato garantiza igualdad de trato.",
+      "c": "Solicitar a un familiar que tramite la consulta para evitar modificar el canal.",
+      "d": "Remitir todo el expediente al acompañante, sin verificar autorización previa."
     },
     "respuesta": "a"
   },
@@ -216,10 +216,10 @@
     "fuente_conceptual": "https://www.meritoconstruyendoexcelencia.com.co/",
     "id": 14,
     "opciones": {
-      "a": "Resolver primero C y B porque son rápidos, dejando A para cuando haya tiempo suficiente.",
-      "b": "Atender primero el riesgo y vencimiento de A, asignar responsables y plazos a B y C, y documentar la priorización.",
-      "c": "Dar igual tiempo a los tres asuntos, pues toda diferencia de prioridad viola la igualdad.",
-      "d": "Suspender B y C indefinidamente sin registrar pendientes mientras se analiza A."
+      "a": "Cerrar primero B y C por su rapidez, aplazando A hasta disponer de tiempo.",
+      "b": "Priorizar A y programar B y C con responsables, plazos y registro de pendientes.",
+      "c": "Suspender B y C sin registrar pendientes mientras se analiza la situación de A.",
+      "d": "Asignar igual tiempo a cada asunto, para evitar diferencias de trato institucional."
     },
     "respuesta": "b"
   },
@@ -230,10 +230,10 @@
     "tema": "Precaución ambiental",
     "pregunta": "En una actuación preventiva se recibe un informe técnico que identifica peligro de daño grave e irreversible en un acuífero. Existen incertidumbres científicas sobre la magnitud exacta. La autoridad propone esperar a que se cuantifique todo el daño para decidir. ¿Qué recomendación está mejor sustentada?",
     "opciones": {
-      "a": "Limitarse a pedir nuevos estudios y aplazar cualquier medida hasta obtener certeza científica absoluta.",
-      "b": "Autorizar la continuidad sin medidas adicionales, porque el informe aún no determina la magnitud exacta del daño.",
-      "c": "Solicitar a la autoridad competente medidas eficaces y motivadas de protección, sin usar la incertidumbre absoluta como razón para aplazarlas.",
-      "d": "Tramitar primero una sanción y reservar las medidas de protección para cuando quede probada la responsabilidad."
+      "a": "Pedir estudios adicionales y aplazar las medidas hasta obtener certeza absoluta.",
+      "b": "Permitir la continuidad sin cambios mientras no se cuantifique la magnitud exacta.",
+      "c": "Requerir medidas eficaces y motivadas sin esperar certeza científica absoluta.",
+      "d": "Reservar las medidas protectoras hasta que una sanción establezca responsabilidad."
     },
     "respuesta": "c",
     "explicacion": "La Ley 99 de 1993, artículo 1 numeral 6, exige considerar medidas eficaces ante peligro de daño grave e irreversible sin aplazarlas por falta de certeza científica absoluta. La recomendación debe apoyarse en evidencia y dirigirse a la autoridad competente. Pedir estudios puede ser necesario, pero no justifica por sí solo posponer la protección. La incertidumbre sobre la magnitud tampoco autoriza continuar sin medidas. Proteger frente al riesgo y determinar responsabilidad sancionatoria son asuntos distintos.",
@@ -247,10 +247,10 @@
     "tema": "Prioridad del recurso hídrico",
     "pregunta": "Durante una sequía, la oferta hídrica disponible no alcanza para atender simultáneamente el abastecimiento básico de una población y una nueva demanda industrial. El profesional debe identificar el principio legal que orienta la evaluación de la autoridad ambiental. ¿Cuál corresponde?",
     "opciones": {
-      "a": "La antigüedad de la solicitud determina la prioridad, incluso frente al abastecimiento básico humano.",
-      "b": "El uso industrial tiene prioridad si demuestra mayor productividad económica por metro cúbico.",
-      "c": "La distribución debe conservar los porcentajes históricos de cada uso, con independencia de las necesidades básicas.",
-      "d": "El consumo humano tiene prioridad sobre los demás usos del recurso hídrico."
+      "a": "Dar prioridad a la solicitud más antigua, incluso sobre el abastecimiento básico.",
+      "b": "Dar prioridad al uso con mayor productividad económica por volumen consumido.",
+      "c": "Mantener los porcentajes históricos de distribución entre los diferentes usos.",
+      "d": "Dar prioridad al consumo humano frente a los otros usos del recurso hídrico disponible."
     },
     "respuesta": "d",
     "explicacion": "El artículo 1 numeral 5 de la Ley 99 establece la prioridad del consumo humano. La productividad económica, el orden de solicitud o los porcentajes históricos no desplazan por sí mismos esa prioridad. Esta orienta la evaluación de la autoridad competente y no habilita al profesional para asignar directamente el recurso ni para prescindir del procedimiento aplicable.",
@@ -264,10 +264,10 @@
     "tema": "Participación ambiental",
     "pregunta": "Una asociación ciudadana solicita intervenir en la actuación administrativa para modificar una licencia ambiental. La oficina rechaza la solicitud únicamente porque la asociación no es propietaria de predios vecinos ni acredita un perjuicio patrimonial. ¿Qué aspecto debe advertir el profesional que revisa el caso?",
     "opciones": {
-      "a": "La intervención ambiental no exige demostrar interés jurídico alguno en los procedimientos contemplados por el artículo 69 de la Ley 99.",
-      "b": "La asociación debe esperar la decisión final de la licencia y limitarse a ejercer acciones judiciales.",
-      "c": "La asociación solo puede intervenir si acredita un perjuicio individual, actual y cuantificable.",
-      "d": "La asociación debe obtener autorización de un propietario vecino para intervenir en nombre de este."
+      "a": "Permitir la intervención sin exigir interés jurídico, conforme al artículo 69.",
+      "b": "Exigir un perjuicio individual cuantificable para admitir su intervención.",
+      "c": "Limitarla a acciones judiciales que presente después de la decisión definitiva.",
+      "d": "Exigir representación de un propietario vecino para intervenir en su nombre."
     },
     "respuesta": "a",
     "explicacion": "El artículo 69 de la Ley 99 permite intervenir a personas naturales o jurídicas, públicas o privadas, sin demostrar interés jurídico, en las actuaciones allí descritas. No exige un daño patrimonial individual ni representar a un propietario vecino. Tampoco obliga a esperar la decisión para participar. Clave: no trasladar requisitos de otras acciones a la participación administrativa ambiental.",
@@ -281,13 +281,13 @@
     "tema": "Adaptación y mitigación climática",
     "pregunta": "Un municipio proyecta dos medidas: I, ajustar su infraestructura de drenaje a lluvias extremas esperadas para reducir la vulnerabilidad de la población. II, sustituir equipos que consumen combustibles fósiles para reducir emisiones de gases de efecto invernadero. Según el objetivo principal descrito, ¿cómo se clasifican?",
     "opciones": {
-      "a": "I y II son exclusivamente adaptación, porque son decisiones municipales.",
-      "b": "I es adaptación y II es mitigación.",
-      "c": "I es mitigación y II es adaptación.",
-      "d": "I y II son exclusivamente mitigación, porque ambas son ambientales."
+      "a": "La medida I es adaptación y la medida II es adaptación.",
+      "b": "La medida I es adaptación y la medida II es mitigación.",
+      "c": "La medida I es mitigación y la medida II es adaptación.",
+      "d": "La medida I es mitigación y la medida II es mitigación."
     },
     "respuesta": "b",
-    "explicacion": "La adaptación ajusta los sistemas a efectos presentes o esperados del clima. La mitigación busca reducir emisiones o mejorar sumideros. La medida I responde a un efecto y reduce vulnerabilidad. La II reduce emisiones. No se clasifican por ser decisiones ambientales o municipales. Una medida puede tener cobeneficios, pero se pregunta por el propósito principal expresamente indicado.",
+    "explicacion": "La adaptación reduce vulnerabilidad y ajusta sistemas a efectos climáticos presentes o esperados. La mitigación reduce emisiones o mejora sumideros. El drenaje responde a los efectos del clima y la sustitución de equipos reduce emisiones. Clasificar ambas medidas igual o invertirlas confunde sus propósitos principales. Ley 1931 de 2018, artículos 1 y 3.",
     "fuente_conceptual": "https://minvivienda.gov.co/sites/default/files/normativa/ley_1931_de_2018-gestion-cambio-climatico.pdf",
     "referencia_normativa": "Ley 1931 de 2018, arts. 1 y 3."
   },
@@ -298,10 +298,10 @@
     "tema": "Título minero y licencia ambiental",
     "pregunta": "Una empresa presenta un contrato de concesión minera vigente y anuncia que iniciará construcción, montaje y explotación del proyecto, aunque todavía no tiene la licencia ambiental exigible. Alega que el título minero reemplaza esa autorización. ¿Cuál es la conclusión correcta para el informe preventivo?",
     "opciones": {
-      "a": "Basta radicar el estudio de impacto ambiental para iniciar, mientras la autoridad decide sobre la licencia.",
-      "b": "La aprobación del programa de obras y trabajos sustituye la licencia si contiene medidas ambientales.",
-      "c": "Debe verificarse la licencia ambiental correspondiente, pues el título no reemplaza el pronunciamiento de la autoridad ambiental basado en el estudio de impacto ambiental.",
-      "d": "El concepto favorable de la autoridad minera reemplaza la decisión de la autoridad ambiental."
+      "a": "La radicación del estudio ambiental permite iniciar mientras se decide la licencia.",
+      "b": "El programa de obras y trabajos sustituye la licencia si incluye manejo ambiental.",
+      "c": "El título no sustituye la licencia ambiental exigible para las fases anunciadas.",
+      "d": "El concepto favorable de la autoridad minera reemplaza la decisión ambiental."
     },
     "respuesta": "c",
     "explicacion": "El artículo 205 del Código de Minas prevé la decisión de la autoridad ambiental competente sobre la licencia para construcción, montaje y explotación, con base en el estudio de impacto ambiental. El programa de obras y trabajos, la radicación del estudio o un concepto de la autoridad minera no sustituyen la licencia exigible. Clave: distinguir presentar un estudio, aprobar un instrumento minero y obtener una autorización ambiental.",
@@ -315,10 +315,10 @@
     "tema": "Estudio de impacto ambiental minero",
     "pregunta": "Al revisar un estudio de impacto ambiental de un proyecto minero, el profesional encuentra descripción del entorno e impactos durante la explotación, pero ninguna medida para el abandono y cierre de los frentes de trabajo. ¿Qué observación es pertinente?",
     "opciones": {
-      "a": "Basta la garantía contractual, porque esta reemplaza la planificación técnica del abandono y cierre.",
-      "b": "El cierre puede reservarse para un documento posterior, sin incorporarlo al estudio inicial.",
-      "c": "Puede aceptarse la omisión si el estudio describe con suficiente detalle los impactos de la operación.",
-      "d": "Debe advertirse la omisión, porque el estudio debe contemplar medidas específicas de abandono y cierre, su manejo, inversiones y seguimiento."
+      "a": "La garantía contractual reemplaza las medidas técnicas para el abandono y cierre.",
+      "b": "Las medidas de cierre pueden omitirse y definirse al finalizar toda la explotación.",
+      "c": "La descripción detallada de impactos operativos permite aceptar esa omisión.",
+      "d": "El estudio debe prever medidas, manejo, inversiones y seguimiento del cierre."
     },
     "respuesta": "d",
     "explicacion": "El artículo 204 del Código de Minas incorpora en el estudio medidas específicas de abandono y cierre, inversiones y seguimiento. Describir la operación, constituir garantías o prometer un documento posterior no reemplaza ese contenido. La observación debe dirigirse al trámite competente y no equivale por sí sola a que el profesional otorgue o niegue la licencia.",
@@ -332,13 +332,13 @@
     "tema": "Despojo y abandono forzado",
     "pregunta": "En el caso I, una familia sale de su finca por amenazas vinculadas al conflicto y queda impedida para administrarla, sin que se identifique una apropiación por otra persona. En el caso II, un tercero aprovecha la violencia para obligar al propietario a firmar la venta del predio y privarlo de este. ¿Qué clasificación inicial se ajusta mejor a los hechos?",
     "opciones": {
-      "a": "I es abandono forzado y II es despojo.",
-      "b": "I es abandono forzado y II únicamente abandono, porque existe un contrato formal de venta.",
-      "c": "I solo puede ser abandono si un tercero ocupó la finca y II es despojo por la venta coaccionada.",
-      "d": "I es abandono y II solo puede ser despojo después de una condena penal por las amenazas."
+      "a": "El caso I es abandono forzado y el caso II es despojo.",
+      "b": "El caso I es despojo y el caso II es abandono forzado.",
+      "c": "El caso I es abandono forzado y el caso II también lo es.",
+      "d": "El caso I es despojo y el caso II también es despojo."
     },
     "respuesta": "a",
-    "explicacion": "El abandono forzado impide administrar, explotar y mantener contacto con el predio a causa del desplazamiento, sin exigir que otro lo ocupe. El despojo implica privación arbitraria aprovechando la violencia y puede instrumentarse mediante negocio jurídico. Una firma no elimina la coacción y la condena penal no es requisito para configurar despojo. La calificación definitiva exige valorar pruebas y demás requisitos legales.",
+    "explicacion": "El artículo 74 de la Ley 1448 distingue el abandono forzado, cuando el desplazamiento impide administrar o explotar el predio, del despojo, cuando se priva arbitrariamente del bien aprovechando la violencia. En I se describe abandono sin apropiación identificada. En II, una venta coaccionada usada para privar del predio. La existencia formal de contrato no descarta el despojo. Invertir las categorías o dar la misma a los dos casos ignora esos hechos.",
     "fuente_conceptual": "https://apps.procuraduria.gov.co/gi/gi/docs/ley_1448_2011.htm",
     "referencia_normativa": "Ley 1448 de 2011, art. 74."
   },
@@ -349,10 +349,10 @@
     "tema": "Titulares del derecho a restitución",
     "pregunta": "Una persona acredita que era poseedora de un predio y que lo abandonó forzosamente en 2005 por hechos relacionados con el conflicto armado. Un servidor pretende descartar su orientación hacia la restitución porque no presenta una escritura de propiedad. ¿Qué debe corregirse?",
     "opciones": {
-      "a": "La declaración de desplazamiento basta para adjudicarle el predio, sin verificar su relación jurídica con este.",
-      "b": "La falta de escritura no excluye por sí sola el derecho: la ley contempla también poseedores y ciertos explotadores de baldíos, sujetos a sus requisitos.",
-      "c": "Debe obtener primero una sentencia de pertenencia en un proceso ordinario para que su solicitud pueda siquiera evaluarse.",
-      "d": "La restitución requiere propiedad inscrita y excluye a quien solo alegue posesión."
+      "a": "La declaración de desplazamiento permite adjudicar el predio sin verificar posesión.",
+      "b": "La ley incluye poseedores, sin que la escritura sea el único criterio de acceso.",
+      "c": "La solicitud exige obtener antes una sentencia de pertenencia en proceso ordinario.",
+      "d": "La restitución exige propiedad inscrita y excluye la posesión como relación jurídica."
     },
     "respuesta": "b",
     "explicacion": "El artículo 75 incluye propietarios, poseedores y explotadores de baldíos cuya propiedad se pretenda adquirir por adjudicación, cuando concurren los requisitos legales. No se limita a propietarios inscritos ni exige convertir previamente toda posesión en dominio para evaluar la solicitud. Tampoco la condición de desplazado adjudica automáticamente un predio. Clave: verificar vínculo y hechos sin excluir por ausencia de escritura.",
@@ -366,10 +366,10 @@
     "tema": "Registro de tierras despojadas",
     "pregunta": "Una persona inscrita en el Registro Único de Víctimas cree que esa inscripción incorpora automáticamente su predio al Registro de Tierras Despojadas y Abandonadas Forzosamente. Solicita información para iniciar la acción de restitución. ¿Qué orientación es correcta?",
     "opciones": {
-      "a": "La inscripción catastral del predio puede sustituir el registro de tierras si coincide el nombre de la víctima.",
-      "b": "La inscripción en el registro de tierras sustituye por sí sola la sentencia de restitución.",
-      "c": "Debe verificarse la inscripción del predio en el registro de tierras administrado por la Unidad de Restitución, pues es un requisito específico de procedibilidad de la acción.",
-      "d": "Ambos registros son equivalentes y no se requiere verificar el predio."
+      "a": "Sustituir el registro de tierras por la inscripción catastral a nombre de la víctima.",
+      "b": "Asumir que la inscripción en tierras hace innecesaria la sentencia de restitución.",
+      "c": "Verificar el registro de tierras de la URT como requisito previo de la acción.",
+      "d": "Asumir que el Registro Único de Víctimas acredita también la inscripción del predio."
     },
     "respuesta": "c",
     "explicacion": "El artículo 76, modificado por la Ley 2421 de 2024, regula un registro específico administrado por la Unidad de Restitución e identifica la inscripción del predio como requisito para iniciar la acción. El Registro Único de Víctimas y el catastro tienen finalidades distintas y no lo sustituyen automáticamente. La inscripción tampoco equivale a sentencia. Clave: separar condición de víctima, registro del predio y decisión de restitución.",
@@ -383,10 +383,10 @@
     "tema": "Autonomía de la restitución frente al proceso penal",
     "pregunta": "En el estudio de un caso de despojo hay indicios de que un negocio jurídico se obtuvo aprovechando la violencia. Un integrante del equipo propone suspender toda valoración de restitución hasta que exista condena penal contra el presunto responsable. ¿Qué criterio debe orientar la revisión?",
     "opciones": {
-      "a": "La falta de condena penal obliga a presumir que el negocio fue libre y a descartar la violencia en el análisis.",
-      "b": "La actuación debe esperar a que se anule el contrato en un proceso civil independiente, aunque haya pruebas del despojo.",
-      "c": "La condena penal ejecutoriada es siempre requisito para configurar el despojo.",
-      "d": "La configuración del despojo es independiente de la responsabilidad penal, sin que ello elimine la necesidad de valorar las pruebas y requisitos propios de restitución."
+      "a": "Descartar la violencia del análisis mientras no exista condena penal por los hechos.",
+      "b": "Exigir primero la anulación del contrato en un proceso civil ajeno a la restitución.",
+      "c": "Exigir condena penal ejecutoriada como condición para reconocer cualquier despojo.",
+      "d": "Valorar el despojo con sus propias pruebas, sin condicionarlo a una condena penal."
     },
     "respuesta": "d",
     "explicacion": "El parágrafo del artículo 74 distingue la configuración del despojo de las responsabilidades penal, administrativa, disciplinaria o civil. No exige una condena penal ni una declaración civil previa como condición general para valorarlo en la restitución. La falta de condena tampoco prueba que el negocio fuera libre. Esta independencia no elimina la necesidad de valorar pruebas ni implica restitución automática.",
@@ -402,10 +402,10 @@
     "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
     "id": 25,
     "opciones": {
-      "a": "Informar el hallazgo, corregir el cálculo con trazabilidad y proponer un control que evite repetir el error.",
-      "b": "Corregir tu copia sin informar al equipo ni actualizar las versiones que se usarán en la decisión.",
-      "c": "Esperar al próximo ciclo de revisión para corregir el método, manteniendo esta entrega por estar cerca del vencimiento.",
-      "d": "Mantener la cifra porque el método fue aprobado previamente y no depende solo de ti."
+      "a": "Informar y corregir el cálculo, actualizando las versiones y controles del equipo.",
+      "b": "Mantener la cifra aprobada y limitar la responsabilidad al autor de la fórmula.",
+      "c": "Corregir solo la copia propia, dejando que el equipo revise luego las otras versiones.",
+      "d": "Remitir la cifra conocida como errada y corregirla en el siguiente informe mensual."
     },
     "respuesta": "a"
   },
@@ -418,10 +418,10 @@
     "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
     "id": 26,
     "opciones": {
-      "a": "Asignar el mismo tiempo a cada actividad sin considerar complejidad, vencimientos o desplazamientos.",
-      "b": "Planificar hitos, dependencias, tiempos y recursos, acordar prioridades y revisar el plan ante cambios relevantes.",
-      "c": "Organizar cada mañana únicamente las tareas que lleguen ese día, sin prever las etapas posteriores.",
-      "d": "Comprometer todas las entregas en la primera semana y ajustar después sin comunicar cambios."
+      "a": "Gestionar cada día las tareas recibidas sin programar las etapas posteriores.",
+      "b": "Planificar hitos, dependencias, recursos y prioridades, revisando los cambios.",
+      "c": "Repartir el mismo tiempo entre tareas, sin diferenciar complejidad ni vencimientos.",
+      "d": "Prometer todas las entregas en una semana y ajustar después sin comunicarlo."
     },
     "respuesta": "b"
   },
@@ -434,10 +434,10 @@
     "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
     "id": 27,
     "opciones": {
-      "a": "Buscar únicamente nuevos documentos que respalden la hipótesis inicial y descartar los demás.",
-      "b": "Elegir el informe más reciente, sin revisar si usa información comparable.",
-      "c": "Diseñar con los equipos un contraste de métodos, fuentes y supuestos, producir una síntesis sustentada y proponer mejoras al procedimiento institucional de investigación.",
-      "d": "Promediar las conclusiones para producir una respuesta neutral, aunque se basen en métodos incompatibles."
+      "a": "Elegir el informe más reciente, tomando su fecha como garantía de mejor evidencia.",
+      "b": "Promediar las conclusiones de ambos, sin comparar sus métodos ni sus supuestos.",
+      "c": "Contrastar métodos y fuentes con los equipos y construir una síntesis sustentada.",
+      "d": "Buscar solo documentos que apoyen la hipótesis inicial y descartar los contrarios."
     },
     "respuesta": "c"
   },
@@ -450,10 +450,10 @@
     "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
     "id": 28,
     "opciones": {
-      "a": "Enumerar todos los hechos en orden de llegada sin proponer relaciones entre ellos.",
-      "b": "Reproducir un esquema usado en otro territorio sin revisar diferencias de contexto.",
-      "c": "Reducir todo el problema a una sola causa para facilitar una respuesta uniforme.",
-      "d": "Construir un modelo que explique relaciones, causas y competencias, distinguir lo probado de lo hipotético y traducirlo en directrices claras de actuación."
+      "a": "Enumerar los hechos por fecha y dejar su interpretación a cada entidad participante.",
+      "b": "Reducir la explicación a una causa para aplicar la misma medida a todo el territorio.",
+      "c": "Aplicar el modelo de otro territorio sin examinar diferencias entre los dos contextos.",
+      "d": "Relacionar causas y competencias con fundamento y traducirlas en directrices claras."
     },
     "respuesta": "d"
   },
@@ -466,10 +466,10 @@
     "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
     "id": 29,
     "opciones": {
-      "a": "Fijar una meta exigente y viable con plazo, recursos, responsables e indicadores de cierre y calidad, revisando desvíos oportunamente.",
-      "b": "Medir solo el número de expedientes cerrados, aunque deban reabrirse por errores.",
-      "c": "Mantener la producción histórica como único objetivo para evitar compromisos difíciles.",
-      "d": "Exigir el doble de cierres sin analizar capacidad ni establecer controles de calidad."
+      "a": "Fijar metas exigentes y viables, con recursos, plazos y seguimiento de su calidad.",
+      "b": "Medir solo cierres, excluyendo del indicador los expedientes reabiertos por error.",
+      "c": "Conservar la producción histórica como meta para reducir el riesgo de incumplir.",
+      "d": "Duplicar la meta de cierres sin valorar capacidad ni establecer controles de calidad."
     },
     "respuesta": "a"
   },
@@ -478,14 +478,14 @@
     "categoria": "Competencias comportamentales",
     "tema": "Cumplimiento de parámetros de trabajo · B",
     "pregunta": "Una urgencia coincide con un control obligatorio de calidad antes de remitir un concepto. El equipo propone omitirlo sin autorización. ¿Qué harías?",
-    "explicacion": "El nivel B supone seguir lineamientos y alinear objetivos del equipo con procedimientos definidos. Una revisión prioritaria por canal autorizado permite gestionar la urgencia sin eliminar el control obligatorio. Reducirlo unilateralmente, trasladar la detección de errores al destinatario o paralizarse sin comunicar no resuelve adecuadamente el riesgo.",
+    "explicacion": "El nivel B supone seguir lineamientos y alinear objetivos del equipo con procedimientos definidos. Una revisión prioritaria por canal autorizado permite gestionar la urgencia sin eliminar el control obligatorio. Omitirlo y registrar una fecha distinta de la real, trasladar la detección de errores al destinatario o paralizarse sin comunicar no resuelve adecuadamente el riesgo.",
     "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
     "id": 30,
     "opciones": {
-      "a": "Paralizar todo trabajo sin informar a quien puede reorganizar la revisión.",
-      "b": "Coordinar una revisión prioritaria por el canal autorizado, comunicar el riesgo de plazo y conservar el control y su evidencia.",
-      "c": "Reducir unilateralmente el alcance del control a una revisión de forma para cumplir el plazo previsto.",
-      "d": "Remitir el concepto como definitivo y dejar al destinatario la detección de posibles errores."
+      "a": "Omitir el control y completarlo después, registrando la fecha prevista originalmente.",
+      "b": "Coordinar la revisión prioritaria y comunicar el riesgo de plazo, sin omitir el control.",
+      "c": "Enviar el concepto definitivo y pedir al destinatario que detecte posibles errores.",
+      "d": "Paralizar la remisión sin informar a quien puede reorganizar la revisión pendiente."
     },
     "respuesta": "b"
   }
