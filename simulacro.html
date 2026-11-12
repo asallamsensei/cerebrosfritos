@@ -1039,7 +1039,7 @@ function cargarSimulacro(archivo, ordenAleatorio = true){
   document.getElementById("btnResponder").disabled = true;
   document.getElementById("btnSiguiente").disabled = true;
   document.getElementById("cargaLocal").classList.add("hidden");
-  fetch(archivo)
+  fetch(archivo, accesoActual?.esPGN142 ? { cache: "no-store" } : {})
     .then(res => {
       if(!res.ok) throw new Error("No se encontró el archivo JSON en la ruta configurada.");
       return res.json();
