@@ -1,0 +1,492 @@
+[
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "PGN: función preventiva y límites",
+    "pregunta": "Una comunidad informa que un proyecto público podría afectar su abastecimiento de agua. La Procuraduría Delegada asigna al profesional estudiar el riesgo antes de que se concrete. ¿Qué actuación corresponde mejor a su función?",
+    "explicacion": "La PGN vigila el cumplimiento del orden jurídico y protege derechos e intereses colectivos. La prevención exige identificar riesgos y actuar dentro de la competencia, sin asumir la administración del proyecto ni reemplazar a la autoridad que decide licencias. Constitución, artículo 277. El profesional prepara las actuaciones conforme a la asignación y para revisión del jefe, sin presumir facultades decisorias autónomas.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/procuraduria/conozca-entidad/Pages/objetivos-funciones.aspx",
+    "id": 1,
+    "opciones": {
+      "a": "Recopilar información, valorar el riesgo y proyectar requerimientos a las autoridades competentes para revisión del jefe, con seguimiento documentado.",
+      "b": "Ordenar directamente al contratista el rediseño técnico de la obra y asumir su supervisión permanente.",
+      "c": "Sustituir la evaluación de la autoridad ambiental por un concepto preventivo vinculante sobre la viabilidad.",
+      "d": "Expedir la licencia ambiental con condiciones de protección para resolver oportunamente la solicitud."
+    },
+    "respuesta": "a"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "PGN: intervención",
+    "pregunta": "En un proceso judicial se discute una afectación al patrimonio público y al ambiente. El jefe pide fundamentar la posible intervención del Ministerio Público. ¿Cuál es el criterio constitucional pertinente?",
+    "explicacion": "El artículo 277.7 establece esos fines de intervención ante autoridades judiciales o administrativas. No convierte al Ministerio Público en abogado automático de una parte ni le transfiere competencias del juez.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/constitucion_politica_1991.htm",
+    "id": 2,
+    "opciones": {
+      "a": "Reemplazar al juez cuando el expediente involucre un interés colectivo de alta relevancia.",
+      "b": "Intervenir cuando sea necesario para defender el orden jurídico, el patrimonio público o los derechos y garantías fundamentales.",
+      "c": "Intervenir únicamente cuando una de las partes particulares otorgue poder al profesional.",
+      "d": "Actuar como representante judicial de la entidad demandada por tratarse siempre de recursos estatales."
+    },
+    "respuesta": "b"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Debido proceso y valoración probatoria",
+    "pregunta": "El expediente contiene una denuncia y un video recortado que parecen demostrar una irregularidad. Se requiere proyectar una decisión con efectos desfavorables. ¿Cuál es el paso más sólido?",
+    "explicacion": "El artículo 29 garantiza debido proceso, presunción de inocencia y defensa. Una denuncia orienta la investigación, pero no reemplaza la valoración integral de prueba obtenida y controvertida conforme al procedimiento. El formato digital no la invalida por sí solo.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/constitucion_politica_1991.htm",
+    "id": 3,
+    "opciones": {
+      "a": "Solicitar al investigado que demuestre su inocencia antes de revisar la integridad del material.",
+      "b": "Adoptar la versión de la denuncia porque el video le otorga corroboración suficiente sin más análisis.",
+      "c": "Contrastar autenticidad, contexto y demás pruebas, garantizando las oportunidades de defensa y contradicción aplicables.",
+      "d": "Excluir el video por ser un archivo digital y decidir únicamente con documentos impresos."
+    },
+    "respuesta": "c"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Función administrativa: imparcialidad",
+    "pregunta": "Una autoridad propone dar prioridad a los expedientes de una organización cercana al equipo, aunque otros tienen mayor riesgo y vencimientos inmediatos. ¿Qué recomendación es compatible con los principios de la función administrativa?",
+    "explicacion": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad orientan la función administrativa (artículo 209). Tratar igual situaciones relevantes distintas no asegura igualdad. La prioridad requiere razones verificables, no afinidades.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/constitucion_politica_1991.htm",
+    "id": 4,
+    "opciones": {
+      "a": "Usar exclusivamente el orden de llegada, incluso ante vencimientos legales y amenazas graves documentadas.",
+      "b": "Repartir el mismo número de expedientes por organización sin valorar diferencias de complejidad o urgencia.",
+      "c": "Atender primero a la organización cercana si tiene capacidad de ayudar a resolver otros asuntos.",
+      "d": "Priorizar mediante criterios objetivos de urgencia, riesgo y plazos, dejando trazabilidad del criterio aplicado."
+    },
+    "respuesta": "d"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Derecho de petición: traslado por competencia",
+    "pregunta": "Una dependencia recibe una petición escrita sobre un asunto que no es de su competencia y logra identificar a la autoridad competente. ¿Qué debe hacer como regla legal?",
+    "explicacion": "El artículo 21 de la Ley 1755 de 2015 exige informar y remitir dentro de cinco días para peticiones escritas. Los términos para decidir se cuentan desde el día siguiente a la recepción por la autoridad competente. No basta con archivar ni se adquiere competencia por economía.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334",
+    "id": 5,
+    "opciones": {
+      "a": "Informar al interesado y remitirla al competente dentro de los cinco días hábiles siguientes a la recepción, enviando copia del oficio remisorio.",
+      "b": "Esperar el término general de quince días y responder únicamente que carece de competencia.",
+      "c": "Archivar la petición e indicar al ciudadano que presente otra ante la entidad que considere competente.",
+      "d": "Resolver de fondo para evitar el traslado, aunque el asunto corresponda legalmente a otra autoridad."
+    },
+    "respuesta": "a"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Derecho de petición: modalidad y término",
+    "pregunta": "Un ciudadano pide copia de documentos que reposan en la entidad. No formula una consulta jurídica ni existe norma especial aplicable. ¿Cuál es el término general para resolver esta modalidad?",
+    "explicacion": "La Ley 1755, artículo 14, distingue peticiones de documentos e información (10 días), peticiones generales (15) y consultas a autoridades sobre materias a su cargo (30). Identificar primero la modalidad evita aplicar automáticamente el término general. El cómputo se rige por las reglas legales de días hábiles salvo disposición contraria.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334",
+    "id": 6,
+    "opciones": {
+      "a": "Cinco días hábiles siguientes a su recepción por tratarse de información pública.",
+      "b": "Diez días hábiles siguientes a su recepción.",
+      "c": "Quince días hábiles siguientes a su recepción, como toda petición.",
+      "d": "Treinta días hábiles siguientes a su recepción por requerir búsqueda documental."
+    },
+    "respuesta": "b"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Conflicto de interés e imparcialidad",
+    "pregunta": "Al revisar un asunto administrativo, el profesional advierte que su cónyuge tiene interés particular y directo en la decisión. ¿Cómo debe proceder?",
+    "explicacion": "El interés particular y directo del cónyuge es causal de impedimento. Debe declararse por el procedimiento de los artículos 11 y 12 del CPACA. Informarlo al final, gestionar una renuncia informal o agregar otra firma no sustituye ese trámite ni resuelve el conflicto.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41249",
+    "id": 7,
+    "opciones": {
+      "a": "Pedir al cónyuge que renuncie informalmente a su interés y conservar el expediente sin informar.",
+      "b": "Solicitar una segunda firma de otro profesional y continuar sustanciando el expediente sin declarar el impedimento.",
+      "c": "Declarar el impedimento por el canal previsto y poner el asunto en conocimiento de quien deba resolverlo, sin continuar como si no existiera el conflicto.",
+      "d": "Continuar y mencionar la relación familiar únicamente en la decisión final para asegurar transparencia."
+    },
+    "respuesta": "c"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Contratación estatal: selección objetiva",
+    "pregunta": "En la revisión preventiva de una contratación, se propone escoger un oferente por su buena relación con la entidad, pese a que los factores publicados favorecen a otro. ¿Cuál es el análisis correcto?",
+    "explicacion": "La selección objetiva excluye motivos subjetivos y se rige por factores previamente establecidos, conforme al artículo 5 de la Ley 1150 de 2007. No equivale a elegir siempre el menor precio, pues la regla depende de la modalidad y del objeto.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=184686",
+    "id": 8,
+    "opciones": {
+      "a": "La confianza previa puede desplazar los factores publicados si se explica en el acta de evaluación.",
+      "b": "Es válido modificar los factores de evaluación después de conocer las ofertas para elegir al proveedor conocido.",
+      "c": "Debe escogerse siempre el precio más bajo, cualquiera que sea la modalidad y los factores previstos.",
+      "d": "La selección debe ajustarse a los factores objetivos establecidos y a la oferta más favorable, sin motivos de afecto o interés subjetivo."
+    },
+    "respuesta": "d"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Gestión documental: trazabilidad",
+    "pregunta": "Un expediente digital contiene dos versiones contradictorias de un informe técnico. ¿Qué manejo protege mejor la integridad del expediente?",
+    "explicacion": "La Ley 594 de 2000 exige integridad, autenticidad, organización y conservación documental, especialmente en sus artículos 4, 12 y 19. La solución aplica esos principios al control de versiones: conservar conforme al procedimiento, identificar el documento vigente y documentar la corrección. Borrar sin constancia, mantener versiones contradictorias como definitivas o alterar fechas compromete la trazabilidad. No se afirma que la ley ordene conservar indefinidamente toda copia de trabajo.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4275",
+    "id": 9,
+    "opciones": {
+      "a": "Conservar las versiones según el procedimiento documental, identificar la vigente y registrar autoría, fechas y motivo de la corrección.",
+      "b": "Eliminar la versión anterior sin dejar constancia para que ningún lector se confunda.",
+      "c": "Conservar ambas como finales y permitir que cada lector elija la que considere más reciente.",
+      "d": "Reemplazar el archivo original manteniendo su fecha anterior para no alterar la cronología del trámite."
+    },
+    "respuesta": "a"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Análisis de datos: denominador y oportunidad",
+    "pregunta": "En el trimestre A se resolvieron oportunamente 72 de 80 peticiones cuyo plazo vencía en ese trimestre. En B fueron 108 de 120. Se usa el mismo criterio y universo. ¿Qué conclusión está respaldada?",
+    "explicacion": "72/80 = 90% y 108/120 = 90%. El volumen oportuno sube 50%, pero la proporción no cambia. Confundir cantidades con tasas conduce a informes errados. Este ejercicio entrena elaboración de estadísticas y reportes, función 12 del perfil.",
+    "fuente_conceptual": "https://www.meritoconstruyendoexcelencia.com.co/",
+    "id": 10,
+    "opciones": {
+      "a": "La oportunidad es 180% al sumar las dos tasas trimestrales.",
+      "b": "Aumentó el número de respuestas oportunas, pero la tasa de oportunidad se mantuvo en 90%.",
+      "c": "La tasa de oportunidad aumentó 50% porque las respuestas oportunas pasaron de 72 a 108.",
+      "d": "La oportunidad bajó porque el segundo trimestre tuvo más peticiones pendientes de resolver oportunamente."
+    },
+    "respuesta": "b"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Formulación de proyectos: resultado e indicador",
+    "pregunta": "Un plan preventivo busca reducir los incumplimientos de obligaciones ambientales identificados en visitas. ¿Cuál indicador evalúa mejor ese resultado, en vez de limitarse a contar actividades?",
+    "explicacion": "El resultado se refiere al cambio logrado, no solo a insumos o actividades. Un indicador necesita universo, verificación, periodicidad y línea base. Reuniones, correos y páginas pueden medir actividad, pero por sí solos no acreditan corrección. Alineado con funciones 1, 12 y 14 del perfil.",
+    "fuente_conceptual": "https://www.meritoconstruyendoexcelencia.com.co/",
+    "id": 11,
+    "opciones": {
+      "a": "Número de páginas de los informes técnicos producidos.",
+      "b": "Número de reuniones convocadas por el equipo durante el semestre.",
+      "c": "Porcentaje de incumplimientos priorizados que se corrigen y verifican dentro del plazo definido, con línea base y criterio de cierre.",
+      "d": "Cantidad de correos enviados a las entidades vigiladas, sin distinguir su propósito."
+    },
+    "respuesta": "c"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Argumentación técnica: correlación y causalidad",
+    "pregunta": "Después de iniciar una obra minera, una estación registra más turbidez. Solo existen dos mediciones aisladas y hubo lluvias intensas. ¿Qué conclusión es técnicamente defendible para el informe preventivo?",
+    "explicacion": "Una asociación temporal no prueba causa exclusiva. Deben evaluarse hipótesis alternativas y calidad del dato. Tampoco permite descartar el riesgo ni paraliza la prevención. El informe debe separar hechos, inferencias y límites de evidencia. Alineado con investigación y conocimiento del área disciplinar.",
+    "fuente_conceptual": "https://www.meritoconstruyendoexcelencia.com.co/",
+    "id": 12,
+    "opciones": {
+      "a": "La falta de certeza causal impide recopilar información o adoptar cualquier actuación preventiva dentro de la competencia.",
+      "b": "La lluvia descarta cualquier contribución minera y justifica cerrar el seguimiento.",
+      "c": "La coincidencia temporal demuestra por sí sola que la mina causó toda la turbidez registrada.",
+      "d": "Hay una señal que exige contrastar línea base, lluvias, otros aportes y datos comparables antes de atribuir causalidad exclusiva a la obra."
+    },
+    "respuesta": "d"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Atención al usuario: enfoque diferencial",
+    "pregunta": "Una persona con discapacidad visual solicita orientación sobre una actuación. El canal habitual consiste en una imagen escaneada sin texto accesible. ¿Qué respuesta protege mejor su acceso efectivo?",
+    "explicacion": "La igualdad material requiere eliminar barreras y brindar acceso efectivo. La accesibilidad no elimina las reglas de reserva y autorización. El mismo formato para todos puede mantener una barrera. Constitución, artículo 13, y enfoque de inclusión indicado en el perfil.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/constitucion_politica_1991.htm",
+    "id": 13,
+    "opciones": {
+      "a": "Ofrecer la información en un formato accesible y verificar comprensión, preservando reserva y canales institucionales.",
+      "b": "Enviar la imagen habitual y considerar atendida la solicitud porque se usa el mismo formato para todos.",
+      "c": "Exigir que un familiar gestione toda la consulta para evitar adaptar el canal.",
+      "d": "Enviar el expediente completo a cualquier acompañante sin verificar autorización para facilitar la comunicación."
+    },
+    "respuesta": "a"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Control de gestión: priorización basada en riesgo",
+    "pregunta": "Hay tres asuntos: A, posible daño irreversible a una fuente hídrica con evidencia inicial consistente y plazo próximo; B, actualización rutinaria sin vencimiento inmediato; C, consulta ya contestada que requiere archivo. ¿Qué plan es más adecuado?",
+    "explicacion": "La priorización debe considerar impacto, urgencia, obligaciones y recursos, sin perder trazabilidad de los demás asuntos. La rapidez de cierre no debe desplazar un riesgo grave, y priorizar no equivale a abandonar el resto. Aplica organización del trabajo y control de gestión del perfil.",
+    "fuente_conceptual": "https://www.meritoconstruyendoexcelencia.com.co/",
+    "id": 14,
+    "opciones": {
+      "a": "Resolver primero C y B porque son rápidos, dejando A para cuando haya tiempo suficiente.",
+      "b": "Atender primero el riesgo y vencimiento de A, asignar responsables y plazos a B y C, y documentar la priorización.",
+      "c": "Dar igual tiempo a los tres asuntos, pues toda diferencia de prioridad viola la igualdad.",
+      "d": "Suspender B y C indefinidamente sin registrar pendientes mientras se analiza A."
+    },
+    "respuesta": "b"
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Precaución ambiental",
+    "pregunta": "En una actuación preventiva se recibe un informe técnico que identifica peligro de daño grave e irreversible en un acuífero. Existen incertidumbres científicas sobre la magnitud exacta. La autoridad propone esperar a que se cuantifique todo el daño para decidir. ¿Qué recomendación está mejor sustentada?",
+    "opciones": {
+      "a": "Limitarse a pedir nuevos estudios y aplazar cualquier medida hasta obtener certeza científica absoluta.",
+      "b": "Autorizar la continuidad sin medidas adicionales, porque el informe aún no determina la magnitud exacta del daño.",
+      "c": "Solicitar a la autoridad competente medidas eficaces y motivadas de protección, sin usar la incertidumbre absoluta como razón para aplazarlas.",
+      "d": "Tramitar primero una sanción y reservar las medidas de protección para cuando quede probada la responsabilidad."
+    },
+    "respuesta": "c",
+    "explicacion": "La Ley 99 de 1993, artículo 1 numeral 6, exige considerar medidas eficaces ante peligro de daño grave e irreversible sin aplazarlas por falta de certeza científica absoluta. La recomendación debe apoyarse en evidencia y dirigirse a la autoridad competente. Pedir estudios puede ser necesario, pero no justifica por sí solo posponer la protección. La incertidumbre sobre la magnitud tampoco autoriza continuar sin medidas. Proteger frente al riesgo y determinar responsabilidad sancionatoria son asuntos distintos.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_0099_1993.htm",
+    "referencia_normativa": "Ley 99 de 1993, art. 1.6."
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Prioridad del recurso hídrico",
+    "pregunta": "Durante una sequía, la oferta hídrica disponible no alcanza para atender simultáneamente el abastecimiento básico de una población y una nueva demanda industrial. El profesional debe identificar el principio legal que orienta la evaluación de la autoridad ambiental. ¿Cuál corresponde?",
+    "opciones": {
+      "a": "La antigüedad de la solicitud determina la prioridad, incluso frente al abastecimiento básico humano.",
+      "b": "El uso industrial tiene prioridad si demuestra mayor productividad económica por metro cúbico.",
+      "c": "La distribución debe conservar los porcentajes históricos de cada uso, con independencia de las necesidades básicas.",
+      "d": "El consumo humano tiene prioridad sobre los demás usos del recurso hídrico."
+    },
+    "respuesta": "d",
+    "explicacion": "El artículo 1 numeral 5 de la Ley 99 establece la prioridad del consumo humano. La productividad económica, el orden de solicitud o los porcentajes históricos no desplazan por sí mismos esa prioridad. Esta orienta la evaluación de la autoridad competente y no habilita al profesional para asignar directamente el recurso ni para prescindir del procedimiento aplicable.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_0099_1993.htm",
+    "referencia_normativa": "Ley 99 de 1993, art. 1.5."
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Participación ambiental",
+    "pregunta": "Una asociación ciudadana solicita intervenir en la actuación administrativa para modificar una licencia ambiental. La oficina rechaza la solicitud únicamente porque la asociación no es propietaria de predios vecinos ni acredita un perjuicio patrimonial. ¿Qué aspecto debe advertir el profesional que revisa el caso?",
+    "opciones": {
+      "a": "La intervención ambiental no exige demostrar interés jurídico alguno en los procedimientos contemplados por el artículo 69 de la Ley 99.",
+      "b": "La asociación debe esperar la decisión final de la licencia y limitarse a ejercer acciones judiciales.",
+      "c": "La asociación solo puede intervenir si acredita un perjuicio individual, actual y cuantificable.",
+      "d": "La asociación debe obtener autorización de un propietario vecino para intervenir en nombre de este."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 69 de la Ley 99 permite intervenir a personas naturales o jurídicas, públicas o privadas, sin demostrar interés jurídico, en las actuaciones allí descritas. No exige un daño patrimonial individual ni representar a un propietario vecino. Tampoco obliga a esperar la decisión para participar. Clave: no trasladar requisitos de otras acciones a la participación administrativa ambiental.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_0099_1993.htm",
+    "referencia_normativa": "Ley 99 de 1993, art. 69."
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Adaptación y mitigación climática",
+    "pregunta": "Un municipio proyecta dos medidas: I, ajustar su infraestructura de drenaje a lluvias extremas esperadas para reducir la vulnerabilidad de la población. II, sustituir equipos que consumen combustibles fósiles para reducir emisiones de gases de efecto invernadero. Según el objetivo principal descrito, ¿cómo se clasifican?",
+    "opciones": {
+      "a": "I y II son exclusivamente adaptación, porque son decisiones municipales.",
+      "b": "I es adaptación y II es mitigación.",
+      "c": "I es mitigación y II es adaptación.",
+      "d": "I y II son exclusivamente mitigación, porque ambas son ambientales."
+    },
+    "respuesta": "b",
+    "explicacion": "La adaptación ajusta los sistemas a efectos presentes o esperados del clima. La mitigación busca reducir emisiones o mejorar sumideros. La medida I responde a un efecto y reduce vulnerabilidad. La II reduce emisiones. No se clasifican por ser decisiones ambientales o municipales. Una medida puede tener cobeneficios, pero se pregunta por el propósito principal expresamente indicado.",
+    "fuente_conceptual": "https://minvivienda.gov.co/sites/default/files/normativa/ley_1931_de_2018-gestion-cambio-climatico.pdf",
+    "referencia_normativa": "Ley 1931 de 2018, arts. 1 y 3."
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Título minero y licencia ambiental",
+    "pregunta": "Una empresa presenta un contrato de concesión minera vigente y anuncia que iniciará construcción, montaje y explotación del proyecto, aunque todavía no tiene la licencia ambiental exigible. Alega que el título minero reemplaza esa autorización. ¿Cuál es la conclusión correcta para el informe preventivo?",
+    "opciones": {
+      "a": "Basta radicar el estudio de impacto ambiental para iniciar, mientras la autoridad decide sobre la licencia.",
+      "b": "La aprobación del programa de obras y trabajos sustituye la licencia si contiene medidas ambientales.",
+      "c": "Debe verificarse la licencia ambiental correspondiente, pues el título no reemplaza el pronunciamiento de la autoridad ambiental basado en el estudio de impacto ambiental.",
+      "d": "El concepto favorable de la autoridad minera reemplaza la decisión de la autoridad ambiental."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 205 del Código de Minas prevé la decisión de la autoridad ambiental competente sobre la licencia para construcción, montaje y explotación, con base en el estudio de impacto ambiental. El programa de obras y trabajos, la radicación del estudio o un concepto de la autoridad minera no sustituyen la licencia exigible. Clave: distinguir presentar un estudio, aprobar un instrumento minero y obtener una autorización ambiental.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_0685_2001.htm",
+    "referencia_normativa": "Ley 685 de 2001, art. 205."
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Estudio de impacto ambiental minero",
+    "pregunta": "Al revisar un estudio de impacto ambiental de un proyecto minero, el profesional encuentra descripción del entorno e impactos durante la explotación, pero ninguna medida para el abandono y cierre de los frentes de trabajo. ¿Qué observación es pertinente?",
+    "opciones": {
+      "a": "Basta la garantía contractual, porque esta reemplaza la planificación técnica del abandono y cierre.",
+      "b": "El cierre puede reservarse para un documento posterior, sin incorporarlo al estudio inicial.",
+      "c": "Puede aceptarse la omisión si el estudio describe con suficiente detalle los impactos de la operación.",
+      "d": "Debe advertirse la omisión, porque el estudio debe contemplar medidas específicas de abandono y cierre, su manejo, inversiones y seguimiento."
+    },
+    "respuesta": "d",
+    "explicacion": "El artículo 204 del Código de Minas incorpora en el estudio medidas específicas de abandono y cierre, inversiones y seguimiento. Describir la operación, constituir garantías o prometer un documento posterior no reemplaza ese contenido. La observación debe dirigirse al trámite competente y no equivale por sí sola a que el profesional otorgue o niegue la licencia.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_0685_2001.htm",
+    "referencia_normativa": "Ley 685 de 2001, art. 204."
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Despojo y abandono forzado",
+    "pregunta": "En el caso I, una familia sale de su finca por amenazas vinculadas al conflicto y queda impedida para administrarla, sin que se identifique una apropiación por otra persona. En el caso II, un tercero aprovecha la violencia para obligar al propietario a firmar la venta del predio y privarlo de este. ¿Qué clasificación inicial se ajusta mejor a los hechos?",
+    "opciones": {
+      "a": "I es abandono forzado y II es despojo.",
+      "b": "I es abandono forzado y II únicamente abandono, porque existe un contrato formal de venta.",
+      "c": "I solo puede ser abandono si un tercero ocupó la finca y II es despojo por la venta coaccionada.",
+      "d": "I es abandono y II solo puede ser despojo después de una condena penal por las amenazas."
+    },
+    "respuesta": "a",
+    "explicacion": "El abandono forzado impide administrar, explotar y mantener contacto con el predio a causa del desplazamiento, sin exigir que otro lo ocupe. El despojo implica privación arbitraria aprovechando la violencia y puede instrumentarse mediante negocio jurídico. Una firma no elimina la coacción y la condena penal no es requisito para configurar despojo. La calificación definitiva exige valorar pruebas y demás requisitos legales.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/gi/gi/docs/ley_1448_2011.htm",
+    "referencia_normativa": "Ley 1448 de 2011, art. 74."
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Titulares del derecho a restitución",
+    "pregunta": "Una persona acredita que era poseedora de un predio y que lo abandonó forzosamente en 2005 por hechos relacionados con el conflicto armado. Un servidor pretende descartar su orientación hacia la restitución porque no presenta una escritura de propiedad. ¿Qué debe corregirse?",
+    "opciones": {
+      "a": "La declaración de desplazamiento basta para adjudicarle el predio, sin verificar su relación jurídica con este.",
+      "b": "La falta de escritura no excluye por sí sola el derecho: la ley contempla también poseedores y ciertos explotadores de baldíos, sujetos a sus requisitos.",
+      "c": "Debe obtener primero una sentencia de pertenencia en un proceso ordinario para que su solicitud pueda siquiera evaluarse.",
+      "d": "La restitución requiere propiedad inscrita y excluye a quien solo alegue posesión."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 75 incluye propietarios, poseedores y explotadores de baldíos cuya propiedad se pretenda adquirir por adjudicación, cuando concurren los requisitos legales. No se limita a propietarios inscritos ni exige convertir previamente toda posesión en dominio para evaluar la solicitud. Tampoco la condición de desplazado adjudica automáticamente un predio. Clave: verificar vínculo y hechos sin excluir por ausencia de escritura.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/gi/gi/docs/ley_1448_2011.htm",
+    "referencia_normativa": "Ley 1448 de 2011, art. 75."
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Registro de tierras despojadas",
+    "pregunta": "Una persona inscrita en el Registro Único de Víctimas cree que esa inscripción incorpora automáticamente su predio al Registro de Tierras Despojadas y Abandonadas Forzosamente. Solicita información para iniciar la acción de restitución. ¿Qué orientación es correcta?",
+    "opciones": {
+      "a": "La inscripción catastral del predio puede sustituir el registro de tierras si coincide el nombre de la víctima.",
+      "b": "La inscripción en el registro de tierras sustituye por sí sola la sentencia de restitución.",
+      "c": "Debe verificarse la inscripción del predio en el registro de tierras administrado por la Unidad de Restitución, pues es un requisito específico de procedibilidad de la acción.",
+      "d": "Ambos registros son equivalentes y no se requiere verificar el predio."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 76, modificado por la Ley 2421 de 2024, regula un registro específico administrado por la Unidad de Restitución e identifica la inscripción del predio como requisito para iniciar la acción. El Registro Único de Víctimas y el catastro tienen finalidades distintas y no lo sustituyen automáticamente. La inscripción tampoco equivale a sentencia. Clave: separar condición de víctima, registro del predio y decisión de restitución.",
+    "fuente_conceptual": "https://www.unidadvictimas.gov.co/wp-content/uploads/Documentos/ley/Ley_2421_2024.pdf",
+    "referencia_normativa": "Ley 1448 de 2011, art. 76, modificado por Ley 2421 de 2024, art. 29."
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Autonomía de la restitución frente al proceso penal",
+    "pregunta": "En el estudio de un caso de despojo hay indicios de que un negocio jurídico se obtuvo aprovechando la violencia. Un integrante del equipo propone suspender toda valoración de restitución hasta que exista condena penal contra el presunto responsable. ¿Qué criterio debe orientar la revisión?",
+    "opciones": {
+      "a": "La falta de condena penal obliga a presumir que el negocio fue libre y a descartar la violencia en el análisis.",
+      "b": "La actuación debe esperar a que se anule el contrato en un proceso civil independiente, aunque haya pruebas del despojo.",
+      "c": "La condena penal ejecutoriada es siempre requisito para configurar el despojo.",
+      "d": "La configuración del despojo es independiente de la responsabilidad penal, sin que ello elimine la necesidad de valorar las pruebas y requisitos propios de restitución."
+    },
+    "respuesta": "d",
+    "explicacion": "El parágrafo del artículo 74 distingue la configuración del despojo de las responsabilidades penal, administrativa, disciplinaria o civil. No exige una condena penal ni una declaración civil previa como condición general para valorarlo en la restitución. La falta de condena tampoco prueba que el negocio fuera libre. Esta independencia no elimina la necesidad de valorar pruebas ni implica restitución automática.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/gi/gi/docs/ley_1448_2011.htm",
+    "referencia_normativa": "Ley 1448 de 2011, art. 74, parágrafo."
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Responsabilidad con la organización · B",
+    "pregunta": "Antes de remitir un informe, detectas que una fórmula usada por tu equipo sobrestima los avances. Corregirla obliga a explicar un resultado menor al esperado. ¿Cuál es la mejor actuación?",
+    "explicacion": "La responsabilidad B se orienta al cumplimiento de objetivos y a la mejora de procesos. Debe corregirse el cálculo y coordinarse la actualización antes de usar cifras que se saben erradas. La aprobación previa no elimina el deber de advertir el error. Corregir solo una copia o posponer el ajuste mantiene decisiones apoyadas en información defectuosa. Es un ejercicio pedagógico, no una escala psicométrica oficial.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "id": 25,
+    "opciones": {
+      "a": "Informar el hallazgo, corregir el cálculo con trazabilidad y proponer un control que evite repetir el error.",
+      "b": "Corregir tu copia sin informar al equipo ni actualizar las versiones que se usarán en la decisión.",
+      "c": "Esperar al próximo ciclo de revisión para corregir el método, manteniendo esta entrega por estar cerca del vencimiento.",
+      "d": "Mantener la cifra porque el método fue aprobado previamente y no depende solo de ti."
+    },
+    "respuesta": "a"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Organización del trabajo · B",
+    "pregunta": "Recibes dos investigaciones de varias semanas, visitas programadas y un informe mensual. Los recursos son limitados. ¿Qué estrategia demuestra mejor organización de nivel B?",
+    "explicacion": "El nivel B contempla planificación de mediano plazo usando recursos y tiempo. El plan debe ser realista, coordinado y adaptable. Una lista diaria puede ayudar, pero no reemplaza la programación de trabajos con dependencias.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "id": 26,
+    "opciones": {
+      "a": "Asignar el mismo tiempo a cada actividad sin considerar complejidad, vencimientos o desplazamientos.",
+      "b": "Planificar hitos, dependencias, tiempos y recursos, acordar prioridades y revisar el plan ante cambios relevantes.",
+      "c": "Organizar cada mañana únicamente las tareas que lleguen ese día, sin prever las etapas posteriores.",
+      "d": "Comprometer todas las entregas en la primera semana y ajustar después sin comunicar cambios."
+    },
+    "respuesta": "b"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Investigación · B",
+    "pregunta": "Dos informes técnicos llegan a conclusiones diferentes sobre una zona de intervención. Debes apoyar una decisión institucional. ¿Qué acción refleja mejor investigación de nivel B?",
+    "explicacion": "El nivel B incorpora diseño y realización conjunta de estudios para mejorar el funcionamiento institucional. El contraste metodológico debe explicar las diferencias y generar aprendizajes aplicables. Elegir por fecha, promediar métodos incompatibles o buscar solo confirmación no asegura evidencia válida. La investigación no consiste solo en acumular documentos.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "id": 27,
+    "opciones": {
+      "a": "Buscar únicamente nuevos documentos que respalden la hipótesis inicial y descartar los demás.",
+      "b": "Elegir el informe más reciente, sin revisar si usa información comparable.",
+      "c": "Diseñar con los equipos un contraste de métodos, fuentes y supuestos, producir una síntesis sustentada y proponer mejoras al procedimiento institucional de investigación.",
+      "d": "Promediar las conclusiones para producir una respuesta neutral, aunque se basen en métodos incompatibles."
+    },
+    "respuesta": "c"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Pensamiento conceptual · A",
+    "pregunta": "Un problema territorial mezcla presión minera, desplazamiento, deterioro hídrico y competencias de varias entidades. El equipo necesita orientar la intervención. ¿Qué aportación evidencia mejor pensamiento conceptual de nivel A?",
+    "explicacion": "El nivel A busca explicar problemas complejos y formular directrices comprensibles. Integrar variables no significa inventar causalidad, sino organizarla con sustento y límites. Listar información, simplificar en exceso o copiar sin adaptar no cumple ese propósito.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "id": 28,
+    "opciones": {
+      "a": "Enumerar todos los hechos en orden de llegada sin proponer relaciones entre ellos.",
+      "b": "Reproducir un esquema usado en otro territorio sin revisar diferencias de contexto.",
+      "c": "Reducir todo el problema a una sola causa para facilitar una respuesta uniforme.",
+      "d": "Construir un modelo que explique relaciones, causas y competencias, distinguir lo probado de lo hipotético y traducirlo en directrices claras de actuación."
+    },
+    "respuesta": "d"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Orientación a resultados · A",
+    "pregunta": "La delegada quiere reducir el atraso sin sacrificar calidad. ¿Cuál propuesta demuestra mejor orientación a resultados de nivel A?",
+    "explicacion": "El nivel A vincula metas desafiantes con recursos, tiempos y logro efectivo. El volumen sin calidad puede producir retrabajo. Exigir más sin medios ni seguimiento tampoco constituye gestión orientada a resultados.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "id": 29,
+    "opciones": {
+      "a": "Fijar una meta exigente y viable con plazo, recursos, responsables e indicadores de cierre y calidad, revisando desvíos oportunamente.",
+      "b": "Medir solo el número de expedientes cerrados, aunque deban reabrirse por errores.",
+      "c": "Mantener la producción histórica como único objetivo para evitar compromisos difíciles.",
+      "d": "Exigir el doble de cierres sin analizar capacidad ni establecer controles de calidad."
+    },
+    "respuesta": "a"
+  },
+  {
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Cumplimiento de parámetros de trabajo · B",
+    "pregunta": "Una urgencia coincide con un control obligatorio de calidad antes de remitir un concepto. El equipo propone omitirlo sin autorización. ¿Qué harías?",
+    "explicacion": "El nivel B supone seguir lineamientos y alinear objetivos del equipo con procedimientos definidos. Una revisión prioritaria por canal autorizado permite gestionar la urgencia sin eliminar el control obligatorio. Reducirlo unilateralmente, trasladar la detección de errores al destinatario o paralizarse sin comunicar no resuelve adecuadamente el riesgo.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "id": 30,
+    "opciones": {
+      "a": "Paralizar todo trabajo sin informar a quien puede reorganizar la revisión.",
+      "b": "Coordinar una revisión prioritaria por el canal autorizado, comunicar el riesgo de plazo y conservar el control y su evidencia.",
+      "c": "Reducir unilateralmente el alcance del control a una revisión de forma para cumplir el plazo previsto.",
+      "d": "Remitir el concepto como definitivo y dejar al destinatario la detección de posibles errores."
+    },
+    "respuesta": "b"
+  }
+]
