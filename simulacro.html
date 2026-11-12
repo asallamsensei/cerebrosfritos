@@ -726,6 +726,27 @@ let finExamen = null;
 let intervaloReloj = null;
 
 const ACCESOS = {
+  "procuraduria142": {
+  "estudiante": "Preparación profesional",
+  "titulo": "Procuraduría · Convocatoria 142–2026",
+  "subtitulo": "3PU-17 · 30 preguntas originales · Ambiente, tierras y competencias del cargo",
+  "archivo": "data/simulacro_procuraduria142_30_preguntas.json",
+  "ordenAleatorio": true,
+  "modoExamen": true,
+  "minutos": 45,
+  "esPGN142": true
+},
+  "procuraduria142_estudiar": {
+  "estudiante": "Preparación profesional",
+  "titulo": "Procuraduría · Convocatoria 142–2026 · Estudio",
+  "subtitulo": "3PU-17 · 30 preguntas originales · Ambiente, tierras y competencias del cargo",
+  "archivo": "data/simulacro_procuraduria142_30_preguntas.json",
+  "ordenAleatorio": false,
+  "modoExamen": false,
+  "minutos": 45,
+  "esPGN142": true
+},
+
 
   "español": {
     "estudiante": "Patita",
@@ -1071,6 +1092,13 @@ function configurarModo(){
   aviso.innerText = modoExamen
     ? `Examen de práctica: ${accesoActual.minutos || 75} minutos sugeridos para este bloque. El tiempo comienza al cargar las preguntas. Puedes omitir, volver y cambiar respuestas; las explicaciones se muestran al entregar. Las omitidas no suman aciertos. Este tiempo y las ${preguntas.length} preguntas no son la distribución oficial por área de la UNAM.`
     : "Modo estudio: selecciona una opción y pulsa Comprobar para ver la explicación. No hay límite de tiempo. Material original de práctica, no oficial de la UNAM.";
+  if(accesoActual?.esPGN142){
+    aviso.classList.remove("hidden");
+    aviso.innerText = (modoExamen
+      ? "Práctica de 45 minutos: 24 preguntas de conocimientos y 6 situaciones comportamentales. Puedes omitir, volver y cambiar respuestas. Las explicaciones aparecen al entregar. "
+      : "Modo estudio sin tiempo: responde y pulsa Comprobar para leer la explicación. ")
+      + "Selección pedagógica basada en el perfil 142–2026, normas vigentes consultadas y antecedentes oficiales. No es una prueba oficial ni una predicción exacta. La distribución y el tiempo son de práctica. El porcentaje de aciertos no equivale al puntaje oficial. Las situaciones comportamentales entrenan criterios, no reproducen una escala psicométrica.";
+  }
   document.getElementById("btnResponder").classList.toggle("hidden", modoExamen);
   document.getElementById("btnEntregar").classList.toggle("hidden", !modoExamen);
   document.getElementById("reloj").classList.toggle("hidden", !modoExamen);
@@ -1442,6 +1470,9 @@ function terminarSimulacro(tiempoAgotado = false){
 
   document.getElementById("mensajeFinal").innerText =
     `${tiempoAgotado ? "Tiempo agotado. " : ""}${s.aciertos} aciertos de ${preguntas.length} · ${s.errores} errores · ${s.omitidas} sin responder. ${mensaje} Este porcentaje es de práctica; no equivale al resultado global ni garantiza ingreso a la UNAM.`;
+  if(accesoActual?.esPGN142){
+    document.getElementById("mensajeFinal").innerText = `${tiempoAgotado ? "Tiempo agotado. " : ""}${s.aciertos} aciertos de ${preguntas.length} · ${s.errores} errores · ${s.omitidas} sin responder. ${mensaje} Porcentaje de práctica, no puntaje oficial. El concurso pondera conocimientos 70%, comportamentales 20% y antecedentes 10%, con calificación estadística. Esta práctica no determina aprobación ni ingreso.`;
+  }
   mostrarRevision();
 }
 
@@ -1451,6 +1482,27 @@ function mostrarRevision(){
   const titulo = document.createElement("h2");
   titulo.innerText = "Revisión y explicaciones";
   box.appendChild(titulo);
+  if(accesoActual?.esPGN142){
+    const bloques = {};
+    const pendientes = [];
+    preguntas.forEach((p,i) => {
+      const nombre = p.categoria || "General";
+      bloques[nombre] ||= {total:0, aciertos:0};
+      bloques[nombre].total++;
+      if(respuestasUsuario[i] === String(p.respuesta).toLowerCase()) bloques[nombre].aciertos++;
+      else pendientes.push(p.tema);
+    });
+    Object.entries(bloques).forEach(([nombre,b]) => {
+      const parrafo = document.createElement("p");
+      parrafo.innerText = `${nombre}: ${b.aciertos}/${b.total} (${Math.round(100*b.aciertos/b.total)}%).`;
+      box.appendChild(parrafo);
+    });
+    const consejo = document.createElement("p");
+    consejo.innerText = pendientes.length
+      ? "Refuerzo recomendado: " + [...new Set(pendientes)].join(" · ") + ". Revisa abajo el razonamiento y la fuente, explica por qué descartas cada alternativa y vuelve a resolver sin mirar la clave."
+      : "Resolviste todos los casos. Para comprobar transferencia, explica el fundamento de cada decisión sin mirar las opciones. Este bloque no cubre todo el programa del cargo.";
+    box.appendChild(consejo);
+  }
   preguntas.forEach((p,i) => {
     const elegida = respuestasUsuario[i];
     const correcta = String(p.respuesta).toLowerCase();
@@ -1523,5 +1575,6 @@ document.addEventListener("keydown", function(e){
 
 </body>
 </html>
+
 
 
