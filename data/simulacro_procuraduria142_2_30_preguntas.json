@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Petición incompleta: subsanación",
+    "pregunta": "Una petición ya radicada omite un dato que solo posee el solicitante y que es indispensable para resolverla. La actuación puede continuar legalmente. ¿Cuál es la respuesta procedente?",
+    "opciones": {
+      "a": "Rechazar de plano la petición por incumplir los requisitos de entrada.",
+      "b": "Resolver negativamente el fondo sin solicitar el dato que hace falta.",
+      "c": "Requerir que complete la petición por el trámite legal de subsanación.",
+      "d": "Devolver la petición sin radicar hasta que entregue el dato pendiente."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 17 ordena requerir la subsanación dentro de los diez días siguientes a la radicación y concede hasta un mes para completar. La omisión subsanable no autoriza rechazo automático ni una decisión de fondo sin la información necesaria. La petición ya está radicada.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334",
+    "referencia_normativa": "Ley 1755 de 2015, art. 17."
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Petición: protección urgente",
+    "pregunta": "Una solicitud acredita peligro inminente para la vida de su destinatario. La autoridad competente propone esperar el turno ordinario de respuesta. ¿Qué exige la regla especial?",
+    "opciones": {
+      "a": "Esperar el vencimiento ordinario para reunir toda la información posible.",
+      "b": "Adoptar medidas urgentes para conjurar el peligro y continuar el trámite.",
+      "c": "Conceder de inmediato toda pretensión sin evaluar las medidas necesarias.",
+      "d": "Enviar un acuse de recibo prioritario y conservar el turno para decidir."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 20 exige medidas inmediatas ante peligro inminente para la vida o integridad, sin abandonar el trámite de la petición. Prioridad no significa conceder toda pretensión; tampoco se satisface con un acuse de recibo.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334",
+    "referencia_normativa": "Ley 1755 de 2015, art. 20."
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Petición: ampliación excepcional",
+    "pregunta": "Antes de vencer una petición, la entidad constata una imposibilidad excepcional de responder a tiempo. ¿Cuál actuación cumple la regla sobre ampliación?",
+    "opciones": {
+      "a": "Comunicar la demora después del vencimiento y reiniciar el plazo ordinario.",
+      "b": "Fijar una prórroga indefinida hasta recibir los insumos que estén pendientes.",
+      "c": "Informar motivos y nuevo plazo razonable dentro del máximo legal permitido.",
+      "d": "Ampliar el plazo internamente sin avisar mientras se prepara la respuesta."
+    },
+    "respuesta": "c",
+    "explicacion": "La ampliación no es automática: debe comunicarse antes del vencimiento, explicar la demora y fijar un plazo razonable que no exceda del doble del inicialmente previsto. Un trámite interno o un aviso tardío no cumplen la regla.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334",
+    "referencia_normativa": "Ley 1755 de 2015, art. 14, parágrafo."
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Alcance de conceptos de consulta",
+    "pregunta": "Una autoridad responde una consulta general sobre interpretación normativa. No existe disposición especial que haga obligatorio el concepto. Un equipo pretende tratarlo como una orden ejecutable. ¿Qué debe aclararse?",
+    "opciones": {
+      "a": "El concepto modifica la norma si está firmado por la máxima autoridad.",
+      "b": "El concepto equivale a una sentencia para todos los casos semejantes.",
+      "c": "El concepto orienta, pero por regla general no obliga a su ejecución.",
+      "d": "El concepto crea obligaciones por el solo hecho de haberse solicitado."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 28 distingue la respuesta a una consulta de una decisión obligatoria. Sin norma especial, ese concepto no es de obligatorio cumplimiento o ejecución: no modifica leyes, no es una sentencia ni crea automáticamente obligaciones.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334",
+    "referencia_normativa": "Ley 1755 de 2015, art. 28."
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Transparencia: versión pública",
+    "pregunta": "Un informe contiene resultados públicos de una visita y un anexo con datos amparados por reserva legal. La parte pública puede separarse sin revelar los datos protegidos. ¿Cómo atender su solicitud de acceso?",
+    "opciones": {
+      "a": "Entregar una versión pública que suprima únicamente la parte protegida.",
+      "b": "Negar el informe completo porque incluye un anexo con información reservada.",
+      "c": "Entregar el informe íntegro porque la visita se pagó con recursos públicos.",
+      "d": "Exigir que el solicitante demuestre un interés particular para leer el informe."
+    },
+    "respuesta": "a",
+    "explicacion": "La divulgación parcial evita extender la excepción a todo el documento. Debe conservarse protegida la parte indispensable y entregarse lo separable. El origen público del gasto no elimina una reserva válida; el acceso público no depende de acreditar interés particular.",
+    "fuente_conceptual": "https://www.cancilleria.gov.co/normograma/compilacion/docs/ley_1712_2014.htm",
+    "referencia_normativa": "Ley 1712 de 2014, art. 21."
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Motivación de decisiones administrativas",
+    "pregunta": "El proyecto de decisión copia varias normas, pero no explica cómo los hechos probados llevan a su conclusión ni responde una cuestión planteada oportunamente. ¿Qué ajuste corresponde?",
+    "opciones": {
+      "a": "Agregar más citas normativas sin modificar la justificación de la conclusión.",
+      "b": "Suprimir la cuestión pendiente para mantener la extensión habitual del acto.",
+      "c": "Relacionar pruebas y normas con la conclusión y resolver la cuestión planteada.",
+      "d": "Remitir la motivación a una explicación verbal posterior para los interesados."
+    },
+    "respuesta": "c",
+    "explicacion": "Motivar exige justificar la decisión con las pruebas e informes disponibles, y resolver las peticiones oportunamente planteadas. Acumular citas o prometer una explicación posterior no sustituye esa relación razonada.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41249",
+    "referencia_normativa": "CPACA, art. 42."
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Corrección formal y cambio sustantivo",
+    "pregunta": "Una decisión negó una autorización. Un funcionario propone usar una corrección de digitación para cambiar «negar» por «conceder», aunque eso invierte el sentido real de lo decidido. ¿Qué análisis corresponde?",
+    "opciones": {
+      "a": "El cambio es formal porque solo reemplaza una palabra de la decisión.",
+      "b": "El cambio es sustantivo y no procede como una simple corrección formal.",
+      "c": "El cambio es formal si se comunica por correo a todos los interesados.",
+      "d": "El cambio es formal cuando lo solicita quien se beneficia con el ajuste."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 45 impide cambiar el sentido material mediante corrección formal. El número de palabras, la comunicación o la conveniencia del beneficiario no transforman una decisión nueva en un error de digitación.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41249",
+    "referencia_normativa": "CPACA, art. 45."
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Gestión de datos: unidad de conteo",
+    "pregunta": "Una hoja tiene una fila por visita y el identificador del predio. Algunos predios recibieron tres visitas. Se pide el número de predios distintos visitados. ¿Qué operación responde a la solicitud?",
+    "opciones": {
+      "a": "Contar los identificadores únicos de predio incluidos en el periodo.",
+      "b": "Contar todas las filas registradas como visitas durante el periodo.",
+      "c": "Sumar las visitas y dividirlas entre tres para estimar los predios.",
+      "d": "Contar los nombres de los visitantes que aparecen durante el periodo."
+    },
+    "respuesta": "a",
+    "explicacion": "La unidad solicitada es el predio, no la visita ni el visitante. El conteo distinto evita duplicar predios visitados varias veces. Dividir por tres supondría sin sustento que todos recibieron ese mismo número de visitas. Ejercicio aplicado a estadísticas del cargo.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/modulo_calidad/mapa_proceso/2534_Manual%20de%20Funciones%20V9%20de%202026.pdf",
+    "referencia_normativa": "Perfil del cargo: elaboración de estadísticas y reportes; ejercicio original."
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Calidad de datos: valores faltantes",
+    "pregunta": "Un reporte de 40 predios registra 25 con obligación cumplida, 5 incumplida y 10 sin verificación. Se solicita la proporción de cumplimiento entre los predios efectivamente verificados. ¿Qué valor corresponde?",
+    "opciones": {
+      "a": "25 de 40, equivalente a 62,5 %, contando los casos sin verificación.",
+      "b": "35 de 40, equivalente a 87,5 %, sumando los casos sin verificación.",
+      "c": "25 de 30, aproximadamente 83,3 %, excluyendo los casos sin verificación.",
+      "d": "30 de 40, equivalente a 75,0 %, sumando los incumplimientos verificados."
+    },
+    "respuesta": "c",
+    "explicacion": "Hay 30 predios verificados: 25 cumplen y 5 incumplen. La proporción solicitada es 25/30. Los diez faltantes no deben convertirse en cumplidos ni confundirse con incumplimientos. El informe debe advertir esa falta de verificación y no extrapolar el porcentaje a los 40.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/modulo_calidad/mapa_proceso/2534_Manual%20de%20Funciones%20V9%20de%202026.pdf",
+    "referencia_normativa": "Perfil del cargo: estadísticas y reportes; cálculo aplicado original."
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Estadística: promedio ponderado",
+    "pregunta": "Una oficina resolvió 9 de 10 casos y otra 45 de 90. Se requiere el porcentaje conjunto de casos resueltos, con igual definición en ambas oficinas. ¿Cuál es el cálculo válido?",
+    "opciones": {
+      "a": "Dividir 54 casos resueltos entre 100 casos totales: el resultado es 54 %.",
+      "b": "Promediar las tasas de 90 % y 50 % sin ponderarlas: el resultado es 70 %.",
+      "c": "Sumar las tasas de 90 % y 50 % de las dos oficinas: el resultado es 140 %.",
+      "d": "Dividir los 54 resueltos entre los 90 de la mayor: el resultado es 60 %."
+    },
+    "respuesta": "a",
+    "explicacion": "La tasa conjunta usa sumas de numeradores y denominadores: (9+45)/(10+90). El promedio simple daría el mismo peso a oficinas con universos muy diferentes. Sumar tasas o usar solo el universo de una oficina tampoco representa el conjunto.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/modulo_calidad/mapa_proceso/2534_Manual%20de%20Funciones%20V9%20de%202026.pdf",
+    "referencia_normativa": "Perfil del cargo: estadísticas y reportes; cálculo aplicado original."
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Planeación: secuencia de actividades",
+    "pregunta": "Una visita requiere autorización de ingreso y transporte confirmado. La autorización tarda cuatro días hábiles y el transporte puede reservarse en paralelo. ¿Qué diseño evita una dependencia incumplida?",
+    "opciones": {
+      "a": "Programar la visita tras la autorización y coordinar el transporte en paralelo.",
+      "b": "Programar la visita antes de la autorización para aprovechar la disponibilidad.",
+      "c": "Reservar el transporte después de la visita para confirmar el gasto realmente.",
+      "d": "Usar la reserva del transporte como sustituto de la autorización para ingresar."
+    },
+    "respuesta": "a",
+    "explicacion": "Una dependencia necesaria debe completarse antes de la actividad que condiciona. Las tareas independientes pueden avanzarse en paralelo. Ni la reserva del vehículo autoriza el ingreso ni una fecha ambiciosa elimina la restricción. Es una aplicación de planeación, no un plazo normativo.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/modulo_calidad/mapa_proceso/2534_Manual%20de%20Funciones%20V9%20de%202026.pdf",
+    "referencia_normativa": "Perfil del cargo: formulación de proyectos y organización del trabajo."
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Control presupuestal: alcance del saldo",
+    "pregunta": "Un proyecto dispone de 18 millones. Tiene compromisos vigentes por 11 millones, de los cuales ya pagó 7. Para este ejercicio no existen otras afectaciones. ¿Qué monto queda libre de esos compromisos?",
+    "opciones": {
+      "a": "Once millones, al restar únicamente los pagos hechos del presupuesto disponible.",
+      "b": "Catorce millones, al restar solo lo pendiente de pago del presupuesto disponible.",
+      "c": "Cero millones, al restar los compromisos y también los pagos ya realizados.",
+      "d": "Siete millones, al restar los compromisos vigentes del presupuesto disponible."
+    },
+    "respuesta": "d",
+    "explicacion": "18−11=7 millones. Los 7 pagados forman parte de los 11 comprometidos, no una afectación adicional. Restar solo pagos confunde caja con recursos libres de compromiso. El ejercicio simplifica deliberadamente las demás afectaciones presupuestales.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/modulo_calidad/mapa_proceso/2534_Manual%20de%20Funciones%20V9%20de%202026.pdf",
+    "referencia_normativa": "Perfil del cargo: seguimiento de proyectos y análisis de información; ejercicio original."
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Investigación normativa: vigencia",
+    "pregunta": "Un borrador cita una disposición tomada de un manual antiguo. El normograma oficial señala que su texto fue modificado. ¿Qué debe hacerse antes de usarla para fundamentar el caso actual?",
+    "opciones": {
+      "a": "Conservar el texto antiguo porque ya fue usado en conceptos de la dependencia.",
+      "b": "Revisar la modificación y la regla temporal aplicable antes de ajustar el concepto.",
+      "c": "Usar siempre la norma más nueva sin revisar cuándo ocurrieron los hechos del caso.",
+      "d": "Combinar ambos textos como si rigieran a la vez para fortalecer la argumentación."
+    },
+    "respuesta": "b",
+    "explicacion": "La fecha de la fuente no basta: hay que comprobar modificaciones y aplicación temporal. El precedente interno no mantiene vigente una disposición, y una norma nueva no siempre gobierna hechos anteriores. No deben fusionarse regímenes incompatibles.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/modulo_calidad/mapa_proceso/2534_Manual%20de%20Funciones%20V9%20de%202026.pdf",
+    "referencia_normativa": "Perfil del cargo: proyección de conceptos, investigación y análisis jurídico."
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Evaluación de proyectos: contrafactual",
+    "pregunta": "Después de una campaña bajan las quejas ambientales en un municipio. En el mismo periodo se cerró temporalmente el canal de recepción. ¿Qué debe examinarse antes de atribuir el descenso a la campaña?",
+    "opciones": {
+      "a": "Si la campaña tuvo suficiente difusión para dar por demostrada su eficacia.",
+      "b": "Si basta el menor total de quejas para certificar que desapareció el problema.",
+      "c": "Si conviene excluir el cierre del canal para conservar la serie sin ajustes.",
+      "d": "Si cambió la posibilidad de reportar y si otras evidencias apoyan la mejora."
+    },
+    "respuesta": "d",
+    "explicacion": "Una caída de registros puede reflejar una barrera de medición y no una mejora ambiental. Debe comprobarse la comparabilidad del canal y contrastar evidencia independiente. Difusión no demuestra impacto y ocultar el cambio del instrumento invalida la interpretación.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/modulo_calidad/mapa_proceso/2534_Manual%20de%20Funciones%20V9%20de%202026.pdf",
+    "referencia_normativa": "Perfil del cargo: evaluación de proyectos y elaboración de informes."
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Desarrollo sostenible: dimensión intergeneracional",
+    "pregunta": "Un proyecto ofrece empleo inmediato, pero su evaluación omite el agotamiento irreversible del recurso que sostendría a la población futura. ¿Qué omisión afecta el análisis de desarrollo sostenible?",
+    "opciones": {
+      "a": "No tomar la rentabilidad inmediata como criterio suficiente para aprobarlo.",
+      "b": "No tratar los empleos creados como sustituto del recurso que se va agotando.",
+      "c": "No separar los costos ambientales para que no alteren la evaluación económica.",
+      "d": "No integrar el bienestar actual con la disponibilidad para generaciones futuras."
+    },
+    "respuesta": "d",
+    "explicacion": "El desarrollo sostenible incorpora bienestar y crecimiento sin agotar la base natural ni desconocer necesidades futuras. Empleo y rentabilidad son relevantes, pero no sustituyen esa evaluación. Separar costos ambientales oculta el problema en vez de resolverlo.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_0099_1993.htm",
+    "referencia_normativa": "Ley 99 de 1993, art. 3."
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Licencia ambiental: seguimiento a obligaciones",
+    "pregunta": "Un proyecto cuenta con licencia vigente y debe entregar monitoreos periódicos. Su titular afirma que, por estar autorizado, ya no necesita presentar esos informes. ¿Qué conclusión corresponde?",
+    "opciones": {
+      "a": "La autorización mantiene exigibles las obligaciones ambientales que establece.",
+      "b": "La autorización extingue los deberes de informar mientras siga formalmente vigente.",
+      "c": "Los informes solo son exigibles después de una nueva solicitud de licencia.",
+      "d": "Los informes son voluntarios mientras no exista una sanción por daño probado."
+    },
+    "respuesta": "a",
+    "explicacion": "La licencia no es una liberación de controles: sujeta al beneficiario a obligaciones de prevención, mitigación, corrección, compensación y manejo. El monitoreo impuesto sigue siendo exigible; no requiere nueva licencia ni sanción previa.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_0099_1993.htm",
+    "referencia_normativa": "Ley 99 de 1993, art. 50."
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Audiencia ambiental: alcance de la decisión",
+    "pregunta": "En una audiencia pública ambiental se exponen estudios contrapuestos. Un asistente propone decidir la licencia mediante votación de los presentes. ¿Cómo debe entenderse la audiencia?",
+    "opciones": {
+      "a": "Transfiere la competencia decisoria a la mayoría de asistentes acreditados.",
+      "b": "Sustituye la evaluación técnica cuando participan expertos de ambas partes.",
+      "c": "Aporta intervenciones y pruebas para la decisión motivada de la autoridad.",
+      "d": "Obliga a aprobar el proyecto si la asistencia favorable supera a la contraria."
+    },
+    "respuesta": "c",
+    "explicacion": "La audiencia informa la decisión y conserva la competencia de la autoridad. No es una votación que sustituya la evaluación ni una autorización por mayoría. Las intervenciones y pruebas deben considerarse en la motivación.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_0099_1993.htm",
+    "referencia_normativa": "Ley 99 de 1993, art. 72."
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Audiencia ambiental durante la ejecución",
+    "pregunta": "Una obra licenciada está en ejecución y presenta violación manifiesta de requisitos exigidos para otorgar la licencia. Se descarta solicitar audiencia pública porque el permiso ya fue expedido. ¿Qué debe precisarse?",
+    "opciones": {
+      "a": "La audiencia solo se permite antes de expedir por primera vez la licencia.",
+      "b": "La ley permite audiencia durante la ejecución en la situación descrita.",
+      "c": "La audiencia solo puede solicitarse después del cierre definitivo de la obra.",
+      "d": "La audiencia sustituye por sí misma el acto que imponga una sanción ambiental."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 72 permite audiencia durante la ejecución ante violación manifiesta de requisitos o normas ambientales. No debe confundirse esa participación con la imposición automática de una sanción ni limitarse a la etapa anterior al permiso.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_0099_1993.htm",
+    "referencia_normativa": "Ley 99 de 1993, art. 72, inciso final."
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "SINA: composición institucional y social",
+    "pregunta": "Un diagnóstico describe el Sistema Nacional Ambiental como una sola oficina del Ministerio y excluye organizaciones comunitarias e instituciones de investigación. ¿Qué corrección es necesaria?",
+    "opciones": {
+      "a": "Reconocer un sistema de normas, recursos, actores públicos y actores sociales.",
+      "b": "Reconocer únicamente a las oficinas que tienen competencia para sancionar.",
+      "c": "Incluir solo entidades nacionales que dependen jerárquicamente del Ministerio.",
+      "d": "Incluir empresas privadas solo cuando tengan funciones públicas de policía."
+    },
+    "respuesta": "a",
+    "explicacion": "El SINA articula orientaciones, normas, actividades, recursos e instituciones. Incluye organizaciones comunitarias y entidades de investigación, no únicamente autoridades sancionadoras ni dependencias ministeriales. Integrarlo no confiere a cada actor competencia de policía.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_0099_1993.htm",
+    "referencia_normativa": "Ley 99 de 1993, art. 4."
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Restitución: independencia del retorno",
+    "pregunta": "Una beneficiaria no desea retornar físicamente de inmediato a su predio. Un servidor propone negar por ese solo hecho su derecho a restitución. ¿Qué principio debe aplicarse?",
+    "opciones": {
+      "a": "El derecho solo se conserva si la beneficiaria se instala antes del fallo.",
+      "b": "El derecho a restitución no depende de hacer efectivo el retorno físico.",
+      "c": "La ausencia de retorno equivale a renuncia automática a la restitución.",
+      "d": "La residencia en otro lugar impone vender el predio para poder reclamar."
+    },
+    "respuesta": "b",
+    "explicacion": "El principio de independencia separa el derecho a restitución del retorno efectivo. No retornar no constituye por sí mismo renuncia ni exige vender. Deben evaluarse los demás requisitos del caso, sin añadir una residencia obligatoria.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/gi/gi/docs/ley_1448_2011.htm",
+    "referencia_normativa": "Ley 1448 de 2011, art. 73.2."
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Retorno: condiciones de seguridad",
+    "pregunta": "Una entidad propone cumplir una meta de retorno trasladando familias pese a amenazas verificadas y sin consultar su voluntad. ¿Qué estándar debe orientar la revisión?",
+    "opciones": {
+      "a": "Cumplir la meta de traslado y examinar las amenazas cuando ya retornen.",
+      "b": "Sustituir la voluntad familiar con la aprobación de la autoridad local.",
+      "c": "Equiparar la entrega de transporte con la garantía integral del retorno.",
+      "d": "Garantizar decisión voluntaria y condiciones de seguridad y dignidad."
+    },
+    "respuesta": "d",
+    "explicacion": "El retorno o reubicación debe ser voluntario, seguro, digno y sostenible. Una meta administrativa, la aprobación local o la logística no sustituyen esos requisitos. La revisión debe atender las amenazas, no posponerlas hasta exponer a las familias.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/gi/gi/docs/ley_1448_2011.htm",
+    "referencia_normativa": "Ley 1448 de 2011, art. 73.4 y 73.7."
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Restitución: carga probatoria",
+    "pregunta": "En el proceso judicial se acredita sumariamente la posesión y se reconoce a la reclamante como desplazada. El opositor no es desplazado ni despojado del mismo predio. ¿Qué regla probatoria resulta pertinente?",
+    "opciones": {
+      "a": "Exigir a la reclamante plena prueba adicional para trasladar esa carga.",
+      "b": "Eximir a ambas partes de aportar pruebas y decidir solo por sus relatos.",
+      "c": "Trasladar la carga de la prueba al opositor conforme a la regla especial.",
+      "d": "Tener por concedida la restitución sin valorar la prueba del contradictor."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 78 prevé la inversión de la carga cuando se cumplen los presupuestos descritos, con excepción para opositores también desplazados o despojados del mismo predio. No significa sentencia automática ni eliminación de la contradicción.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/gi/gi/docs/ley_1448_2011.htm",
+    "referencia_normativa": "Ley 1448 de 2011, art. 78."
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Víctimas en el exterior: reforma de 2024",
+    "pregunta": "Una persona relata hechos del conflicto que cumplen los requisitos legales, pero reside fuera de Colombia. Un funcionario pretende excluirla solo por carecer de estatus migratorio regular en el país de residencia. ¿Qué debe advertirse?",
+    "opciones": {
+      "a": "La definición exige residencia actual en Colombia para reconocer a toda víctima.",
+      "b": "La definición incluye víctimas en el exterior sin exigir estatus migratorio regular.",
+      "c": "La definición solo incluye residentes fuera del país si obtuvieron asilo político.",
+      "d": "La definición excluye residentes fuera del país cuando no tienen permiso vigente."
+    },
+    "respuesta": "b",
+    "explicacion": "La reforma de 2024 incluye expresamente a víctimas en el exterior independientemente de su estatus migratorio, refugio, asilo o protección internacional. Subsiste la verificación de los hechos y requisitos legales: vivir fuera no reconoce ni excluye automáticamente la condición.",
+    "fuente_conceptual": "https://www.unidadvictimas.gov.co/wp-content/uploads/Documentos/ley/Ley_2421_2024.pdf",
+    "referencia_normativa": "Ley 2421 de 2024, art. 3: modificación del art. 3 de la Ley 1448."
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Enfoque territorial rural",
+    "pregunta": "Un programa de reparación copia la misma intervención productiva en una zona aislada y otra con acceso a mercados, sin estudiar sus diferencias. ¿Qué exige el enfoque territorial con desarrollo rural?",
+    "opciones": {
+      "a": "Replicar idénticas actividades para demostrar igualdad entre las dos comunidades.",
+      "b": "Priorizar solo el volumen producido sin considerar las barreras de acceso locales.",
+      "c": "Definir la intervención por el promedio nacional sin examinar las condiciones rurales.",
+      "d": "Caracterizar las diferencias territoriales para orientar la transformación rural."
+    },
+    "respuesta": "d",
+    "explicacion": "El artículo 13A reconoce la heterogeneidad territorial para comprender contextos rurales, reducir pobreza y cerrar brechas. Un diseño idéntico o basado solo en promedios puede desconocer barreras relevantes. El enfoque no impone una solución productiva única.",
+    "fuente_conceptual": "https://www.unidadvictimas.gov.co/wp-content/uploads/Documentos/ley/Ley_2421_2024.pdf",
+    "referencia_normativa": "Ley 2421 de 2024, art. 71: adición del art. 13A a la Ley 1448."
+  },
+  {
+    "id": 25,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Responsabilidad con la organización · B",
+    "pregunta": "Una mejora en el trámite funciona en tu dependencia, pero otra oficina sigue repitiendo el mismo reproceso. No te han pedido ayuda y la mejora puede compartirse sin divulgar datos reservados. ¿Qué actuación aporta más a la organización?",
+    "opciones": {
+      "a": "Documentar la mejora y proponer su adaptación conjunta con la otra oficina.",
+      "b": "Conservar la mejora en el equipo para mantener su ventaja en los indicadores.",
+      "c": "Enviar la plantilla sin explicar condiciones ni verificar si resuelve el problema.",
+      "d": "Pedir que la otra oficina copie el trámite aunque sus restricciones sean distintas."
+    },
+    "respuesta": "a",
+    "explicacion": "La responsabilidad organizacional B favorece mejoras que contribuyan a los objetivos institucionales. Compartir requiere documentar y adaptar, no imponer una copia ciega ni proteger una ventaja interna. Caso pedagógico, no escala psicométrica oficial.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "referencia_normativa": "Diccionario PGN: responsabilidad con la organización, nivel B."
+  },
+  {
+    "id": 26,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Organización del trabajo · B",
+    "pregunta": "Una dependencia externa retrasa el insumo que bloquea una etapa de un estudio. Otras actividades pueden avanzar. ¿Qué respuesta organiza mejor el trabajo sin ocultar el impacto?",
+    "opciones": {
+      "a": "Detener el estudio completo hasta recibir el insumo para no cambiar el cronograma.",
+      "b": "Mantener todas las fechas iniciales y esperar que el equipo absorba luego el atraso.",
+      "c": "Sustituir el insumo pendiente por una estimación sin explicarla a los responsables.",
+      "d": "Reprogramar la etapa bloqueada y avanzar lo independiente, comunicando el ajuste."
+    },
+    "respuesta": "d",
+    "explicacion": "La planificación de mediano plazo requiere reconocer dependencias y ajustar recursos y tiempos. Avanzar tareas independientes evita paralizar innecesariamente; comunicar el impacto permite coordinar. Una estimación oculta no resuelve la ausencia del insumo.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "referencia_normativa": "Diccionario PGN: organización en el trabajo, nivel B."
+  },
+  {
+    "id": 27,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Investigación · B",
+    "pregunta": "Se repiten devoluciones de conceptos por causas desconocidas. Te piden diseñar con el equipo un estudio que sirva para mejorar el proceso. ¿Qué propuesta es más sólida?",
+    "opciones": {
+      "a": "Reunir solo los casos exitosos y convertir sus rasgos en la explicación general.",
+      "b": "Aplicar la primera solución sugerida y buscar después datos que la justifiquen.",
+      "c": "Atribuir el problema al área con más devoluciones sin examinar sus tipos de casos.",
+      "d": "Definir variables, revisar una muestra pertinente y probar mejoras con el equipo."
+    },
+    "respuesta": "d",
+    "explicacion": "Investigar implica diseñar una indagación conjunta capaz de explicar el problema y orientar mejoras. Seleccionar únicamente éxitos, confirmar una solución elegida o ignorar diferencias de casos introduce sesgos y debilita el diagnóstico.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "referencia_normativa": "Diccionario PGN: investigación, nivel B."
+  },
+  {
+    "id": 28,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Pensamiento conceptual · A",
+    "pregunta": "El equipo recibe muchas alertas con nombres distintos, pero sospechas que responden a tres mecanismos recurrentes. ¿Qué producto facilita una intervención consistente?",
+    "opciones": {
+      "a": "Un listado cronológico que preserve todas las alertas sin establecer relaciones.",
+      "b": "Una tipología explicada con criterios, límites y rutas de actuación para cada grupo.",
+      "c": "Una categoría única para aplicar la misma medida a todas las alertas recibidas.",
+      "d": "Un glosario de términos que deje a cada analista decidir cómo clasificar los casos."
+    },
+    "respuesta": "b",
+    "explicacion": "El pensamiento conceptual A transforma información compleja en un esquema explicativo útil y directrices claras. La tipología debe tener sustento y límites, no forzar casos distintos en una sola categoría. Un listado o glosario por sí solo no organiza la intervención.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "referencia_normativa": "Diccionario PGN: pensamiento conceptual, nivel A."
+  },
+  {
+    "id": 29,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Orientación a resultados · A",
+    "pregunta": "Un plan logró todas sus reuniones, pero las verificaciones muestran que no redujo el problema buscado. ¿Qué decisión expresa mejor orientación a resultados?",
+    "opciones": {
+      "a": "Declarar cumplido el resultado porque se ejecutaron todas las reuniones previstas.",
+      "b": "Revisar causas y ajustar las acciones con metas de efecto y seguimiento verificable.",
+      "c": "Aumentar el número de reuniones sin analizar por qué las anteriores no funcionaron.",
+      "d": "Redefinir el objetivo como reuniones realizadas para que coincida con lo alcanzado."
+    },
+    "respuesta": "b",
+    "explicacion": "La orientación a resultados exige lograr cambios, no confundir actividades con efectos. Revisar causas y ajustar acciones permite responder al desempeño observado. Cambiar retrospectivamente el objetivo o multiplicar actividades sin diagnóstico no demuestra logro.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "referencia_normativa": "Diccionario PGN: orientación a resultados, nivel A."
+  },
+  {
+    "id": 30,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Cumplimiento de parámetros de trabajo · B",
+    "pregunta": "Entra en vigor un procedimiento interno nuevo. Parte del equipo sigue usando el anterior por costumbre y aparecen entregas incompatibles. ¿Qué harías?",
+    "opciones": {
+      "a": "Aclarar la regla vigente y coordinar su aplicación uniforme con el equipo.",
+      "b": "Permitir que cada integrante elija la versión con la que trabaje más rápido.",
+      "c": "Conservar el trámite anterior hasta que un destinatario rechace una entrega.",
+      "d": "Combinar pasos de ambos trámites sin verificar si existe autorización para ello."
+    },
+    "respuesta": "a",
+    "explicacion": "El nivel B supone aplicar lineamientos y alinear el trabajo colectivo con los procedimientos definidos. Hay que aclarar vigencia y coordinar la transición, no dejar la regla a elección ni crear un procedimiento híbrido no autorizado.",
+    "fuente_conceptual": "https://www.procuraduria.gov.co/portal/media/docs/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "referencia_normativa": "Diccionario PGN: cumplimiento de parámetros de trabajo, nivel B."
+  }
+]
