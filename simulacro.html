@@ -501,6 +501,10 @@ h1{
   <div id="estudianteNombre" class="estudiante-nombre"></div>
 </header>
 
+  <div id="controlesRepaso" class="card main-card hidden" style="margin-bottom:14px;" aria-live="polite">
+    <p id="avisoRepaso" class="instrucciones"></p>
+    <button class="btn btn-ghost" type="button" onclick="volverResultadoInicial()">Volver al resultado inicial</button>
+  </div>
   <div class="layout">
 
     <main class="card main-card">
@@ -581,9 +585,11 @@ h1{
           Aquí aparecerá el análisis de tu resultado.
         </div>
 
-        <button class="btn" type="button" onclick="reiniciarSimulacro()">
+        <button class="btn" id="btnRepetirFinal" type="button" onclick="reiniciarSimulacro()">
           Repetir simulacro
         </button>
+        <button class="btn btn-ghost hidden" id="btnRepasarFallos" type="button" onclick="iniciarRepasoFallos()">Repasar fallos</button>
+        <p id="estadoRepasoFallos" class="instrucciones hidden" aria-live="polite"></p>
         <div id="revisionFinal" class="revision"></div>
       </section>
 
@@ -721,6 +727,9 @@ let preguntasValidadas = {};
 let ordenOpciones = {};
 let accesoActual = null;
 let modoExamen = false;
+let modoRepaso = false;
+let sesionInicialRepaso = null;
+let entregaPorTiempo = false;
 let examenFinalizado = false;
 let finExamen = null;
 let intervaloReloj = null;
@@ -988,6 +997,8 @@ function validarClave(){
     "none";
   
   accesoActual = acceso;
+  modoRepaso = false;
+  sesionInicialRepaso = null;
   modoExamen = acceso.modoExamen === true;
   cargarSimulacro(acceso.archivo, acceso.ordenAleatorio !== false);
   
@@ -1099,7 +1110,11 @@ function configurarModo(){
       : "Modo estudio sin tiempo: responde y pulsa Comprobar para leer la explicación. ")
       + "Selección pedagógica basada en el perfil 142–2026, normas vigentes consultadas y antecedentes oficiales. No es una prueba oficial ni una predicción exacta. La distribución y el tiempo son de práctica. El porcentaje de aciertos no equivale al puntaje oficial. Las situaciones comportamentales entrenan criterios, no reproducen una escala psicométrica.";
   }
-  document.getElementById("btnResponder").classList.toggle("hidden", modoExamen);
+  if(modoRepaso){
+    aviso.classList.remove("hidden");
+    aviso.innerText = "Repaso de fallos sin tiempo: solo incluye respuestas incorrectas, no preguntas omitidas. Al elegir una opción verás inmediatamente la respuesta correcta y su explicación. Léelas antes de avanzar. Tu resultado inicial no se modifica.";
+  }
+  document.getElementById("btnResponder").classList.toggle("hidden", modoExamen || modoRepaso);
   document.getElementById("btnEntregar").classList.toggle("hidden", !modoExamen);
   document.getElementById("reloj").classList.toggle("hidden", !modoExamen);
   document.getElementById("navegacionExamen").classList.toggle("hidden", !modoExamen);
@@ -1276,6 +1291,12 @@ function seleccionarRespuesta(letra){
     btn.classList.toggle("seleccionada", btn.dataset.letra === letra);
   });
   document.getElementById("btnResponder").disabled = modoExamen;
+  if(modoRepaso){
+    preguntasValidadas[indiceActual] = true;
+    mostrarCorreccion(true);
+    document.getElementById("btnResponder").disabled = true;
+    document.getElementById("btnSiguiente").disabled = false;
+  }
   actualizarPanel();
   actualizarProgreso();
   actualizarMapa();
@@ -1431,6 +1452,7 @@ function actualizarPanel(){
 function terminarSimulacro(tiempoAgotado = false){
   if(examenFinalizado || !preguntas.length) return;
   examenFinalizado = true;
+  entregaPorTiempo = tiempoAgotado;
   clearInterval(intervaloReloj);
   finExamen = null;
   actualizarPanel();
@@ -1473,7 +1495,79 @@ function terminarSimulacro(tiempoAgotado = false){
   if(accesoActual?.esPGN142){
     document.getElementById("mensajeFinal").innerText = `${tiempoAgotado ? "Tiempo agotado. " : ""}${s.aciertos} aciertos de ${preguntas.length} · ${s.errores} errores · ${s.omitidas} sin responder. ${mensaje} Porcentaje de práctica, no puntaje oficial. El concurso pondera conocimientos 70%, comportamentales 20% y antecedentes 10%, con calificación estadística. Esta práctica no determina aprobación ni ingreso.`;
   }
+  if(modoRepaso){
+    document.getElementById("mensajeFinal").innerText = `Repaso completado: ${s.aciertos} aciertos de ${preguntas.length} · ${s.errores} errores. Este resultado corresponde solo a esta ronda y no cambia tu resultado inicial. ${s.errores ? "Puedes volver a practicar los errores de esta ronda." : "Has resuelto correctamente todos los fallos de esta ronda."}`;
+  }
   mostrarRevision();
+  actualizarControlesRepaso();
+}
+
+function indicesFallados(){
+  return preguntas.reduce((indices,p,i) => {
+    const elegida = respuestasUsuario[i];
+    if(elegida && elegida !== String(p.respuesta).toLowerCase()) indices.push(i);
+    return indices;
+  }, []);
+}
+
+function actualizarControlesRepaso(){
+  const esPGN = accesoActual?.esPGN142 === true;
+  const errores = indicesFallados().length;
+  const omitidas = preguntas.filter((p,i) => !respuestasUsuario[i]).length;
+  const boton = document.getElementById("btnRepasarFallos");
+  boton.classList.toggle("hidden", !esPGN || !examenFinalizado || !errores);
+  boton.disabled = !esPGN || !examenFinalizado || !errores;
+  boton.innerText = `Repasar fallos (${errores})`;
+  const estado = document.getElementById("estadoRepasoFallos");
+  estado.classList.toggle("hidden", !esPGN || !examenFinalizado);
+  estado.innerText = errores
+    ? `${errores} respuesta(s) incorrecta(s) para repasar. ${omitidas} sin responder, excluidas del repaso.`
+    : `No hay respuestas incorrectas para repasar.${omitidas ? ` Hay ${omitidas} sin responder: no cuentan como fallos y puedes practicarlas al repetir el simulacro.` : ""}`;
+  document.getElementById("btnRepetirFinal").innerText = modoRepaso ? "Repetir esta ronda" : "Repetir simulacro";
+  document.getElementById("controlesRepaso").classList.toggle("hidden", !modoRepaso);
+  document.getElementById("avisoRepaso").innerText = modoRepaso
+    ? `Repaso de ${preguntas.length} pregunta(s). Puedes volver al resultado inicial sin alterar su nota ni sus respuestas.` : "";
+}
+
+function iniciarRepasoFallos(){
+  if(!accesoActual?.esPGN142 || !examenFinalizado) return;
+  const indices = indicesFallados();
+  if(!indices.length) return;
+  if(!sesionInicialRepaso){
+    sesionInicialRepaso = {
+      preguntas: [...preguntas],
+      respuestas: {...respuestasUsuario},
+      validadas: {...preguntasValidadas},
+      opciones: Object.fromEntries(Object.entries(ordenOpciones).map(([i,orden]) => [i,[...orden]])),
+      indice: indiceActual,
+      tiempoAgotado: entregaPorTiempo,
+      modoExamen
+    };
+  }
+  const falladas = indices.map(i => preguntas[i]);
+  clearInterval(intervaloReloj);
+  preguntas = falladas;
+  modoExamen = false;
+  modoRepaso = true;
+  reiniciarSimulacro();
+}
+
+function volverResultadoInicial(){
+  if(!modoRepaso || !sesionInicialRepaso) return;
+  const inicial = sesionInicialRepaso;
+  clearInterval(intervaloReloj);
+  preguntas = [...inicial.preguntas];
+  respuestasUsuario = {...inicial.respuestas};
+  preguntasValidadas = {...inicial.validadas};
+  ordenOpciones = Object.fromEntries(Object.entries(inicial.opciones).map(([i,orden]) => [i,[...orden]]));
+  indiceActual = inicial.indice;
+  modoExamen = inicial.modoExamen;
+  modoRepaso = false;
+  sesionInicialRepaso = null;
+  finExamen = null;
+  examenFinalizado = false;
+  configurarModo();
+  terminarSimulacro(inicial.tiempoAgotado);
 }
 
 function mostrarRevision(){
@@ -1534,11 +1628,13 @@ function reiniciarSimulacro(){
   preguntasValidadas = {};
   ordenOpciones = {};
   examenFinalizado = false;
+  entregaPorTiempo = false;
   finExamen = null;
   document.getElementById("revisionFinal").replaceChildren();
   document.getElementById("resultadoFinal").classList.remove("visible");
   document.getElementById("zonaExamen").classList.remove("hidden");
   configurarModo();
+  actualizarControlesRepaso();
   renderPregunta();
   actualizarPanel();
   if(modoExamen){
@@ -1575,6 +1671,7 @@ document.addEventListener("keydown", function(e){
 
 </body>
 </html>
+
 
 
 
