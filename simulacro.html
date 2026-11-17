@@ -564,6 +564,10 @@ h1{
             ← Anterior
           </button>
 
+          <button class="btn btn-ghost" id="btnGuardarProgreso" type="button" onclick="guardarProgresoManual()">
+            Guardar progreso
+          </button>
+
           <button class="btn" id="btnResponder" type="button" onclick="validarRespuesta()">
             Comprobar
           </button>
@@ -574,6 +578,7 @@ h1{
             Siguiente →
           </button>
         </div>
+        <p id="estadoGuardado" class="instrucciones" role="status" aria-live="polite" style="text-align:center;margin:10px 0 0;">El avance se guarda automáticamente en este navegador.</p>
 
       </div>
 
@@ -733,6 +738,66 @@ let entregaPorTiempo = false;
 let examenFinalizado = false;
 let finExamen = null;
 let intervaloReloj = null;
+let claveAccesoActual = null;
+const PREFIJO_PROGRESO = "asallam_simulacro_progreso_v1:";
+
+function claveProgreso(){
+  return `${PREFIJO_PROGRESO}${claveAccesoActual || "simulacro"}`;
+}
+
+function guardarProgreso(avisar = false){
+  if(!preguntas.length || !claveAccesoActual || modoRepaso) return false;
+  const progreso = {
+    version: 1,
+    archivo: accesoActual?.archivo || "",
+    ids: preguntas.map(p => p.id),
+    indiceActual,
+    respuestasUsuario,
+    preguntasValidadas,
+    ordenOpciones,
+    modoExamen,
+    examenFinalizado,
+    entregaPorTiempo,
+    finExamen
+  };
+  try{
+    localStorage.setItem(claveProgreso(), JSON.stringify(progreso));
+    if(avisar) mostrarEstadoGuardado("Progreso guardado en este navegador.");
+    return true;
+  }catch{
+    if(avisar) mostrarEstadoGuardado("No se pudo guardar. Revisa el espacio disponible o la configuración del navegador.");
+    return false;
+  }
+}
+
+function mostrarEstadoGuardado(texto){
+  const estado = document.getElementById("estadoGuardado");
+  if(estado) estado.innerText = texto;
+}
+
+function guardarProgresoManual(){
+  if(!preguntas.length){
+    mostrarEstadoGuardado("Todavía no hay un simulacro cargado.");
+    return;
+  }
+  guardarProgreso(true);
+}
+
+function cargarProgresoGuardado(){
+  if(!claveAccesoActual) return null;
+  try{
+    const progreso = JSON.parse(localStorage.getItem(claveProgreso()) || "null");
+    if(!progreso || progreso.version !== 1 || progreso.archivo !== (accesoActual?.archivo || "")) return null;
+    return progreso;
+  }catch{
+    return null;
+  }
+}
+
+function borrarProgresoGuardado(){
+  if(!claveAccesoActual) return;
+  try{ localStorage.removeItem(claveProgreso()); }catch{}
+}
 
 const ACCESOS = {
   "procuraduria142_2": {
@@ -1017,6 +1082,7 @@ function validarClave(){
     "none";
   
   accesoActual = acceso;
+  claveAccesoActual = aliasClaves[clave] || clave;
   modoRepaso = false;
   sesionInicialRepaso = null;
   modoExamen = acceso.modoExamen === true;
@@ -1099,7 +1165,42 @@ function prepararPreguntas(data, ordenAleatorio){
   });
   preguntas = ordenAleatorio ? barajarPorCasos([...data]) : [...data];
   document.getElementById("cargaLocal").classList.add("hidden");
-  reiniciarSimulacro();
+  const progreso = cargarProgresoGuardado();
+  const puedeRestaurar = progreso && Array.isArray(progreso.ids)
+    && progreso.ids.length === preguntas.length
+    && new Set(progreso.ids).size === preguntas.length
+    && progreso.ids.every(id => preguntas.some(p => p.id === id));
+  if(puedeRestaurar){
+    preguntas = progreso.ids.map(id => preguntas.find(p => p.id === id));
+    indiceActual = Math.min(Math.max(Number(progreso.indiceActual) || 0, 0), preguntas.length - 1);
+    respuestasUsuario = progreso.respuestasUsuario || {};
+    preguntasValidadas = progreso.preguntasValidadas || {};
+    ordenOpciones = progreso.ordenOpciones || {};
+    modoExamen = progreso.modoExamen === true;
+    examenFinalizado = progreso.examenFinalizado === true;
+    entregaPorTiempo = progreso.entregaPorTiempo === true;
+    finExamen = Number.isFinite(progreso.finExamen) ? progreso.finExamen : null;
+    clearInterval(intervaloReloj);
+    configurarModo();
+    if(examenFinalizado){
+      examenFinalizado = false;
+      terminarSimulacro(entregaPorTiempo);
+    }else{
+      document.getElementById("resultadoFinal").classList.remove("visible");
+      document.getElementById("zonaExamen").classList.remove("hidden");
+      renderPregunta();
+      actualizarPanel();
+      if(modoExamen){
+        if(!finExamen) finExamen = Date.now() + (accesoActual.minutos || 75)*60*1000;
+        actualizarReloj();
+        if(!examenFinalizado) intervaloReloj = setInterval(actualizarReloj, 1000);
+      }
+    }
+    mostrarEstadoGuardado("Se restauró el avance guardado en este navegador.");
+    guardarProgreso();
+  }else{
+    reiniciarSimulacro();
+  }
 }
 
 document.getElementById("archivoLocal").addEventListener("change", async function(){
@@ -1146,6 +1247,7 @@ function actualizarReloj(){
   const reloj = document.getElementById("reloj");
   reloj.innerText = `Tiempo: ${String(Math.floor(restante/60)).padStart(2,"0")}:${String(restante%60).padStart(2,"0")}`;
   reloj.classList.toggle("urgente", restante <= 300);
+  guardarProgreso();
   if(restante === 0) terminarSimulacro(true);
 }
 
@@ -1157,7 +1259,11 @@ function comprobarTiempo(){
   return !examenFinalizado;
 }
 
-document.addEventListener("visibilitychange", actualizarReloj);
+document.addEventListener("visibilitychange", () => {
+  actualizarReloj();
+  guardarProgreso();
+});
+window.addEventListener("pagehide", () => guardarProgreso());
 window.addEventListener("focus", actualizarReloj);
 
 function actualizarMapa(){
@@ -1302,6 +1408,7 @@ clavesOpciones.forEach((letra, indice) => {
     ? (modoExamen ? "Entregar examen" : "Ver resultado") : "Siguiente →";
   actualizarProgreso();
   actualizarMapa();
+  guardarProgreso();
 }
 
 function seleccionarRespuesta(letra){
@@ -1320,6 +1427,7 @@ function seleccionarRespuesta(letra){
   actualizarPanel();
   actualizarProgreso();
   actualizarMapa();
+  guardarProgreso();
 }
 
 function validarRespuesta(){
@@ -1337,6 +1445,7 @@ function validarRespuesta(){
 
   document.getElementById("btnResponder").disabled = true;
   document.getElementById("btnSiguiente").disabled = false;
+  guardarProgreso();
 }
 
 function mostrarCorreccion(conSonido = false){
@@ -1520,6 +1629,7 @@ function terminarSimulacro(tiempoAgotado = false){
   }
   mostrarRevision();
   actualizarControlesRepaso();
+  guardarProgreso();
 }
 
 function indicesFallados(){
@@ -1642,6 +1752,7 @@ function mostrarRevision(){
 
 function reiniciarSimulacro(){
   if(!preguntas.length) return;
+  if(!modoRepaso) borrarProgresoGuardado();
   clearInterval(intervaloReloj);
   indiceActual = 0;
   respuestasUsuario = {};
@@ -1662,6 +1773,7 @@ function reiniciarSimulacro(){
     actualizarReloj();
     intervaloReloj = setInterval(actualizarReloj, 1000);
   }
+  guardarProgreso();
 }
 
 function escapeHtml(texto){
@@ -1691,7 +1803,3 @@ document.addEventListener("keydown", function(e){
 
 </body>
 </html>
-
-
-
-
