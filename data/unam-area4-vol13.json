@@ -1,0 +1,2494 @@
+[
+  {
+    "id": "esp-217",
+    "categoria": "Español",
+    "tema": "Lectura: función de una etapa del proceso",
+    "pregunta": "Lee el texto original: «En el taller, Inés aprendió a componer una línea con letras de metal cuya cara estaba invertida. Quiso girarlas para leerlas como en una página, pero el impresor le pidió entintarlas y presionar el papel sobre ellas. Al levantar la hoja, las letras aparecieron en el sentido esperado. Inés descubrió además una letra cambiada. El impresor conservó esa primera hoja: sobre ella marcarían las correcciones antes de imprimir el resto. La prueba no era todavía el producto que se vendería, sino un instrumento de trabajo». ¿Qué función cumple la primera hoja impresa?",
+    "opciones": {
+      "a": "Mostrar a los compradores la calidad definitiva de la edición",
+      "b": "Servir de referencia para localizar y corregir errores antes de continuar",
+      "c": "Reemplazar las letras de metal en la impresión de todas las hojas",
+      "d": "Comprobar que cualquier orientación de las letras produce el mismo resultado"
+    },
+    "respuesta": "b",
+    "explicacion": "La hoja permite detectar y señalar cambios antes de imprimir el resto. El texto distingue esa función de revisión de la venta de un producto terminado.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-218",
+    "categoria": "Español",
+    "tema": "Lectura: recuperación de referentes en una secuencia",
+    "pregunta": "Lee el texto original: «En el taller, Inés aprendió a componer una línea con letras de metal cuya cara estaba invertida. Quiso girarlas para leerlas como en una página, pero el impresor le pidió entintarlas y presionar el papel sobre ellas. Al levantar la hoja, las letras aparecieron en el sentido esperado. Inés descubrió además una letra cambiada. El impresor conservó esa primera hoja: sobre ella marcarían las correcciones antes de imprimir el resto. La prueba no era todavía el producto que se vendería, sino un instrumento de trabajo». En «le pidió entintarlas y presionar el papel sobre ellas», ¿qué referentes tienen «le» y «las»?",
+    "opciones": {
+      "a": "«Le» remite a Inés; «las», a las letras de metal",
+      "b": "«Le» remite al impresor; «las», a las hojas impresas",
+      "c": "«Le» remite al papel; «las», a las correcciones",
+      "d": "«Le» remite a Inés; «las», a las líneas ya impresas"
+    },
+    "respuesta": "a",
+    "explicacion": "El impresor pide a Inés que entinte las letras; le señala a quien recibe la petición y las al objeto de entintar. Las hojas de prueba aún no han aparecido en esa secuencia.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-219",
+    "categoria": "Español",
+    "tema": "Lectura: diferencia entre proyección y predicción",
+    "pregunta": "Lee el texto original: «Una escritora situó su novela en una ciudad donde nadie podía conservar objetos durante más de un año. Un lector le preguntó cuándo creía que se aprobaría semejante ley. Ella respondió que no intentaba adivinar una fecha: quería imaginar qué ocurriría con los regalos, las herencias y los recuerdos si la posesión tuviera ese límite. Había elegido un escenario improbable para volver extrañas costumbres que sus lectores consideraban evidentes. La distancia respecto de la vida cotidiana era el medio para examinarla, no una razón para olvidarla». ¿Qué diferencia separa la pregunta del lector y el propósito de la escritora?",
+    "opciones": {
+      "a": "El lector solicita una descripción de personajes y ella ofrece su biografía",
+      "b": "El lector interpreta una predicción y ella propone explorar una condición imaginaria",
+      "c": "El lector pregunta por la propiedad y ella evita tratar las relaciones sociales",
+      "d": "El lector exige un final abierto y ella defiende un desenlace cerrado"
+    },
+    "respuesta": "b",
+    "explicacion": "El lector busca una fecha de realización; la escritora explica que el supuesto sirve para explorar sus consecuencias sobre prácticas conocidas, no para pronosticar una ley.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-220",
+    "categoria": "Español",
+    "tema": "Lectura: función de una enumeración en una explicación",
+    "pregunta": "Lee el texto original: «Una escritora situó su novela en una ciudad donde nadie podía conservar objetos durante más de un año. Un lector le preguntó cuándo creía que se aprobaría semejante ley. Ella respondió que no intentaba adivinar una fecha: quería imaginar qué ocurriría con los regalos, las herencias y los recuerdos si la posesión tuviera ese límite. Había elegido un escenario improbable para volver extrañas costumbres que sus lectores consideraban evidentes. La distancia respecto de la vida cotidiana era el medio para examinarla, no una razón para olvidarla». ¿Qué función cumple mencionar los regalos, las herencias y los recuerdos?",
+    "opciones": {
+      "a": "Ordenar tres etapas sucesivas de la historia que narrará la novela",
+      "b": "Enumerar las excepciones que permitiría la ley de la ciudad imaginaria",
+      "c": "Documentar tres casos reales que llevaron a aprobar una prohibición",
+      "d": "Concretar ámbitos de la experiencia que la hipótesis permitiría examinar"
+    },
+    "respuesta": "d",
+    "explicacion": "Los ejemplos muestran qué relaciones y prácticas cotidianas podrían reconsiderarse bajo el límite imaginario de posesión. No se presentan como etapas de la trama, excepciones legales ni pruebas históricas.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-221",
+    "categoria": "Español",
+    "tema": "Redacción: dequeísmo",
+    "pregunta": "¿Qué oración evita añadir una preposición que el verbo no exige en esta construcción?",
+    "opciones": {
+      "a": "La comisión anunció de que habría una reunión",
+      "b": "La comisión anunció que habría una reunión",
+      "c": "La comisión consideró de que habría una reunión",
+      "d": "La comisión aseguró de que habría una reunión"
+    },
+    "respuesta": "b",
+    "explicacion": "Anunciar algo admite la subordinada directamente: anunció eso, anunció que habría una reunión. En las otras construcciones se añade de indebidamente.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-222",
+    "categoria": "Español",
+    "tema": "Morfosintaxis: adverbio invariable y adjetivo variable",
+    "pregunta": "Completa de acuerdo con la norma: «Las ventanas estaban ___ abiertas y dejaban ver ___ fachada». Se quiere indicar que las ventanas no estaban abiertas del todo y que se veía la mitad de la fachada.",
+    "opciones": {
+      "a": "medio / media",
+      "b": "medias / media",
+      "c": "medio / medio",
+      "d": "medias / medio"
+    },
+    "respuesta": "a",
+    "explicacion": "Medio modifica el adjetivo abiertas y funciona como adverbio invariable. Media cuantifica el sustantivo femenino fachada y concuerda con él.",
+    "fuente_conceptual": "https://www.rae.es/dpd/medio",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-223",
+    "categoria": "Español",
+    "tema": "Sintaxis: sujeto de una construcción absoluta de participio",
+    "pregunta": "En «Terminada la ceremonia, el público salió en silencio», ¿qué elemento funciona como sujeto de «terminada»?",
+    "opciones": {
+      "a": "El público, que también realiza la acción de salir",
+      "b": "Un sujeto tácito equivalente a quienes organizaron el acto",
+      "c": "La ceremonia, con la que concuerda el participio",
+      "d": "El silencio, que describe el modo en que terminó el acto"
+    },
+    "respuesta": "c",
+    "explicacion": "La construcción absoluta terminada la ceremonia tiene su propio sujeto, la ceremonia; por eso el participio aparece en femenino singular. El público es el sujeto de salió, no de la construcción inicial.",
+    "fuente_conceptual": "https://cvc.cervantes.es/Ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_glosario.htm",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-224",
+    "categoria": "Español",
+    "tema": "Sintaxis: reflexivo y complemento indirecto",
+    "pregunta": "En «Elena se lavó las manos», «las manos» es el complemento directo. ¿Qué función cumple «se»?",
+    "opciones": {
+      "a": "Sujeto que ejecuta una acción distinta de la de Elena",
+      "b": "Complemento directo que sustituye a las manos",
+      "c": "Marca de una pasiva con manos como sujeto",
+      "d": "Complemento indirecto reflexivo referido a Elena"
+    },
+    "respuesta": "d",
+    "explicacion": "La acción recae directamente sobre las manos y afecta a Elena, a quien remite se. El pronombre es indirecto reflexivo, no el sujeto ni un sustituto de las manos.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-225",
+    "categoria": "Español",
+    "tema": "Aspecto: futuro compuesto y anterioridad futura",
+    "pregunta": "En «Cuando llegues mañana, ya habremos revisado el archivo», ¿cómo se sitúa la revisión?",
+    "opciones": {
+      "a": "Como anterior a la llegada prevista para mañana",
+      "b": "Como simultánea a una llegada ocurrida ayer",
+      "c": "Como posterior a todas las acciones futuras",
+      "d": "Como habitual durante las visitas de cada semana"
+    },
+    "respuesta": "a",
+    "explicacion": "El futuro compuesto presenta una acción terminada antes de otro punto futuro: la llegada de mañana. No expresa aquí hábito ni pasado respecto del momento de hablar.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-226",
+    "categoria": "Español",
+    "tema": "Ortografía: a ver y haber",
+    "pregunta": "Completa: «Vamos ___ si puede ___ otra copia disponible».",
+    "opciones": {
+      "a": "haber / a ver",
+      "b": "a ver / a ver",
+      "c": "a ver / haber",
+      "d": "haber / haber"
+    },
+    "respuesta": "c",
+    "explicacion": "Vamos a ver significa comprobar; puede haber usa el infinitivo de haber con sentido de existencia. La coincidencia sonora no hace intercambiables las grafías.",
+    "fuente_conceptual": "https://www.fundeu.es/recomendacion/a-ver-haber/",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-227",
+    "categoria": "Español",
+    "tema": "Ortografía: conque y con qué",
+    "pregunta": "Completa: «Ya terminamos, ___ podemos salir. ¿___ herramienta cerraste la caja?».",
+    "opciones": {
+      "a": "con qué / conque",
+      "b": "conque / con qué",
+      "c": "con que / conque",
+      "d": "conque / conque"
+    },
+    "respuesta": "b",
+    "explicacion": "Conque introduce una consecuencia, equivalente a así que. Con qué introduce la pregunta por el instrumento y lleva tilde interrogativa.",
+    "fuente_conceptual": "https://www.fundeu.es/recomendacion/con-que-con-que-y-conque/",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-228",
+    "categoria": "Español",
+    "tema": "Ortografía: demás y de más",
+    "pregunta": "Completa: «Guarda las ___ carpetas; parece que trajimos dos ___».",
+    "opciones": {
+      "a": "de más / demás",
+      "b": "demás / demás",
+      "c": "de más / de más",
+      "d": "demás / de más"
+    },
+    "respuesta": "d",
+    "explicacion": "Demás se refiere a las restantes; de más significa en exceso. La frase distingue carpetas restantes de una cantidad sobrante.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-229",
+    "categoria": "Español",
+    "tema": "Acentuación: compuesto con guion",
+    "pregunta": "¿Qué escritura conserva correctamente las tildes de los adjetivos unidos por guion?",
+    "opciones": {
+      "a": "Teórico-práctico",
+      "b": "Teorico-práctico",
+      "c": "Teórico-practico",
+      "d": "Teorico-practico"
+    },
+    "respuesta": "a",
+    "explicacion": "En este compuesto con guion cada componente conserva su acentuación gráfica: teórico y práctico son esdrújulas.",
+    "fuente_conceptual": "https://cvc.cervantes.es/lengua/alhabla/museo_horrores/museo_021.htm",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-230",
+    "categoria": "Español",
+    "tema": "Semántica: escala y expectativa",
+    "pregunta": "En «Ni siquiera la persona que organizó el acto conocía el cambio de horario», ¿qué expectativa se contraría especialmente?",
+    "opciones": {
+      "a": "Que el cambio de horario afectara a más de una persona",
+      "b": "Que organizar un acto excluyera cualquier comunicación posterior",
+      "c": "Que quien organizó el acto estuviera especialmente informado",
+      "d": "Que el acto hubiera sido organizado por varias personas"
+    },
+    "respuesta": "c",
+    "explicacion": "Ni siquiera destaca un caso en el que se esperaba con especial fuerza el conocimiento del cambio. El texto no identifica género ni afirma que hubiese varios organizadores.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-231",
+    "categoria": "Español",
+    "tema": "Sintaxis: complemento circunstancial frente a régimen",
+    "pregunta": "En «La comisión trabajó durante tres horas», ¿qué función cumple «durante tres horas»?",
+    "opciones": {
+      "a": "Complemento de régimen seleccionado por trabajar",
+      "b": "Complemento circunstancial que expresa duración",
+      "c": "Complemento directo que recibe la acción",
+      "d": "Atributo referido a la comisión"
+    },
+    "respuesta": "b",
+    "explicacion": "El grupo aporta la duración del trabajo; trabajar no selecciona obligatoriamente durante. No describe una cualidad mediante un verbo copulativo ni recibe la acción.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-232",
+    "categoria": "Español",
+    "tema": "Léxico: sentido contextual de dirimir",
+    "pregunta": "En «Solicitaron un arbitraje para dirimir la controversia», ¿qué sustitución conserva el sentido de «dirimir»?",
+    "opciones": {
+      "a": "Posponer",
+      "b": "Divulgar",
+      "c": "Agravar",
+      "d": "Resolver"
+    },
+    "respuesta": "d",
+    "explicacion": "Dirimir una controversia es resolverla o decidirla. Pedir arbitraje no se presenta como un medio para difundirla, prolongarla o intensificarla.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-233",
+    "categoria": "Español",
+    "tema": "Lectura: marcas de intervención editorial en citas",
+    "pregunta": "Un artículo reproduce así un fragmento: «Las familias recorrieron el camino [...] antes de llegar al refugio». ¿Qué información aporta la marca entre corchetes en esta cita textual?",
+    "opciones": {
+      "a": "Quien cita ha suprimido una parte del texto reproducido",
+      "b": "La persona citada dejó inconclusa la frase en ese punto",
+      "c": "Las palabras anteriores contienen un error del original",
+      "d": "Quien cita ha añadido una aclaración ajena al original"
+    },
+    "respuesta": "a",
+    "explicacion": "Los puntos suspensivos entre corchetes señalan una omisión realizada al reproducir el texto. No equivalen a una vacilación del hablante, a la indicación sic ni a palabras aclaratorias añadidas.",
+    "fuente_conceptual": "https://www.rae.es/diccionario-estudiante/docs/ortografia.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "esp-234",
+    "categoria": "Español",
+    "tema": "Redacción: nominalización y conservación de participantes",
+    "pregunta": "¿Qué transformación conserva quién evalúa y qué se evalúa en «El jurado evaluará las propuestas»?",
+    "opciones": {
+      "a": "La evaluación del jurado por parte de las propuestas",
+      "b": "La evaluación de las propuestas por parte del jurado",
+      "c": "La propuesta de los jurados por parte de la evaluación",
+      "d": "La evaluación de los jurados que proponen el resultado"
+    },
+    "respuesta": "b",
+    "explicacion": "La nominalización conserva las propuestas como objeto evaluado y al jurado como agente. No debe invertir esos participantes aunque ya no use un verbo conjugado.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "lit-121",
+    "categoria": "Literatura",
+    "tema": "Métrica: sinéresis",
+    "pregunta": "En una lectura poética se unen en una sola sílaba métrica las vocales de «poeta» que normalmente forman hiato: poe-ta en vez de po-e-ta. ¿Qué licencia se aplica?",
+    "opciones": {
+      "a": "Sinalefa entre palabras distintas",
+      "b": "Diéresis dentro de un diptongo",
+      "c": "Sinéresis dentro de una palabra",
+      "d": "Ajuste por terminación esdrújula"
+    },
+    "respuesta": "c",
+    "explicacion": "La sinéresis reúne en una sílaba vocales que normalmente forman hiato dentro de una palabra. Aquí reduce de tres a dos el cómputo de poeta.",
+    "fuente_conceptual": "https://edea.juntadeandalucia.es/bancorecursos/file/db9870f9-6ff6-4a00-a692-c44a97230f7e/1/LE1_B1_SdA2_Contenidos_2425_v01_web.zip/45_mtrica_espaola.html",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "lit-122",
+    "categoria": "Literatura",
+    "tema": "Formas métricas: lira",
+    "pregunta": "Una estrofa tiene cinco versos con esquema 7a, 11B, 7a, 7b, 11B. ¿Qué forma corresponde a esa combinación fija?",
+    "opciones": {
+      "a": "Silva",
+      "b": "Lira",
+      "c": "Cuarteto",
+      "d": "Décima"
+    },
+    "respuesta": "b",
+    "explicacion": "La lira combina tres heptasílabos y dos endecasílabos con ese esquema. A diferencia de ella, la silva no exige una estrofa fija de cinco versos.",
+    "fuente_conceptual": "https://edea.juntadeandalucia.es/bancorecursos/file/db9870f9-6ff6-4a00-a692-c44a97230f7e/1/LE1_B1_SdA2_Contenidos_2425_v01_web.zip/45_mtrica_espaola.html",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "lit-123",
+    "categoria": "Literatura",
+    "tema": "Lectura poética: paralelismo sintáctico",
+    "pregunta": "Lee los versos originales: «Por el agua bajaban las hojas; / por el aire subían las voces». ¿Qué relación formal sostiene su paralelismo?",
+    "opciones": {
+      "a": "Repiten una estructura semejante con elementos léxicos diferentes",
+      "b": "Sustituyen la segunda oración por una sola palabra onomatopéyica",
+      "c": "Omiten el verbo en ambos versos para recuperar una acción previa",
+      "d": "Organizan dos preguntas que exigen respuestas contradictorias"
+    },
+    "respuesta": "a",
+    "explicacion": "Ambos versos ordenan un grupo preposicional, un verbo y un sujeto. El paralelismo no requiere repetir todas las palabras; aquí también permite contrastar bajar y subir.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "lit-124",
+    "categoria": "Literatura",
+    "tema": "Narrativa mexicana: obra y autor",
+    "pregunta": "¿Qué novela breve de Carlos Fuentes desarrolla la historia de Felipe Montero y Consuelo, con una voz que se dirige al protagonista en segunda persona?",
+    "opciones": {
+      "a": "Las batallas en el desierto",
+      "b": "El libro vacío",
+      "c": "El llano en llamas",
+      "d": "Aura"
+    },
+    "respuesta": "d",
+    "explicacion": "Aura es de Carlos Fuentes y emplea de manera característica la segunda persona. Felipe Montero y Consuelo pertenecen a su historia.",
+    "fuente_conceptual": "https://www.cultura.gob.mx/noticias/libros-revistas-y-literatura/20705-conaculta-celebra-aura-novela-fundamental-de-las-letras-mexicanas.html",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "lit-125",
+    "categoria": "Literatura",
+    "tema": "Tradiciones literarias: poesía náhuatl",
+    "pregunta": "Una antología reúne cantos atribuidos a un gobernante de Texcoco del siglo XV y estudia su transmisión en la tradición náhuatl. ¿Qué figura corresponde a ese contexto?",
+    "opciones": {
+      "a": "Sor Juana Inés de la Cruz",
+      "b": "Bernardo de Balbuena",
+      "c": "Nezahualcóyotl",
+      "d": "Carlos de Sigüenza y Góngora"
+    },
+    "respuesta": "c",
+    "explicacion": "Nezahualcóyotl, señor de Texcoco, está vinculado con esa tradición poética prehispánica. Hablar de cantos atribuidos reconoce las particularidades de su transmisión, sin presentarlos como manuscritos autógrafos.",
+    "fuente_conceptual": "https://repositorio.unam.mx/contenidos/ficha/poemas-nezahualcoyotl-5059499",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "lit-126",
+    "categoria": "Literatura",
+    "tema": "Vanguardia mexicana: estridentismo",
+    "pregunta": "¿Qué asociación de autor, libro y movimiento permite estudiar la incorporación de máquinas y ciudad moderna a la vanguardia mexicana de la década de 1920?",
+    "opciones": {
+      "a": "Manuel Maples Arce — Andamios interiores — estridentismo",
+      "b": "Vicente Huidobro — Altazor — creacionismo",
+      "c": "André Breton — Manifiesto del surrealismo — surrealismo",
+      "d": "Filippo Tommaso Marinetti — Manifiesto futurista — futurismo"
+    },
+    "respuesta": "a",
+    "explicacion": "Maples Arce y Andamios interiores se vinculan con el estridentismo mexicano de los años veinte. Las otras asociaciones corresponden a proyectos de vanguardia distintos; el tema de las máquinas no identifica por sí solo a todos como estridentistas.",
+    "fuente_conceptual": "https://www.elem.mx/obra/datos/9224",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "lit-127",
+    "categoria": "Literatura",
+    "tema": "Poesía mexicana: Ramón López Velarde",
+    "pregunta": "¿Qué autor escribió el poema La suave Patria?",
+    "opciones": {
+      "a": "Salvador Díaz Mirón",
+      "b": "Ramón López Velarde",
+      "c": "Manuel Gutiérrez Nájera",
+      "d": "José Juan Tablada"
+    },
+    "respuesta": "b",
+    "explicacion": "La suave Patria es de Ramón López Velarde. Se compara su autoría con otros poetas mexicanos, sin atribuirle el poema a un movimiento completo.",
+    "fuente_conceptual": "https://www.cch-naucalpan.unam.mx/velarde/PDF/suavepatria.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "lit-128",
+    "categoria": "Literatura",
+    "tema": "Narrativa: funciones actanciales",
+    "pregunta": "En un relato, una viajera intenta recuperar un documento perdido. Un barquero le ofrece cruzar el río para que llegue al lugar donde lo guardan, pero no busca obtenerlo para sí. Respecto de esa búsqueda, ¿qué función cumple el barquero?",
+    "opciones": {
+      "a": "Oponente que dificulta alcanzar el objeto",
+      "b": "Objeto que la viajera intenta recuperar",
+      "c": "Destinatario final que recibe el documento",
+      "d": "Ayudante que facilita el recorrido del sujeto"
+    },
+    "respuesta": "d",
+    "explicacion": "El barquero contribuye a la búsqueda de la viajera. Su función se define por esa relación con el objetivo, no por ser protagonista o por recibir el documento.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/secuencianarrativa/componentesdelrelato",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "lit-129",
+    "categoria": "Literatura",
+    "tema": "Tópicos literarios: ubi sunt",
+    "pregunta": "Lee los versos originales: «¿Dónde están las voces de aquella mesa? / ¿Dónde quienes alzaban sus copas? / El patio guarda sillas, no respuestas». ¿Qué tópico organiza las preguntas sobre personas ausentes y un tiempo perdido?",
+    "opciones": {
+      "a": "Carpe diem: invitación a aprovechar el presente",
+      "b": "Locus amoenus: idealización de un espacio placentero",
+      "c": "Ubi sunt: interrogación por quienes ya no están",
+      "d": "Beatus ille: elogio de una vida apartada"
+    },
+    "respuesta": "c",
+    "explicacion": "Las preguntas dónde están evocan la desaparición de personas y un mundo pasado. Ese motivo caracteriza el ubi sunt, no una invitación directa al goce o al retiro.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "lit-130",
+    "categoria": "Literatura",
+    "tema": "Géneros: pacto de lectura de la crónica",
+    "pregunta": "Una crónica reconstruye una inundación mediante entrevistas y fechas verificables, pero usa escenas, diálogos y descripciones elaboradas. ¿Qué obligación distingue su pacto de lectura del de un relato presentado como ficción?",
+    "opciones": {
+      "a": "Responder por la base factual de los sucesos que presenta como reales",
+      "b": "Subordinar la exactitud de los hechos al efecto elegido para la trama",
+      "c": "Presentar cualquier coincidencia con sucesos reales como accidental",
+      "d": "Construir escenas sin distinguir entre invención y testimonio"
+    },
+    "respuesta": "a",
+    "explicacion": "Los recursos narrativos no eliminan el compromiso referencial de una crónica. Debe distinguir lo documentado, lo atribuido a testimonios y lo incierto, en vez de presentar invenciones como hechos.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "fil-121",
+    "categoria": "Filosofía",
+    "tema": "Lógica: equivalencia mediante complemento de clase",
+    "pregunta": "En un dominio fijo, «no autorizados» significa exactamente «que no están autorizados». ¿Qué enunciado equivale a «Todos los accesos son autorizados»?",
+    "opciones": {
+      "a": "Todos los autorizados son accesos",
+      "b": "Ningún acceso es no autorizado",
+      "c": "Algún acceso es autorizado",
+      "d": "Ningún autorizado es acceso"
+    },
+    "respuesta": "b",
+    "explicacion": "Afirmar que cada acceso pertenece a la clase de autorizados excluye accesos en su complemento. No permite invertir la inclusión ni sustituir el universal por una afirmación particular.",
+    "fuente_conceptual": "https://www.filosoficas.unam.mx/~morado/Papers/reglas.htm",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "fil-122",
+    "categoria": "Filosofía",
+    "tema": "Epicuro: clasificación de los deseos",
+    "pregunta": "Según la clasificación epicúrea, ¿qué deseo es natural y necesario?",
+    "opciones": {
+      "a": "Obtener un reconocimiento público superior al de los demás",
+      "b": "Elegir siempre el manjar más refinado disponible",
+      "c": "Beber agua para aliviar la sed",
+      "d": "Acumular riquezas sin un límite definido"
+    },
+    "respuesta": "c",
+    "explicacion": "Satisfacer la sed atiende una necesidad corporal y elimina un dolor. La distinción epicúrea no identifica necesidades básicas con lujo, reconocimiento o acumulación ilimitada.",
+    "fuente_conceptual": "https://www.eventos.cch.unam.mx/olimpiada/files/Maximas.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "fil-123",
+    "categoria": "Filosofía",
+    "tema": "Estoicismo: pertenencia cosmopolita",
+    "pregunta": "Una postura sostiene que las obligaciones hacia otras personas no se agotan en la pertenencia a la propia ciudad, porque los seres humanos forman parte de una comunidad racional más amplia. ¿Qué idea estoica expresa?",
+    "opciones": {
+      "a": "Cosmopolitismo moral",
+      "b": "Contractualismo político",
+      "c": "Relativismo cultural",
+      "d": "Individualismo posesivo"
+    },
+    "respuesta": "a",
+    "explicacion": "El cosmopolitismo estoico amplía la pertenencia moral más allá de la ciudad particular. No equivale por sí mismo a un gobierno mundial ni a suprimir los vínculos locales.",
+    "fuente_conceptual": "https://tesiunamdocumentos.dgb.unam.mx/ptd2008/octubre/0633399/0633399.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "fil-124",
+    "categoria": "Filosofía",
+    "tema": "Aristóteles: amistad por utilidad",
+    "pregunta": "Dos personas mantienen su trato únicamente porque intercambian servicios convenientes; cuando desaparece esa ventaja, cesa la relación. ¿Qué tipo de amistad distingue Aristóteles en este caso?",
+    "opciones": {
+      "a": "La amistad fundada en la virtud del otro",
+      "b": "La amistad fundada en la pertenencia familiar",
+      "c": "La amistad fundada en el placer de conversar",
+      "d": "La amistad fundada en la utilidad recíproca"
+    },
+    "respuesta": "d",
+    "explicacion": "La razón declarada del trato es el beneficio que cada cual obtiene. En la amistad por virtud se quiere el bien del amigo por quien es, no solo por los servicios que proporciona.",
+    "fuente_conceptual": "https://www.filosofia.org/cla/ari/azc01215.htm",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "fil-125",
+    "categoria": "Filosofía",
+    "tema": "Agustín: problema del mal",
+    "pregunta": "Frente a la idea de que bien y mal son dos sustancias o principios equivalentes, ¿qué tesis caracteriza la respuesta de Agustín de Hipona?",
+    "opciones": {
+      "a": "El mal es una sustancia con el mismo estatuto que el bien",
+      "b": "El mal consiste en privación o corrupción de un bien",
+      "c": "El mal es la materia corporal en cuanto existe",
+      "d": "El mal se reduce a diferencias de costumbres entre pueblos"
+    },
+    "respuesta": "b",
+    "explicacion": "La concepción privativa niega al mal un estatuto sustancial independiente: solo puede pensarse respecto de un bien del que algo queda privado. No identifica sin más el cuerpo con el mal.",
+    "fuente_conceptual": "https://tesiunamdocumentos.dgb.unam.mx/ptb2011/septiembre/0672331/0672331_A1.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "fil-126",
+    "categoria": "Filosofía",
+    "tema": "Tomás de Aquino: primera vía",
+    "pregunta": "Para exponer la primera vía de Tomás de Aquino, ¿qué punto de partida debe elegirse?",
+    "opciones": {
+      "a": "La idea de un ser que reúne todas las perfecciones",
+      "b": "La autoridad de un texto revelado aceptado por fe",
+      "c": "La presencia de cambios observables en la realidad",
+      "d": "El acuerdo de distintas culturas acerca de lo divino"
+    },
+    "respuesta": "c",
+    "explicacion": "La primera vía parte del movimiento o cambio, analizado como paso de potencia a acto, para argumentar un primer motor no movido. No parte únicamente del concepto de perfección, de revelación o de consenso cultural.",
+    "fuente_conceptual": "https://tesiunamdocumentos.dgb.unam.mx/ptd2008/julio/0629827/0629827_A1.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "fil-127",
+    "categoria": "Filosofía",
+    "tema": "Metodología: principio de parsimonia",
+    "pregunta": "Dos explicaciones dan cuenta igualmente bien de los datos, pero una introduce entidades adicionales que no cumplen ninguna función explicativa. ¿Qué recomienda el principio de parsimonia asociado con Ockham?",
+    "opciones": {
+      "a": "Preferir provisionalmente la que evita esas entidades innecesarias",
+      "b": "Elegir la que añade más entidades para ampliar su vocabulario",
+      "c": "Decidir por el número de personas que aceptan cada explicación",
+      "d": "Tomar la menor extensión del escrito como prueba de verdad"
+    },
+    "respuesta": "a",
+    "explicacion": "La economía evita multiplicar supuestos sin necesidad explicativa cuando las condiciones relevantes son comparables. No garantiza verdad ni equivale a preferir cualquier texto corto.",
+    "fuente_conceptual": "https://www.comoves.unam.mx/numeros/ojodemosca/49",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "fil-128",
+    "categoria": "Filosofía",
+    "tema": "Kant: uso público de la razón",
+    "pregunta": "Una persona cumple una función administrativa y, fuera de esa función, publica un ensayo dirigido al público lector en el que examina racionalmente sus reglas. En ¿Qué es la Ilustración?, ¿cómo caracteriza Kant este segundo uso de la razón?",
+    "opciones": {
+      "a": "Privado, porque el ensayo se escribió en su domicilio",
+      "b": "Público, porque se dirige como persona docta al público lector",
+      "c": "Privado, porque trata un asunto que conoce personalmente",
+      "d": "Público, porque sustituye el análisis por una orden administrativa"
+    },
+    "respuesta": "b",
+    "explicacion": "Para Kant, público designa aquí el uso de la razón ante el público lector, no el lugar físico de escritura. El uso ligado a la ejecución de un cargo recibe en ese texto el nombre de privado.",
+    "fuente_conceptual": "https://epaginapersonal.unam.mx/app/webroot/files/3238/Asignaturas/854/Archivo1.3963.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "fil-129",
+    "categoria": "Filosofía",
+    "tema": "Mill: discusión y comprensión de las razones",
+    "pregunta": "En la defensa de la libertad de discusión de John Stuart Mill, ¿por qué puede ser valioso examinar una objeción incluso cuando una creencia aceptada resulta verdadera?",
+    "opciones": {
+      "a": "Porque el acuerdo colectivo constituye por sí mismo la verdad de una creencia",
+      "b": "Porque el valor de la creencia depende únicamente de la cohesión social que produce",
+      "c": "Porque contrastarla ayuda a comprender sus razones y evita repetirla como dogma",
+      "d": "Porque la libertad de opinar obliga a atribuir igual justificación a todas las tesis"
+    },
+    "respuesta": "c",
+    "explicacion": "Mill advierte que una verdad no discutida puede conservarse como fórmula sin comprensión de sus fundamentos. El contraste no hace verdaderas todas las objeciones ni convierte la popularidad en criterio de verdad.",
+    "fuente_conceptual": "https://revistas.mjusticia.gob.es/index.php/afd/article/view/2114",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "fil-130",
+    "categoria": "Filosofía",
+    "tema": "Ética animal: criterio de consideración moral",
+    "pregunta": "En el argumento de Peter Singer sobre la consideración de intereses animales, ¿qué capacidad es decisiva para que un ser tenga un interés en evitar el sufrimiento?",
+    "opciones": {
+      "a": "Resolver problemas de lógica formal",
+      "b": "Participar en contratos recíprocos",
+      "c": "Pertenecer a la especie humana",
+      "d": "Experimentar dolor o bienestar"
+    },
+    "respuesta": "d",
+    "explicacion": "La capacidad de sentir permite que lo que ocurre le importe al ser afectado. Este criterio no exige lenguaje lógico, capacidad contractual o pertenencia humana; no implica que todos los intereses sean idénticos.",
+    "fuente_conceptual": "https://www.pmdcmos.unam.mx/wp-content/uploads/2024/03/guia_bioetica.pdf",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Cotejo contra manifest1440 revisado, lectura de claves y alternativas; pendiente cruce independiente"
+    }
+  },
+  {
+    "id": "MAT265",
+    "categoria": "Matemáticas",
+    "tema": "Polinomios: igualdad de coeficientes",
+    "pregunta": "La identidad (x + a)(x + 2) = x² + 5x + b debe cumplirse para todo x real. ¿Cuánto vale a + b?",
+    "opciones": {
+      "a": "7",
+      "b": "9",
+      "c": "10",
+      "d": "12"
+    },
+    "respuesta": "b",
+    "explicacion": "El coeficiente de x es a + 2 = 5, así que a = 3. El término independiente es b = 2a = 6 y a + b = 9.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/1-4-polynomials",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT266",
+    "categoria": "Matemáticas",
+    "tema": "Radicales: reconocer un cuadrado perfecto",
+    "pregunta": "¿Cuál es el valor exacto de la raíz cuadrada principal √(3 + 2√2)?",
+    "opciones": {
+      "a": "3 + √2",
+      "b": "√3 + √2",
+      "c": "√2 − 1",
+      "d": "1 + √2"
+    },
+    "respuesta": "d",
+    "explicacion": "(1 + √2)² = 1 + 2√2 + 2 = 3 + 2√2. Como 1 + √2 es positivo, es la raíz principal.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/1-3-radicals-and-rational-exponents",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT267",
+    "categoria": "Matemáticas",
+    "tema": "Complejos: multiplicación por i y giro",
+    "pregunta": "El complejo z = 3 + 2i representa el punto (3, 2). ¿Qué punto representa iz y qué giro alrededor del origen corresponde a esa operación?",
+    "opciones": {
+      "a": "(−2, 3); 90° antihorario",
+      "b": "(2, −3); 90° horario",
+      "c": "(−3, −2); 180°",
+      "d": "(2, 3); 90° antihorario"
+    },
+    "respuesta": "a",
+    "explicacion": "iz = 3i + 2i² = −2 + 3i. El cambio (x, y) → (−y, x) corresponde a un giro de 90° antihorario.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/3-1-complex-numbers",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT268",
+    "categoria": "Matemáticas",
+    "tema": "Sistemas: combinación de tres ecuaciones",
+    "pregunta": "Los precios x, y y z de tres artículos cumplen, en pesos:\nx + y = 18\ny + z = 22\nx + z = 20\n¿Cuánto cuesta comprar uno de cada artículo?",
+    "opciones": {
+      "a": "20 pesos",
+      "b": "60 pesos",
+      "c": "30 pesos",
+      "d": "40 pesos"
+    },
+    "respuesta": "c",
+    "explicacion": "Al sumar las tres ecuaciones, cada precio aparece dos veces: 2(x + y + z) = 60. El total es 30 pesos.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/9-2-systems-of-linear-equations-three-variables",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT269",
+    "categoria": "Matemáticas",
+    "tema": "Valor absoluto: comparación de distancias",
+    "pregunta": "¿Qué conjunto de números reales está más cerca de 2 que de −4 en la recta numérica, es decir, cumple |x − 2| < |x + 4|?",
+    "opciones": {
+      "a": "x < −1",
+      "b": "x > −1",
+      "c": "x ≥ −1",
+      "d": "−4 < x < 2"
+    },
+    "respuesta": "b",
+    "explicacion": "Ambos lados son no negativos, así que pueden compararse sus cuadrados: x² − 4x + 4 < x² + 8x + 16. Resulta x > −1; el punto medio se excluye por igualdad.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/1-6-absolute-value-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT270",
+    "categoria": "Matemáticas",
+    "tema": "Logaritmos: ecuación con bases diferentes",
+    "pregunta": "¿Cuál es la solución real de log₂x = log₄(8x)?",
+    "opciones": {
+      "a": "8",
+      "b": "2",
+      "c": "4",
+      "d": "16"
+    },
+    "respuesta": "a",
+    "explicacion": "Para x > 0, log₄(8x) = (3 + log₂x)/2. Si u = log₂x, entonces 2u = 3 + u, u = 3 y x = 8.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/4-6-exponential-and-logarithmic-equations",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT271",
+    "categoria": "Matemáticas",
+    "tema": "Funciones inversas: logaritmo trasladado",
+    "pregunta": "Para f(x) = log₃(x − 2), con x > 2, ¿cuál es su inversa, definida para todo número real?",
+    "opciones": {
+      "a": "f⁻¹(x) = 3ˣ − 2",
+      "b": "f⁻¹(x) = 3^(x + 2)",
+      "c": "f⁻¹(x) = log₃x + 2",
+      "d": "f⁻¹(x) = 3ˣ + 2"
+    },
+    "respuesta": "d",
+    "explicacion": "De y = log₃(x − 2) se obtiene x − 2 = 3ʸ y x = 3ʸ + 2. Intercambiar variables da la inversa 3ˣ + 2.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/4-6-exponential-and-logarithmic-equations",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT272",
+    "categoria": "Matemáticas",
+    "tema": "Recta: pendiente y ángulo de inclinación",
+    "pregunta": "El ángulo de inclinación θ de una recta se mide desde el semieje positivo x en sentido antihorario, con 0° ≤ θ < 180°, y cumple m = tan θ. Si la recta es y = −√3 x + 5, ¿cuál es θ?",
+    "opciones": {
+      "a": "30°",
+      "b": "60°",
+      "c": "120°",
+      "d": "150°"
+    },
+    "respuesta": "c",
+    "explicacion": "La pendiente es −√3. La tangente tiene ese valor con ángulo de referencia 60° en el segundo cuadrante: θ = 180° − 60° = 120°.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/5-3-the-other-trigonometric-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT273",
+    "categoria": "Matemáticas",
+    "tema": "Circunferencia: vueltas y ángulo acumulado",
+    "pregunta": "Una rueda de radio 0.3 m recorre 9π m rodando sin deslizar. ¿Cuántas vueltas completas da?",
+    "opciones": {
+      "a": "15",
+      "b": "30",
+      "c": "3",
+      "d": "45"
+    },
+    "respuesta": "a",
+    "explicacion": "Cada vuelta recorre una longitud 2πr = 0.6π m. El número de vueltas es 9π/(0.6π) = 15.",
+    "fuente_conceptual": "https://openstax.org/books/prealgebra-2e/pages/9-key-concepts",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT274",
+    "categoria": "Matemáticas",
+    "tema": "Trigonometría: suma de ángulos agudos",
+    "pregunta": "Dos ángulos agudos α y β cumplen tan α = 2 y tan β = 1/2. ¿Cuánto vale α + β?",
+    "opciones": {
+      "a": "45°",
+      "b": "60°",
+      "c": "180°",
+      "d": "90°"
+    },
+    "respuesta": "d",
+    "explicacion": "Para ángulos agudos, tan(90° − α) = 1/tan α = 1/2. Como la tangente es inyectiva entre 0° y 90°, β = 90° − α.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/5-3-the-other-trigonometric-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT275",
+    "categoria": "Matemáticas",
+    "tema": "Funciones sinusoidales: periodo desde extremos consecutivos",
+    "pregunta": "Una señal tiene la forma h(t) = A cos(ωt + φ) + C, con A > 0 y ω > 0. Alcanza un máximo en t = 2 s y el mínimo inmediatamente siguiente en t = 5 s. ¿Cuál es su periodo?",
+    "opciones": {
+      "a": "3 s",
+      "b": "6 s",
+      "c": "7 s",
+      "d": "10 s"
+    },
+    "respuesta": "b",
+    "explicacion": "De un máximo al mínimo siguiente transcurre medio periodo. Esa diferencia es 5 − 2 = 3 s, por lo que el periodo completo es 6 s.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/6-1-graphs-of-the-sine-and-cosine-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT276",
+    "categoria": "Matemáticas",
+    "tema": "Sistemas no lineales: parámetro de tangencia",
+    "pregunta": "¿Para qué valor de c la recta y = 4x + c tiene exactamente un punto común con la parábola y = x²?",
+    "opciones": {
+      "a": "4",
+      "b": "0",
+      "c": "−4",
+      "d": "−2"
+    },
+    "respuesta": "c",
+    "explicacion": "La igualdad produce x² − 4x − c = 0. Para una sola raíz real, el discriminante debe ser 16 + 4c = 0; así c = −4 y el contacto ocurre en x = 2.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/9-3-systems-of-nonlinear-equations-and-inequalities-two-variables",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT277",
+    "categoria": "Matemáticas",
+    "tema": "Parábola: longitud de una cuerda focal",
+    "pregunta": "La parábola y² = 12x tiene foco F(3, 0). Una recta vertical pasa por el foco y corta la parábola en A y B. ¿Cuánto mide el segmento AB?",
+    "opciones": {
+      "a": "3 unidades",
+      "b": "6 unidades",
+      "c": "9 unidades",
+      "d": "12 unidades"
+    },
+    "respuesta": "d",
+    "explicacion": "La recta es x = 3. Entonces y² = 36, de modo que los extremos tienen y = 6 y y = −6. La longitud es 6 − (−6) = 12.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT278",
+    "categoria": "Matemáticas",
+    "tema": "Geometría analítica: lugar con valores absolutos",
+    "pregunta": "¿Qué figura forman todos los puntos del plano que cumplen |x| + |y| = 4?",
+    "opciones": {
+      "a": "El borde de un cuadrado con vértices (±4, 0) y (0, ±4)",
+      "b": "Una circunferencia de radio 4 centrada en el origen",
+      "c": "El borde de un cuadrado con vértices (±4, ±4)",
+      "d": "Las dos rectas y = 4 e y = −4"
+    },
+    "respuesta": "a",
+    "explicacion": "En cada cuadrante la ecuación se vuelve un segmento recto, como x + y = 4 en el primero. Los cuatro segmentos unen los interceptos (4, 0), (0, 4), (−4, 0) y (0, −4), formando un cuadrado.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/1-6-absolute-value-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT279",
+    "categoria": "Matemáticas",
+    "tema": "Sistemas de circunferencias: eliminación",
+    "pregunta": "Un punto pertenece simultáneamente a x² + y² = 25 y a (x − 6)² + y² = 25. ¿Cuál debe ser su coordenada x?",
+    "opciones": {
+      "a": "0",
+      "b": "6",
+      "c": "3",
+      "d": "5"
+    },
+    "respuesta": "c",
+    "explicacion": "Al restar las ecuaciones se elimina x² + y²: −12x + 36 = 0, por lo que x = 3. Sí hay puntos comunes, con y = ±4.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/9-3-systems-of-nonlinear-equations-and-inequalities-two-variables",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT280",
+    "categoria": "Matemáticas",
+    "tema": "Cónicas: caso degenerado de una familia",
+    "pregunta": "La familia de ecuaciones λx² + y² = 1 depende del parámetro real λ. ¿Qué conjunto representa cuando λ = 0?",
+    "opciones": {
+      "a": "Una parábola de eje vertical",
+      "b": "Dos rectas paralelas y = 1 e y = −1",
+      "c": "Una circunferencia unitaria",
+      "d": "Una sola recta y = 1"
+    },
+    "respuesta": "b",
+    "explicacion": "Con λ = 0 queda y² = 1, es decir, y = ±1. La coordenada x es libre, de modo que aparecen dos rectas horizontales, no una parábola.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/10-4-rotation-of-axes",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT281",
+    "categoria": "Matemáticas",
+    "tema": "Gráficas: evaluación iterada de una función",
+    "pregunta": "La gráfica une por segmentos los puntos (0, 2), (1, 3), (2, 1) y (3, 0), sin prolongarse. ¿Cuánto vale f(f(0))?",
+    "opciones": {
+      "a": "0",
+      "b": "2",
+      "c": "3",
+      "d": "1"
+    },
+    "respuesta": "d",
+    "explicacion": "Primero se lee f(0) = 2. Luego se usa esa salida como nueva entrada: f(2) = 1. No se multiplica f(0) por sí misma.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/1-4-composition-of-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    },
+    "grafico": {
+      "type": "line",
+      "title": "Coordenadas de los puntos",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "MAT282",
+    "categoria": "Matemáticas",
+    "tema": "Gráficas: máximo local frente a máximo absoluto",
+    "pregunta": "La gráfica une por segmentos (0, 1), (1, 4), (2, 2), (3, 5) y (4, 3), sin prolongarse. ¿Qué afirmación sobre x = 1 es correcta?",
+    "opciones": {
+      "a": "Allí hay un máximo local, pero no el máximo absoluto",
+      "b": "Allí está el único máximo absoluto",
+      "c": "Allí hay un mínimo local",
+      "d": "Allí no hay extremo local porque existe un valor mayor"
+    },
+    "respuesta": "a",
+    "explicacion": "Cerca de x = 1, los valores a ambos lados son menores que f(1) = 4: es máximo local. No es absoluto porque f(3) = 5 es mayor.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/1-3-rates-of-change-and-behavior-of-graphs",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    },
+    "grafico": {
+      "type": "line",
+      "title": "Coordenadas de los puntos",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 5
+        },
+        {
+          "x": 4,
+          "y": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": "MAT283",
+    "categoria": "Matemáticas",
+    "tema": "Geometría: ruta poligonal y distancia directa",
+    "pregunta": "En un plano medido en kilómetros, una ruta une A(0, 0), B(3, 4) y C(6, 0) con segmentos rectos. ¿Cuántos kilómetros más se recorren por A–B–C que por el segmento directo A–C?",
+    "opciones": {
+      "a": "2 km",
+      "b": "6 km",
+      "c": "4 km",
+      "d": "10 km"
+    },
+    "respuesta": "c",
+    "explicacion": "Cada lado inclinado mide √(3² + 4²) = 5 km, así que la ruta mide 10 km. El segmento directo mide 6 km; la diferencia es 4 km.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    },
+    "grafico": {
+      "type": "line",
+      "title": "Coordenadas de los puntos",
+      "xLabel": "x (km)",
+      "yLabel": "y (km)",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 6,
+          "y": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "MAT284",
+    "categoria": "Matemáticas",
+    "tema": "Gráficas: centro de simetría trasladado",
+    "pregunta": "La gráfica une los puntos (−2, 0), (0, 1), (1, 2), (2, 3) y (4, 4) mediante segmentos, sin prolongarse. ¿Cuál es su centro de simetría, es decir, el punto alrededor del cual un giro de 180° deja la gráfica igual?",
+    "opciones": {
+      "a": "(0, 0)",
+      "b": "(1, 2)",
+      "c": "(2, 1)",
+      "d": "(1, 0)"
+    },
+    "respuesta": "b",
+    "explicacion": "Los extremos (−2, 0) y (4, 4) tienen punto medio (1, 2). También lo tienen (0, 1) y (2, 3); el punto restante es el propio centro. Los segmentos correspondientes coinciden tras el giro.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/1-5-transformation-of-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    },
+    "grafico": {
+      "type": "line",
+      "title": "Coordenadas de los puntos",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        {
+          "x": -2,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 4,
+          "y": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "MAT285",
+    "categoria": "Matemáticas",
+    "tema": "Exponenciales: desigualdad con exponente cuadrático",
+    "pregunta": "¿Cuál es el conjunto solución real de 2^(x² − 3x) ≤ 1?",
+    "opciones": {
+      "a": "[0, 3]",
+      "b": "(−∞, 0] ∪ [3, ∞)",
+      "c": "(0, 3)",
+      "d": "[−3, 0]"
+    },
+    "respuesta": "a",
+    "explicacion": "Como 2 > 1 y 1 = 2⁰, se requiere x² − 3x ≤ 0. El producto x(x − 3) es no positivo entre sus raíces, incluyéndolas: [0, 3].",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/4-1-exponential-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT286",
+    "categoria": "Matemáticas",
+    "tema": "Circunferencia: distancia mínima desde un punto exterior",
+    "pregunta": "Una circunferencia tiene centro C(1, 1) y radio 2 unidades. ¿Cuál es la menor distancia desde P(4, 5) hasta un punto de la circunferencia?",
+    "opciones": {
+      "a": "7 unidades",
+      "b": "5 unidades",
+      "c": "√21 unidades",
+      "d": "3 unidades"
+    },
+    "respuesta": "d",
+    "explicacion": "La distancia PC es √(3² + 4²) = 5. El punto más cercano del borde está sobre el segmento PC, a 2 unidades del centro: la distancia mínima es 5 − 2 = 3.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Revisión algebraica y conceptual interna; pendiente cruce independiente, sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS121",
+    "categoria": "Física",
+    "tema": "Ondas: perfil espacial y frecuencia",
+    "pregunta": "La gráfica muestra una instantánea de una onda periódica en una cuerda. Las crestas consecutivas están en x = 1 m y x = 5 m; los desplazamientos máximos son ±2 cm. La onda avanza a 12 m/s. ¿Cuál es su frecuencia? Usa v = λf.",
+    "opciones": {
+      "a": "3 Hz",
+      "b": "6 Hz",
+      "c": "12 Hz",
+      "d": "24 Hz"
+    },
+    "respuesta": "a",
+    "explicacion": "La longitud de onda es la distancia entre crestas: λ = 5−1 = 4 m. Entonces f = 12/4 = 3 Hz. La altura de 2 cm es amplitud, no longitud de onda ni periodo.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    },
+    "grafico": {
+      "type": "line",
+      "title": "Perfil espacial instantáneo",
+      "xLabel": "Posición x (m)",
+      "yLabel": "Desplazamiento (cm)",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 3,
+          "y": -2
+        },
+        {
+          "x": 4,
+          "y": 0
+        },
+        {
+          "x": 5,
+          "y": 2
+        },
+        {
+          "x": 6,
+          "y": 0
+        },
+        {
+          "x": 7,
+          "y": -2
+        },
+        {
+          "x": 8,
+          "y": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "FIS122",
+    "categoria": "Física",
+    "tema": "Inducción: lectura de flujo magnético",
+    "pregunta": "El flujo magnético a través de una sola espira cambia linealmente entre los puntos indicados.\nt (s): 0 | 1 | 3 | 4 | 6\nΦ (Wb): 0 | 2 | 2 | −2 | 0\nEn cada tramo, la magnitud de la fem inducida es |ΔΦ/Δt|. ¿En qué intervalo es mayor?",
+    "opciones": {
+      "a": "De 0 a 1 s",
+      "b": "De 3 a 4 s",
+      "c": "De 1 a 3 s",
+      "d": "De 4 a 6 s"
+    },
+    "respuesta": "b",
+    "explicacion": "|ΔΦ/Δt| vale 2 Wb/s entre 0 y 1 s, 0 entre 1 y 3 s, 4 Wb/s entre 3 y 4 s y 1 Wb/s entre 4 y 6 s. La fem máxima ocurre de 3 a 4 s; importa la variación del flujo, no su valor absoluto.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/23-2-faradays-law-of-induction-lenzs-law",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    },
+    "grafico": {
+      "type": "line",
+      "title": "Flujo a través de una espira",
+      "xLabel": "Tiempo (s)",
+      "yLabel": "Flujo magnético (Wb)",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 2
+        },
+        {
+          "x": 4,
+          "y": -2
+        },
+        {
+          "x": 6,
+          "y": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "FIS123",
+    "categoria": "Física",
+    "tema": "Sonido: batimientos",
+    "pregunta": "Dos diapasones de frecuencias cercanas producen batimientos. Uno vibra a 440 Hz y se oyen 4 aumentos de intensidad por segundo. Al elevar ligeramente la frecuencia del segundo, los batimientos se hacen más lentos. ¿Cuál era la frecuencia inicial del segundo?",
+    "opciones": {
+      "a": "444 Hz",
+      "b": "440 Hz",
+      "c": "436 Hz",
+      "d": "448 Hz"
+    },
+    "respuesta": "c",
+    "explicacion": "La diferencia inicial de frecuencias es 4 Hz, así que podría ser 436 o 444 Hz. Si elevar la segunda frecuencia reduce la diferencia, estaba por debajo de 440 Hz: era 436 Hz.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/16-10-superposition-and-interference",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS124",
+    "categoria": "Física",
+    "tema": "Calor: convección natural",
+    "pregunta": "Se calienta agua desde el fondo de un recipiente, siempre por encima de 10 °C y sin hervir. Una pequeña cantidad de colorante permite observar agua que asciende en la zona caliente y desciende en zonas más frías. ¿Qué explica principalmente este transporte de calor?",
+    "opciones": {
+      "a": "Radiación, porque la energía viaja sin mover agua",
+      "b": "Conducción, porque la energía se transfiere principalmente sin transporte global de agua",
+      "c": "Evaporación, porque el agua debe volverse gas para ascender",
+      "d": "Convección, porque el fluido menos denso asciende y circula"
+    },
+    "respuesta": "d",
+    "explicacion": "Por encima de 10 °C, al calentarse el agua se dilata y disminuye su densidad. Su ascenso y el descenso de agua más fría transportan energía mediante movimiento del fluido: convección.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/14-6-convection",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS125",
+    "categoria": "Física",
+    "tema": "Electrostática: carga por inducción y tierra",
+    "pregunta": "Una esfera metálica neutra y aislada se conecta a tierra mientras una varilla negativa se mantiene cerca sin tocarla. Se retira primero la conexión a tierra y después la varilla. ¿Cómo queda la esfera?",
+    "opciones": {
+      "a": "Positiva, porque algunos electrones escaparon a tierra",
+      "b": "Negativa, porque recibió electrones de la varilla sin contacto",
+      "c": "Neutra, porque retirar la varilla devuelve automáticamente los electrones",
+      "d": "Positiva, porque recibió protones móviles desde la tierra"
+    },
+    "respuesta": "a",
+    "explicacion": "La varilla negativa repele electrones de la esfera hacia la tierra. Al desconectar primero la tierra, queda un déficit de electrones que permanece al retirar la varilla.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/18-2-conductors-and-insulators",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS126",
+    "categoria": "Física",
+    "tema": "Oscilaciones: péndulo y gravedad",
+    "pregunta": "Para oscilaciones pequeñas, un péndulo ideal tiene T = 2π√(L/g). Se lleva el mismo péndulo a un lugar donde g es la cuarta parte, conservando su longitud. ¿Cómo cambia su periodo?",
+    "opciones": {
+      "a": "Se reduce a la mitad",
+      "b": "Se duplica",
+      "c": "Se cuadruplica",
+      "d": "No cambia"
+    },
+    "respuesta": "b",
+    "explicacion": "T es proporcional a 1/√g para longitud fija. Si g se divide entre cuatro, el periodo se multiplica por √4 = 2; la masa no interviene.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/16-4-the-simple-pendulum",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS127",
+    "categoria": "Física",
+    "tema": "Óptica: giro de un espejo",
+    "pregunta": "Un rayo fijo incide oblicuamente sobre un espejo plano. El espejo gira 5° alrededor del punto de incidencia, dentro del plano que contiene el rayo incidente y la normal. El rayo sigue llegando a la misma cara. ¿Cuánto gira la dirección del rayo reflejado?",
+    "opciones": {
+      "a": "2.5°",
+      "b": "5°",
+      "c": "10°",
+      "d": "20°"
+    },
+    "respuesta": "c",
+    "explicacion": "Al girar el espejo 5°, su normal gira 5°. Como el rayo incidente permanece fijo y los ángulos de incidencia y reflexión son iguales, la dirección reflejada cambia el doble: 10°.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS128",
+    "categoria": "Física",
+    "tema": "Colisiones: conservación y disipación",
+    "pregunta": "Dos bolas de plastilina con velocidades iniciales distintas chocan y quedan unidas. El impulso externo durante el choque es despreciable. ¿Qué ocurre con la cantidad de movimiento total y la energía cinética del sistema?",
+    "opciones": {
+      "a": "Ambas se conservan",
+      "b": "La cantidad de movimiento disminuye y la energía cinética se conserva",
+      "c": "Ambas disminuyen necesariamente en igual proporción",
+      "d": "La cantidad de movimiento se conserva y la energía cinética disminuye"
+    },
+    "respuesta": "d",
+    "explicacion": "El impulso externo despreciable conserva la cantidad de movimiento. Al quedar unidas se elimina movimiento relativo y parte de la energía cinética se transforma en energía interna y deformación.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/8-5-inelastic-collisions-in-one-dimension",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS129",
+    "categoria": "Física",
+    "tema": "Dinámica: componentes en plano inclinado",
+    "pregunta": "Un bloque se desliza por un plano sin fricción inclinado 30° respecto de la horizontal. Solo actúan el peso y la normal. Usa g = 10 m/s² y sen 30° = 0.5. ¿Cuál es la aceleración a lo largo del plano?",
+    "opciones": {
+      "a": "5 m/s² hacia abajo del plano",
+      "b": "10 m/s² hacia abajo del plano",
+      "c": "0 m/s² porque la normal equilibra todo el peso",
+      "d": "20 m/s² hacia abajo del plano"
+    },
+    "respuesta": "a",
+    "explicacion": "La componente del peso paralela al plano es mg sen 30°. Al dividir entre m, a = g sen 30° = 5 m/s². La normal equilibra solo la componente perpendicular.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/4-5-normal-tension-and-other-examples-of-forces",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS130",
+    "categoria": "Física",
+    "tema": "Física nuclear: defecto de masa",
+    "pregunta": "La suma de las masas en reposo de los productos de una reacción nuclear es 2.0 × 10⁻²⁹ kg menor que la de los reactivos. ¿Qué energía corresponde a esa diferencia? Usa E = Δmc² y c = 3.0 × 10⁸ m/s.",
+    "opciones": {
+      "a": "6.0 × 10⁻²¹ J",
+      "b": "1.8 × 10⁻¹² J",
+      "c": "1.8 × 10⁻¹³ J",
+      "d": "6.0 × 10⁻¹² J"
+    },
+    "respuesta": "b",
+    "explicacion": "c² = 9.0 × 10¹⁶ m²/s². Multiplicar por 2.0 × 10⁻²⁹ kg da 18 × 10⁻¹³ J = 1.8 × 10⁻¹² J, disponibles como energía liberada.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/31-6-binding-energy",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI121",
+    "categoria": "Química",
+    "tema": "Gases: ley de Graham",
+    "pregunta": "Dos gases ideales efunden por orificios idénticos bajo las mismas condiciones de presión y temperatura. Sus masas molares son MA = 4 g/mol y MB = 36 g/mol. Según rA/rB = √(MB/MA), ¿cómo se comparan sus velocidades de efusión?",
+    "opciones": {
+      "a": "A efunde nueve veces más rápido que B",
+      "b": "B efunde tres veces más rápido que A",
+      "c": "A efunde tres veces más rápido que B",
+      "d": "Ambos efunden a la misma velocidad"
+    },
+    "respuesta": "c",
+    "explicacion": "La relación es √(36/4) = √9 = 3. El gas de menor masa molar efunde más rápidamente; no se usa la relación de masas sin raíz.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/9-4-effusion-and-diffusion-of-gases",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI122",
+    "categoria": "Química",
+    "tema": "Equilibrio: expresión de Kc",
+    "pregunta": "Para 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ¿qué expresión corresponde a Kc en el modelo escolar de concentraciones molares?",
+    "opciones": {
+      "a": "[SO₂]²[O₂]/[SO₃]²",
+      "b": "[SO₃]/([SO₂][O₂])",
+      "c": "2[SO₃]/(2[SO₂][O₂])",
+      "d": "[SO₃]²/([SO₂]²[O₂])"
+    },
+    "respuesta": "d",
+    "explicacion": "La expresión coloca productos sobre reactivos y usa los coeficientes estequiométricos como exponentes. Así, SO₃ y SO₂ se elevan al cuadrado, mientras O₂ queda a la primera potencia.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI123",
+    "categoria": "Química",
+    "tema": "Solubilidad: efecto del ion común",
+    "pregunta": "Una disolución saturada está en equilibrio con AgCl(s): AgCl(s) ⇌ Ag⁺(ac) + Cl⁻(ac). A temperatura constante se añade un poco de NaCl, sin cambio apreciable de volumen ni formación de complejos. ¿Qué tendencia se espera?",
+    "opciones": {
+      "a": "Se precipita más AgCl y disminuye [Ag⁺]",
+      "b": "Se disuelve más AgCl y aumenta [Ag⁺]",
+      "c": "Aumenta la constante de solubilidad por añadir Cl⁻",
+      "d": "La cantidad de AgCl sólido aumenta, pero [Ag⁺] no cambia"
+    },
+    "respuesta": "a",
+    "explicacion": "Al añadir el ion común Cl⁻, el equilibrio se desplaza hacia el sólido. Parte del Ag⁺ precipita como AgCl; la constante de solubilidad no cambia a temperatura fija.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI124",
+    "categoria": "Química",
+    "tema": "Electroquímica: protección contra corrosión",
+    "pregunta": "Una pieza de hierro se conecta eléctricamente a zinc en un medio húmedo. En esas condiciones el zinc se oxida más fácilmente. ¿Cómo puede proteger al hierro?",
+    "opciones": {
+      "a": "El zinc se reduce y consume electrones del hierro",
+      "b": "El zinc se oxida como ánodo de sacrificio y aporta electrones",
+      "c": "El zinc actúa solo como una barrera, aunque no cubra el hierro",
+      "d": "El zinc obliga al hierro a oxidarse antes que él"
+    },
+    "respuesta": "b",
+    "explicacion": "El metal que se oxida con mayor facilidad puede funcionar como ánodo de sacrificio. Su oxidación suministra electrones y favorece que el hierro se mantenga como cátodo, reduciendo su corrosión.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/17-6-corrosion",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI125",
+    "categoria": "Química",
+    "tema": "Carbono: estructura y propiedades de alótropos",
+    "pregunta": "El diamante y el grafito están formados por carbono, pero el grafito conduce electricidad mucho mejor. ¿Qué diferencia estructural explica principalmente esa propiedad?",
+    "opciones": {
+      "a": "El grafito conduce por desplazamiento de iones entre sus capas",
+      "b": "El grafito forma una red metálica y el diamante una red iónica",
+      "c": "El grafito posee electrones deslocalizados en sus capas",
+      "d": "El grafito tiene sus electrones más localizados que el diamante"
+    },
+    "respuesta": "c",
+    "explicacion": "En el grafito hay electrones deslocalizados que pueden moverse a lo largo de las capas. En el diamante los electrones de valencia participan en una red de enlaces localizados; su estructura es distinta aunque ambos sean carbono.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI126",
+    "categoria": "Química",
+    "tema": "Superficies: adsorción",
+    "pregunta": "Un sólido poroso retiene moléculas de un colorante sobre sus superficies internas y externas, sin incorporarlas homogéneamente a todo su volumen. ¿Cómo se llama este proceso?",
+    "opciones": {
+      "a": "Destilación",
+      "b": "Absorción en el volumen",
+      "c": "Cristalización",
+      "d": "Adsorción"
+    },
+    "respuesta": "d",
+    "explicacion": "La adsorción concentra partículas en una superficie, incluidas las paredes de los poros. Se diferencia de la absorción, que incorpora una sustancia al volumen de otra fase.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI127",
+    "categoria": "Química",
+    "tema": "Orgánica: basicidad de aminas",
+    "pregunta": "Al mezclar metilamina con HCl acuoso se forma CH₃NH₃⁺. ¿Qué cambio explica el comportamiento básico de la amina?",
+    "opciones": {
+      "a": "El nitrógeno acepta H⁺ usando su par de electrones libre",
+      "b": "El carbono cede H⁺ y se convierte en un carboxilo",
+      "c": "El nitrógeno pierde un electrón hacia el H⁺ sin formar enlace",
+      "d": "La amina cede su grupo CH₃ al ion Cl⁻"
+    },
+    "respuesta": "a",
+    "explicacion": "El par libre del nitrógeno permite aceptar un protón y formar CH₃NH₃⁺. Por ello la amina actúa como base, tanto por aceptación de H⁺ como por donación del par electrónico al enlace.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/20-4-amines-and-amides",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI128",
+    "categoria": "Química",
+    "tema": "Concentración: porcentaje volumen/volumen",
+    "pregunta": "Se miden 30 mL de etanol y se añade agua hasta obtener 200 mL de disolución final. ¿Cuál es la concentración de etanol en % v/v?",
+    "opciones": {
+      "a": "17.6 %",
+      "b": "15 %",
+      "c": "6.7 %",
+      "d": "30 %"
+    },
+    "respuesta": "b",
+    "explicacion": "El porcentaje v/v usa volumen del soluto dividido entre volumen final de disolución, por 100: (30/200)×100 = 15 %. No se usa el volumen del agua como denominador.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/3-4-other-units-for-solution-concentrations",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI129",
+    "categoria": "Química",
+    "tema": "Composición: agua de hidratación",
+    "pregunta": "Al calentar 2.50 g de CuSO₄·xH₂O se eliminan únicamente sus aguas de hidratación y quedan 1.60 g de CuSO₄ anhidro. Usa masas molares CuSO₄ = 160 g/mol y H₂O = 18 g/mol. ¿Cuánto vale x?",
+    "opciones": {
+      "a": "2",
+      "b": "3",
+      "c": "5",
+      "d": "9"
+    },
+    "respuesta": "c",
+    "explicacion": "Se pierden 0.90 g de agua, equivalentes a 0.050 mol. Quedan 1.60/160 = 0.010 mol de CuSO₄. La relación agua/sal es 0.050/0.010 = 5.",
+    "fuente_conceptual": "https://scienceinschool.web.cern.ch/article/2024/simple-gravimetric-chemical-analysis/",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI130",
+    "categoria": "Química",
+    "tema": "Orgánica: isomería de función",
+    "pregunta": "CH₃CH₂OH y CH₃OCH₃ tienen fórmula molecular C₂H₆O. ¿Qué relación estructural existe entre ellos?",
+    "opciones": {
+      "a": "Son la misma sustancia escrita desde extremos diferentes",
+      "b": "Son isótopos porque cambian sus enlaces",
+      "c": "Son isómeros de posición de un mismo grupo alcohol",
+      "d": "Son isómeros de función: alcohol y éter"
+    },
+    "respuesta": "d",
+    "explicacion": "Ambos contienen dos carbonos, seis hidrógenos y un oxígeno, pero en el alcohol hay un grupo O–H y en el éter el oxígeno conecta dos carbonos. Cambia el grupo funcional.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Verificación conceptual y cálculos locales; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO121",
+    "categoria": "Biología",
+    "tema": "Biomoléculas: condensación de monómeros",
+    "pregunta": "En un modelo simplificado, dos monómeros se unen covalentemente y se libera una molécula de agua. ¿Qué tipo de reacción representa esa unión?",
+    "opciones": {
+      "a": "Condensación o síntesis por deshidratación.",
+      "b": "Hidrólisis del enlace entre los monómeros.",
+      "c": "Desnaturalización sin cambio de enlaces covalentes.",
+      "d": "Disociación de los monómeros en iones."
+    },
+    "respuesta": "a",
+    "explicacion": "La condensación forma un enlace al liberar agua. La hidrólisis realiza la transformación opuesta: rompe un enlace mediante la incorporación de agua.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/3-1-synthesis-of-biological-macromolecules",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Fuentes verificadas y revisión local; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO122",
+    "categoria": "Biología",
+    "tema": "Membrana: colesterol y temperatura",
+    "pregunta": "En una membrana animal, el colesterol limita el movimiento excesivo de los fosfolípidos a temperaturas elevadas y dificulta su empaquetamiento a temperaturas bajas. ¿Qué función se deduce de esos dos efectos?",
+    "opciones": {
+      "a": "Aumentar siempre la fluidez, independientemente de la temperatura.",
+      "b": "Amortiguar las variaciones de fluidez causadas por la temperatura.",
+      "c": "Disminuir siempre la fluidez hasta inmovilizar los fosfolípidos.",
+      "d": "Sustituir las proteínas responsables del transporte de iones."
+    },
+    "respuesta": "b",
+    "explicacion": "El colesterol modera los extremos de fluidez: restringe el movimiento a temperaturas altas y evita el empaquetamiento excesivo a bajas temperaturas. No actúa siempre en una sola dirección.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Fuentes verificadas y revisión local; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO123",
+    "categoria": "Biología",
+    "tema": "Mutaciones: terminación prematura",
+    "pregunta": "Una sustitución en un gen cambia un codón del ARNm de UAC, que codifica tirosina, a UAA, que indica terminación. Si el cambio ocurre antes del final normal de la región codificante, ¿qué efecto directo se espera en la traducción?",
+    "opciones": {
+      "a": "Se incorpora otra tirosina porque cambia una sola base.",
+      "b": "Se desplaza el marco de lectura de todos los codones siguientes.",
+      "c": "La síntesis del polipéptido termina antes de lo previsto.",
+      "d": "Se incorpora un aminoácido diferente y continúa la misma longitud."
+    },
+    "respuesta": "c",
+    "explicacion": "UAA es una señal de terminación, no codifica un aminoácido. Esta sustitución puede originar una proteína truncada; no es una inserción que desplace el marco de lectura.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/14-6-dna-repair",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Fuentes verificadas y revisión local; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO124",
+    "categoria": "Biología",
+    "tema": "Biotecnología: amplificación de ADN",
+    "pregunta": "En un modelo ideal de PCR se parte de 3 moléculas de ADN de doble cadena y cada ciclo duplica el número de moléculas. Sin pérdidas ni límites de reactivos, ¿cuántas moléculas habrá al terminar 4 ciclos?",
+    "opciones": {
+      "a": "12",
+      "b": "24",
+      "c": "81",
+      "d": "48"
+    },
+    "respuesta": "d",
+    "explicacion": "Cuatro duplicaciones multiplican por 2⁴ = 16. El total es 3 × 16 = 48 moléculas de doble cadena; no se cuentan las hebras por separado.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Fuentes verificadas y revisión local; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO125",
+    "categoria": "Biología",
+    "tema": "Ingeniería genética: expresión de un gen transferido",
+    "pregunta": "Una planta recibe una secuencia codificante bacteriana con señales reguladoras adecuadas y produce la proteína correspondiente. ¿Qué propiedad general permite que sus ribosomas interpreten los codones de esa secuencia?",
+    "opciones": {
+      "a": "El carácter casi universal del código genético.",
+      "b": "La igualdad del número de cromosomas en bacterias y plantas.",
+      "c": "La presencia del mismo conjunto de genes en todas las especies.",
+      "d": "La traducción directa del ADN sin formar ARN mensajero."
+    },
+    "respuesta": "a",
+    "explicacion": "La correspondencia entre muchos codones y aminoácidos se comparte entre organismos. Con las señales y condiciones de expresión adecuadas, una célula puede producir una proteína a partir de un gen transferido.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Fuentes verificadas y revisión local; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO126",
+    "categoria": "Biología",
+    "tema": "Aislamiento reproductivo poscigótico",
+    "pregunta": "Dos poblaciones animales pueden aparearse y formar descendientes híbridos viables, pero esos híbridos son estériles. ¿Qué barrera reproductiva representa este resultado?",
+    "opciones": {
+      "a": "Aislamiento temporal antes de la fecundación.",
+      "b": "Aislamiento poscigótico por esterilidad de los híbridos.",
+      "c": "Aislamiento mecánico que impide el apareamiento.",
+      "d": "Aislamiento gamético que impide formar cigotos."
+    },
+    "respuesta": "b",
+    "explicacion": "La fecundación sí ocurre y el híbrido sobrevive; el obstáculo aparece en su capacidad reproductiva. Por eso es una barrera poscigótica, no una que impida formar el cigoto.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/18-2-formation-of-new-species",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Fuentes verificadas y revisión local; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO127",
+    "categoria": "Biología",
+    "tema": "Ecología: biomasa presente y flujo de energía",
+    "pregunta": "En un sistema acuático hipotético se mide, en un mismo momento, una biomasa seca de 10 g/m² de fitoplancton y 20 g/m² de zooplancton herbívoro. ¿Qué interpretación es compatible con estas medidas?",
+    "opciones": {
+      "a": "Estos valores permiten calcular directamente la productividad anual del fitoplancton.",
+      "b": "Los datos prueban una transferencia de energía de 200 % entre niveles.",
+      "c": "La biomasa instantánea puede estar invertida si los productores se renuevan rápidamente.",
+      "d": "El fitoplancton debe clasificarse como consumidor porque su biomasa es menor."
+    },
+    "respuesta": "c",
+    "explicacion": "La biomasa presente es una reserva medida en un momento, no un flujo por unidad de tiempo. Productores de rápida renovación pueden sostener una biomasa mayor de consumidores; estos datos no miden la eficiencia energética.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Fuentes verificadas y revisión local; pendiente cruce independiente; sin calibración psicométrica"
+    },
+    "grafico": {
+      "type": "bar",
+      "title": "Biomasa seca en una medición",
+      "xLabel": "Grupo",
+      "yLabel": "Biomasa seca (g/m²)",
+      "points": [
+        {
+          "label": "Fitoplancton",
+          "y": 10
+        },
+        {
+          "label": "Zooplancton",
+          "y": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "BIO128",
+    "categoria": "Biología",
+    "tema": "Evolución: flujo génico",
+    "pregunta": "Aves de una población llegan a otra, se reproducen con sus miembros y transmiten alelos que antes no estaban presentes allí. Sin suponer mutaciones nuevas, ¿qué proceso incorpora directamente esos alelos?",
+    "opciones": {
+      "a": "Selección natural sobre alelos originados en la población receptora.",
+      "b": "Deriva genética sin intercambio entre poblaciones.",
+      "c": "Recombinación entre alelos que ya estaban en la población receptora.",
+      "d": "Flujo génico por migración y reproducción."
+    },
+    "respuesta": "d",
+    "explicacion": "El flujo génico es el intercambio de alelos entre poblaciones mediante individuos o gametos que contribuyen a la reproducción. La simple llegada sin reproducción no bastaría para producir el efecto descrito.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Fuentes verificadas y revisión local; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO129",
+    "categoria": "Biología",
+    "tema": "Niveles ecológicos: ecosistema",
+    "pregunta": "Un estudio analiza peces, algas y microorganismos de una laguna junto con la temperatura, la luz y los intercambios de nutrientes entre agua y sedimento. ¿Qué nivel integra de manera más completa esos componentes y relaciones?",
+    "opciones": {
+      "a": "Ecosistema.",
+      "b": "Población.",
+      "c": "Comunidad, sin incluir el ambiente físico.",
+      "d": "Individuo."
+    },
+    "respuesta": "a",
+    "explicacion": "Un ecosistema incluye la comunidad biológica y su ambiente abiótico, con sus interacciones. Una población corresponde a una especie y la comunidad al conjunto de organismos, sin incorporar por sí sola los componentes físicos.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/44-1-the-scope-of-ecology",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Fuentes verificadas y revisión local; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO130",
+    "categoria": "Biología",
+    "tema": "Diseño experimental: control negativo en amplificación",
+    "pregunta": "Para buscar una secuencia de ADN mediante PCR se procesan una muestra y un tubo control con los mismos reactivos, pero sin ADN añadido. Ambos dan una señal del producto esperado. ¿Qué conclusión es la más prudente?",
+    "opciones": {
+      "a": "El control demuestra que la muestra no contiene la secuencia buscada.",
+      "b": "Debe investigarse contaminación o señal inespecífica antes de interpretar la muestra.",
+      "c": "La señal del control confirma por sí sola que la muestra es positiva.",
+      "d": "La ausencia de ADN añadido garantiza que no pudo haber contaminación."
+    },
+    "respuesta": "b",
+    "explicacion": "Un control sin ADN debería carecer del producto esperado. Una señal en él cuestiona la validez del ensayo y exige revisar contaminación o amplificación inespecífica; no permite confirmar sin más el resultado de la muestra.",
+    "fuente_conceptual": "https://doi.org/10.1093/clinchem/hvaf043",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion10",
+      "revision": "Fuentes verificadas y revisión local; pendiente cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "hu-121",
+    "categoria": "Historia Universal",
+    "tema": "Westfalia y organización política europea",
+    "pregunta": "La Paz de Westfalia de 1648 confirmó a los estados del Sacro Imperio facultades para concertar alianzas, con límites respecto al emperador y al Imperio. ¿Qué interpretación corresponde a esta disposición?",
+    "opciones": {
+      "a": "Fortaleció la autonomía de los estados imperiales frente a una centralización dinástica.",
+      "b": "Transformó el Sacro Imperio en un Estado unitario gobernado desde Viena.",
+      "c": "Entregó a Francia la administración de todos los principados alemanes.",
+      "d": "Subordinó los tratados de los príncipes a la aprobación de una autoridad papal."
+    },
+    "respuesta": "a",
+    "explicacion": "Las facultades reconocidas a los estados imperiales limitaron la centralización. No significaron la desaparición inmediata del Imperio ni una soberanía sin restricciones: las alianzas no debían dirigirse contra el emperador, el Imperio o la paz.",
+    "fuente_conceptual": "https://avalon.law.yale.edu/17th_century/westphal.asp",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hu-122",
+    "categoria": "Historia Universal",
+    "tema": "Reforma católica y Concilio de Trento",
+    "pregunta": "¿Qué combinación de decisiones corresponde al Concilio de Trento, reunido en el contexto de la Reforma protestante?",
+    "opciones": {
+      "a": "Reconocer únicamente dos sacramentos y permitir el matrimonio del clero.",
+      "b": "Reafirmar siete sacramentos y mejorar la formación del clero mediante seminarios.",
+      "c": "Sustituir la jerarquía episcopal por congregaciones sin autoridad central.",
+      "d": "Adoptar la libre interpretación individual como autoridad doctrinal suprema."
+    },
+    "respuesta": "b",
+    "explicacion": "Trento reafirmó doctrinas católicas, incluidos los siete sacramentos, e impulsó reformas disciplinarias y seminarios. No adoptó las posiciones protestantes descritas en las otras alternativas.",
+    "fuente_conceptual": "https://www.papalencyclicals.net/councils/trent/seventh-session.htm ; https://www.papalencyclicals.net/councils/trent/twenty-third-session.htm",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hu-123",
+    "categoria": "Historia Universal",
+    "tema": "Intercambio biológico transatlántico",
+    "pregunta": "Después de 1492, ¿qué pareja muestra correctamente un producto americano difundido en Europa y un animal introducido por europeos en América?",
+    "opciones": {
+      "a": "Trigo y llama.",
+      "b": "Arroz y guajolote.",
+      "c": "Papa y caballo.",
+      "d": "Caña de azúcar y alpaca."
+    },
+    "respuesta": "c",
+    "explicacion": "La papa fue domesticada en América y pasó a Europa; los europeos introdujeron caballos en América. El trigo, el arroz y la caña de azúcar procedían del Viejo Mundo, mientras llamas, guajolotes y alpacas eran americanos.",
+    "fuente_conceptual": "https://www.dp.la/primary-source-sets/the-columbian-exchange/additional-resources ; https://openstax.org/books/us-history/pages/2-4-new-worlds-in-the-americas-labor-commerce-and-the-columbian-exchange",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hu-124",
+    "categoria": "Historia Universal",
+    "tema": "Doctrina Monroe y nuevas repúblicas",
+    "pregunta": "Ante el riesgo de una intervención europea contra las nuevas repúblicas americanas, ¿qué postura formuló el mensaje de Monroe de 1823?",
+    "opciones": {
+      "a": "Una alianza militar permanente de todas las repúblicas bajo un mando común.",
+      "b": "La devolución a España de sus antiguas colonias a cambio de libertad comercial.",
+      "c": "La eliminación inmediata de todas las posesiones europeas existentes en América.",
+      "d": "El rechazo a nuevas colonizaciones o intervenciones europeas en el continente."
+    },
+    "respuesta": "d",
+    "explicacion": "Monroe rechazó nuevas colonizaciones y la intervención europea contra los países americanos independientes. El mensaje no creó una alianza continental ni exigió eliminar las colonias europeas que ya existían.",
+    "fuente_conceptual": "https://www.archives.gov/milestone-documents/monroe-doctrine",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hu-125",
+    "categoria": "Historia Universal",
+    "tema": "Integración económica antes de la unidad alemana",
+    "pregunta": "¿Por qué el Zollverein fue relevante para la posición de Prusia antes de la unificación alemana?",
+    "opciones": {
+      "a": "Articuló un espacio aduanero que reforzó su influencia económica entre estados alemanes.",
+      "b": "Trasladó a Viena la recaudación de los aranceles de los estados alemanes integrantes.",
+      "c": "Unificó los ejércitos alemanes bajo una dirección militar austríaca permanente.",
+      "d": "Estableció una república parlamentaria común que sustituyó a las dinastías alemanas."
+    },
+    "respuesta": "a",
+    "explicacion": "El Zollverein impulsado por Prusia vinculó económicamente a numerosos estados alemanes. Austria quedó fuera y buscó una alternativa aduanera; la unión comercial no equivalía todavía a un Estado político unificado.",
+    "fuente_conceptual": "https://www.dhm.de/lemo/kapitel/reaktionszeit/wirtschaft/zollverein",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hu-126",
+    "categoria": "Historia Universal",
+    "tema": "India y reorganización del dominio británico",
+    "pregunta": "¿Qué cambio institucional siguió a la rebelión india de 1857?",
+    "opciones": {
+      "a": "El territorio quedó bajo un gobierno mogol independiente con asesores británicos.",
+      "b": "La Corona británica asumió el gobierno antes ejercido por la Compañía de las Indias Orientales.",
+      "c": "Las provincias quedaron repartidas entre compañías comerciales británicas y francesas.",
+      "d": "La Compañía recibió mayor autonomía frente al Parlamento para administrar sus territorios."
+    },
+    "respuesta": "b",
+    "explicacion": "La ley de 1858 retiró a la Compañía sus facultades de gobierno, transferidas a la Corona. No fue la independencia de India, sino una reorganización del dominio colonial británico.",
+    "fuente_conceptual": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/east-india-company-and-raj-1785-1858/",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hu-127",
+    "categoria": "Historia Universal",
+    "tema": "China y presión imperialista",
+    "pregunta": "¿Qué relación describe mejor el levantamiento de los bóxers en China alrededor de 1900?",
+    "opciones": {
+      "a": "Comerciantes extranjeros se rebelaron para expulsar del país a las misiones cristianas.",
+      "b": "Dirigentes republicanos organizaron el levantamiento para establecer un parlamento liberal.",
+      "c": "Un movimiento antiextranjero atacó misiones y comunidades cristianas y enfrentó una intervención multinacional.",
+      "d": "El gobierno japonés dirigió a los rebeldes para recuperar territorios ocupados por China."
+    },
+    "respuesta": "c",
+    "explicacion": "Los bóxers expresaron una reacción antiextranjera y anticristiana; la crisis condujo a una intervención de varias potencias. No debe confundirse con el movimiento republicano que derribó a la dinastía Qing en 1911.",
+    "fuente_conceptual": "https://history.state.gov/milestones/1899-1913/hay-and-china",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hu-128",
+    "categoria": "Historia Universal",
+    "tema": "Guerra civil china y Larga Marcha",
+    "pregunta": "La Larga Marcha iniciada en 1934 se entiende principalmente como una operación de los comunistas chinos para:",
+    "opciones": {
+      "a": "Ocupar los puertos costeros controlados por las potencias europeas.",
+      "b": "Acompañar al ejército nacionalista en una ofensiva conjunta sobre Japón.",
+      "c": "Defender las principales ciudades industriales mediante una guerra de posiciones.",
+      "d": "Retirarse del cerco nacionalista y reagrupar sus fuerzas en nuevas bases."
+    },
+    "respuesta": "d",
+    "explicacion": "La Larga Marcha fue una retirada estratégica de fuerzas comunistas amenazadas por las campañas de cerco nacionalistas. Permitió reagruparse en nuevas bases, en lugar de concentrarse en defender las principales ciudades industriales.",
+    "fuente_conceptual": "https://english.scio.gov.cn/m/featured/chinakeywords/2022-07/13/content_78321977.htm",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hu-129",
+    "categoria": "Historia Universal",
+    "tema": "Portugal y descolonización",
+    "pregunta": "¿Qué vínculo ayuda a explicar la Revolución de los Claveles de 1974 en Portugal?",
+    "opciones": {
+      "a": "El desgaste de las guerras coloniales contribuyó al descontento militar contra la dictadura.",
+      "b": "La incorporación portuguesa a la Comunidad Económica Europea precipitó una rebelión del ejército.",
+      "c": "Una rebelión de colonos africanos impuso una junta militar para impedir la descolonización.",
+      "d": "El fin negociado de las guerras coloniales permitió al Estado Novo dirigir una transición pactada."
+    },
+    "respuesta": "a",
+    "explicacion": "El desgaste de las guerras coloniales africanas fue un factor del movimiento militar que derribó al Estado Novo. El proceso abrió la democratización y la descolonización, no una victoria imperial.",
+    "fuente_conceptual": "https://www.defesa.gov.pt/pt/adefesaeeu/grandescelebracoes/50anosdo25deabril/arevolucaodosmilitares",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hu-130",
+    "categoria": "Historia Universal",
+    "tema": "Acuerdos previos a la Segunda Guerra Mundial",
+    "pregunta": "¿Qué distinguía el protocolo secreto del pacto germano-soviético de agosto de 1939 respecto de su compromiso público de no agresión?",
+    "opciones": {
+      "a": "Comprometía a ambos gobiernos a defender militarmente a Polonia ante una invasión.",
+      "b": "Delimitaba esferas de influencia de Alemania y la Unión Soviética en Europa oriental.",
+      "c": "Garantizaba una administración internacional de los territorios disputados de Checoslovaquia.",
+      "d": "Obligaba a Alemania a retirar sus tropas de Austria y restablecer su independencia."
+    },
+    "respuesta": "b",
+    "explicacion": "El protocolo secreto delimitó esferas de influencia en Europa oriental, incluida la partición de Polonia. Era un arreglo territorial distinto de la promesa pública de no agresión entre ambos Estados.",
+    "fuente_conceptual": "https://encyclopedia.ushmm.org/content/en/article/german-soviet-pact",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hm-121",
+    "categoria": "Historia de México",
+    "tema": "Tula y cultura tolteca",
+    "pregunta": "Un edificio de Tula presenta columnas con figuras de guerreros que sostenían una techumbre. ¿Qué asociación cultural y funcional es correcta?",
+    "opciones": {
+      "a": "Mexica: marcadores para delimitar un campo de juego de pelota.",
+      "b": "Olmeca: monumentos funerarios destinados a sellar tumbas reales.",
+      "c": "Tolteca: atlantes que cumplían una función arquitectónica y simbólica.",
+      "d": "Zapoteca: estelas genealógicas colocadas dentro de tumbas subterráneas."
+    },
+    "respuesta": "c",
+    "explicacion": "Los atlantes de Tula son esculturas toltecas de guerreros que sirvieron de soporte arquitectónico en la Pirámide B. Su iconografía también permite estudiar la representación del guerrero en esa sociedad.",
+    "fuente_conceptual": "https://mna.inah.gob.mx/detalle_pieza_mes.php?id=262",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hm-122",
+    "categoria": "Historia de México",
+    "tema": "Códices mixtecos como fuentes históricas",
+    "pregunta": "Para reconstruir matrimonios y sucesiones de linajes gobernantes mixtecos, ¿qué fuente es especialmente pertinente?",
+    "opciones": {
+      "a": "Un registro de tributos elaborado para las provincias sujetas a México-Tenochtitlan.",
+      "b": "Una relación alfabética de funcionarios de la Real Audiencia de México.",
+      "c": "Un plano colonial de las obras de desagüe del valle de México.",
+      "d": "Un códice pictográfico mixteco con genealogías, como el Nuttall."
+    },
+    "respuesta": "d",
+    "explicacion": "El Nuttall conserva narraciones históricas y genealogías mixtecas. Su lectura especializada permite estudiar linajes y alianzas; los otros documentos corresponden a objetos históricos diferentes.",
+    "fuente_conceptual": "https://www.deas.inah.gob.mx/pdf/publicaciones/publicaciones/publicacion%2846606%29-5449.pdf",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hm-123",
+    "categoria": "Historia de México",
+    "tema": "Producción y comercio de grana cochinilla",
+    "pregunta": "¿Qué conexión vincula a productores indígenas de Oaxaca con los mercados textiles europeos durante el periodo novohispano?",
+    "opciones": {
+      "a": "La crianza de grana cochinilla, de la que se obtenía un colorante rojo.",
+      "b": "La explotación de añil, del que se obtenía un colorante rojo para la lana.",
+      "c": "La producción de seda mediante la crianza de cochinillas sobre el nopal.",
+      "d": "El cultivo de algodón empleado como principal fuente de tintes azules."
+    },
+    "respuesta": "a",
+    "explicacion": "La grana cochinilla es un insecto criado sobre nopales que proporciona un colorante rojo. Su producción oaxaqueña se articuló con el comercio colonial; no era seda, añil ni algodón.",
+    "fuente_conceptual": "https://historicas.unam.mx/publicaciones/publicadigital/libros/853/conflictos-grana.html",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hm-124",
+    "categoria": "Historia de México",
+    "tema": "Primeros años de vida independiente",
+    "pregunta": "¿Qué documentación sería más directa para investigar cómo se aplicaron las leyes de expulsión de españoles de 1827 en México?",
+    "opciones": {
+      "a": "Contratos de colonización de Texas y solicitudes de concesiones de tierras.",
+      "b": "Listas de expulsados, solicitudes de excepción e informes de autoridades estatales.",
+      "c": "Padrones de reclutamiento de los cuerpos militares enviados a combatir en Yucatán.",
+      "d": "Registros de compraventa de bienes eclesiásticos durante la Guerra de Reforma."
+    },
+    "respuesta": "b",
+    "explicacion": "Los expedientes de expulsión reúnen listas, informes y solicitudes que permiten seguir la aplicación concreta de las leyes. La existencia de excepciones impide suponer que todos los españoles residentes fueron expulsados sin distinción.",
+    "fuente_conceptual": "https://www.archivos.gob.mx/InstrumentosConsulta/pdf/002MexicoIndependiente/001ExpulsiondeEspanoles.pdf",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hm-125",
+    "categoria": "Historia de México",
+    "tema": "Ley Juárez y jurisdicciones especiales",
+    "pregunta": "Un militar enfrenta una demanda civil por una deuda particular. ¿Qué principio de la Ley Juárez de 1855 resulta pertinente para determinar el tribunal competente?",
+    "opciones": {
+      "a": "Reservar los conflictos patrimoniales de militares a tribunales castrenses.",
+      "b": "Trasladar todos los asuntos de los militares a tribunales eclesiásticos.",
+      "c": "Limitar los fueros especiales en materia civil y someter esos asuntos a tribunales ordinarios.",
+      "d": "Sustituir los tribunales civiles por juntas integradas por autoridades militares."
+    },
+    "respuesta": "c",
+    "explicacion": "La Ley Juárez restringió los fueros eclesiástico y militar en asuntos civiles. No abolió toda justicia militar: distinguió estos asuntos de los vinculados a la disciplina y funciones militares.",
+    "fuente_conceptual": "https://www.gob.mx/cultura/articulos/benito-juarez-benemerito-fundador-del-estado-laico?idiom=es",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hm-126",
+    "categoria": "Historia de México",
+    "tema": "Diplomacia durante la Guerra de Reforma",
+    "pregunta": "¿Qué precisión es indispensable al evaluar el Tratado McLane-Ocampo de 1859?",
+    "opciones": {
+      "a": "Entró en vigor y transfirió a Estados Unidos la soberanía de todo el istmo de Tehuantepec.",
+      "b": "Fue aprobado por el gobierno conservador como base de una alianza con Francia.",
+      "c": "Sustituyó al Tratado de Guadalupe Hidalgo y anuló la frontera acordada en 1848.",
+      "d": "Preveía derechos de tránsito, pero no entró en vigor por falta de ratificación estadounidense."
+    },
+    "respuesta": "d",
+    "explicacion": "El acuerdo negociado por el gobierno liberal contemplaba derechos de tránsito. El Senado estadounidense no lo ratificó; por ello no debe tratarse su contenido como una transferencia territorial efectivamente ejecutada.",
+    "fuente_conceptual": "https://www.constitucion1917.gob.mx/work/models/inehrm/Resource/4793/Politica_exterior_Benito_Juarez.pdf",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hm-127",
+    "categoria": "Historia de México",
+    "tema": "Prensa opositora y organización política",
+    "pregunta": "¿Qué vínculo caracteriza al periódico Regeneración en la oposición al Porfiriato?",
+    "opciones": {
+      "a": "Articuló la crítica y organización del movimiento de los Flores Magón y del Partido Liberal Mexicano.",
+      "b": "Difundió principalmente la defensa oficial de la reelección desde el grupo de los científicos.",
+      "c": "Fue el órgano de la jerarquía eclesiástica dedicado a sostener la política religiosa porfirista.",
+      "d": "Se especializó en promover la candidatura de Bernardo Reyes como programa central permanente."
+    },
+    "respuesta": "a",
+    "explicacion": "Regeneración nació como periódico jurídico y se transformó en un medio de combate político, asociado a los Flores Magón y al PLM. No fue un órgano oficial porfirista ni del reyismo.",
+    "fuente_conceptual": "https://www.gob.mx/agn/articulos/agnrecuerda-el-nacimiento-del-periodico-regeneracion?idiom=es",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hm-128",
+    "categoria": "Historia de México",
+    "tema": "Proyecto cultural posrevolucionario",
+    "pregunta": "¿Qué conjunto de acciones corresponde al proyecto educativo impulsado por José Vasconcelos al frente de la SEP?",
+    "opciones": {
+      "a": "Implantar la educación socialista y orientar la escuela a combatir prejuicios religiosos.",
+      "b": "Extender la alfabetización, editar libros y crear bibliotecas populares junto con nuevas escuelas.",
+      "c": "Reunir varias escuelas superiores para fundar la Universidad Nacional de México.",
+      "d": "Distribuir libros de texto gratuitos y extender la primaria mediante el Plan de Once Años."
+    },
+    "respuesta": "b",
+    "explicacion": "Vasconcelos impulsó escuelas, alfabetización, edición de libros y bibliotecas populares. La fundación de la Universidad Nacional corresponde a 1910; la educación socialista, a la reforma de 1934; y los libros de texto gratuitos y el Plan de Once Años, al proyecto iniciado en 1959.",
+    "fuente_conceptual": "https://www.gob.mx/cultura/acciones-y-programas/direccion-general-de-bibliotecas-dgb",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hm-129",
+    "categoria": "Historia de México",
+    "tema": "Seguridad social y empleo público",
+    "pregunta": "¿A qué población se dirigió principalmente la creación del ISSSTE mediante la ley de 1959?",
+    "opciones": {
+      "a": "Ejidatarios vinculados a instituciones de crédito agrícola.",
+      "b": "Trabajadores asalariados de empresas industriales privadas.",
+      "c": "Trabajadores al servicio del Estado y sus familias.",
+      "d": "Comerciantes independientes organizados en cámaras empresariales."
+    },
+    "respuesta": "c",
+    "explicacion": "El ISSSTE se creó para brindar seguridad y servicios sociales a los trabajadores del Estado y sus familias. El IMSS atendía otro ámbito de incorporación laboral, especialmente el empleo asalariado privado.",
+    "fuente_conceptual": "https://www.inehrm.gob.mx/recursos/Libros/SSALUD.pdf",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "hm-130",
+    "categoria": "Historia de México",
+    "tema": "Expansión petrolera en el siglo XX",
+    "pregunta": "La entrada en producción de Cantarell en 1979 contribuyó a modificar la geografía de la industria petrolera mexicana porque:",
+    "opciones": {
+      "a": "Orientó la expansión hacia nuevos campos terrestres del norte de Veracruz.",
+      "b": "Concentró la expansión en la cuenca de Burgos, especializada en gas.",
+      "c": "Trasladó el centro de la expansión al antiguo campo terrestre de Cerro Azul.",
+      "d": "Impulsó la extracción de crudo en campos marinos de la sonda de Campeche."
+    },
+    "respuesta": "d",
+    "explicacion": "Cantarell es un complejo de campos marinos de la sonda de Campeche que inició producción en 1979. Su desarrollo reforzó la importancia de la explotación petrolera costa afuera.",
+    "fuente_conceptual": "https://www.pemex.com/etica_y_transparencia/transparencia/Documents/2012-lb/PEP01.pdf",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "geo-121",
+    "categoria": "Geografía",
+    "tema": "Circulación atmosférica y aridez",
+    "pregunta": "¿Qué proceso contribuye a la aridez de amplias regiones cercanas a los 30° de latitud, además de factores locales?",
+    "opciones": {
+      "a": "El descenso de aire que se calienta y dificulta la condensación.",
+      "b": "El ascenso permanente de aire húmedo propio de una convergencia superficial.",
+      "c": "La expansión y enfriamiento del aire al elevarse por una ladera de barlovento.",
+      "d": "La condensación continua producida por el encuentro diario de masas polares."
+    },
+    "respuesta": "a",
+    "explicacion": "En las altas presiones subtropicales, el aire descendente se comprime y calienta, lo que favorece condiciones secas. No todas las regiones de esa latitud son desiertos: también influyen océanos, relieve y vientos.",
+    "fuente_conceptual": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_00-6B.pdf",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "geo-122",
+    "categoria": "Geografía",
+    "tema": "Inversión térmica y calidad del aire",
+    "pregunta": "Durante una mañana, el aire de una cuenca es más frío junto al suelo que a cierta altura. Si continúan las emisiones urbanas y hay poco viento, ¿qué efecto es esperable?",
+    "opciones": {
+      "a": "Una convección intensa que transporta rápidamente los contaminantes hacia capas altas.",
+      "b": "Una menor mezcla vertical que favorece la acumulación de contaminantes cerca del suelo.",
+      "c": "Un aumento del lavado atmosférico aun cuando no se formen nubes ni llueva.",
+      "d": "Una dispersión horizontal acelerada causada por la inversión, aunque el viento siga débil."
+    },
+    "respuesta": "b",
+    "explicacion": "La capa relativamente cálida sobre aire frío produce estabilidad y limita la mezcla vertical. Con emisiones persistentes y poco viento, los contaminantes pueden acumularse en la capa baja.",
+    "fuente_conceptual": "https://www.weather.gov/lmk/inversion",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "geo-123",
+    "categoria": "Geografía",
+    "tema": "Regiones naturales y estacionalidad",
+    "pregunta": "Una región tropical presenta pastizales con árboles dispersos, una estación lluviosa y otra seca prolongada. ¿Qué región natural corresponde mejor?",
+    "opciones": {
+      "a": "Selva tropical húmeda de dosel continuo y lluvias abundantes todo el año.",
+      "b": "Bosque templado de coníferas con una estación fría que limita el crecimiento.",
+      "c": "Sabana tropical, adaptada a una marcada alternancia de humedad y sequía.",
+      "d": "Tundra de vegetación baja sobre suelos congelados durante buena parte del año."
+    },
+    "respuesta": "c",
+    "explicacion": "La sabana combina predominio de pastos y árboles dispersos con estacionalidad hídrica tropical. La selva húmeda tiene otra estructura y régimen de lluvias; el bosque templado y la tundra corresponden a condiciones térmicas distintas.",
+    "fuente_conceptual": "https://www.mvs.usace.army.mil/Portals/54/docs/fusrap/Admin_Records/NORCO/NCountySites_01.06_0016_a.pdf",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "geo-124",
+    "categoria": "Geografía",
+    "tema": "Relieve mexicano y evidencias geológicas",
+    "pregunta": "En una sierra de Coahuila se observan estratos de caliza con fósiles marinos, plegados y elevados. ¿Qué interpretación explica mejor esa evidencia?",
+    "opciones": {
+      "a": "Un derrame de lava reciente produjo simultáneamente las capas y los fósiles.",
+      "b": "La acumulación de dunas continentales formó directamente las calizas marinas plegadas.",
+      "c": "Un glaciar depositó los fósiles sobre capas originalmente horizontales sin deformarlas.",
+      "d": "Sedimentos marinos se transformaron en roca y después fueron deformados y elevados."
+    },
+    "respuesta": "d",
+    "explicacion": "Los fósiles y las calizas indican un ambiente sedimentario marino; los pliegues y la elevación registran procesos tectónicos posteriores. La Sierra Madre Oriental contiene extensas unidades sedimentarias marinas deformadas.",
+    "fuente_conceptual": "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/historicos/2104/702825220952/702825220952_1.pdf",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "geo-125",
+    "categoria": "Geografía",
+    "tema": "Espacios marítimos y jurisdicción",
+    "pregunta": "Según la Convención de las Naciones Unidas sobre el Derecho del Mar, ¿qué caracteriza al mar territorial?",
+    "opciones": {
+      "a": "Una franja de hasta 12 millas náuticas desde las líneas de base, sujeta a soberanía y al paso inocente.",
+      "b": "Una franja de hasta 200 millas náuticas donde el Estado posee únicamente derechos sobre recursos.",
+      "c": "El espacio marino más allá de toda jurisdicción nacional, abierto en igualdad a todos los Estados.",
+      "d": "Una zona adicional de hasta 24 millas desde las líneas de base para ciertas funciones de fiscalización."
+    },
+    "respuesta": "a",
+    "explicacion": "El mar territorial puede alcanzar 12 millas náuticas y está sometido a la soberanía del Estado ribereño, con las reglas internacionales de paso inocente. La zona económica exclusiva y la zona contigua tienen extensión y régimen diferentes.",
+    "fuente_conceptual": "https://www.un.org/depts/los/convention_agreements/texts/unclos/part2.htm",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "geo-126",
+    "categoria": "Geografía",
+    "tema": "Coordenadas y posición antipodal",
+    "pregunta": "En un globo esférico, un lugar está en 20° N, 100° O. ¿Cuáles son las coordenadas de su antípoda, el punto diametralmente opuesto?",
+    "opciones": {
+      "a": "20° N, 80° E.",
+      "b": "20° S, 80° E.",
+      "c": "70° S, 100° E.",
+      "d": "20° S, 100° O."
+    },
+    "respuesta": "b",
+    "explicacion": "La antípoda cambia de hemisferio latitudinal conservando el valor absoluto de la latitud. Su longitud difiere 180°: desde 100° O corresponde 80° E. No se toma el complemento de la latitud respecto a 90°.",
+    "fuente_conceptual": "https://www.mathworks.com/help/releases/r2023b/pdf_doc/map/map_ref.pdf (función antipode); cálculo geométrico original.",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "geo-127",
+    "categoria": "Geografía",
+    "tema": "Distribución de asentamientos y servicios",
+    "pregunta": "Dos áreas rurales tienen igual población total y superficie. En una, la población vive en un solo núcleo; en la otra, en numerosos caseríos separados por grandes distancias. ¿Qué dato distingue directamente sus patrones de asentamiento?",
+    "opciones": {
+      "a": "La densidad media calculada para toda el área.",
+      "b": "La proporción de personas nacidas fuera del municipio.",
+      "c": "El número, tamaño y separación de las localidades habitadas.",
+      "d": "La tasa de crecimiento natural de la población total."
+    },
+    "respuesta": "c",
+    "explicacion": "La densidad media sería igual porque población y superficie coinciden, pero no describe cómo se distribuyen los habitantes dentro del área. El número, tamaño y separación de localidades permiten distinguir concentración y dispersión.",
+    "fuente_conceptual": "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463915119.pdf",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "geo-128",
+    "categoria": "Geografía",
+    "tema": "Conexiones marítimas de Eurasia",
+    "pregunta": "Un buque sale del mar Negro hacia el Mediterráneo. ¿Qué secuencia de pasos y mares debe seguir por la vía natural que atraviesa Turquía?",
+    "opciones": {
+      "a": "Dardanelos → mar de Mármara → Bósforo → mar Egeo.",
+      "b": "Bósforo → mar Egeo → Dardanelos → mar de Mármara.",
+      "c": "Dardanelos → mar Egeo → Bósforo → mar de Mármara.",
+      "d": "Bósforo → mar de Mármara → Dardanelos → mar Egeo."
+    },
+    "respuesta": "d",
+    "explicacion": "Desde el mar Negro se atraviesa el Bósforo hacia el mar de Mármara y luego los Dardanelos hacia el Egeo, parte del Mediterráneo. El orden espacial es esencial para describir esta conexión.",
+    "fuente_conceptual": "https://www.mfa.gov.tr/the-turkish-straits.en.mfa",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "geo-129",
+    "categoria": "Geografía",
+    "tema": "Huella ecológica y biocapacidad",
+    "pregunta": "En un caso hipotético, una región tiene una huella ecológica de 4 millones de hectáreas globales y una biocapacidad de 2,5 millones, medidas para el mismo periodo. ¿Qué diagnóstico permiten esos datos?",
+    "opciones": {
+      "a": "Un déficit ecológico de 1,5 millones de hectáreas globales.",
+      "b": "Una reserva ecológica de 1,5 millones de hectáreas globales.",
+      "c": "Un déficit ecológico de 6,5 millones de hectáreas globales.",
+      "d": "Una reserva ecológica de 6,5 millones de hectáreas globales."
+    },
+    "respuesta": "a",
+    "explicacion": "La demanda medida por la huella supera la biocapacidad en 4 − 2,5 = 1,5 millones de hectáreas globales. Eso es un déficit, no una reserva; no se suman ambos valores para obtenerlo.",
+    "fuente_conceptual": "https://www.footprintnetwork.org/content/documents/Footprint_Method_Paper.pdf",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce"
+  },
+  {
+    "id": "geo-130",
+    "categoria": "Geografía",
+    "tema": "Accesibilidad espacial a servicios",
+    "pregunta": "Cuatro centros ofrecen el mismo servicio y tienen disponibilidad equivalente. Desde una localidad, las distancias en línea recta son A: 4 km, B: 7 km, C: 5 km y D: 8 km. La gráfica muestra los tiempos efectivos por la red vial en condiciones comparables. ¿Qué par distingue el centro más cercano en línea recta del centro al que se llega más rápido?",
+    "opciones": {
+      "a": "A es el más cercano; D tiene el menor tiempo de traslado.",
+      "b": "A es el más cercano; B tiene el menor tiempo de traslado.",
+      "c": "C es el más cercano; B tiene el menor tiempo de traslado.",
+      "d": "B es el más cercano; A tiene el menor tiempo de traslado."
+    },
+    "respuesta": "b",
+    "explicacion": "B registra 15 minutos, el tiempo menor frente a A: 30, C: 40 y D: 25. La accesibilidad por una red no se determina solo mediante distancia en línea recta: importan trazado, velocidad y obstáculos. Datos hipotéticos, no recomendación sobre centros reales.",
+    "fuente_conceptual": "https://accessmod.atlassian.net/wiki/spaces/EN/pages/4325461/3.3.2.4.%2BMaximum%2Btravel%2Btime",
+    "origen": "Original · ampliación 10; fuentes institucionales y revisión de alternativas; pendiente cruce",
+    "grafico": {
+      "type": "bar",
+      "title": "Traslados desde una localidad: datos hipotéticos",
+      "xLabel": "Centro",
+      "yLabel": "Tiempo de traslado (minutos)",
+      "points": [
+        {
+          "label": "A",
+          "y": 30
+        },
+        {
+          "label": "B",
+          "y": 15
+        },
+        {
+          "label": "C",
+          "y": 40
+        },
+        {
+          "label": "D",
+          "y": 25
+        }
+      ]
+    }
+  }
+]
