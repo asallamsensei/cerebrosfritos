@@ -1663,20 +1663,20 @@
     "origen": "Original · ampliación 5; elaboración y revisión conceptual con referencia institucional"
   },
   {
-    "id": "geo-079",
+    "id": "geo-151",
     "categoria": "Geografía",
-    "tema": "Localización de pasos y conexiones marítimas",
-    "pregunta": "Un barco sale del Atlántico, cruza el paso situado entre el sur de España y el norte de Marruecos y continúa hacia el este. ¿Qué pareja identifica el paso y el mar al que ingresa?",
+    "tema": "Tensiones políticas mundiales: Asia meridional",
+    "pregunta": "¿En qué región se situó el conflicto entre India y Pakistán cuyo alto el fuego comenzó a ser supervisado por observadores de la ONU en 1949?",
     "opciones": {
-      "a": "Bósforo — mar Negro.",
-      "b": "Gibraltar — mar Mediterráneo.",
-      "c": "Bab el-Mandeb — mar Rojo.",
-      "d": "Ormuz — golfo Pérsico."
+      "a": "Bengala.",
+      "b": "Baluchistán.",
+      "c": "Jammu y Cachemira.",
+      "d": "Punyab."
     },
-    "respuesta": "b",
-    "explicacion": "Gibraltar separa España y Marruecos y comunica el Atlántico con el Mediterráneo. Los demás pasos corresponden a otras regiones: Bósforo, entre Mármara y Negro; Bab el-Mandeb, entre Adén y Rojo; Ormuz, entre Omán y el golfo Pérsico.",
-    "fuente_conceptual": "https://www.nasa.gov/image-article/strait-of-gibraltar-connects-atlantic-mediterranean/",
-    "origen": "Original · ampliación 5, revisión de dificultad y distractores"
+    "respuesta": "c",
+    "explicacion": "Los primeros observadores de la ONU llegaron en enero de 1949 para supervisar el alto el fuego entre India y Pakistán en Jammu y Cachemira. La pregunta localiza ese conflicto histórico; no adjudica soberanía territorial ni describe el estado actual de las hostilidades.",
+    "fuente_conceptual": "https://peacekeeping.un.org/en/factsheet/unmogip",
+    "origen": "Original, sustitución curricular autorizada; evidencia institucional ONU y revisión cruzada completada."
   },
   {
     "id": "geo-080",
@@ -1876,9 +1876,9 @@
     "tema": "Transformación demográfica colonial",
     "pregunta": "Durante el siglo XVI, epidemias acompañaron la guerra, la explotación y otras alteraciones de la vida indígena. ¿Qué interpretación evita reducir la caída demográfica a un solo factor?",
     "opciones": {
-      "a": "Atribuir toda la disminución a una migración voluntaria fuera de América",
-      "b": "Considerar que los cambios laborales no pudieron influir en la supervivencia",
-      "c": "Suponer que la mortalidad demuestra la desaparición de todos los pueblos indígenas",
+      "a": "Explicar la disminución por la virulencia de los patógenos, sin atribuir efecto causal a las condiciones de vida.",
+      "b": "Tomar las muertes en campañas militares como medida suficiente del descenso de la población durante el siglo.",
+      "c": "Atribuir el descenso a la reducción de nacimientos, interpretando las epidemias como un efecto de esa reducción.",
       "d": "Analizar la interacción entre enfermedades y condiciones sociales de la conquista"
     },
     "respuesta": "d",

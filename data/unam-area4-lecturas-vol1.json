@@ -279,10 +279,10 @@
     "tema": "Acentuación: hiatos",
     "pregunta": "¿Por qué lleva tilde «baúl»?",
     "opciones": {
-      "a": "Porque es una palabra esdrújula.",
-      "b": "Porque la secuencia au siempre forma diptongo.",
-      "c": "Porque todas las palabras terminadas en l llevan tilde.",
-      "d": "Porque contiene una vocal cerrada tónica junto a una abierta átona y forma hiato."
+      "a": "Porque es aguda terminada en consonante distinta de n o s.",
+      "b": "Porque el diptongo au exige tilde en su vocal cerrada.",
+      "c": "Porque es llana terminada en consonante distinta de n o s.",
+      "d": "Porque la ú tónica forma hiato con la vocal abierta a."
     },
     "respuesta": "d",
     "explicacion": "En «ba-úl», la vocal cerrada tónica ú forma hiato con la abierta a y lleva tilde, independientemente de las reglas generales de acentuación.",
@@ -1506,10 +1506,10 @@
     "tema": "Género dramático",
     "pregunta": "Lee el fragmento original: «MARA: No abriré la puerta. IVÁN: Entonces tendremos que esperar. (Se apaga la lámpara.)». ¿Qué rasgo lo vincula con el género dramático?",
     "opciones": {
-      "a": "El uso de rima consonante en todos sus versos.",
-      "b": "La presencia obligatoria de un narrador omnisciente.",
-      "c": "La presentación de una acción mediante diálogos y una acotación escénica.",
-      "d": "La explicación de un concepto científico."
+      "a": "La sucesión de hechos explicada por un narrador externo.",
+      "b": "La expresión de un estado íntimo mediante una voz poética.",
+      "c": "La acción presentada con diálogo y una indicación escénica.",
+      "d": "La defensa de una postura apoyada en razones y ejemplos."
     },
     "respuesta": "c",
     "explicacion": "Las intervenciones de personajes y la indicación escénica construyen una acción representable, característica del texto dramático.",
@@ -1574,10 +1574,10 @@
     "tema": "Autor y narrador",
     "pregunta": "Una novela está escrita por una autora adulta, pero la historia la cuenta un niño ficticio. ¿Qué afirmación es correcta?",
     "opciones": {
-      "a": "La primera persona convierte toda novela en autobiografía factual.",
-      "b": "La autora debe tener exactamente la edad del niño.",
-      "c": "La autora es la persona real que crea el texto; el narrador es la voz construida para contar la historia.",
-      "d": "El narrador es siempre una persona real distinta de la autora."
+      "a": "El narrador ficticio relata la biografía real de la autora.",
+      "b": "La autora y el niño narrador son dos autores de la obra.",
+      "c": "La autora crea la obra; el narrador es la voz que cuenta.",
+      "d": "La voz del niño expresa las opiniones personales de la autora."
     },
     "respuesta": "c",
     "explicacion": "Autor y narrador pertenecen a planos distintos: producción real y enunciación del relato. Una voz infantil puede ser una construcción literaria.",
@@ -2110,10 +2110,10 @@
     "tema": "HM · Construcción del Estado mexicano",
     "pregunta": "El Tratado de Guadalupe Hidalgo, firmado en 1848, tuvo como consecuencia",
     "opciones": {
-      "a": "el fin de la guerra con Estados Unidos y la cesión de una extensa porción del territorio mexicano.",
-      "b": "el reconocimiento estadounidense del Segundo Imperio de Maximiliano.",
-      "c": "la recuperación mexicana de Texas y de todos los territorios del norte.",
-      "d": "la venta de La Mesilla como único cambio territorial entre ambos países."
+      "a": "el fin de la guerra con Estados Unidos y una extensa cesión territorial.",
+      "b": "el retiro estadounidense sin modificar la frontera anterior a la guerra.",
+      "c": "la cesión de La Mesilla a cambio de una indemnización económica.",
+      "d": "la fijación del límite de Texas en el río Nueces, en lugar del río Bravo."
     },
     "respuesta": "a",
     "explicacion": "El tratado puso fin a la guerra de 1846-1848 y reconoció la pérdida de extensos territorios del norte, incluidos Alta California y Nuevo México. La venta de La Mesilla se acordó en 1853 mediante otro tratado; no fue la misma operación.",
@@ -2143,9 +2143,9 @@
     "tema": "Lógica · Lenguaje",
     "pregunta": "¿Cuál de los siguientes enunciados expresa una proposición que puede ser verdadera o falsa?",
     "opciones": {
-      "a": "¡Ojalá llueva mañana!",
-      "b": "¡Cierra la ventana!",
-      "c": "¿Qué hora es?",
+      "a": "¡Ojalá la Luna aparezca entre las nubes!",
+      "b": "¡Observa la Luna antes de que amanezca!",
+      "c": "¿Cuándo podremos observar la Luna?",
       "d": "La Luna es un satélite natural de la Tierra."
     },
     "respuesta": "d",

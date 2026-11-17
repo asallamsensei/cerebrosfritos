@@ -47,7 +47,18 @@ function selectPool(bank,seen,rng,subjectOnly){
    const block=candidates[0].map(x=>x.q).sort((a,b)=>a.lectura.orden-b.lectura.orden);
    take=leastUsed(bank.filter(q=>q.categoria===subject&&!q.lectura)).slice(0,count-5);
    const offset=Math.floor(rng()*(take.length+1));take.splice(offset,0,...block);
-  }else take=leastUsed(bank.filter(q=>q.categoria===subject)).slice(0,count);
+  }else {
+   const ranked=leastUsed(bank.filter(q=>q.categoria===subject));
+   take=[];let selectedATP=false;
+   for(const q of ranked){
+    // Keep existing snapshots valid; exclusion applies only to new selections.
+    // Ranked ties were already shuffled, so neither item gets a fixed advantage.
+    const atpPair=subject==='Biología'&&(q.id==='BIO143'||q.id==='BIO145');
+    if(atpPair&&selectedATP)continue;
+    take.push(q);if(atpPair)selectedATP=true;
+    if(take.length===count)break;
+   }
+  }
   for(const q of take)next[q.id]=(next[q.id]||0)+1;
   selected.push(...take.map(q=>({...q,...(q.lectura?{lectura:{...q.lectura}}:{}),order:shuffle(['a','b','c','d'],rng)})));
  }

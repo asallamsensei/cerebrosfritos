@@ -1876,10 +1876,10 @@
     "tema": "HM · Movimientos sociales y apertura política",
     "pregunta": "Una consecuencia de la reforma política de 1977 fue",
     "opciones": {
-      "a": "suprimir los partidos de oposición y establecer legalmente un partido único.",
-      "b": "ampliar las posibilidades de participación legal de fuerzas opositoras y su representación en la Cámara de Diputados.",
-      "c": "crear el Instituto Federal Electoral con autonomía plena en ese mismo año.",
-      "d": "establecer la elección presidencial directa por primera vez en la historia de México."
+      "a": "instituir la representación proporcional para una parte de los integrantes del Senado.",
+      "b": "ampliar el acceso legal de la oposición y su representación en la Cámara de Diputados.",
+      "c": "crear un instituto federal encargado de organizar las elecciones nacionales.",
+      "d": "transferir la calificación presidencial a un tribunal del Poder Judicial."
     },
     "respuesta": "b",
     "explicacion": "La reforma de 1977 favoreció el registro de nuevas fuerzas políticas y amplió la representación proporcional. Fue parte de un proceso gradual de apertura. El IFE se creó en 1990 y obtuvo autonomía respecto del Ejecutivo en 1996, no en 1977.",
@@ -1924,7 +1924,7 @@
     "tema": "HM · Crisis y transformaciones contemporáneas",
     "pregunta": "¿Qué significado político tuvo la elección presidencial mexicana de 2000?",
     "opciones": {
-      "a": "La victoria de Vicente Fox produjo la primera alternancia en la presidencia frente al partido gobernante y sus antecesores desde 1929.",
+      "a": "La victoria de Vicente Fox terminó la continuidad presidencial del PRI y sus antecesores.",
       "b": "Un candidato opositor ganó por primera vez una gubernatura reconocida oficialmente.",
       "c": "Se creó el IFE como organismo encargado de organizar las elecciones federales.",
       "d": "El PRI perdió por primera vez la mayoría absoluta en la Cámara de Diputados."
@@ -2068,10 +2068,10 @@
     "tema": "Lógica: falacias",
     "pregunta": "«Nadie ha demostrado que esta afirmación sea falsa; por lo tanto, es verdadera». ¿Qué falacia presenta?",
     "opciones": {
-      "a": "Ad baculum",
-      "b": "Equívoco",
+      "a": "Apelación a la fuerza",
+      "b": "Equívoco de significado",
       "c": "Apelación a la ignorancia",
-      "d": "Ad hominem"
+      "d": "Ataque a la persona"
     },
     "respuesta": "c",
     "explicacion": "La falta de refutación no basta para demostrar la verdad de una afirmación.",

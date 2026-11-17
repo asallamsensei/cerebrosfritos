@@ -1652,10 +1652,10 @@
     "tema": "Relación entre forma y género",
     "pregunta": "¿Cuál afirmación sobre la clasificación de textos literarios es la más adecuada?",
     "opciones": {
-      "a": "Para distinguir géneros se consideran rasgos de organización y enunciación, no solo si hay verso o prosa.",
-      "b": "Todo texto en prosa es necesariamente una novela.",
-      "c": "Todo texto en verso pertenece necesariamente a la lírica.",
-      "d": "Un texto con diálogo es siempre teatro, aunque lo enmarque un narrador."
+      "a": "El género depende de la organización y la voz, no solo del verso o la prosa.",
+      "b": "La escritura en prosa permite clasificar el texto como novela.",
+      "c": "La presencia de versos basta para clasificarlo como lírico.",
+      "d": "El diálogo entre personajes convierte el texto en dramático."
     },
     "respuesta": "a",
     "explicacion": "La clasificación no depende exclusivamente de verso o prosa: puede haber narraciones en verso, poesía en prosa y diálogos dentro de novelas.",
@@ -2084,10 +2084,10 @@
     "tema": "HM · Reconstrucción e institucionalización",
     "pregunta": "El periodo conocido como Maximato se caracterizó por",
     "opciones": {
-      "a": "la influencia política de Plutarco Elías Calles sobre los gobiernos de Portes Gil, Ortiz Rubio y Abelardo L. Rodríguez.",
-      "b": "la dirección política de Emiliano Zapata sobre los gobiernos posteriores a 1940.",
-      "c": "la permanencia de Calles como presidente constitucional durante tres sexenios consecutivos.",
-      "d": "el gobierno imperial de Maximiliano de Habsburgo con apoyo francés."
+      "a": "la influencia de Calles sobre tres gobiernos sin ejercer la presidencia.",
+      "b": "el ejercicio directo de la presidencia por Calles mediante reelecciones sucesivas.",
+      "c": "la desaparición de la intermediación partidista en la sucesión presidencial.",
+      "d": "la concentración del mando presidencial en Álvaro Obregón tras su reelección."
     },
     "respuesta": "a",
     "explicacion": "Entre 1928 y 1934, Calles conservó gran influencia como Jefe Máximo de la Revolución, sin ocupar formalmente la presidencia. El Maximato no se refiere a Maximiliano ni a un mandato presidencial continuo de Calles.",

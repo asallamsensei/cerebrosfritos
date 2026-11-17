@@ -1653,20 +1653,20 @@
     "origen": "Revisión de calidad académica · reactivo original o reformulado; fuente institucional contrastada"
   },
   {
-    "id": "geo-059",
+    "id": "geo-152",
     "categoria": "Geografía",
-    "tema": "Uso de escala y comparación de trayectos",
-    "pregunta": "En un mismo mapa a escala 1:100 000, una carretera de A a B mide 8 cm siguiendo sus curvas; la línea recta entre A y B mide 5 cm. ¿Qué distancia adicional recorre quien sigue la carretera respecto a la línea recta?",
+    "tema": "México: estructura de exportaciones e importaciones",
+    "pregunta": "Según la estructura del comercio exterior de México reportada por el INEGI para 2024, ¿qué rubros predominaron en el valor de las exportaciones y de las importaciones, respectivamente?",
     "opciones": {
-      "a": "3 km",
-      "b": "300 m",
-      "c": "13 km",
-      "d": "30 km"
+      "a": "Productos petroleros y bienes de consumo.",
+      "b": "Productos agropecuarios y bienes de capital.",
+      "c": "Manufacturas y bienes de consumo.",
+      "d": "Manufacturas y bienes intermedios."
     },
-    "respuesta": "a",
-    "explicacion": "A esta escala, 1 cm representa 1 km. La carretera mide 8 km y la línea recta 5 km: la diferencia es 3 km.",
-    "fuente_conceptual": "https://operaintercensal.inegi.org.mx/Documentos/IIN/Acuerdo_10_IX/ConceptosBasicos.pdf",
-    "origen": "Original · ampliación 3; elaboración y revisión conceptual con referencia institucional"
+    "respuesta": "d",
+    "explicacion": "En las cifras de 2024 publicadas por el INEGI el 27 de enero de 2025, las manufacturas representaron 89.8 % del valor exportado y los bienes intermedios 75.6 % del importado. Los bienes intermedios son insumos destinados a procesos productivos; no deben confundirse con bienes de consumo final ni con bienes de capital. Se describe el predominio de esos rubros, no la exclusividad del comercio en ellos.",
+    "fuente_conceptual": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/comext_o/balcom_o2025_01.pdf",
+    "origen": "Original, sustitución curricular autorizada; cifras anuales de 2024 publicadas por INEGI el 27 de enero de 2025; revisión cruzada completada."
   },
   {
     "id": "geo-060",

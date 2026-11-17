@@ -1623,10 +1623,10 @@
     "tema": "Lógica: fuerza inductiva de una muestra",
     "pregunta": "Para estimar cuántos estudiantes usan transporte público, se consulta solo a quienes esperan en la parada frente al plantel. ¿Qué modificación fortalecería más la inferencia sobre todo el alumnado?",
     "opciones": {
-      "a": "Repetir las preguntas a las mismas personas en la misma parada",
-      "b": "Aumentar las preguntas sobre los colores de los autobuses",
-      "c": "Seleccionar estudiantes de distintos turnos sin condicionarlos a estar en la parada",
-      "d": "Consultar únicamente a los conductores que conocen la ruta"
+      "a": "Consultar más alumnos que esperan en la misma parada",
+      "b": "Distribuir la encuesta en las rutas de autobús del plantel",
+      "c": "Muestrear al alumnado sin exigir que esté en la parada",
+      "d": "Preguntar solo a usuarios frecuentes de las distintas rutas"
     },
     "respuesta": "c",
     "explicacion": "La selección inicial favorece a usuarios de transporte público. Una muestra del alumnado no condicionada a esa ubicación reduce ese sesgo; repetirlo no lo corrige.",
@@ -1786,7 +1786,7 @@
       "a": "El estudio de nutrientes minerales para desarrollar fertilizantes agrícolas.",
       "b": "El estudio de corrientes eléctricas para mejorar la comunicación telegráfica.",
       "c": "El estudio de aleaciones metálicas para aumentar la resistencia de herramientas.",
-      "d": "El estudio de microorganismos para comprender y mejorar procesos de producción y conservación de alimentos."
+      "d": "El estudio de microorganismos aplicado a fermentación y conservación de alimentos."
     },
     "respuesta": "d",
     "explicacion": "Pasteur vinculó fermentaciones con microorganismos específicos y desarrolló procedimientos para evitar alteraciones de productos. Es un caso histórico de investigación experimental aplicada a la producción, sin recurrir a tecnologías posteriores.",
@@ -1991,10 +1991,10 @@
     "tema": "Deterioro ambiental: marea negra",
     "pregunta": "Tras un derrame de petróleo en el mar, ¿qué información es más útil para estimar qué tramos costeros podrían recibir la mancha durante las próximas horas?",
     "opciones": {
-      "a": "La densidad de población de las capitales y la superficie de sus municipios.",
+      "a": "El volumen y la viscosidad del petróleo derramado, junto con la temperatura inicial del combustible.",
       "b": "La dirección y velocidad de las corrientes superficiales y del viento, junto con la posición del derrame.",
-      "c": "El contenido de minerales de las montañas interiores y la edad de sus rocas.",
-      "d": "Las temperaturas medias anuales de ciudades distantes y sus límites administrativos."
+      "c": "La distribución de manglares y áreas de pesca, junto con la sensibilidad ecológica de las playas cercanas.",
+      "d": "Los promedios anuales de viento y corrientes de la región, junto con la posición inicial del derrame."
     },
     "respuesta": "b",
     "explicacion": "El transporte de una mancha superficial depende en buena medida de corrientes y viento. Se combina esa información con la ubicación y características del derrame; no basta la distancia a la costa ni se trata de una predicción exacta sin incertidumbre.",
