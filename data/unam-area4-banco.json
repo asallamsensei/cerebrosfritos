@@ -654,11 +654,11 @@
     "opciones": {
       "a": "Ficha de resumen",
       "b": "Ficha de cita textual que copie una sola oración secundaria",
-      "c": "Lista de personajes inventados",
-      "d": "Acotación escénica"
+      "c": "Ficha bibliográfica",
+      "d": "Ficha de comentario personal"
     },
     "respuesta": "a",
-    "explicacion": "La ficha de resumen sintetiza lo esencial de una fuente. No equivale a reproducir literalmente una frase aislada ni a crear elementos de ficción.",
+    "explicacion": "La ficha de resumen sintetiza las ideas esenciales de la fuente. La bibliográfica identifica la publicación; la de comentario registra una valoración y la textual reproduce palabras exactas.",
     "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid4/unidad3/procesamiento/queFichasUsar",
     "origen": "Revisada y reutilizada del simulacro existente"
   },
@@ -1063,7 +1063,7 @@
       "d": "La evaporación consiste en un cambio de estado."
     },
     "respuesta": "c",
-    "explicacion": "La sucesión de acciones en el tiempo organiza el último fragmento.",
+    "explicacion": "La sucesión de acciones «entró, dejó la maleta y salió» organiza temporalmente el fragmento narrativo.",
     "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
     "origen": "Reactivo original nuevo"
   },
@@ -1487,7 +1487,7 @@
     "id": "esp-050",
     "categoria": "Español",
     "tema": "Léxico: sinónimos",
-    "pregunta": "En «El plazo para presentar solicitudes es perentorio», la palabra destacada equivale mejor a…",
+    "pregunta": "En «El plazo para presentar solicitudes es perentorio», ¿qué palabra equivale mejor a «perentorio»?",
     "opciones": {
       "a": "retroactivo",
       "b": "opcional",
@@ -1521,13 +1521,13 @@
     "tema": "Redacción: coherencia",
     "pregunta": "¿Qué oración rompe la unidad temática de un párrafo sobre el ahorro de electricidad?",
     "opciones": {
-      "a": "Los pingüinos se distribuyen principalmente en el hemisferio sur.",
+      "a": "La factura de electricidad se emite en papel reciclado.",
       "b": "Apagar luces innecesarias reduce el consumo.",
       "c": "Los focos eficientes requieren menos energía.",
       "d": "Desconectar equipos evita ciertos consumos en espera."
     },
     "respuesta": "a",
-    "explicacion": "La distribución de los pingüinos no desarrolla el tema del ahorro eléctrico.",
+    "explicacion": "El material de la factura no trata del ahorro de electricidad. Las otras oraciones sí describen medidas que reducen su consumo.",
     "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
     "origen": "Reactivo original nuevo"
   },
@@ -1554,12 +1554,12 @@
     "pregunta": "Texto original: «Se entrevistó a veinte usuarios voluntarios de una biblioteca; diecisiete pidieron más mesas». ¿Qué conclusión respeta el alcance de los datos?",
     "opciones": {
       "a": "La mayoría de los entrevistados pidió más mesas.",
-      "b": "Todos los habitantes necesitan más mesas.",
-      "c": "La biblioteca debe cerrar definitivamente.",
-      "d": "Ningún usuario está satisfecho con la biblioteca."
+      "b": "El 85 % de todos los usuarios necesita más mesas.",
+      "c": "El 85 % de la población del municipio pidió más mesas.",
+      "d": "Solo tres usuarios de la biblioteca consideran suficientes las mesas."
     },
     "respuesta": "a",
-    "explicacion": "17 de 20 es mayoría de esa muestra; el texto no permite generalizar a todos los habitantes.",
+    "explicacion": "17 de 20 es mayoría de esa muestra voluntaria, no necesariamente de todos los usuarios ni de la población. Que tres personas no pidieran más mesas tampoco prueba que las consideren suficientes.",
     "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
     "origen": "Reactivo original nuevo"
   },
@@ -1576,7 +1576,7 @@
     },
     "respuesta": "a",
     "explicacion": "Se atribuye a la noche una acción humana: abrazar.",
-    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid3/unidad1/textoIconico/figurasRetoricasEjemplos",
     "origen": "Reactivo original nuevo"
   },
   {
@@ -1592,7 +1592,7 @@
     },
     "respuesta": "b",
     "explicacion": "La duración imposible exagera la espera para intensificar su sentido.",
-    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid3/unidad1/textoIconico/figurasRetoricasEjemplos",
     "origen": "Reactivo original nuevo"
   },
   {
@@ -1608,7 +1608,7 @@
     },
     "respuesta": "c",
     "explicacion": "«Como» establece de forma explícita la semejanza entre la voz y el río.",
-    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid3/unidad1/textoIconico/figurasRetoricasEjemplos",
     "origen": "Reactivo original nuevo"
   },
   {
@@ -1624,7 +1624,7 @@
     },
     "respuesta": "c",
     "explicacion": "Desde la vocal acentuada coinciden a-a, pero no las consonantes: casa y rama.",
-    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad4/desviacionessonoras/ritmo1",
     "origen": "Reactivo original nuevo"
   },
   {
@@ -1640,7 +1640,7 @@
     },
     "respuesta": "d",
     "explicacion": "La terminación aguda añade una sílaba al cómputo métrico.",
-    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "fuente_conceptual": "https://recursos.literatura.enp.unam.mx/tema.php?id=14",
     "origen": "Reactivo original nuevo"
   },
   {
@@ -1656,7 +1656,7 @@
     },
     "respuesta": "a",
     "explicacion": "La analepsis recupera hechos anteriores al momento del relato; la prolepsis anticipa hechos posteriores.",
-    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/secuencianarrativa/componentesdelrelato",
     "origen": "Reactivo original nuevo"
   },
   {
@@ -1672,7 +1672,7 @@
     },
     "respuesta": "b",
     "explicacion": "El antagonista se opone a la búsqueda del protagonista, sin que deba ser necesariamente moralmente malo.",
-    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "fuente_conceptual": "https://recursos.literatura.enp.unam.mx/tema.php?id=46",
     "origen": "Reactivo original nuevo"
   },
   {
@@ -1681,14 +1681,14 @@
     "tema": "Géneros: tragedia",
     "pregunta": "¿Qué rasgo es característico de la tragedia clásica?",
     "opciones": {
-      "a": "La narración exclusiva de hechos cómicos cotidianos.",
+      "a": "Un conflicto risible que suele resolver equívocos.",
       "b": "Un conflicto grave que conduce a consecuencias dolorosas.",
-      "c": "La ausencia de conflicto entre personajes.",
-      "d": "La exposición científica de un fenómeno natural."
+      "c": "Un relato de hazañas con narrador y héroes.",
+      "d": "La expresión subjetiva mediante una voz poética."
     },
     "respuesta": "b",
     "explicacion": "La tragedia presenta conflictos graves y desenlaces dolorosos; no se define por la comicidad.",
-    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "fuente_conceptual": "https://recursos.literatura.enp.unam.mx/unidad.php?idtema=8&idunidad=4",
     "origen": "Reactivo original nuevo"
   },
   {
@@ -1855,12 +1855,12 @@
     "id": "fil-029",
     "categoria": "Filosofía",
     "tema": "Filosofía: argumentación",
-    "pregunta": "¿Qué diferencia una pregunta filosófica de una pregunta meramente factual en este par?",
+    "pregunta": "Compara las preguntas «¿Qué hace justa una ley?» y «¿En qué año se aprobó esta ley?». ¿Qué diferencia la primera de la segunda?",
     "opciones": {
-      "a": "Ninguna de las dos preguntas puede discutirse racionalmente.",
-      "b": "«¿Qué hace justa una ley?» examina criterios; «¿Cuándo se aprobó?» solicita un dato.",
-      "c": "Ambas preguntas se responden únicamente contando votos.",
-      "d": "«¿Qué hace justa una ley?» pide una fecha; «¿Cuándo se aprobó?» examina valores."
+      "a": "La primera solicita una fecha; la segunda examina principios normativos.",
+      "b": "La primera examina criterios normativos; la segunda solicita un dato histórico.",
+      "c": "La primera describe una votación; la segunda demuestra la justicia de la ley.",
+      "d": "La primera se responde con un dato; la segunda solo admite preferencias."
     },
     "respuesta": "b",
     "explicacion": "La primera cuestiona fundamentos y criterios normativos; la segunda busca un hecho histórico verificable.",
@@ -3193,7 +3193,7 @@
     "tipo_pregunta": "opcion_multiple",
     "categoria": "Física",
     "tema": "Gravitación universal",
-    "pregunta": "Dos cuerpos de masas constantes se atraen con una fuerza F. Si la distancia entre sus centros se triplica, ¿cuál es la nueva fuerza gravitacional?",
+    "pregunta": "Dos cuerpos, modelados como masas puntuales constantes, se atraen con una fuerza F. Si la distancia entre ellos se triplica, ¿cuál es la nueva fuerza gravitacional?",
     "opciones": {
       "a": "3F",
       "b": "9F",
@@ -3382,7 +3382,7 @@
     "tipo_pregunta": "opcion_multiple",
     "categoria": "Física",
     "tema": "Electricidad: potencia",
-    "pregunta": "Un aparato opera con 120 V y consume una corriente de 2 A. ¿Cuál es su potencia eléctrica?",
+    "pregunta": "Un aparato alimentado con corriente continua opera con una diferencia de potencial constante de 120 V y consume 2 A. ¿Cuál es su potencia eléctrica?",
     "opciones": {
       "a": "122 W",
       "b": "0.017 W",
@@ -3390,7 +3390,7 @@
       "d": "60 W"
     },
     "respuesta": "c",
-    "explicacion": "La potencia eléctrica es P = VI = 120 × 2 = 240 W. El watt expresa energía consumida por unidad de tiempo.",
+    "explicacion": "En corriente continua, P = VI = 120 × 2 = 240 W. El watt expresa energía consumida por unidad de tiempo.",
     "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/20-section-summary",
     "origen": {
       "tipo": "revisada",
@@ -3511,12 +3511,12 @@
     "pregunta": "Al observar una herida, se detecta que las células del tejido vecino se dividen para repararla. ¿Qué postulado de la teoría celular ilustra directamente este hecho?",
     "opciones": {
       "a": "Los seres vivos se forman espontáneamente",
-      "b": "Todas las células tienen el mismo tamaño",
-      "c": "Todas las células poseen cloroplastos",
+      "b": "La célula constituye la unidad estructural de los organismos",
+      "c": "La célula constituye la unidad funcional de los seres vivos",
       "d": "Toda célula proviene de otra célula"
     },
     "respuesta": "d",
-    "explicacion": "Las nuevas células se originan por división de células preexistentes. La teoría celular no afirma que todas tengan los mismos organelos o tamaño.",
+    "explicacion": "El hecho observado es el origen de células nuevas por división de otras preexistentes. Los postulados de unidad estructural y funcional también son válidos, pero no describen directamente ese origen.",
     "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/4-chapter-summary",
     "origen": {
       "tipo": "revisada",
@@ -3637,9 +3637,9 @@
     "pregunta": "En la respiración aerobia, ¿qué papel cumple el oxígeno al final de la cadena de transporte de electrones?",
     "opciones": {
       "a": "Acepta electrones y contribuye a formar agua",
-      "b": "Duplica el ADN mitocondrial",
+      "b": "Cede los primeros electrones a la cadena",
       "c": "Se convierte en dióxido de carbono",
-      "d": "Se transforma directamente en glucosa"
+      "d": "Bombea directamente protones a través de la membrana"
     },
     "respuesta": "a",
     "explicacion": "El oxígeno actúa como aceptor final de electrones; al combinarse con electrones y protones forma agua. Esto permite mantener el flujo electrónico de la cadena.",
@@ -3676,7 +3676,7 @@
     "tipo_pregunta": "opcion_multiple",
     "categoria": "Biología",
     "tema": "Reproducción: meiosis",
-    "pregunta": "En una especie animal, las células somáticas tienen 18 cromosomas. ¿Cuántos tiene normalmente un gameto producido por meiosis?",
+    "pregunta": "En una especie animal diploide, las células somáticas tienen 18 cromosomas (2n = 18). ¿Cuántos tiene normalmente un gameto producido por meiosis?",
     "opciones": {
       "a": "18",
       "b": "27",
@@ -4255,7 +4255,7 @@
       "d": "6 m"
     },
     "respuesta": "b",
-    "explicacion": "El desplazamiento suma las áreas con signo: 4(5) + (−2)(3) = 20 − 6 = 14 m.",
+    "explicacion": "En cada tramo, Δx = vΔt. Los desplazamientos son +20 m y −6 m; su suma es +14 m.",
     "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units",
     "origen": {
       "tipo": "nueva",
@@ -4329,10 +4329,10 @@
     "tema": "Propagación del sonido",
     "pregunta": "¿Por qué una alarma mecánica no puede oírse a través de un vacío ideal?",
     "opciones": {
-      "a": "La luz absorbe todas las vibraciones",
+      "a": "El vacío impide que la fuente mecánica vibre",
       "b": "El sonido necesita un medio material",
       "c": "El sonido es una onda electromagnética",
-      "d": "La frecuencia se vuelve necesariamente cero"
+      "d": "La onda pierde frecuencia hasta quedar fuera del intervalo audible"
     },
     "respuesta": "b",
     "explicacion": "El sonido es una onda mecánica que requiere partículas del medio para transmitir la perturbación.",
@@ -4587,7 +4587,7 @@
     "id": "BIO028",
     "categoria": "Biología",
     "tema": "Diversidad biológica",
-    "pregunta": "¿Qué característica diferencia a los hongos de las plantas?",
+    "pregunta": "¿Qué característica nutricional distingue a los hongos de las plantas fotoautótrofas?",
     "opciones": {
       "a": "Nutrición heterótrofa por absorción",
       "b": "Presencia de células eucariotas",
@@ -4595,7 +4595,7 @@
       "d": "Presencia de membrana plasmática"
     },
     "respuesta": "a",
-    "explicacion": "Los hongos absorben nutrientes orgánicos. Eucariotas, reproducción y membrana también se encuentran en las plantas.",
+    "explicacion": "Los hongos obtienen carbono orgánico mediante absorción; las plantas fotoautótrofas fijan carbono por fotosíntesis. Ambos grupos poseen células eucariotas y membrana plasmática.",
     "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/1-introduction",
     "origen": {
       "tipo": "nueva",
@@ -4750,9 +4750,9 @@
     "pregunta": "El enlace entre los átomos de una molécula H₂ se forma por:",
     "opciones": {
       "a": "Compartir dos núcleos",
-      "b": "Transferir un neutrón",
+      "b": "Transferir un electrón de un átomo al otro",
       "c": "Compartir un par de electrones",
-      "d": "Transferir dos protones"
+      "d": "Compartir dos pares de electrones"
     },
     "respuesta": "c",
     "explicacion": "El enlace covalente simple se forma mediante un par de electrones compartido.",
@@ -5617,7 +5617,7 @@
     "tema": "HU · Revoluciones del siglo XX",
     "pregunta": "El triunfo comunista en la guerra civil china condujo en 1949 a",
     "opciones": {
-      "a": "el establecimiento de la República Popular China bajo Chiang Kai-shek.",
+      "a": "la formación de la República Popular China bajo Chiang Kai-shek.",
       "b": "la anexión de China continental al territorio japonés.",
       "c": "la restauración de la dinastía Qing con apoyo soviético.",
       "d": "la proclamación de la República Popular China encabezada por Mao Zedong."
@@ -6065,7 +6065,7 @@
     "tema": "Escala cartográfica",
     "pregunta": "En un mapa a escala 1:50 000, dos puntos están separados por 6 cm. ¿Qué distancia horizontal representan en el terreno?",
     "opciones": {
-      "a": "0.3 km",
+      "a": "0.03 km",
       "b": "3 km",
       "c": "300 m",
       "d": "30 km"
@@ -6626,11 +6626,11 @@
     "opciones": {
       "a": "Transporte de mercancías por carretera",
       "b": "Venta de maquinaria en una tienda",
-      "c": "Extracción de mineral de una mina",
+      "c": "Cultivo de maíz en una parcela",
       "d": "Fabricación de herramientas de acero"
     },
     "respuesta": "c",
-    "explicacion": "El sector primario obtiene recursos directamente de la naturaleza, como en la minería. Transformación industrial, comercio y transporte corresponden a otros sectores.",
+    "explicacion": "La agricultura pertenece al sector primario. La manufactura transforma materias primas en el sector secundario, mientras que el comercio y el transporte prestan servicios del sector terciario.",
     "fuente_conceptual": "https://cuentame.inegi.org.mx/economia/",
     "origen": "Original para este banco",
     "id": "geo-027"
