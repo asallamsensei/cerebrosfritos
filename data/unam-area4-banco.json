@@ -590,7 +590,7 @@
       "d": "Sor Juana Inés de la Cruz: Primero sueño"
     },
     "respuesta": "d",
-    "explicacion": "Sor Juana pertenece al Barroco novohispano del siglo XVII. Las otras obras corresponden al modernismo, al realismo español y a la narrativa mexicana del siglo XX, respectivamente.",
+    "explicacion": "Sor Juana pertenece al Barroco novohispano del siglo XVII. Azul… se vincula con el modernismo; Fortunata y Jacinta, con el realismo español; Pedro Páramo, con la narrativa mexicana del siglo XX.",
     "fuente_conceptual": "https://rua2024.unam.mx/portal/recursos/ficha/5724/primero-sueno",
     "origen": "Reactivo original nuevo, reemplaza uno elemental durante revisión"
   },
@@ -8810,5 +8810,2133 @@
     "explicacion": "La divisoria de aguas separa áreas cuyo escurrimiento superficial va hacia diferentes cuencas. No es necesariamente un límite de las aguas subterráneas.",
     "fuente_conceptual": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
     "origen": "Original · ampliación 1; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "esp-073",
+    "categoria": "Español",
+    "tema": "Comparación de textos",
+    "pregunta": "Lee los textos originales. A: «El tren regional transportó más pasajeros este año. El aumento demuestra que los habitantes han abandonado el automóvil». B: «El tren transportó más pasajeros, pero aún no sabemos si antes viajaban en automóvil, en autobús o si ahora realizan desplazamientos que antes no hacían. Para evaluar la sustitución del automóvil, hay que conocer el origen de esos nuevos viajes». ¿En qué discrepan principalmente A y B?",
+    "opciones": {
+      "a": "En si es posible estudiar los viajes anteriores",
+      "b": "En lo que permite concluir el aumento de pasajeros",
+      "c": "En si el tren transportó más pasajeros este año",
+      "d": "En la existencia de autobuses en la región"
+    },
+    "respuesta": "b",
+    "explicacion": "B acepta el dato inicial, pero cuestiona que por sí solo demuestre el abandono del automóvil.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-074",
+    "categoria": "Español",
+    "tema": "Evidencia discriminante",
+    "pregunta": "Lee los textos originales. A: «El tren regional transportó más pasajeros este año. El aumento demuestra que los habitantes han abandonado el automóvil». B: «El tren transportó más pasajeros, pero aún no sabemos si antes viajaban en automóvil, en autobús o si ahora realizan desplazamientos que antes no hacían. Para evaluar la sustitución del automóvil, hay que conocer el origen de esos nuevos viajes». ¿Qué información ayudaría más directamente a evaluar la conclusión de A?",
+    "opciones": {
+      "a": "La opinión de los viajeros sobre el color de los vagones",
+      "b": "El medio usado antes por los nuevos pasajeros para esos viajes",
+      "c": "La cantidad de asientos instalados en cada vagón",
+      "d": "La antigüedad de los puentes que atraviesa el tren"
+    },
+    "respuesta": "b",
+    "explicacion": "Conocer el medio anterior permite distinguir sustitución del automóvil de traslados desde autobús o viajes nuevos.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-075",
+    "categoria": "Español",
+    "tema": "Función de una enumeración",
+    "pregunta": "Lee el texto original: «Una revista publicó dos fotografías del mismo valle: una de 1980 y otra reciente. En la segunda se observan menos árboles. El pie de foto atribuye la diferencia a la expansión de viviendas, aunque no indica la estación del año, el encuadre ni si hubo incendios. Una especialista pide comparar imágenes equivalentes y revisar los registros locales antes de explicar la transformación. No cuestiona el valor de las fotografías; cuestiona que se usen sin contexto». La mención de estación, encuadre e incendios sirve para:",
+    "opciones": {
+      "a": "Sustituir la explicación del paisaje por una descripción artística",
+      "b": "Probar que hubo incendios y no se construyeron viviendas",
+      "c": "Señalar información relevante que falta para interpretar la comparación",
+      "d": "Negar que las fotografías puedan registrar cambios del paisaje"
+    },
+    "respuesta": "c",
+    "explicacion": "Son factores y datos ausentes que podrían afectar la comparación; enumerarlos no demuestra que alguno haya ocurrido.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-076",
+    "categoria": "Español",
+    "tema": "Presuposición argumentativa",
+    "pregunta": "Lee el texto original: «Una revista publicó dos fotografías del mismo valle: una de 1980 y otra reciente. En la segunda se observan menos árboles. El pie de foto atribuye la diferencia a la expansión de viviendas, aunque no indica la estación del año, el encuadre ni si hubo incendios. Una especialista pide comparar imágenes equivalentes y revisar los registros locales antes de explicar la transformación. No cuestiona el valor de las fotografías; cuestiona que se usen sin contexto». ¿Qué supuesto requiere la atribución a la expansión de viviendas?",
+    "opciones": {
+      "a": "Que los árboles no cambian de aspecto a lo largo del año",
+      "b": "Que toda vivienda del valle fue construida después de 1980",
+      "c": "Que la diferencia observada refleja un cambio causado por esa expansión",
+      "d": "Que ambas fotografías fueron tomadas por la misma persona"
+    },
+    "respuesta": "c",
+    "explicacion": "La atribución necesita vincular el cambio observado con la expansión; identidad del fotógrafo y universalidades no son requisitos lógicos.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-077",
+    "categoria": "Español",
+    "tema": "Distinción conceptual",
+    "pregunta": "Lee el texto original: «Una cooperativa vende sus productos en envases retornables. El cartel anuncia que cada envase puede utilizarse veinte veces; sin embargo, solo la mitad de los compradores lo devuelve. La gerente propone medir los retornos reales y los recursos empleados en lavar y transportar los envases. A su juicio, la capacidad de reutilización describe una posibilidad técnica, no todo el resultado ambiental del sistema». ¿Qué distinción sostiene el argumento de la gerente?",
+    "opciones": {
+      "a": "El material de un envase y el contenido de su etiqueta",
+      "b": "El precio de compra y el color de los productos",
+      "c": "La posibilidad de reutilizar y el funcionamiento efectivo del sistema",
+      "d": "La limpieza doméstica y cualquier forma de transporte"
+    },
+    "respuesta": "c",
+    "explicacion": "El número posible de usos no coincide necesariamente con los usos reales ni resume todos los recursos consumidos.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-078",
+    "categoria": "Español",
+    "tema": "Información insuficiente",
+    "pregunta": "Lee el texto original: «Una cooperativa vende sus productos en envases retornables. El cartel anuncia que cada envase puede utilizarse veinte veces; sin embargo, solo la mitad de los compradores lo devuelve. La gerente propone medir los retornos reales y los recursos empleados en lavar y transportar los envases. A su juicio, la capacidad de reutilización describe una posibilidad técnica, no todo el resultado ambiental del sistema». ¿Qué afirmación NO puede establecerse con la información disponible?",
+    "opciones": {
+      "a": "El cartel señala una capacidad de veinte usos",
+      "b": "La mitad de los compradores devuelve el envase",
+      "c": "El sistema retornable consume menos recursos que cualquier alternativa",
+      "d": "La gerente propone estudiar lavado y transporte"
+    },
+    "respuesta": "c",
+    "explicacion": "El texto no compara todos los recursos y alternativas; sí proporciona explícitamente las otras tres informaciones.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-079",
+    "categoria": "Español",
+    "tema": "Ambigüedad y reescritura",
+    "pregunta": "«Laura habló con Inés sobre su proyecto». Si el proyecto pertenece a Inés, ¿qué reescritura elimina la ambigüedad?",
+    "opciones": {
+      "a": "Laura habló con Inés sobre el proyecto de Inés",
+      "b": "Laura habló sobre su proyecto con Inés",
+      "c": "Sobre su proyecto, Laura habló con Inés",
+      "d": "Laura habló con Inés sobre el proyecto de ella"
+    },
+    "respuesta": "a",
+    "explicacion": "La mención expresa de Inés identifica a la propietaria; «su» y «ella» pueden conservar antecedentes alternativos.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-080",
+    "categoria": "Español",
+    "tema": "Adjetiva especificativa",
+    "pregunta": "Compara: I. «Los aspirantes que entregaron la solicitud recibieron un folio». II. «Los aspirantes, que entregaron la solicitud, recibieron un folio». ¿Qué lectura distingue a I?",
+    "opciones": {
+      "a": "Niega que los aspirantes hayan recibido folios",
+      "b": "Afirma expresamente que ningún aspirante entregó solicitud",
+      "c": "Presenta la entrega como explicación aplicable a todo el grupo",
+      "d": "Restringe la afirmación a quienes entregaron la solicitud"
+    },
+    "respuesta": "d",
+    "explicacion": "Sin comas, la relativa especificativa selecciona un subconjunto; con comas, la relativa añade información sobre el grupo ya identificado.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-081",
+    "categoria": "Español",
+    "tema": "Pasiva refleja",
+    "pregunta": "En «Se publicaron los resultados ayer», ¿qué análisis corresponde?",
+    "opciones": {
+      "a": "«Los resultados» es complemento indirecto del verbo",
+      "b": "«Los resultados» es sujeto paciente y concuerda con el verbo",
+      "c": "«Los resultados» es un vocativo dirigido al lector",
+      "d": "«Los resultados» es sujeto agente que realiza la publicación"
+    },
+    "respuesta": "b",
+    "explicacion": "La construcción es pasiva refleja: los resultados reciben la acción y determinan el plural «publicaron».",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-082",
+    "categoria": "Español",
+    "tema": "Discurso referido",
+    "pregunta": "El lunes, Nora dijo: «Entregaré el informe mañana». Si el miércoles se informa de sus palabras sin afirmar que cumplió, ¿qué versión conserva la referencia temporal?",
+    "opciones": {
+      "a": "Nora dijo el lunes que entregaba el informe cada martes",
+      "b": "Nora dijo el lunes que entregaría el informe al día siguiente",
+      "c": "Nora dijo el lunes que entregará el informe mañana jueves",
+      "d": "Nora dijo el lunes que había entregado el informe el domingo"
+    },
+    "respuesta": "b",
+    "explicacion": "El futuro de las palabras originales pasa a condicional en el relato y «al día siguiente» remite al martes; no se afirma cumplimiento.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-083",
+    "categoria": "Español",
+    "tema": "Puntuación: elipsis verbal",
+    "pregunta": "¿Qué signo conviene para señalar el verbo omitido en «Ana eligió pintura; Luis, escultura»?",
+    "opciones": {
+      "a": "El punto y coma después de «pintura»",
+      "b": "La coma después de «Luis»",
+      "c": "Dos puntos antes de «Ana»",
+      "d": "Una tilde en «escultura»"
+    },
+    "respuesta": "b",
+    "explicacion": "La coma marca la omisión de «eligió» en la segunda estructura paralela; el punto y coma separa las dos unidades.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-084",
+    "categoria": "Español",
+    "tema": "Ortografía de prefijos",
+    "pregunta": "¿Qué forma escribe correctamente el prefijo unido a una base de una sola palabra?",
+    "opciones": {
+      "a": "Anti religioso",
+      "b": "Anti-religioso",
+      "c": "Antirreligioso",
+      "d": "Antireligioso"
+    },
+    "respuesta": "c",
+    "explicacion": "El prefijo se une a la base. Entre vocales se escribe rr para conservar el sonido fuerte de la r inicial de «religioso».",
+    "fuente_conceptual": "https://www.rae.es/sites/default/files/Principales_novedades_de_la_Ortografia_de_la_lengua_espanola.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-085",
+    "categoria": "Español",
+    "tema": "Acentuación de compuestos",
+    "pregunta": "¿Qué explicación justifica la tilde de «fácilmente»?",
+    "opciones": {
+      "a": "El sufijo -mente convierte la palabra en aguda",
+      "b": "Los adverbios en -mente conservan la tilde del adjetivo base",
+      "c": "Todos los adverbios terminados en -mente llevan tilde",
+      "d": "Toda palabra de cinco sílabas lleva tilde en la primera"
+    },
+    "respuesta": "b",
+    "explicacion": "«Fácil» lleva tilde y la conserva al formar «fácilmente»; no sucede con bases sin tilde como «cordial».",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-086",
+    "categoria": "Español",
+    "tema": "Ortografía: g y j",
+    "pregunta": "Completa con las grafías correctas: «La directora ___ el equipo y ayer ___ el informe final».",
+    "opciones": {
+      "a": "dirije / dirigió",
+      "b": "dirige / dirijió",
+      "c": "dirige / dirigió",
+      "d": "dirije / dirijió"
+    },
+    "respuesta": "c",
+    "explicacion": "Las formas «dirige» y «dirigió» conservan g ante e o i. Otras formas de dirigir, como «dirijo», usan j ante o.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-087",
+    "categoria": "Español",
+    "tema": "Ortografía: c y z",
+    "pregunta": "¿Cuál pareja singular–plural está correctamente escrita?",
+    "opciones": {
+      "a": "Voz — voces",
+      "b": "Pez — pezes",
+      "c": "Voz — vozes",
+      "d": "Luz — luzes"
+    },
+    "respuesta": "a",
+    "explicacion": "Al formar el plural de palabras terminadas en z, esta cambia a c ante e: voces, luces y peces.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-088",
+    "categoria": "Español",
+    "tema": "Léxico: selección de acepciones",
+    "pregunta": "En «El banco cerró sus oficinas» y «El carpintero reparó el banco de madera», el contexto permite:",
+    "opciones": {
+      "a": "Afirmar que ambas oraciones hablan de una institución",
+      "b": "Concluir que «banco» funciona como verbo en ambos casos",
+      "c": "Seleccionar distintos significados de una misma forma léxica",
+      "d": "Interpretar «madera» como sinónimo de «oficinas»"
+    },
+    "respuesta": "c",
+    "explicacion": "El contexto selecciona la acepción financiera o la de mueble de madera. La palabra funciona como sustantivo en ambos enunciados.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-089",
+    "categoria": "Español",
+    "tema": "Gramática: modalidad hipotética",
+    "pregunta": "En «Si tuviera más tiempo, revisaría el informe», la forma verbal «tuviera» presenta la disponibilidad de tiempo como:",
+    "opciones": {
+      "a": "Un hecho futuro asegurado por el hablante",
+      "b": "Una condición hipotética, no afirmada como real",
+      "c": "Una orden dirigida al destinatario",
+      "d": "Un acontecimiento pasado que se da por cumplido"
+    },
+    "respuesta": "b",
+    "explicacion": "El imperfecto de subjuntivo en este período presenta una condición hipotética; no afirma que el hablante disponga de ese tiempo ni que haya dispuesto de él.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "esp-090",
+    "categoria": "Español",
+    "tema": "Sentido de un adjetivo en contexto",
+    "pregunta": "En «El informe ofrece una descripción somera del conflicto, pero no analiza sus causas», «somera» significa:",
+    "opciones": {
+      "a": "Contradictoria y falsa",
+      "b": "Desordenada e incoherente",
+      "c": "Breve y sin profundizar",
+      "d": "Minuciosa y exhaustiva"
+    },
+    "respuesta": "c",
+    "explicacion": "El contraste con la falta de análisis causal indica tratamiento superficial, no falsedad ni desorden.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "lit-041",
+    "categoria": "Literatura",
+    "tema": "Género épico y tradición",
+    "pregunta": "¿Qué obra de la tradición griega desarrolla el regreso de Odiseo a Ítaca después de la guerra de Troya?",
+    "opciones": {
+      "a": "La Odisea",
+      "b": "Antígona",
+      "c": "La Ilíada",
+      "d": "Edipo rey"
+    },
+    "respuesta": "a",
+    "explicacion": "La Odisea narra el retorno de Odiseo; la Ilíada se centra en un episodio de la guerra de Troya, y las otras dos obras son tragedias.",
+    "fuente_conceptual": "https://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/Odisea.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "lit-042",
+    "categoria": "Literatura",
+    "tema": "Renacimiento español",
+    "pregunta": "Una antología de poesía renacentista española busca églogas de influencia clásica y pastoril. ¿Qué autor resulta pertinente?",
+    "opciones": {
+      "a": "Gustavo Adolfo Bécquer",
+      "b": "Garcilaso de la Vega",
+      "c": "Rubén Darío",
+      "d": "César Vallejo"
+    },
+    "respuesta": "b",
+    "explicacion": "Garcilaso es una figura central del Renacimiento español y cultivó la égloga; los otros autores pertenecen a períodos posteriores.",
+    "fuente_conceptual": "https://descargas.intef.es/recursos_educativos/It_didac/Leng_ESO/3/08/03_lirica_renacentista_profana/garcilaso_de_la_vega.html",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "lit-043",
+    "categoria": "Literatura",
+    "tema": "Generación del 27",
+    "pregunta": "¿Qué autor de Romancero gitano pertenece a la generación española del 27?",
+    "opciones": {
+      "a": "Federico García Lorca",
+      "b": "José de Espronceda",
+      "c": "Miguel de Unamuno",
+      "d": "Antonio Machado"
+    },
+    "respuesta": "a",
+    "explicacion": "Romancero gitano es de García Lorca, integrante de la generación del 27; los otros autores se asocian con generaciones o períodos distintos.",
+    "fuente_conceptual": "https://biblioteca.cch.unam.mx/publication/romancero-gitano",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "lit-044",
+    "categoria": "Literatura",
+    "tema": "Novela de la Revolución mexicana",
+    "pregunta": "¿Qué pareja autor–obra corresponde a una novela que sigue a Demetrio Macías en la Revolución mexicana?",
+    "opciones": {
+      "a": "Carlos Fuentes — Aura",
+      "b": "Juan Rulfo — Pedro Páramo",
+      "c": "Mariano Azuela — Los de abajo",
+      "d": "José Emilio Pacheco — Las batallas en el desierto"
+    },
+    "respuesta": "c",
+    "explicacion": "Demetrio Macías protagoniza Los de abajo, novela de Mariano Azuela ligada a la experiencia revolucionaria.",
+    "fuente_conceptual": "https://www.cultura.unam.mx/evento/los-de-abajo",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "lit-045",
+    "categoria": "Literatura",
+    "tema": "Figuras: hipérbaton",
+    "pregunta": "En el verso original «De verdes ramas el rumor escucho», comparado con el orden «Escucho el rumor de verdes ramas», destaca principalmente:",
+    "opciones": {
+      "a": "Hipérbole por exageración de una cantidad",
+      "b": "Hipérbaton por alteración del orden habitual",
+      "c": "Anáfora por repetición al inicio de versos",
+      "d": "Símil por comparación explícita"
+    },
+    "respuesta": "b",
+    "explicacion": "Se antepone «de verdes ramas», complemento de «rumor», y se desplaza el verbo al final. El hipérbaton altera el orden sintáctico, sin requerir repetición ni comparación.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "lit-046",
+    "categoria": "Literatura",
+    "tema": "Figuras: oxímoron",
+    "pregunta": "¿Qué expresión original reúne términos de sentido opuesto en una misma unidad?",
+    "opciones": {
+      "a": "Un cristal brillante",
+      "b": "Una tarde silenciosa",
+      "c": "Una claridad oscura",
+      "d": "Un camino estrecho"
+    },
+    "respuesta": "c",
+    "explicacion": "«Claridad oscura» combina cualidades opuestas y configura un oxímoron; las otras combinaciones no contienen esa contradicción.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "lit-047",
+    "categoria": "Literatura",
+    "tema": "Figuras: aliteración",
+    "pregunta": "Lee el verso original: «Suave silba la seda sobre el suelo». La reiteración de sonidos s destaca como:",
+    "opciones": {
+      "a": "Aliteración",
+      "b": "Hipérbole",
+      "c": "Metonimia",
+      "d": "Antítesis"
+    },
+    "respuesta": "a",
+    "explicacion": "La aliteración repite sonidos para producir un efecto expresivo; aquí se reiteran sibilantes.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "lit-048",
+    "categoria": "Literatura",
+    "tema": "Ironía dramática",
+    "pregunta": "En una escena, el público ve que un mensajero esconde una carta de advertencia. Después, un personaje que lo ignora afirma: «Si hubiera peligro, ya nos lo habrían dicho». ¿Qué sostiene la ironía dramática?",
+    "opciones": {
+      "a": "El público sabe algo decisivo que el personaje desconoce",
+      "b": "El mensajero habla directamente con los espectadores",
+      "c": "La advertencia y la afirmación tienen idéntico significado",
+      "d": "El personaje explica al público todo lo que ha sucedido"
+    },
+    "respuesta": "a",
+    "explicacion": "La desigualdad de información hace que el público perciba el error del personaje; no requiere diálogo directo con él.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/secuencianarrativa/componentesdelrelato",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "lit-049",
+    "categoria": "Literatura",
+    "tema": "Fiabilidad del narrador",
+    "pregunta": "Lee el fragmento original: «Jamás abrí el sobre, lo juro. Por eso no entiendo quién pudo manchar de café la tercera página, justo debajo de la firma». ¿Qué indicio invita a desconfiar del narrador?",
+    "opciones": {
+      "a": "Describe las emociones de todos los personajes",
+      "b": "Sitúa explícitamente los hechos en un siglo remoto",
+      "c": "Utiliza una palabra que designa un objeto cotidiano",
+      "d": "Conoce detalles internos difíciles de explicar con su negación"
+    },
+    "respuesta": "d",
+    "explicacion": "Su conocimiento preciso del interior entra en tensión con negar haber abierto el sobre. Es un indicio de poca fiabilidad, no una prueba absoluta de lo ocurrido.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/secuencianarrativa/componentesdelrelato",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "lit-050",
+    "categoria": "Literatura",
+    "tema": "Verso libre",
+    "pregunta": "Un poema está dividido en versos de extensiones variables, sin esquema métrico ni rima fija, pero organiza su ritmo mediante pausas y paralelismos. ¿Qué forma describe mejor?",
+    "opciones": {
+      "a": "Verso libre",
+      "b": "Soneto clásico",
+      "c": "Décima espinela",
+      "d": "Romance tradicional"
+    },
+    "respuesta": "a",
+    "explicacion": "El verso libre no se somete a un patrón fijo de metro y rima, aunque puede construir ritmo por otros recursos. Las otras formas tienen esquemas convencionales.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/comprensionPoemas/ritmoII",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "fil-041",
+    "categoria": "Filosofía",
+    "tema": "Lógica: silogismo categórico",
+    "pregunta": "«Ningún mamífero es ave. Todos los delfines son mamíferos». ¿Qué conclusión se sigue de ambas premisas?",
+    "opciones": {
+      "a": "Algún delfín es ave",
+      "b": "Ningún mamífero es delfín",
+      "c": "Toda ave es delfín",
+      "d": "Ningún delfín es ave"
+    },
+    "respuesta": "d",
+    "explicacion": "Si el conjunto de delfines está incluido entre los mamíferos y estos excluyen a las aves, los delfines también quedan excluidos de las aves.",
+    "fuente_conceptual": "https://www.cch-oriente.unam.mx/pdf/guias/Filosofia1y2.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "fil-042",
+    "categoria": "Filosofía",
+    "tema": "Lógica: disyunción exclusiva",
+    "pregunta": "Un reglamento exige entregar el trabajo en uno solo de dos formatos: escrito o video. Si p es «entrega escrito» y q «entrega video», ¿qué expresa la regla?",
+    "opciones": {
+      "a": "p ↔ q",
+      "b": "p ∧ q",
+      "c": "(p ∨ q) ∧ ¬(p ∧ q)",
+      "d": "¬p ∧ ¬q"
+    },
+    "respuesta": "c",
+    "explicacion": "Exige al menos uno de los formatos y excluye su concurrencia: disyunción exclusiva.",
+    "fuente_conceptual": "https://www.cch-oriente.unam.mx/pdf/guias/Filosofia1y2.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "fil-043",
+    "categoria": "Filosofía",
+    "tema": "Lógica: condición necesaria",
+    "pregunta": "«Para ser admitido es necesario presentar el documento». ¿Qué situación contradice esta regla?",
+    "opciones": {
+      "a": "Una persona lo presenta y es admitida",
+      "b": "Una persona no lo presenta y no es admitida",
+      "c": "Una persona presenta el documento y no es admitida",
+      "d": "Una persona es admitida sin presentar el documento"
+    },
+    "respuesta": "d",
+    "explicacion": "La necesidad significa admitido→documento. Presentarlo puede no ser suficiente; la contradicción es admisión sin documento.",
+    "fuente_conceptual": "https://www.cch-oriente.unam.mx/pdf/guias/Filosofia1y2.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "fil-044",
+    "categoria": "Filosofía",
+    "tema": "Lógica: tautología",
+    "pregunta": "En lógica proposicional clásica, ¿qué fórmula es verdadera tanto cuando p es verdadera como cuando p es falsa?",
+    "opciones": {
+      "a": "p ∧ ¬p",
+      "b": "p ∨ ¬p",
+      "c": "¬p",
+      "d": "p"
+    },
+    "respuesta": "b",
+    "explicacion": "p ∨ ¬p es una tautología: en cualquiera de los dos valores posibles de p, uno de sus disyuntos es verdadero. p ∧ ¬p es una contradicción.",
+    "fuente_conceptual": "https://www.cch-oriente.unam.mx/pdf/guias/Filosofia1y2.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "fil-045",
+    "categoria": "Filosofía",
+    "tema": "Estética: desinterés kantiano",
+    "pregunta": "Según la idea kantiana de satisfacción desinteresada, ¿qué razón se acerca más a un juicio de gusto?",
+    "opciones": {
+      "a": "Me agrada contemplar la forma, sin querer poseer el objeto",
+      "b": "Me agrada porque satisface inmediatamente mi hambre",
+      "c": "Me agrada porque puedo venderlo con una ganancia",
+      "d": "Me agrada porque mejora mi posición profesional"
+    },
+    "respuesta": "a",
+    "explicacion": "El desinterés estético no es indiferencia: el agrado no depende de poseer el objeto, consumirlo o aprovecharlo.",
+    "fuente_conceptual": "https://www.filosoficas.unam.mx/docs/556/files/kant_-_critica_del_juicio%20%28extractos%29.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "fil-046",
+    "categoria": "Filosofía",
+    "tema": "Estética: categorías y representación",
+    "pregunta": "Una obra representa deformaciones y desproporciones de cuerpos, mezclando comicidad e inquietud para cuestionar una costumbre social. ¿Qué categoría estética describe mejor ese recurso?",
+    "opciones": {
+      "a": "Lo solemne",
+      "b": "Lo sublime",
+      "c": "Lo armónico",
+      "d": "Lo grotesco"
+    },
+    "respuesta": "d",
+    "explicacion": "Lo grotesco puede combinar deformación, extrañeza y comicidad inquietante; no equivale simplemente a falta de valor artístico.",
+    "fuente_conceptual": "https://uapa.bunam.unam.mx/u/humanidades/categorias_esteticas1/",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "fil-047",
+    "categoria": "Filosofía",
+    "tema": "Método socrático",
+    "pregunta": "Un interlocutor define la valentía como «no retirarse nunca». Sócrates le pide considerar una retirada estratégica que salva a otros y lo invita a revisar la definición. ¿Qué procedimiento ejemplifica?",
+    "opciones": {
+      "a": "Repetición de una respuesta para impedir objeciones",
+      "b": "Aceptación de una definición por el prestigio de quien la propone",
+      "c": "Sustitución de las razones por una votación",
+      "d": "Examen dialógico de una definición mediante contraejemplos"
+    },
+    "respuesta": "d",
+    "explicacion": "El diálogo somete la definición a examen; el contraejemplo muestra que podría excluir acciones valientes y motiva su revisión.",
+    "fuente_conceptual": "https://www.cch-oriente.unam.mx/pdf/guias/Filosofia1y2.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "fil-048",
+    "categoria": "Filosofía",
+    "tema": "Aristóteles: causalidad",
+    "pregunta": "Al explicar una copa, se mencionan el bronce, su forma, el artesano que la hizo y el propósito de beber con ella. En la clasificación aristotélica, el propósito corresponde a la causa:",
+    "opciones": {
+      "a": "Final",
+      "b": "Eficiente",
+      "c": "Formal",
+      "d": "Material"
+    },
+    "respuesta": "a",
+    "explicacion": "La causa final es aquello para lo cual se hace algo; el bronce es material, la estructura formal y el artesano eficiente.",
+    "fuente_conceptual": "https://www.filosofia.org/cla/ari/azc10151.htm",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "fil-049",
+    "categoria": "Filosofía",
+    "tema": "Platón: conocimiento e Ideas",
+    "pregunta": "En la teoría platónica de las Ideas, ¿qué diferencia a la Idea de igualdad de dos objetos que parecen iguales?",
+    "opciones": {
+      "a": "La Idea cambia cada vez que cambia la iluminación",
+      "b": "La Idea es un objeto visible mayor que los otros dos",
+      "c": "La Idea equivale a cualquier opinión individual sobre los objetos",
+      "d": "La Idea es inteligible y estable; los objetos sensibles son cambiantes"
+    },
+    "respuesta": "d",
+    "explicacion": "Las Ideas son realidades inteligibles y estables, no meras imágenes visibles o preferencias; los objetos sensibles ofrecen realizaciones imperfectas.",
+    "fuente_conceptual": "https://archivos.juridicas.unam.mx/www/bjv/libros/2/628/7.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "fil-050",
+    "categoria": "Filosofía",
+    "tema": "Filosofía de la ciencia: refutabilidad",
+    "pregunta": "¿Qué afirmación permite una prueba empírica capaz de refutarla?",
+    "opciones": {
+      "a": "Cualquier resultado posible confirma necesariamente mi teoría",
+      "b": "La explicación es cierta aunque ninguna observación pueda afectarla",
+      "c": "Todos los objetos de esta caja son de cobre",
+      "d": "Una fuerza indetectable cambia el mundo sin dejar ninguna señal"
+    },
+    "respuesta": "c",
+    "explicacion": "Examinar los objetos y encontrar uno que no sea de cobre refutaría la afirmación universal. Las otras opciones se protegen explícitamente frente a observaciones adversas.",
+    "fuente_conceptual": "https://www.cch-oriente.unam.mx/pdf/guias/Filosofia1y2.pdf",
+    "origen": "Reactivo original de ampliación 2; fragmentos de lectura originales"
+  },
+  {
+    "id": "MAT089",
+    "categoria": "Matemáticas",
+    "tema": "Proporcionalidad: interpretación de datos",
+    "pregunta": "Una máquina opera con productividad constante. Se registran:\nTiempo (min): 2 | 5 | 8\nPiezas producidas: 12 | 30 | 48\n¿Cuál relación describe los datos, si P es el número de piezas y t el tiempo?",
+    "opciones": {
+      "a": "P = 6t",
+      "b": "P = t + 10",
+      "c": "P = 12t",
+      "d": "P = 6/t"
+    },
+    "respuesta": "a",
+    "explicacion": "El cociente P/t es 6 en las tres observaciones. La producción es directamente proporcional al tiempo, con tasa de 6 piezas/min.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/5-8-modeling-using-variation",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT090",
+    "categoria": "Matemáticas",
+    "tema": "Errores algebraicos",
+    "pregunta": "Un estudiante escribe (x + y)² = x² + y² para todos los números reales. ¿Cuál explicación identifica el error?",
+    "opciones": {
+      "a": "Omitió elevar el exponente a 4",
+      "b": "Omitió el término 2xy del desarrollo",
+      "c": "Debió sustituir x² por 2x",
+      "d": "Debió cambiar la suma por una resta"
+    },
+    "respuesta": "b",
+    "explicacion": "El cuadrado de una suma es x² + 2xy + y². La igualdad propuesta solo coincide en casos particulares, no como identidad.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/1-4-polynomials",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT091",
+    "categoria": "Matemáticas",
+    "tema": "Ecuaciones: proporción y unidad",
+    "pregunta": "Se quiere preparar 10 L de una mezcla al 30 % usando soluciones al 20 % y al 45 %. Todos los porcentajes son por volumen (% v/v) y los volúmenes son aditivos. ¿Cuántos litros de la solución al 45 % se necesitan?",
+    "opciones": {
+      "a": "6 L",
+      "b": "7 L",
+      "c": "4 L",
+      "d": "3 L"
+    },
+    "respuesta": "c",
+    "explicacion": "Si x litros son al 45 %, el balance es 0.45x + 0.20(10 − x) = 3. Así, 0.25x = 1 y x = 4.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/2-3-models-and-applications",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT092",
+    "categoria": "Matemáticas",
+    "tema": "Sistemas: consistencia",
+    "pregunta": "Un sistema tiene ecuaciones 2x − 3y = 6 y 4x − 6y = 15. ¿Qué puede concluirse sin resolver por sustitución?",
+    "opciones": {
+      "a": "Tiene infinitas soluciones: los coeficientes son proporcionales",
+      "b": "Tiene una solución: ambas ecuaciones son lineales",
+      "c": "Tiene como única solución el origen",
+      "d": "No tiene solución: exige dos valores distintos para la misma expresión"
+    },
+    "respuesta": "d",
+    "explicacion": "Al duplicar la primera se obtiene 4x − 6y = 12, incompatible con 15. Las rectas son paralelas distintas.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/7-1-systems-of-linear-equations-two-variables",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT093",
+    "categoria": "Matemáticas",
+    "tema": "Funciones: lectura de tabla",
+    "pregunta": "Se sabe que f es de la forma f(x) = mx + b y que cumple:\nx: −1 | 1 | 3\nf(x): 7 | 3 | −1\n¿Cuál es el cero de f?",
+    "opciones": {
+      "a": "x = 5/2",
+      "b": "x = 5",
+      "c": "x = −5/2",
+      "d": "x = 2"
+    },
+    "respuesta": "a",
+    "explicacion": "La pendiente es −2 y f(x) = −2x + 5. Al imponer f(x) = 0 se obtiene x = 5/2.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/4-1-linear-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT094",
+    "categoria": "Matemáticas",
+    "tema": "Funciones: inyectividad",
+    "pregunta": "La función f(x) = x² se restringe al dominio x ≤ 0 para que tenga inversa. ¿Cuál es f⁻¹(x)?",
+    "opciones": {
+      "a": "1/x², con x ≠ 0",
+      "b": "−√x, con x ≥ 0",
+      "c": "√x, con x ≥ 0",
+      "d": "−√x, con x ≤ 0"
+    },
+    "respuesta": "b",
+    "explicacion": "Las salidas de la función original son no negativas y las entradas son no positivas. Por ello la inversa debe elegir la raíz negativa.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/5-7-inverses-and-radical-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT095",
+    "categoria": "Matemáticas",
+    "tema": "Funciones: composición y dominio",
+    "pregunta": "Sean f(x) = √x y g(x) = 2 − x. ¿Cuál es el dominio real de f(g(x))?",
+    "opciones": {
+      "a": "x ≥ 2",
+      "b": "Todos los números reales",
+      "c": "x ≤ 2",
+      "d": "x ≥ 0"
+    },
+    "respuesta": "c",
+    "explicacion": "La composición es √(2 − x). Su radicando exige 2 − x ≥ 0, es decir, x ≤ 2.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/3-4-composition-of-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT096",
+    "categoria": "Matemáticas",
+    "tema": "Funciones racionales: asíntotas",
+    "pregunta": "Para f(x) = (2x + 1)/(x − 3), ¿qué par identifica sus asíntotas vertical y horizontal?",
+    "opciones": {
+      "a": "x = −3; y = 2",
+      "b": "x = 3; y = 1/2",
+      "c": "x = −1/2; y = 3",
+      "d": "x = 3; y = 2"
+    },
+    "respuesta": "d",
+    "explicacion": "El denominador se anula en 3 sin cancelación. Como los grados son iguales, la asíntota horizontal es el cociente de coeficientes principales, 2.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/5-6-rational-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT097",
+    "categoria": "Matemáticas",
+    "tema": "Funciones cuadráticas: modelación",
+    "pregunta": "El ingreso de una venta se modela por I(x) = −x² + 20x, para 0 ≤ x ≤ 20. ¿En qué cantidad x se alcanza el ingreso máximo?",
+    "opciones": {
+      "a": "10",
+      "b": "20",
+      "c": "5",
+      "d": "0"
+    },
+    "respuesta": "a",
+    "explicacion": "Al completar el cuadrado, I(x) = 100 − (x − 10)². El máximo se alcanza en x = 10, dentro del intervalo permitido.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/5-1-quadratic-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT098",
+    "categoria": "Matemáticas",
+    "tema": "Desigualdades: comparación de planes",
+    "pregunta": "El plan A cuesta $80 fijos más $4 por uso; el B cuesta $20 más $7 por uso. ¿Desde qué número entero de usos el plan A resulta estrictamente más barato?",
+    "opciones": {
+      "a": "15",
+      "b": "21",
+      "c": "20",
+      "d": "19"
+    },
+    "respuesta": "b",
+    "explicacion": "80 + 4n < 20 + 7n implica n > 20. El primer entero permitido es 21; con 20 cuestan igual.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT099",
+    "categoria": "Matemáticas",
+    "tema": "Polinomios: multiplicidad",
+    "pregunta": "La gráfica de P(x) = (x − 1)²(x + 2) toca el eje x sin cambiar de signo alrededor de una raíz. ¿Cuál es esa raíz y por qué?",
+    "opciones": {
+      "a": "x = 1, porque es la raíz de menor valor",
+      "b": "x = −2, porque el polinomio es de grado tres",
+      "c": "x = 1, porque tiene multiplicidad par",
+      "d": "x = −2, porque tiene multiplicidad impar"
+    },
+    "respuesta": "c",
+    "explicacion": "El factor (x − 1) aparece al cuadrado. Cerca de 1 su signo no cambia; en −2 el factor lineal sí cambia de signo.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/5-3-graphs-of-polynomial-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT100",
+    "categoria": "Matemáticas",
+    "tema": "Ecuaciones cuadráticas: raíces no reales",
+    "pregunta": "¿Qué afirmación describe las soluciones de x² + 2x + 5 = 0?",
+    "opciones": {
+      "a": "Son −1 + 4i y −1 − 4i",
+      "b": "Son 1 + 2i y 1 − 2i",
+      "c": "Son −1 + √6 y −1 − √6",
+      "d": "Son −1 + 2i y −1 − 2i"
+    },
+    "respuesta": "d",
+    "explicacion": "Completar el cuadrado da (x + 1)² = −4, por lo que x + 1 = ±2i.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/2-5-quadratic-equations",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT101",
+    "categoria": "Matemáticas",
+    "tema": "Exponenciales: reconocimiento de modelo",
+    "pregunta": "Una cantidad se registra así:\nt: 0 | 1 | 2 | 3\nQ(t): 80 | 40 | 20 | 10\nSi sigue el mismo patrón multiplicativo, ¿qué modelo corresponde?",
+    "opciones": {
+      "a": "Q(t) = 80(1/2)ᵗ",
+      "b": "Q(t) = 80 − 40t",
+      "c": "Q(t) = 40(1/2)ᵗ",
+      "d": "Q(t) = 80·2ᵗ"
+    },
+    "respuesta": "a",
+    "explicacion": "El valor inicial es 80 y cada unidad de tiempo se multiplica por 1/2. Esto es decaimiento exponencial, no disminución constante.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/6-1-exponential-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT102",
+    "categoria": "Matemáticas",
+    "tema": "Logaritmos: propiedades",
+    "pregunta": "Para x > 0 e y > 0, ¿qué expresión equivale a log₁₀(x²/√y)?",
+    "opciones": {
+      "a": "2 log₁₀ x + (1/2) log₁₀ y",
+      "b": "2 log₁₀ x − (1/2) log₁₀ y",
+      "c": "2 log₁₀ x − 2 log₁₀ y",
+      "d": "(log₁₀ x)²/(log₁₀ y)¹ᐟ²"
+    },
+    "respuesta": "b",
+    "explicacion": "El logaritmo de un cociente se resta y los exponentes pasan como factores: log(x²) − log(y¹ᐟ²).",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/6-5-logarithmic-properties",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT103",
+    "categoria": "Matemáticas",
+    "tema": "Rectas: interpretación geométrica",
+    "pregunta": "Una recta vertical pasa por (−4, 7). ¿Cuál ecuación la representa?",
+    "opciones": {
+      "a": "y = −4x + 7",
+      "b": "x = 7",
+      "c": "x = −4",
+      "d": "y = 7"
+    },
+    "respuesta": "c",
+    "explicacion": "En una recta vertical todos los puntos comparten la coordenada x; la coordenada y puede variar.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/4-1-linear-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT104",
+    "categoria": "Matemáticas",
+    "tema": "Circunferencia: posición de una recta",
+    "pregunta": "La circunferencia tiene centro (0, 0) y radio 5. ¿Cómo se relaciona con la recta 3x + 4y = 30?",
+    "opciones": {
+      "a": "La recta es tangente",
+      "b": "Se intersecan en dos puntos",
+      "c": "La recta pasa por el centro",
+      "d": "No se intersecan"
+    },
+    "respuesta": "d",
+    "explicacion": "La distancia del centro a la recta es 30/√(3² + 4²) = 6, mayor que el radio 5.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/8-1-the-ellipse",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT105",
+    "categoria": "Matemáticas",
+    "tema": "Parábola: apertura",
+    "pregunta": "Un reflector se modela por y = −(x − 2)² + 6. ¿Cuál afirmación describe su gráfica?",
+    "opciones": {
+      "a": "Abre hacia abajo y tiene eje de simetría x = 2",
+      "b": "Abre hacia arriba y tiene eje de simetría x = 2",
+      "c": "Abre hacia abajo y tiene eje de simetría y = 6",
+      "d": "Abre hacia la izquierda y tiene eje de simetría y = 2"
+    },
+    "respuesta": "a",
+    "explicacion": "El coeficiente del cuadrado es negativo: abre hacia abajo. Su vértice es (2, 6) y la simetría ocurre respecto de x = 2.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/8-3-the-parabola",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT106",
+    "categoria": "Matemáticas",
+    "tema": "Elipse: excentricidad",
+    "pregunta": "Dos elipses tienen igual semieje mayor a = 5. La primera tiene distancia del centro al foco c = 1 y la segunda c = 4. ¿Cuál es más próxima a una circunferencia?",
+    "opciones": {
+      "a": "Ninguna, porque toda elipse tiene excentricidad 1",
+      "b": "La primera, porque su excentricidad es menor",
+      "c": "La segunda, porque sus focos están más separados",
+      "d": "Ambas, porque tienen igual semieje mayor"
+    },
+    "respuesta": "b",
+    "explicacion": "La excentricidad e = c/a es 0.2 y 0.8, respectivamente. Cuanto más próxima a cero, más cercana a una circunferencia.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/8-1-the-ellipse",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT107",
+    "categoria": "Matemáticas",
+    "tema": "Hipérbola: asíntotas y forma",
+    "pregunta": "Una hipérbola centrada en el origen tiene eje transverso vertical y asíntotas y = ±2x. ¿Cuál ecuación es compatible?",
+    "opciones": {
+      "a": "y²/4 − x²/16 = 1",
+      "b": "x²/4 + y²/16 = 1",
+      "c": "y²/16 − x²/4 = 1",
+      "d": "x²/16 − y²/4 = 1"
+    },
+    "respuesta": "c",
+    "explicacion": "En y²/a² − x²/b² = 1, las asíntotas son y = ±(a/b)x. Con a = 4 y b = 2 se obtiene ±2x.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/8-2-the-hyperbola",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT108",
+    "categoria": "Matemáticas",
+    "tema": "Cónicas: caso degenerado",
+    "pregunta": "¿Qué conjunto de puntos reales satisface x² + y² − 4x + 6y + 13 = 0?",
+    "opciones": {
+      "a": "Una circunferencia de radio 13",
+      "b": "Una elipse con dos focos distintos",
+      "c": "Ningún punto real",
+      "d": "Solo el punto (2, −3)"
+    },
+    "respuesta": "d",
+    "explicacion": "Se transforma en (x − 2)² + (y + 3)² = 0. Ambos cuadrados deben ser cero simultáneamente.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/8-1-the-ellipse",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT109",
+    "categoria": "Matemáticas",
+    "tema": "Sistemas no lineales",
+    "pregunta": "¿Cuántos pares reales (x, y) satisfacen simultáneamente y = x² e y = x + 2?",
+    "opciones": {
+      "a": "Dos",
+      "b": "Uno",
+      "c": "Ninguno",
+      "d": "Infinitos"
+    },
+    "respuesta": "a",
+    "explicacion": "Las intersecciones cumplen x² − x − 2 = 0, con x = 2 y x = −1. Cada valor determina un par distinto.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/7-3-systems-of-nonlinear-equations-and-inequalities-two-variables",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "MAT110",
+    "categoria": "Matemáticas",
+    "tema": "Funciones: diferencia de cuadrados",
+    "pregunta": "Para f(x) = x², un estudiante calcula f(x + h) − f(x), con h ≠ 0. ¿Qué expresión obtiene al dividir ese resultado entre h?",
+    "opciones": {
+      "a": "x + h",
+      "b": "2x + h",
+      "c": "2x",
+      "d": "h"
+    },
+    "respuesta": "b",
+    "explicacion": "(x + h)² − x² = 2xh + h². Al dividir entre h queda 2x + h; no se está tomando ningún límite.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/3-3-rates-of-change-and-behavior-of-graphs",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "FIS041",
+    "categoria": "Física",
+    "tema": "Cinemática: datos posición-tiempo",
+    "pregunta": "Se registra un móvil en línea recta:\nt (s): 0 | 1 | 2 | 3\nx (m): 0 | 2 | 8 | 18\n¿Qué modelo reproduce estos datos?",
+    "opciones": {
+      "a": "Parte del reposo con aceleración constante de 4 m/s²",
+      "b": "Viaja con velocidad constante de 6 m/s",
+      "c": "Parte del reposo con aceleración constante de 2 m/s²",
+      "d": "Viaja con velocidad constante de 2 m/s"
+    },
+    "respuesta": "a",
+    "explicacion": "Los datos siguen x = 2t². Comparar con x = v₀t + at²/2 da v₀ = 0 y a = 4 m/s².",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "FIS042",
+    "categoria": "Física",
+    "tema": "Dinámica: experimento fuerza-aceleración",
+    "pregunta": "Un carrito mantiene masa constante. Se miden:\nFuerza neta (N): 2 | 4 | 6\nAceleración (m/s²): 0.5 | 1.0 | 1.5\n¿Cuál es su masa?",
+    "opciones": {
+      "a": "8 kg",
+      "b": "4 kg",
+      "c": "0.25 kg",
+      "d": "2 kg"
+    },
+    "respuesta": "b",
+    "explicacion": "Por F = ma, m = F/a. En las tres mediciones se obtiene 4 kg; no debe invertirse el cociente.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "FIS043",
+    "categoria": "Física",
+    "tema": "Trabajo: fuerza perpendicular",
+    "pregunta": "Una persona sostiene una maleta a altura constante mientras camina horizontalmente 5 m. La fuerza que su mano ejerce sobre ella es vertical. ¿Qué trabajo realiza esa fuerza sobre la maleta durante ese desplazamiento horizontal?",
+    "opciones": {
+      "a": "Igual a la energía potencial de la maleta",
+      "b": "Negativo e igual al peso multiplicado por 5 m",
+      "c": "Cero",
+      "d": "Igual al peso multiplicado por 5 m"
+    },
+    "respuesta": "c",
+    "explicacion": "Trabajo es Fd cos θ. La fuerza vertical es perpendicular al desplazamiento, así cos 90° = 0. Esto no implica ausencia de esfuerzo fisiológico.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "FIS044",
+    "categoria": "Física",
+    "tema": "Equilibrio: momentos de fuerza",
+    "pregunta": "Una barra horizontal de peso despreciable está apoyada en un pivote. Una fuerza de 30 N actúa hacia abajo a 2 m a la izquierda. ¿Qué fuerza hacia abajo, aplicada a 3 m a la derecha, la equilibra?",
+    "opciones": {
+      "a": "45 N",
+      "b": "30 N",
+      "c": "60 N",
+      "d": "20 N"
+    },
+    "respuesta": "d",
+    "explicacion": "Los momentos opuestos deben igualarse: 30 × 2 = F × 3. La fuerza requerida es 20 N.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "FIS045",
+    "categoria": "Física",
+    "tema": "Termodinámica: interpretación de datos",
+    "pregunta": "Dos bloques reciben 600 J cada uno, sin pérdidas ni cambios de fase:\nBloque A: masa 0.10 kg, aumento 20 °C\nBloque B: masa 0.10 kg, aumento 10 °C\n¿Qué relación existe entre sus calores específicos?",
+    "opciones": {
+      "a": "cB = 2cA",
+      "b": "cA = 2cB",
+      "c": "cA = cB",
+      "d": "cB = 4cA"
+    },
+    "respuesta": "a",
+    "explicacion": "De c = Q/(mΔT), el bloque que aumenta la mitad de temperatura tiene el doble de calor específico: 600 frente a 300 J/(kg·°C).",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/14-2-temperature-change-and-heat-capacity",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "FIS046",
+    "categoria": "Física",
+    "tema": "Ondas: interferencia",
+    "pregunta": "Dos pulsos en una cuerda se superponen. En un punto, sus desplazamientos son +3 cm y −2 cm. Según el principio de superposición, ¿cuál es el desplazamiento resultante instantáneo?",
+    "opciones": {
+      "a": "−1 cm",
+      "b": "+1 cm",
+      "c": "+5 cm",
+      "d": "−5 cm"
+    },
+    "respuesta": "b",
+    "explicacion": "Los desplazamientos con signo se suman: 3 + (−2) = 1 cm. No se suman sus magnitudes.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/16-10-superposition-and-interference",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "FIS047",
+    "categoria": "Física",
+    "tema": "Electricidad: medición experimental",
+    "pregunta": "Un componente se mide a temperatura constante:\nVoltaje (V): 2 | 4 | 6\nCorriente (A): 0.10 | 0.20 | 0.30\n¿Qué conclusión apoyan estos datos?",
+    "opciones": {
+      "a": "Su resistencia se duplica al duplicar el voltaje",
+      "b": "Su resistencia disminuye al aumentar la corriente",
+      "c": "Es óhmico en el intervalo medido, con R = 20 Ω",
+      "d": "Es óhmico en el intervalo medido, con R = 0.05 Ω"
+    },
+    "respuesta": "c",
+    "explicacion": "El cociente V/I permanece en 20 Ω. La proporcionalidad apoya comportamiento óhmico en ese intervalo, no necesariamente en cualquier condición.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "FIS048",
+    "categoria": "Física",
+    "tema": "Fluidos: principio de Pascal",
+    "pregunta": "Una prensa hidráulica ideal tiene pistones de áreas A y 5A. Se aplica una fuerza F al pistón pequeño. ¿Qué fuerza puede equilibrar el pistón grande al mismo nivel?",
+    "opciones": {
+      "a": "F/5",
+      "b": "F",
+      "c": "25F",
+      "d": "5F"
+    },
+    "respuesta": "d",
+    "explicacion": "La presión transmitida es la misma: F/A = Fgrande/(5A), por lo que Fgrande = 5F.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/11-5-pascals-principle",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "FIS049",
+    "categoria": "Física",
+    "tema": "Magnetismo: fuerza sobre carga",
+    "pregunta": "Una partícula cargada se mueve exactamente paralela a un campo magnético uniforme, sin campo eléctrico. ¿Cómo es la fuerza magnética sobre ella?",
+    "opciones": {
+      "a": "Nula",
+      "b": "Paralela al campo y distinta de cero",
+      "c": "Opuesta a la velocidad y distinta de cero",
+      "d": "Perpendicular al campo y de magnitud máxima"
+    },
+    "respuesta": "a",
+    "explicacion": "La magnitud es |q|vB sen θ. Para movimiento paralelo θ = 0 y la fuerza es nula.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/22-4-magnetic-field-strength-force-on-a-moving-charge-in-a-magnetic-field",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "FIS050",
+    "categoria": "Física",
+    "tema": "Física contemporánea: radiación nuclear",
+    "pregunta": "Un núcleo emite una partícula alfa, formada por dos protones y dos neutrones. ¿Qué cambios ocurren en sus números atómico Z y de masa A?",
+    "opciones": {
+      "a": "Z no cambia y A disminuye 4",
+      "b": "Z disminuye 2 y A disminuye 4",
+      "c": "Z disminuye 4 y A disminuye 2",
+      "d": "Z aumenta 2 y A no cambia"
+    },
+    "respuesta": "b",
+    "explicacion": "La emisión elimina dos protones y dos neutrones: reduce en 2 el número atómico y en 4 el total de nucleones.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/31-4-nuclear-decay-and-conservation-laws",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "QUI041",
+    "categoria": "Química",
+    "tema": "Materia: evidencia experimental",
+    "pregunta": "Se mide una muestra de sustancia pura mientras se calienta a presión constante:\nTiempo (min): 0 | 1 | 2 | 3 | 4\nTemperatura (°C): 10 | 20 | 20 | 20 | 30\nDurante la meseta coexisten sólido y líquido. ¿Qué ocurre entre los minutos 1 y 3?",
+    "opciones": {
+      "a": "La energía favorece la fusión sin aumentar la temperatura",
+      "b": "La muestra deja de absorber energía por completo",
+      "c": "La energía aumenta continuamente la temperatura del sólido",
+      "d": "La muestra libera calor al pasar de sólido a líquido"
+    },
+    "respuesta": "a",
+    "explicacion": "Durante la fusión, la energía absorbida se emplea en el cambio de fase; la temperatura permanece constante mientras coexisten ambas fases en equilibrio.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "QUI042",
+    "categoria": "Química",
+    "tema": "Estructura atómica: masa isotópica",
+    "pregunta": "Un elemento hipotético tiene dos isótopos:\nMasa isotópica: 10 u | 11 u\nAbundancia: 20 % | 80 %\n¿Cuál es su masa atómica promedio?",
+    "opciones": {
+      "a": "21 u",
+      "b": "10.8 u",
+      "c": "10.5 u",
+      "d": "10.2 u"
+    },
+    "respuesta": "b",
+    "explicacion": "Se calcula la media ponderada: 10(0.20) + 11(0.80) = 10.8 u, no el promedio sin ponderación.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "QUI043",
+    "categoria": "Química",
+    "tema": "Enlaces: propiedades macroscópicas",
+    "pregunta": "Un sólido es frágil, presenta alto punto de fusión y no conduce electricidad como sólido, pero sí al fundirse. ¿Qué modelo de enlace explica mejor ese conjunto?",
+    "opciones": {
+      "a": "Moléculas apolares unidas por fuerzas débiles",
+      "b": "Moléculas discretas sin partículas cargadas",
+      "c": "Red iónica con iones móviles al fundirse",
+      "d": "Red metálica con electrones inmóviles en sólido"
+    },
+    "respuesta": "c",
+    "explicacion": "En una red iónica los iones están sujetos en el sólido. Al fundirse pueden transportar carga; la atracción electrostática también explica su alta temperatura de fusión.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "QUI044",
+    "categoria": "Química",
+    "tema": "Reacciones: conservación de masa",
+    "pregunta": "En un recipiente hermético se mezclan reactivos y se forma un gas. La masa total antes de reaccionar es 125 g. Si no se abre ni se pierde materia, ¿cuál será la masa total final?",
+    "opciones": {
+      "a": "Menor de 125 g por formarse gas",
+      "b": "Mayor de 125 g por formarse gas",
+      "c": "No puede saberse sin conocer el volumen del gas",
+      "d": "125 g"
+    },
+    "respuesta": "d",
+    "explicacion": "La formación de gas no elimina materia del recipiente cerrado. La masa total se conserva en la reacción química.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/2-1-early-ideas-in-atomic-theory",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "QUI045",
+    "categoria": "Química",
+    "tema": "Disoluciones: electrólitos",
+    "pregunta": "A igual concentración y temperatura, una solución acuosa de NaCl conduce corriente, mientras que una de sacarosa prácticamente no lo hace. ¿Cuál explicación es adecuada?",
+    "opciones": {
+      "a": "NaCl genera iones móviles; la sacarosa permanece como moléculas",
+      "b": "NaCl libera electrones metálicos; la sacarosa forma una red iónica",
+      "c": "Ambos generan igual número de iones, pero los de sacarosa pesan más",
+      "d": "La sacarosa impide que el agua tenga movimiento molecular"
+    },
+    "respuesta": "a",
+    "explicacion": "El NaCl se disocia en iones en agua. La sacarosa se disuelve molecularmente y no aporta una concentración comparable de portadores de carga.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "QUI046",
+    "categoria": "Química",
+    "tema": "Cinética: control experimental",
+    "pregunta": "Se compara la reacción de un mismo sólido con un ácido:\nEnsayo A: 2 g en un trozo; 25 °C\nEnsayo B: 2 g pulverizados; 25 °C\nEl ácido tiene igual volumen y concentración en ambos. B reacciona más rápido. ¿Qué variable explica la diferencia?",
+    "opciones": {
+      "a": "Cambio de composición química del sólido en B",
+      "b": "Mayor superficie de contacto en B",
+      "c": "Mayor cantidad de sólido en B",
+      "d": "Mayor temperatura en B"
+    },
+    "respuesta": "b",
+    "explicacion": "Pulverizar aumenta el área expuesta al ácido sin cambiar la masa ni la identidad química del sólido. Así se favorece el contacto entre reactivos.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/12-2-factors-affecting-reaction-rates",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "QUI047",
+    "categoria": "Química",
+    "tema": "Equilibrio: catalizadores",
+    "pregunta": "Una mezcla ya está en equilibrio químico a temperatura constante. Se añade un catalizador adecuado. ¿Qué efecto tiene sobre la composición de equilibrio?",
+    "opciones": {
+      "a": "Aumenta siempre la proporción de reactivos",
+      "b": "Detiene la reacción inversa al reducir su energía de activación",
+      "c": "No la cambia; facilita las reacciones directa e inversa",
+      "d": "Aumenta siempre la proporción de productos"
+    },
+    "respuesta": "c",
+    "explicacion": "El catalizador modifica las velocidades de ambos sentidos, no la constante de equilibrio a esa temperatura. No desplaza por sí solo la composición de equilibrio.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "QUI048",
+    "categoria": "Química",
+    "tema": "Redox: agente oxidante",
+    "pregunta": "En Zn + Cu²⁺ → Zn²⁺ + Cu, ¿cuál especie actúa como agente oxidante?",
+    "opciones": {
+      "a": "Zn",
+      "b": "Zn²⁺",
+      "c": "Cu",
+      "d": "Cu²⁺"
+    },
+    "respuesta": "d",
+    "explicacion": "Cu²⁺ acepta dos electrones y se reduce. La especie que se reduce es el agente oxidante; Zn es el reductor.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "QUI049",
+    "categoria": "Química",
+    "tema": "Ácidos y bases: indicadores",
+    "pregunta": "Un indicador es rojo por debajo de pH 4.4, amarillo por encima de pH 6.2 e intermedio entre ambos. Una solución da color amarillo. ¿Qué conclusión permite por sí solo ese dato?",
+    "opciones": {
+      "a": "Su pH es mayor que 6.2, pero puede ser ligeramente ácida",
+      "b": "Su pH es necesariamente mayor que 7",
+      "c": "Su pH es exactamente 6.2",
+      "d": "Su pH es menor que 4.4"
+    },
+    "respuesta": "a",
+    "explicacion": "Amarillo solo sitúa el pH por encima de 6.2. Por ejemplo, pH 6.5 aún sería ácido a 25 °C; no permite afirmar que sea básico.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "QUI050",
+    "categoria": "Química",
+    "tema": "Química orgánica: adición y evidencia",
+    "pregunta": "En condiciones controladas, una muestra de eteno reacciona con Br₂ formando un producto de adición sobre su doble enlace. ¿Qué cambio estructural corresponde?",
+    "opciones": {
+      "a": "Se sustituye el doble enlace por un enlace C–O–C",
+      "b": "Se rompe el enlace π y se forma un enlace C–Br en cada carbono",
+      "c": "Se rompe la cadena y cada carbono forma CO₂",
+      "d": "Se elimina H₂ y se forma un triple enlace"
+    },
+    "respuesta": "b",
+    "explicacion": "La adición de Br₂ consume el enlace π del alqueno y produce un dibromuro vecinal; el enlace σ entre carbonos permanece.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO041",
+    "categoria": "Biología",
+    "tema": "Método experimental: controles",
+    "pregunta": "Se cultivan plantas de la misma especie para probar el efecto de un fertilizante. ¿Qué diseño permite atribuir mejor una diferencia de crecimiento al fertilizante?",
+    "opciones": {
+      "a": "Grupos con y sin fertilizante, iguales en luz, agua, suelo y edad inicial",
+      "b": "Un grupo fertilizado al sol y otro sin fertilizante a la sombra",
+      "c": "Un grupo fertilizado con más agua y otro sin fertilizante con menos agua",
+      "d": "Comparar plantas adultas fertilizadas con plántulas sin fertilizar"
+    },
+    "respuesta": "a",
+    "explicacion": "El control debe diferir principalmente en la variable estudiada. Cambiar a la vez luz, agua o edad impediría aislar el efecto del fertilizante.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO042",
+    "categoria": "Biología",
+    "tema": "Enzimas: temperatura y datos",
+    "pregunta": "Una enzima se ensaya con igual concentración de sustrato:\nTemperatura (°C): 10 | 30 | 50 | 70\nActividad relativa: 20 | 80 | 100 | 5\n¿Qué conclusión está directamente sustentada?",
+    "opciones": {
+      "a": "Toda enzima tiene su actividad máxima a 50 °C",
+      "b": "De las temperaturas probadas, 50 °C produjo la mayor actividad",
+      "c": "La actividad aumenta de forma continua con la temperatura",
+      "d": "La enzima funciona exclusivamente a 50 °C"
+    },
+    "respuesta": "b",
+    "explicacion": "El mayor valor medido es 100 a 50 °C. Esto no prueba un óptimo exacto ni permite generalizar a todas las enzimas.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO043",
+    "categoria": "Biología",
+    "tema": "Membrana: transporte activo",
+    "pregunta": "Una célula acumula un ion contra su gradiente electroquímico. Al bloquear la producción de ATP, esa acumulación disminuye. ¿Qué proceso es compatible con los datos?",
+    "opciones": {
+      "a": "Ósmosis del ion a través de la membrana",
+      "b": "Difusión facilitada a favor de su gradiente",
+      "c": "Transporte activo dependiente de energía",
+      "d": "Difusión simple del ion por la bicapa"
+    },
+    "respuesta": "c",
+    "explicacion": "Mover un ion contra su gradiente requiere energía directa o indirectamente. La difusión pasiva no explica esa acumulación; la ósmosis corresponde al agua.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO044",
+    "categoria": "Biología",
+    "tema": "Respiración y fermentación",
+    "pregunta": "Levaduras consumen glucosa sin oxígeno y producen etanol y CO₂. ¿Cuál función cumple la formación de etanol en la fermentación alcohólica?",
+    "opciones": {
+      "a": "Transferir electrones al oxígeno como aceptor final",
+      "b": "Regenerar NADH mediante reducción de NAD⁺",
+      "c": "Convertir el piruvato en lactato como producto final",
+      "d": "Regenerar NAD⁺ para que continúe la glucólisis"
+    },
+    "respuesta": "d",
+    "explicacion": "La reducción del acetaldehído a etanol oxida NADH a NAD⁺. Este puede reutilizarse en la glucólisis, que aporta ATP sin requerir oxígeno.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO045",
+    "categoria": "Biología",
+    "tema": "Herencia: dominancia incompleta",
+    "pregunta": "En una planta, RR produce flores rojas, rr blancas y Rr rosas. Al cruzar dos plantas rosas, ¿qué proporción de descendientes se espera con flores rosas?",
+    "opciones": {
+      "a": "1/2",
+      "b": "1/4",
+      "c": "3/4",
+      "d": "Todos"
+    },
+    "respuesta": "a",
+    "explicacion": "Rr × Rr produce 1/4 RR, 1/2 Rr y 1/4 rr. El fenotipo intermedio corresponde solo a Rr.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO046",
+    "categoria": "Biología",
+    "tema": "Genética: codominancia ABO",
+    "pregunta": "Una persona tiene genotipo Iᴬi y otra Iᴮi en el sistema ABO. ¿Qué grupos sanguíneos pueden presentar sus hijos, según este modelo?",
+    "opciones": {
+      "a": "Solo A, B y AB",
+      "b": "A, B, AB y O",
+      "c": "Solo A y B",
+      "d": "Solo AB y O"
+    },
+    "respuesta": "b",
+    "explicacion": "Los cruces posibles son IᴬIᴮ, Iᴬi, Iᴮi e ii. Corresponden a AB, A, B y O, respectivamente.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO047",
+    "categoria": "Biología",
+    "tema": "Genética: replicación semiconservadora",
+    "pregunta": "Después de una ronda de replicación de una molécula de ADN, cada molécula hija contiene:",
+    "opciones": {
+      "a": "Dos cadenas nuevas sin cadenas originales",
+      "b": "Fragmentos alternados de ADN y ARN en ambas cadenas",
+      "c": "Una cadena original y una cadena recién sintetizada",
+      "d": "Dos cadenas originales conservadas juntas"
+    },
+    "respuesta": "c",
+    "explicacion": "La replicación semiconservadora conserva una cadena parental como molde y sintetiza su complementaria en cada molécula hija.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/14-3-basics-of-dna-replication",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO048",
+    "categoria": "Biología",
+    "tema": "Evolución: aislamiento reproductivo",
+    "pregunta": "Dos poblaciones de ranas viven en la misma zona, pero una se reproduce en primavera y otra en otoño. Esa diferencia reduce los cruzamientos entre ellas. ¿Qué barrera representa?",
+    "opciones": {
+      "a": "Aislamiento geográfico por barrera física",
+      "b": "Inviabilidad postzigótica de los híbridos",
+      "c": "Esterilidad postzigótica de los híbridos",
+      "d": "Aislamiento temporal prezigótico"
+    },
+    "respuesta": "d",
+    "explicacion": "La diferencia de época reproductiva actúa antes de formar un cigoto y sin requerir separación espacial. Es una barrera temporal prezigótica.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/18-2-formation-of-new-species",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO049",
+    "categoria": "Biología",
+    "tema": "Ecología: interpretación de experimento",
+    "pregunta": "En parcelas comparables, una especie vegetal produce 20 semillas por individuo cuando crece sola y 8 cuando comparte espacio con otra especie. Si los recursos son limitados y no hay herbivoría, ¿qué interacción es más compatible con la reducción?",
+    "opciones": {
+      "a": "Competencia interespecífica",
+      "b": "Mutualismo obligatorio",
+      "c": "Comensalismo sin efecto sobre la planta",
+      "d": "Parasitismo demostrado por esos datos"
+    },
+    "respuesta": "a",
+    "explicacion": "La coexistencia puede reducir recursos disponibles y reproducción mediante competencia. Los datos no demuestran que la otra especie parasite a la primera.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO050",
+    "categoria": "Biología",
+    "tema": "Ecología: ciclo del nitrógeno",
+    "pregunta": "En raíces de ciertas leguminosas viven bacterias que convierten N₂ atmosférico en compuestos nitrogenados aprovechables. ¿Qué proceso realizan?",
+    "opciones": {
+      "a": "Evaporación de nitratos del suelo",
+      "b": "Fijación biológica del nitrógeno",
+      "c": "Desnitrificación hacia la atmósfera",
+      "d": "Fotosíntesis de compuestos carbonados"
+    },
+    "respuesta": "b",
+    "explicacion": "La fijación reduce el nitrógeno molecular a formas como amoníaco, incorporables a materia orgánica. La desnitrificación devuelve nitrógeno gaseoso al ambiente.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion2",
+      "revision": "Revisión conceptual y numérica; pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "hu-041",
+    "categoria": "Historia Universal",
+    "tema": "Movimiento obrero y democratización",
+    "pregunta": "Los cartistas británicos reclamaron voto secreto, ampliación del sufragio masculino y remuneración para los parlamentarios. ¿Qué relación explica mejor estas demandas?",
+    "opciones": {
+      "a": "Buscaban ampliar la participación política para impulsar reformas sociales",
+      "b": "Proponían reemplazar el Parlamento por un monarca hereditario",
+      "c": "Pretendían reservar los cargos públicos a propietarios de grandes fortunas",
+      "d": "Buscaban resolver el conflicto obrero exclusivamente destruyendo máquinas"
+    },
+    "respuesta": "a",
+    "explicacion": "El cartismo vinculaba la representación política con la posibilidad de mejorar las condiciones de los trabajadores. Sus demandas electorales lo distinguen de la protesta ludita contra la maquinaria.",
+    "fuente_conceptual": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/chartists/case-study/the-right-to-vote/the-chartists-and-birmingham/the-chartists/",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hu-042",
+    "categoria": "Historia Universal",
+    "tema": "Doctrina Truman y contención",
+    "pregunta": "En 1947, Estados Unidos ofreció ayuda económica y militar a Grecia y Turquía para evitar que quedaran bajo influencia comunista. ¿Qué interpretación sitúa correctamente esta política?",
+    "opciones": {
+      "a": "Continuó el aislamiento estadounidense frente a los conflictos europeos",
+      "b": "Aplicó la contención en países estratégicos",
+      "c": "Reconoció a Europa oriental como una esfera económica sin rivalidades",
+      "d": "Organizó una unión aduanera exclusiva entre los países mediterráneos"
+    },
+    "respuesta": "b",
+    "explicacion": "La Doctrina Truman articuló ayuda económica y militar con objetivos de contención. La asistencia a Grecia y Turquía fue una expresión temprana de esa política durante la Guerra Fría.",
+    "fuente_conceptual": "https://www.archives.gov/milestone-documents/truman-doctrine",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hu-043",
+    "categoria": "Historia Universal",
+    "tema": "Derechos humanos y posguerra",
+    "pregunta": "¿Qué relación histórica explica la adopción de la Declaración Universal de los Derechos Humanos en 1948?",
+    "opciones": {
+      "a": "La derrota de Napoleón impulsó a la ONU a restaurar privilegios estamentales",
+      "b": "La disolución soviética llevó a establecer por primera vez derechos laborales",
+      "c": "La guerra mundial impulsó un marco internacional de derechos",
+      "d": "La crisis petrolera motivó un acuerdo limitado al comercio de energéticos"
+    },
+    "respuesta": "c",
+    "explicacion": "La Declaración respondió al contexto de la Segunda Guerra Mundial y sus atrocidades. Estableció un referente universal de derechos, sin implicar que su cumplimiento quedara automáticamente garantizado.",
+    "fuente_conceptual": "https://www.un.org/en/about-us/udhr/history-of-the-declaration",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hu-044",
+    "categoria": "Historia Universal",
+    "tema": "Integración europea",
+    "pregunta": "El Tratado de Roma de 1957 creó la Comunidad Económica Europea. ¿Qué objetivo distingue este proyecto de una alianza militar?",
+    "opciones": {
+      "a": "Coordinar la defensa armada bajo un mando atlántico",
+      "b": "Administrar territorios coloniales mediante mandatos internacionales",
+      "c": "Organizar una respuesta bélica conjunta contra el bloque soviético",
+      "d": "Crear un mercado común y reducir barreras comerciales"
+    },
+    "respuesta": "d",
+    "explicacion": "La CEE fue un proyecto de integración económica, no un pacto militar equivalente a la OTAN. El tratado se firmó en 1957 y comenzó a aplicarse en 1958.",
+    "fuente_conceptual": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=URISERV%3Axy0023",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hu-045",
+    "categoria": "Historia Universal",
+    "tema": "Revolución haitiana",
+    "pregunta": "La lucha en Saint-Domingue combinó rebelión de personas esclavizadas, abolición de la esclavitud e independencia de Haití en 1804. ¿Qué rasgo la distingue de un simple cambio de gobernantes coloniales?",
+    "opciones": {
+      "a": "Cuestionó tanto la dominación colonial como el orden esclavista",
+      "b": "Mantuvo intacta la esclavitud y solo sustituyó autoridades francesas",
+      "c": "Restauró el comercio esclavista bajo administración británica",
+      "d": "Convirtió el territorio en una provincia francesa con representación ampliada"
+    },
+    "respuesta": "a",
+    "explicacion": "El proceso haitiano transformó relaciones de dominación colonial y esclavista. La independencia no fue únicamente un reemplazo de funcionarios dentro del mismo régimen.",
+    "fuente_conceptual": "https://whc.unesco.org/en/list/180",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hu-046",
+    "categoria": "Historia Universal",
+    "tema": "Proyectos de paz de 1918",
+    "pregunta": "Entre los Catorce Puntos de Woodrow Wilson figuraba crear una asociación general de naciones que protegiera su independencia e integridad territorial. ¿Qué principio expresa esta propuesta?",
+    "opciones": {
+      "a": "Expansión colonial mediante acuerdos secretos",
+      "b": "Seguridad colectiva mediante cooperación internacional",
+      "c": "Reparto de Europa exclusivamente entre las potencias vencidas",
+      "d": "Aislamiento diplomático como garantía de paz"
+    },
+    "respuesta": "b",
+    "explicacion": "La propuesta pretendía que una organización internacional contribuyera a proteger a los Estados. Se relaciona con el proyecto de la Sociedad de Naciones, no con una garantía de paz efectivamente lograda.",
+    "fuente_conceptual": "https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hu-047",
+    "categoria": "Historia Universal",
+    "tema": "Entrada estadounidense en la Primera Guerra Mundial",
+    "pregunta": "¿Qué combinación contribuyó a la decisión de Estados Unidos de entrar en la Primera Guerra Mundial en 1917?",
+    "opciones": {
+      "a": "El ataque a Pearl Harbor y la expansión japonesa en el Pacífico",
+      "b": "La crisis de los misiles y la construcción del Muro de Berlín",
+      "c": "La guerra submarina alemana irrestricta y el telegrama Zimmermann",
+      "d": "La invasión de Polonia y el pacto germano-soviético"
+    },
+    "respuesta": "c",
+    "explicacion": "Los ataques submarinos y el telegrama Zimmermann influyeron en el paso estadounidense de la neutralidad a la guerra. Los otros acontecimientos pertenecen a la Segunda Guerra Mundial o a la Guerra Fría.",
+    "fuente_conceptual": "https://history.state.gov/milestones/1914-1920/wwi",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hu-048",
+    "categoria": "Historia Universal",
+    "tema": "Apaciguamiento y expansión nazi",
+    "pregunta": "En Múnich, en 1938, Gran Bretaña y Francia aceptaron la cesión de los Sudetes a Alemania con la intención de evitar una guerra. ¿Qué límite de esa política mostraron los acontecimientos posteriores?",
+    "opciones": {
+      "a": "La cesión aseguró la integridad territorial de Checoslovaquia",
+      "b": "La concesión convirtió a Alemania en una democracia parlamentaria",
+      "c": "La negociación logró que Alemania renunciara a ampliar su territorio",
+      "d": "La concesión territorial no detuvo el expansionismo alemán"
+    },
+    "respuesta": "d",
+    "explicacion": "La política de apaciguamiento buscó evitar el conflicto mediante concesiones. La expansión alemana continuó, por lo que el acuerdo no aseguró una paz duradera.",
+    "fuente_conceptual": "https://encyclopedia.ushmm.org/content/en/article/neville-chamberlain",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hu-049",
+    "categoria": "Historia Universal",
+    "tema": "Dimensión internacional de la Guerra Civil española",
+    "pregunta": "El apoyo de la Alemania nazi y la Italia fascista a los sublevados españoles durante la guerra de 1936-1939 permite concluir que el conflicto",
+    "opciones": {
+      "a": "estuvo vinculado a rivalidades ideológicas y estratégicas internacionales",
+      "b": "se limitó a una disputa local sin participación de potencias extranjeras",
+      "c": "fue una guerra colonial entre España y sus territorios americanos",
+      "d": "comenzó como consecuencia de las alianzas de la Guerra Fría"
+    },
+    "respuesta": "a",
+    "explicacion": "La intervención extranjera muestra que la guerra española tuvo una dimensión internacional. Esto no elimina sus causas internas ni la diversidad de fuerzas que participaron.",
+    "fuente_conceptual": "https://encyclopedia.ushmm.org/content/en/article/spanish-civil-war",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hu-050",
+    "categoria": "Historia Universal",
+    "tema": "Crisis petrolera de 1973",
+    "pregunta": "El embargo de productores árabes de petróleo en 1973 afectó a economías importadoras industrializadas. ¿Qué relación puso de manifiesto?",
+    "opciones": {
+      "a": "La independencia de la producción industrial respecto de la energía",
+      "b": "La conexión entre conflictos geopolíticos y vulnerabilidad energética",
+      "c": "La desaparición de las decisiones políticas en los mercados internacionales",
+      "d": "La igualdad de recursos petroleros entre todos los países industriales"
+    },
+    "respuesta": "b",
+    "explicacion": "El embargo evidenció que la dependencia del petróleo importado podía transmitir un conflicto político a los costos y al abastecimiento de las economías industriales.",
+    "fuente_conceptual": "https://history.state.gov/milestones/1969-1976/oil-embargo",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hm-041",
+    "categoria": "Historia de México",
+    "tema": "Corona y corporaciones novohispanas",
+    "pregunta": "La expulsión de los jesuitas de los dominios españoles en 1767 se relaciona con las reformas borbónicas porque la Corona buscaba",
+    "opciones": {
+      "a": "reforzar su control sobre corporaciones influyentes",
+      "b": "transferir la soberanía de Nueva España a las órdenes religiosas",
+      "c": "crear una república independiente dirigida por el clero secular",
+      "d": "restaurar el poder político de la dinastía de los Habsburgo"
+    },
+    "respuesta": "a",
+    "explicacion": "La medida formó parte del fortalecimiento del poder monárquico frente a una orden influyente. No constituyó una iniciativa de independencia ni una separación liberal entre Iglesia y Estado.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad3/virreinatonovohispano/reformasborbonicas",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hm-042",
+    "categoria": "Historia de México",
+    "tema": "Instituciones insurgentes",
+    "pregunta": "La Constitución de Apatzingán de 1814 formuló soberanía popular y división de poderes mientras continuaba la guerra. ¿Qué revela este hecho acerca de la insurgencia?",
+    "opciones": {
+      "a": "Que había concluido la resistencia del gobierno virreinal",
+      "b": "Que perseguía objetivos políticos y militares",
+      "c": "Que aceptaba la soberanía perpetua del monarca español",
+      "d": "Que renunciaba a crear instituciones representativas propias"
+    },
+    "respuesta": "b",
+    "explicacion": "El proyecto constitucional muestra una dimensión institucional de la lucha insurgente. Su promulgación no significó que la independencia se hubiera consumado ni que se aplicara en todo el territorio.",
+    "fuente_conceptual": "https://www.gob.mx/agn/es/articulos/agnrecuerda-la-constitucion-de-apatzingan?idiom=es",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hm-043",
+    "categoria": "Historia de México",
+    "tema": "Conflicto entre Imperio y Congreso",
+    "pregunta": "El Plan de Casa Mata de 1823 reclamó la representación nacional mediante un Congreso, en un contexto de oposición al gobierno de Iturbide. ¿Qué tensión política expresa?",
+    "opciones": {
+      "a": "La rivalidad entre el Segundo Imperio y la República de Juárez",
+      "b": "La pugna entre constitucionalistas y convencionistas",
+      "c": "La pugna entre poder imperial y representación nacional",
+      "d": "La disputa electoral entre Madero y Porfirio Díaz"
+    },
+    "respuesta": "c",
+    "explicacion": "Casa Mata se ubica en la crisis del Primer Imperio. La cuestión de la representación nacional fue central; el documento no debe confundirse con los conflictos de Maximiliano o de la Revolución.",
+    "fuente_conceptual": "https://www.gob.mx/agn/articulos/agnresguarda-el-plan-que-termino-con-un-imperio",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hm-044",
+    "categoria": "Historia de México",
+    "tema": "Derechos y constitucionalismo liberal",
+    "pregunta": "¿Cuál demanda es congruente con el liberalismo constitucional mexicano de 1857?",
+    "opciones": {
+      "a": "Reservar la libertad de expresión a miembros de corporaciones privilegiadas",
+      "b": "Otorgar a los tribunales religiosos autoridad sobre todos los asuntos civiles",
+      "c": "Sustituir las garantías individuales por privilegios hereditarios",
+      "d": "Proteger libertades individuales mediante límites jurídicos al poder"
+    },
+    "respuesta": "d",
+    "explicacion": "La Constitución de 1857 reconoció garantías individuales. La protección jurídica de libertades contrasta con un orden basado en privilegios corporativos o hereditarios.",
+    "fuente_conceptual": "https://www.inehrm.gob.mx/es/Constitucion1917/Las_garantias_individuales_en_la_Constitucion_de_1857",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hm-045",
+    "categoria": "Historia de México",
+    "tema": "Conflictos laborales del Porfiriato",
+    "pregunta": "Los trabajadores mexicanos de Cananea reclamaron en 1906 mejores salarios y el fin de tratos discriminatorios dentro de una empresa minera. ¿Qué problema histórico ilustra?",
+    "opciones": {
+      "a": "El contraste entre crecimiento económico y desigualdad laboral",
+      "b": "La desaparición de la inversión extranjera durante el Porfiriato",
+      "c": "La ausencia de trabajadores asalariados en la minería",
+      "d": "La aplicación plena de los derechos laborales de 1917"
+    },
+    "respuesta": "a",
+    "explicacion": "Cananea muestra que el crecimiento de actividades exportadoras coexistió con condiciones laborales conflictivas y discriminación. La huelga antecedió a la Constitución de 1917.",
+    "fuente_conceptual": "https://www.gob.mx/agn/articulos/121233",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hm-046",
+    "categoria": "Historia de México",
+    "tema": "Sucesión presidencial y caudillismo",
+    "pregunta": "El Plan de Agua Prieta desconoció a Venustiano Carranza en 1920. ¿Qué interpretación sitúa correctamente este episodio?",
+    "opciones": {
+      "a": "Fue el inicio del levantamiento de Madero contra Díaz",
+      "b": "Reflejó rivalidades entre dirigentes revolucionarios",
+      "c": "Consumó la separación de Texas del territorio mexicano",
+      "d": "Marcó el comienzo de la intervención francesa de 1862"
+    },
+    "respuesta": "b",
+    "explicacion": "La rebelión de Agua Prieta refleja que la promulgación de la Constitución de 1917 no eliminó de inmediato las rivalidades entre dirigentes revolucionarios por el poder.",
+    "fuente_conceptual": "https://repositorio.colmex.mx/concern/archival_documents/qz20sw473",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hm-047",
+    "categoria": "Historia de México",
+    "tema": "Política exterior y soberanía",
+    "pregunta": "Una postura diplomática sostiene que México debe decidir si mantiene relaciones con otro gobierno sin proclamarse juez de su legitimidad interna. ¿Con qué principio de la Doctrina Estrada se relaciona?",
+    "opciones": {
+      "a": "La intervención armada para imponer gobiernos afines",
+      "b": "La subordinación diplomática a una potencia protectora",
+      "c": "La no intervención en las decisiones políticas de otras naciones",
+      "d": "El aislamiento que prohíbe toda relación diplomática"
+    },
+    "respuesta": "c",
+    "explicacion": "La Doctrina Estrada cuestionó la práctica de calificar la legitimidad de gobiernos ajenos mediante reconocimientos. Mantener o retirar representantes no equivale a imponer un gobierno.",
+    "fuente_conceptual": "https://puedjs.unam.mx/revista_tlatelolco/la-doctrina-estrada/",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hm-048",
+    "categoria": "Historia de México",
+    "tema": "Asilo y cultura en el cardenismo",
+    "pregunta": "La llegada del Sinaia a Veracruz en 1939, con exiliados españoles, relaciona la política mexicana de asilo con",
+    "opciones": {
+      "a": "la guerra de independencia de España frente a Napoleón",
+      "b": "la expulsión de españoles ordenada en México en 1827",
+      "c": "la derrota de Alemania al concluir la Segunda Guerra Mundial",
+      "d": "la derrota republicana en España y la represión franquista"
+    },
+    "respuesta": "d",
+    "explicacion": "El exilio republicano fue consecuencia de la Guerra Civil española y del triunfo franquista. La recepción en México formó parte de la política de acogida del gobierno cardenista.",
+    "fuente_conceptual": "https://www.gob.mx/agn/es/articulos/agnrecuerda-el-arribo-del-sinaia?idiom=es",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hm-049",
+    "categoria": "Historia de México",
+    "tema": "México y la Segunda Guerra Mundial",
+    "pregunta": "La participación del Escuadrón 201 en Filipinas en 1945 muestra que México",
+    "opciones": {
+      "a": "combatió con los Aliados en el Pacífico",
+      "b": "combatió junto a Japón contra las fuerzas estadounidenses",
+      "c": "participó en el desembarco de Normandía como fuerza terrestre",
+      "d": "mantuvo neutralidad militar durante toda la guerra"
+    },
+    "respuesta": "a",
+    "explicacion": "El Escuadrón 201 integró la Fuerza Aérea Expedicionaria Mexicana y actuó en el Pacífico junto a los Aliados. Su participación no ocurrió en el frente europeo.",
+    "fuente_conceptual": "https://www.gob.mx/defensa/documentos/mexico-en-la-ii-guerra-mundial",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "hm-050",
+    "categoria": "Historia de México",
+    "tema": "Organización ciudadana en 1985",
+    "pregunta": "Después de los sismos de 1985 surgieron comités de vecinos y damnificados que organizaron rescates y demandaron vivienda. ¿Qué conclusión histórica está mejor sustentada?",
+    "opciones": {
+      "a": "Las organizaciones ciudadanas sustituyeron definitivamente a todas las instituciones estatales",
+      "b": "La emergencia impulsó nuevas formas de participación y organización social",
+      "c": "La reconstrucción se realizó sin demandas ni intervención de la población",
+      "d": "Los sismos originaron por sí solos todos los cambios políticos posteriores"
+    },
+    "respuesta": "b",
+    "explicacion": "Las acciones vecinales y de damnificados muestran el fortalecimiento de iniciativas colectivas. No justifican afirmar que el Estado desapareciera ni atribuir todo cambio político posterior al desastre.",
+    "fuente_conceptual": "https://www.gob.mx/agn/articulos/agnrecuerda-el-sismo-de-1985-via-la-jornada?idiom=es",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "geo-041",
+    "categoria": "Geografía",
+    "tema": "Interpretación de datos climáticos",
+    "pregunta": "Una estación hipotética del hemisferio norte registra estos promedios mensuales:\nMes: ene feb mar abr may jun jul ago sep oct nov dic\nTemperatura (°C): 10 11 13 16 19 23 26 26 23 19 14 11\nPrecipitación (mm): 90 80 65 40 20 8 3 5 25 60 85 95\n¿Qué patrón describe mejor estos datos?",
+    "opciones": {
+      "a": "Veranos secos e inviernos lluviosos, propio del patrón mediterráneo",
+      "b": "Lluvias abundantes todo el año, sin estación seca",
+      "c": "Veranos lluviosos e inviernos secos, propio de lluvias estivales",
+      "d": "Frío polar todo el año, sin meses templados"
+    },
+    "respuesta": "a",
+    "explicacion": "Los meses cálidos tienen precipitaciones muy bajas, mientras las mayores lluvias se concentran en meses fríos. Es el patrón de verano seco e invierno lluvioso asociado al clima mediterráneo. Los datos son didácticos, no una estación real.",
+    "fuente_conceptual": "https://soilhealth.ucdavis.edu/climatic-zones/mediterranean",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "geo-042",
+    "categoria": "Geografía",
+    "tema": "Interpretación de indicadores urbanos",
+    "pregunta": "Compara dos regiones hipotéticas; ambas emplean la misma definición de población urbana.\nRegión A: población total = 2 000 000; población urbana = 60 %.\nRegión B: población total = 3 000 000; población urbana = 50 %.\n¿Qué conclusión es correcta?",
+    "opciones": {
+      "a": "A tiene más habitantes urbanos porque su porcentaje urbano es mayor",
+      "b": "B tiene más habitantes urbanos aunque su porcentaje urbano sea menor",
+      "c": "Las dos tienen igual número de habitantes urbanos",
+      "d": "B tiene menor población total y mayor porcentaje urbano"
+    },
+    "respuesta": "b",
+    "explicacion": "A tiene 1 200 000 habitantes urbanos; B tiene 1 500 000. Una mayor proporción no implica un mayor número absoluto cuando las poblaciones totales son distintas.",
+    "fuente_conceptual": "https://cuentame.inegi.gob.mx/descubre/poblacion/rural_urbana/",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "geo-043",
+    "categoria": "Geografía",
+    "tema": "Hidrografía de México",
+    "pregunta": "Relaciona cada sistema fluvial con su vertiente marítima.\n1. Río Balsas\n2. Sistema Grijalva-Usumacinta\nI. Golfo de México\nII. Océano Pacífico",
+    "opciones": {
+      "a": "1-I, 2-II",
+      "b": "1-I, 2-I",
+      "c": "1-II, 2-I",
+      "d": "1-II, 2-II"
+    },
+    "respuesta": "c",
+    "explicacion": "El Balsas desemboca en el Pacífico. El sistema Grijalva-Usumacinta lleva sus aguas hacia el golfo de México, a través del sureste mexicano.",
+    "fuente_conceptual": "https://sidof.segob.gob.mx/notas/docFuente/5175730 ; https://sidof.segob.gob.mx/notas/docFuente/5141106",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "geo-044",
+    "categoria": "Geografía",
+    "tema": "Relieve mundial y tectónica",
+    "pregunta": "La cordillera del Himalaya, en Asia, es un ejemplo de relieve originado principalmente por",
+    "opciones": {
+      "a": "la separación de placas oceánicas en una dorsal",
+      "b": "la erosión fluvial de una extensa llanura",
+      "c": "la acumulación de sedimentos en la desembocadura de un río",
+      "d": "la colisión de las masas continentales de India y Eurasia"
+    },
+    "respuesta": "d",
+    "explicacion": "La convergencia y colisión continental entre India y Eurasia elevó y deformó la corteza. Es distinta de la apertura oceánica y de los procesos erosivos externos.",
+    "fuente_conceptual": "https://pubs.usgs.gov/gip/dynamic/himalaya.html",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "geo-045",
+    "categoria": "Geografía",
+    "tema": "Relieve y distribución de precipitaciones",
+    "pregunta": "Los Andes pueden obstaculizar el paso de masas de aire húmedo y contribuir a la aridez de áreas situadas a sotavento, como parte del entorno de Atacama. ¿Qué proceso expresa esta relación?",
+    "opciones": {
+      "a": "Sombra orográfica",
+      "b": "Convergencia intertropical",
+      "c": "Convección térmica local",
+      "d": "Condensación por enfriamiento nocturno"
+    },
+    "respuesta": "a",
+    "explicacion": "Una barrera montañosa puede favorecer lluvia en una ladera y condiciones más secas a sotavento. La aridez de Atacama tiene varios factores; no depende únicamente de los Andes.",
+    "fuente_conceptual": "https://ciencia.nasa.gov/ciencias-terrestres/con-la-mirada-en-los-andes/",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "geo-046",
+    "categoria": "Geografía",
+    "tema": "Hidrografía mundial y localización",
+    "pregunta": "El Nilo atraviesa el noreste de África y forma un amplio delta en el norte de Egipto. ¿En qué mar desemboca?",
+    "opciones": {
+      "a": "Mar Rojo",
+      "b": "Mar Mediterráneo",
+      "c": "Mar Negro",
+      "d": "Mar Arábigo"
+    },
+    "respuesta": "b",
+    "explicacion": "El delta del Nilo se abre hacia el Mediterráneo. El mar Rojo está al este de Egipto, pero no recibe la desembocadura del Nilo.",
+    "fuente_conceptual": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2020-04-05",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "geo-047",
+    "categoria": "Geografía",
+    "tema": "Corrientes marinas y clima",
+    "pregunta": "La corriente del Golfo y su prolongación hacia el Atlántico norte transportan aguas cálidas. ¿Qué consecuencia ayuda a explicar ese transporte?",
+    "opciones": {
+      "a": "La aridez de la costa peruana por aguas frías",
+      "b": "El aporte de nutrientes por afloramiento frente a Chile",
+      "c": "La moderación del clima en parte de Europa occidental",
+      "d": "El enfriamiento de la costa occidental de Norteamérica"
+    },
+    "respuesta": "c",
+    "explicacion": "El transporte de calor oceánico contribuye a condiciones relativamente moderadas en parte de Europa occidental. No es el único factor climático ni uniforma el clima del continente.",
+    "fuente_conceptual": "https://www.nesdis.noaa.gov/about/k-12-education/oceans-coasts/what-the-gulf-stream",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "geo-048",
+    "categoria": "Geografía",
+    "tema": "Problemas atmosféricos",
+    "pregunta": "Un informe advierte que la disminución del ozono estratosférico permite que más radiación ultravioleta alcance la superficie. ¿Qué medida se relaciona más directamente con ese problema?",
+    "opciones": {
+      "a": "Retirar sedimentos de los cauces de los ríos",
+      "b": "Reducir la extracción de agua de los acuíferos",
+      "c": "Controlar los vertidos de fertilizantes en lagos",
+      "d": "Limitar sustancias que destruyen el ozono, como los CFC"
+    },
+    "respuesta": "d",
+    "explicacion": "Las sustancias agotadoras del ozono pueden liberar compuestos que lo destruyen en la estratosfera. La protección de esa capa se distingue del control del calentamiento por gases de efecto invernadero, aunque existen vínculos entre ambos problemas.",
+    "fuente_conceptual": "https://www.epa.gov/ozone-layer-protection/information-ozone-and-ozone-depletion",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "geo-049",
+    "categoria": "Geografía",
+    "tema": "Proyecciones cartográficas",
+    "pregunta": "Una investigadora quiere comparar visualmente la superficie de países de distintas latitudes en un mapa mundial. ¿Qué propiedad debería priorizar en la proyección?",
+    "opciones": {
+      "a": "Conservación de las áreas relativas",
+      "b": "Conservación de ángulos locales, aunque las áreas varíen",
+      "c": "Conservación de distancias desde un único punto central",
+      "d": "Conservación de direcciones desde un punto de referencia"
+    },
+    "respuesta": "a",
+    "explicacion": "Una proyección equivalente conserva las áreas relativas, útil para comparar superficies. Representar la Tierra curva en un plano exige distorsiones; no se preservan a la vez todas las propiedades.",
+    "fuente_conceptual": "https://www.usgs.gov/faqs/how-are-different-map-projections-used",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
+  },
+  {
+    "id": "geo-050",
+    "categoria": "Geografía",
+    "tema": "Crecimiento natural y migratorio",
+    "pregunta": "En una región hipotética ocurren durante un año 1 000 nacimientos y 600 defunciones; llegan 200 inmigrantes y salen 900 emigrantes. Sin otros cambios, ¿qué sucede con su población?",
+    "opciones": {
+      "a": "Aumenta en 400 personas, porque solo cuentan nacimientos y defunciones",
+      "b": "Disminuye en 300 personas, porque la pérdida migratoria supera el crecimiento natural",
+      "c": "Disminuye en 700 personas, porque solo cuenta el saldo migratorio",
+      "d": "Aumenta en 1 100 personas, porque se suman ambos saldos como positivos"
+    },
+    "respuesta": "b",
+    "explicacion": "El crecimiento natural es 1 000 − 600 = 400. El saldo migratorio es 200 − 900 = −700. El cambio total es 400 − 700 = −300 personas.",
+    "fuente_conceptual": "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/revista_rde/889463918165.pdf",
+    "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
   }
 ]
