@@ -1,0 +1,2148 @@
+[
+  {
+    "id": "MAT309",
+    "categoria": "Matemáticas",
+    "tema": "Sistemas 3×3: determinantes de Cramer",
+    "pregunta": "Para el sistema x + y = 3, y + z = 5 y x + z = 4, se aplica Cramer con filas en ese orden y columnas x, y, z. ¿Cuáles son D y Dᵧ, donde Dᵧ sustituye la columna de y por los términos independientes?",
+    "opciones": {
+      "a": "D = 2; Dᵧ = 4",
+      "b": "D = 2; Dᵧ = 6",
+      "c": "D = −2; Dᵧ = 4",
+      "d": "D = 2; Dᵧ = 2"
+    },
+    "respuesta": "a",
+    "explicacion": "La matriz es [[1,1,0],[0,1,1],[1,0,1]], con determinante 2. Para y se usa [[1,3,0],[0,5,1],[1,4,1]], cuyo determinante es 4. Así, y = 4/2 = 2.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/9-8-solving-systems-with-cramers-rule",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT310",
+    "categoria": "Matemáticas",
+    "tema": "Funciones: contradominio e imagen",
+    "pregunta": "Se define f: A → B por f(x) = x², con A = {−2, −1, 0, 1, 2} y B = {0, 1, 2, 3, 4}. ¿Cuáles son el contradominio declarado y la imagen efectiva, respectivamente?",
+    "opciones": {
+      "a": "{0, 1, 4}; {0, 1, 2, 3, 4}",
+      "b": "{−2, −1, 0, 1, 2}; {0, 1, 4}",
+      "c": "{0, 1, 2, 3, 4}; {0, 1, 4}",
+      "d": "{0, 1, 2, 3, 4}; {0, 1, 2, 3, 4}"
+    },
+    "respuesta": "c",
+    "explicacion": "El contradominio es el conjunto de llegada B especificado al definir la función. Al elevar al cuadrado los elementos de A solo se obtienen 0, 1 y 4, que forman la imagen; 2 y 3 no se alcanzan.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/sumate/asignaturas/matematicas-4/dominio-codominio/inicio/",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT311",
+    "categoria": "Matemáticas",
+    "tema": "Funciones implícitas: elegir una rama explícita",
+    "pregunta": "La relación y² = x − 1 se restringe a y ≤ 0. ¿Cuál función explícita describe exactamente esa rama y cuál es su dominio real?",
+    "opciones": {
+      "a": "y = √(x − 1); x ≥ 1",
+      "b": "y = −√(x − 1); x ≥ 1",
+      "c": "y = −√(x − 1); x ≤ 1",
+      "d": "y = −√(x + 1); x ≥ −1"
+    },
+    "respuesta": "b",
+    "explicacion": "Despejar produce y = ±√(x − 1). La condición y ≤ 0 selecciona la raíz negativa y el radicando exige x ≥ 1; el punto (1,0) se incluye.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/1-1-functions-and-function-notation",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT312",
+    "categoria": "Matemáticas",
+    "tema": "Triángulo: alturas y ortocentro",
+    "pregunta": "El triángulo tiene vértices A(0, 0), B(6, 0) y C(2, 4). ¿Dónde se encuentra su ortocentro, es decir, la intersección de sus alturas?",
+    "opciones": {
+      "a": "(3, 2)",
+      "b": "(8/3, 4/3)",
+      "c": "(3, 1)",
+      "d": "(2, 2)"
+    },
+    "respuesta": "d",
+    "explicacion": "La altura desde C es x = 2 porque AB es horizontal. BC tiene pendiente −1, así que la altura desde A es y = x. Se cortan en (2,2); no se están usando medianas ni mediatrices.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/matematicas2/geometria-del-triangulo/rectas-y-puntos-notables",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT313",
+    "categoria": "Matemáticas",
+    "tema": "Elipse trasladada: de forma general a ordinaria",
+    "pregunta": "¿Qué forma ordinaria equivale a 4x² + 9y² + 16x − 18y − 11 = 0?",
+    "opciones": {
+      "a": "(x + 2)²/9 + (y − 1)²/4 = 1",
+      "b": "(x − 2)²/9 + (y + 1)²/4 = 1",
+      "c": "(x + 2)²/4 + (y − 1)²/9 = 1",
+      "d": "(x + 2)²/36 + (y − 1)²/36 = 1"
+    },
+    "respuesta": "a",
+    "explicacion": "Agrupar y completar cuadrados da 4(x + 2)² + 9(y − 1)² = 36. Al dividir entre 36, los denominadores son 9 y 4; el centro es (−2,1).",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT314",
+    "categoria": "Matemáticas",
+    "tema": "Círculo trigonométrico: coordenadas de un punto",
+    "pregunta": "En el círculo unitario centrado en el origen, un ángulo de 7π/6 se mide desde el semieje positivo x en sentido antihorario. ¿Cuáles son las coordenadas de su punto terminal?",
+    "opciones": {
+      "a": "(−1/2, −√3/2)",
+      "b": "(√3/2, −1/2)",
+      "c": "(−√3/2, 1/2)",
+      "d": "(−√3/2, −1/2)"
+    },
+    "respuesta": "d",
+    "explicacion": "El punto tiene coordenadas (cos θ, sen θ). Como 7π/6 = π + π/6 está en el tercer cuadrante, ambas son negativas: (−√3/2,−1/2).",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/5-2-unit-circle-sine-and-cosine-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT315",
+    "categoria": "Matemáticas",
+    "tema": "Funciones trigonométricas: desfasamiento",
+    "pregunta": "Al escribir y = 2 sen(3x − π/2) en la forma y = 2 sen(3(x − h)), ¿cuánto vale h y hacia dónde se desplaza la gráfica respecto de y = 2 sen(3x)?",
+    "opciones": {
+      "a": "h = π/2; hacia la derecha",
+      "b": "h = π/6; hacia la derecha",
+      "c": "h = −π/6; hacia la izquierda",
+      "d": "h = 3π/2; hacia la derecha"
+    },
+    "respuesta": "b",
+    "explicacion": "Se factoriza 3x − π/2 = 3(x − π/6). Sustituir x por x − π/6 traslada la gráfica π/6 hacia la derecha; no se toma π/2 sin dividir entre 3.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/6-1-graphs-of-the-sine-and-cosine-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT316",
+    "categoria": "Matemáticas",
+    "tema": "Funciones exponenciales: imagen y extremo no alcanzado",
+    "pregunta": "Para f(x) = 4 − 2ˣ con dominio en todos los números reales, ¿cuál es su imagen completa?",
+    "opciones": {
+      "a": "(4, ∞)",
+      "b": "(−∞, 4]",
+      "c": "(−∞, 4)",
+      "d": "[3, 4)"
+    },
+    "respuesta": "c",
+    "explicacion": "Como 2ˣ recorre todos los positivos, 4 − 2ˣ recorre todos los valores menores que 4. Nunca alcanza 4, aunque se aproxima a él cuando x disminuye sin límite.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/4-2-graphs-of-exponential-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT317",
+    "categoria": "Matemáticas",
+    "tema": "Funciones logarítmicas: imagen de un dominio restringido",
+    "pregunta": "Se define f(x) = log₂(x − 2) solo para 3 ≤ x ≤ 10. ¿Cuál es su imagen completa?",
+    "opciones": {
+      "a": "[0, 3]",
+      "b": "(0, 3)",
+      "c": "[1, 8]",
+      "d": "ℝ"
+    },
+    "respuesta": "a",
+    "explicacion": "El argumento x − 2 recorre [1,8]. El logaritmo en base 2 es creciente, por lo que la imagen va de log₂1 = 0 a log₂8 = 3, incluyendo ambos extremos.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/4-4-graphs-of-logarithmic-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT318",
+    "categoria": "Matemáticas",
+    "tema": "Binomio de Newton: coeficiente de un término",
+    "pregunta": "En el desarrollo de (2x − 1)⁵, ¿cuál es el coeficiente de x³?",
+    "opciones": {
+      "a": "−80",
+      "b": "40",
+      "c": "10",
+      "d": "80"
+    },
+    "respuesta": "d",
+    "explicacion": "Se eligen tres factores 2x y dos factores −1. El coeficiente es C(5,3)·2³·(−1)² = 10·8 = 80.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/11-6-binomial-theorem",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT319",
+    "categoria": "Matemáticas",
+    "tema": "Ángulos: conversión de radianes a grados",
+    "pregunta": "¿A cuántos grados equivale 7π/12 radianes?",
+    "opciones": {
+      "a": "75°",
+      "b": "120°",
+      "c": "105°",
+      "d": "210°"
+    },
+    "respuesta": "c",
+    "explicacion": "Se multiplica por 180°/π: (7π/12)(180°/π) = 7·15° = 105°.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/5-1-angles",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT320",
+    "categoria": "Matemáticas",
+    "tema": "Funciones trigonométricas: rango de la secante",
+    "pregunta": "Para f(x) = sec x = 1/cos x, definida en todos los reales donde cos x ≠ 0, ¿cuál es su imagen completa?",
+    "opciones": {
+      "a": "[−1, 1]",
+      "b": "(−∞, −1] ∪ [1, ∞)",
+      "c": "ℝ",
+      "d": "(−∞, −1) ∪ (1, ∞)"
+    },
+    "respuesta": "b",
+    "explicacion": "El coseno toma valores entre −1 y 1; al excluir cero y tomar su recíproco se obtienen valores ≤ −1 o ≥1. Los extremos sí se alcanzan cuando cos x = −1 o 1.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/6-2-graphs-of-the-other-trigonometric-functions",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT321",
+    "categoria": "Matemáticas",
+    "tema": "Elipse trasladada: focos y eje vertical",
+    "pregunta": "¿Cuáles son los focos de (x + 2)²/9 + (y − 1)²/25 = 1?",
+    "opciones": {
+      "a": "(−6, 1) y (2, 1)",
+      "b": "(−2, −4) y (−2, 6)",
+      "c": "(2, −3) y (2, 5)",
+      "d": "(−2, −3) y (−2, 5)"
+    },
+    "respuesta": "d",
+    "explicacion": "El centro es (−2,1), el eje mayor es vertical y c² = 25 − 9 = 16. Se desplaza 4 unidades hacia arriba y abajo del centro: (−2,5) y (−2,−3).",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT322",
+    "categoria": "Matemáticas",
+    "tema": "Relación implícita: por qué no define una función única",
+    "pregunta": "Se considera toda la relación x² + y² = 4, sin elegir una rama. ¿Qué hecho muestra que no define a y como una única función de x en [−2, 2]?",
+    "opciones": {
+      "a": "Para x = 0 admite tanto y = 2 como y = −2",
+      "b": "Contiene valores negativos de x",
+      "c": "Su ecuación contiene dos variables",
+      "d": "El punto (2, 0) pertenece a la relación"
+    },
+    "respuesta": "a",
+    "explicacion": "Una función debe asignar una sola salida a cada entrada. La circunferencia completa asigna dos salidas a x = 0; seleccionar una semicircunferencia sí podría definir una función.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/1-1-functions-and-function-notation",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT323",
+    "categoria": "Matemáticas",
+    "tema": "Cramer: límite de aplicación cuando D es cero",
+    "pregunta": "En un sistema lineal 3×3 se obtiene D = 0 para la matriz de coeficientes. Sin más datos, ¿qué conclusión es válida sobre aplicar x = Dₓ/D, y = Dᵧ/D y z = D_z/D?",
+    "opciones": {
+      "a": "Las tres fórmulas dan cero y existe solución única",
+      "b": "Las fórmulas no son aplicables; el sistema puede ser incompatible o tener infinitas soluciones",
+      "c": "D = 0 demuestra siempre que no existe solución",
+      "d": "D = 0 demuestra siempre que existen infinitas soluciones"
+    },
+    "respuesta": "b",
+    "explicacion": "Las fórmulas requieren D ≠ 0, pues no se divide entre cero. Un determinante nulo descarta solución única, pero para distinguir incompatibilidad de infinitas soluciones hay que estudiar las ecuaciones.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/9-8-solving-systems-with-cramers-rule",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT324",
+    "categoria": "Matemáticas",
+    "tema": "Binomio de Newton: coeficiente general",
+    "pregunta": "Para todos los enteros n ≥ 2 y 0 ≤ r ≤ n, ¿qué expresión da el coeficiente del término a^(n−r)bʳ en el desarrollo de (a + b)ⁿ?",
+    "opciones": {
+      "a": "n!/(n − r)!",
+      "b": "n!/r!",
+      "c": "n!/[r!(n − r)!]",
+      "d": "nʳ"
+    },
+    "respuesta": "c",
+    "explicacion": "El término surge al elegir en cuáles r de los n factores se toma b. Hay C(n,r) = n!/[r!(n−r)!] elecciones, que es el coeficiente binomial.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/11-6-binomial-theorem",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT325",
+    "categoria": "Matemáticas",
+    "tema": "Círculo trigonométrico: ángulos coterminales",
+    "pregunta": "¿Qué ángulo en [0, 2π) tiene el mismo punto terminal en el círculo unitario que −5π/3?",
+    "opciones": {
+      "a": "π/3",
+      "b": "2π/3",
+      "c": "5π/3",
+      "d": "4π/3"
+    },
+    "respuesta": "a",
+    "explicacion": "Sumar una vuelta completa no cambia el punto terminal: −5π/3 + 2π = π/3. Este valor ya está en el intervalo solicitado.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/5-1-angles",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT326",
+    "categoria": "Matemáticas",
+    "tema": "Hipérbola: normalizar una ecuación general centrada",
+    "pregunta": "¿Qué forma ordinaria equivale a 4y² − 9x² − 36 = 0?",
+    "opciones": {
+      "a": "x²/4 − y²/9 = 1",
+      "b": "y²/4 − x²/9 = 1",
+      "c": "y²/9 + x²/4 = 1",
+      "d": "y²/9 − x²/4 = 1"
+    },
+    "respuesta": "d",
+    "explicacion": "Se pasa 36 al otro lado y se divide entre 36. Queda y²/9 − x²/4 = 1: centro en el origen y eje transverso vertical.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/10-2-the-hyperbola",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT327",
+    "categoria": "Matemáticas",
+    "tema": "Circunferencia: radio desde forma general centrada",
+    "pregunta": "La ecuación 3x² + 3y² − 75 = 0 representa una circunferencia. ¿Cuáles son su centro y radio?",
+    "opciones": {
+      "a": "Centro (0,0); radio 25",
+      "b": "Centro (0,0); radio 5",
+      "c": "Centro (3,3); radio 5",
+      "d": "Centro (0,0); radio √75"
+    },
+    "respuesta": "b",
+    "explicacion": "Dividir entre 3 produce x² + y² = 25. No hay términos lineales, así que el centro es el origen y el radio es √25 = 5.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT328",
+    "categoria": "Matemáticas",
+    "tema": "Parábola horizontal trasladada: foco desde forma general",
+    "pregunta": "¿Cuál es el foco de la parábola y² − 6y − 8x + 1 = 0?",
+    "opciones": {
+      "a": "(−1, 5)",
+      "b": "(−3, 3)",
+      "c": "(1, 3)",
+      "d": "(−1, 3)"
+    },
+    "respuesta": "c",
+    "explicacion": "Completar el cuadrado da (y − 3)² = 8(x + 1). El vértice es (−1,3) y 4p = 8, de modo que p = 2. El foco está 2 unidades a la derecha: (1,3).",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT329",
+    "categoria": "Matemáticas",
+    "tema": "Complejos: resta y distribución del signo",
+    "pregunta": "Si i² = −1, ¿cuál es el resultado de (2 − 3i) − (−4 + 5i)?",
+    "opciones": {
+      "a": "−2 + 2i",
+      "b": "6 + 2i",
+      "c": "−2 − 8i",
+      "d": "6 − 8i"
+    },
+    "respuesta": "d",
+    "explicacion": "Restar el segundo complejo cambia ambos signos: 2 − 3i + 4 − 5i. Agrupando partes reales e imaginarias se obtiene 6 − 8i.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/3-1-complex-numbers",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "MAT330",
+    "categoria": "Matemáticas",
+    "tema": "Potencias racionales: producto de expresiones algebraicas",
+    "pregunta": "Para a, b > 0, ¿qué expresión equivale a (a^(1/3) − b^(1/3))(a^(2/3) + a^(1/3)b^(1/3) + b^(2/3))?",
+    "opciones": {
+      "a": "a − b",
+      "b": "a + b",
+      "c": "a^(2/3) − b^(2/3)",
+      "d": "(a − b)^(1/3)"
+    },
+    "respuesta": "a",
+    "explicacion": "Con u = a^(1/3) y v = b^(1/3), se reconoce (u−v)(u²+uv+v²) = u³−v³. Por tanto el producto es a−b.",
+    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/1-4-polynomials",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS141",
+    "categoria": "Física",
+    "tema": "Fluidos: ascenso capilar",
+    "pregunta": "Dos tubos capilares de vidrio limpio se introducen verticalmente en la misma agua. Sus radios internos son r y 2r. Si la altura capilar cumple h = 2γ cosθ/(ρgr), con las demás variables iguales, ¿cómo se compara la altura en el tubo más ancho con la del estrecho?",
+    "opciones": {
+      "a": "Es la mitad",
+      "b": "Es el doble",
+      "c": "Es la cuarta parte",
+      "d": "Es igual"
+    },
+    "respuesta": "a",
+    "explicacion": "La altura es inversamente proporcional al radio. Al duplicarlo, la altura queda dividida entre dos; no se compara el área transversal directamente.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS142",
+    "categoria": "Física",
+    "tema": "Fluidos: tensión superficial",
+    "pregunta": "Una aguja pequeña de acero puede sostenerse sobre agua si se deposita cuidadosamente sin romper la superficie, aunque su densidad sea mayor que la del agua. ¿Qué contribución permite explicar esta situación?",
+    "opciones": {
+      "a": "La presión atmosférica ejerce una fuerza neta hacia arriba que la sostiene",
+      "b": "Las fuerzas de tensión superficial aportan una componente vertical de apoyo",
+      "c": "El empuje hidrostático por sí solo supera su peso, aun desplazando poca agua",
+      "d": "La viscosidad proporciona una fuerza permanente de apoyo aunque esté en reposo"
+    },
+    "respuesta": "b",
+    "explicacion": "La superficie deformada alrededor de la aguja ejerce fuerzas de tensión superficial con componentes hacia arriba. Por eso no basta comparar densidades ignorando los efectos de superficie.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS143",
+    "categoria": "Física",
+    "tema": "Fluidos: viscosidad y resistencia al flujo",
+    "pregunta": "Dos líquidos newtonianos fluyen por tubos idénticos con el mismo caudal laminar. El líquido B tiene mayor viscosidad que A. ¿Qué diferencia de presión entre los extremos necesita B respecto de A?",
+    "opciones": {
+      "a": "Menor, porque la viscosidad favorece el deslizamiento",
+      "b": "La misma, porque el caudal es igual",
+      "c": "Mayor, porque ofrece mayor resistencia interna al flujo",
+      "d": "Nula, porque el movimiento ya es estacionario"
+    },
+    "respuesta": "c",
+    "explicacion": "En régimen laminar, para geometría y caudal fijos, la caída de presión aumenta con la viscosidad. La viscosidad representa resistencia al movimiento relativo entre capas de fluido.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/12-4-viscosity-and-laminar-flow-poiseuilles-law",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS144",
+    "categoria": "Física",
+    "tema": "Óptica: espejo esférico convexo",
+    "pregunta": "Un objeto real se coloca frente a un espejo esférico convexo, usado en la aproximación de rayos cercanos al eje. ¿Cómo es la imagen?",
+    "opciones": {
+      "a": "Real, invertida y aumentada",
+      "b": "Virtual, derecha y aumentada",
+      "c": "Real, invertida y reducida",
+      "d": "Virtual, derecha y reducida"
+    },
+    "respuesta": "d",
+    "explicacion": "El espejo convexo hace divergir los rayos reflejados. Sus prolongaciones se cruzan detrás del espejo y forman una imagen virtual, derecha y menor que el objeto.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/25-7-image-formation-by-mirrors",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS145",
+    "categoria": "Física",
+    "tema": "Circuitos: combinación de capacitores",
+    "pregunta": "Dos capacitores de 6 μF están en serie entre los terminales A y B. Un tercer capacitor de 2 μF se conecta directamente entre A y B, en paralelo con esa pareja. ¿Cuál es la capacitancia equivalente entre A y B?",
+    "opciones": {
+      "a": "5 μF",
+      "b": "14 μF",
+      "c": "1.2 μF",
+      "d": "8 μF"
+    },
+    "respuesta": "a",
+    "explicacion": "La pareja en serie equivale a (1/6 + 1/6)⁻¹ = 3 μF. Al conectar 2 μF en paralelo, se suman: 3 + 2 = 5 μF.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/19-6-capacitors-in-series-and-parallel",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS146",
+    "categoria": "Física",
+    "tema": "Electromagnetismo: autoinducción",
+    "pregunta": "La corriente en una bobina aumenta de 0 a 3 A en 0.20 s a ritmo constante. Su inductancia es 0.40 H. Usando |ε| = L|ΔI/Δt|, ¿cuál es la magnitud de la fem autoinducida?",
+    "opciones": {
+      "a": "0.24 V",
+      "b": "6 V",
+      "c": "1.2 V",
+      "d": "15 V"
+    },
+    "respuesta": "b",
+    "explicacion": "La rapidez de cambio de corriente es 3/0.20 = 15 A/s. Multiplicada por 0.40 H da 6 V. Su sentido se opone al aumento de corriente, no necesariamente a toda corriente existente.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/23-9-inductance",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS147",
+    "categoria": "Física",
+    "tema": "Modelo atómico: dispersión de Rutherford",
+    "pregunta": "En el experimento de dispersión por una lámina de oro, la mayoría de las partículas alfa atravesó la lámina con poca desviación y unas pocas sufrieron desviaciones muy grandes. ¿Qué modelo explica conjuntamente ambos resultados?",
+    "opciones": {
+      "a": "La carga positiva se distribuye uniformemente por todo el volumen atómico",
+      "b": "Los electrones concentran casi toda la masa en el centro del átomo",
+      "c": "El átomo tiene un núcleo positivo muy pequeño y la mayor parte de su volumen no es núcleo",
+      "d": "El átomo es una esfera maciza e impenetrable de carga positiva"
+    },
+    "respuesta": "c",
+    "explicacion": "El paso de la mayoría indica que el núcleo ocupa una fracción pequeña del volumen. Las fuertes desviaciones de unas pocas partículas alfa se explican por la repulsión de un núcleo pequeño, masivo y positivo.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/30-2-discovery-of-the-parts-of-the-atom-electrons-and-nuclei",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS148",
+    "categoria": "Física",
+    "tema": "Radiactividad: principio de un detector Geiger",
+    "pregunta": "Un tubo Geiger contiene gas y electrodos sometidos a una diferencia de potencial. ¿Qué fenómeno permite convertir el paso de radiación ionizante en un pulso eléctrico detectable?",
+    "opciones": {
+      "a": "El ennegrecimiento de una película fotográfica expuesta",
+      "b": "La producción de destellos en un cristal centelleador",
+      "c": "La condensación de vapor a lo largo de una trayectoria",
+      "d": "La ionización del gas que origina una descarga eléctrica"
+    },
+    "respuesta": "d",
+    "explicacion": "La ionización inicial produce cargas que son aceleradas por el campo y desencadenan una descarga amplificada. Las otras alternativas describen principios de otros detectores, no el funcionamiento del tubo Geiger.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/31-2-radiation-detection-and-detectors",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS149",
+    "categoria": "Física",
+    "tema": "Termodinámica: límite de una máquina térmica",
+    "pregunta": "Se propone una máquina que opera cíclicamente, toma calor de un solo depósito y convierte todo ese calor en trabajo, sin ningún otro efecto. ¿Cuál es la objeción física correcta?",
+    "opciones": {
+      "a": "La segunda ley prohíbe ese funcionamiento cíclico, aunque el balance de energía cierre",
+      "b": "La primera ley lo prohíbe porque el trabajo nunca puede provenir de calor",
+      "c": "La propuesta es válida si no existen pérdidas por fricción",
+      "d": "La propuesta es válida si el depósito está a temperatura suficientemente alta"
+    },
+    "respuesta": "a",
+    "explicacion": "La primera ley por sí sola permite igualar calor recibido y trabajo producido. La segunda ley impide que ese sea el único resultado de una máquina cíclica que toma calor de un único depósito.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/15-3-introduction-to-the-second-law-of-thermodynamics-heat-engines-and-their-efficiency",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "FIS150",
+    "categoria": "Física",
+    "tema": "Electromagnetismo: corrección de Ampère-Maxwell",
+    "pregunta": "Mientras se carga un capacitor ideal con vacío entre sus placas, no hay corriente de conducción a través del espacio entre ellas. ¿Qué término explica que esa región intervenga en la generación del campo magnético?",
+    "opciones": {
+      "a": "La variación del flujo magnético, propia de la ley de Faraday",
+      "b": "La variación del flujo eléctrico, asociada a la corriente de desplazamiento",
+      "c": "Un potencial eléctrico constante y uniforme entre las placas",
+      "d": "Un flujo eléctrico constante, aunque no exista corriente de conducción"
+    },
+    "respuesta": "b",
+    "explicacion": "Maxwell incorporó la contribución de un campo eléctrico variable a la ley de Ampère. La corriente de desplazamiento no exige transporte de carga libre a través del vacío del capacitor.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/24-1-maxwells-equations-electromagnetic-waves-predicted-and-observed",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI141",
+    "categoria": "Química",
+    "tema": "Agua: contaminantes químicos y biológicos",
+    "pregunta": "En una muestra de agua se detectan bacterias de origen fecal e iones de plomo disueltos. ¿Cómo se clasifican esos dos tipos de contaminantes, respectivamente?",
+    "opciones": {
+      "a": "Químicos y biológicos",
+      "b": "Físicos y biológicos",
+      "c": "Biológicos y químicos",
+      "d": "Biológicos y físicos"
+    },
+    "respuesta": "c",
+    "explicacion": "Las bacterias son contaminantes biológicos. Los iones de plomo constituyen contaminación química: estar disueltos no los convierte en partículas físicas suspendidas.",
+    "fuente_conceptual": "https://www.epa.gov/ccl/types-drinking-water-contaminants",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI142",
+    "categoria": "Química",
+    "tema": "Agua: separación de contaminantes disueltos",
+    "pregunta": "En un laboratorio se quiere recuperar agua de una disolución que contiene únicamente agua y una sal no volátil. ¿Qué procedimiento separa el agua de la mayor parte de esa sal?",
+    "opciones": {
+      "a": "Filtrar con papel común y recoger el filtrado",
+      "b": "Dejar sedimentar y decantar el líquido transparente",
+      "c": "Agitar para que los iones se agrupen sin cambiar las condiciones",
+      "d": "Destilar y recoger el vapor de agua condensado"
+    },
+    "respuesta": "d",
+    "explicacion": "En la destilación se evapora agua y se condensa aparte; la sal no volátil permanece en el recipiente. Filtrar o decantar no separa los iones realmente disueltos.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI143",
+    "categoria": "Química",
+    "tema": "Agua: prevención de contaminación en la fuente",
+    "pregunta": "Una fábrica usa un reactivo que genera un residuo soluble persistente en su efluente. ¿Qué medida reduce la generación del contaminante, en lugar de limitarse a dispersarlo o trasladarlo?",
+    "opciones": {
+      "a": "Sustituir el proceso por otro que no produzca ese residuo",
+      "b": "Añadir más agua al efluente para disminuir su concentración",
+      "c": "Descargar la misma masa en varios puntos del río",
+      "d": "Almacenar temporalmente el efluente y descargarlo más tarde"
+    },
+    "respuesta": "a",
+    "explicacion": "La prevención en la fuente evita o reduce la formación del residuo. Diluirlo, repartirlo o cambiar la hora de descarga no reduce por sí mismo la masa total generada.",
+    "fuente_conceptual": "https://www.epa.gov/p2/learn-about-pollution-prevention",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI144",
+    "categoria": "Química",
+    "tema": "Aire: inversión térmica y contaminación",
+    "pregunta": "En una ciudad, una capa de aire frío cercana al suelo queda debajo de otra más cálida. Hay emisiones locales y poco viento. ¿Por qué pueden acumularse contaminantes cerca de la superficie?",
+    "opciones": {
+      "a": "La capa cálida superior intensifica la convección desde el suelo",
+      "b": "La estratificación estable dificulta la mezcla vertical del aire",
+      "c": "La inversión produce transporte horizontal intenso que concentra toda emisión local",
+      "d": "El aire frío inferior asciende con facilidad porque es menos denso que el cálido"
+    },
+    "respuesta": "b",
+    "explicacion": "La inversión térmica coloca aire más cálido sobre aire frío y estable. Se dificulta el ascenso y la dispersión vertical de las emisiones; la inversión no elimina químicamente los contaminantes.",
+    "fuente_conceptual": "https://www.weather.gov/lmk/inversion",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI145",
+    "categoria": "Química",
+    "tema": "Aire y óxidos: carácter ácido y básico",
+    "pregunta": "Al reaccionar con agua, CaO forma Ca(OH)₂ y CO₂ establece un equilibrio que produce H₂CO₃. ¿Cómo se clasifican CaO y CO₂ según esas reacciones?",
+    "opciones": {
+      "a": "Ambos son óxidos básicos",
+      "b": "CaO es ácido y CO₂ básico",
+      "c": "CaO es básico y CO₂ ácido",
+      "d": "Ambos son óxidos neutros"
+    },
+    "respuesta": "c",
+    "explicacion": "CaO es un óxido básico porque da un hidróxido al reaccionar con agua. CO₂ es un óxido ácido porque en agua participa en la formación de ácido carbónico.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/18-9-occurrence-preparation-and-compounds-of-oxygen",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI146",
+    "categoria": "Química",
+    "tema": "Alimentos: función de vitamina C",
+    "pregunta": "¿Qué función nutritiva se asocia específicamente con la vitamina C, presente en frutas y verduras?",
+    "opciones": {
+      "a": "Participar en la activación de factores de coagulación",
+      "b": "Favorecer la absorción intestinal de calcio",
+      "c": "Formar parte del pigmento visual de la retina",
+      "d": "Participar en procesos necesarios para la síntesis de colágeno"
+    },
+    "respuesta": "d",
+    "explicacion": "La vitamina C interviene en la biosíntesis de colágeno, una proteína estructural importante del tejido conjuntivo. Es un micronutriente; no sustituye a las proteínas ni es una reserva energética.",
+    "fuente_conceptual": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI147",
+    "categoria": "Química",
+    "tema": "Alimentos: vitamina D y minerales",
+    "pregunta": "¿Qué función nutritiva corresponde a la vitamina D?",
+    "opciones": {
+      "a": "Favorecer la absorción intestinal de calcio",
+      "b": "Formar parte del pigmento visual de la retina",
+      "c": "Participar como cofactor en la síntesis de colágeno",
+      "d": "Participar en la activación de factores de coagulación"
+    },
+    "respuesta": "a",
+    "explicacion": "La vitamina D favorece la absorción intestinal de calcio y participa en su regulación. La vitamina A interviene en la visión; la vitamina C, en la síntesis de colágeno; y la vitamina K, en la activación de factores de coagulación.",
+    "fuente_conceptual": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI148",
+    "categoria": "Química",
+    "tema": "Alimentos: aporte energético de macronutrientes",
+    "pregunta": "Una porción contiene 20 g de carbohidratos digeribles, 5 g de proteínas y 10 g de grasas. Usa factores de 4, 4 y 9 kcal/g, respectivamente, y considera solo esos aportes. ¿Qué energía aproximada proporciona?",
+    "opciones": {
+      "a": "140 kcal",
+      "b": "190 kcal",
+      "c": "230 kcal",
+      "d": "350 kcal"
+    },
+    "respuesta": "b",
+    "explicacion": "Los aportes son 20×4 = 80 kcal, 5×4 = 20 kcal y 10×9 = 90 kcal. La suma es 190 kcal; la grasa aporta más energía por gramo en este modelo.",
+    "fuente_conceptual": "https://www.nal.usda.gov/programs/fnic",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI149",
+    "categoria": "Química",
+    "tema": "Alimentos: estructura de triglicéridos",
+    "pregunta": "Un triglicérido se forma al esterificar los tres grupos hidroxilo de una molécula de glicerol. ¿Qué otras moléculas se necesitan para formar sus tres enlaces éster?",
+    "opciones": {
+      "a": "Tres moléculas de glucosa",
+      "b": "Tres moléculas de aminoácidos unidas por enlaces peptídicos",
+      "c": "Tres moléculas de ácidos grasos",
+      "d": "Tres moléculas de glicerol adicionales"
+    },
+    "respuesta": "c",
+    "explicacion": "Cada grupo hidroxilo del glicerol reacciona con el carboxilo de un ácido graso. Así se forman tres enlaces éster y tres moléculas de agua; el producto es un triacilglicérido o triglicérido.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "QUI150",
+    "categoria": "Química",
+    "tema": "Alimentos: grupos funcionales de aminoácidos",
+    "pregunta": "En la fórmula simplificada H₂N–CH(R)–COOH de un α-aminoácido, ¿qué grupos funcionales característicos están unidos al carbono central?",
+    "opciones": {
+      "a": "Hidroxilo y aldehído",
+      "b": "Éter y cetona",
+      "c": "Éster y amida",
+      "d": "Amino y carboxilo"
+    },
+    "respuesta": "d",
+    "explicacion": "H₂N– representa el grupo amino y –COOH el carboxilo. Su presencia caracteriza a los aminoácidos; en agua pueden estar ionizados sin cambiar esa identidad estructural.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO141",
+    "categoria": "Biología",
+    "tema": "Teoría celular: observaciones históricas",
+    "pregunta": "¿Qué asociación entre observador y hallazgo corresponde al desarrollo histórico del conocimiento celular?",
+    "opciones": {
+      "a": "Hooke: compartimentos del corcho; Leeuwenhoek: microorganismos vivos",
+      "b": "Hooke: cromosomas en mitosis; Leeuwenhoek: estructura del ADN",
+      "c": "Hooke: microorganismos vivos; Leeuwenhoek: compartimentos del corcho",
+      "d": "Hooke: estructura del ADN; Leeuwenhoek: cromosomas en mitosis"
+    },
+    "respuesta": "a",
+    "explicacion": "Hooke describió los compartimentos del corcho y empleó el término célula. Leeuwenhoek observó microorganismos vivos con sus lentes. La estructura del ADN y el estudio detallado de cromosomas corresponden a investigaciones posteriores.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/4-1-studying-cells",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO142",
+    "categoria": "Biología",
+    "tema": "Respiración: transformación en el ciclo de Krebs",
+    "pregunta": "¿Qué transformación caracteriza al ciclo de Krebs durante la respiración celular aerobia?",
+    "opciones": {
+      "a": "La conversión de glucosa en piruvato mediante una secuencia de reacciones en el citosol",
+      "b": "La oxidación de grupos acetilo con liberación de CO₂ y formación de NADH y FADH₂",
+      "c": "El retorno de protones por la ATP sintasa, acoplado directamente a la formación de ATP",
+      "d": "La reducción del piruvato a lactato para regenerar NAD⁺ sin cadena respiratoria"
+    },
+    "respuesta": "b",
+    "explicacion": "El ciclo oxida grupos acetilo, libera CO₂ y forma transportadores reducidos como NADH y FADH₂. La glucólisis, la quimiosmosis y la fermentación láctica son procesos distintos.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO143",
+    "categoria": "Biología",
+    "tema": "Glucólisis: balance energético neto",
+    "pregunta": "Por cada glucosa, la glucólisis consume 2 ATP en sus primeras etapas y forma 4 ATP en etapas posteriores. ¿Cuál es su ganancia neta de ATP por glucosa?",
+    "opciones": {
+      "a": "6 ATP",
+      "b": "4 ATP",
+      "c": "2 ATP",
+      "d": "0 ATP"
+    },
+    "respuesta": "c",
+    "explicacion": "La ganancia neta descuenta la inversión: 4 − 2 = 2 ATP. Cuatro es la producción bruta, no la ganancia neta.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO144",
+    "categoria": "Biología",
+    "tema": "Fermentaciones: productos finales",
+    "pregunta": "Se comparan dos rutas fermentativas a partir de piruvato:\nRuta I: forma lactato, sin liberar CO₂ en esa conversión.\nRuta II: forma etanol y libera CO₂.\n¿Cómo se identifican, respectivamente?",
+    "opciones": {
+      "a": "Alcohólica y láctica",
+      "b": "Ambas alcohólicas",
+      "c": "Ambas lácticas",
+      "d": "Láctica y alcohólica"
+    },
+    "respuesta": "d",
+    "explicacion": "La fermentación láctica reduce piruvato a lactato. La alcohólica incluye pérdida de CO₂ y formación de etanol. Ambas permiten regenerar NAD⁺, pero no producen los mismos compuestos.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO145",
+    "categoria": "Biología",
+    "tema": "Respiración: comparación de rendimientos en un modelo",
+    "pregunta": "Un modelo didáctico fija estos rendimientos netos por glucosa:\nGlucólisis: 2 ATP; ciclo de Krebs: 2 equivalentes de ATP; fosforilación oxidativa: 26 ATP.\nEn su ruta fermentativa solo se obtienen los 2 ATP netos de glucólisis. Según este modelo, ¿cuál es el cociente entre el rendimiento total aerobio y el fermentativo?",
+    "opciones": {
+      "a": "15",
+      "b": "13",
+      "c": "30",
+      "d": "2"
+    },
+    "respuesta": "a",
+    "explicacion": "El rendimiento aerobio del modelo es 2 + 2 + 26 = 30 ATP; 30/2 = 15. Los valores son supuestos explícitos para el ejercicio, no un rendimiento universal de todas las células.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO146",
+    "categoria": "Biología",
+    "tema": "Clasificación tradicional: protistas",
+    "pregunta": "En el modelo tradicional de cinco reinos de Whittaker, ¿dónde se ubica un paramecio: organismo unicelular con núcleo, que ingiere alimento y se desplaza mediante cilios?",
+    "opciones": {
+      "a": "Monera",
+      "b": "Protista",
+      "c": "Fungi",
+      "d": "Animalia"
+    },
+    "respuesta": "b",
+    "explicacion": "En ese esquema, los eucariotas unicelulares como el paramecio se clasifican en Protista. Se explicita el sistema tradicional: los protistas no constituyen un único grupo natural en todas las clasificaciones filogenéticas actuales.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/23-2-characteristics-of-protists",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO147",
+    "categoria": "Biología",
+    "tema": "Evolución: evidencia embriológica",
+    "pregunta": "Embriones de distintos vertebrados presentan estructuras faríngeas semejantes que después forman órganos diferentes. ¿Qué interpretación evolutiva apoya esta observación?",
+    "opciones": {
+      "a": "Los adultos necesariamente tienen los mismos órganos",
+      "b": "Cada embrión pertenece a una especie ancestral distinta",
+      "c": "Comparten patrones de desarrollo heredados de ancestros comunes",
+      "d": "La semejanza demuestra intercambio de genes entre esos embriones"
+    },
+    "respuesta": "c",
+    "explicacion": "Las semejanzas del desarrollo pueden revelar ascendencia común. No implican que cada embrión sea otra especie ni que los adultos deban conservar órganos idénticos.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO148",
+    "categoria": "Biología",
+    "tema": "Evolución: evidencia biogeográfica",
+    "pregunta": "Las especies endémicas de una isla se parecen más a especies del continente cercano que a las de otra isla lejana con clima similar. ¿Qué hipótesis concuerda mejor con ese patrón?",
+    "opciones": {
+      "a": "El clima similar produce necesariamente las mismas especies",
+      "b": "El aislamiento impide cualquier cambio evolutivo posterior",
+      "c": "La semejanza con el continente demuestra que no hubo aislamiento reproductivo",
+      "d": "Hubo colonización desde el continente cercano y divergencia posterior"
+    },
+    "respuesta": "d",
+    "explicacion": "El parentesco geográfico es compatible con colonización y descendencia con modificación. Compartir clima no exige compartir especies.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO149",
+    "categoria": "Biología",
+    "tema": "Metabolismo: anabolismo y catabolismo",
+    "pregunta": "Una célula realiza dos procesos:\nI. Degrada una reserva de glucógeno a moléculas menores.\nII. Sintetiza proteínas a partir de aminoácidos, con aporte de energía.\n¿Cómo se clasifican I y II, respectivamente?",
+    "opciones": {
+      "a": "Catabólico y anabólico",
+      "b": "Anabólico y catabólico",
+      "c": "Ambos anabólicos",
+      "d": "Ambos catabólicos"
+    },
+    "respuesta": "a",
+    "explicacion": "El catabolismo descompone moléculas complejas; el anabolismo construye moléculas complejas a partir de componentes más simples. No toda reacción individual de degradación tiene que producir ATP directamente.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/6-1-energy-and-metabolism",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "BIO150",
+    "categoria": "Biología",
+    "tema": "Historia evolutiva: propuesta de Lamarck",
+    "pregunta": "¿Qué explicación corresponde al mecanismo de uso y desuso e herencia de caracteres adquiridos planteado históricamente por Lamarck?",
+    "opciones": {
+      "a": "La población cambia porque variantes heredables previas dejan diferente descendencia",
+      "b": "El uso modifica un órgano durante la vida y esa modificación se transmite a los descendientes",
+      "c": "Las frecuencias de alelos cambian al azar por un muestreo de pocos fundadores",
+      "d": "Los alelos llegan a una población cuando inmigrantes se reproducen en ella"
+    },
+    "respuesta": "b",
+    "explicacion": "La propuesta histórica relacionaba uso o desuso con modificaciones adquiridas que se heredaban. Se identifica esa explicación, no se la presenta como el mecanismo general aceptado hoy.",
+    "fuente_conceptual": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3730912/",
+    "origen": {
+      "tipo": "nueva",
+      "serie": "expansion12",
+      "revision": "Revisión conceptual, cálculos pertinentes y cruce independiente completados; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "esp-253",
+    "categoria": "Español",
+    "tema": "Ortografía: r y rr en composición",
+    "pregunta": "Al unir el elemento auto- con retrato para designar una representación que una persona hace de sí misma, ¿qué grafía corresponde?",
+    "opciones": {
+      "a": "autoretrato",
+      "b": "auto-retrato",
+      "c": "autorretrato",
+      "d": "auto retrato"
+    },
+    "respuesta": "c",
+    "explicacion": "Al quedar entre vocales el sonido fuerte de la r inicial de retrato, se escribe rr: autorretrato. El compuesto se escribe en una sola palabra.",
+    "fuente_conceptual": "https://www.fundeu.es/recomendacion/rr-erre-doble-en-palabras-compuestas-940/",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-254",
+    "categoria": "Español",
+    "tema": "Ortografía: r después de consonante",
+    "pregunta": "¿Qué serie está escrita correctamente, considerando que el sonido fuerte de r no siempre se representa con rr?",
+    "opciones": {
+      "a": "enrredo, sonrisa, alrededor",
+      "b": "enredo, sonrisa, alrededor",
+      "c": "enredo, sonrrisa, alrededor",
+      "d": "enredo, sonrisa, alrrededor"
+    },
+    "respuesta": "b",
+    "explicacion": "En enredo, sonrisa y alrededor basta una r después de n o l. La escritura rr representa ese sonido entre vocales, no en estas posiciones.",
+    "fuente_conceptual": "https://www.ucm.es/data/cont/media/www/pag-135809/9%20ortografia-rae.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-255",
+    "categoria": "Español",
+    "tema": "Funciones de la lengua: referencial",
+    "pregunta": "Un informe de laboratorio registra: «La muestra tenía una masa de 12 gramos antes del calentamiento y de 10 gramos después». Considerando que su propósito es comunicar lo observado, ¿qué función predomina?",
+    "opciones": {
+      "a": "Referencial",
+      "b": "Apelativa",
+      "c": "Poética",
+      "d": "Metalingüística"
+    },
+    "respuesta": "a",
+    "explicacion": "El enunciado informa sobre un hecho medido. Su centro es el referente observado, no una orden, la forma artística del mensaje ni la explicación del código.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-256",
+    "categoria": "Español",
+    "tema": "Funciones de la lengua: poética",
+    "pregunta": "En el verso original «La tarde borda de cobre las ventanas», ¿qué rasgo permite reconocer el predominio de la función poética?",
+    "opciones": {
+      "a": "La indicación de una hora precisa del atardecer",
+      "b": "La petición de que alguien contemple las ventanas",
+      "c": "La explicación del significado usual de cobre",
+      "d": "La elaboración de una imagen mediante las palabras"
+    },
+    "respuesta": "d",
+    "explicacion": "La tarde que borda y el cobre de la luz construyen una imagen verbal. La atención recae en cómo está elaborado el mensaje, no en una medición literal.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-257",
+    "categoria": "Español",
+    "tema": "Vocabulario: analogía de instrumento y magnitud",
+    "pregunta": "Completa la analogía conservando la relación instrumento–magnitud medida: termómetro : temperatura :: balanza : ___ .",
+    "opciones": {
+      "a": "volumen",
+      "b": "longitud",
+      "c": "masa",
+      "d": "densidad"
+    },
+    "respuesta": "c",
+    "explicacion": "El termómetro mide temperatura y la balanza mide masa. Volumen, longitud y densidad no son la magnitud que mide directamente una balanza.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-258",
+    "categoria": "Español",
+    "tema": "Vocabulario: analogía de transformación",
+    "pregunta": "¿Qué pareja mantiene la relación de transformación del material que aparece en «uva : vino»?",
+    "opciones": {
+      "a": "trigo : harina",
+      "b": "trigo : espiga",
+      "c": "trigo : cosecha",
+      "d": "trigo : sembrador"
+    },
+    "respuesta": "a",
+    "explicacion": "El vino se obtiene transformando la uva, como la harina al moler el trigo. Espiga, cosecha y sembrador guardan otras relaciones con el cereal.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-259",
+    "categoria": "Español",
+    "tema": "Ortografía: s y c en contexto",
+    "pregunta": "Completa: «Antes de ___ las verduras, tuvo que ___ el desgarrón del delantal».",
+    "opciones": {
+      "a": "coser / coser",
+      "b": "cocer / cocer",
+      "c": "coser / cocer",
+      "d": "cocer / coser"
+    },
+    "respuesta": "d",
+    "explicacion": "Cocer significa cocinar por acción del calor; coser es unir con hilo. Las acciones de cocinar verduras y reparar un delantal exigen esos verbos distintos.",
+    "fuente_conceptual": "https://dle.rae.es/cocer",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-260",
+    "categoria": "Español",
+    "tema": "Ortografía: b y v en léxico",
+    "pregunta": "¿Qué opción completa correctamente «La esponja puede ___ el líquido derramado»?",
+    "opciones": {
+      "a": "absorver",
+      "b": "absorber",
+      "c": "absolver",
+      "d": "absolber"
+    },
+    "respuesta": "b",
+    "explicacion": "Absorber, con dos bes, significa atraer y retener un líquido. Absolver es liberar de una acusación u obligación; absorver y absolber no son las grafías normativas.",
+    "fuente_conceptual": "https://www.fundeu.es/recomendacion/absorber-se-escribe-con-dos-bes/",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-261",
+    "categoria": "Español",
+    "tema": "Ortografía: g y j en conjugación",
+    "pregunta": "Completa con las formas normativas: «Aunque la empresa ___ los datos, es necesario que sus empleados también los ___». Se utilizan proteger y recoger, respectivamente.",
+    "opciones": {
+      "a": "protega / recogan",
+      "b": "proteja / recogan",
+      "c": "proteja / recojan",
+      "d": "protega / recojan"
+    },
+    "respuesta": "c",
+    "explicacion": "Proteger y recoger cambian g por j ante a para conservar el sonido de sus infinitivos: proteja y recojan.",
+    "fuente_conceptual": "https://www.ucm.es/data/cont/media/www/pag-135809/9%20ortografia-rae.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-262",
+    "categoria": "Español",
+    "tema": "Ortografía: c y z en derivación",
+    "pregunta": "¿Qué pareja conserva la escritura normativa del adjetivo y del sustantivo que designa la cualidad correspondiente?",
+    "opciones": {
+      "a": "escaso / escasez",
+      "b": "escazo / escasez",
+      "c": "escaso / escacez",
+      "d": "escazo / escacez"
+    },
+    "respuesta": "a",
+    "explicacion": "Se escribe escaso con s y escasez con s y z final. La terminación -ez forma sustantivos abstractos de cualidad; no obliga a cambiar la s de la base.",
+    "fuente_conceptual": "https://www.ucm.es/data/cont/media/www/pag-135809/9%20ortografia-rae.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-263",
+    "categoria": "Español",
+    "tema": "Vocabulario: antónimo contextual",
+    "pregunta": "En «Durante la sequía el agua era escasa; después de las lluvias volvió a ser ___», ¿qué palabra expresa la oposición buscada?",
+    "opciones": {
+      "a": "potable",
+      "b": "turbia",
+      "c": "constante",
+      "d": "abundante"
+    },
+    "respuesta": "d",
+    "explicacion": "Abundante se opone a escasa en cantidad. Potable y turbia se refieren a calidad o apariencia, y constante a continuidad.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-l15-03",
+    "categoria": "Español",
+    "tema": "Comprensión de lectura: inferencia sobre un personaje",
+    "lectura": {
+      "id": "lectura-15",
+      "titulo": "La bicicleta verde",
+      "texto": "Cada martes, al abrir el taller, encontraba una bicicleta verde apoyada junto a la cortina. Su dueño llegaba poco después, dejaba unas monedas sobre el mostrador y pedía que revisara la presión de las llantas. Nunca había una avería. Al principio pensé que desconfiaba de la bomba que tenía en su casa. Con el tiempo dejé de preguntarme por qué venía: yo levantaba la bicicleta, él miraba los frascos de tornillos y hablábamos del viento.\n\nUna mañana apareció sin ella. Llevaba las manos en los bolsillos y se quedó del lado de afuera, bajo el toldo. Le pregunté si se la habían robado. Negó con la cabeza y dijo que su nieta se la había llevado a otra ciudad. «Le cambié el asiento para que llegara bien», añadió. Lo invité a pasar, pero consultó su reloj y respondió que tenía prisa. Se marchó despacio, deteniéndose un momento frente al local de al lado, que estaba cerrado desde el invierno.\n\nPasaron dos martes sin que regresara. El tercero encontré una cámara de llanta sobre el mostrador. No vi quién la había dejado. Tenía un parche antiguo y una raya blanca que reconocí enseguida: yo la había marcado meses antes para comprobar una pérdida de aire. La colgué de un clavo y seguí trabajando. A mediodía, el dueño de la bicicleta asomó la cabeza. Preguntó si aquella cámara todavía servía. Le dije que sí, aunque necesitaba probarla con agua para estar seguro.\n\nNo había mucho trabajo. Llené una cubeta y le pedí que sostuviera un extremo mientras buscaba burbujas en el otro. Él se quitó el saco, lo dobló sobre una silla y empezó a contarme que su nieta había conseguido empleo cerca de un parque. La cámara no perdía aire. La dejamos secando junto a la puerta y preparé café. Cuando se fue, volvió a olvidarla. Esta vez no la colgué del clavo: la guardé en un cajón, donde pudiera encontrarla si el martes siguiente preguntaba por ella.",
+      "orden": 3
+    },
+    "pregunta": "¿Qué sugiere que el visitante se quite el saco y comience a hablar de su nieta?",
+    "opciones": {
+      "a": "Que ha decidido vender las herramientas del taller.",
+      "b": "Que espera una compensación por ayudar a reparar.",
+      "c": "Que se dispone a quedarse y compartir un rato de conversación.",
+      "d": "Que ha encontrado una pérdida de aire en la cámara."
+    },
+    "respuesta": "c",
+    "explicacion": "Quitarse el saco, dejarlo en una silla y comenzar una conversación indican que ya no se limita a una visita apresurada.",
+    "fuente_conceptual": "Pasaje original incluido en el reactivo; respuesta sustentada en su información y organización.",
+    "origen": "Original elaborado para este simulacro; texto y situaciones inventados, sin atribución a un autor real."
+  },
+  {
+    "id": "esp-l15-04",
+    "categoria": "Español",
+    "tema": "Comprensión de lectura: secuencia",
+    "lectura": {
+      "id": "lectura-15",
+      "titulo": "La bicicleta verde",
+      "texto": "Cada martes, al abrir el taller, encontraba una bicicleta verde apoyada junto a la cortina. Su dueño llegaba poco después, dejaba unas monedas sobre el mostrador y pedía que revisara la presión de las llantas. Nunca había una avería. Al principio pensé que desconfiaba de la bomba que tenía en su casa. Con el tiempo dejé de preguntarme por qué venía: yo levantaba la bicicleta, él miraba los frascos de tornillos y hablábamos del viento.\n\nUna mañana apareció sin ella. Llevaba las manos en los bolsillos y se quedó del lado de afuera, bajo el toldo. Le pregunté si se la habían robado. Negó con la cabeza y dijo que su nieta se la había llevado a otra ciudad. «Le cambié el asiento para que llegara bien», añadió. Lo invité a pasar, pero consultó su reloj y respondió que tenía prisa. Se marchó despacio, deteniéndose un momento frente al local de al lado, que estaba cerrado desde el invierno.\n\nPasaron dos martes sin que regresara. El tercero encontré una cámara de llanta sobre el mostrador. No vi quién la había dejado. Tenía un parche antiguo y una raya blanca que reconocí enseguida: yo la había marcado meses antes para comprobar una pérdida de aire. La colgué de un clavo y seguí trabajando. A mediodía, el dueño de la bicicleta asomó la cabeza. Preguntó si aquella cámara todavía servía. Le dije que sí, aunque necesitaba probarla con agua para estar seguro.\n\nNo había mucho trabajo. Llené una cubeta y le pedí que sostuviera un extremo mientras buscaba burbujas en el otro. Él se quitó el saco, lo dobló sobre una silla y empezó a contarme que su nieta había conseguido empleo cerca de un parque. La cámara no perdía aire. La dejamos secando junto a la puerta y preparé café. Cuando se fue, volvió a olvidarla. Esta vez no la colgué del clavo: la guardé en un cajón, donde pudiera encontrarla si el martes siguiente preguntaba por ella.",
+      "orden": 4
+    },
+    "pregunta": "¿Qué ocurre después de las dos semanas en que el hombre no visita el taller?",
+    "opciones": {
+      "a": "Aparece una cámara de llanta marcada sobre el mostrador.",
+      "b": "La nieta se lleva por primera vez la bicicleta verde.",
+      "c": "El narrador cambia el asiento de la bicicleta.",
+      "d": "El local vecino cierra al comenzar el invierno."
+    },
+    "respuesta": "a",
+    "explicacion": "El relato dice que, tras dos martes de ausencia, el tercero aparece la cámara sobre el mostrador.",
+    "fuente_conceptual": "Pasaje original incluido en el reactivo; respuesta sustentada en su información y organización.",
+    "origen": "Original elaborado para este simulacro; texto y situaciones inventados, sin atribución a un autor real."
+  },
+  {
+    "id": "esp-266",
+    "categoria": "Español",
+    "tema": "Formas del discurso: función de la descripción",
+    "pregunta": "Lee: «Eva abrió la puerta y entró. El pasillo era angosto, con techo bajo y paredes húmedas. Al fondo, una lámpara azul iluminaba una escalera. Eva cruzó el pasillo y comenzó a subir». ¿Qué función cumplen las dos oraciones centrales dentro del relato?",
+    "opciones": {
+      "a": "Anticipan el desenlace del recorrido de Eva",
+      "b": "Explican por qué Eva decidió entrar al edificio",
+      "c": "Presentan las opiniones de Eva sobre otros personajes",
+      "d": "Detienen el avance de la acción para configurar el espacio"
+    },
+    "respuesta": "d",
+    "explicacion": "Las oraciones centrales presentan rasgos del pasillo y la posición de la lámpara y la escalera. La acción de Eva se retoma después; no se explicita su motivo ni el desenlace.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-267",
+    "categoria": "Español",
+    "tema": "Redacción: precisión de instrucciones",
+    "pregunta": "Un instructivo dice: «Coloque la lámina bajo la lámpara durante cinco minutos. Retírela y espere hasta que esté lista». La persona que lo revisa pide sustituir la última frase. ¿Qué cambio resuelve la imprecisión sin añadir otro procedimiento?",
+    "opciones": {
+      "a": "Retírela y espere un poco más",
+      "b": "Retírela y aguarde el tiempo conveniente",
+      "c": "Retírela y espere hasta que su superficie esté seca al tacto",
+      "d": "Retírela y procure que el proceso termine correctamente"
+    },
+    "respuesta": "c",
+    "explicacion": "Seca al tacto proporciona una condición observable para saber cuándo terminar la espera. Un poco, conveniente y correctamente mantienen indeterminado el criterio.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-268",
+    "categoria": "Español",
+    "tema": "Vocabulario: relación de intensidad",
+    "pregunta": "En una gradación de intensidad de una cualidad, ¿qué pareja mantiene la relación entre un grado menor y otro mayor que presenta «fresco : frío»?",
+    "opciones": {
+      "a": "oscuro : opaco",
+      "b": "tibio : caliente",
+      "c": "salado : dulce",
+      "d": "seco : áspero"
+    },
+    "respuesta": "b",
+    "explicacion": "De fresco a frío aumenta la frialdad; de tibio a caliente aumenta el calor. Ambas parejas intensifican una cualidad térmica, aunque no avanzan en el mismo sentido de temperatura. Las otras parejas no presentan esa gradación.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-269",
+    "categoria": "Español",
+    "tema": "Ortografía: mayúsculas en nombres y gentilicios",
+    "pregunta": "¿Qué oración distingue correctamente un nombre geográfico propio y un gentilicio?",
+    "opciones": {
+      "a": "Una investigadora Mexicana presentó su estudio en Oaxaca.",
+      "b": "Una investigadora mexicana presentó su estudio en oaxaca.",
+      "c": "Una investigadora Mexicana presentó su estudio en oaxaca.",
+      "d": "Una investigadora mexicana presentó su estudio en Oaxaca."
+    },
+    "respuesta": "d",
+    "explicacion": "Oaxaca es nombre propio y lleva inicial mayúscula; mexicana es gentilicio y se escribe con minúscula en este contexto.",
+    "fuente_conceptual": "https://www.ucm.es/data/cont/media/www/pag-135809/9%20ortografia-rae.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "esp-l15-05",
+    "categoria": "Español",
+    "tema": "Comprensión de lectura: construcción del desenlace",
+    "lectura": {
+      "id": "lectura-15",
+      "titulo": "La bicicleta verde",
+      "texto": "Cada martes, al abrir el taller, encontraba una bicicleta verde apoyada junto a la cortina. Su dueño llegaba poco después, dejaba unas monedas sobre el mostrador y pedía que revisara la presión de las llantas. Nunca había una avería. Al principio pensé que desconfiaba de la bomba que tenía en su casa. Con el tiempo dejé de preguntarme por qué venía: yo levantaba la bicicleta, él miraba los frascos de tornillos y hablábamos del viento.\n\nUna mañana apareció sin ella. Llevaba las manos en los bolsillos y se quedó del lado de afuera, bajo el toldo. Le pregunté si se la habían robado. Negó con la cabeza y dijo que su nieta se la había llevado a otra ciudad. «Le cambié el asiento para que llegara bien», añadió. Lo invité a pasar, pero consultó su reloj y respondió que tenía prisa. Se marchó despacio, deteniéndose un momento frente al local de al lado, que estaba cerrado desde el invierno.\n\nPasaron dos martes sin que regresara. El tercero encontré una cámara de llanta sobre el mostrador. No vi quién la había dejado. Tenía un parche antiguo y una raya blanca que reconocí enseguida: yo la había marcado meses antes para comprobar una pérdida de aire. La colgué de un clavo y seguí trabajando. A mediodía, el dueño de la bicicleta asomó la cabeza. Preguntó si aquella cámara todavía servía. Le dije que sí, aunque necesitaba probarla con agua para estar seguro.\n\nNo había mucho trabajo. Llené una cubeta y le pedí que sostuviera un extremo mientras buscaba burbujas en el otro. Él se quitó el saco, lo dobló sobre una silla y empezó a contarme que su nieta había conseguido empleo cerca de un parque. La cámara no perdía aire. La dejamos secando junto a la puerta y preparé café. Cuando se fue, volvió a olvidarla. Esta vez no la colgué del clavo: la guardé en un cajón, donde pudiera encontrarla si el martes siguiente preguntaba por ella.",
+      "orden": 5
+    },
+    "pregunta": "¿Qué efecto produce la referencia al «martes siguiente» en la última oración?",
+    "opciones": {
+      "a": "Confirma que el visitante ha pagado una reparación nueva.",
+      "b": "Abre la posibilidad de que continúen los encuentros.",
+      "c": "Aclara quién dejó la cámara antes del mediodía.",
+      "d": "Anuncia que el taller cambiará su día de descanso."
+    },
+    "respuesta": "b",
+    "explicacion": "El narrador conserva la cámara pensando en una posible próxima visita; el texto no afirma que esa visita ya haya ocurrido.",
+    "fuente_conceptual": "Pasaje original incluido en el reactivo; respuesta sustentada en su información y organización.",
+    "origen": "Original elaborado para este simulacro; texto y situaciones inventados, sin atribución a un autor real."
+  },
+  {
+    "id": "lit-141",
+    "categoria": "Literatura",
+    "tema": "Investigación: ficha bibliográfica",
+    "pregunta": "Datos ficticios de un libro: autora Elena Mora; título Caminos de papel; editorial Horizonte; año 2021. ¿Qué registro conserva correctamente las funciones de esos datos, sin exigir un estilo bibliográfico particular?",
+    "opciones": {
+      "a": "Autoría: Horizonte; título: Caminos de papel; editorial: Elena Mora; año: 2021.",
+      "b": "Autoría: Elena Mora; título: Caminos de papel; editorial: Horizonte; año: 2021.",
+      "c": "Autoría: Elena Mora; título: Horizonte; editorial: Caminos de papel; año: 2021.",
+      "d": "Autoría: Caminos de papel; título: Elena Mora; editorial: Horizonte; año: 2021."
+    },
+    "respuesta": "b",
+    "explicacion": "Elena Mora es la autora, Caminos de papel el título y Horizonte la editorial. El registro correcto conserva esas funciones; el criterio no es una puntuación exclusiva de APA o MLA.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid4/unidad3/procesamiento/fichasRegistro",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "lit-142",
+    "categoria": "Literatura",
+    "tema": "Investigación: ficha hemerográfica",
+    "pregunta": "Una estudiante registra un artículo ficticio: «Lucía Salas, “El agua del barrio”, 12 de mayo de 2024, p. 8». ¿Qué dato necesita añadir para identificar la publicación periódica que lo contiene?",
+    "opciones": {
+      "a": "El resumen de la conclusión del artículo",
+      "b": "La biblioteca donde realizó la consulta",
+      "c": "El título del periódico o de la revista",
+      "d": "La opinión que le produjo la lectura"
+    },
+    "respuesta": "c",
+    "explicacion": "La referencia hemerográfica debe identificar la publicación que contiene el artículo. Autor, título, fecha y página no sustituyen el nombre del periódico o revista.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid4/unidad3/procesamiento/fichasRegistro",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "lit-143",
+    "categoria": "Literatura",
+    "tema": "Investigación: ficha de trabajo y trazabilidad",
+    "pregunta": "Una ficha contiene una paráfrasis útil para un ensayo y una referencia al libro consultado, pero no señala de qué página procede. ¿Qué mejora permite comprobar más fácilmente la correspondencia con la fuente?",
+    "opciones": {
+      "a": "Agregar la página o el intervalo donde se desarrolla la idea",
+      "b": "Añadir las otras obras publicadas por el mismo autor",
+      "c": "Incluir el número total de ejemplares de esa edición",
+      "d": "Registrar la ciudad de impresión junto con la editorial"
+    },
+    "respuesta": "a",
+    "explicacion": "La localización precisa permite volver al pasaje para contrastar la paráfrasis. No exige convertirla en cita literal ni reemplazar su referencia por el tema.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid4/unidad3/procesamiento/fichasRegistro",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "lit-144",
+    "categoria": "Literatura",
+    "tema": "Texto periodístico: entrada informativa",
+    "pregunta": "Hechos de una noticia ficticia: el ayuntamiento abrió ayer una biblioteca móvil; recorrerá seis comunidades sin biblioteca; el servicio comienza el lunes. ¿Qué entrada concentra mejor el acontecimiento y su alcance principal?",
+    "opciones": {
+      "a": "En la presentación de ayer, los asistentes recordaron la antigua biblioteca y conversaron sobre sus lecturas favoritas.",
+      "b": "Desde el lunes comenzará un servicio municipal anunciado ayer, cuyos recorridos y características se explican a continuación.",
+      "c": "El vehículo presentado ayer cuenta con ventanas amplias y estacionó frente al ayuntamiento durante la ceremonia de inauguración.",
+      "d": "El ayuntamiento presentó ayer una biblioteca móvil que desde el lunes atenderá a seis comunidades sin biblioteca."
+    },
+    "respuesta": "d",
+    "explicacion": "La entrada reúne quién hace qué y a quiénes alcanzará el servicio, con referencias temporales. Las otras versiones omiten el acontecimiento central o anteponen detalles secundarios.",
+    "fuente_conceptual": "https://nemd.aprende.gob.mx/contenido/coleccion/la-piramide-invertida-para-exponer-noticias/",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "lit-145",
+    "categoria": "Literatura",
+    "tema": "Texto periodístico: jerarquización",
+    "pregunta": "Una nota sobre la reapertura de un puente comienza con la fecha en que volverá a usarse y los vehículos autorizados; después explica las reparaciones y cierra con antecedentes del proyecto. ¿Qué principio de organización sigue?",
+    "opciones": {
+      "a": "Presenta primero la información de mayor utilidad inmediata para el lector",
+      "b": "Ordena todos los hechos desde el más antiguo hasta el más reciente",
+      "c": "Pospone el acontecimiento principal para crear un desenlace sorpresivo",
+      "d": "Agrupa únicamente opiniones favorables antes de exponer los hechos"
+    },
+    "respuesta": "a",
+    "explicacion": "La nota coloca al inicio lo más relevante para el uso del puente y luego detalles y antecedentes. Es jerarquización informativa, no cronología completa ni suspense narrativo.",
+    "fuente_conceptual": "https://nemd.aprende.gob.mx/contenido/coleccion/la-piramide-invertida-para-exponer-noticias/",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "lit-146",
+    "categoria": "Literatura",
+    "tema": "Propiedades textuales: cabalidad",
+    "pregunta": "Un aviso dice: «Las personas aceptadas deberán acudir el jueves a las 10:00 para recoger su credencial». El aviso se distribuirá fuera del plantel y no contiene encabezado ni información adicional. ¿Qué dato falta de manera más directa para que el destinatario pueda realizar la acción?",
+    "opciones": {
+      "a": "La historia de la institución que expide la credencial",
+      "b": "La opinión del personal sobre el procedimiento",
+      "c": "El lugar donde se entregarán las credenciales",
+      "d": "La cantidad de palabras utilizadas en el aviso"
+    },
+    "respuesta": "c",
+    "explicacion": "La indicación temporal y el propósito no bastan si se desconoce adónde acudir. El lugar es necesario para completar la instrucción en la situación descrita.",
+    "fuente_conceptual": "https://cch.unam.mx/sites/default/files/recursos_files/TLRIID3_LourdesZebadua.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "lit-147",
+    "categoria": "Literatura",
+    "tema": "Propiedades textuales: disposición espacial",
+    "pregunta": "Un folleto presenta cuatro horarios, cada uno con su sala y actividad, en un párrafo continuo. Se quiere facilitar que el lector encuentre rápidamente qué ocurre en cada lugar. ¿Qué cambio de disposición responde mejor a ese propósito sin alterar los datos?",
+    "opciones": {
+      "a": "Pasar todo el párrafo a mayúsculas y eliminar la puntuación",
+      "b": "Separar la información en filas con columnas de hora, sala y actividad",
+      "c": "Colocar las actividades por orden alfabético y retirar las horas",
+      "d": "Escribir las salas en una nota alejada de sus actividades correspondientes"
+    },
+    "respuesta": "b",
+    "explicacion": "Las columnas establecen correspondencias visibles entre hora, lugar y actividad. El cambio mejora la consulta manteniendo la información y sus relaciones.",
+    "fuente_conceptual": "https://cch.unam.mx/sites/default/files/recursos_files/TLRIID3_LourdesZebadua.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "lit-148",
+    "categoria": "Literatura",
+    "tema": "Teatro: fases de la acción",
+    "pregunta": "En una escena original, dos hermanas descubren que heredaron un único taller. Una quiere venderlo y la otra conservarlo. Cuando llega un comprador, ambas intentan firmar decisiones incompatibles. Finalmente acuerdan alquilarlo durante un año antes de resolver su destino. ¿Qué acontecimiento constituye el nudo del conflicto?",
+    "opciones": {
+      "a": "El descubrimiento inicial de que existe una herencia compartida",
+      "b": "La información sobre el uso anterior del taller familiar",
+      "c": "El acuerdo provisional de alquilar el local durante un año",
+      "d": "El intento de tomar decisiones incompatibles ante el comprador"
+    },
+    "respuesta": "d",
+    "explicacion": "La llegada del comprador hace urgente la oposición y concentra la tensión de la acción. El descubrimiento plantea la situación y el alquiler acordado funciona como resolución provisional.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "lit-149",
+    "categoria": "Literatura",
+    "tema": "Poesía: interpretación contextual",
+    "pregunta": "Se ofrece un poema original situado en un barrio obrero del siglo XIX, donde las fábricas fijaban los horarios mediante sirenas: «No pregunta la mañana / si ya descansó mi voz; / al silbido de la fábrica / vuelve a andar mi corazón». ¿Qué dato contextual contribuye más directamente a interpretar el silbido?",
+    "opciones": {
+      "a": "La sirena organiza el tiempo de trabajo y condiciona la vida cotidiana",
+      "b": "La sirena anuncia un festejo que interrumpe excepcionalmente el trabajo",
+      "c": "La sirena marca una elección individual del momento de comenzar a trabajar",
+      "d": "La sirena señala el final de la jornada y el regreso al descanso"
+    },
+    "respuesta": "a",
+    "explicacion": "El contexto permite relacionar el silbido con la disciplina horaria del trabajo. No identifica al autor ni elimina el lenguaje figurado del poema.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "lit-150",
+    "categoria": "Literatura",
+    "tema": "Realismo: autor y obra",
+    "pregunta": "¿Qué pareja corresponde a un autor y una novela representativos del Realismo español del siglo XIX?",
+    "opciones": {
+      "a": "Rubén Darío — Azul…",
+      "b": "Federico García Lorca — Bodas de sangre",
+      "c": "Benito Pérez Galdós — Fortunata y Jacinta",
+      "d": "Pedro Calderón de la Barca — La vida es sueño"
+    },
+    "respuesta": "c",
+    "explicacion": "Fortunata y Jacinta, de Galdós, desarrolla una representación amplia de la sociedad madrileña decimonónica. Las otras parejas pertenecen a proyectos estéticos o géneros distintos.",
+    "fuente_conceptual": "https://www.cervantesvirtual.com/obra/fortunata-y-jacinta-2011/",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "fil-141",
+    "categoria": "Filosofía",
+    "tema": "Lógica: función directiva contextual",
+    "pregunta": "Durante un examen, una profesora pregunta a un estudiante que conversa: «¿Podrías guardar silencio?». No busca averiguar su capacidad física para callar. ¿Qué uso del lenguaje predomina?",
+    "opciones": {
+      "a": "Expresivo: manifiesta una emoción sin dirigirse a una acción",
+      "b": "Directivo: intenta que el interlocutor modifique su conducta",
+      "c": "Informativo: describe el nivel sonoro mediante un dato",
+      "d": "Metalingüístico: define el significado de la palabra silencio"
+    },
+    "respuesta": "b",
+    "explicacion": "La forma interrogativa sirve en ese contexto para pedir una conducta. La función depende del uso comunicativo, no únicamente de la forma gramatical.",
+    "fuente_conceptual": "https://alianza.bunam.unam.mx/cch/funciones-del-lenguaje/",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "fil-142",
+    "categoria": "Filosofía",
+    "tema": "Lógica: función expresiva",
+    "pregunta": "Al recibir una carta esperada, alguien exclama a solas: «¡Qué alegría!». Si la emisión manifiesta principalmente su estado afectivo, ¿qué función cumple?",
+    "opciones": {
+      "a": "Directiva",
+      "b": "Informativa",
+      "c": "Argumentativa",
+      "d": "Expresiva"
+    },
+    "respuesta": "d",
+    "explicacion": "La exclamación exterioriza una emoción. No presenta una inferencia ni intenta ordenar una conducta al interlocutor.",
+    "fuente_conceptual": "https://alianza.bunam.unam.mx/cch/funciones-del-lenguaje/",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "fil-143",
+    "categoria": "Filosofía",
+    "tema": "Axiología: subjetivismo",
+    "pregunta": "Una persona sostiene que una melodía es valiosa únicamente porque le agrada a quien la escucha, y que fuera de esas reacciones no existe su valor. ¿Qué postura axiológica expresa?",
+    "opciones": {
+      "a": "Subjetivismo",
+      "b": "Objetivismo",
+      "c": "Intelectualismo moral",
+      "d": "Realismo ontológico"
+    },
+    "respuesta": "a",
+    "explicacion": "El subjetivismo hace depender el valor de las reacciones del sujeto. El caso no afirma que el valor subsista independientemente de ellas.",
+    "fuente_conceptual": "https://dianoia.filosoficas.unam.mx/index.php/dianoia/article/download/1329/1287/1299",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "fil-144",
+    "categoria": "Filosofía",
+    "tema": "Axiología: enfoque objetivo-subjetivo",
+    "pregunta": "Para valorar una herramienta, un análisis considera tanto su resistencia y diseño como las necesidades y capacidades de quienes la usarán en una situación concreta. Rechaza reducir su valor solo al gusto o solo a una propiedad aislada. ¿Qué concepción ilustra?",
+    "opciones": {
+      "a": "Un objetivismo que prescinde de toda situación de uso",
+      "b": "Un subjetivismo que solo toma en cuenta el agrado individual",
+      "c": "Una concepción relacional que integra objeto, sujeto y situación",
+      "d": "Una identificación del valor con el precio fijado en el mercado"
+    },
+    "respuesta": "c",
+    "explicacion": "La valoración surge de la relación entre características del objeto, sujeto y circunstancias. Esta integración evita reducir el valor a un polo aislado.",
+    "fuente_conceptual": "https://dianoia.filosoficas.unam.mx/index.php/dianoia/article/download/1329/1287/1299",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "fil-145",
+    "categoria": "Filosofía",
+    "tema": "Axiología: valor y bien",
+    "pregunta": "Una persona distingue entre la belleza de una escultura y la escultura concreta que puede transportarse y deteriorarse. En el vocabulario axiológico, ¿qué distinción está planteando?",
+    "opciones": {
+      "a": "Entre dos bienes materiales que ocupan el mismo espacio",
+      "b": "Entre una norma jurídica y una obligación moral",
+      "c": "Entre dos preferencias psicológicas de quien contempla",
+      "d": "Entre un valor y el bien que lo porta"
+    },
+    "respuesta": "d",
+    "explicacion": "La belleza es el valor; la escultura concreta es el bien o soporte valorado. Distinguirlos evita identificar el valor con el objeto material.",
+    "fuente_conceptual": "https://dianoia.filosoficas.unam.mx/index.php/dianoia/article/download/1329/1287/1299",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "fil-146",
+    "categoria": "Filosofía",
+    "tema": "Epistemología: sujeto y objeto",
+    "pregunta": "Una bióloga examina al microscopio una célula y elabora una representación de su estructura. Si se distingue quién conoce de aquello que se conoce, ¿cuál identificación es correcta?",
+    "opciones": {
+      "a": "Sujeto: la célula; objeto: la bióloga",
+      "b": "Sujeto: la bióloga; objeto: la célula",
+      "c": "Sujeto: el microscopio; objeto: la representación",
+      "d": "Sujeto: la representación; objeto: el microscopio"
+    },
+    "respuesta": "b",
+    "explicacion": "La bióloga realiza el acto de conocer y la célula es aquello sobre lo que recae. El microscopio funciona como instrumento y la representación como resultado cognoscitivo.",
+    "fuente_conceptual": "https://gaceta.cch.unam.mx/sites/default/files/libros/2024-01/librodetexto_filosofia.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "fil-147",
+    "categoria": "Filosofía",
+    "tema": "Ética: heteronomía y motivación",
+    "pregunta": "Un alumno admite que no considera injusto alterar una calificación, pero no lo hace porque teme la sanción de la dirección. Si se analiza exclusivamente el motivo que declara, ¿qué caracteriza su conducta?",
+    "opciones": {
+      "a": "Obediencia determinada por una sanción externa",
+      "b": "Adopción reflexiva del deber como principio propio",
+      "c": "Búsqueda desinteresada del bien de la comunidad",
+      "d": "Decisión sin intervención de ninguna norma"
+    },
+    "respuesta": "a",
+    "explicacion": "El motivo declarado depende de una imposición externa y su castigo, no del reconocimiento autónomo de un principio moral. Esa es la dimensión heterónoma que se examina.",
+    "fuente_conceptual": "https://gaceta.cch.unam.mx/sites/default/files/libros/2024-01/librodetexto_filosofia.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "fil-148",
+    "categoria": "Filosofía",
+    "tema": "Lógica: fuerza inductiva de una muestra",
+    "pregunta": "Para estimar cuántos estudiantes usan transporte público, se consulta solo a quienes esperan en la parada frente al plantel. ¿Qué modificación fortalecería más la inferencia sobre todo el alumnado?",
+    "opciones": {
+      "a": "Repetir las preguntas a las mismas personas en la misma parada",
+      "b": "Aumentar las preguntas sobre los colores de los autobuses",
+      "c": "Seleccionar estudiantes de distintos turnos sin condicionarlos a estar en la parada",
+      "d": "Consultar únicamente a los conductores que conocen la ruta"
+    },
+    "respuesta": "c",
+    "explicacion": "La selección inicial favorece a usuarios de transporte público. Una muestra del alumnado no condicionada a esa ubicación reduce ese sesgo; repetirlo no lo corrige.",
+    "fuente_conceptual": "https://gaceta.cch.unam.mx/sites/default/files/libros/2024-01/librodetexto_filosofia.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "fil-149",
+    "categoria": "Filosofía",
+    "tema": "Lógica: forma declarativa y uso del lenguaje",
+    "pregunta": "Una señal en la entrada dice «Aquí no se fuma». En ese contexto se usa para prohibir fumar, aunque ese día alguien incumpla la prohibición. ¿Por qué la frase no debe interpretarse solo como descripción estadística?",
+    "opciones": {
+      "a": "Porque una frase declarativa no puede comunicar información",
+      "b": "Porque una prohibición deja de existir cuando alguien la incumple",
+      "c": "Porque la presencia de aquí impide identificar un referente",
+      "d": "Porque su función normativa depende del contexto, no solo de su forma"
+    },
+    "respuesta": "d",
+    "explicacion": "La señal prescribe una conducta; que alguien la incumpla no transforma su función en un registro falso de cuántas personas fuman. Forma declarativa y función informativa no coinciden siempre.",
+    "fuente_conceptual": "https://alianza.bunam.unam.mx/cch/funciones-del-lenguaje/",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "fil-150",
+    "categoria": "Filosofía",
+    "tema": "Ética: conciencia moral y revisión",
+    "pregunta": "Una persona recibió elogios por ocultar un error que beneficiaba a su equipo. Al revisar sus razones, reconoce que perjudicó a otras personas y decide admitirlo aunque pierda esos elogios. ¿Qué aspecto de la conciencia moral muestra el caso?",
+    "opciones": {
+      "a": "Identificar lo correcto con la aprobación del grupo",
+      "b": "Examinar críticamente la propia acción y asumir sus consecuencias",
+      "c": "Convertir la ausencia de sanción en prueba de inocencia",
+      "d": "Sustituir la deliberación por la repetición de una costumbre"
+    },
+    "respuesta": "b",
+    "explicacion": "El juicio moral sobre la propia conducta puede llevar a revisarla frente a la aprobación social. La conciencia no se reduce a registrar elogios o sanciones.",
+    "fuente_conceptual": "https://gaceta.cch.unam.mx/sites/default/files/libros/2024-01/librodetexto_filosofia.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hu-141",
+    "categoria": "Historia Universal",
+    "tema": "Historia: criterios de periodización",
+    "pregunta": "Un curso divide la historia europea en Antigüedad, Edad Media, Edad Moderna y Edad Contemporánea. ¿Qué describe mejor el uso de esa periodización?",
+    "opciones": {
+      "a": "Una división en intervalos de igual duración para comparar todas las sociedades.",
+      "b": "Una organización del pasado mediante cortes convencionales asociados con transformaciones históricas.",
+      "c": "Una clasificación de documentos según el material en que fueron escritos.",
+      "d": "Una separación de procesos económicos que excluye los cambios políticos."
+    },
+    "respuesta": "b",
+    "explicacion": "Periodizar organiza el pasado en etapas con criterios explícitos. Las edades tradicionales no duran lo mismo ni tienen que aplicarse sin ajustes a todas las regiones.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad1/tiempoHistorico/periodizacion",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hu-142",
+    "categoria": "Historia Universal",
+    "tema": "Historia: periodización tradicional",
+    "pregunta": "En la periodización tradicional europea, ¿qué acontecimiento suele emplearse como inicio de la Edad Contemporánea?",
+    "opciones": {
+      "a": "La caída de Constantinopla en 1453.",
+      "b": "La caída del Imperio romano de Occidente en 476.",
+      "c": "La Revolución francesa de 1789.",
+      "d": "La llegada de Colón a América en 1492."
+    },
+    "respuesta": "c",
+    "explicacion": "La Revolución francesa de 1789 suele marcar el comienzo de la Edad Contemporánea en esa periodización. Es un criterio convencional de raíz europea, no una transformación simultánea de todas las sociedades.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad1/tiempoHistorico/periodizacion",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hu-143",
+    "categoria": "Historia Universal",
+    "tema": "Liberalismo económico: Smith",
+    "pregunta": "¿Qué planteamiento caracteriza al liberalismo económico de Adam Smith frente a los privilegios mercantilistas?",
+    "opciones": {
+      "a": "Favorecer la competencia y cuestionar los monopolios comerciales concedidos por el Estado.",
+      "b": "Reservar a compañías privilegiadas el intercambio exterior de cada colonia.",
+      "c": "Identificar la riqueza nacional principalmente con la acumulación de metales preciosos.",
+      "d": "Organizar la producción mediante obligaciones hereditarias de los gremios."
+    },
+    "respuesta": "a",
+    "explicacion": "Smith criticó privilegios y restricciones que protegían intereses particulares frente a la competencia. Su liberalismo no equivalía a negar toda función del Estado, al que asignaba tareas como justicia y obras públicas.",
+    "fuente_conceptual": "https://www.econlib.org/library/Smith/smWN.html?chapter_num=32",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hu-144",
+    "categoria": "Historia Universal",
+    "tema": "Liberalismo económico: Ricardo",
+    "pregunta": "La explicación de David Ricardo sobre el comercio entre países destaca que la especialización puede basarse en:",
+    "opciones": {
+      "a": "La igualdad del costo de producción de todos los bienes intercambiados.",
+      "b": "La posesión de mayor cantidad de oro que los socios comerciales.",
+      "c": "La capacidad de producir cada bien con menos trabajo que cualquier otro país.",
+      "d": "Los costos relativos de producir unos bienes en comparación con otros."
+    },
+    "respuesta": "d",
+    "explicacion": "La ventaja comparativa atiende a costos relativos: puede haber beneficios del intercambio aunque un país sea más eficiente en ambos bienes. No exige superioridad absoluta en toda la producción.",
+    "fuente_conceptual": "https://www.econlib.org/library/Topics/Details/comparativeadvantage.html",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hu-145",
+    "categoria": "Historia Universal",
+    "tema": "Liberalismo económico: libre comercio",
+    "pregunta": "La derogación de las Corn Laws británicas aprobada en 1846 se relaciona con el liberalismo económico porque buscó:",
+    "opciones": {
+      "a": "Extender la exclusividad de compañías coloniales sobre el comercio de granos.",
+      "b": "Reducir las barreras que protegían a los productores nacionales de cereales.",
+      "c": "Asegurar a los terratenientes un precio mínimo elevado mediante restricciones de importación.",
+      "d": "Transferir al gobierno la administración de las explotaciones agrícolas privadas."
+    },
+    "respuesta": "b",
+    "explicacion": "Las Corn Laws protegían la producción británica de cereales frente a importaciones. Su derogación fue un avance del libre comercio, con una transición de los gravámenes; no significó nacionalizar la agricultura.",
+    "fuente_conceptual": "https://committees.parliament.uk/committee/326/petitions-committee/news/99040/petitions-and-the-corn-laws/ ; https://hansard.parliament.uk/Commons/1846-01-27/debates/099659f7-6ae2-43d3-aa81-6bd17ad2076b/CommonsChamber",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hu-146",
+    "categoria": "Historia Universal",
+    "tema": "Entreguerras: planificación soviética",
+    "pregunta": "¿Qué orientación distinguió al Primer Plan Quinquenal soviético, iniciado en 1928, respecto de la apertura parcial de la NEP?",
+    "opciones": {
+      "a": "Priorizar la pequeña empresa privada y el comercio libre de productos agrícolas.",
+      "b": "Restituir grandes propiedades a la nobleza y exportar sus rentas agrarias.",
+      "c": "Acelerar la industria pesada y ampliar el control estatal mediante la colectivización agrícola.",
+      "d": "Dejar la inversión industrial a compañías extranjeras con autonomía de planificación."
+    },
+    "respuesta": "c",
+    "explicacion": "El plan impulsó la industrialización rápida, especialmente pesada, y el avance de la colectivización. Se apartó del margen de actividad privada permitido por la NEP; ese proceso implicó coerción y graves costos humanos.",
+    "fuente_conceptual": "https://www.loc.gov/exhibits/archives/intn.html",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hu-147",
+    "categoria": "Historia Universal",
+    "tema": "Entreguerras: represión estalinista",
+    "pregunta": "Los procesos de Moscú y las purgas soviéticas de los años treinta se relacionan principalmente con:",
+    "opciones": {
+      "a": "La eliminación de adversarios reales o supuestos y la consolidación del poder de Stalin.",
+      "b": "La legalización de partidos rivales para competir con el Partido Comunista.",
+      "c": "La transferencia del control político de Moscú a las repúblicas federadas.",
+      "d": "La restitución del poder de los dirigentes bolcheviques desplazados por Stalin."
+    },
+    "respuesta": "a",
+    "explicacion": "Las purgas incluyeron juicios, detenciones y ejecuciones de antiguos dirigentes y muchos otros grupos. Fortalecieron el control estalinista mediante la represión de opositores reales o atribuidos.",
+    "fuente_conceptual": "https://www.loc.gov/exhibits/archives/intn.html",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hu-148",
+    "categoria": "Historia Universal",
+    "tema": "Revolución científico-tecnológica: ciencia e industria",
+    "pregunta": "¿Qué relación entre ciencia e industria ejemplifican los trabajos de Louis Pasteur sobre la fermentación durante el siglo XIX?",
+    "opciones": {
+      "a": "El estudio de nutrientes minerales para desarrollar fertilizantes agrícolas.",
+      "b": "El estudio de corrientes eléctricas para mejorar la comunicación telegráfica.",
+      "c": "El estudio de aleaciones metálicas para aumentar la resistencia de herramientas.",
+      "d": "El estudio de microorganismos para comprender y mejorar procesos de producción y conservación de alimentos."
+    },
+    "respuesta": "d",
+    "explicacion": "Pasteur vinculó fermentaciones con microorganismos específicos y desarrolló procedimientos para evitar alteraciones de productos. Es un caso histórico de investigación experimental aplicada a la producción, sin recurrir a tecnologías posteriores.",
+    "fuente_conceptual": "https://www.pasteur.fr/en/whats-new/latest-news/features/louis-pasteur-universal-legacy",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hu-149",
+    "categoria": "Historia Universal",
+    "tema": "Entreguerras: acuerdos internacionales",
+    "pregunta": "¿Qué buscó prohibir el Protocolo de Ginebra de 1925 en los conflictos armados?",
+    "opciones": {
+      "a": "La fabricación y exportación de toda clase de municiones.",
+      "b": "El empleo de armas químicas y bacteriológicas.",
+      "c": "El reclutamiento obligatorio para formar ejércitos nacionales.",
+      "d": "La utilización de submarinos para escoltar barcos mercantes."
+    },
+    "respuesta": "b",
+    "explicacion": "El protocolo proscribió el empleo bélico de gases asfixiantes o tóxicos y de métodos bacteriológicos. No fue un acuerdo de desarme general ni eliminó por sí mismo la producción de esas armas.",
+    "fuente_conceptual": "https://www.ungeneva.org/en/about/league-of-nations/at-work",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hu-150",
+    "categoria": "Historia Universal",
+    "tema": "Mundo contemporáneo: sistema monetario",
+    "pregunta": "¿Qué decisión estadounidense anunciada en agosto de 1971 debilitó un fundamento del sistema monetario de Bretton Woods?",
+    "opciones": {
+      "a": "Crear una red de créditos recíprocos entre bancos centrales para apoyar sus reservas.",
+      "b": "Introducir los derechos especiales de giro como nuevo activo internacional de reserva.",
+      "c": "Suspender la conversión oficial de dólares en oro para autoridades monetarias extranjeras.",
+      "d": "Acordar la flotación generalizada de las principales monedas internacionales."
+    },
+    "respuesta": "c",
+    "explicacion": "La suspensión de la convertibilidad oficial del dólar en oro rompió una pieza central de Bretton Woods. La red de créditos recíprocos de la Reserva Federal comenzó en 1962; el FMI creó los derechos especiales de giro en 1969. La flotación generalizada se consolidó en 1973, no en agosto de 1971.",
+    "fuente_conceptual": "https://www.federalreservehistory.org/essays/gold-convertibility-ends ; https://www.imf.org/en/about/faq/special-drawing-right",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hm-141",
+    "categoria": "Historia de México",
+    "tema": "México 1970–1982: desarrollo compartido",
+    "pregunta": "¿Qué propósito declaró el modelo de desarrollo compartido impulsado por Luis Echeverría?",
+    "opciones": {
+      "a": "Combinar crecimiento económico con una distribución más amplia del ingreso mediante una mayor acción estatal.",
+      "b": "Dar prioridad a la estabilidad cambiaria y de precios sin alterar la distribución del ingreso.",
+      "c": "Estimular la inversión mediante privatizaciones y una reducción del sector empresarial estatal.",
+      "d": "Promover el crecimiento mediante apertura comercial y menor protección a la industria nacional."
+    },
+    "respuesta": "a",
+    "explicacion": "El desarrollo compartido planteó corregir desigualdades y ampliar la participación estatal en el crecimiento y sus beneficios. Es el objetivo declarado, no una afirmación de que se alcanzara una redistribución efectiva.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/repositorio-de-sitios/historico-social/historia-de-mexico-2/HMII/ArribaEcheverria.htm",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hm-142",
+    "categoria": "Historia de México",
+    "tema": "México 1970–1982: financiamiento y crisis",
+    "pregunta": "¿Qué relación contribuyó a los desequilibrios económicos mexicanos de 1971–1976?",
+    "opciones": {
+      "a": "La contracción del crédito público acompañada por acumulación de superávits presupuestarios.",
+      "b": "La reducción de importaciones de bienes de capital acompañada por excedentes comerciales.",
+      "c": "El crecimiento de ingresos tributarios por encima de los aumentos del gasto gubernamental.",
+      "d": "La expansión del gasto sin ingresos suficientes, cubierta en parte mediante crédito y deuda."
+    },
+    "respuesta": "d",
+    "explicacion": "El gasto público y sus necesidades de financiamiento aumentaron. El recurso al crédito y al endeudamiento contribuyó, junto con otros factores internos y externos, a los desequilibrios que culminaron en la crisis cambiaria de 1976.",
+    "fuente_conceptual": "https://www.banxico.org.mx/publicaciones-y-prensa/informes-anuales/%7B220FA58C-E367-7755-62E3-EDC8839EA951%7D.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hm-143",
+    "categoria": "Historia de México",
+    "tema": "Reconstrucción nacional: Plan Sexenal",
+    "pregunta": "El Plan Sexenal del PNR para 1934–1940 propuso, en materia agraria:",
+    "opciones": {
+      "a": "Concluir el reparto al considerar satisfechas las solicitudes campesinas existentes.",
+      "b": "Impulsar la dotación de tierras y el crédito agrícola para fortalecer la reforma agraria.",
+      "c": "Reservar el apoyo público a grandes propietarios y posponer las dotaciones ejidales.",
+      "d": "Sustituir las solicitudes de tierras por concesiones mineras otorgadas a los pueblos."
+    },
+    "respuesta": "b",
+    "explicacion": "El plan planteaba profundizar la reforma agraria y respaldarla con recursos, incluido crédito agrícola. No suponía que el problema agrario estuviera resuelto; fue una base programática del periodo cardenista.",
+    "fuente_conceptual": "https://archivos.juridicas.unam.mx/www/bjv/libros/7/3359/20.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hm-144",
+    "categoria": "Historia de México",
+    "tema": "Nueva España: instituciones científicas",
+    "pregunta": "¿Qué institución novohispana fundada en 1792 vinculó la enseñanza de matemáticas, física y mineralogía con la formación de especialistas para las minas?",
+    "opciones": {
+      "a": "El Colegio de San Ildefonso.",
+      "b": "La Academia de San Carlos.",
+      "c": "El Real Seminario de Minería.",
+      "d": "El Consulado de Comerciantes."
+    },
+    "respuesta": "c",
+    "explicacion": "El Real Seminario de Minería organizó formación científica y técnica para la actividad minera. La Academia de San Carlos se orientó a las artes, mientras el Consulado era una corporación mercantil.",
+    "fuente_conceptual": "https://www.ingenieria.unam.mx/historia.php",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hm-145",
+    "categoria": "Historia de México",
+    "tema": "Nueva España: debates científicos",
+    "pregunta": "¿Qué rasgo de la actividad intelectual novohispana ilustra la polémica de Carlos de Sigüenza y Góngora sobre el cometa de 1680?",
+    "opciones": {
+      "a": "La búsqueda de explicaciones naturales mediante argumentos y observaciones astronómicas.",
+      "b": "La interpretación del cometa como un presagio que determinaba las decisiones políticas.",
+      "c": "La elaboración de horóscopos individuales como base para explicar la trayectoria del cometa.",
+      "d": "La aceptación de una opinión astronómica por la procedencia europea de su autor."
+    },
+    "respuesta": "a",
+    "explicacion": "Sigüenza defendió estudiar los cometas como fenómenos naturales y polemizó con otras interpretaciones. El episodio muestra debate científico en Nueva España; no prueba que desaparecieran todas las creencias astrológicas.",
+    "fuente_conceptual": "https://historicas.unam.mx/comunicacion-publica/proyectos-especiales/gran-cometa-de-1680",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hm-146",
+    "categoria": "Historia de México",
+    "tema": "Porfiriato: educación y cultura",
+    "pregunta": "¿Qué proyecto educativo impulsado por Justo Sierra se inauguró en 1910, al final del Porfiriato?",
+    "opciones": {
+      "a": "La Secretaría de Educación Pública con campañas nacionales de alfabetización.",
+      "b": "El Instituto Politécnico Nacional orientado a la formación técnica.",
+      "c": "La Comisión Nacional de Libros de Texto Gratuitos para primaria.",
+      "d": "La Universidad Nacional de México, que reunió varias escuelas superiores."
+    },
+    "respuesta": "d",
+    "explicacion": "La Universidad Nacional fue inaugurada en 1910 por iniciativa de Justo Sierra. La SEP se creó en 1921, el IPN en 1936 y la Conaliteg en 1959; no se debe confundir la fundación universitaria con su autonomía posterior.",
+    "fuente_conceptual": "https://www.unam.mx/acerca-de-la-unam/unam-en-el-tiempo/cronologia-historica-de-la-unam/1910",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hm-147",
+    "categoria": "Historia de México",
+    "tema": "Gobierno constitucional de Carranza: política exterior",
+    "pregunta": "Durante 1917–1918, ante la Primera Guerra Mundial y las presiones de las potencias, el gobierno de Venustiano Carranza mantuvo una política de:",
+    "opciones": {
+      "a": "Adhesión militar a los Aliados con envío de tropas a Europa.",
+      "b": "Neutralidad mexicana frente a los bloques beligerantes.",
+      "c": "Alianza militar con Alemania para recuperar territorios por la fuerza.",
+      "d": "Ruptura de relaciones diplomáticas con Alemania, sin intervención en los combates."
+    },
+    "respuesta": "b",
+    "explicacion": "Carranza mantuvo la neutralidad de México. Las propuestas y presiones de los beligerantes no equivalen a una alianza aceptada ni a la participación mexicana en los combates europeos.",
+    "fuente_conceptual": "https://www.cultura.gob.mx/regiones_de_mexico/noroeste/detalle.php?act=172801 ; https://www.cultura.gob.mx/regiones_de_mexico/centro/detalle.php?act=197699",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hm-148",
+    "categoria": "Historia de México",
+    "tema": "República Restaurada: organización del Congreso",
+    "pregunta": "¿Qué cambio institucional se aprobó en 1874 durante la presidencia de Sebastián Lerdo de Tejada?",
+    "opciones": {
+      "a": "La sustitución de los estados federados por departamentos.",
+      "b": "La supresión de la Cámara de Diputados para concentrar el poder legislativo.",
+      "c": "El restablecimiento del Senado y de un Congreso federal bicameral.",
+      "d": "La creación de un poder superior encargado de anular actos de los otros poderes."
+    },
+    "respuesta": "c",
+    "explicacion": "La reforma de 1874 restableció el Senado, suprimido en el diseño unicameral de 1857. El Congreso quedó integrado por dos cámaras, sin eliminar la Cámara de Diputados ni sustituir el federalismo por departamentos.",
+    "fuente_conceptual": "https://cide-constituciones-1857-1917.mx/anexo-reformas-adiciones.php",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hm-149",
+    "categoria": "Historia de México",
+    "tema": "República Restaurada: consolidación de la Reforma",
+    "pregunta": "¿Qué alcance tuvo la reforma constitucional de 1873 promovida durante el gobierno de Lerdo de Tejada?",
+    "opciones": {
+      "a": "Incorporó a la Constitución principios de la Reforma, como la independencia entre Iglesia y Estado.",
+      "b": "Restableció los fueros civiles del clero y del ejército como garantías constitucionales.",
+      "c": "Subordinó los registros de estado civil a la autorización de autoridades eclesiásticas.",
+      "d": "Devolvió a las corporaciones religiosas las propiedades nacionalizadas en 1859."
+    },
+    "respuesta": "a",
+    "explicacion": "En 1873 se elevaron a rango constitucional principios reformistas, incluida la independencia de Iglesia y Estado. Se consolidó jurídicamente la Reforma, no se revirtieron sus disposiciones secularizadoras.",
+    "fuente_conceptual": "https://ordenjuridico.segob.gob.mx/Constitucion/cn17.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "hm-150",
+    "categoria": "Historia de México",
+    "tema": "México 1970–1982: conflicto político y sociedad",
+    "pregunta": "¿Qué episodio de 1971 mostró la persistencia de la represión contra el movimiento estudiantil durante el gobierno de Luis Echeverría?",
+    "opciones": {
+      "a": "La intervención contra estudiantes en la Plaza de las Tres Culturas.",
+      "b": "La represión del movimiento ferrocarrilero encabezado por Demetrio Vallejo.",
+      "c": "La detención de participantes en el movimiento médico de los años sesenta.",
+      "d": "La agresión del 10 de junio conocida como el Halconazo."
+    },
+    "respuesta": "d",
+    "explicacion": "El Halconazo fue la agresión contra una manifestación estudiantil del 10 de junio de 1971 en la Ciudad de México. Constituye un episodio distinto de Tlatelolco 1968 y revela límites de la apertura política anunciada.",
+    "fuente_conceptual": "https://portales.segob.gob.mx/es/SitiosDeMemoria/El_Halconazo",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "geo-141",
+    "categoria": "Geografía",
+    "tema": "Deterioro ambiental: marea negra",
+    "pregunta": "Tras un derrame de petróleo en el mar, ¿qué información es más útil para estimar qué tramos costeros podrían recibir la mancha durante las próximas horas?",
+    "opciones": {
+      "a": "La densidad de población de las capitales y la superficie de sus municipios.",
+      "b": "La dirección y velocidad de las corrientes superficiales y del viento, junto con la posición del derrame.",
+      "c": "El contenido de minerales de las montañas interiores y la edad de sus rocas.",
+      "d": "Las temperaturas medias anuales de ciudades distantes y sus límites administrativos."
+    },
+    "respuesta": "b",
+    "explicacion": "El transporte de una mancha superficial depende en buena medida de corrientes y viento. Se combina esa información con la ubicación y características del derrame; no basta la distancia a la costa ni se trata de una predicción exacta sin incertidumbre.",
+    "fuente_conceptual": "https://oceanservice.noaa.gov/facts/oil-spill-trajectory.html",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "geo-142",
+    "categoria": "Geografía",
+    "tema": "Recursos minerales mundiales: cobre",
+    "pregunta": "¿Qué asociación entre una gran zona minera y su recurso característico es correcta?",
+    "opciones": {
+      "a": "Chuquicamata, Chile — carbón.",
+      "b": "Chuquicamata, Bolivia — estaño.",
+      "c": "Chuquicamata, Chile — cobre.",
+      "d": "Chuquicamata, Perú — hierro."
+    },
+    "respuesta": "c",
+    "explicacion": "Chuquicamata se localiza en el norte de Chile y es una explotación de cobre. La pregunta evalúa localización y recurso, no una clasificación anual de países productores.",
+    "fuente_conceptual": "https://www.codelco.com/chuquicamata",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "geo-143",
+    "categoria": "Geografía",
+    "tema": "Recursos minerales mundiales: hierro",
+    "pregunta": "La región de Pilbara, en Australia Occidental, es especialmente conocida por la explotación de:",
+    "opciones": {
+      "a": "Mineral de hierro.",
+      "b": "Minerales de estaño.",
+      "c": "Roca fosfórica.",
+      "d": "Minerales de mercurio."
+    },
+    "respuesta": "a",
+    "explicacion": "Pilbara alberga importantes depósitos y explotaciones de mineral de hierro. Se utiliza una asociación regional estable, sin afirmar un puesto mundial de producción ni reservas de un año específico.",
+    "fuente_conceptual": "https://www.ga.gov.au/education/minerals-energy/australian-mineral-facts/iron",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "geo-144",
+    "categoria": "Geografía",
+    "tema": "México: regiones industriales",
+    "pregunta": "¿Qué pareja ciudad–entidad identifica un núcleo industrial del noreste mexicano con tradición siderúrgica, metalmecánica y manufacturera?",
+    "opciones": {
+      "a": "Guadalajara — Jalisco.",
+      "b": "Puebla — Puebla.",
+      "c": "Toluca — Estado de México.",
+      "d": "Monterrey — Nuevo León."
+    },
+    "respuesta": "d",
+    "explicacion": "Monterrey se ubica en Nuevo León, en el noreste, y su industrialización incluyó una destacada tradición siderúrgica y manufacturera. Las otras ciudades son industriales, pero no corresponden a la región y entidad pedidas.",
+    "fuente_conceptual": "https://portal.monterrey.gob.mx/pdf/gacetas/Gaceta_especial_Plan_de_Desarrollo_Urbano.pdf ; https://www.hcnl.gob.mx/archivo/2013/05/fundidora-de-monterrey.php",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "geo-145",
+    "categoria": "Geografía",
+    "tema": "México: localización de la industria automotriz",
+    "pregunta": "Las instalaciones automotrices de Silao, Salamanca, Celaya y Apaseo el Grande ejemplifican un corredor industrial situado principalmente en:",
+    "opciones": {
+      "a": "El eje industrial de Monterrey y Saltillo.",
+      "b": "El Bajío de Guanajuato.",
+      "c": "El corredor industrial de Puebla y Tlaxcala.",
+      "d": "El espacio industrial de Tijuana y Mexicali."
+    },
+    "respuesta": "b",
+    "explicacion": "Silao, Salamanca, Celaya y Apaseo el Grande se encuentran en Guanajuato y forman parte del espacio industrial del Bajío. Los otros corredores también tienen actividad industrial, pero se localizan en regiones distintas.",
+    "fuente_conceptual": "https://puertointerior.guanajuato.gob.mx/blog/2024/12/09/cuantas-oems-existen-en-guanajuato-y-que-impacto-tienen-en-la-economia-de-mexico/ ; https://www.toyota.com/content/dam/tusa/assets/pdfs/toyota-operations-map-fall-2023.pdf",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "geo-146",
+    "categoria": "Geografía",
+    "tema": "México: áreas pesqueras",
+    "pregunta": "Los puertos de Guaymas y Ensenada participan en la pesca de pelágicos menores, como sardinas y anchovetas. ¿Qué asociación los localiza correctamente?",
+    "opciones": {
+      "a": "Guaymas — Sinaloa; Ensenada — Baja California Sur.",
+      "b": "Guaymas — Baja California; Ensenada — Sonora.",
+      "c": "Guaymas — Sonora; Ensenada — Baja California.",
+      "d": "Guaymas — Sonora; Ensenada — Baja California Sur."
+    },
+    "respuesta": "c",
+    "explicacion": "Guaymas está en Sonora, en el golfo de California; Ensenada se ubica en Baja California, en el litoral del Pacífico. Ambos son puertos documentados de desembarque de pelágicos menores. No se exige un ranking anual de capturas.",
+    "fuente_conceptual": "https://www.gob.mx/imipas/prensa/estudios-cientificos-descartan-sobreexplotacion-de-sardina-y-otros-pelagicos-menores-en-el-golfo-de-california-273247",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "geo-147",
+    "categoria": "Geografía",
+    "tema": "Población mundial: áreas de concentración",
+    "pregunta": "¿Cuál de estas regiones constituye una extensa área de fuerte concentración de población en Asia meridional?",
+    "opciones": {
+      "a": "La llanura del Ganges, al sur del Himalaya.",
+      "b": "La meseta tibetana, al norte del Himalaya.",
+      "c": "El desierto del Gobi, entre Mongolia y China.",
+      "d": "La península de Kamchatka, al noreste de Asia."
+    },
+    "respuesta": "a",
+    "explicacion": "La llanura del Ganges y su continuidad hacia el delta forman una región muy poblada. Las otras áreas tienen condiciones y patrones de asentamiento distintos; la concentración no se explica únicamente por un factor natural.",
+    "fuente_conceptual": "https://www.nmcg.nic.in/AboutBio.aspx ; https://eu-space.europa.eu/components/earth-observation-copernicus/image-of-the-day/haze-over-indo-gangetic-plain",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "geo-148",
+    "categoria": "Geografía",
+    "tema": "México: zonas de exposición a ciclones",
+    "pregunta": "¿Qué pareja de localidades costeras mexicanas ilustra exposición a ciclones tropicales procedentes de las cuencas del Pacífico y del Atlántico?",
+    "opciones": {
+      "a": "Mazatlán y Manzanillo.",
+      "b": "Veracruz y Tampico.",
+      "c": "Hermosillo y Mérida.",
+      "d": "Acapulco y Cancún."
+    },
+    "respuesta": "d",
+    "explicacion": "Acapulco se encuentra en el litoral del Pacífico y Cancún en el Caribe, parte de la cuenca atlántica. México está expuesto a ciclones de ambas cuencas; sus lluvias también pueden afectar zonas interiores.",
+    "fuente_conceptual": "https://smn.conagua.gob.mx/es/ciclones-tropicales/lluvias-asociadas-a-ciclones-tropicales",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "geo-149",
+    "categoria": "Geografía",
+    "tema": "Economía mundial: integración regional",
+    "pregunta": "¿Qué rasgo distingue al mercado único de la Unión Europea de un acuerdo limitado a reducir aranceles sobre mercancías?",
+    "opciones": {
+      "a": "La aplicación de un arancel externo común sin movilidad de trabajadores.",
+      "b": "La libre circulación de personas, bienes, servicios y capitales conforme a normas comunes.",
+      "c": "La coordinación de políticas energéticas sin integración de los mercados laborales.",
+      "d": "El otorgamiento de preferencias comerciales bilaterales sin reglas comunes para servicios."
+    },
+    "respuesta": "b",
+    "explicacion": "El mercado único incorpora la circulación de personas, bienes, servicios y capitales, sujeta a normas y condiciones comunes. Es más amplio que una unión aduanera, una coordinación sectorial o acuerdos limitados de preferencias comerciales.",
+    "fuente_conceptual": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=legissum%3Ainternal_market",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  },
+  {
+    "id": "geo-150",
+    "categoria": "Geografía",
+    "tema": "Relieve mundial: llanuras y actividades económicas",
+    "pregunta": "¿Qué asociación localiza una extensa llanura sudamericana vinculada históricamente con agricultura y ganadería de clima templado?",
+    "opciones": {
+      "a": "Altiplano andino — norte de Chile y oeste de Bolivia.",
+      "b": "Meseta del Tíbet — interior de Asia.",
+      "c": "Llanura pampeana — centro-este de Argentina.",
+      "d": "Macizo de las Guayanas — norte tropical de Sudamérica."
+    },
+    "respuesta": "c",
+    "explicacion": "La llanura pampeana ocupa amplias áreas del centro-este argentino y ha sustentado agricultura y ganadería. No debe confundirse la región natural con los límites de la provincia llamada La Pampa.",
+    "fuente_conceptual": "https://www.argentina.gob.ar/parquesnacionales/ecorregiones/pampa ; https://www.lapampa.gob.ar/economia.html",
+    "origen": "Original, ampliación12 orientada a brechas curriculares; revisión y cruce completados. Sin calibración psicométrica."
+  }
+]

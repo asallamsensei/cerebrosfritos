@@ -1,0 +1,2315 @@
+[
+  {
+    "id": "esp-019",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Paráfrasis",
+    "pregunta": "¿Cuál es una paráfrasis fiel de «El préstamo se renovará únicamente si no existe otra solicitud del mismo libro»?",
+    "opciones": {
+      "a": "Solo se podrá extender el préstamo cuando ninguna otra persona haya solicitado ese libro.",
+      "b": "El préstamo nunca admite renovación.",
+      "c": "Cualquier préstamo puede renovarse aunque otra persona haya solicitado el libro.",
+      "d": "Para renovar, es obligatorio que otra persona solicite el mismo libro."
+    },
+    "respuesta": "a",
+    "explicacion": "La opción conserva la condición restrictiva del original con una redacción distinta. Las demás eliminan, niegan o invierten esa condición.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/resumirInformacion/laParafrasis",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "esp-020",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Español",
+    "tema": "Cohesión: orden textual",
+    "pregunta": "Ordena las oraciones para formar una secuencia coherente: 1. Finalmente, se redactó un informe con los resultados. 2. Primero, se definió el problema que se estudiaría. 3. Con ese problema delimitado, se recolectaron los datos. 4. Después de la recolección, se analizaron los datos obtenidos.",
+    "opciones": {
+      "a": "2, 4, 1, 3",
+      "b": "2, 3, 4, 1",
+      "c": "1, 4, 3, 2",
+      "d": "3, 2, 1, 4"
+    },
+    "respuesta": "b",
+    "explicacion": "Los marcadores y las referencias fijan el orden: definir el problema, recolectar los datos, analizarlos y redactar el informe.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad2/usodelParrafo/cohesionElementosLinguisticos",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "esp-021",
+    "categoria": "Español",
+    "tema": "Funciones de la lengua",
+    "pregunta": "En «¿Me escuchas? Uno, dos, probando», predomina la función…",
+    "opciones": {
+      "a": "fática",
+      "b": "poética",
+      "c": "metalingüística",
+      "d": "referencial"
+    },
+    "respuesta": "a",
+    "explicacion": "Se comprueba que el canal de comunicación funcione, no se desarrolla un tema externo.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original nuevo"
+  },
+  {
+    "id": "esp-022",
+    "categoria": "Español",
+    "tema": "Formas del discurso",
+    "pregunta": "Lee: «El recinto es rectangular. Dos ventanas estrechas flanquean la puerta y una mesa ocupa el centro». ¿Qué forma discursiva predomina?",
+    "opciones": {
+      "a": "Diálogo",
+      "b": "Narración",
+      "c": "Argumentación",
+      "d": "Descripción"
+    },
+    "respuesta": "d",
+    "explicacion": "Se presentan características y la disposición espacial del recinto, no una secuencia de sucesos.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original nuevo"
+  },
+  {
+    "id": "esp-023",
+    "categoria": "Español",
+    "tema": "Formas del discurso",
+    "pregunta": "¿Qué fragmento tiene organización predominantemente narrativa?",
+    "opciones": {
+      "a": "Conviene ampliar el horario por estas razones.",
+      "b": "El cristal es transparente y frágil.",
+      "c": "Entró, dejó la maleta y salió sin despedirse.",
+      "d": "La evaporación consiste en un cambio de estado."
+    },
+    "respuesta": "c",
+    "explicacion": "La sucesión de acciones «entró, dejó la maleta y salió» organiza temporalmente el fragmento narrativo.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original nuevo"
+  },
+  {
+    "id": "esp-l01-04",
+    "categoria": "Español",
+    "tema": "Lectura: detalle significativo",
+    "pregunta": "¿Qué contraste establece el final mediante los dos bolsillos?",
+    "opciones": {
+      "a": "La importancia de guardar documentos frente a perderlos",
+      "b": "El entrenamiento individual frente al entrenamiento de equipo",
+      "c": "La información provisional frente al resultado descalificado",
+      "d": "La mejora personal frente a la obtención de una medalla"
+    },
+    "respuesta": "d",
+    "explicacion": "El tiempo representa una marca personal; la medalla representa un premio por posición. Los bolsillos diferencian esos logros.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/lecturaAnalitica/lecturaAnalitica",
+    "origen": "Bloque original de lectura; texto creado para práctica, sin atribución a autores reales; redistribución1800",
+    "lectura": {
+      "id": "lectura-01",
+      "titulo": "La segunda vuelta",
+      "texto": "El día de la carrera, Inés llegó antes que los encargados de colocar las vallas. Recorrió la pista con la mirada y se detuvo en la última curva. Allí había perdido el año anterior una ventaja que consideraba segura. Desde entonces entrenaba para llegar a ese punto sin mirar atrás. Su entrenador le había dicho que reconocer una debilidad no obligaba a convertirla en el centro de todos los pensamientos.\n\nEn la salida, Inés descubrió que Vera, su rival habitual, llevaba una venda en la muñeca. Estuvo a punto de preguntarle qué había pasado, pero temió que la pregunta pareciera una búsqueda de ventajas. Se limitó a saludar. Cuando sonó la señal, ambas quedaron detrás de una corredora que imprimió un ritmo rápido. Inés decidió seguirla, aunque el plan acordado era reservar fuerzas durante la primera vuelta.\n\nAl comenzar la segunda, la corredora de delante se apartó. No había sostenido el ritmo. Inés sintió por un instante que la pista se abría solo para ella, pero oyó a Vera acercarse. La venda se había soltado y ondeaba como una pequeña bandera. Inés miró aquel movimiento, perdió la regularidad de sus pasos y volvió a pensar en la curva. Todavía estaba lejos de ella.\n\nEntonces recordó algo que habían practicado sin público: contar sus propias respiraciones durante unos segundos. No era un modo de correr más deprisa, sino de recuperar la atención. Dejó de buscar el sonido de las pisadas ajenas. Al entrar en la curva, Vera la adelantó. Inés no aceleró de golpe; conservó el paso y llegó a la meta detrás de ella, con una marca mejor que cualquiera de las suyas anteriores.\n\nDespués, mientras esperaban el resultado oficial, Vera le contó que se había lastimado la muñeca al mover una mesa. Inés se rio de las explicaciones que había imaginado. Guardó el papel con su tiempo en un bolsillo distinto del que reservaba para las medallas. Aquella tarde tenía algo que celebrar, aunque no fuera lo que había venido a buscar.",
+      "orden": 4
+    }
+  },
+  {
+    "id": "esp-l01-05",
+    "categoria": "Español",
+    "tema": "Lectura: inferencia de motivos",
+    "pregunta": "¿Por qué Inés evita inicialmente preguntar por la muñeca de Vera?",
+    "opciones": {
+      "a": "Teme que su interés parezca una búsqueda de ventajas",
+      "b": "Cree que las competidoras tienen prohibido hablar antes de correr",
+      "c": "Ya conoce el accidente por una conversación con el entrenador",
+      "d": "Quiere impedir que Vera participe en la siguiente carrera"
+    },
+    "respuesta": "a",
+    "explicacion": "El texto señala su temor a que la pregunta parezca una búsqueda de ventajas; no menciona una prohibición ni conocimiento previo.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/lecturaAnalitica/lecturaAnalitica",
+    "origen": "Bloque original de lectura; texto creado para práctica, sin atribución a autores reales; redistribución1800",
+    "lectura": {
+      "id": "lectura-01",
+      "titulo": "La segunda vuelta",
+      "texto": "El día de la carrera, Inés llegó antes que los encargados de colocar las vallas. Recorrió la pista con la mirada y se detuvo en la última curva. Allí había perdido el año anterior una ventaja que consideraba segura. Desde entonces entrenaba para llegar a ese punto sin mirar atrás. Su entrenador le había dicho que reconocer una debilidad no obligaba a convertirla en el centro de todos los pensamientos.\n\nEn la salida, Inés descubrió que Vera, su rival habitual, llevaba una venda en la muñeca. Estuvo a punto de preguntarle qué había pasado, pero temió que la pregunta pareciera una búsqueda de ventajas. Se limitó a saludar. Cuando sonó la señal, ambas quedaron detrás de una corredora que imprimió un ritmo rápido. Inés decidió seguirla, aunque el plan acordado era reservar fuerzas durante la primera vuelta.\n\nAl comenzar la segunda, la corredora de delante se apartó. No había sostenido el ritmo. Inés sintió por un instante que la pista se abría solo para ella, pero oyó a Vera acercarse. La venda se había soltado y ondeaba como una pequeña bandera. Inés miró aquel movimiento, perdió la regularidad de sus pasos y volvió a pensar en la curva. Todavía estaba lejos de ella.\n\nEntonces recordó algo que habían practicado sin público: contar sus propias respiraciones durante unos segundos. No era un modo de correr más deprisa, sino de recuperar la atención. Dejó de buscar el sonido de las pisadas ajenas. Al entrar en la curva, Vera la adelantó. Inés no aceleró de golpe; conservó el paso y llegó a la meta detrás de ella, con una marca mejor que cualquiera de las suyas anteriores.\n\nDespués, mientras esperaban el resultado oficial, Vera le contó que se había lastimado la muñeca al mover una mesa. Inés se rio de las explicaciones que había imaginado. Guardó el papel con su tiempo en un bolsillo distinto del que reservaba para las medallas. Aquella tarde tenía algo que celebrar, aunque no fuera lo que había venido a buscar.",
+      "orden": 5
+    }
+  },
+  {
+    "id": "esp-l02-01",
+    "categoria": "Español",
+    "tema": "Lectura: idea principal",
+    "pregunta": "¿Qué idea organiza el texto?",
+    "opciones": {
+      "a": "La rapidez de una demostración decide la calidad del aprendizaje",
+      "b": "Aprender una habilidad exige relacionar práctica, observación y revisión",
+      "c": "Las explicaciones verbales deben preceder a cualquier movimiento",
+      "d": "Imitar el resultado visible basta para dominar un procedimiento"
+    },
+    "respuesta": "b",
+    "explicacion": "El texto desarrolla cómo se complementan observar, ensayar, examinar efectos y ajustar la acción.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/lecturaAnalitica/lecturaAnalitica",
+    "origen": "Bloque original de lectura; texto creado para práctica, sin atribución a autores reales; redistribución1800",
+    "lectura": {
+      "id": "lectura-02",
+      "titulo": "Aprender una puntada",
+      "texto": "Una puntada puede aprenderse mirando las manos de otra persona, pero ver un movimiento no equivale todavía a poder repetirlo. Quien comienza a coser suele observar la entrada de la aguja y pasar por alto otros detalles: la tensión del hilo, la posición de la tela o el momento en que conviene aflojar los dedos. Todos intervienen en el resultado, aunque no sean igualmente visibles.\n\nPor eso, una demostración lenta no es simplemente una demostración normal que tarda más. Puede separar acciones que, en manos de alguien experimentado, parecen simultáneas. La persona que enseña se detiene, vuelve al comienzo y permite que el aprendiz identifique una relación entre el gesto y su efecto. Esa pausa no forma parte de la puntada terminada; forma parte de la enseñanza.\n\nLa repetición también admite usos diferentes. Hacer veinte puntadas sin examinarlas puede consolidar una manera inadecuada de tirar del hilo. En cambio, comparar unas pocas, observar dónde se frunce la tela y modificar una acción concreta ofrece información sobre el propio trabajo. Repetir no garantiza aprender, pero aprender suele requerir oportunidades de repetir con alguna orientación. No hay contradicción entre ambas afirmaciones.\n\nConviene distinguir, además, copiar un resultado y comprender un procedimiento. Una puntada puede parecer correcta mientras la tela permanece quieta y soltarse cuando se estira. La apariencia inicial no revela por sí sola cómo fue hecha. Si el aprendiz reconoce qué sostiene la unión, podrá ajustar su movimiento al cambiar de material, incluso cuando ya no tenga delante el modelo. La comprensión se manifiesta entonces en una adaptación, no en una semejanza perfecta.\n\nEsto no vuelve inútiles los modelos ni exige explicar verbalmente cada detalle antes de empezar. Una explicación demasiado extensa puede impedir que se atienda al movimiento. El desafío consiste en alternar observación, ensayo y revisión según lo que la dificultad requiera. Enseñar una habilidad práctica no es escoger para siempre entre mostrar y explicar: es decidir cuándo cada recurso ayuda a que la otra persona pueda actuar sin nuestra mano sobre la suya.",
+      "orden": 1
+    }
+  },
+  {
+    "id": "esp-027",
+    "categoria": "Español",
+    "tema": "Comprensión: vocabulario contextual",
+    "pregunta": "En «El comité rechazó el proyecto por considerar endebles sus fundamentos», «endebles» significa…",
+    "opciones": {
+      "a": "recientes",
+      "b": "novedosos",
+      "c": "extensos",
+      "d": "débiles"
+    },
+    "respuesta": "d",
+    "explicacion": "Los fundamentos endebles carecen de solidez; no se alude a su extensión ni antigüedad.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original nuevo"
+  },
+  {
+    "id": "esp-l02-02",
+    "categoria": "Español",
+    "tema": "Lectura: función del ejemplo",
+    "pregunta": "¿Qué función tiene el ejemplo de la puntada que se suelta al estirar la tela?",
+    "opciones": {
+      "a": "Probar que toda puntada semejante al modelo es defectuosa",
+      "b": "Recomendar que se eviten las telas que pueden estirarse",
+      "c": "Señalar que la tensión es más importante que cualquier otro factor",
+      "d": "Mostrar que una apariencia correcta no garantiza solidez"
+    },
+    "respuesta": "d",
+    "explicacion": "El cambio de condición revela una diferencia entre apariencia inicial y funcionamiento de la unión.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/lecturaAnalitica/lecturaAnalitica",
+    "origen": "Bloque original de lectura; texto creado para práctica, sin atribución a autores reales; redistribución1800",
+    "lectura": {
+      "id": "lectura-02",
+      "titulo": "Aprender una puntada",
+      "texto": "Una puntada puede aprenderse mirando las manos de otra persona, pero ver un movimiento no equivale todavía a poder repetirlo. Quien comienza a coser suele observar la entrada de la aguja y pasar por alto otros detalles: la tensión del hilo, la posición de la tela o el momento en que conviene aflojar los dedos. Todos intervienen en el resultado, aunque no sean igualmente visibles.\n\nPor eso, una demostración lenta no es simplemente una demostración normal que tarda más. Puede separar acciones que, en manos de alguien experimentado, parecen simultáneas. La persona que enseña se detiene, vuelve al comienzo y permite que el aprendiz identifique una relación entre el gesto y su efecto. Esa pausa no forma parte de la puntada terminada; forma parte de la enseñanza.\n\nLa repetición también admite usos diferentes. Hacer veinte puntadas sin examinarlas puede consolidar una manera inadecuada de tirar del hilo. En cambio, comparar unas pocas, observar dónde se frunce la tela y modificar una acción concreta ofrece información sobre el propio trabajo. Repetir no garantiza aprender, pero aprender suele requerir oportunidades de repetir con alguna orientación. No hay contradicción entre ambas afirmaciones.\n\nConviene distinguir, además, copiar un resultado y comprender un procedimiento. Una puntada puede parecer correcta mientras la tela permanece quieta y soltarse cuando se estira. La apariencia inicial no revela por sí sola cómo fue hecha. Si el aprendiz reconoce qué sostiene la unión, podrá ajustar su movimiento al cambiar de material, incluso cuando ya no tenga delante el modelo. La comprensión se manifiesta entonces en una adaptación, no en una semejanza perfecta.\n\nEsto no vuelve inútiles los modelos ni exige explicar verbalmente cada detalle antes de empezar. Una explicación demasiado extensa puede impedir que se atienda al movimiento. El desafío consiste en alternar observación, ensayo y revisión según lo que la dificultad requiera. Enseñar una habilidad práctica no es escoger para siempre entre mostrar y explicar: es decidir cuándo cada recurso ayuda a que la otra persona pueda actuar sin nuestra mano sobre la suya.",
+      "orden": 2
+    }
+  },
+  {
+    "id": "esp-l02-03",
+    "categoria": "Español",
+    "tema": "Lectura: relación entre ideas",
+    "pregunta": "¿Cómo se relacionan las dos afirmaciones sobre repetición del tercer párrafo?",
+    "opciones": {
+      "a": "Distinguen la repetición mecánica de la práctica revisada",
+      "b": "Proponen primero practicar y después abandonar toda práctica",
+      "c": "Atribuyen resultados opuestos a una actividad idéntica sin matices",
+      "d": "Presentan dos métodos que no pueden combinarse"
+    },
+    "respuesta": "a",
+    "explicacion": "La diferencia está en examinar y corregir lo que se repite, no en negar toda utilidad a la repetición.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/lecturaAnalitica/lecturaAnalitica",
+    "origen": "Bloque original de lectura; texto creado para práctica, sin atribución a autores reales; redistribución1800",
+    "lectura": {
+      "id": "lectura-02",
+      "titulo": "Aprender una puntada",
+      "texto": "Una puntada puede aprenderse mirando las manos de otra persona, pero ver un movimiento no equivale todavía a poder repetirlo. Quien comienza a coser suele observar la entrada de la aguja y pasar por alto otros detalles: la tensión del hilo, la posición de la tela o el momento en que conviene aflojar los dedos. Todos intervienen en el resultado, aunque no sean igualmente visibles.\n\nPor eso, una demostración lenta no es simplemente una demostración normal que tarda más. Puede separar acciones que, en manos de alguien experimentado, parecen simultáneas. La persona que enseña se detiene, vuelve al comienzo y permite que el aprendiz identifique una relación entre el gesto y su efecto. Esa pausa no forma parte de la puntada terminada; forma parte de la enseñanza.\n\nLa repetición también admite usos diferentes. Hacer veinte puntadas sin examinarlas puede consolidar una manera inadecuada de tirar del hilo. En cambio, comparar unas pocas, observar dónde se frunce la tela y modificar una acción concreta ofrece información sobre el propio trabajo. Repetir no garantiza aprender, pero aprender suele requerir oportunidades de repetir con alguna orientación. No hay contradicción entre ambas afirmaciones.\n\nConviene distinguir, además, copiar un resultado y comprender un procedimiento. Una puntada puede parecer correcta mientras la tela permanece quieta y soltarse cuando se estira. La apariencia inicial no revela por sí sola cómo fue hecha. Si el aprendiz reconoce qué sostiene la unión, podrá ajustar su movimiento al cambiar de material, incluso cuando ya no tenga delante el modelo. La comprensión se manifiesta entonces en una adaptación, no en una semejanza perfecta.\n\nEsto no vuelve inútiles los modelos ni exige explicar verbalmente cada detalle antes de empezar. Una explicación demasiado extensa puede impedir que se atienda al movimiento. El desafío consiste en alternar observación, ensayo y revisión según lo que la dificultad requiera. Enseñar una habilidad práctica no es escoger para siempre entre mostrar y explicar: es decidir cuándo cada recurso ayuda a que la otra persona pueda actuar sin nuestra mano sobre la suya.",
+      "orden": 3
+    }
+  },
+  {
+    "id": "esp-030",
+    "categoria": "Español",
+    "tema": "Comprensión: relación entre párrafos",
+    "pregunta": "Texto original: «Las ciudades necesitan áreas verdes. Estas moderan el calor y ofrecen espacios de convivencia.\nPese a esos beneficios, algunas políticas urbanas las tratan como terrenos disponibles para construir». ¿Qué relación expresa el segundo párrafo?",
+    "opciones": {
+      "a": "Ejemplifica una convivencia exitosa.",
+      "b": "Concluye que las áreas verdes carecen de utilidad.",
+      "c": "Contrasta una práctica con los beneficios anteriores.",
+      "d": "Explica cómo se siembran árboles."
+    },
+    "respuesta": "c",
+    "explicacion": "«Pese a» introduce una oposición entre los beneficios y el trato que reciben esos espacios.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original nuevo"
+  },
+  {
+    "id": "esp-l02-04",
+    "categoria": "Español",
+    "tema": "Lectura: vocabulario contextual",
+    "pregunta": "En «puede consolidar una manera inadecuada», consolidar significa:",
+    "opciones": {
+      "a": "hacer visible por primera vez",
+      "b": "sustituir de manera definitiva",
+      "c": "afianzar o volver más estable",
+      "d": "explicar con palabras técnicas"
+    },
+    "respuesta": "c",
+    "explicacion": "Consolidar equivale a afianzar; en ese contexto se fortalece un hábito que puede ser incorrecto.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid1/unidad3/lecturaAnalitica/lecturaAnalitica",
+    "origen": "Bloque original de lectura; texto creado para práctica, sin atribución a autores reales; redistribución1800",
+    "lectura": {
+      "id": "lectura-02",
+      "titulo": "Aprender una puntada",
+      "texto": "Una puntada puede aprenderse mirando las manos de otra persona, pero ver un movimiento no equivale todavía a poder repetirlo. Quien comienza a coser suele observar la entrada de la aguja y pasar por alto otros detalles: la tensión del hilo, la posición de la tela o el momento en que conviene aflojar los dedos. Todos intervienen en el resultado, aunque no sean igualmente visibles.\n\nPor eso, una demostración lenta no es simplemente una demostración normal que tarda más. Puede separar acciones que, en manos de alguien experimentado, parecen simultáneas. La persona que enseña se detiene, vuelve al comienzo y permite que el aprendiz identifique una relación entre el gesto y su efecto. Esa pausa no forma parte de la puntada terminada; forma parte de la enseñanza.\n\nLa repetición también admite usos diferentes. Hacer veinte puntadas sin examinarlas puede consolidar una manera inadecuada de tirar del hilo. En cambio, comparar unas pocas, observar dónde se frunce la tela y modificar una acción concreta ofrece información sobre el propio trabajo. Repetir no garantiza aprender, pero aprender suele requerir oportunidades de repetir con alguna orientación. No hay contradicción entre ambas afirmaciones.\n\nConviene distinguir, además, copiar un resultado y comprender un procedimiento. Una puntada puede parecer correcta mientras la tela permanece quieta y soltarse cuando se estira. La apariencia inicial no revela por sí sola cómo fue hecha. Si el aprendiz reconoce qué sostiene la unión, podrá ajustar su movimiento al cambiar de material, incluso cuando ya no tenga delante el modelo. La comprensión se manifiesta entonces en una adaptación, no en una semejanza perfecta.\n\nEsto no vuelve inútiles los modelos ni exige explicar verbalmente cada detalle antes de empezar. Una explicación demasiado extensa puede impedir que se atienda al movimiento. El desafío consiste en alternar observación, ensayo y revisión según lo que la dificultad requiera. Enseñar una habilidad práctica no es escoger para siempre entre mostrar y explicar: es decidir cuándo cada recurso ayuda a que la otra persona pueda actuar sin nuestra mano sobre la suya.",
+      "orden": 4
+    }
+  },
+  {
+    "id": "esp-032",
+    "categoria": "Español",
+    "tema": "Comprensión: dato y opinión",
+    "pregunta": "¿Qué enunciado es una opinión valorativa, no solo un dato verificable?",
+    "opciones": {
+      "a": "El desenlace es extraordinariamente conmovedor.",
+      "b": "El autor publicó tres novelas.",
+      "c": "La novela consta de doce capítulos.",
+      "d": "La edición apareció en 2018."
+    },
+    "respuesta": "a",
+    "explicacion": "«Extraordinariamente conmovedor» expresa una valoración del efecto estético sobre un lector.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original nuevo"
+  },
+  {
+    "id": "esp-033",
+    "categoria": "Español",
+    "tema": "Gramática: complemento directo",
+    "pregunta": "En «La investigadora examinó los manuscritos», el complemento directo es…",
+    "opciones": {
+      "a": "La investigadora",
+      "b": "examinó",
+      "c": "los manuscritos",
+      "d": "La investigadora examinó"
+    },
+    "respuesta": "c",
+    "explicacion": "Los manuscritos reciben la acción de examinar y pueden sustituirse por «los»: la investigadora los examinó.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original nuevo"
+  },
+  {
+    "id": "esp-034",
+    "categoria": "Español",
+    "tema": "Gramática: complemento indirecto",
+    "pregunta": "En «El profesor entregó las constancias a sus alumnos», ¿qué segmento funciona como complemento indirecto?",
+    "opciones": {
+      "a": "El profesor",
+      "b": "a sus alumnos",
+      "c": "entregó",
+      "d": "las constancias"
+    },
+    "respuesta": "b",
+    "explicacion": "Designa a los destinatarios de la entrega y puede sustituirse por «les».",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original nuevo"
+  },
+  {
+    "id": "esp-035",
+    "categoria": "Español",
+    "tema": "Gramática: oración impersonal",
+    "pregunta": "¿Qué oración es impersonal?",
+    "opciones": {
+      "a": "Los árboles perdieron sus hojas.",
+      "b": "Hace mucho frío en la sierra.",
+      "c": "Mi hermano leyó la carta.",
+      "d": "Llegaron temprano los viajeros."
+    },
+    "respuesta": "b",
+    "explicacion": "El verbo «hacer», al expresar condiciones meteorológicas, se usa impersonalmente y carece de sujeto.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original nuevo"
+  },
+  {
+    "id": "esp-036",
+    "categoria": "Español",
+    "tema": "Gramática: subordinación",
+    "pregunta": "En «Deseo que regreses pronto», la subordinada «que regreses pronto» funciona como…",
+    "opciones": {
+      "a": "complemento circunstancial de lugar.",
+      "b": "complemento del nombre «pronto».",
+      "c": "complemento directo de «deseo».",
+      "d": "sujeto de «regreses»."
+    },
+    "respuesta": "c",
+    "explicacion": "La subordinada expresa lo deseado y puede sustituirse por «eso»: deseo eso.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": "Reactivo original nuevo"
+  },
+  {
+    "id": "MAT023",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "06 · Funciones algebraicas",
+    "subtema": "Evaluación de una función",
+    "dificultad": "Básico",
+    "pregunta": "Si f(x) = x² − 2x, ¿cuánto vale f(−3)?",
+    "opciones": {
+      "a": "−3",
+      "b": "3",
+      "c": "−15",
+      "d": "15"
+    },
+    "respuesta": "d",
+    "explicacion": "f(−3) = (−3)² − 2(−3) = 9 + 6 = 15.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 6.1, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 23
+    }
+  },
+  {
+    "id": "MAT024",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "06 · Funciones algebraicas",
+    "subtema": "Dominio con raíz y denominador",
+    "dificultad": "Intermedio",
+    "pregunta": "Para valores reales de x, ¿cuál es el dominio de f(x) = √(x − 2)/(x − 5)?",
+    "opciones": {
+      "a": "Todos los x ≤ 2",
+      "b": "Todos los x ≥ 2, incluido x = 5",
+      "c": "Todos los x > 2, excepto x = 5",
+      "d": "Todos los x ≥ 2, excepto x = 5"
+    },
+    "respuesta": "d",
+    "explicacion": "La raíz exige x ≥ 2 y el denominador exige x ≠ 5. Ambas restricciones deben cumplirse.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 6.1, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 24
+    }
+  },
+  {
+    "id": "MAT025",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "06 · Funciones algebraicas",
+    "subtema": "Rango de una función cuadrática",
+    "dificultad": "Intermedio",
+    "pregunta": "Si f(x) = x² + 1 tiene dominio en todos los números reales, ¿cuál es su rango o imagen?",
+    "opciones": {
+      "a": "Todos los y ≤ 1",
+      "b": "Todos los y > 1",
+      "c": "Todos los y ≥ 1",
+      "d": "Todos los números reales"
+    },
+    "respuesta": "c",
+    "explicacion": "Como x² ≥ 0, f(x) ≥ 1. El valor 1 se alcanza en x = 0, por lo que sí se incluye.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 6.2 y 6.3, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 25
+    }
+  },
+  {
+    "id": "MAT026",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "06 · Funciones algebraicas",
+    "subtema": "Crecimiento y continuidad",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué descripción corresponde a la función f(x) = −2x + 3 en los números reales?",
+    "opciones": {
+      "a": "Es decreciente y continua en todo su dominio.",
+      "b": "Es creciente y continua en todo su dominio.",
+      "c": "Es constante y continua en todo su dominio.",
+      "d": "Es decreciente y tiene una discontinuidad en x = 0."
+    },
+    "respuesta": "a",
+    "explicacion": "La pendiente −2 indica decrecimiento. Una función afín es continua en todo su dominio real.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 6.5 y 6.6, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 26
+    }
+  },
+  {
+    "id": "MAT027",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "06 · Funciones algebraicas",
+    "subtema": "Composición de funciones",
+    "dificultad": "Intermedio",
+    "pregunta": "Sean f(x) = 2x + 1 y g(x) = x². ¿Cuánto vale f(g(3))?",
+    "opciones": {
+      "a": "10",
+      "b": "49",
+      "c": "18",
+      "d": "19"
+    },
+    "respuesta": "d",
+    "explicacion": "Primero g(3) = 9; luego f(9) = 2(9) + 1 = 19. No se intercambia el orden de composición.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 6.7, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 27
+    }
+  },
+  {
+    "id": "MAT028",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "07 · Trigonometría",
+    "subtema": "Conversión de grados a radianes",
+    "dificultad": "Básico",
+    "pregunta": "¿A cuántos radianes equivalen 150°?",
+    "opciones": {
+      "a": "3π/4",
+      "b": "5π/3",
+      "c": "5π/6",
+      "d": "π/6"
+    },
+    "respuesta": "c",
+    "explicacion": "150° × π/180° = 5π/6 radianes.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.1, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 28
+    }
+  },
+  {
+    "id": "MAT029",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "07 · Trigonometría",
+    "subtema": "Razones trigonométricas",
+    "dificultad": "Básico",
+    "pregunta": "En un triángulo rectángulo, respecto del ángulo agudo θ, el cateto opuesto mide 6 cm, el adyacente 8 cm y la hipotenusa 10 cm. ¿Cuánto vale sen θ?",
+    "opciones": {
+      "a": "5/3",
+      "b": "3/5",
+      "c": "3/4",
+      "d": "4/5"
+    },
+    "respuesta": "b",
+    "explicacion": "El seno es cateto opuesto entre hipotenusa: 6/10 = 3/5.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.2, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 29
+    }
+  },
+  {
+    "id": "MAT030",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "07 · Trigonometría",
+    "subtema": "Resolución de un triángulo rectángulo",
+    "dificultad": "Intermedio",
+    "pregunta": "Una escalera de 10 m forma un ángulo de 60° con un suelo horizontal y se apoya en una pared vertical. ¿A qué altura llega? Usa sen 60° = √3/2.",
+    "opciones": {
+      "a": "20/√3 m",
+      "b": "5 m",
+      "c": "10√3 m",
+      "d": "5√3 m"
+    },
+    "respuesta": "d",
+    "explicacion": "La altura es 10 sen 60° = 10(√3/2) = 5√3 m.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.3, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 30
+    }
+  },
+  {
+    "id": "MAT031",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "07 · Trigonometría",
+    "subtema": "Ley de los senos",
+    "dificultad": "Intermedio",
+    "pregunta": "En un triángulo, el ángulo A mide 30° y su lado opuesto a mide 5 cm. El ángulo B mide 45°. ¿Cuánto mide el lado b, opuesto a B? Usa sen 30° = 1/2 y sen 45° = √2/2.",
+    "opciones": {
+      "a": "5√2 cm",
+      "b": "5/√2 cm",
+      "c": "5 cm",
+      "d": "10√2 cm"
+    },
+    "respuesta": "a",
+    "explicacion": "La ley de senos da b = 5 sen 45°/sen 30° = 5√2 cm.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.4 y 7.1.5, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 31
+    }
+  },
+  {
+    "id": "MAT032",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "07 · Trigonometría",
+    "subtema": "Ley de los cosenos",
+    "dificultad": "Intermedio",
+    "pregunta": "Dos lados de un triángulo miden 5 cm y 8 cm, y el ángulo comprendido entre ellos es de 60°. ¿Cuánto mide el tercer lado? Usa cos 60° = 1/2.",
+    "opciones": {
+      "a": "√89 cm",
+      "b": "√129 cm",
+      "c": "7 cm",
+      "d": "3 cm"
+    },
+    "respuesta": "c",
+    "explicacion": "Por la ley de cosenos, c² = 25 + 64 − 2(5)(8)(1/2) = 49. Entonces c = 7 cm.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.4 y 7.1.5, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 32
+    }
+  },
+  {
+    "id": "MAT033",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "07 · Trigonometría",
+    "subtema": "Razones trigonométricas en otros cuadrantes",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál es el valor de cos 120°?",
+    "opciones": {
+      "a": "−1/2",
+      "b": "1/2",
+      "c": "√3/2",
+      "d": "−√3/2"
+    },
+    "respuesta": "a",
+    "explicacion": "120° está en el segundo cuadrante, donde el coseno es negativo. Su ángulo de referencia es 60°, así que vale −1/2.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.1.6 y 7.2.1, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 33
+    }
+  },
+  {
+    "id": "MAT034",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "07 · Trigonometría",
+    "subtema": "Amplitud, periodo y desfase",
+    "dificultad": "Reto",
+    "pregunta": "Con x en radianes, ¿cuáles son la amplitud y el periodo de y = 3 sen(2x − π)?",
+    "opciones": {
+      "a": "Amplitud 2 y periodo 3π",
+      "b": "Amplitud 3 y periodo 2π",
+      "c": "Amplitud 3 y periodo π",
+      "d": "Amplitud 6 y periodo π/2"
+    },
+    "respuesta": "c",
+    "explicacion": "En A sen(Bx + C), la amplitud es |A| y el periodo es 2π/|B|. Aquí son 3 y π, respectivamente.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 7.2.2.2 y 7.2.2.3, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 34
+    }
+  },
+  {
+    "id": "MAT035",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "08 · Funciones exponenciales y logarítmicas",
+    "subtema": "Función exponencial: hallar una entrada",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué valor de x satisface 2^(x + 1) = 16?",
+    "opciones": {
+      "a": "x = 3",
+      "b": "x = 15",
+      "c": "x = 4",
+      "d": "x = 7"
+    },
+    "respuesta": "a",
+    "explicacion": "16 = 2⁴, de modo que x + 1 = 4 y x = 3.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 8, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 35
+    }
+  },
+  {
+    "id": "MAT036",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "08 · Funciones exponenciales y logarítmicas",
+    "subtema": "Significado del logaritmo",
+    "dificultad": "Básico",
+    "pregunta": "Si log₁₀(x) = −2, ¿cuánto vale x?",
+    "opciones": {
+      "a": "100",
+      "b": "−100",
+      "c": "1/100",
+      "d": "−1/100"
+    },
+    "respuesta": "c",
+    "explicacion": "La forma exponencial es x = 10^(−2) = 1/100. El argumento sigue siendo positivo.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 8, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 36
+    }
+  },
+  {
+    "id": "MAT037",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "08 · Funciones exponenciales y logarítmicas",
+    "subtema": "Dominio y asíntota de una función logarítmica",
+    "dificultad": "Intermedio",
+    "pregunta": "Para f(x) = ln(x − 2), donde ln es el logaritmo natural, ¿cuáles son su dominio real y su asíntota vertical?",
+    "opciones": {
+      "a": "Dominio: x > 2; asíntota vertical: x = 2.",
+      "b": "Dominio: x ≥ 2; asíntota vertical: x = 2.",
+      "c": "Dominio: x < 2; asíntota vertical: x = 2.",
+      "d": "Dominio: x > 0; asíntota vertical: x = 0."
+    },
+    "respuesta": "a",
+    "explicacion": "El argumento del logaritmo exige x − 2 > 0. Al acercarse x a 2 desde la derecha, ln(x − 2) decrece sin límite.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 8.1 y 8.2, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 37
+    }
+  },
+  {
+    "id": "MAT038",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "09 · Recta",
+    "subtema": "Distancia entre dos puntos",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es la distancia entre A(−1, 2) y B(5, 10) en el plano cartesiano?",
+    "opciones": {
+      "a": "14 unidades",
+      "b": "10 unidades",
+      "c": "√52 unidades",
+      "d": "100 unidades"
+    },
+    "respuesta": "b",
+    "explicacion": "La distancia es √[(5 + 1)² + (10 − 2)²] = √(36 + 64) = 10.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 9.1, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 38
+    }
+  },
+  {
+    "id": "MAT039",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "09 · Recta",
+    "subtema": "División interna de un segmento",
+    "dificultad": "Intermedio",
+    "pregunta": "El punto P está entre A(0, 0) y B(9, 6), de modo que AP:PB = 1:2. ¿Cuáles son sus coordenadas?",
+    "opciones": {
+      "a": "P(6, 4)",
+      "b": "P(3, 2)",
+      "c": "P(9, 3)",
+      "d": "P(4.5, 3)"
+    },
+    "respuesta": "b",
+    "explicacion": "P recorre un tercio del segmento desde A: (0, 0) + (1/3)(9, 6) = (3, 2).",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 9.2, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 39
+    }
+  },
+  {
+    "id": "MAT040",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "09 · Recta",
+    "subtema": "Ecuación de la recta",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es la ecuación de la recta que pasa por (2, 3) y tiene pendiente −2?",
+    "opciones": {
+      "a": "y = −2x − 1",
+      "b": "y = −2x + 7",
+      "c": "y = −2x + 3",
+      "d": "y = 2x − 1"
+    },
+    "respuesta": "b",
+    "explicacion": "La forma punto-pendiente da y − 3 = −2(x − 2), equivalente a y = −2x + 7.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 9.3 y 9.4, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 40
+    }
+  },
+  {
+    "id": "MAT041",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "09 · Recta",
+    "subtema": "Perpendicularidad de rectas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué pendiente tiene una recta perpendicular a 3x + 2y − 6 = 0?",
+    "opciones": {
+      "a": "−3/2",
+      "b": "−2/3",
+      "c": "2/3",
+      "d": "3/2"
+    },
+    "respuesta": "c",
+    "explicacion": "La recta dada tiene pendiente −3/2. Su perpendicular tiene pendiente 2/3, pues el producto es −1.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 9.5, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 41
+    }
+  },
+  {
+    "id": "MAT042",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "09 · Recta",
+    "subtema": "Distancia de un punto a una recta",
+    "dificultad": "Reto",
+    "pregunta": "¿Cuál es la distancia del punto P(1, 2) a la recta 3x + 4y − 1 = 0?",
+    "opciones": {
+      "a": "10 unidades",
+      "b": "2 unidades",
+      "c": "12/5 unidades",
+      "d": "5 unidades"
+    },
+    "respuesta": "b",
+    "explicacion": "La distancia es |3(1) + 4(2) − 1|/√(3² + 4²) = 10/5 = 2.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 9.6, página 13",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 42
+    }
+  },
+  {
+    "id": "MAT043",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "10 · Circunferencia",
+    "subtema": "Ecuación ordinaria de la circunferencia",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué ecuación representa una circunferencia con centro (2, −1) y radio 3?",
+    "opciones": {
+      "a": "(x − 2)² − (y + 1)² = 9",
+      "b": "(x + 2)² + (y − 1)² = 9",
+      "c": "(x − 2)² + (y + 1)² = 9",
+      "d": "(x − 2)² + (y + 1)² = 3"
+    },
+    "respuesta": "c",
+    "explicacion": "Se sustituye centro (h,k) y radio r en (x − h)² + (y − k)² = r².",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 10.3 y 10.4, página 14",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 43
+    }
+  },
+  {
+    "id": "MAT044",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Matemáticas",
+    "tema": "10 · Circunferencia",
+    "subtema": "Completar cuadrados en una circunferencia",
+    "dificultad": "Reto",
+    "pregunta": "La circunferencia x² + y² − 6x + 4y − 12 = 0 tiene:",
+    "opciones": {
+      "a": "Centro (−3, 2) y radio 5.",
+      "b": "Centro (3, −2) y radio 25.",
+      "c": "Centro (3, −2) y radio √12.",
+      "d": "Centro (3, −2) y radio 5."
+    },
+    "respuesta": "d",
+    "explicacion": "Completar cuadrados da (x − 3)² + (y + 2)² = 25. El centro es (3, −2) y el radio es 5.",
+    "referencia_guia": "humanidades.pdf · Matemáticas · 10.3 y 10.4, página 14",
+    "tipo_material": "Pregunta original de práctica, no oficial. Selección de contenidos: no agota todos los subtemas de la guía.",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_matematicas_unam_area4_50_preguntas.json",
+      "id_original": 44
+    }
+  },
+  {
+    "id": "FIS011",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Ondas: rapidez de propagación",
+    "pregunta": "Una onda tiene frecuencia de 12 Hz y longitud de onda de 0.5 m. ¿Con qué rapidez se propaga?",
+    "opciones": {
+      "a": "12.5 m/s",
+      "b": "24 m/s",
+      "c": "0.042 m/s",
+      "d": "6 m/s"
+    },
+    "respuesta": "d",
+    "explicacion": "La rapidez de una onda periódica es v = fλ = 12 × 0.5 = 6 m/s.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/16-section-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_fisica_unam_area4_20_preguntas.json",
+      "id_original": 11
+    }
+  },
+  {
+    "id": "FIS012",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Ondas: frecuencia y periodo",
+    "pregunta": "Una cuerda completa 50 oscilaciones en 10 s. ¿Cuál es su periodo?",
+    "opciones": {
+      "a": "0.5 s",
+      "b": "500 s",
+      "c": "0.2 s",
+      "d": "5 s"
+    },
+    "respuesta": "c",
+    "explicacion": "La frecuencia es 50/10 = 5 Hz. El periodo es el tiempo de una oscilación: T = 1/f = 0.2 s.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/16-section-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_fisica_unam_area4_20_preguntas.json",
+      "id_original": 12
+    }
+  },
+  {
+    "id": "FIS013",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Electrostática: ley de Coulomb",
+    "pregunta": "Dos cargas puntuales positivas se repelen en el vacío. Si una de las cargas se duplica y la distancia entre ellas no cambia, ¿qué ocurre con la magnitud de la fuerza?",
+    "opciones": {
+      "a": "Se duplica",
+      "b": "Permanece igual",
+      "c": "Se cuadruplica",
+      "d": "Se reduce a la mitad"
+    },
+    "respuesta": "a",
+    "explicacion": "En F = k|q₁q₂|/r², la fuerza es proporcional a cada carga. Duplicar solo una duplica la fuerza; continúa siendo repulsiva.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/18-section-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_fisica_unam_area4_20_preguntas.json",
+      "id_original": 13
+    }
+  },
+  {
+    "id": "FIS014",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Electricidad: ley de Ohm",
+    "pregunta": "Un resistor óhmico de 8 Ω se conecta a una diferencia de potencial de 24 V. ¿Qué corriente circula por él?",
+    "opciones": {
+      "a": "0.33 A",
+      "b": "3 A",
+      "c": "16 A",
+      "d": "192 A"
+    },
+    "respuesta": "b",
+    "explicacion": "La ley de Ohm da I = V/R = 24/8 = 3 A.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/20-section-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_fisica_unam_area4_20_preguntas.json",
+      "id_original": 14
+    }
+  },
+  {
+    "id": "FIS015",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Electricidad: potencia",
+    "pregunta": "Un aparato alimentado con corriente continua opera con una diferencia de potencial constante de 120 V y consume 2 A. ¿Cuál es su potencia eléctrica?",
+    "opciones": {
+      "a": "122 W",
+      "b": "0.017 W",
+      "c": "240 W",
+      "d": "60 W"
+    },
+    "respuesta": "c",
+    "explicacion": "En corriente continua, P = VI = 120 × 2 = 240 W. El watt expresa energía consumida por unidad de tiempo.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/20-section-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_fisica_unam_area4_20_preguntas.json",
+      "id_original": 15
+    }
+  },
+  {
+    "id": "FIS016",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Magnetismo",
+    "pregunta": "Se corta por la mitad un imán de barra y se obtienen dos fragmentos que siguen magnetizados. ¿Qué polos presenta cada fragmento?",
+    "opciones": {
+      "a": "Solo un polo norte en ambos fragmentos",
+      "b": "Un polo norte y un polo sur",
+      "c": "Un fragmento tiene solo norte y el otro solo sur",
+      "d": "Solo un polo sur en ambos fragmentos"
+    },
+    "respuesta": "b",
+    "explicacion": "Al dividir un imán de barra no se aíslan sus polos: cada fragmento magnetizado constituye un nuevo imán con polo norte y polo sur.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/22-section-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_fisica_unam_area4_20_preguntas.json",
+      "id_original": 16
+    }
+  },
+  {
+    "id": "FIS017",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Fluidos: presión hidrostática",
+    "pregunta": "¿Cuál es la presión manométrica debida al agua a 3 m de profundidad? Usa densidad = 1000 kg/m³ y g = 10 m/s².",
+    "opciones": {
+      "a": "30 000 Pa",
+      "b": "3000 Pa",
+      "c": "130 000 Pa",
+      "d": "300 Pa"
+    },
+    "respuesta": "a",
+    "explicacion": "La presión manométrica del líquido es ρgh = 1000 × 10 × 3 = 30 000 Pa. No incluye la presión atmosférica.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/11-section-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_fisica_unam_area4_20_preguntas.json",
+      "id_original": 17
+    }
+  },
+  {
+    "id": "FIS018",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Fluidos: principio de Arquímedes",
+    "pregunta": "Un bloque flota en reposo en agua y pesa 12 N. ¿Cuál es la magnitud del empuje que recibe?",
+    "opciones": {
+      "a": "24 N",
+      "b": "6 N",
+      "c": "0 N",
+      "d": "12 N"
+    },
+    "respuesta": "d",
+    "explicacion": "Al flotar en equilibrio, la fuerza neta vertical es cero. El empuje hacia arriba iguala al peso hacia abajo: 12 N.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/11-section-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_fisica_unam_area4_20_preguntas.json",
+      "id_original": 18
+    }
+  },
+  {
+    "id": "FIS019",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Óptica: reflexión",
+    "pregunta": "Un rayo luminoso incide sobre un espejo plano formando 35° con la normal. ¿Qué ángulo forma el rayo reflejado con la normal?",
+    "opciones": {
+      "a": "55°",
+      "b": "35°",
+      "c": "90°",
+      "d": "70°"
+    },
+    "respuesta": "b",
+    "explicacion": "La ley de la reflexión establece que el ángulo de reflexión iguala al de incidencia, y ambos se miden respecto a la normal, no a la superficie.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/25-section-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_fisica_unam_area4_20_preguntas.json",
+      "id_original": 19
+    }
+  },
+  {
+    "id": "FIS020",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Física",
+    "tema": "Física contemporánea: radiactividad",
+    "pregunta": "Una muestra contiene inicialmente 80 millones de núcleos de un isótopo con vida media de 4 horas. ¿Cuántos núcleos de ese isótopo quedan, aproximadamente, después de 12 horas?",
+    "opciones": {
+      "a": "20 millones",
+      "b": "10 millones",
+      "c": "40 millones",
+      "d": "60 millones"
+    },
+    "respuesta": "b",
+    "explicacion": "Doce horas equivalen a tres vidas medias. La cantidad esperada se reduce a la mitad tres veces: 80 → 40 → 20 → 10 millones.",
+    "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/31-section-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_fisica_unam_area4_20_preguntas.json",
+      "id_original": 20
+    }
+  },
+  {
+    "id": "QUI011",
+    "categoria": "Química",
+    "tema": "Diluciones",
+    "pregunta": "Se diluyen 100 mL de una disolución 2.0 M hasta un volumen final de 400 mL. ¿Cuál es su concentración final?",
+    "opciones": {
+      "a": "8.0 M",
+      "b": "2.0 M",
+      "c": "0.25 M",
+      "d": "0.50 M"
+    },
+    "respuesta": "d",
+    "explicacion": "La cantidad de soluto se conserva: C₁V₁ = C₂V₂. Entonces C₂ = 2(100)/400 = 0.50 M.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/objetos-de-aprendizaje",
+    "origen": {
+      "tipo": "adaptada",
+      "archivo": "simulacro_quimica_basica_50_preguntas.json",
+      "id_original": 39
+    }
+  },
+  {
+    "id": "QUI012",
+    "categoria": "Química",
+    "tema": "Acidez",
+    "pregunta": "Una disolución de pH 3 tiene, respecto a otra de pH 5, una concentración de H₃O⁺ aproximadamente:",
+    "opciones": {
+      "a": "100 veces mayor",
+      "b": "2 veces mayor",
+      "c": "20 veces mayor",
+      "d": "100 veces menor"
+    },
+    "respuesta": "a",
+    "explicacion": "El pH es logarítmico. Una diferencia de dos unidades corresponde a un factor 10² = 100.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/objetos-de-aprendizaje",
+    "origen": {
+      "tipo": "adaptada",
+      "archivo": "simulacro_quimica_basica_50_preguntas.json",
+      "id_original": 42
+    }
+  },
+  {
+    "id": "QUI013",
+    "categoria": "Química",
+    "tema": "Oxidación y reducción",
+    "pregunta": "En Fe → Fe²⁺ + 2 e⁻, el hierro:",
+    "opciones": {
+      "a": "Se reduce al ganar protones",
+      "b": "Se oxida al perder electrones",
+      "c": "Se reduce al perder electrones",
+      "d": "Se oxida al ganar electrones"
+    },
+    "respuesta": "b",
+    "explicacion": "La oxidación es pérdida de electrones y aumento del número de oxidación, aquí de 0 a +2.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/objetos-de-aprendizaje",
+    "origen": {
+      "tipo": "adaptada",
+      "archivo": "simulacro_quimica_basica_50_preguntas.json",
+      "id_original": 48
+    }
+  },
+  {
+    "id": "QUI014",
+    "categoria": "Química",
+    "tema": "Grupos funcionales",
+    "pregunta": "¿Qué grupo funcional permite clasificar al CH₃–CH₂–OH como un alcohol?",
+    "opciones": {
+      "a": "Carbonilo de cetona",
+      "b": "Amino",
+      "c": "Hidroxilo",
+      "d": "Carboxilo"
+    },
+    "respuesta": "c",
+    "explicacion": "El grupo –OH unido a un carbono saturado caracteriza al alcohol. Un carboxilo es –COOH.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/objetos-de-aprendizaje",
+    "origen": {
+      "tipo": "adaptada",
+      "archivo": "simulacro_quimica_basica_50_preguntas.json",
+      "id_original": 49
+    }
+  },
+  {
+    "id": "QUI015",
+    "categoria": "Química",
+    "tema": "Termoquímica",
+    "pregunta": "Una reacción libera calor hacia el entorno. ¿Cómo se clasifica y qué signo tiene su cambio de entalpía a presión constante?",
+    "opciones": {
+      "a": "Endotérmica, ΔH < 0",
+      "b": "Exotérmica, ΔH > 0",
+      "c": "Endotérmica, ΔH > 0",
+      "d": "Exotérmica, ΔH < 0"
+    },
+    "respuesta": "d",
+    "explicacion": "Al liberar calor, el sistema pierde entalpía; por ello ΔH es negativo.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/objetos-de-aprendizaje",
+    "origen": {
+      "tipo": "adaptada",
+      "archivo": "simulacro_quimica_basica_50_preguntas.json",
+      "id_original": 29
+    }
+  },
+  {
+    "id": "QUI016",
+    "categoria": "Química",
+    "tema": "Configuración electrónica",
+    "pregunta": "¿Qué configuración electrónica en su estado fundamental corresponde al átomo neutro de oxígeno, Z = 8?",
+    "opciones": {
+      "a": "1s² 2s² 2p⁴",
+      "b": "1s² 2s² 2p⁶",
+      "c": "1s² 2s¹ 2p⁵",
+      "d": "1s² 2s² 2p²"
+    },
+    "respuesta": "a",
+    "explicacion": "Los ocho electrones ocupan 1s², 2s² y 2p⁴ en el estado fundamental.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/objetos-de-aprendizaje",
+    "origen": {
+      "tipo": "nueva",
+      "autor": "Asallam Sensei · asistencia IA",
+      "revision": "clave y distractores revisados"
+    }
+  },
+  {
+    "id": "QUI017",
+    "categoria": "Química",
+    "tema": "Periodicidad",
+    "pregunta": "Al recorrer un período de la tabla periódica de izquierda a derecha, la electronegatividad generalmente:",
+    "opciones": {
+      "a": "Se hace siempre nula",
+      "b": "Aumenta",
+      "c": "Disminuye",
+      "d": "Permanece constante"
+    },
+    "respuesta": "b",
+    "explicacion": "La mayor atracción nuclear efectiva favorece la atracción de electrones de enlace. Es una tendencia general, no una regla sin excepciones.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/objetos-de-aprendizaje",
+    "origen": {
+      "tipo": "nueva",
+      "autor": "Asallam Sensei · asistencia IA",
+      "revision": "clave y distractores revisados"
+    }
+  },
+  {
+    "id": "QUI018",
+    "categoria": "Química",
+    "tema": "Nomenclatura inorgánica",
+    "pregunta": "¿Cuál es el nombre de Fe₂O₃ en nomenclatura Stock?",
+    "opciones": {
+      "a": "Peróxido de hierro(I)",
+      "b": "Hidróxido de hierro(III)",
+      "c": "Óxido de hierro(III)",
+      "d": "Óxido de hierro(II)"
+    },
+    "respuesta": "c",
+    "explicacion": "Tres oxígenos aportan −6; los dos hierros deben aportar +6 en total. Cada hierro tiene estado +3.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/objetos-de-aprendizaje",
+    "origen": {
+      "tipo": "nueva",
+      "autor": "Asallam Sensei · asistencia IA",
+      "revision": "clave y distractores revisados"
+    }
+  },
+  {
+    "id": "QUI019",
+    "categoria": "Química",
+    "tema": "Ecuaciones químicas",
+    "pregunta": "¿Cuáles son los coeficientes mínimos de C₃H₈ + O₂ → CO₂ + H₂O, en ese orden?",
+    "opciones": {
+      "a": "1, 4, 3, 5",
+      "b": "2, 5, 3, 4",
+      "c": "1, 3, 3, 4",
+      "d": "1, 5, 3, 4"
+    },
+    "respuesta": "d",
+    "explicacion": "Se ajustan 3 carbonos y 8 hidrógenos con 3 CO₂ y 4 H₂O; los diez oxígenos requieren 5 O₂.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/objetos-de-aprendizaje",
+    "origen": {
+      "tipo": "nueva",
+      "autor": "Asallam Sensei · asistencia IA",
+      "revision": "clave y distractores revisados"
+    }
+  },
+  {
+    "id": "QUI020",
+    "categoria": "Química",
+    "tema": "Agua y fuerzas intermoleculares",
+    "pregunta": "El agua tiene un punto de ebullición mayor que H₂S. ¿Qué característica explica principalmente ese comportamiento?",
+    "opciones": {
+      "a": "Puentes de hidrógeno entre moléculas de agua",
+      "b": "Enlaces O–H que se rompen dentro de cada molécula al hervir",
+      "c": "Mayor masa molecular del agua que la de H₂S",
+      "d": "Enlaces iónicos de una red de H⁺ y O²⁻ en el agua líquida"
+    },
+    "respuesta": "a",
+    "explicacion": "Los puentes de hidrógeno intensifican la atracción intermolecular en el agua. La ebullición separa moléculas y no requiere romper sus enlaces O–H ni convertirlas en una red iónica.",
+    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+    "origen": {
+      "tipo": "nueva",
+      "autor": "Asallam Sensei · asistencia IA",
+      "revision": "clave y distractores revisados"
+    },
+    "revision_calidad": {
+      "lote": "calidad-ciencias-1",
+      "motivo": "Distinguir atracciones intermoleculares de enlaces internos",
+      "estado": "propuesta validada, pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO011",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Origen de la vida: hipótesis quimiosintética de Oparin-Haldane",
+    "pregunta": "¿Qué explicación del origen de las primeras células corresponde a la hipótesis quimiosintética de Oparin-Haldane?",
+    "opciones": {
+      "a": "La llegada a la Tierra de organismos ya formados procedentes del espacio",
+      "b": "La evolución química gradual de compuestos sencillos hacia sistemas precelulares más complejos",
+      "c": "La aparición habitual de organismos actuales a partir de materia en descomposición",
+      "d": "La transformación por selección natural de células que ya existían previamente"
+    },
+    "respuesta": "b",
+    "explicacion": "La hipótesis propone una etapa de evolución química anterior a las primeras células. No equivale a la llegada de vida desde el espacio ni a la generación espontánea habitual de organismos actuales; la evolución de células preexistentes no explica por sí sola su primer origen.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/biologia2/unidad1/teoriaQuimiosintetica/teoriaOparinHaldane",
+    "origen": "Redistribución curricular1800 original; fuente conceptual, revisión y cruce independiente completados. No calibración psicométrica."
+  },
+  {
+    "id": "BIO012",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "ADN: complementariedad",
+    "pregunta": "En una muestra de ADN de doble cadena, el 30 % de las bases son adenina. ¿Qué porcentaje corresponde a citosina?",
+    "opciones": {
+      "a": "40 %",
+      "b": "20 %",
+      "c": "70 %",
+      "d": "30 %"
+    },
+    "respuesta": "b",
+    "explicacion": "En ADN de doble cadena, A = T y C = G. Si A y T suman 60 %, queda 40 % para C y G, por lo que C representa 20 %.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/14-chapter-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_biologia_unam_area4_20_preguntas.json",
+      "id_original": 12
+    }
+  },
+  {
+    "id": "BIO013",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Expresión genética",
+    "pregunta": "Una célula utiliza un ARN mensajero como guía para unir aminoácidos en un ribosoma. ¿Qué proceso realiza?",
+    "opciones": {
+      "a": "Meiosis",
+      "b": "Transcripción",
+      "c": "Traducción",
+      "d": "Replicación"
+    },
+    "respuesta": "c",
+    "explicacion": "La traducción usa los codones del ARN mensajero para construir un polipéptido. La transcripción, en cambio, produce ARN a partir de una plantilla de ADN.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/15-chapter-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_biologia_unam_area4_20_preguntas.json",
+      "id_original": 13
+    }
+  },
+  {
+    "id": "BIO014",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Origen de la vida: evolución química",
+    "pregunta": "En el experimento de Miller y Urey se obtuvieron compuestos orgánicos a partir de sustancias simples y una fuente de energía. ¿Qué conclusión es compatible con ese resultado?",
+    "opciones": {
+      "a": "Algunas moléculas orgánicas pueden formarse por procesos abióticos",
+      "b": "Se identificó con certeza la composición exacta de la atmósfera primitiva",
+      "c": "Se demostró que toda vida actual surge espontáneamente",
+      "d": "Se crearon células completas en el laboratorio"
+    },
+    "respuesta": "a",
+    "explicacion": "El experimento mostró síntesis abiótica de compuestos orgánicos bajo las condiciones ensayadas. No produjo seres vivos ni demostró que esas condiciones fueran idénticas a las de la Tierra primitiva.",
+    "fuente_conceptual": "https://openstax.org/books/microbiology/pages/7-introduction",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_biologia_unam_area4_20_preguntas.json",
+      "id_original": 14
+    }
+  },
+  {
+    "id": "BIO015",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Evolución: selección natural",
+    "pregunta": "Antes de aplicar un insecticida, una población presenta unos pocos insectos con resistencia heredable. Tras varias generaciones de exposición, estos son más frecuentes. ¿Cuál es la mejor explicación?",
+    "opciones": {
+      "a": "Los resistentes dejaron proporcionalmente más descendientes",
+      "b": "Los individuos adquirieron resistencia por uso y la heredaron",
+      "c": "El insecticida provocó en todos la mutación específica necesaria",
+      "d": "La resistencia aumentó sin diferencias en supervivencia ni reproducción"
+    },
+    "respuesta": "a",
+    "explicacion": "La variación heredable ya existía. El insecticida favoreció la supervivencia y reproducción de los resistentes, aumentando su frecuencia por selección natural.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/18-chapter-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_biologia_unam_area4_20_preguntas.json",
+      "id_original": 15
+    }
+  },
+  {
+    "id": "BIO016",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Evolución: evidencias",
+    "pregunta": "El brazo humano y la aleta anterior de una ballena presentan un patrón óseo semejante, aunque cumplen funciones distintas. ¿Cómo se interpretan estas estructuras?",
+    "opciones": {
+      "a": "Como homólogas, relacionadas con un ancestro común",
+      "b": "Como análogas, surgidas por convergencia sin origen estructural común",
+      "c": "Como vestigiales, porque ambas han perdido su función",
+      "d": "Como evidencia de que humanos y ballenas pertenecen a una sola especie"
+    },
+    "respuesta": "a",
+    "explicacion": "Las estructuras homólogas conservan un origen evolutivo compartido aunque sus funciones puedan divergir. La semejanza del patrón óseo apoya esa relación.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/20-chapter-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_biologia_unam_area4_20_preguntas.json",
+      "id_original": 16
+    }
+  },
+  {
+    "id": "BIO017",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Biodiversidad: clasificación",
+    "pregunta": "¿Qué secuencia ordena las siguientes categorías taxonómicas tradicionales desde la más general hasta la más específica?",
+    "opciones": {
+      "a": "Reino → clase → filo → orden → familia → género → especie",
+      "b": "Reino → filo → orden → clase → familia → género → especie",
+      "c": "Reino → filo → clase → orden → familia → género → especie",
+      "d": "Reino → filo → clase → orden → género → familia → especie"
+    },
+    "respuesta": "c",
+    "explicacion": "En esta jerarquía, las especies se agrupan en géneros, los géneros en familias, las familias en órdenes, los órdenes en clases y las clases en filos dentro de los reinos. Todos los términos propuestos son categorías; lo decisivo es su orden.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/20-1-organizing-life-on-earth",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_biologia_unam_area4_20_preguntas.json",
+      "id_original": 17
+    },
+    "revision_calidad": {
+      "lote": "calidad-ciencias-1",
+      "motivo": "Eliminar pista de única opción taxonómica",
+      "estado": "propuesta validada, pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO018",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Ecología: flujo de energía",
+    "pregunta": "En una cadena alimentaria, los productores almacenan 20 000 kJ. Si en este modelo se transfiere el 10 % de energía entre niveles, ¿cuánto reciben los consumidores secundarios?",
+    "opciones": {
+      "a": "200 kJ",
+      "b": "20 000 kJ",
+      "c": "20 kJ",
+      "d": "2000 kJ"
+    },
+    "respuesta": "a",
+    "explicacion": "Los consumidores primarios reciben 2000 kJ y los secundarios el 10 % de esa cantidad: 200 kJ. El 10 % es el supuesto del modelo, no una eficiencia universal.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/46-chapter-summary",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_biologia_unam_area4_20_preguntas.json",
+      "id_original": 18
+    }
+  },
+  {
+    "id": "BIO019",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Ecología: ciclos biogeoquímicos",
+    "pregunta": "¿Qué combinación distingue el destino de nutrientes y energía durante la descomposición de restos orgánicos?",
+    "opciones": {
+      "a": "Los nutrientes pueden reutilizarse; la energía térmica vuelve íntegra a los productores",
+      "b": "Los nutrientes dejan de estar disponibles; parte de la energía se disipa como calor",
+      "c": "Los nutrientes dejan de estar disponibles; la energía térmica vuelve íntegra a los productores",
+      "d": "Los nutrientes pueden reutilizarse; parte de la energía se disipa como calor"
+    },
+    "respuesta": "d",
+    "explicacion": "La descomposición y mineralización permiten reutilizar nutrientes. La energía fluye y parte se disipa como calor; no retorna íntegra a los productores como un ciclo equivalente al de la materia.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_biologia_unam_area4_20_preguntas.json",
+      "id_original": 19
+    },
+    "revision_calidad": {
+      "lote": "calidad-ciencias-1",
+      "motivo": "Comparar destinos de materia y energía con opciones paralelas",
+      "estado": "propuesta validada, pendiente revisión cruzada"
+    }
+  },
+  {
+    "id": "BIO020",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Biología",
+    "tema": "Biodiversidad: conservación",
+    "pregunta": "Una carretera divide un bosque y aísla poblaciones de una especie. ¿Qué medida favorece de manera más directa la conectividad y el intercambio genético entre ellas?",
+    "opciones": {
+      "a": "Crear un banco de semillas sin modificar las barreras entre fragmentos",
+      "b": "Monitorear la población sin intervenir en la conectividad",
+      "c": "Establecer corredores biológicos adecuados para la especie",
+      "d": "Aumentar alimento en cada fragmento manteniendo las barreras al desplazamiento"
+    },
+    "respuesta": "c",
+    "explicacion": "Los corredores adecuados facilitan el movimiento entre fragmentos y pueden favorecer el flujo génico. Las barreras y la pérdida adicional de hábitat intensifican el aislamiento.",
+    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity",
+    "origen": {
+      "tipo": "revisada",
+      "archivo": "simulacro_biologia_unam_area4_20_preguntas.json",
+      "id_original": 20
+    }
+  },
+  {
+    "id": "lit-011",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Romanticismo",
+    "pregunta": "Un personaje desafía las normas sociales, exalta su libertad y proyecta su desesperación en un paisaje tormentoso. ¿Con qué corriente se relaciona principalmente esa combinación de rasgos?",
+    "opciones": {
+      "a": "Costumbrismo descriptivo sin conflicto subjetivo",
+      "b": "Romanticismo",
+      "c": "Neoclasicismo de intención normativa",
+      "d": "Realismo social de observación documental"
+    },
+    "respuesta": "b",
+    "explicacion": "La libertad individual, la intensidad emocional y la naturaleza asociada al estado de ánimo son rasgos característicos del Romanticismo.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal1/unidad4/culturaSigloXIX/romanticismo",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "lit-012",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Realismo",
+    "pregunta": "Una novela representa con detalle los oficios, las viviendas y las tensiones económicas de una ciudad del siglo XIX, buscando verosimilitud social. ¿Qué corriente describe mejor ese proyecto?",
+    "opciones": {
+      "a": "Romanticismo de evasión legendaria",
+      "b": "Vanguardismo de ruptura tipográfica",
+      "c": "Surrealismo basado en asociaciones oníricas",
+      "d": "Realismo"
+    },
+    "respuesta": "d",
+    "explicacion": "El Realismo presta atención a la vida contemporánea y a las relaciones sociales, con descripciones que hacen reconocible y verosímil el mundo representado.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal1/unidad4/culturaSigloXIX/realismo",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "lit-013",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Modernismo: autores y obras",
+    "pregunta": "¿Qué pareja de autor y obra se vincula de manera central con el modernismo hispanoamericano?",
+    "opciones": {
+      "a": "Benito Pérez Galdós — Fortunata y Jacinta",
+      "b": "Miguel de Cervantes — Don Quijote de la Mancha",
+      "c": "Rubén Darío — Azul…",
+      "d": "Fernando de Rojas — La Celestina"
+    },
+    "respuesta": "c",
+    "explicacion": "Azul…, publicado inicialmente en 1888, es una obra emblemática de Rubén Darío y del modernismo hispanoamericano. Las otras parejas corresponden a contextos literarios distintos.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/publicaciones-digitales/azul",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "lit-014",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Interpretación literaria",
+    "pregunta": "Lee el fragmento original: «Guardó durante años la llave de una casa demolida. Cada noche la colocaba junto a la puerta de su nuevo cuarto». ¿Qué interpretación está mejor sustentada?",
+    "opciones": {
+      "a": "La llave expresa la decisión de recuperar materialmente la casa",
+      "b": "La llave representa el rechazo del personaje a conservar recuerdos",
+      "c": "La llave sugiere que el vínculo con la casa persiste tras perderla",
+      "d": "La llave anuncia que el personaje ha aceptado mudarse de nuevo"
+    },
+    "respuesta": "c",
+    "explicacion": "Conservar y colocar ritualmente una llave de una casa demolida sostiene un vínculo persistente con lo perdido. No se anuncia reconstrucción, eliminación de recuerdos ni una nueva mudanza.",
+    "fuente_conceptual": "https://dle.rae.es/s%C3%ADmbolo",
+    "origen": {
+      "tipo": "revision",
+      "serie": "auditoria1320",
+      "revision": "Mejora editorial tras lectura integral y cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "lit-015",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Autores y corrientes",
+    "pregunta": "Una antología busca incluir una obra representativa del Barroco novohispano. ¿Qué selección resulta pertinente?",
+    "opciones": {
+      "a": "Rubén Darío: Azul…",
+      "b": "Benito Pérez Galdós: Fortunata y Jacinta",
+      "c": "Juan Rulfo: Pedro Páramo",
+      "d": "Sor Juana Inés de la Cruz: Primero sueño"
+    },
+    "respuesta": "d",
+    "explicacion": "Sor Juana pertenece al Barroco novohispano del siglo XVII. Azul… se vincula con el modernismo; Fortunata y Jacinta, con el realismo español; Pedro Páramo, con la narrativa mexicana del siglo XX.",
+    "fuente_conceptual": "https://rua2024.unam.mx/portal/recursos/ficha/5724/primero-sueno",
+    "origen": "Reactivo original nuevo, reemplaza uno elemental durante revisión"
+  },
+  {
+    "id": "lit-016",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Texto argumentativo: ensayo",
+    "pregunta": "Un ensayo defiende que releer transforma la interpretación de una obra y desarrolla razones y ejemplos para sostenerlo. ¿Qué organización predomina?",
+    "opciones": {
+      "a": "Una lista de instrucciones sin justificación",
+      "b": "Argumentativa",
+      "c": "Un inventario sin relación entre sus elementos",
+      "d": "Una transcripción de diálogos teatrales sin comentarios"
+    },
+    "respuesta": "b",
+    "explicacion": "El ensayo descrito propone una tesis y la sostiene con razones y ejemplos, de modo que predomina la argumentación.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/alumno/tlriid2/unidad1/textosmodelo/textoArgumentativo",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "lit-017",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Investigación documental: cita de segunda mano",
+    "pregunta": "Una estudiante lee en un artículo de Lara una oración atribuida a Ruiz. No ha consultado la obra de Ruiz y quiere reproducir esas palabras como cita textual. ¿Qué procedimiento informa con transparencia de la fuente que realmente utilizó?",
+    "opciones": {
+      "a": "Citar solo a Lara como autora de la oración y dejar a Ruiz fuera",
+      "b": "Atribuir la oración a Ruiz usando como página original la que tiene en Lara",
+      "c": "Reconstruir la referencia de Ruiz sin declarar la mediación de Lara",
+      "d": "Identificar a Ruiz como citado en Lara y localizar el pasaje consultado"
+    },
+    "respuesta": "d",
+    "explicacion": "La cita de segunda mano distingue al autor de las palabras de la fuente efectivamente consultada. Debe declararse esa mediación, no fingir una consulta directa ni transferir la autoría.",
+    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "origen": {
+      "tipo": "revision",
+      "serie": "auditoria1320",
+      "revision": "Mejora editorial tras lectura integral y cruce independiente; sin calibración psicométrica"
+    }
+  },
+  {
+    "id": "lit-018",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Interpretación: ironía",
+    "pregunta": "Lee el fragmento original: «El alcalde inauguró la oficina de transparencia detrás de tres puertas cerradas. “Aquí todo está a la vista”, anunció sin permitir la entrada». ¿Qué efecto produce la relación entre sus palabras y sus acciones?",
+    "opciones": {
+      "a": "Una ironía que cuestiona la transparencia proclamada.",
+      "b": "Una descripción neutral del funcionamiento administrativo.",
+      "c": "Una confirmación literal de que todos pueden observar la oficina.",
+      "d": "Una anticipación de que el alcalde renunciará al día siguiente."
+    },
+    "respuesta": "a",
+    "explicacion": "Las puertas cerradas y la prohibición contradicen el anuncio. Esa oposición permite una lectura irónica y crítica, sin que el texto anuncie una renuncia.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/textoLirico/figurasRetoricas",
+    "origen": "Reactivo original nuevo, reemplaza uno elemental durante revisión"
+  },
+  {
+    "id": "lit-019",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Investigación documental: resumen y comentario",
+    "pregunta": "Fuente original: «El huerto escolar aporta verduras al comedor y permite estudiar los ciclos de las plantas. Durante las vacaciones falta personal para regarlo; por ello se propone organizar turnos voluntarios».\n\nFicha I: «El huerto tiene utilidad alimentaria y educativa, pero necesita organizar el riego durante las vacaciones».\nFicha II: «La propuesta de turnos resulta pertinente, aunque su viabilidad depende de que haya suficientes voluntarios y de cómo se distribuyan las tareas».\n\n¿Qué diferencia describe mejor las operaciones de ambas fichas?",
+    "opciones": {
+      "a": "I sintetiza el contenido de la fuente; II lo valora añadiendo consideraciones razonadas.",
+      "b": "I reproduce literalmente la fuente; II identifica los datos de su publicación.",
+      "c": "I comenta la calidad de la propuesta; II resume las ideas sin añadir una valoración.",
+      "d": "I registra autoría y título de la fuente; II copia una cita textual completa."
+    },
+    "respuesta": "a",
+    "explicacion": "La ficha I condensa las ideas de la fuente con otras palabras. La ficha II formula un comentario: juzga la propuesta y añade condiciones para evaluar su aplicación. Ninguna es una reproducción literal ni una referencia bibliográfica.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid4/unidad3/procesamiento/fichasTrabajo",
+    "origen": "Redistribución curricular1800 original; fuente conceptual, revisión y cruce independiente completados. No calibración psicométrica."
+  },
+  {
+    "id": "lit-020",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Literatura",
+    "tema": "Relación entre forma y género",
+    "pregunta": "¿Cuál afirmación sobre la clasificación de textos literarios es la más adecuada?",
+    "opciones": {
+      "a": "Para distinguir géneros se consideran rasgos de organización y enunciación, no solo si hay verso o prosa.",
+      "b": "Todo texto en prosa es necesariamente una novela.",
+      "c": "Todo texto en verso pertenece necesariamente a la lírica.",
+      "d": "Un texto con diálogo es siempre teatro, aunque lo enmarque un narrador."
+    },
+    "respuesta": "a",
+    "explicacion": "La clasificación no depende exclusivamente de verso o prosa: puede haber narraciones en verso, poesía en prosa y diálogos dentro de novelas.",
+    "fuente_conceptual": "https://rua2024.unam.mx/portal/recursos/ficha/20172/generos-literarios-dramatico-lirico-narrativo",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "geo-011",
+    "categoria": "Geografía",
+    "tema": "Densidad de población",
+    "pregunta": "Una región hipotética tiene 180 000 habitantes y una superficie de 900 km². ¿Cuál es su densidad media de población?",
+    "opciones": {
+      "a": "2 000 habitantes por km²",
+      "b": "20 habitantes por km²",
+      "c": "200 habitantes por km²",
+      "d": "900 habitantes por km²"
+    },
+    "respuesta": "c",
+    "explicacion": "La densidad se obtiene al dividir población entre superficie: 180 000 ÷ 900 = 200 habitantes por km². Es un promedio, no implica una distribución uniforme.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/explora/poblacion/densidad/",
+    "origen": "Revisada y adaptada de simulacro_geografia_unam_area4_20_preguntas.json, id 11"
+  },
+  {
+    "id": "geo-012",
+    "categoria": "Geografía",
+    "tema": "Migración interna",
+    "pregunta": "Una familia cambia su residencia habitual de una comunidad rural de Oaxaca a la ciudad de Monterrey. ¿Cómo se clasifica este desplazamiento?",
+    "opciones": {
+      "a": "Migración internacional de retorno.",
+      "b": "Migración externa de tipo ciudad-campo.",
+      "c": "Turismo internacional temporal.",
+      "d": "Migración interna de tipo campo-ciudad."
+    },
+    "respuesta": "d",
+    "explicacion": "El cambio ocurre dentro de México, por lo que es migración interna. Como el origen es rural y el destino urbano, también es un flujo campo-ciudad.",
+    "fuente_conceptual": "https://www.inegi.org.mx/temas/migracion/",
+    "origen": "Revisada y adaptada de simulacro_geografia_unam_area4_20_preguntas.json, id 12"
+  },
+  {
+    "id": "geo-013",
+    "categoria": "Geografía",
+    "tema": "Emigración e inmigración",
+    "pregunta": "Una persona deja su residencia en México y se establece en Canadá. ¿Cómo se denomina desde la perspectiva de Canadá?",
+    "opciones": {
+      "a": "Inmigrante",
+      "b": "Emigrante de Canadá",
+      "c": "Turista nacional",
+      "d": "Migrante interna de Canadá"
+    },
+    "respuesta": "a",
+    "explicacion": "La misma persona es emigrante respecto al país del que sale e inmigrante respecto al país al que llega a establecer su residencia.",
+    "fuente_conceptual": "https://cuentame.inegi.gob.mx/explora/poblacion/migracion/",
+    "origen": "Revisada y adaptada de simulacro_geografia_unam_area4_20_preguntas.json, id 13"
+  },
+  {
+    "id": "geo-014",
+    "categoria": "Geografía",
+    "tema": "Interpretación de indicadores demográficos",
+    "pregunta": "Una región A tiene 100 000 habitantes en 100 km² y una región B tiene 300 000 habitantes en 1 000 km². ¿Qué conclusión es correcta?",
+    "opciones": {
+      "a": "B tiene mayor densidad porque siempre la región más poblada es la más densa.",
+      "b": "A tiene menor población total, pero mayor densidad que B.",
+      "c": "A tiene mayor población total y menor densidad.",
+      "d": "Ambas tienen la misma densidad."
+    },
+    "respuesta": "b",
+    "explicacion": "A tiene 1 000 habitantes por km² y B tiene 300 habitantes por km². Una población total mayor no implica necesariamente una densidad mayor.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/explora/poblacion/densidad/",
+    "origen": "Revisada y adaptada de simulacro_geografia_unam_area4_20_preguntas.json, id 14"
+  },
+  {
+    "id": "geo-015",
+    "categoria": "Geografía",
+    "tema": "Sectores de la economía",
+    "pregunta": "Una fábrica transforma algodón en telas. ¿A qué gran sector económico corresponde esta transformación industrial?",
+    "opciones": {
+      "a": "Primario",
+      "b": "Terciario",
+      "c": "Secundario",
+      "d": "Ningún sector, porque utiliza una materia prima agrícola."
+    },
+    "respuesta": "c",
+    "explicacion": "La transformación de materias primas en bienes industriales pertenece al sector secundario. Cultivar algodón es una actividad primaria; comercializar la tela es terciaria.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/explora/economia/pib/",
+    "origen": "Revisada y adaptada de simulacro_geografia_unam_area4_20_preguntas.json, id 15"
+  },
+  {
+    "id": "geo-016",
+    "categoria": "Geografía",
+    "tema": "Globalización económica",
+    "pregunta": "Una empresa diseña un producto en un país, compra componentes en otros y lo ensambla en México para exportarlo. ¿Qué proceso ejemplifica?",
+    "opciones": {
+      "a": "La sustitución de importaciones orientada a producir todos los componentes dentro de México.",
+      "b": "La integración vertical exclusivamente nacional de todas las etapas del producto.",
+      "c": "La especialización de cada país en elaborar un producto completo sin intercambiar insumos.",
+      "d": "La integración de una cadena de producción internacional."
+    },
+    "respuesta": "d",
+    "explicacion": "La globalización vincula economías mediante flujos de bienes, inversiones, tecnología y servicios. Distribuir etapas productivas entre países es una manifestación de esa integración.",
+    "fuente_conceptual": "https://www.imf.org/es/publications/fandd/issues/2024/06/b2b-globalization-today-adam-jakubik-and-elizabeth-van-heuvelen",
+    "origen": "Revisada y adaptada de simulacro_geografia_unam_area4_20_preguntas.json, id 16"
+  },
+  {
+    "id": "geo-017",
+    "categoria": "Geografía",
+    "tema": "Indicadores de desarrollo humano",
+    "pregunta": "¿Qué conjunto corresponde a los indicadores utilizados para construir el Índice de Desarrollo Humano?",
+    "opciones": {
+      "a": "Esperanza de vida, escolaridad e ingreso nacional bruto por persona.",
+      "b": "Tasa de natalidad, nivel de empleo y saldo del comercio exterior.",
+      "c": "Mortalidad infantil, desigualdad salarial y producción industrial.",
+      "d": "Porcentaje urbano, consumo energético y crecimiento anual del PIB."
+    },
+    "respuesta": "a",
+    "explicacion": "El IDH combina salud, educación y nivel de vida. Sus indicadores incluyen esperanza de vida al nacer, años medios y esperados de escolaridad e ingreso nacional bruto por persona; no mide directamente todas las dimensiones del bienestar.",
+    "fuente_conceptual": "https://hdr.undp.org/data-center/human-development-index",
+    "origen": "Revisión de calidad académica · reactivo original o reformulado; fuente institucional contrastada"
+  },
+  {
+    "id": "geo-018",
+    "categoria": "Geografía",
+    "tema": "Recursos energéticos",
+    "pregunta": "¿Cuál de las siguientes parejas está formada únicamente por fuentes de energía renovable?",
+    "opciones": {
+      "a": "Petróleo y solar",
+      "b": "Solar y eólica",
+      "c": "Carbón y gas natural",
+      "d": "Gas natural y eólica"
+    },
+    "respuesta": "b",
+    "explicacion": "La radiación solar y el viento se reponen mediante procesos naturales en escalas de tiempo humanas. El carbón, el petróleo y el gas natural son combustibles fósiles no renovables.",
+    "fuente_conceptual": "https://www.un.org/es/climatechange/raising-ambition/renewable-energy",
+    "origen": "Revisada y adaptada de simulacro_geografia_unam_area4_20_preguntas.json, id 18"
+  },
+  {
+    "id": "geo-019",
+    "categoria": "Geografía",
+    "tema": "Límites y fronteras de México",
+    "pregunta": "¿Con qué dos países comparte México fronteras terrestres al sur y sureste?",
+    "opciones": {
+      "a": "Honduras y El Salvador",
+      "b": "Costa Rica y Panamá",
+      "c": "Guatemala y Belice",
+      "d": "Cuba y Jamaica"
+    },
+    "respuesta": "c",
+    "explicacion": "México comparte su frontera terrestre meridional con Guatemala y Belice. Su otra frontera terrestre internacional es con Estados Unidos, al norte.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/explora/geografia/division_territorial/",
+    "origen": "Revisada y adaptada de simulacro_geografia_unam_area4_20_preguntas.json, id 19"
+  },
+  {
+    "id": "geo-020",
+    "categoria": "Geografía",
+    "tema": "Representación del espacio geográfico",
+    "pregunta": "Se busca comparar cuántos habitantes viven por kilómetro cuadrado en distintos municipios. ¿Qué mapa responde directamente a ese propósito?",
+    "opciones": {
+      "a": "Un mapa de población total con círculos proporcionales por municipio.",
+      "b": "Un mapa de crecimiento porcentual de población por municipio.",
+      "c": "Un mapa de proporción de población urbana por municipio.",
+      "d": "Un mapa de densidad de población con colores por municipio."
+    },
+    "respuesta": "d",
+    "explicacion": "La densidad relaciona habitantes y superficie. La población total no considera el tamaño del territorio; el crecimiento y la proporción urbana representan otras características demográficas.",
+    "fuente_conceptual": "https://cuentame.inegi.org.mx/descubre/geografia/mapas/",
+    "origen": "Revisión de calidad académica · reactivo original o reformulado; fuente institucional contrastada"
+  },
+  {
+    "id": "hu-011",
+    "categoria": "Historia Universal",
+    "tema": "HU · Imperialismo",
+    "pregunta": "¿Qué relación explica mejor la expansión imperialista de las potencias industriales durante el último tercio del siglo XIX?",
+    "opciones": {
+      "a": "La industrialización eliminó la competencia económica y territorial entre las potencias.",
+      "b": "Las colonias se fundaron principalmente para establecer relaciones políticas de igualdad con los pueblos conquistados.",
+      "c": "La expansión industrial estimuló la búsqueda de materias primas, mercados y espacios para invertir capital.",
+      "d": "La reducción de la producción industrial volvió innecesario el control de recursos externos."
+    },
+    "respuesta": "c",
+    "explicacion": "La industria demandaba recursos y mercados, mientras los inversionistas buscaban oportunidades rentables. Estos intereses se combinaron con rivalidades estratégicas y justificaciones racistas o civilizatorias. El imperialismo implicó relaciones de dominación, no una asociación entre iguales.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/aprende/historiauniversal2/2darevolucionindustrial",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 11"
+  },
+  {
+    "id": "hu-012",
+    "categoria": "Historia Universal",
+    "tema": "HU · Causas y detonante de la Primera Guerra Mundial",
+    "pregunta": "¿Qué pareja distingue correctamente una causa de fondo y el detonante de la crisis que condujo al comienzo de la Primera Guerra Mundial?",
+    "opciones": {
+      "a": "Causa: nacionalismos balcánicos; detonante: invasión de Bélgica.",
+      "b": "Causa: rivalidades imperialistas; detonante: invasión de Polonia.",
+      "c": "Causa: reparaciones de Versalles; detonante: atentado de Sarajevo.",
+      "d": "Causa: rivalidades imperialistas; detonante: atentado de Sarajevo."
+    },
+    "respuesta": "d",
+    "explicacion": "Las rivalidades entre potencias prepararon el conflicto y el atentado de Sarajevo precipitó la crisis de 1914. La invasión de Bélgica ocurrió una vez iniciadas las declaraciones de guerra; Versalles fue posterior y la invasión de Polonia corresponde a 1939.",
+    "fuente_conceptual": "https://dcas.dmdc.osd.mil/dcas/conflictCasualties/ww1",
+    "origen": "Revisión de calidad académica · reactivo original o reformulado; fuente institucional contrastada"
+  },
+  {
+    "id": "hu-013",
+    "categoria": "Historia Universal",
+    "tema": "HU · Primera Guerra Mundial y Revolución rusa",
+    "pregunta": "El Tratado de Versalles de 1919 estableció para Alemania",
+    "opciones": {
+      "a": "pérdidas territoriales, limitaciones militares y obligaciones de reparación económica.",
+      "b": "la incorporación de Austria y de todas sus antiguas colonias.",
+      "c": "la supresión de reparaciones y el reconocimiento de su victoria militar.",
+      "d": "su división inmediata en una república federal y una república democrática."
+    },
+    "respuesta": "a",
+    "explicacion": "Versalles impuso condiciones territoriales, militares y económicas a Alemania después de la Primera Guerra Mundial. Sus términos alimentaron resentimientos, pero no explican por sí solos el ascenso del nazismo. La división en dos Estados alemanes ocurrió en 1949.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/repositorio-de-sitios/historico-social/historia-universal-2/HUMCII/HUII-1a%20Guerra.htm",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 13"
+  },
+  {
+    "id": "hu-014",
+    "categoria": "Historia Universal",
+    "tema": "HU · Primera Guerra Mundial y Revolución rusa",
+    "pregunta": "¿Qué secuencia describe correctamente los cambios de poder en Rusia durante 1917, según las denominaciones tradicionales de las revoluciones?",
+    "opciones": {
+      "a": "Febrero: triunfo bolchevique; octubre: restauración del zarismo.",
+      "b": "Febrero: caída del zarismo; octubre: derrocamiento del Gobierno provisional por los bolcheviques.",
+      "c": "Febrero: llegada de Stalin al poder; octubre: abdicación de Nicolás II.",
+      "d": "Febrero: creación de la URSS; octubre: establecimiento del Gobierno provisional."
+    },
+    "respuesta": "b",
+    "explicacion": "La Revolución de Febrero provocó la abdicación de Nicolás II y abrió paso al Gobierno provisional. En octubre, los bolcheviques encabezados por Lenin lo derrocaron. La URSS se constituyó en 1922, por lo que no debe confundirse con los acontecimientos de 1917.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal2/unidad2/revolucionrusa/1917Revolucion_octubre",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 14"
+  },
+  {
+    "id": "hu-015",
+    "categoria": "Historia Universal",
+    "tema": "HU · Periodo de entreguerras",
+    "pregunta": "Frente a la Gran Depresión, el New Deal de Franklin D. Roosevelt se caracterizó por",
+    "opciones": {
+      "a": "Priorizar el equilibrio presupuestario mediante recortes de obra pública y de asistencia.",
+      "b": "Confiar la recuperación a aranceles y a la autorregulación bancaria sin nuevos programas sociales.",
+      "c": "Ampliar la intervención estatal con obra pública, regulación financiera y protección social.",
+      "d": "Sustituir la inversión privada por un plan obligatorio de producción para todas las empresas."
+    },
+    "respuesta": "c",
+    "explicacion": "Desde 1933, el New Deal buscó aliviar el desempleo, recuperar la actividad económica y reformar el sistema financiero. Mantuvo el capitalismo con mayor intervención pública. No debe confundirse con la colectivización soviética ni con una solución instantánea a toda la crisis.",
+    "fuente_conceptual": "https://www.archives.gov/milestone-documents/social-security-act ; https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal2/unidad2/crisisEconomica1929/newDeal",
+    "origen": "Original · propuesta de revisión cualitativa del banco de 1 680; mantiene ID y clave; pendiente cruce"
+  },
+  {
+    "id": "hu-016",
+    "categoria": "Historia Universal",
+    "tema": "HU · Periodo de entreguerras",
+    "pregunta": "¿Qué conjunto de rasgos compartieron el fascismo italiano y el nazismo alemán?",
+    "opciones": {
+      "a": "Pluralismo partidista, independencia sindical y alternancia electoral.",
+      "b": "Internacionalismo obrero, eliminación del Estado y pacifismo.",
+      "c": "División efectiva de poderes, libertad de prensa y rechazo del militarismo.",
+      "d": "Nacionalismo extremo, culto al líder y represión de la oposición política."
+    },
+    "respuesta": "d",
+    "explicacion": "Ambos regímenes eliminaron el pluralismo y movilizaron a la sociedad alrededor del líder y de un nacionalismo agresivo. El nazismo incorporó además una doctrina racial y un antisemitismo centrales en su proyecto de persecución y exterminio.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal2/unidad2/regimenes_totalitarios/crisis_de_la_democracia",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 16"
+  },
+  {
+    "id": "hu-017",
+    "categoria": "Historia Universal",
+    "tema": "HU · Segunda Guerra Mundial",
+    "pregunta": "¿Qué acontecimiento desencadenó las declaraciones de guerra de Gran Bretaña y Francia contra Alemania en septiembre de 1939?",
+    "opciones": {
+      "a": "La invasión alemana de Polonia.",
+      "b": "La ocupación alemana de Renania.",
+      "c": "La incorporación de los Sudetes a Alemania.",
+      "d": "La anexión de Austria al territorio alemán."
+    },
+    "respuesta": "a",
+    "explicacion": "Alemania invadió Polonia el 1 de septiembre de 1939; Gran Bretaña y Francia le declararon la guerra el día 3. La remilitarización de Renania y las anexiones de Austria y los Sudetes fueron antecedentes del expansionismo nazi.",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 17",
+    "fuente_conceptual": "https://www.unamenlinea.unam.mx/recurso/81915-historia-universal-moderna-y-contemporanea-2"
+  },
+  {
+    "id": "hu-018",
+    "categoria": "Historia Universal",
+    "tema": "HU · Segunda Guerra Mundial",
+    "pregunta": "¿Por qué la batalla de Stalingrado de 1942-1943 se considera un punto de inflexión en el frente oriental de la Segunda Guerra Mundial?",
+    "opciones": {
+      "a": "Porque abrió una cabeza de puente aliada en Francia para avanzar desde el oeste.",
+      "b": "Porque la derrota alemana favoreció la iniciativa militar soviética en el frente oriental.",
+      "c": "Porque aseguró el dominio británico en Egipto al detener el avance hacia el canal de Suez.",
+      "d": "Porque completó la liberación de todo el territorio soviético ocupado y terminó la campaña oriental."
+    },
+    "respuesta": "b",
+    "explicacion": "La derrota alemana en Stalingrado fue un gran punto de inflexión que favoreció a la URSS. No terminó toda la campaña oriental; Normandía abrió la ofensiva desde Francia y El Alamein se vincula con la defensa británica de Egipto.",
+    "origen": "Original · propuesta de revisión cualitativa del banco de 1 680; mantiene ID y clave; pendiente cruce",
+    "fuente_conceptual": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/german-defeat-at-stalingrad"
+  },
+  {
+    "id": "hu-019",
+    "categoria": "Historia Universal",
+    "tema": "HU · Orden mundial de posguerra",
+    "pregunta": "Una finalidad central de la Organización de las Naciones Unidas, fundada en 1945, fue",
+    "opciones": {
+      "a": "crear una alianza de defensa colectiva exclusiva de Europa occidental y Norteamérica.",
+      "b": "integrar la producción europea de carbón y acero en una autoridad supranacional.",
+      "c": "preservar la paz y la seguridad internacionales mediante la cooperación entre Estados.",
+      "d": "coordinar exclusivamente préstamos destinados a la reconstrucción y al desarrollo económico."
+    },
+    "respuesta": "c",
+    "explicacion": "La ONU se creó al terminar la Segunda Guerra Mundial para promover la paz, la cooperación y los derechos humanos. No es una alianza militar como la OTAN ni un gobierno mundial que sustituya a los Estados.",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 19",
+    "fuente_conceptual": "https://www.unamenlinea.unam.mx/recurso/81915-historia-universal-moderna-y-contemporanea-2"
+  },
+  {
+    "id": "hu-020",
+    "categoria": "Historia Universal",
+    "tema": "HU · Guerra Fría",
+    "pregunta": "¿Qué relación existió entre el Plan Marshall y la política estadounidense de contención del comunismo?",
+    "opciones": {
+      "a": "La ayuda sustituyó los acuerdos económicos de Estados Unidos con Europa por un aislamiento comercial permanente.",
+      "b": "La ayuda se destinó a integrar a Europa occidental en el sistema de planificación soviético.",
+      "c": "El plan fue una alianza militar que estableció el mando conjunto de la OTAN en 1945.",
+      "d": "La ayuda a la reconstrucción europea buscó también estabilizar economías y reducir la influencia comunista."
+    },
+    "respuesta": "d",
+    "explicacion": "El Plan Marshall, anunciado en 1947, ofreció asistencia para la recuperación europea. Además de sus objetivos económicos, tuvo una dimensión estratégica: fortalecer a los países occidentales frente a la expansión de la influencia soviética.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiauniversal2/unidad3/principales-conflictos-de-la-guerra-fria/ejercicio1",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 20"
+  },
+  {
+    "id": "hm-011",
+    "categoria": "Historia de México",
+    "tema": "HM · Reforma y República Restaurada",
+    "pregunta": "Ordena cronológicamente estos procesos de la historia de México.\n\n1. Segundo Imperio de Maximiliano\n2. Guerra de Reforma\n3. República Restaurada\n4. Promulgación de la Constitución de 1857",
+    "opciones": {
+      "a": "1, 2, 4, 3.",
+      "b": "2, 4, 3, 1.",
+      "c": "4, 2, 1, 3.",
+      "d": "4, 1, 2, 3."
+    },
+    "respuesta": "c",
+    "explicacion": "La Constitución se promulgó en 1857 y la Guerra de Reforma ocurrió entre 1858 y 1861. Después vino el imperio encabezado por Maximiliano, quien gobernó de 1864 a 1867. Su derrota abrió la etapa de la República Restaurada.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad5/contextomundial/introduccion",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 36"
+  },
+  {
+    "id": "hm-012",
+    "categoria": "Historia de México",
+    "tema": "HM · Reforma y República Restaurada",
+    "pregunta": "¿Qué hecho dio inicio a la etapa conocida como República Restaurada en 1867?",
+    "opciones": {
+      "a": "La victoria del ejército de Zaragoza ante las tropas francesas en Puebla.",
+      "b": "La retirada de España y Gran Bretaña de la expedición tripartita.",
+      "c": "La entrada del ejército francés en la Ciudad de México tras el sitio de Puebla.",
+      "d": "La derrota del Segundo Imperio y el restablecimiento republicano en la capital."
+    },
+    "respuesta": "d",
+    "explicacion": "La derrota del Imperio permitió a Juárez regresar a la capital en 1867 y abrió la República Restaurada. La victoria del 5 de mayo y la retirada española y británica corresponden a 1862; la ocupación francesa de la capital, a 1863.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad5/contextomundial/introduccion",
+    "origen": "Original · propuesta de revisión cualitativa del banco de 1 680; mantiene ID y clave; pendiente cruce"
+  },
+  {
+    "id": "hm-013",
+    "categoria": "Historia de México",
+    "tema": "HM · Porfiriato",
+    "pregunta": "¿Qué combinación describe mejor el desarrollo económico y social del Porfiriato?",
+    "opciones": {
+      "a": "Expansión ferroviaria e inversión extranjera junto con concentración de tierras y fuertes desigualdades.",
+      "b": "Ausencia de crecimiento industrial y eliminación de la minería de exportación.",
+      "c": "Industrialización acompañada de sufragio universal efectivo y libertad sindical plena.",
+      "d": "Aislamiento comercial, desaparición de las haciendas y reparto generalizado de tierras."
+    },
+    "respuesta": "a",
+    "explicacion": "Durante el Porfiriato crecieron ferrocarriles, minería e industrias, con importante inversión extranjera. Sus beneficios se distribuyeron de manera desigual; la concentración agraria y las condiciones laborales provocaron conflictos. Modernización económica no equivalió a democratización política.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad5/economiaMexicana1854-1900/introduccion",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 38"
+  },
+  {
+    "id": "hm-014",
+    "categoria": "Historia de México",
+    "tema": "HM · Revolución mexicana",
+    "pregunta": "Relaciona cada documento revolucionario con su objetivo central.\n\n1. Plan de San Luis\n2. Plan de Ayala\n3. Plan de Guadalupe\n\nI. Desconocer a Victoriano Huerta y organizar el movimiento constitucionalista\nII. Convocar al levantamiento contra la reelección de Porfirio Díaz\nIII. Exigir la restitución de tierras y desconocer a Madero",
+    "opciones": {
+      "a": "1-I, 2-II, 3-III.",
+      "b": "1-II, 2-III, 3-I.",
+      "c": "1-II, 2-I, 3-III.",
+      "d": "1-III, 2-I, 3-II."
+    },
+    "respuesta": "b",
+    "explicacion": "Madero proclamó el Plan de San Luis en 1910; Zapata y sus seguidores, el Plan de Ayala en 1911; y Carranza, el Plan de Guadalupe en 1913. Cada documento respondió a un momento y a adversarios distintos de la Revolución.",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 39",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1"
+  },
+  {
+    "id": "hm-015",
+    "categoria": "Historia de México",
+    "tema": "HM · Revolución mexicana",
+    "pregunta": "Relaciona los artículos de la Constitución de 1917 con la materia por la que son especialmente conocidos.\n\n1. Artículo 3\n2. Artículo 27\n3. Artículo 123\n\nI. Trabajo y derechos laborales\nII. Educación\nIII. Propiedad de tierras, aguas y recursos de la nación",
+    "opciones": {
+      "a": "1-III, 2-I, 3-II.",
+      "b": "1-II, 2-I, 3-III.",
+      "c": "1-II, 2-III, 3-I.",
+      "d": "1-I, 2-II, 3-III."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 3 se refiere a la educación; el 27, al régimen de propiedad de tierras, aguas y recursos; y el 123, al trabajo. Estas disposiciones expresaron demandas sociales de la Revolución. Su redacción ha recibido reformas posteriores a 1917.",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 40",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1"
+  },
+  {
+    "id": "hm-016",
+    "categoria": "Historia de México",
+    "tema": "HM · Reconstrucción e institucionalización",
+    "pregunta": "La creación del Partido Nacional Revolucionario en 1929 buscó principalmente",
+    "opciones": {
+      "a": "organizar una oposición electoral al gobierno de Calles bajo el liderazgo de los antiguos porfiristas.",
+      "b": "eliminar de inmediato las redes de los caudillos y garantizar la alternancia entre partidos en la presidencia.",
+      "c": "sustituir la Constitución de 1917 por un régimen de juntas militares regionales.",
+      "d": "agrupar a las fuerzas revolucionarias y encauzar las disputas por el poder mediante una organización política nacional."
+    },
+    "respuesta": "d",
+    "explicacion": "El PNR surgió tras el asesinato de Álvaro Obregón, en un contexto de conflictos entre grupos revolucionarios. Buscaba regular la sucesión y articular esas fuerzas. Después se transformó en PRM en 1938 y en PRI en 1946.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/repositorio-de-sitios/historico-social/historia-de-mexico-2/HMII/RespuestaCortaInsti.htm",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 41"
+  },
+  {
+    "id": "hm-017",
+    "categoria": "Historia de México",
+    "tema": "HM · Reconstrucción e institucionalización",
+    "pregunta": "El periodo conocido como Maximato se caracterizó por",
+    "opciones": {
+      "a": "la influencia política de Plutarco Elías Calles sobre los gobiernos de Portes Gil, Ortiz Rubio y Abelardo L. Rodríguez.",
+      "b": "la dirección política de Emiliano Zapata sobre los gobiernos posteriores a 1940.",
+      "c": "la permanencia de Calles como presidente constitucional durante tres sexenios consecutivos.",
+      "d": "el gobierno imperial de Maximiliano de Habsburgo con apoyo francés."
+    },
+    "respuesta": "a",
+    "explicacion": "Entre 1928 y 1934, Calles conservó gran influencia como Jefe Máximo de la Revolución, sin ocupar formalmente la presidencia. El Maximato no se refiere a Maximiliano ni a un mandato presidencial continuo de Calles.",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/repositorio-de-sitios/historico-social/historia-de-mexico-2/HMII/CrossMaximato.htm",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 42"
+  },
+  {
+    "id": "hm-018",
+    "categoria": "Historia de México",
+    "tema": "HM · Cardenismo",
+    "pregunta": "¿Qué par de medidas corresponde al gobierno de Lázaro Cárdenas?",
+    "opciones": {
+      "a": "Fundación del Banco de México en 1925 y negociación de los arreglos que terminaron la Guerra Cristera en 1929.",
+      "b": "Ampliación del reparto agrario y expropiación petrolera en 1938.",
+      "c": "Creación de la Secretaría de Educación Pública en 1921 y firma de los Tratados de Bucareli en 1923.",
+      "d": "Creación del IMSS en 1943 y transformación del partido oficial en PRI en 1946."
+    },
+    "respuesta": "b",
+    "explicacion": "Cárdenas impulsó el reparto de tierras, especialmente mediante ejidos, y decretó la expropiación de los bienes de las compañías petroleras en 1938. Su política fortaleció la intervención estatal y la organización de trabajadores y campesinos.",
+    "fuente_conceptual": "https://www.inehrm.gob.mx/es/inehrm/Revolucion_Mexicana",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 43"
+  },
+  {
+    "id": "hm-019",
+    "categoria": "Historia de México",
+    "tema": "HM · Industrialización y desarrollo estabilizador",
+    "pregunta": "Durante la sustitución de importaciones, México amplió la fabricación nacional de bienes de consumo, pero continuó comprando maquinaria e insumos en el exterior. ¿Qué interpretación es correcta?",
+    "opciones": {
+      "a": "La compra de maquinaria externa demuestra que no hubo sustitución en ningún ramo.",
+      "b": "El modelo exigía reemplazar primero todas las importaciones antes de fabricar bienes de consumo.",
+      "c": "Sustituir ciertos bienes importados no eliminaba la dependencia de otros insumos y equipos externos.",
+      "d": "El modelo consistía en abandonar el mercado interno para producir exclusivamente para exportación."
+    },
+    "respuesta": "c",
+    "explicacion": "La sustitución podía avanzar en bienes finales y mantener importaciones de equipos, tecnología o insumos. No era autarquía completa ni significaba que todos los sectores sustituyeran al mismo tiempo sus compras externas.",
+    "origen": "Original · propuesta de revisión cualitativa del banco de 1 680; mantiene ID y clave; pendiente cruce",
+    "fuente_conceptual": "https://portalacademico.cch.unam.mx/repositorio-de-sitios/historico-social/historia-de-mexico-2/HMII/AvilaCamacho.pdf"
+  },
+  {
+    "id": "hm-020",
+    "categoria": "Historia de México",
+    "tema": "HM · Industrialización y desarrollo estabilizador",
+    "pregunta": "¿Qué rasgos económicos se asocian con el desarrollo estabilizador mexicano?",
+    "opciones": {
+      "a": "Crecimiento sostenido basado en devaluaciones frecuentes y aumento acelerado de precios.",
+      "b": "Liberalización comercial generalizada y privatización masiva como ejes de la política económica.",
+      "c": "Especialización exportadora de materias primas y abandono de la industrialización nacional.",
+      "d": "Crecimiento industrial, inflación relativamente baja y estabilidad del tipo de cambio."
+    },
+    "respuesta": "d",
+    "explicacion": "El desarrollo estabilizador, habitualmente ubicado entre 1954 y 1970, combinó crecimiento económico y estabilidad de precios y del peso. Estos logros no eliminaron la desigualdad social ni los desequilibrios entre el campo y las ciudades.",
+    "fuente_conceptual": "https://www.banxico.org.mx/conociendo-banxico/semblanza-historica-historia-.html",
+    "origen": "Revisada y adaptada de simulacro_historia_unam_50_preguntas.json, id 45"
+  },
+  {
+    "id": "fil-011",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Ética · Autonomía",
+    "pregunta": "Una estudiante rechaza copiar porque considera que hacerlo contradice un principio que reconoce como válido, aunque nadie la vigile. Esto ilustra principalmente",
+    "opciones": {
+      "a": "determinismo biológico.",
+      "b": "autonomía moral.",
+      "c": "obediencia por temor al castigo.",
+      "d": "ausencia de normas morales."
+    },
+    "respuesta": "b",
+    "explicacion": "La autonomía consiste en guiarse por principios asumidos racionalmente, no solo por vigilancia, premio o castigo. No significa actuar sin reglas ni hacer cualquier cosa que se desee.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "fil-012",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Ética · Teorías de los valores",
+    "pregunta": "Una persona sostiene que la crueldad es moralmente mala aunque una sociedad la apruebe. En el debate sobre los valores, esta postura se acerca al",
+    "opciones": {
+      "a": "relativismo cultural, porque cada costumbre determina por sí sola lo correcto.",
+      "b": "subjetivismo, porque hace depender el valor del gusto individual.",
+      "c": "objetivismo, porque el valor no depende solo de la aprobación de quienes juzgan.",
+      "d": "escepticismo radical, porque niega toda posibilidad de formular juicios morales."
+    },
+    "respuesta": "c",
+    "explicacion": "El objetivismo axiológico sostiene que los valores no se reducen a las preferencias individuales o a la aprobación social. El caso afirma un criterio moral que pretende valer incluso cuando una comunidad no lo comparte.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "fil-013",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Estética: juicio y utilidad",
+    "pregunta": "Una persona afirma: «Esta silla es incómoda, pero la relación entre sus líneas y proporciones me parece armoniosa». ¿Qué distinción permite entender su valoración?",
+    "opciones": {
+      "a": "La incomodidad demuestra que toda valoración estética es falsa.",
+      "b": "La utilidad práctica y la apreciación estética son criterios distintos.",
+      "c": "La armonía visual garantiza que la silla sea cómoda al sentarse.",
+      "d": "La belleza de un objeto depende únicamente del precio de venta."
+    },
+    "respuesta": "b",
+    "explicacion": "El uso práctico se refiere a la función de sentarse; el juicio estético considera aquí las formas y proporciones. Una valoración no determina necesariamente la otra.",
+    "fuente_conceptual": "https://uapa.bunam.unam.mx/u/humanidades/criterios_esteticos/",
+    "origen": "Reactivo original nuevo, reemplaza uno elemental durante revisión"
+  },
+  {
+    "id": "fil-014",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Ética · Normas",
+    "pregunta": "¿Cuál de estos ejemplos se refiere principalmente a una norma moral, más que a una regla técnica o de cortesía?",
+    "opciones": {
+      "a": "Colocar una copa en un lugar determinado según un protocolo de mesa.",
+      "b": "No engañar a otra persona, porque merece un trato honesto y respetuoso.",
+      "c": "Aplicar una fórmula para convertir metros en centímetros.",
+      "d": "Usar una herramienta según su manual para evitar que se averíe."
+    },
+    "respuesta": "b",
+    "explicacion": "El ejemplo apela a razones sobre lo correcto y lo incorrecto en el trato a otros. Las reglas técnicas orientan la eficacia de una tarea y las de cortesía regulan convenciones sociales; una misma conducta también puede tener dimensiones jurídicas o morales.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "fil-015",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Filosofía · Características",
+    "pregunta": "¿Cuál de las siguientes actividades expresa mejor una actitud filosófica?",
+    "opciones": {
+      "a": "Descartar toda pregunta que no tenga una respuesta inmediata.",
+      "b": "Examinar los supuestos de una creencia y evaluar las razones que la sostienen.",
+      "c": "Sustituir los argumentos por la autoridad de quien habla.",
+      "d": "Aceptar una afirmación solo porque se repite con frecuencia."
+    },
+    "respuesta": "b",
+    "explicacion": "La filosofía plantea preguntas, examina supuestos y construye argumentos. Su carácter crítico no exige rechazar toda creencia, sino considerar las razones para aceptarla o revisarla.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "fil-016",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Filosofía · Disciplinas",
+    "pregunta": "Relaciona cada disciplina con su problema principal.\n\n1. Ontología\n2. Estética\n3. Epistemología\n\nI. La justificación y los límites del conocimiento\nII. El ser y lo que existe\nIII. La experiencia estética y el arte",
+    "opciones": {
+      "a": "1-II, 2-III, 3-I.",
+      "b": "1-I, 2-II, 3-III.",
+      "c": "1-III, 2-I, 3-II.",
+      "d": "1-II, 2-I, 3-III."
+    },
+    "respuesta": "a",
+    "explicacion": "La ontología pregunta por el ser y la existencia; la estética estudia problemas del arte y de la experiencia estética; la epistemología analiza el conocimiento, sus fuentes, justificación y límites.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "fil-017",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Epistemología · Conocimiento",
+    "pregunta": "Alguien adivina el resultado de un experimento sin disponer de ninguna razón y acierta por casualidad. ¿Qué muestra este caso?",
+    "opciones": {
+      "a": "Que una creencia verdadera no basta por sí sola para hablar de conocimiento justificado.",
+      "b": "Que toda creencia verdadera es necesariamente conocimiento científico.",
+      "c": "Que la justificación depende únicamente de la confianza personal.",
+      "d": "Que el conocimiento exige que todas las personas tengan la misma opinión."
+    },
+    "respuesta": "a",
+    "explicacion": "Acertar por azar permite tener una creencia verdadera sin una justificación adecuada. La relación entre verdad, creencia y justificación es un problema central de la epistemología, y su análisis no se reduce a la seguridad subjetiva.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "fil-018",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Epistemología · Corrientes",
+    "pregunta": "¿Qué postura sostiene que la experiencia sensible es una fuente fundamental del conocimiento y rechaza que todo su contenido provenga de ideas innatas?",
+    "opciones": {
+      "a": "Idealismo platónico.",
+      "b": "Dogmatismo moral.",
+      "c": "Racionalismo innatista.",
+      "d": "Empirismo."
+    },
+    "respuesta": "d",
+    "explicacion": "El empirismo destaca el papel de la experiencia en el origen del conocimiento. Se contrasta habitualmente con el racionalismo, que concede un papel privilegiado a la razón; eso no significa que el empirismo prescinda de razonar.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "fil-019",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Epistemología · Tipos de conocimiento",
+    "pregunta": "¿Qué rasgo distingue mejor el conocimiento científico del conocimiento cotidiano?",
+    "opciones": {
+      "a": "Se transmite por la experiencia habitual sin requerir procedimientos explícitos.",
+      "b": "Emplea métodos sistemáticos y somete sus afirmaciones a revisión y contraste.",
+      "c": "Se justifica por las preferencias individuales de quien formula las afirmaciones.",
+      "d": "Se distingue por recopilar observaciones sin buscar explicaciones ni relaciones."
+    },
+    "respuesta": "b",
+    "explicacion": "La ciencia busca explicar y contrastar sus afirmaciones mediante procedimientos explícitos y sistemáticos. El saber cotidiano puede ser útil y verdadero, pero no siempre procede de una investigación de ese tipo. El conocimiento científico es revisable.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  },
+  {
+    "id": "fil-020",
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Filosofía",
+    "tema": "Epistemología · Verdad y justificación",
+    "pregunta": "Según una concepción de la verdad como correspondencia, una afirmación es verdadera si",
+    "opciones": {
+      "a": "agrada a quien la escucha.",
+      "b": "ha sido aceptada por todas las generaciones anteriores.",
+      "c": "concuerda con los hechos o con la realidad a la que se refiere.",
+      "d": "se expresa con gran seguridad."
+    },
+    "respuesta": "c",
+    "explicacion": "La teoría de la correspondencia vincula la verdad con los hechos. La popularidad, la antigüedad o la convicción no bastan para establecerla; tampoco deben confundirse verdad y los medios usados para justificar una creencia.",
+    "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/72373/conocimientos-fundamentales-filosofia",
+    "origen": "Revisada y reutilizada del simulacro existente"
+  }
+]
