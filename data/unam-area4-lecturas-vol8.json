@@ -826,7 +826,7 @@
     "id": "FIS074",
     "categoria": "Física",
     "tema": "Conducción: comparación de materiales",
-    "pregunta": "Dos barras de igual longitud y sección tienen sus extremos a las mismas temperaturas. Una posee conductividad térmica k y otra 3k. En régimen estacionario, ¿cómo se comparan los flujos de calor?",
+    "pregunta": "Dos barras de igual longitud y sección están aisladas lateralmente. En ambas, un extremo se mantiene a T_caliente y el otro a T_fría, con T_caliente > T_fría. Una posee conductividad térmica k > 0 y otra 3k. En régimen estacionario, ¿cómo se comparan los flujos de calor?",
     "opciones": {
       "a": "La de 3k transfiere nueve veces más calor por unidad de tiempo",
       "b": "La de 3k transfiere tres veces más calor por unidad de tiempo",
@@ -834,7 +834,7 @@
       "d": "La de k transfiere tres veces más calor por unidad de tiempo"
     },
     "respuesta": "b",
-    "explicacion": "La tasa de conducción es kAΔT/L. Manteniendo geometría y diferencia térmica, resulta proporcional a k.",
+    "explicacion": "La tasa de conducción es kA(T_caliente − T_fría)/L. Las dos barras tienen la misma geometría y una diferencia térmica común, positiva y mantenida; por ello la de conductividad 3k transfiere tres veces más calor por unidad de tiempo. El aislamiento lateral excluye pérdidas de calor por los costados.",
     "fuente_conceptual": "https://openstax.org/books/college-physics-2e/pages/14-5-conduction",
     "origen": {
       "tipo": "nueva",
