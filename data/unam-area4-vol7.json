@@ -1575,18 +1575,18 @@
   {
     "id": "geo-066",
     "categoria": "Geografía",
-    "tema": "Interpretación de cambios económicos",
-    "pregunta": "Datos hipotéticos de empleo manufacturero:\nRegión A: año inicial, 20 000 personas; año final, 25 000.\nRegión B: año inicial, 100 000; año final, 110 000.\n¿Cuál conclusión distingue cambio absoluto y relativo?",
+    "tema": "Globalización: función del Fondo Monetario Internacional",
+    "pregunta": "Un país miembro enfrenta escasez de divisas y dificultades para pagar importaciones y obligaciones externas. ¿Qué actuación corresponde al papel del Fondo Monetario Internacional ante ese problema?",
     "opciones": {
-      "a": "A añadió más empleos y también creció más en porcentaje",
-      "b": "B creció más en porcentaje porque tenía más empleos al inicio",
-      "c": "Ambas crecieron en el mismo porcentaje porque aumentaron su empleo",
-      "d": "B añadió más empleos, pero A creció más en porcentaje"
+      "a": "Resolver mediante un fallo las controversias comerciales entre el país y sus socios.",
+      "b": "Financiar principalmente obras específicas de infraestructura para el desarrollo a largo plazo.",
+      "c": "Fijar cuotas obligatorias de exportación para las empresas que operan en el país.",
+      "d": "Otorgar financiamiento para atender la balanza de pagos, vinculado a un programa de políticas."
     },
     "respuesta": "d",
-    "explicacion": "A sumó 5 000 empleos, un 25%; B sumó 10 000, un 10%. El mayor aumento absoluto no implica la mayor tasa de crecimiento.",
-    "fuente_conceptual": "https://www.inegi.org.mx/programas/ce/2024/default.html",
-    "origen": "Original · ampliación 4; elaboración y revisión conceptual con referencia institucional"
+    "explicacion": "El FMI apoya a países con problemas de balanza de pagos mediante financiamiento y programas de políticas. Se distingue del énfasis del Banco Mundial en desarrollo y proyectos, y no actúa como tribunal comercial ni fija cuotas empresariales de exportación.",
+    "fuente_conceptual": "https://www.imf.org/es/about/factsheets/imf-lending",
+    "origen": "Redistribución curricular original; fuente conceptual y cruce independiente comprobados. No calibración psicométrica."
   },
   {
     "id": "geo-067",

@@ -1440,22 +1440,18 @@
   {
     "id": "QUI132",
     "categoria": "Química",
-    "tema": "Cambios de fase: enlaces y fuerzas intermoleculares",
-    "pregunta": "Al hervir agua pura sin descomposición química, ¿qué cambio ocurre principalmente al pasar de líquido a vapor?",
+    "tema": "Alimentos: minerales y función biológica",
+    "pregunta": "¿Qué mineral forma parte del grupo hemo de la hemoglobina y participa en la unión reversible del oxígeno que transporta la sangre?",
     "opciones": {
-      "a": "Se rompen los enlaces O–H dentro de cada molécula",
-      "b": "Las moléculas se ionizan completamente en H⁺ y OH⁻",
-      "c": "Se refuerzan las atracciones entre moléculas al separarse",
-      "d": "Las moléculas se separan al vencer atracciones intermoleculares"
+      "a": "Calcio",
+      "b": "Yodo",
+      "c": "Zinc",
+      "d": "Hierro"
     },
     "respuesta": "d",
-    "explicacion": "La vaporización separa moléculas de H₂O al vencer atracciones entre ellas; no es una reacción que rompa sus enlaces covalentes O–H para producir otros elementos.",
-    "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
-    "origen": {
-      "tipo": "nueva",
-      "serie": "expansion11",
-      "revision": "Cálculos y referencias revisados; pendiente cruce; sin calibración psicométrica"
-    }
+    "explicacion": "El hierro del grupo hemo permite la unión reversible del oxígeno en la hemoglobina. Es una función de un mineral esencial; no significa que los otros minerales carezcan de funciones biológicas.",
+    "fuente_conceptual": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+    "origen": "Redistribución curricular original; fuente conceptual y cruce independiente comprobados. No calibración psicométrica."
   },
   {
     "id": "QUI133",
