@@ -1236,22 +1236,18 @@
     "id": "BIO011",
     "tipo_pregunta": "opcion_multiple",
     "categoria": "Biología",
-    "tema": "Herencia: cruzamiento de prueba",
-    "pregunta": "En un rasgo con dominancia completa, se cruza un individuo Aa con otro aa. ¿Qué proporción de descendientes heterocigotos se espera?",
+    "tema": "Origen de la vida: hipótesis quimiosintética de Oparin-Haldane",
+    "pregunta": "¿Qué explicación del origen de las primeras células corresponde a la hipótesis quimiosintética de Oparin-Haldane?",
     "opciones": {
-      "a": "75 %",
-      "b": "50 %",
-      "c": "25 %",
-      "d": "100 %"
+      "a": "La llegada a la Tierra de organismos ya formados procedentes del espacio",
+      "b": "La evolución química gradual de compuestos sencillos hacia sistemas precelulares más complejos",
+      "c": "La aparición habitual de organismos actuales a partir de materia en descomposición",
+      "d": "La transformación por selección natural de células que ya existían previamente"
     },
     "respuesta": "b",
-    "explicacion": "El individuo Aa produce gametos A y a en igual proporción; el individuo aa solo produce gametos a. Se espera la mitad Aa y la mitad aa.",
-    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/12-chapter-summary",
-    "origen": {
-      "tipo": "revisada",
-      "archivo": "simulacro_biologia_unam_area4_20_preguntas.json",
-      "id_original": 11
-    }
+    "explicacion": "La hipótesis propone una etapa de evolución química anterior a las primeras células. No equivale a la llegada de vida desde el espacio ni a la generación espontánea habitual de organismos actuales; la evolución de células preexistentes no explica por sí sola su primer origen.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/biologia2/unidad1/teoriaQuimiosintetica/teoriaOparinHaldane",
+    "origen": "Redistribución curricular1800 original; fuente conceptual, revisión y cruce independiente completados. No calibración psicométrica."
   },
   {
     "id": "BIO012",
@@ -1600,18 +1596,18 @@
     "id": "lit-019",
     "tipo_pregunta": "opcion_multiple",
     "categoria": "Literatura",
-    "tema": "Investigación documental: fichas",
-    "pregunta": "Para registrar de manera abreviada las ideas principales de un artículo completo, ¿qué tipo de ficha conviene elaborar?",
+    "tema": "Investigación documental: resumen y comentario",
+    "pregunta": "Fuente original: «El huerto escolar aporta verduras al comedor y permite estudiar los ciclos de las plantas. Durante las vacaciones falta personal para regarlo; por ello se propone organizar turnos voluntarios».\n\nFicha I: «El huerto tiene utilidad alimentaria y educativa, pero necesita organizar el riego durante las vacaciones».\nFicha II: «La propuesta de turnos resulta pertinente, aunque su viabilidad depende de que haya suficientes voluntarios y de cómo se distribuyan las tareas».\n\n¿Qué diferencia describe mejor las operaciones de ambas fichas?",
     "opciones": {
-      "a": "Ficha de resumen",
-      "b": "Ficha de cita textual que copie una sola oración secundaria",
-      "c": "Ficha bibliográfica",
-      "d": "Ficha de comentario personal"
+      "a": "I sintetiza el contenido de la fuente; II lo valora añadiendo consideraciones razonadas.",
+      "b": "I reproduce literalmente la fuente; II identifica los datos de su publicación.",
+      "c": "I comenta la calidad de la propuesta; II resume las ideas sin añadir una valoración.",
+      "d": "I registra autoría y título de la fuente; II copia una cita textual completa."
     },
     "respuesta": "a",
-    "explicacion": "La ficha de resumen sintetiza las ideas esenciales de la fuente. La bibliográfica identifica la publicación; la de comentario registra una valoración y la textual reproduce palabras exactas.",
-    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid4/unidad3/procesamiento/queFichasUsar",
-    "origen": "Revisada y reutilizada del simulacro existente"
+    "explicacion": "La ficha I condensa las ideas de la fuente con otras palabras. La ficha II formula un comentario: juzga la propuesta y añade condiciones para evaluar su aplicación. Ninguna es una reproducción literal ni una referencia bibliográfica.",
+    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid4/unidad3/procesamiento/fichasTrabajo",
+    "origen": "Redistribución curricular1800 original; fuente conceptual, revisión y cruce independiente completados. No calibración psicométrica."
   },
   {
     "id": "lit-020",

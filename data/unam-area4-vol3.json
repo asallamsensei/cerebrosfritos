@@ -954,22 +954,18 @@
   {
     "id": "QUI021",
     "categoria": "Química",
-    "tema": "Molaridad",
-    "pregunta": "Se disuelven 0.20 mol de soluto hasta obtener 500 mL de disolución. ¿Cuál es la molaridad?",
+    "tema": "Aire: formación de un contaminante secundario",
+    "pregunta": "En el esmog fotoquímico urbano, ¿por qué el ozono cercano al suelo se clasifica como contaminante secundario?",
     "opciones": {
-      "a": "100 M",
-      "b": "0.40 M",
-      "c": "0.10 M",
-      "d": "2.5 M"
+      "a": "Porque sale principalmente como ozono de los tubos de escape",
+      "b": "Porque se forma mediante reacciones atmosféricas de precursores con luz solar",
+      "c": "Porque procede principalmente del descenso de la capa estratosférica de ozono",
+      "d": "Porque se acumula por inversión térmica sin que sea necesaria su formación química"
     },
     "respuesta": "b",
-    "explicacion": "M = n/V, con volumen en litros: 0.20/0.500 = 0.40 mol/L.",
-    "fuente_conceptual": "https://portalacademico.cch.unam.mx/objetos-de-aprendizaje",
-    "origen": {
-      "tipo": "nueva",
-      "autor": "Asallam Sensei · asistencia IA",
-      "revision": "clave y distractores revisados"
-    }
+    "explicacion": "El ozono del esmog fotoquímico se forma en la atmósfera mediante reacciones que involucran óxidos de nitrógeno y compuestos orgánicos volátiles, favorecidas por la luz solar. Ser secundario se refiere a su formación a partir de precursores, no solo a su transporte o acumulación.",
+    "fuente_conceptual": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics",
+    "origen": "Redistribución curricular1800 original; fuente conceptual, revisión y cruce independiente completados. No calibración psicométrica."
   },
   {
     "id": "QUI022",

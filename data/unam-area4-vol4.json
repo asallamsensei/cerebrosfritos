@@ -430,22 +430,18 @@
   {
     "id": "MAT074",
     "categoria": "Matemáticas",
-    "tema": "Ecuaciones racionales: trabajo",
-    "pregunta": "Una llave llena un depósito en 6 horas y otra en 3 horas. Con ambas abiertas y caudal constante, ¿cuánto tarda en llenarse desde vacío?",
+    "tema": "Geometría analítica: división externa de un segmento",
+    "pregunta": "A = (0, 0) y B = (8, 4). Un punto P está sobre la prolongación de AB más allá de B y satisface AP:PB = 3:1, donde AP y PB son longitudes positivas. ¿Cuáles son las coordenadas de P?",
     "opciones": {
-      "a": "4.5 horas",
-      "b": "9 horas",
-      "c": "2 horas",
-      "d": "3 horas"
+      "a": "(6, 3)",
+      "b": "(4, 2)",
+      "c": "(12, 6)",
+      "d": "(24, 12)"
     },
     "respuesta": "c",
-    "explicacion": "Las tasas se suman: 1/6 + 1/3 = 1/2 depósito por hora. Un depósito requiere 2 horas.",
-    "fuente_conceptual": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-introduction-to-prerequisites",
-    "origen": {
-      "tipo": "nueva",
-      "serie": "expansion1",
-      "revision": "Revisión algebraica/conceptual y de distractores"
-    }
+    "explicacion": "Como B queda entre A y P, AP = AB + PB. Al ser AP = 3PB, resulta AB = 2PB; por tanto AP = 3AB/2. Desde A = (0,0), multiplicar las coordenadas de B por 3/2 da P = (12,6).",
+    "fuente_conceptual": "https://prometeo.matem.unam.mx/recursos/Bachillerato/ProyectoArquimedes/recursos/AC_ODA3_26_Segmentos/index.html",
+    "origen": "Redistribución curricular1800 original; fuente conceptual, revisión y cruce independiente completados. No calibración psicométrica."
   },
   {
     "id": "MAT075",
@@ -1355,18 +1351,18 @@
   {
     "id": "lit-031",
     "categoria": "Literatura",
-    "tema": "Narrador e información",
-    "pregunta": "Lee el fragmento original: «Dejé la carta sobre la mesa. Cuando volví, ya no estaba. Supuse que Elena la había leído, aunque nadie me lo confirmó». ¿Qué caracteriza al narrador?",
+    "tema": "Texto periodístico: función del cuerpo de una nota",
+    "pregunta": "Lee esta nota ficticia.\n\nEntrada: «El servicio de agua volvió ayer a tres colonias, después de dos días de interrupción por una avería en la tubería principal».\n\nPárrafo posterior: «Las cuadrillas sustituyeron un tramo de seis metros y comprobaron que no hubiera fugas. Según el organismo operador, el llenado de los depósitos se realizó por etapas para evitar cambios bruscos de presión».\n\n¿Qué función cumple el párrafo posterior respecto de la entrada?",
     "opciones": {
-      "a": "Narra desde fuera sin intervenir en los hechos",
-      "b": "Se dirige a sí mismo en segunda persona",
-      "c": "Es omnisciente y conoce con certeza la mente de Elena",
-      "d": "Participa y reconoce que ignora algunos hechos"
+      "a": "Presenta otro acontecimiento sin desarrollar la interrupción anunciada.",
+      "b": "Repite la información de la entrada sin incorporar detalles del proceso.",
+      "c": "Formula una valoración editorial sobre la calidad general del servicio.",
+      "d": "Amplía el hecho principal con detalles de la reparación y el restablecimiento."
     },
     "respuesta": "d",
-    "explicacion": "La primera persona participa en los hechos, pero «supuse» y «nadie me lo confirmó» limitan su certeza.",
-    "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad4/secuencianarrativa/componentesdelrelato",
-    "origen": "Reactivo original de ampliación; textos de lectura originales"
+    "explicacion": "El cuerpo de la nota desarrolla la información concentrada en la entrada. Aquí precisa trabajos y procedimiento de restablecimiento, atribuyendo parte de la información al organismo; no se limita a repetir ni formula un juicio editorial.",
+    "fuente_conceptual": "https://nemd.aprende.gob.mx/contenido/coleccion/la-piramide-invertida-para-exponer-noticias/",
+    "origen": "Redistribución curricular1800 original; fuente conceptual, revisión y cruce independiente completados. No calibración psicométrica."
   },
   {
     "id": "lit-032",

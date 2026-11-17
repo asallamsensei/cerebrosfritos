@@ -417,22 +417,18 @@
   {
     "id": "MAT161",
     "categoria": "Matemáticas",
-    "tema": "Sistemas: mezcla e interpretación",
-    "pregunta": "Un café de $100/kg se mezcla con otro de $160/kg para obtener 5 kg de mezcla de $124/kg. Sin costos extra, ¿cuántos kg del café más caro se usan?",
+    "tema": "Álgebra de funciones: suma y dominio común",
+    "pregunta": "Las funciones f y g están definidas únicamente por estas tablas:\nf: x = −1, 0, 1; f(x) = 2, 4, 6, respectivamente.\ng: x = 0, 1, 2; g(x) = 5, 1, 3, respectivamente.\nSi h = f + g, ¿cuáles son el dominio de h y el valor h(0)?",
     "opciones": {
-      "a": "2 kg",
-      "b": "3 kg",
-      "c": "1 kg",
-      "d": "4 kg"
+      "a": "Dominio {0, 1}; h(0) = 9",
+      "b": "Dominio {−1, 0, 1, 2}; h(0) = 9",
+      "c": "Dominio {0, 1}; h(0) = 20",
+      "d": "Dominio {−1, 0, 1, 2}; h(0) = 20"
     },
     "respuesta": "a",
-    "explicacion": "Si x es la cantidad cara, 160x + 100(5 − x) = 124(5). De 60x = 120 se obtiene x = 2.",
-    "fuente_conceptual": "https://openstax.org/books/college-algebra-2e/pages/7-1-systems-of-linear-equations-two-variables",
-    "origen": {
-      "tipo": "nueva",
-      "serie": "expansion5",
-      "revision": "Revisión numérica y conceptual con cruce editorial independiente"
-    }
+    "explicacion": "Para sumar las funciones, ambas deben estar definidas en la misma entrada: solo coinciden en 0 y 1. Además, h(0) = f(0) + g(0) = 4 + 5 = 9; no se multiplican las salidas.",
+    "fuente_conceptual": "https://openstax.org/books/precalculus-2e/pages/1-4-composition-of-functions",
+    "origen": "Redistribución curricular1800 original; fuente conceptual, revisión y cruce independiente completados. No calibración psicométrica."
   },
   {
     "id": "MAT162",
