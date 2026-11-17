@@ -1530,13 +1530,13 @@
     "tema": "Relieve kárstico y agua en Yucatán",
     "pregunta": "En amplias áreas de Yucatán, el agua se infiltra por fracturas y conductos de rocas calizas. ¿Qué relación explica la importancia local del agua subterránea?",
     "opciones": {
-      "a": "La caliza impide toda infiltración y concentra el agua en grandes ríos superficiales",
-      "b": "La ausencia de altas montañas significa que no puede almacenarse agua subterránea",
+      "a": "Los ríos permanentes concentran la lluvia y recargan el acuífero a lo largo de sus cauces",
+      "b": "La baja permeabilidad de la caliza retiene la lluvia sobre una capa que confina el acuífero",
       "c": "La permeabilidad favorece la infiltración y limita el escurrimiento superficial",
-      "d": "La infiltración transforma de inmediato toda el agua dulce en agua de mar"
+      "d": "La condensación del vapor en las cavernas aporta la mayor parte de la recarga del acuífero"
     },
     "respuesta": "c",
-    "explicacion": "El relieve kárstico facilita la circulación subterránea mediante fracturas y cavidades. Por ello los acuíferos son esenciales para el abastecimiento en Yucatán.",
+    "explicacion": "Las fracturas y conductos del karst permiten que la lluvia penetre en el subsuelo, favoreciendo la circulación subterránea y reduciendo el escurrimiento superficial. La relación descrita no corresponde a una barrera impermeable ni a una recarga dominada por ríos permanentes o por condensación en cavernas.",
     "fuente_conceptual": "https://www.biodiversidad.gob.mx/region/EEB/estudios/ee_yucatan",
     "origen": "Original · ampliación 4; elaboración y revisión conceptual con referencia institucional"
   },
@@ -1866,13 +1866,13 @@
     "tema": "Urbanismo teotihuacano",
     "pregunta": "Teotihuacan contaba con calzadas, complejos habitacionales y barrios de artesanos y grupos de distintos orígenes. ¿Qué conclusión integra esos rasgos?",
     "opciones": {
-      "a": "Fue un campamento estacional sin actividades productivas diferenciadas",
-      "b": "Fue una aldea dispersa cuyos habitantes carecían de vínculos regionales",
-      "c": "Fue un recinto dedicado exclusivamente al culto y sin población residente",
+      "a": "Fue una ciudad cuyos barrios extranjeros prueban la conquista de sus regiones de origen",
+      "b": "Fue una urbe cuya traza permite identificar una dinastía hereditaria gobernante",
+      "c": "Fue un asentamiento de ocupación periódica organizado alrededor de ferias artesanales",
       "d": "Fue un centro urbano complejo con especialización e interacción social"
     },
     "respuesta": "d",
-    "explicacion": "La organización del espacio y la diversidad de barrios evidencian una sociedad urbana con funciones productivas, residenciales, políticas y religiosas.",
+    "explicacion": "Las calzadas, viviendas y barrios especializados de distintos orígenes integran funciones e interacciones propias de una ciudad compleja. Esos rasgos no demuestran por sí solos una dinastía concreta ni la conquista militar de las regiones de origen, y los conjuntos residenciales no se describen como instalaciones temporales de feria.",
     "fuente_conceptual": "https://lugares.inah.gob.mx/es/pagina-de-elemento/1995",
     "origen": "Original · ampliación 4; elaboración y revisión conceptual con referencia institucional"
   },

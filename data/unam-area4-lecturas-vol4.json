@@ -1383,13 +1383,13 @@
     "pregunta": "En una isla, un depredador introducido consume huevos de un ave endémica. ¿Qué intervención atiende de forma más directa esa amenaza?",
     "opciones": {
       "a": "Controlar al depredador introducido con un plan evaluado",
-      "b": "Crear un banco de semillas de plantas de la isla",
-      "c": "Ampliar el monitoreo de lluvia y temperatura",
-      "d": "Restaurar un bosque en otra isla sin esa ave"
+      "b": "Registrar cada temporada el número de nidos y los huevos que eclosionan",
+      "c": "Analizar la diversidad genética de la población del ave endémica",
+      "d": "Prevenir futuras introducciones mediante la inspección de cargamentos"
     },
     "respuesta": "a",
-    "explicacion": "El control evaluado de la especie introducida aborda la depredación de huevos. Las otras acciones pueden aportar a la conservación, pero no reducen directamente esa amenaza.",
-    "fuente_conceptual": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "explicacion": "El control evaluado del depredador ya introducido actúa sobre la causa de la pérdida de huevos. El seguimiento de nidos mide el éxito reproductivo y el análisis genético informa sobre la población; no reducen por sí mismos esa depredación. La inspección de cargamentos previene nuevas introducciones, pero no controla al depredador que ya está en la isla.",
+    "fuente_conceptual": "https://biodiversidad.gob.mx/especies/Invasoras/herramientas/erradicacion",
     "origen": {
       "tipo": "nueva",
       "serie": "expansion1",
