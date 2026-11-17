@@ -33,10 +33,10 @@
     },
     "pregunta": "Si una herramienta se necesita en las tres tareas y solo existe un ejemplar, ¿dónde corresponde colocarla según la solución adoptada?",
     "opciones": {
-      "a": "En la bandeja de la reparación más costosa.",
-      "b": "En la caja de los objetos de menor tamaño.",
+      "a": "En la bandeja de la tarea que se realiza primero.",
+      "b": "En una bandeja que se traslade entre las tareas.",
       "c": "En el cajón cuya etiqueta describa su forma.",
-      "d": "En el tablero central de herramientas compartidas."
+      "d": "En el tablero central compartido."
     },
     "respuesta": "d",
     "explicacion": "La solución mixta reserva el tablero central para los instrumentos que deben utilizarse en varias tareas.",
@@ -77,10 +77,10 @@
     },
     "pregunta": "¿Cómo se relaciona el último párrafo de «Dos maneras de ordenar» con los anteriores?",
     "opciones": {
-      "a": "Introduce un caso que contradice el del taller.",
-      "b": "Describe las instrucciones de una reparación concreta.",
+      "a": "Evalúa por qué fallan todas las clasificaciones basadas en la forma.",
+      "b": "Establece el procedimiento de reparación que debe seguir todo taller.",
       "c": "Formula una reflexión general a partir del caso explicado.",
-      "d": "Repite el inventario de las herramientas disponibles."
+      "d": "Compara los costos de mantener cada una de las distribuciones."
     },
     "respuesta": "c",
     "explicacion": "Después del ejemplo particular, el cierre generaliza acerca de la elección y utilidad de los criterios de clasificación.",

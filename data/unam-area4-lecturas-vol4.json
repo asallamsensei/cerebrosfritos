@@ -27,10 +27,10 @@
     "tema": "Lectura: causa de una decisión",
     "pregunta": "¿Por qué Bruno duda al considerar la compra de la tela?",
     "opciones": {
-      "a": "El vendedor se niega a dejar que la examine",
-      "b": "Los clientes ya habían pagado un toldo nuevo",
+      "a": "Teme que la tela deje pasar el calor",
+      "b": "Prefiere comprar una sombrilla mayor",
       "c": "Debe reservar dinero para el pedido de fruta",
-      "d": "La cocinera le ha pedido que cierre el puesto"
+      "d": "Espera otro pedido de la cocinera"
     },
     "respuesta": "c",
     "explicacion": "El dinero disponible debía cubrir tanto el toldo como el siguiente pedido; comprar la tela reduciría ese pedido.",
@@ -71,9 +71,9 @@
     "tema": "Lectura: inferencia sobre el cierre",
     "pregunta": "¿Qué sabe el lector que el cliente del final parece no advertir?",
     "opciones": {
-      "a": "Bruno decidió abandonar la venta de duraznos",
-      "b": "El toldo recuperado pertenece todavía al vendedor",
-      "c": "La cocinera financió la reparación sin pedir nada",
+      "a": "Comprará únicamente duraznos firmes",
+      "b": "Cambió fruta por la tela que necesitaba",
+      "c": "Venderá exclusivamente a la cocinera",
       "d": "Cambió también su manera de organizar la venta"
     },
     "respuesta": "d",
@@ -116,9 +116,9 @@
     "pregunta": "¿Qué problema origina la revisión de las instrucciones?",
     "opciones": {
       "a": "Falta regular la recuperación de piedras",
-      "b": "La falta de acuerdo sobre el número de participantes",
-      "c": "La imposibilidad de reconocer el centro del tablero",
-      "d": "La decisión de cambiar las piedras por cartas"
+      "b": "Falta definir cuántas piedras se reciben",
+      "c": "Falta establecer la casilla ganadora",
+      "d": "Falta indicar cómo se avanza una casilla"
     },
     "respuesta": "a",
     "explicacion": "La primera partida revela que la recuperación de piedras no está regulada explícitamente.",
@@ -159,10 +159,10 @@
     "tema": "Lectura: distinción conceptual",
     "pregunta": "¿Qué diferencia establece el texto entre incertidumbre estratégica y defecto de instrucciones?",
     "opciones": {
-      "a": "La primera corresponde al diseño y el segundo solo al jugador experto",
+      "a": "La primera afecta el azar; el segundo, la cantidad de opciones",
       "b": "La primera exige resolver qué conviene; el segundo impide saber qué se permite",
-      "c": "La primera desaparece al ganar y el segundo desaparece al perder",
-      "d": "La primera se expresa por escrito y el segundo únicamente de palabra"
+      "c": "La primera proviene de reglas incompletas; el segundo, de su dificultad",
+      "d": "La primera exige corregir las reglas; el segundo, ensayar estrategias"
     },
     "respuesta": "b",
     "explicacion": "Se puede conocer lo permitido sin saber cuál es la mejor estrategia; desconocer las acciones permitidas es otra dificultad.",

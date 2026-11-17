@@ -41,9 +41,9 @@
     "tema": "Lectura: función de un ejemplo",
     "pregunta": "El caso de avanzar obligatoriamente y renunciar al turno sirve para mostrar que:",
     "opciones": {
-      "a": "Las excepciones deben eliminarse de cualquier juego",
-      "b": "Las reglas breves son necesariamente contradictorias",
-      "c": "Toda estrategia depende de haber jugado antes",
+      "a": "Una excepción vuelve más difícil comprender la regla principal",
+      "b": "La brevedad de las instrucciones permite reducir los conflictos",
+      "c": "Una estrategia poco eficaz puede confundirse con una infracción",
       "d": "Dos reglas claras pueden resultar incompatibles entre sí"
     },
     "respuesta": "d",
@@ -64,9 +64,9 @@
     "pregunta": "¿Para qué se invita a un grupo nuevo a jugar sin explicaciones adicionales?",
     "opciones": {
       "a": "Para comprobar si las instrucciones permiten actuar autónomamente",
-      "b": "Para seleccionar a quienes desarrollan las estrategias más rápidas",
-      "c": "Para medir cuánto tarda un experto en vencer a un principiante",
-      "d": "Para demostrar que las preguntas carecen de utilidad durante el juego"
+      "b": "Para comparar las rutas elegidas por novatos y expertos",
+      "c": "Para estimar la duración habitual de una partida completa",
+      "d": "Para decidir qué estrategia conviene recomendar al comienzo"
     },
     "respuesta": "a",
     "explicacion": "La prueba observa si el escrito basta para comenzar y resolver situaciones, no si el grupo juega con máxima habilidad.",
@@ -107,9 +107,9 @@
     "tema": "Lectura: motivo de una reacción",
     "pregunta": "¿Por qué la narradora deja inicialmente la taza bajo el asiento?",
     "opciones": {
-      "a": "Teme que el comprador le cobre por llevársela",
-      "b": "No reconoce que esa taza perteneció a la familia",
-      "c": "Quiere que su padre la use durante el viaje por tierra",
+      "a": "Prefiere que la taza siga acompañando al bote después de venderlo",
+      "b": "Espera que su padre se la ofrezca sin tener que pedírsela",
+      "c": "Quiere reservar la decisión hasta conocer personalmente al comprador",
       "d": "No quiere que llevársela se interprete como aceptar la venta"
     },
     "respuesta": "d",

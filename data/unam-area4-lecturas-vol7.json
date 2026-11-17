@@ -5,10 +5,10 @@
     "tema": "Lectura: aplicación de una distinción",
     "pregunta": "Una habitación permite entender mejor las conversaciones después de añadir materiales absorbentes, pero sigue oyéndose el tránsito. ¿Qué distinción ayuda a explicar el resultado?",
     "opciones": {
-      "a": "La diferencia entre volumen de la voz y velocidad del habla",
+      "a": "La diferencia entre intensidad y claridad de la voz",
       "b": "La diferencia entre acondicionamiento interior y aislamiento exterior",
-      "c": "La diferencia entre una fuente musical y un objeto sin movimiento",
-      "d": "La diferencia entre duración del ensayo y número de participantes"
+      "c": "La diferencia entre absorción de graves y agudos",
+      "d": "La diferencia entre eco y reverberación"
     },
     "respuesta": "b",
     "explicacion": "El texto separa el control de reflexiones interiores de impedir la entrada de ruido exterior.",
@@ -27,10 +27,10 @@
     "tema": "Lectura: alcance de una afirmación",
     "pregunta": "¿Cuál afirmación coincide con el cuarto párrafo?",
     "opciones": {
-      "a": "Un material reflectante debe retirarse de cualquier habitación",
-      "b": "La forma de un recinto no influye si se usan cortinas",
+      "a": "La capacidad de absorción basta para elegir el material de una sala",
+      "b": "La cantidad de materiales compensa las diferencias de forma del recinto",
       "c": "La utilidad de un material depende del contexto y de sus propiedades",
-      "d": "Los materiales absorbentes actúan igual sobre todos los sonidos"
+      "d": "Un material adecuado conserva la misma eficacia para distintas frecuencias"
     },
     "respuesta": "c",
     "explicacion": "El párrafo considera propósito, propiedades acústicas y características del recinto, sin clasificar materiales como buenos o malos de forma absoluta.",
@@ -115,9 +115,9 @@
     "tema": "Lectura: sentido de una imagen",
     "pregunta": "¿Cómo se entiende mejor el contraste final entre la sonrisa quieta y recordarla en movimiento?",
     "opciones": {
-      "a": "La madre vuelve físicamente a la casa y ocupa el lugar del retrato",
-      "b": "Elisa recupera una película que desconocía de la feria",
-      "c": "Las páginas consiguen restaurar el papel fotográfico borrado",
+      "a": "La alegría del retrato contrasta con narrar con malestar",
+      "b": "El recuerdo materno desplaza la experiencia de Elisa",
+      "c": "La foto imprecisa contrasta con historias certeras",
       "d": "La imagen fija contrasta con recuerdos narrados"
     },
     "respuesta": "d",

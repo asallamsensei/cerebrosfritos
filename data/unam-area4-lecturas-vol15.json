@@ -1227,10 +1227,10 @@
     },
     "pregunta": "¿Qué sugiere que el visitante se quite el saco y comience a hablar de su nieta?",
     "opciones": {
-      "a": "Que ha decidido vender las herramientas del taller.",
-      "b": "Que espera una compensación por ayudar a reparar.",
+      "a": "Que se dispone a comprobar cuánto cuesta reparar la cámara.",
+      "b": "Que quiere convencer al narrador de venderle una bicicleta.",
       "c": "Que se dispone a quedarse y compartir un rato de conversación.",
-      "d": "Que ha encontrado una pérdida de aire en la cámara."
+      "d": "Que necesita que el narrador le ayude a localizar a su nieta."
     },
     "respuesta": "c",
     "explicacion": "Quitarse el saco, dejarlo en una silla y comenzar una conversación indican que ya no se limita a una visita apresurada.",
@@ -1335,10 +1335,10 @@
     },
     "pregunta": "¿Qué efecto produce la referencia al «martes siguiente» en la última oración?",
     "opciones": {
-      "a": "Confirma que el visitante ha pagado una reparación nueva.",
-      "b": "Abre la posibilidad de que continúen los encuentros.",
-      "c": "Aclara quién dejó la cámara antes del mediodía.",
-      "d": "Anuncia que el taller cambiará su día de descanso."
+      "a": "Confirma que la cámara volverá a necesitar una reparación.",
+      "b": "Abre la posibilidad de nuevos encuentros.",
+      "c": "Establece que el visitante ha acordado regresar a recogerla.",
+      "d": "Resuelve quién dejó la cámara en el mostrador esa mañana."
     },
     "respuesta": "b",
     "explicacion": "El narrador conserva la cámara pensando en una posible próxima visita; el texto no afirma que esa visita ya haya ocurrido.",

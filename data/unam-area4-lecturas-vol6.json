@@ -27,10 +27,10 @@
     "tema": "Lectura: relación entre objeto y acción",
     "pregunta": "¿Qué función práctica cumple la libreta en el último párrafo?",
     "opciones": {
-      "a": "Demostrar que la narradora heredará el bote",
-      "b": "Convencer al comprador de cancelar la adquisición",
+      "a": "Acreditar el precio de venta acordado",
+      "b": "Comparar costos de dos reparaciones",
       "c": "Informar cuándo se realizó una reparación",
-      "d": "Sustituir la despedida que el padre no quiso escribir"
+      "d": "Indicar el mantenimiento pendiente"
     },
     "respuesta": "c",
     "explicacion": "La fecha registrada le permite responder cuándo se cambió la cuerda; el uso mostrado es informativo.",
@@ -49,10 +49,10 @@
     "tema": "Lectura: vocabulario contextual",
     "pregunta": "En la respuesta del padre, «hacerse cargo» del bote significa:",
     "opciones": {
-      "a": "Subirlo físicamente a un vehículo",
+      "a": "Organizar el traslado al venderlo",
       "b": "Responsabilizarse de conservar el bote",
-      "c": "Aprender a conducirlo sin ayuda",
-      "d": "Ocultar al comprador los gastos anteriores"
+      "c": "Utilizarlo en las salidas por el agua",
+      "d": "Autorizar que alguien más lo use"
     },
     "respuesta": "b",
     "explicacion": "La expresión hacerse cargo se refiere a responsabilizarse del bote, no solo a usarlo o moverlo físicamente.",
@@ -71,10 +71,10 @@
     "tema": "Lectura: distinción central",
     "pregunta": "¿Qué diferencia entre eco y reverberación establece el texto?",
     "opciones": {
-      "a": "El eco depende de la absorción y la reverberación no interviene en recintos",
-      "b": "El eco solo aparece con música y la reverberación solo con voces",
+      "a": "El eco prolonga la emisión; la reverberación repite cada sonido por separado",
+      "b": "El eco deriva de la reflexión; la reverberación, de la absorción del sonido",
       "c": "El eco se percibe separado; la reverberación prolonga el sonido por superposición",
-      "d": "El eco impide reconocer la fuente y la reverberación la elimina"
+      "d": "El eco cambia la intensidad; la reverberación depende de que siga la fuente"
     },
     "respuesta": "c",
     "explicacion": "El texto distingue una reflexión audible como repetición separada de numerosas reflexiones que se superponen.",
@@ -115,9 +115,9 @@
     "tema": "Lectura: función de una comparación",
     "pregunta": "La comparación entre conversación e interpretación musical permite mostrar que:",
     "opciones": {
-      "a": "La música no depende de las superficies de una sala",
-      "b": "La conversación necesita siempre un recinto completamente vacío",
-      "c": "La duración de una palabra determina el tamaño del recinto",
+      "a": "La música requiere prolongar el sonido tanto como sea posible",
+      "b": "La conversación mejora al suprimir toda reflexión de la voz",
+      "c": "La misma duración de reverberación favorece ambos usos por igual",
       "d": "La valoración de la reverberación depende del uso del espacio"
     },
     "respuesta": "d",

@@ -40,9 +40,9 @@
     "pregunta": "¿Qué preocupación condiciona a Inés desde antes de comenzar la carrera?",
     "opciones": {
       "a": "Repetir un fallo en la curva",
-      "b": "Desconocer el recorrido de la pista",
-      "c": "No recibir una medalla por participar",
-      "d": "Olvidar el nombre de la rival"
+      "b": "No sostener el ritmo que imponga Vera",
+      "c": "Recibir un tiempo oficial desfavorable",
+      "d": "Competir de nuevo contra Vera lesionada"
     },
     "respuesta": "a",
     "explicacion": "La narración relaciona su atención insistente a la última curva con la pérdida de ventaja del año anterior.",
@@ -62,9 +62,9 @@
     "pregunta": "¿Qué sucede inmediatamente antes de que Inés intente recuperar la atención contando sus respiraciones?",
     "opciones": {
       "a": "Vera le explica cómo se lastimó la muñeca",
-      "b": "La corredora de delante recibe su tiempo oficial",
+      "b": "Vera adelanta a Inés cuando ambas entran en la curva",
       "c": "Inés se distrae con la venda y recuerda la curva",
-      "d": "El entrenador le propone cambiar de prueba"
+      "d": "Inés sigue a la corredora que acelera en la primera vuelta"
     },
     "respuesta": "c",
     "explicacion": "El recuerdo del ejercicio de respiración sigue a la distracción provocada por la venda y al pensamiento sobre la curva.",

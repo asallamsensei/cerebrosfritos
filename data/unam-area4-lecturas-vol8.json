@@ -27,10 +27,10 @@
     "tema": "Lectura: distinción conceptual",
     "pregunta": "¿Qué diferencia central establece el texto entre pronóstico y promesa?",
     "opciones": {
-      "a": "El pronóstico se refiere al pasado y la promesa al presente",
+      "a": "El pronóstico requiere certeza; la promesa admite una mera posibilidad",
       "b": "La promesa compromete al hablante con una acción, además de anticiparla",
-      "c": "El pronóstico exige palabras precisas y la promesa excluye condiciones",
-      "d": "La promesa se cumple por casualidad y el pronóstico por obediencia"
+      "c": "El pronóstico orienta decisiones ajenas; la promesa expresa un deseo propio",
+      "d": "La promesa depende de indicios; el pronóstico compromete una acción"
     },
     "respuesta": "b",
     "explicacion": "La promesa añade responsabilidad por una acción a la referencia futura; pronosticar no implica ese mismo compromiso.",
@@ -49,9 +49,9 @@
     "tema": "Lectura: función argumentativa",
     "pregunta": "¿Para qué se menciona que alguien organiza un trabajo contando con recuperar una herramienta?",
     "opciones": {
-      "a": "Para describir el modo correcto de utilizar la herramienta",
-      "b": "Para demostrar que un objeto no debe prestarse a otras personas",
-      "c": "Para indicar que toda previsión meteorológica es poco fiable",
+      "a": "Para comparar prestar un objeto con conservarlo",
+      "b": "Para supeditar la devolución a la urgencia de usarlo",
+      "c": "Para aconsejar aplazar tareas hasta recibir el objeto",
       "d": "Para explicar cómo una promesa influye en planes ajenos"
     },
     "respuesta": "d",
@@ -72,9 +72,9 @@
     "pregunta": "¿Qué precisión introduce el cuarto párrafo respecto del deber de cumplir una promesa?",
     "opciones": {
       "a": "Puede requerir reconsideración si cumplir causa un daño imprevisto",
-      "b": "Depende únicamente de que el cumplimiento siga siendo cómodo",
-      "c": "Se elimina cuando el plazo acordado parece demasiado cercano",
-      "d": "Es irrelevante si el compromiso se formuló sin un documento"
+      "b": "Un obstáculo imprevisto permite dar por terminado el compromiso",
+      "c": "Conviene esperar al vencimiento antes de comunicar las dificultades",
+      "d": "Se debe respetar el plan original antes de proponer otra alternativa"
     },
     "respuesta": "a",
     "explicacion": "El texto contempla un daño no previsto como motivo de reconsideración; no presenta la comodidad como criterio suficiente.",
@@ -115,10 +115,10 @@
     "tema": "Lectura: idea del cierre",
     "pregunta": "¿Qué beneficio atribuye el cierre a precisar acciones, plazos y condiciones?",
     "opciones": {
-      "a": "Garantizar que no ocurran obstáculos inesperados",
+      "a": "Reducir la responsabilidad a ejecutar el plan sin modificaciones",
       "b": "Aclarar qué expectativas están justificadas por el acuerdo",
-      "c": "Sustituir cualquier conversación posterior por una sanción",
-      "d": "Convertir las intenciones personales en predicciones infalibles"
+      "c": "Evitar que sea necesario renegociar lo acordado ante obstáculos",
+      "d": "Asegurar que ambas personas interpreten del mismo modo cada imprevisto"
     },
     "respuesta": "b",
     "explicacion": "La precisión hace reconocible lo que se acordó y puede esperarse; el texto niega que elimine todo riesgo.",

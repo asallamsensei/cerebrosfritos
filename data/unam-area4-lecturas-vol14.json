@@ -33,10 +33,10 @@
     },
     "pregunta": "¿Para qué sirve la advertencia final sobre diferencias de énfasis y contradicciones?",
     "opciones": {
-      "a": "Para negar que puedan compararse dos documentos sobre un viaje.",
-      "b": "Para recomendar que el diario reproduzca las horas del itinerario.",
+      "a": "Para considerar el diario una corrección de los errores del itinerario.",
+      "b": "Para evaluar ambos textos por la cantidad de destinos que registran.",
       "c": "Para limitar una conclusión apresurada al comparar propósitos distintos.",
-      "d": "Para demostrar que toda previsión acaba cumpliéndose en el recorrido."
+      "d": "Para descartar que los cambios del viaje puedan aparecer en el diario."
     },
     "respuesta": "c",
     "explicacion": "El cierre previene identificar automáticamente una selección narrativa diferente con una incompatibilidad entre lo afirmado por los documentos.",
@@ -55,10 +55,10 @@
     },
     "pregunta": "¿Qué proceso constituye el centro de «La bicicleta verde»?",
     "opciones": {
-      "a": "La recuperación de una bicicleta robada en otra ciudad.",
-      "b": "La preparación de una joven para trabajar en un taller.",
-      "c": "La competencia entre dos negocios de reparación vecinos.",
-      "d": "La continuidad de un vínculo cotidiano después de perder su motivo inicial."
+      "a": "La búsqueda de otro instrumento que sustituya a la bicicleta prestada.",
+      "b": "La necesidad de reparar una cámara que falla de manera recurrente.",
+      "c": "La preparación del dueño para visitar a su nieta en otra ciudad.",
+      "d": "La continuidad de un vínculo sin su motivo inicial."
     },
     "respuesta": "d",
     "explicacion": "Las visitas persisten de otra manera cuando la bicicleta ya no está; la historia se concentra en la relación construida alrededor del taller.",

@@ -11,10 +11,10 @@
     },
     "pregunta": "¿Qué función cumple el tercer párrafo en la organización del relato?",
     "opciones": {
-      "a": "Anticipa la llegada de un nuevo transportista.",
-      "b": "Explica cómo se fabricó el instrumento.",
+      "a": "Anticipa la despedida definitiva de la casa y del instrumento.",
+      "b": "Explica el motivo por el que se abandonaron las clases de piano.",
       "c": "Interrumpe la acción presente mediante un recuerdo.",
-      "d": "Presenta la perspectiva de la nueva propietaria."
+      "d": "Contrasta las razones de la madre y de la nueva propietaria."
     },
     "respuesta": "c",
     "explicacion": "El relato abandona momentáneamente el domingo de la mudanza para evocar una escena familiar anterior.",
@@ -39,7 +39,7 @@
       "d": "El itinerario jerarquiza recuerdos; el diario reproduce todas las etapas por igual."
     },
     "respuesta": "a",
-    "explicacion": "El texto distingue la orientación previa de decisiones y la selección narrativa de lo vivido, sin imponer un soporte material.",
+    "explicacion": "El itinerario orienta decisiones previas; el diario selecciona lo vivido para narrarlo. Sus propósitos no se invierten ni exigen registrar todas las etapas por igual.",
     "fuente_conceptual": "Pasaje original incluido en el reactivo; respuesta sustentada en su información y organización.",
     "origen": "Original elaborado para este simulacro; texto y situaciones inventados, sin atribución a un autor real."
   },
@@ -77,9 +77,9 @@
     },
     "pregunta": "¿Qué puede concluirse de que el diario apenas mencione dos de los pueblos previstos?",
     "opciones": {
-      "a": "Que las visitas se cancelaron por lluvia.",
-      "b": "Que la viajera llegó fuera del horario permitido.",
-      "c": "Que el itinerario solo incluía el primer pueblo.",
+      "a": "Que fueron excluidos del recorrido para alargar la primera visita.",
+      "b": "Que resultaron menos interesantes porque faltó tiempo para recorrerlos.",
+      "c": "Que estaban en el itinerario como destinos alternativos al primero.",
       "d": "Que ocupan menos espacio narrativo; las visitas no quedan descartadas."
     },
     "respuesta": "d",

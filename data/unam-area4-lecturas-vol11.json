@@ -11,10 +11,10 @@
     },
     "pregunta": "¿Por qué no puede afirmarse que la mujer bajó definitivamente en San Lorenzo?",
     "opciones": {
-      "a": "Porque el conductor se negó a detenerse allí.",
+      "a": "Porque la mujer no acepta la parada elegida por el conductor.",
       "b": "Porque el relato omite confirmar el nombre de la estación.",
-      "c": "Porque el cliente esperaba en una localidad distinta.",
-      "d": "Porque el hombre de amarillo cambió el destino del viaje."
+      "c": "Porque el narrador confunde su destino con el de la mujer.",
+      "d": "Porque el hombre que la acompaña modifica la ruta del autobús."
     },
     "respuesta": "b",
     "explicacion": "Quien narra termina admitiendo que olvidó preguntar si esa estación era San Lorenzo; el destino exacto no queda confirmado.",
@@ -99,10 +99,10 @@
     },
     "pregunta": "¿A qué se refiere «discrepancias» en el tercer párrafo?",
     "opciones": {
-      "a": "Dificultades para leer letras pequeñas.",
-      "b": "Retrasos en la apertura del edificio.",
-      "c": "Diferencias entre informaciones que deberían coincidir.",
-      "d": "Solicitudes de actividades que aún no existen."
+      "a": "Problemas de visibilidad de los avisos.",
+      "b": "Cambios en el horario de una actividad.",
+      "c": "Desacuerdos entre los datos difundidos.",
+      "d": "Diferencias de acceso a los mensajes."
     },
     "respuesta": "c",
     "explicacion": "El ejemplo contrapone dos horarios distintos para una misma actividad; esa falta de coincidencia constituye la discrepancia.",
@@ -121,9 +121,9 @@
     },
     "pregunta": "¿Qué permite concluir el caso de quienes acompañan a un familiar?",
     "opciones": {
-      "a": "Que todos prefieren consultar avisos impresos.",
-      "b": "Que esas personas decidirán los horarios de clase.",
-      "c": "Que deben inscribirse para entrar al centro.",
+      "a": "Que necesitan recibir avisos por el teléfono de su familiar.",
+      "b": "Que deberían integrarse a la lista de alumnos de cada clase.",
+      "c": "Que consultan los mensajes digitales solo al terminar su jornada.",
       "d": "Que una lista de inscritos no incluye a todos los posibles lectores."
     },
     "respuesta": "d",

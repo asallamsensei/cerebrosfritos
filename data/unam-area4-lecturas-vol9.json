@@ -11,10 +11,10 @@
     },
     "pregunta": "¿Qué resume mejor el desarrollo de «El telón azul»?",
     "opciones": {
-      "a": "Una directora cambia una obra para satisfacer al vecindario.",
+      "a": "Una directora prepara a un sustituto modificando el texto de la obra.",
       "b": "Un actor ocasional enfrenta el temor de presentarse ante conocidos.",
-      "c": "Una hermana descubre por qué se ha cancelado una función.",
-      "d": "Una familia organiza una sorpresa para celebrar una actuación."
+      "c": "Una hermana intenta retrasar una función para que termine el ensayo.",
+      "d": "Un actor acepta participar con el propósito de sorprender a su padre."
     },
     "respuesta": "b",
     "explicacion": "La acción sigue la dificultad de Julián para actuar y su salida final a escena; las otras síntesis añaden propósitos o sucesos no narrados.",
@@ -56,9 +56,9 @@
     "pregunta": "¿Qué sugiere el contraste entre el ensayo colectivo y la repetición mientras Julián barre?",
     "opciones": {
       "a": "La presencia de otras personas influye en su dificultad.",
-      "b": "La frase escrita contiene un error que él logra corregir.",
-      "c": "La directora le exige decir dos versiones del parlamento.",
-      "d": "El personaje necesita usar una escoba durante la escena."
+      "b": "La repetición individual le permite cambiar la frase que debía decir.",
+      "c": "La presencia de Inés le impide concentrarse durante el ensayo.",
+      "d": "La directora ha elegido una frase inadecuada para ese personaje."
     },
     "respuesta": "a",
     "explicacion": "La frase sale sin dificultad cuando el escenario está vacío; el contraste respalda una dificultad ligada a actuar ante otros, no a desconocer las palabras.",
@@ -80,7 +80,7 @@
       "a": "Julián oye la carcajada de su padre.",
       "b": "Inés pregunta si Julián ha cenado.",
       "c": "La directora da la señal de entrada.",
-      "d": "La directora propone escribir una frase en una silla."
+      "d": "La directora ofrece anotar una frase."
     },
     "respuesta": "d",
     "explicacion": "La propuesta sucede en el ensayo de la mañana, anterior a los acontecimientos de la tarde.",
@@ -99,10 +99,10 @@
     },
     "pregunta": "¿Qué efecto produce el último párrafo respecto al desenlace de la función?",
     "opciones": {
-      "a": "Confirma que el público ha quedado satisfecho.",
-      "b": "Deja sin resolver el resultado completo de la actuación.",
-      "c": "Revela que Inés sustituirá a su hermano en escena.",
-      "d": "Explica retrospectivamente la enfermedad del actor."
+      "a": "Confirma el éxito de la función mediante la claridad de la primera frase.",
+      "b": "Deja abierto el resultado completo de la actuación.",
+      "c": "Presenta la pausa como prueba de que Julián ha olvidado su parlamento.",
+      "d": "Resuelve el temor de Julián al mostrar que el padre reconoce su voz."
     },
     "respuesta": "b",
     "explicacion": "Se narra el comienzo de la actuación, pero no su desarrollo completo ni la reacción final del público.",

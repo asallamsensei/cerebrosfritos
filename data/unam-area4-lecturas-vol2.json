@@ -87,9 +87,9 @@
     "tema": "Lectura: detalle significativo",
     "pregunta": "¿Qué contraste establece el final mediante los dos bolsillos?",
     "opciones": {
-      "a": "La importancia de guardar documentos frente a perderlos",
-      "b": "El entrenamiento individual frente al entrenamiento de equipo",
-      "c": "La información provisional frente al resultado descalificado",
+      "a": "El tiempo anunciado frente al que confirma el resultado oficial",
+      "b": "El plan acordado con el entrenador frente al ritmo de la rival",
+      "c": "La preocupación por una lesión frente al alivio de conocer su causa",
       "d": "La mejora personal frente a la obtención de una medalla"
     },
     "respuesta": "d",
@@ -110,9 +110,9 @@
     "pregunta": "¿Por qué Inés evita inicialmente preguntar por la muñeca de Vera?",
     "opciones": {
       "a": "Teme que su interés parezca una búsqueda de ventajas",
-      "b": "Cree que las competidoras tienen prohibido hablar antes de correr",
-      "c": "Ya conoce el accidente por una conversación con el entrenador",
-      "d": "Quiere impedir que Vera participe en la siguiente carrera"
+      "b": "Prefiere no recordarle una lesión que podría preocuparla",
+      "c": "Supone que el entrenador ya le explicó lo ocurrido",
+      "d": "Decide esperar el resultado para hablar de asuntos personales"
     },
     "respuesta": "a",
     "explicacion": "El texto señala su temor a que la pregunta parezca una búsqueda de ventajas; no menciona una prohibición ni conocimiento previo.",
@@ -131,10 +131,10 @@
     "tema": "Lectura: idea principal",
     "pregunta": "¿Qué idea organiza el texto?",
     "opciones": {
-      "a": "La rapidez de una demostración decide la calidad del aprendizaje",
+      "a": "Aprender una habilidad depende de conservar el ritmo del modelo",
       "b": "Aprender una habilidad exige relacionar práctica, observación y revisión",
-      "c": "Las explicaciones verbales deben preceder a cualquier movimiento",
-      "d": "Imitar el resultado visible basta para dominar un procedimiento"
+      "c": "El aprendizaje avanza de la explicación completa a la ejecución",
+      "d": "La semejanza con el modelo demuestra el dominio de la técnica"
     },
     "respuesta": "b",
     "explicacion": "El texto desarrolla cómo se complementan observar, ensayar, examinar efectos y ajustar la acción.",
@@ -169,9 +169,9 @@
     "tema": "Lectura: función del ejemplo",
     "pregunta": "¿Qué función tiene el ejemplo de la puntada que se suelta al estirar la tela?",
     "opciones": {
-      "a": "Probar que toda puntada semejante al modelo es defectuosa",
-      "b": "Recomendar que se eviten las telas que pueden estirarse",
-      "c": "Señalar que la tensión es más importante que cualquier otro factor",
+      "a": "Comparar la resistencia de dos tipos distintos de puntada",
+      "b": "Explicar por qué conviene ensayar primero con telas rígidas",
+      "c": "Atribuir el fallo a la selección de un material inadecuado",
       "d": "Mostrar que una apariencia correcta no garantiza solidez"
     },
     "respuesta": "d",
@@ -192,9 +192,9 @@
     "pregunta": "¿Cómo se relacionan las dos afirmaciones sobre repetición del tercer párrafo?",
     "opciones": {
       "a": "Distinguen la repetición mecánica de la práctica revisada",
-      "b": "Proponen primero practicar y después abandonar toda práctica",
-      "c": "Atribuyen resultados opuestos a una actividad idéntica sin matices",
-      "d": "Presentan dos métodos que no pueden combinarse"
+      "b": "Describen etapas que van de repetir a prescindir del modelo",
+      "c": "Comparan la práctica del principiante con la del instructor",
+      "d": "Separan la explicación verbal del aprendizaje por imitación"
     },
     "respuesta": "a",
     "explicacion": "La diferencia está en examinar y corregir lo que se repite, no en negar toda utilidad a la repetición.",

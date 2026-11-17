@@ -11,10 +11,10 @@
     },
     "pregunta": "Según el tercer párrafo, ¿qué debe establecerse antes de ampliar la difusión de los avisos?",
     "opciones": {
-      "a": "Quién confirma los horarios y cómo se eliminan versiones anteriores.",
-      "b": "Cuántos visitantes aceptarán inscribirse en cada actividad.",
-      "c": "Qué modelo de teléfono utilizan los familiares de los inscritos.",
-      "d": "Cuántos carteles podrán colocarse fuera del centro deportivo."
+      "a": "Responsables de confirmar horarios y retirar versiones previas.",
+      "b": "Un calendario fijo de envío para todos los mensajes del centro.",
+      "c": "Un mecanismo para que cada entrenador publique sus cambios.",
+      "d": "La preferencia de la mayoría entre consultar papel o teléfono."
     },
     "respuesta": "a",
     "explicacion": "El texto exige acordar la confirmación y el retiro de versiones para evitar que más canales difundan información contradictoria.",
@@ -99,9 +99,9 @@
     },
     "pregunta": "¿Qué permite inferir la respuesta sobre el tamaño del departamento?",
     "opciones": {
-      "a": "Que el piano ya había sido vendido a la nueva dueña.",
-      "b": "Que la madre ha decidido mudarse con quien narra.",
-      "c": "Que el instrumento no puede volver a utilizarse.",
+      "a": "Que bastaría retirar la mesa para instalar el piano.",
+      "b": "Que la madre se ofrece a guardar el piano en su siguiente casa.",
+      "c": "Que desmontar las patas resolvería cómo colocarlo en el departamento.",
       "d": "Que existe una limitación práctica para conservar el piano allí."
     },
     "respuesta": "d",
@@ -127,7 +127,7 @@
       "d": "Tarde de lluvia → acuerdo con la dueña → visita de los transportistas."
     },
     "respuesta": "b",
-    "explicacion": "La tarde recordada ocurrió años antes; el domingo llegan los transportistas y después se obtiene permiso para dejar el piano hasta el martes.",
+    "explicacion": "La tarde recordada ocurrió antes de la mudanza; el domingo llegan los transportistas y después se obtiene permiso para dejar el piano hasta el martes.",
     "fuente_conceptual": "Pasaje original incluido en el reactivo; respuesta sustentada en su información y organización.",
     "origen": "Original elaborado para este simulacro; texto y situaciones inventados, sin atribución a un autor real."
   },
