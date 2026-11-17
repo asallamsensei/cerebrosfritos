@@ -16,5 +16,6 @@ for(const [subject,n]of Object.entries(QUOTAS))if(s.questions.filter(q=>q.catego
 const validIndex=k=>/^(0|[1-9][0-9]*)$/.test(k)&&Number(k)<120;
 return Object.entries(s.answers).every(([k,v])=>validIndex(k)&&['a','b','c','d'].includes(v))&&Object.entries(s.flags).every(([k,v])=>validIndex(k)&&typeof v==='boolean');
 }
-const api={QUOTAS,shuffle,validate,select,stats,validSession};if(typeof module!=='undefined')module.exports=api;root.UnamCore=api;
+function historyCSV(history){const rows=[['Fecha UTC','Modo','Materia','Aciertos','Incorrectas','Sin responder','Total']];for(const h of history){const result=stats(h),date=new Date(h.finishedAt),when=Number.isNaN(date.getTime())?'Fecha no válida':date.toISOString(),mode=h.mode==='exam'?'Examen':'Estudio';for(const [name,t] of [['TOTAL',result.total],...Object.entries(result.subjects)])rows.push([when,mode,name,t.correct,t.wrong,t.blank,t.total]);}return '\uFEFF'+rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');}
+const api={QUOTAS,shuffle,validate,select,stats,validSession,historyCSV};if(typeof module!=='undefined')module.exports=api;root.UnamCore=api;
 })(typeof window==='undefined'?globalThis:window);
