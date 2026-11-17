@@ -1,27 +1,27 @@
 'use strict';
 const C=UnamCore,$=id=>document.getElementById(id),KEY='cf-unam-area4-v2',LEGACY_KEY='cf-unam-area4-v1';
-let bank=[],state={session:null,seen:{},history:[]},active=null,tick=null,storageOK=true,modalResolve=null,lastSaved=null,conflict=false;
+let bank=[],state={session:null,seen:{},history:[]},active=null,tick=null,storageOK=true,modalResolve=null,lastSaved=null,conflict=false,canPersist=true;
 function notice(t){$('notice').textContent=t;$('notice').hidden=false;}
 function currentStorage(){try{return localStorage.getItem(KEY)||null;}catch(e){return lastSaved;}}
 function checkConflict(){if(conflict)return true;if(currentStorage()!==lastSaved){conflict=true;notice('Otra pestaña actualizó el progreso. Esta pestaña dejó de guardar para no sobrescribirlo. Recarga la página antes de continuar.');}return conflict;}
-function save(){if(checkConflict())return;try{const text=JSON.stringify(state);localStorage.setItem(KEY,text);lastSaved=text;}catch(e){storageOK=false;notice('No se pudo guardar en este navegador. No cierres la página si quieres conservar este intento; al terminar puedes descargar tus resultados en CSV.');}}
-function read(){try{
+function save(){if(!canPersist||checkConflict())return;try{const text=JSON.stringify(state);localStorage.setItem(KEY,text);lastSaved=text;}catch(e){storageOK=false;notice('No se pudo guardar en este navegador. No cierres la página si quieres conservar este intento; al terminar puedes descargar tus resultados en CSV.');}}
+function read(){canPersist=true;try{
  lastSaved=localStorage.getItem(KEY)||null;
  const legacyRaw=lastSaved===null?localStorage.getItem(LEGACY_KEY):null;
  const raw=lastSaved===null?legacyRaw:lastSaved;
  let s=JSON.parse(raw||'null');
- if(s&&Array.isArray(s.history)&&s.seen&&typeof s.seen==='object'){
+ if(s&&typeof s==='object'&&!Array.isArray(s)&&Array.isArray(s.history)&&s.seen&&typeof s.seen==='object'&&!Array.isArray(s.seen)){
   state={session:C.validSession(s.session)?s.session:null,seen:s.seen,history:s.history.filter(h=>C.validSession(h)&&h.finished&&Number.isFinite(h.finishedAt))};
   if(s.session&&!state.session)notice('La sesión guardada no es compatible. Tus resultados válidos se conservaron.');
   if(lastSaved===null&&legacyRaw){save();if(storageOK)notice((s.session&&!state.session?'No se pudo recuperar la sesión anterior; sí se conservaron los resultados válidos. ':'')+'Se copió tu progreso anterior a esta versión. Continúa aquí; las pestañas de la versión anterior conservan una copia separada.');}
- }
-}catch(e){notice('No se pudo recuperar el guardado anterior. Puedes iniciar una sesión nueva.');}}
+ }else if(raw!=null){throw Error('Invalid saved state');}
+}catch(e){canPersist=false;storageOK=false;notice('No se pudo recuperar el guardado anterior; no se sobrescribirá. Puedes practicar sin guardar y descargar el resultado al terminar.');}}
 function ask(title,text,label='Confirmar'){return new Promise(resolve=>{modalResolve=resolve;$('dialogTitle').textContent=title;$('dialogText').textContent=text;$('dialogAccept').textContent=label;$('confirmDialog').showModal();});}
 function closeDialog(answer){$('confirmDialog').close();const fn=modalResolve;modalResolve=null;if(fn)fn(answer);}
 $('dialogCancel').onclick=()=>closeDialog(false);$('dialogAccept').onclick=()=>closeDialog(true);$('confirmDialog').addEventListener('cancel',e=>{e.preventDefault();closeDialog(false);});
 function screen(id){for(let x of ['home','work','results'])$(x).hidden=x!==id;window.scrollTo(0,0);}
 function home(){clearInterval(tick);active=null;screen('home');let s=state.session;$('resumeBox').hidden=!s||s.finished;if(s&&!s.finished){$('resumeTitle').textContent=s.mode==='exam'?'Tu examen está guardado':'Tu práctica está guardada';$('resumeInfo').textContent=`${Object.keys(s.answers).length}/120 respondidas. ${s.mode==='exam'?'El reloj no se ha detenido.':'Puedes continuar sin límite de tiempo.'}`;}$('exportHistory').disabled=!state.history.length;$('history').replaceChildren();if(!state.history.length)$('history').textContent='Aquí aparecerán tus resultados al terminar un intento.';for(const h of state.history){let row=document.createElement('div');row.className='historyItem';let text=document.createElement('span');const n=C.stats(h).total;text.textContent=`${new Date(h.finishedAt).toLocaleString('es')} · ${h.mode==='exam'?'Examen':'Estudio'} · ${n.correct}/120`;let b=document.createElement('button');b.textContent='Ver resultado';b.className='secondary';b.onclick=()=>{active=h;showResults();};row.append(text,b);$('history').append(row);}}
-async function start(mode){if(checkConflict())return;if(state.session&&!state.session.finished){const ok=await ask('¿Empezar otro intento?','Se sustituirá la sesión pendiente, no tus resultados anteriores. El nuevo intento tendrá otra selección de preguntas.','Empezar nuevo');if(!ok)return;}const chosen=C.select(bank,state.seen);state.seen=chosen.seen;active={version:1,id:Date.now()+'-'+Math.random().toString(36).slice(2),mode,questions:chosen.questions,answers:{},flags:{},index:0,startedAt:Date.now(),deadline:mode==='exam'?Date.now()+180*60*1000:null,finished:false};state.session=active;save();showWork();}
+async function start(mode){if(checkConflict())return;if(state.session&&!state.session.finished){const ok=await ask('¿Empezar otro intento?','Se sustituirá la sesión pendiente, no tus resultados anteriores. El nuevo intento tendrá otra selección de preguntas.','Empezar nuevo');if(!ok||checkConflict())return;}const chosen=C.select(bank,state.seen);state.seen=chosen.seen;active={version:1,id:Date.now()+'-'+Math.random().toString(36).slice(2),mode,questions:chosen.questions,answers:{},flags:{},index:0,startedAt:Date.now(),deadline:mode==='exam'?Date.now()+180*60*1000:null,finished:false};state.session=active;save();showWork();}
 function showWork(){screen('work');render();clearInterval(tick);tick=setInterval(clock,1000);clock();}
 function clock(){if(checkConflict()){clearInterval(tick);return;}if(!active||active.finished)return;if(active.mode==='study'){$('timer').textContent='Sin límite';return;}let ms=active.deadline-Date.now();if(ms<=0){finish(true);return;}let sec=Math.ceil(ms/1000);$('timer').textContent=[Math.floor(sec/3600),Math.floor(sec/60)%60,sec%60].map(v=>String(v).padStart(2,'0')).join(':');}
 function allowed(){if(checkConflict())return false;if(!active||active.finished)return false;if(active.mode==='exam'&&Date.now()>=active.deadline){finish(true);return false;}return true;}

@@ -2,6 +2,7 @@
 'use strict';
 const Charts=typeof module!=='undefined'&&module.exports?require('./unam-area4-charts'):root.UnamCharts;
 function validGraphic(q){if(q.grafico===undefined)return true;try{return !!Charts&&Charts.validate(q.grafico)===true;}catch(e){return false;}}
+const nonemptyText=v=>typeof v==='string'&&v.trim().length>0;
 const QUOTAS={'Español':18,'Matemáticas':22,'Física':10,'Química':10,'Biología':10,'Literatura':10,'Geografía':10,'Historia Universal':10,'Historia de México':10,'Filosofía':10};
 function validReading(q){
  if(q.lectura===undefined)return true;
@@ -25,7 +26,7 @@ function readingGroups(questions,expected,contiguous=false){
  return groups;
 }
 function shuffle(a,rng=Math.random){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-function validate(bank){if(!Array.isArray(bank))throw Error('El banco no es una lista.');const ids=new Set();for(const q of bank){if(!validReading(q))throw Error('Lectura inválida: '+q.id);if(!validGraphic(q))throw Error('Gráfica inválida: '+q.id);if(!q.id||ids.has(q.id))throw Error('Identificador repetido o vacío.');ids.add(q.id);if(!(q.categoria in QUOTAS)||!q.pregunta||!q.explicacion||Object.keys(q.opciones||{}).sort().join('')!=='abcd'||!['a','b','c','d'].includes(q.respuesta)||!q.opciones[q.respuesta]||new Set(Object.values(q.opciones)).size!==4)throw Error('Pregunta inválida: '+q.id);}const factor=bank.length/120;if(!Number.isInteger(factor)||factor<3)throw Error('El banco debe cubrir al menos tres exámenes completos.');for(const [s,n] of Object.entries(QUOTAS))if(bank.filter(q=>q.categoria===s).length!==n*factor)throw Error('Cantidad incorrecta: '+s);readingGroups(bank,factor);return true;}
+function validate(bank){if(!Array.isArray(bank))throw Error('El banco no es una lista.');const ids=new Set();for(const q of bank){if(q===null||typeof q!=='object'||Array.isArray(q))throw Error('Pregunta inválida.');if(!validReading(q))throw Error('Lectura inválida: '+q.id);if(!validGraphic(q))throw Error('Gráfica inválida: '+q.id);if(!nonemptyText(q.id)||ids.has(q.id))throw Error('Identificador repetido o vacío.');ids.add(q.id);if(!Object.hasOwn(QUOTAS,q.categoria)||!nonemptyText(q.pregunta)||!nonemptyText(q.explicacion)||Object.keys(q.opciones||{}).sort().join('')!=='abcd'||!['a','b','c','d'].includes(q.respuesta)||!Object.values(q.opciones).every(nonemptyText)||new Set(Object.values(q.opciones)).size!==4)throw Error('Pregunta inválida: '+q.id);}const factor=bank.length/120;if(!Number.isInteger(factor)||factor<3)throw Error('El banco debe cubrir al menos tres exámenes completos.');for(const [s,n] of Object.entries(QUOTAS))if(bank.filter(q=>q.categoria===s).length!==n*factor)throw Error('Cantidad incorrecta: '+s);readingGroups(bank,factor);return true;}
 function select(bank,seen={},rng=Math.random){
  let selected=[];
  const next=Object.fromEntries(Object.entries(seen||{}).filter(([k,n])=>Number.isSafeInteger(n)&&n>=0&&n<Number.MAX_SAFE_INTEGER));
@@ -50,7 +51,7 @@ function stats(session){let total={correct:0,wrong:0,blank:0,total:session.quest
 function validSession(s){
 const record=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
 if(!record(s)||s.version!==1||!['study','exam'].includes(s.mode)||!Array.isArray(s.questions)||s.questions.length!==120||!record(s.answers)||!record(s.flags)||!Number.isInteger(s.index)||s.index<0||s.index>=120||(s.mode==='exam'&&!Number.isFinite(s.deadline)))return false;
-if(!s.questions.every(q=>record(q)&&validGraphic(q)&&validReading(q)&&typeof q.id==='string'&&q.id&&typeof q.pregunta==='string'&&q.pregunta&&q.categoria in QUOTAS&&record(q.opciones)&&Object.keys(q.opciones).sort().join('')==='abcd'&&Object.values(q.opciones).every(v=>typeof v==='string'&&v)&&typeof q.explicacion==='string'&&['a','b','c','d'].includes(q.respuesta)&&q.opciones[q.respuesta]&&Array.isArray(q.order)&&q.order.length===4&&new Set(q.order).size===4&&q.order.every(k=>typeof k==='string'&&['a','b','c','d'].includes(k))))return false;
+if(!s.questions.every(q=>record(q)&&validGraphic(q)&&validReading(q)&&nonemptyText(q.id)&&nonemptyText(q.pregunta)&&Object.hasOwn(QUOTAS,q.categoria)&&record(q.opciones)&&Object.keys(q.opciones).sort().join('')==='abcd'&&Object.values(q.opciones).every(nonemptyText)&&nonemptyText(q.explicacion)&&['a','b','c','d'].includes(q.respuesta)&&q.opciones[q.respuesta]&&Array.isArray(q.order)&&q.order.length===4&&new Set(q.order).size===4&&q.order.every(k=>typeof k==='string'&&['a','b','c','d'].includes(k))))return false;
 if(new Set(s.questions.map(q=>q.id)).size!==120)return false;
 try{readingGroups(s.questions,1,true);}catch(e){return false;}
 for(const [subject,n]of Object.entries(QUOTAS))if(s.questions.filter(q=>q.categoria===subject).length!==n)return false;
