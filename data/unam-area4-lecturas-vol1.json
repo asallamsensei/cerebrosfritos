@@ -1629,13 +1629,13 @@
     "tema": "Métrica: sinalefa",
     "pregunta": "En una lectura métrica, ¿qué sucede si se aplica sinalefa a la secuencia «la estrella»?",
     "opciones": {
-      "a": "Se añade obligatoriamente una sílaba al final del verso.",
-      "b": "Se transforma «estrella» en una palabra aguda.",
-      "c": "Se elimina la sílaba tónica de «estrella».",
-      "d": "La a final de «la» y la e inicial de «estrella» se cuentan en una sola sílaba métrica."
+      "a": "Las vocales a y e se cuentan en sílabas distintas.",
+      "b": "La secuencia suma cinco sílabas por el acento final.",
+      "c": "La secuencia pierde dos sílabas al unir las palabras.",
+      "d": "Las vocales a y e forman una sola sílaba métrica."
     },
     "respuesta": "d",
-    "explicacion": "La sinalefa reúne en una sílaba métrica vocales contiguas situadas al final y al inicio de palabras distintas. No cambia la acentuación léxica.",
+    "explicacion": "La sinalefa une la vocal final de «la» con la inicial de «estrella»: la_es-tre-lla tiene tres sílabas métricas, frente a cuatro sin esa unión. No cambia el acento de la palabra.",
     "fuente_conceptual": "https://dle.rae.es/sinalefa",
     "origen": "Revisada y reutilizada del simulacro existente"
   },

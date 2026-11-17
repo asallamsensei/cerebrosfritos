@@ -1149,13 +1149,13 @@
     "tema": "Química orgánica: adición y evidencia",
     "pregunta": "En condiciones controladas, una muestra de eteno reacciona con Br₂ formando un producto de adición sobre su doble enlace. ¿Qué cambio estructural corresponde?",
     "opciones": {
-      "a": "Se sustituye el doble enlace por un enlace C–O–C",
+      "a": "Se sustituyen dos hidrógenos por bromo y se conserva el enlace C=C",
       "b": "Se rompe el enlace π y se forma un enlace C–Br en cada carbono",
-      "c": "Se rompe la cadena y cada carbono forma CO₂",
+      "c": "Se convierte C=C en C–C y se forma CH₃–CHBr₂, con ambos bromos en un carbono",
       "d": "Se elimina H₂ y se forma un triple enlace"
     },
     "respuesta": "b",
-    "explicacion": "La adición de Br₂ consume el enlace π del alqueno y produce un dibromuro vecinal; el enlace σ entre carbonos permanece.",
+    "explicacion": "La adición de Br₂ al eteno produce BrCH₂–CH₂Br: se consume el enlace π, permanece el enlace σ entre carbonos y se forma un enlace C–Br en cada uno. No es una sustitución de hidrógenos, ni forma el isómero CH₃–CHBr₂, ni elimina H₂ para dar un triple enlace.",
     "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
     "origen": {
       "tipo": "nueva",
@@ -1855,12 +1855,12 @@
     "pregunta": "La expulsión de los jesuitas de los dominios españoles en 1767 se relaciona con las reformas borbónicas porque la Corona buscaba",
     "opciones": {
       "a": "reforzar su control sobre corporaciones influyentes",
-      "b": "transferir la soberanía de Nueva España a las órdenes religiosas",
-      "c": "crear una república independiente dirigida por el clero secular",
-      "d": "restaurar el poder político de la dinastía de los Habsburgo"
+      "b": "ejecutar una supresión de la orden ya decretada por el papa",
+      "c": "implantar la separación jurídica entre Iglesia y Estado",
+      "d": "entregar al papado la administración de los bienes jesuitas"
     },
     "respuesta": "a",
-    "explicacion": "La medida formó parte del fortalecimiento del poder monárquico frente a una orden influyente. No constituyó una iniciativa de independencia ni una separación liberal entre Iglesia y Estado.",
+    "explicacion": "La expulsión reforzó la autoridad de la Corona frente a una corporación influyente: fue una medida regalista, no una separación liberal entre Iglesia y Estado. La supresión pontificia de la orden ocurrió después, en 1773; en 1767 el monarca ordenó ocupar sus bienes, no transferir su administración al papado.",
     "fuente_conceptual": "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad3/virreinatonovohispano/reformasborbonicas",
     "origen": "Original · ampliación 2; elaboración y revisión conceptual con referencia institucional"
   },

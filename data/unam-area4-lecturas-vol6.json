@@ -1482,13 +1482,13 @@
     "tema": "Paratexto: epígrafe",
     "pregunta": "Antes del primer capítulo, una novela incluye una cita breve sobre la fragilidad de la memoria, con su autor. Después, la historia presenta recuerdos contradictorios. ¿Qué función cumple principalmente ese epígrafe?",
     "opciones": {
-      "a": "Garantiza la verdad histórica de todos los sucesos narrados",
-      "b": "Identifica obligatoriamente al narrador con el autor citado",
+      "a": "Establece cuál de los recuerdos narrados es verdadero",
+      "b": "Presenta al autor citado como personaje de la novela",
       "c": "Orienta una clave de lectura temática del relato",
-      "d": "Sustituye el desarrollo narrativo de todos los capítulos"
+      "d": "Resume el orden en que ocurrieron los hechos narrados"
     },
     "respuesta": "c",
-    "explicacion": "El epígrafe anticipa un tema y propone una relación interpretativa; no determina identidad del narrador ni certifica historicidad.",
+    "explicacion": "La cita sobre la fragilidad de la memoria anticipa el tema de los recuerdos contradictorios. En el caso descrito no determina qué recuerdo es verdadero, no convierte al autor citado en personaje ni ordena los hechos.",
     "fuente_conceptual": "https://www.docenciadigital.unam.mx/material/15683/paratextos",
     "origen": "Reactivo original de ampliación 3; pasajes de lectura originales"
   },
