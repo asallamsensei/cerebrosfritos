@@ -1622,7 +1622,7 @@
     "id": "QUI114",
     "categoria": "Química",
     "tema": "Estructura molecular: pares libres y geometría",
-    "pregunta": "La estructura de Lewis de NH₃ tiene tres enlaces N–H y un par libre en el nitrógeno. Según la repulsión de pares electrónicos, ¿cuál es la geometría molecular de NH₃, sin contar el par libre como átomo?",
+    "pregunta": "Según el modelo de repulsión de pares electrónicos, ¿cuál es la geometría molecular del amoniaco, NH₃, considerando únicamente la disposición de sus átomos?",
     "opciones": {
       "a": "Trigonal plana",
       "b": "Piramidal trigonal",
