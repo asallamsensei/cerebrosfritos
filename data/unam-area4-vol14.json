@@ -247,16 +247,15 @@
     "opciones": {
       "a": "El diccionario tiene un precio inasequible",
       "b": "El diccionario tiene un precio asequible",
-      "c": "El diccionario tiene un precio prohibitivo",
+      "c": "El diccionario tiene un precio uniforme",
       "d": "El diccionario tiene un precio fluctuante"
     },
     "respuesta": "b",
-    "explicacion": "Asequible indica que puede adquirirse, aquí por un precio al alcance del presupuesto. Inasequible y prohibitivo expresan una dificultad de adquisición; fluctuante indica variación, no que sea económico.",
+    "explicacion": "Asequible indica que puede adquirirse, aquí por un precio al alcance del presupuesto. Inasequible expresa dificultad de adquisición; uniforme se refiere a ausencia de diferencias y fluctuante a variación, no a que sea económico.",
     "fuente_conceptual": "https://www.rae.es/dpd/asequible",
     "origen": {
-      "tipo": "nueva",
-      "serie": "expansion11",
-      "revision": "Lectura y cotejo local contra1560; pendiente revisión independiente; sin calibración psicométrica"
+      "tipo": "revision",
+      "revision": "Propuesta de auditoría conceptual y editorial1680; pendiente cruce del integrador; sin calibración psicométrica"
     }
   },
   {
@@ -302,21 +301,20 @@
   {
     "id": "esp-250",
     "categoria": "Español",
-    "tema": "Aspecto verbal: acción interrumpida e interrupción",
-    "pregunta": "¿Qué versión presenta la lectura como una actividad en curso cuando se produjo una interrupción?",
+    "tema": "Semántica: cambio de sentido con ser y estar",
+    "pregunta": "Compara «Elena es lista: comprende enseguida los problemas» con «Elena está lista para salir: ya terminó de prepararse». ¿Cómo cambia el sentido de lista?",
     "opciones": {
-      "a": "Leía el informe cuando sonó la alarma",
-      "b": "Leyó el informe después de que sonara la alarma",
-      "c": "Había leído el informe antes de que sonara la alarma",
-      "d": "Leerá el informe cuando deje de sonar la alarma"
+      "a": "Atribuye inteligencia en la primera oración y preparación en la segunda",
+      "b": "Atribuye preparación en la primera oración e inteligencia en la segunda",
+      "c": "Atribuye rapidez de movimiento en ambas, con distinto tiempo verbal",
+      "d": "Atribuye orden material en ambas, con distinto grado de intensidad"
     },
     "respuesta": "a",
-    "explicacion": "El imperfecto leía sitúa una actividad en desarrollo y el pretérito sonó introduce el acontecimiento que la interrumpe. Las otras versiones sitúan la lectura antes o después.",
-    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "explicacion": "El contexto con ser presenta lista como inteligente o sagaz. Con estar lista para salir significa preparada. Los verbos copulativos y los complementos orientan hacia acepciones distintas, no solo hacia diferente duración.",
+    "fuente_conceptual": "https://dle.rae.es/listo",
     "origen": {
-      "tipo": "nueva",
-      "serie": "expansion11",
-      "revision": "Lectura y cotejo local contra1560; pendiente revisión independiente; sin calibración psicométrica"
+      "tipo": "revision",
+      "revision": "Propuesta de auditoría conceptual y editorial1680; pendiente cruce del integrador; sin calibración psicométrica"
     }
   },
   {
@@ -382,21 +380,20 @@
   {
     "id": "lit-132",
     "categoria": "Literatura",
-    "tema": "Narrativa mexicana: Rosario Castellanos",
-    "pregunta": "¿Qué novela de Rosario Castellanos representa tensiones sociales y culturales en Chiapas mediante una estructura que incluye la perspectiva de una niña de la familia Argüello?",
+    "tema": "Narrativa mexicana: estructura de Balún Canán",
+    "pregunta": "En Balún Canán, de Rosario Castellanos, ¿cómo se distribuyen las voces narrativas entre sus tres partes?",
     "opciones": {
-      "a": "Balún Canán",
-      "b": "Hasta no verte Jesús mío",
-      "c": "Los recuerdos del porvenir",
-      "d": "La región más transparente"
+      "a": "Primera y tercera partes en primera persona; segunda parte en tercera persona",
+      "b": "Primera y tercera partes en tercera persona; segunda parte en primera persona",
+      "c": "Primera y segunda partes en primera persona; tercera parte en tercera persona",
+      "d": "Primera y segunda partes en tercera persona; tercera parte en primera persona"
     },
     "respuesta": "a",
-    "explicacion": "Balún Canán, de Rosario Castellanos, incorpora la voz de una niña de la familia Argüello y aborda relaciones de poder en Chiapas. Hasta no verte Jesús mío es de Elena Poniatowska; Los recuerdos del porvenir, de Elena Garro; La región más transparente, de Carlos Fuentes.",
-    "fuente_conceptual": "https://www.elem.mx/obra/datos/205703",
+    "explicacion": "La primera y la tercera parte están narradas en primera persona por la niña de la familia Argüello; la segunda utiliza la tercera persona. Se pregunta por la organización de las voces, no por la asociación de autora y título.",
+    "fuente_conceptual": "https://audioteca.conaliteg.gob.mx/r_balun_canan.html",
     "origen": {
-      "tipo": "nueva",
-      "serie": "expansion11",
-      "revision": "Lectura y cotejo local contra1560; pendiente revisión independiente; sin calibración psicométrica"
+      "tipo": "revision",
+      "revision": "Propuesta de auditoría conceptual y editorial1680; pendiente cruce del integrador; sin calibración psicométrica"
     }
   },
   {
@@ -463,20 +460,19 @@
     "id": "lit-136",
     "categoria": "Literatura",
     "tema": "Lectura poética: cambio de valor de una imagen",
-    "pregunta": "Lee estos versos originales: «Guardé la llave de la casa / cuando la casa dejó de existir; / ya no abre puerta alguna, / pero abre el camino de regreso». ¿Qué cambio de significado sostiene el cierre?",
+    "pregunta": "Lee estos versos originales: «Ayer la lluvia era un ejército / golpeando mi ventana; / hoy, sobre el campo seco, / es la mano que devuelve el pan». ¿Qué cambio de valor adquiere la lluvia?",
     "opciones": {
-      "a": "La llave pasa de objeto útil a vínculo con la memoria",
-      "b": "La llave conserva intacta su función material de abrir la casa",
-      "c": "El camino se convierte en una puerta física recién construida",
-      "d": "La voz rechaza conservar objetos relacionados con el pasado"
+      "a": "Pasa de percibirse como amenaza a percibirse como sustento",
+      "b": "Pasa de percibirse como refugio a percibirse como amenaza",
+      "c": "Mantiene en ambos momentos un valor exclusivamente destructivo",
+      "d": "Pierde toda relación con las necesidades de la voz poética"
     },
     "respuesta": "a",
-    "explicacion": "La casa desapareció y la llave perdió su uso práctico; el regreso final se entiende como evocación. El contraste permite interpretar el objeto como vínculo con la memoria.",
+    "explicacion": "El ejército que golpea presenta la lluvia como fuerza amenazante; en el campo seco, la mano que devuelve el pan la vincula con el alimento. La misma realidad adquiere valores distintos según la situación.",
     "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
     "origen": {
-      "tipo": "nueva",
-      "serie": "expansion11",
-      "revision": "Lectura y cotejo local contra1560; pendiente revisión independiente; sin calibración psicométrica"
+      "tipo": "revision",
+      "revision": "Propuesta de auditoría conceptual y editorial1680; pendiente cruce del integrador; sin calibración psicométrica"
     }
   },
   {
@@ -663,7 +659,7 @@
     "id": "fil-136",
     "categoria": "Filosofía",
     "tema": "Lógica: distinguir uso y mención",
-    "pregunta": "Compara «Roma tiene cuatro letras» con «Roma es una ciudad». ¿Qué diferencia permite evitar la confusión entre ambas afirmaciones?",
+    "pregunta": "Compara «“Roma” tiene cuatro letras» con «Roma es una ciudad». ¿Qué diferencia permite evitar la confusión entre ambas afirmaciones?",
     "opciones": {
       "a": "La primera menciona la palabra; la segunda usa el nombre para referirse a la ciudad",
       "b": "La primera trata sobre una ciudad; la segunda trata sobre una palabra",
@@ -672,31 +668,29 @@
     },
     "respuesta": "a",
     "explicacion": "Tener cuatro letras es una propiedad del nombre Roma, no de la ciudad. En la segunda oración, el nombre se usa para referirse a su objeto. Distinguir uso y mención evita mezclar niveles.",
-    "fuente_conceptual": "https://www.filosoficas.unam.mx/~morado/Papers/reglas.htm",
+    "fuente_conceptual": "https://dianoia.filosoficas.unam.mx/index.php/dianoia/criterios",
     "origen": {
-      "tipo": "nueva",
-      "serie": "expansion11",
-      "revision": "Lectura y cotejo local contra1560; pendiente revisión independiente; sin calibración psicométrica"
+      "tipo": "revision",
+      "revision": "Propuesta de auditoría conceptual y editorial1680; pendiente cruce del integrador; sin calibración psicométrica"
     }
   },
   {
     "id": "fil-137",
     "categoria": "Filosofía",
-    "tema": "Ética: conflicto de intereses y juicio imparcial",
-    "pregunta": "Una integrante de un jurado debe evaluar un proyecto de su socio comercial. Aunque cree poder ser objetiva, informa la relación y se aparta de esa evaluación. ¿Qué razón ética apoya mejor su decisión?",
+    "tema": "Ética: conflicto de intereses y prueba de parcialidad",
+    "pregunta": "Una integrante de un jurado tiene participación económica en uno de los proyectos concursantes. Aún no ha evaluado las propuestas y no hay indicios de que haya manipulado el concurso. ¿Qué conclusión distingue correctamente el conflicto de intereses de una conducta parcial ya demostrada?",
     "opciones": {
-      "a": "La relación comercial demuestra que el proyecto carece de mérito",
-      "b": "La imparcialidad exige impedir que cualquier conocido se presente",
-      "c": "La abstención elimina la necesidad de establecer criterios de evaluación",
-      "d": "El interés personal puede interferir con el deber de juzgar imparcialmente"
+      "a": "El vínculo económico basta para concluir que ya manipuló la evaluación",
+      "b": "Mientras no se pruebe una manipulación, no existe ningún conflicto de intereses",
+      "c": "La calidad del proyecto elimina el conflicto aunque persista su beneficio económico",
+      "d": "Existe un conflicto que debe gestionarse, aunque no se haya demostrado una evaluación parcial"
     },
     "respuesta": "d",
-    "explicacion": "El conflicto consiste en la tensión entre un interés personal y el deber del cargo. Declararlo y abstenerse protege el procedimiento sin prejuzgar el mérito del proyecto.",
-    "fuente_conceptual": "https://www.cch.unam.mx/sites/default/files/ProntuarioEstudiante.pdf",
+    "explicacion": "El beneficio económico personal puede interferir con el deber de evaluar imparcialmente: constituye un conflicto que requiere gestión. Identificar ese riesgo no demuestra por sí mismo una manipulación consumada ni depende de la calidad del proyecto. Esta distinción permite prevenir sin convertir una relación de interés en prueba automática de fraude.",
+    "fuente_conceptual": "https://www.crim.unam.mx/media/Postura_de_la_Comision_de_Etica_del_Subsistema_de_Humanidades_sobre_conflicto_de_interes.pdf",
     "origen": {
-      "tipo": "nueva",
-      "serie": "expansion11",
-      "revision": "Lectura y cotejo local contra1560; pendiente revisión independiente; sin calibración psicométrica"
+      "tipo": "revision",
+      "revision": "Propuesta de auditoría conceptual y editorial1680; pendiente cruce del integrador; sin calibración psicométrica"
     }
   },
   {
@@ -2265,15 +2259,15 @@
     "tema": "Dunas y cobertura vegetal",
     "pregunta": "Se retira la vegetación de una duna costera y queda arena suelta expuesta a vientos frecuentes. ¿Qué proceso se favorece, si las demás condiciones se mantienen?",
     "opciones": {
-      "a": "La disolución química de la arena por falta de fotosíntesis.",
-      "b": "La consolidación inmediata de la arena en roca sedimentaria.",
+      "a": "La meteorización química por disolución de minerales en agua.",
+      "b": "La compactación de sedimentos por aumento de la carga que los cubre.",
       "c": "El transporte eólico y la movilidad de la arena superficial.",
-      "d": "El descenso de la velocidad del viento por ausencia de obstáculos."
+      "d": "El transporte fluvial por el aumento de un caudal permanente."
     },
     "respuesta": "c",
-    "explicacion": "La vegetación puede retener arena y reducir su movilidad. Al eliminarla, la arena suelta queda más expuesta al arrastre eólico; esto no produce por sí mismo disolución ni litificación inmediata.",
+    "explicacion": "Al retirar la cubierta que retiene arena, el viento puede movilizarla con mayor facilidad. No se describe aumento de agua líquida, carga sedimentaria ni caudal fluvial que justifique los otros procesos.",
     "fuente_conceptual": "https://tesiunamdocumentos.dgb.unam.mx/ptd2016/mayo/0744687/0744687.pdf",
-    "origen": "Original · ampliación 11; fuentes institucionales y revisión de alternativas; pendiente cruce"
+    "origen": "Original · propuesta de revisión cualitativa del banco de 1 680; mantiene ID y clave; pendiente cruce"
   },
   {
     "id": "geo-138",
