@@ -1702,7 +1702,7 @@
     "id": "QUI118",
     "categoria": "Química",
     "tema": "Disoluciones: molalidad y masa de disolvente",
-    "pregunta": "Se prepara una disolución con 18 g de glucosa y 200 g de agua. La masa molar de la glucosa es 180 g/mol. Si la molalidad se define como moles de soluto por kilogramo de disolvente, ¿cuál es su valor aproximado?",
+    "pregunta": "Se prepara una disolución con 18 g de un soluto de masa molar 180 g/mol y 200 g de agua. Si la molalidad se define como moles de soluto por kilogramo de disolvente, ¿cuál es su valor aproximado?",
     "opciones": {
       "a": "0.46 mol/kg",
       "b": "0.50 mol/kg",
@@ -1710,7 +1710,7 @@
       "d": "90 mol/kg"
     },
     "respuesta": "b",
-    "explicacion": "Hay 18/180 = 0.10 mol de glucosa y 0.200 kg de agua. La molalidad es 0.10/0.200 = 0.50 mol/kg. Se usa la masa del disolvente, no los 218 g de disolución.",
+    "explicacion": "Hay 18/180 = 0.10 mol de soluto y 0.200 kg de agua. La molalidad es 0.10/0.200 = 0.50 mol/kg. Se usa la masa del disolvente, no los 218 g de disolución.",
     "fuente_conceptual": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
     "origen": {
       "tipo": "nueva",

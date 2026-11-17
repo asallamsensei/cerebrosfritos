@@ -1187,7 +1187,7 @@
     "id": "BIO052",
     "categoria": "Biología",
     "tema": "Enzimas: especificidad",
-    "pregunta": "Una enzima hidroliza almidón, pero no celulosa, aunque ambos polímeros contienen glucosa. ¿Qué explicación es más adecuada?",
+    "pregunta": "Una enzima hidroliza almidón, pero no celulosa, aunque ambos son polisacáridos. ¿Qué explicación es más adecuada?",
     "opciones": {
       "a": "La enzima reconoce solo la composición elemental del sustrato",
       "b": "La especificidad depende únicamente de la longitud de la cadena",
