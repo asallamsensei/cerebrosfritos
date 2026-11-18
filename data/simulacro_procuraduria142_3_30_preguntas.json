@@ -1,0 +1,547 @@
+[
+  {
+    "id": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Expediente administrativo: unidad",
+    "pregunta": "Una misma actuación administrativa tiene documentos dispersos en carpetas de tres grupos de la misma autoridad. Cada grupo prepara una decisión sin consultar a los otros. ¿Qué organización exige la regla general del CPACA?",
+    "opciones": {
+      "a": "Conservar tres expedientes y decidir según la fecha de cada carpeta.",
+      "b": "Reunir las diligencias de la actuación en un solo expediente.",
+      "c": "Formar un expediente por funcionario, aunque traten el mismo asunto.",
+      "d": "Incorporar al expediente únicamente los documentos de la decisión final."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 36 dispone organizar en un expediente los documentos de una misma actuación, para conservar su unidad y evitar decisiones contradictorias.",
+    "referencia_normativa": "Ley 1437 de 2011, art. 36.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_1437_2011.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Actuaciones: terceros directamente afectados",
+    "pregunta": "Antes de resolver una actuación particular, la autoridad identifica a una tercera persona cuyos derechos podrían resultar directamente afectados. Esa persona aún desconoce el trámite. ¿Qué procede?",
+    "opciones": {
+      "a": "Comunicarle la actuación para que pueda intervenir y defender sus derechos.",
+      "b": "Esperar a que termine el trámite para comunicarle solamente el resultado.",
+      "c": "Exigirle una petición previa para informarle que existe la actuación.",
+      "d": "Excluirla del trámite porque no fue quien presentó la petición inicial."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 37 exige comunicar la existencia y objeto de la actuación a terceros directamente afectados, permitiendo su participación.",
+    "referencia_normativa": "Ley 1437 de 2011, art. 37.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_1437_2011.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Actuación administrativa: corrección oportuna",
+    "pregunta": "Antes de expedir el acto definitivo, la autoridad detecta una irregularidad procedimental subsanable. Un equipo propone dejarla sin atención porque nadie ha reclamado. ¿Qué regla debe aplicar?",
+    "opciones": {
+      "a": "Concluir el trámite sin corregirla mientras no se presente una demanda.",
+      "b": "Archivar definitivamente el asunto para evitar cualquier decisión de fondo.",
+      "c": "Corregir la irregularidad y adoptar medidas para concluir la actuación.",
+      "d": "Esperar una solicitud del interesado como requisito para subsanar el trámite."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 41 permite y exige corregir irregularidades antes del acto, incluso de oficio; no es necesario esperar una reclamación.",
+    "referencia_normativa": "Ley 1437 de 2011, art. 41.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_1437_2011.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 4,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Silencio administrativo positivo: reserva legal",
+    "pregunta": "En una solicitud de autorización, el solicitante sostiene que cualquier falta de respuesta equivale a aprobación. No se identifica norma especial que establezca silencio positivo para ese trámite. ¿Qué conclusión es correcta?",
+    "opciones": {
+      "a": "La aprobación por silencio surge de toda petición que quede pendiente.",
+      "b": "La aprobación por silencio requiere una previsión legal expresa.",
+      "c": "La aprobación por silencio depende de que el solicitante así lo pida.",
+      "d": "La aprobación por silencio la puede crear una circular de la oficina."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 84 limita el silencio positivo a los casos previstos expresamente por la ley. El incumplimiento del plazo no crea por sí solo esa autorización.",
+    "referencia_normativa": "Ley 1437 de 2011, art. 84.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_1437_2011.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 5,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Información pública: motivación de la negativa",
+    "pregunta": "Una entidad niega acceso a un documento por reserva, pero solo escribe «es confidencial». ¿Qué debe contener la decisión para sustentar la negativa conforme al derecho de petición?",
+    "opciones": {
+      "a": "La motivación y la disposición legal que impide entregar lo solicitado.",
+      "b": "La firma del jefe, sin necesidad de identificar la norma de reserva.",
+      "c": "La opinión del autor del documento acerca de su carácter inconveniente.",
+      "d": "La indicación de que toda información interna es reservada por naturaleza."
+    },
+    "respuesta": "a",
+    "explicacion": "La negativa por reserva debe motivarse e identificar con precisión su fundamento legal; una etiqueta interna no basta.",
+    "referencia_normativa": "Ley 1755 de 2015, art. 1, que sustituye art. 25 del CPACA.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 6,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Datos personales: finalidad y circulación",
+    "pregunta": "Para organizar una jornada se recogieron teléfonos privados de asistentes. Un servidor quiere enviar la lista a un comercio para promover productos, sin autorización ni fundamento legal. ¿Qué evaluación corresponde?",
+    "opciones": {
+      "a": "Es un uso permitido porque los datos ya se encuentran en una entidad pública.",
+      "b": "Es un uso permitido si el comercio promete eliminar la lista después del envío.",
+      "c": "Es un uso permitido porque un teléfono no puede ser considerado dato personal.",
+      "d": "Es un uso ajeno a la finalidad prevista y sin habilitación para esa circulación."
+    },
+    "respuesta": "d",
+    "explicacion": "La finalidad legítima y la circulación restringida siguen rigiendo los datos recabados por una entidad. La actividad comercial descrita carece de habilitación.",
+    "referencia_normativa": "Ley 1581 de 2012, art. 4, literales b y f.",
+    "fuente_conceptual": "https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/ley_1581_2012.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 7,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Archivo: retención documental",
+    "pregunta": "Para liberar espacio, una oficina propone eliminar todos los expedientes que no se consultaron en los últimos seis meses. ¿Qué criterio debe orientar su disposición documental?",
+    "opciones": {
+      "a": "Eliminar por antigüedad de la última consulta sin revisar la serie documental.",
+      "b": "Conservar únicamente las páginas firmadas y desechar el resto del expediente.",
+      "c": "Aplicar las tablas de retención y el procedimiento archivístico pertinente.",
+      "d": "Permitir que cada funcionario defina un plazo según el espacio de su escritorio."
+    },
+    "respuesta": "c",
+    "explicacion": "La Ley General de Archivos exige tablas de retención documental. La falta de consultas recientes no reemplaza la valoración y disposición archivística.",
+    "referencia_normativa": "Ley 594 de 2000, art. 24.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4275",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 8,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Principios: coordinación administrativa",
+    "pregunta": "Dos dependencias con competencias complementarias programan diligencias incompatibles sobre un mismo asunto. Se conocen sus responsabilidades y no existe conflicto de competencia. ¿Qué alternativa materializa mejor la coordinación?",
+    "opciones": {
+      "a": "Trasladar todas las competencias a la dependencia que convocó primero.",
+      "b": "Acordar un cronograma común respetando la competencia de cada dependencia.",
+      "c": "Mantener agendas separadas para impedir cualquier intercambio de información.",
+      "d": "Sustituir las actuaciones de ambas dependencias por un acuerdo sin competencia."
+    },
+    "respuesta": "b",
+    "explicacion": "La coordinación articula actividades para cumplir los fines estatales. No transfiere por sí misma competencias ni permite omitir los procedimientos aplicables.",
+    "referencia_normativa": "Ley 1437 de 2011, art. 3, numeral 10.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_1437_2011.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 9,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Indicadores: puntos porcentuales",
+    "pregunta": "El porcentaje de expedientes con respuesta oportuna pasó de 60 % a 75 %, con igual definición del indicador. ¿En cuántos puntos porcentuales aumentó?",
+    "opciones": {
+      "a": "15 puntos porcentuales.",
+      "b": "25 puntos porcentuales.",
+      "c": "35 puntos porcentuales.",
+      "d": "80 puntos porcentuales."
+    },
+    "respuesta": "a",
+    "explicacion": "La diferencia es 75 − 60 = 15 puntos porcentuales. El aumento relativo es 15/60 = 25 %, que es otra medida.",
+    "referencia_normativa": "Ejercicio original de análisis técnico; cálculo aritmético, no regla jurídica.",
+    "fecha_revision": "2026-11-18",
+    "nota_fuente": "Ejercicio original con datos hipotéticos. La solución se comprueba en la explicación; no se atribuye a una norma ni a la ficha de convocatoria."
+  },
+  {
+    "id": 10,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Datos: mediana y valor extremo",
+    "pregunta": "Cinco trámites tardaron 4, 5, 6, 7 y 38 días. Para describir el valor central mediante la mediana, ¿qué cifra debe incluirse en el informe?",
+    "opciones": {
+      "a": "6 días.",
+      "b": "7 días.",
+      "c": "12 días.",
+      "d": "38 días."
+    },
+    "respuesta": "a",
+    "explicacion": "Al ordenar cinco observaciones, la tercera es la mediana: 6. El promedio sería 60/5 = 12 y es más sensible al valor extremo.",
+    "referencia_normativa": "Ejercicio original de estadística descriptiva; no regla jurídica.",
+    "fecha_revision": "2026-11-18",
+    "nota_fuente": "Ejercicio original con datos hipotéticos. La solución se comprueba en la explicación; no se atribuye a una norma ni a la ficha de convocatoria."
+  },
+  {
+    "id": 11,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Muestreo: alcance de la evidencia",
+    "pregunta": "Para estimar la satisfacción de todos los usuarios, se encuesta solo a quienes presentaron una felicitación. No se consulta a ningún otro grupo. ¿Cuál es la principal limitación?",
+    "opciones": {
+      "a": "El tamaño de la encuesta garantiza que toda la población quede representada.",
+      "b": "La selección excluye experiencias relevantes para estimar la satisfacción global.",
+      "c": "La encuesta permite extender el resultado porque todos respondieron lo mismo.",
+      "d": "La selección elimina los sesgos al usar registros disponibles de la entidad."
+    },
+    "respuesta": "b",
+    "explicacion": "Una muestra restringida a felicitaciones selecciona usuarios por un resultado favorable. No permite inferir sin más la satisfacción del conjunto.",
+    "referencia_normativa": "Ejercicio original de método y análisis de información; no regla jurídica.",
+    "fecha_revision": "2026-11-18",
+    "nota_fuente": "Ejercicio original con datos hipotéticos. La solución se comprueba en la explicación; no se atribuye a una norma ni a la ficha de convocatoria."
+  },
+  {
+    "id": 12,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Ofimática: referencia absoluta",
+    "pregunta": "En una hoja de cálculo, B2 contiene un costo y E1 una tasa fija. En C2 se calculará costo por tasa y se copiará la fórmula hacia abajo. ¿Qué fórmula conserva E1 y permite que cambie la fila del costo?",
+    "opciones": {
+      "a": "=$B$2*E1",
+      "b": "=B2*E1",
+      "c": "=B2*$E$1",
+      "d": "=$B$2*$E$1"
+    },
+    "respuesta": "c",
+    "explicacion": "B2 es relativa y pasará a B3; $E$1 es absoluta y seguirá apuntando a la tasa. Fijar B2 impediría usar el costo de cada fila.",
+    "referencia_normativa": "Ejercicio original de ofimática; referencias relativas y absolutas.",
+    "fecha_revision": "2026-11-18",
+    "nota_fuente": "Ejercicio original con datos hipotéticos. La solución se comprueba en la explicación; no se atribuye a una norma ni a la ficha de convocatoria.",
+    "fuente_conceptual": "https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references"
+  },
+  {
+    "id": 13,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Gestión: carga pendiente",
+    "pregunta": "La semana inicia con 50 expedientes pendientes. Ingresan 20 nuevos y se finalizan 35 del conjunto disponible. No hubo traslados, duplicados ni reaperturas. ¿Cuántos quedan pendientes?",
+    "opciones": {
+      "a": "15 expedientes.",
+      "b": "65 expedientes.",
+      "c": "35 expedientes.",
+      "d": "105 expedientes."
+    },
+    "respuesta": "c",
+    "explicacion": "El saldo es inicial + entradas − salidas: 50 + 20 − 35 = 35. Contar solo ingresos y finalizados omite la carga anterior.",
+    "referencia_normativa": "Ejercicio original de balance de carga; no regla jurídica.",
+    "fecha_revision": "2026-11-18",
+    "nota_fuente": "Ejercicio original con datos hipotéticos. La solución se comprueba en la explicación; no se atribuye a una norma ni a la ficha de convocatoria."
+  },
+  {
+    "id": 14,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos generales",
+    "tema": "Análisis técnico: unidades comparables",
+    "pregunta": "Un informe registra un área intervenida de 2,4 hectáreas y otro de 18.000 metros cuadrados. Sabiendo que una hectárea equivale a 10.000 metros cuadrados, ¿cuál comparación es correcta?",
+    "opciones": {
+      "a": "La segunda área es mayor por 6.000 metros cuadrados.",
+      "b": "La primera área es mayor por 600 metros cuadrados.",
+      "c": "La primera área es mayor por 6.000 metros cuadrados.",
+      "d": "Las dos áreas son iguales después de convertir las unidades."
+    },
+    "respuesta": "c",
+    "explicacion": "2,4 × 10.000 = 24.000 m². Al restar 18.000 m² resultan 6.000 m². Primero deben homogeneizarse las unidades.",
+    "referencia_normativa": "Ejercicio original de conversión de unidades; no regla jurídica.",
+    "fecha_revision": "2026-11-18",
+    "nota_fuente": "Ejercicio original con datos hipotéticos. La solución se comprueba en la explicación; no se atribuye a una norma ni a la ficha de convocatoria."
+  },
+  {
+    "id": 15,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Sancionatorio ambiental: medida preventiva",
+    "pregunta": "La autoridad ambiental competente suspende preventivamente una actividad para impedir que continúe un riesgo ambiental. Un informe presenta esa medida como una sanción definitiva. ¿Qué debe corregirse?",
+    "opciones": {
+      "a": "La medida es inmediata y transitoria; no equivale a una sanción definitiva.",
+      "b": "La medida se vuelve definitiva al día siguiente, aunque no exista procedimiento.",
+      "c": "La medida solo puede ejecutarse después de imponer una multa definitiva.",
+      "d": "La medida reemplaza el análisis de responsabilidad en todo proceso posterior."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 32 distingue las medidas preventivas, de efecto inmediato y transitorio, de las sanciones que puedan resultar del procedimiento.",
+    "referencia_normativa": "Ley 1333 de 2009, art. 32, texto consolidado.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_1333_2009.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 16,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Sanción ambiental y restauración",
+    "pregunta": "Un infractor pagó una multa ambiental. Quedan pendientes medidas de restauración ordenadas por la autoridad competente. Alega que el pago extinguió también esas obligaciones. ¿Qué análisis procede?",
+    "opciones": {
+      "a": "La multa sustituye cualquier medida de reparación que aún esté pendiente.",
+      "b": "La restauración solo puede exigirse cuando no se impuso ninguna multa.",
+      "c": "La obligación termina si el costo de restaurar supera el valor de la multa.",
+      "d": "La sanción no lo exime de cumplir las medidas de compensación y restauración."
+    },
+    "respuesta": "d",
+    "explicacion": "El artículo 31 mantiene las medidas de compensación y restauración pese a la sanción; exige proporcionalidad entre estas respuestas.",
+    "referencia_normativa": "Ley 1333 de 2009, art. 31.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_1333_2009.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 17,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Medida preventiva: levantamiento",
+    "pregunta": "Un establecimiento solicita levantar una medida preventiva ambiental y aporta un recibo de compra de equipos. Aún no se ha comprobado que desapareció la causa que motivó la medida. ¿Qué debe verificarse?",
+    "opciones": {
+      "a": "Que desaparecieron las causas que dieron origen a la medida preventiva.",
+      "b": "Que se compró algún equipo, aunque persista la causa de la afectación.",
+      "c": "Que transcurrió un mes desde la imposición, sin evaluar las condiciones.",
+      "d": "Que el interesado prometió no repetir la conducta después de reabrir."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 35 condiciona el levantamiento a comprobar que desaparecieron sus causas. Comprar equipos no demuestra por sí solo ese resultado.",
+    "referencia_normativa": "Ley 1333 de 2009, art. 35.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_1333_2009.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 18,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Municipios: funciones ambientales",
+    "pregunta": "En una revisión preventiva, una alcaldía afirma que no tiene ninguna función ambiental porque existe una corporación autónoma regional. ¿Qué observación es pertinente?",
+    "opciones": {
+      "a": "La presencia de la corporación suprime las funciones ambientales municipales.",
+      "b": "La alcaldía adquiere todas las competencias de licenciamiento de la corporación.",
+      "c": "El municipio también tiene funciones ambientales dentro de su competencia.",
+      "d": "Las funciones ambientales municipales dependen solo de un convenio voluntario."
+    },
+    "respuesta": "c",
+    "explicacion": "El artículo 65 asigna funciones ambientales a municipios, como promover programas y coordinar control. Esto no les atribuye todas las competencias de otras autoridades.",
+    "referencia_normativa": "Ley 99 de 1993, art. 65.",
+    "fuente_conceptual": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=297",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 19,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Minería: propiedad del suelo y derecho minero",
+    "pregunta": "Un propietario de una finca dice que su escritura le permite explotar un yacimiento de propiedad estatal. No cuenta con título minero ni invoca un régimen excepcional. ¿Qué debe aclararse?",
+    "opciones": {
+      "a": "La escritura del terreno reemplaza el título minero si identifica los linderos.",
+      "b": "La autorización del alcalde sustituye el título por tratarse de un predio privado.",
+      "c": "La antigüedad de la ocupación permite explotar sin demostrar derecho minero.",
+      "d": "La propiedad del suelo no constituye por sí sola el derecho a explotar la mina."
+    },
+    "respuesta": "d",
+    "explicacion": "Para el supuesto descrito, debe acreditarse el título minero correspondiente; la propiedad superficial no basta. Además siguen siendo exigibles los requisitos ambientales aplicables.",
+    "referencia_normativa": "Ley 685 de 2001, arts. 5 y 14; supuesto sin derechos anteriores ni excepciones.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_0685_2001.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 20,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Baldíos: ocupación y dominio",
+    "pregunta": "Está acreditado que un terreno es baldío adjudicable de la Nación. Quien lo ocupa sostiene que el simple paso del tiempo lo convierte automáticamente en propietario. ¿Cuál es la orientación correcta?",
+    "opciones": {
+      "a": "El dominio surge por cualquier ocupación prolongada sin trámite administrativo.",
+      "b": "La propiedad se obtiene con una certificación de residencia expedida por un vecino.",
+      "c": "El pago de un impuesto sustituye el título de adjudicación del terreno baldío.",
+      "d": "La ocupación no otorga dominio; este requiere adjudicación por la autoridad competente."
+    },
+    "respuesta": "d",
+    "explicacion": "El artículo 65 diferencia la ocupación de baldíos de la propiedad. La adjudicación exige actuación de autoridad competente y cumplimiento de los requisitos legales.",
+    "referencia_normativa": "Ley 160 de 1994, art. 65; naturaleza baldía previamente acreditada.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/normograma/compilacion/docs/ley_0160_1994.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 21,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Restitución: seguimiento posterior al fallo",
+    "pregunta": "Después de una sentencia de restitución, aparecen obstáculos que impiden el goce del predio y amenazan la seguridad de la familia. Se propone que el juez cierre toda intervención por haber fallado. ¿Qué regla aplica?",
+    "opciones": {
+      "a": "El juez conserva competencia para adoptar medidas que hagan efectiva la restitución.",
+      "b": "La sentencia elimina toda competencia judicial sobre el goce del predio restituido.",
+      "c": "La competencia pasa automáticamente al propietario anterior para ejecutar el fallo.",
+      "d": "La familia debe iniciar otra restitución del mismo predio para pedir protección."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 102 conserva competencia del juez o magistrado tras el fallo para garantizar el disfrute de los bienes y la seguridad de los beneficiarios.",
+    "referencia_normativa": "Ley 1448 de 2011, art. 102.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_1448_2011.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 22,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Restitución: sentencia como título",
+    "pregunta": "Una sentencia de restitución reconoce definitivamente el dominio y ordena su inscripción. La oficina exige celebrar además una compraventa con el antiguo titular para reconocer el título. ¿Qué debe advertirse?",
+    "opciones": {
+      "a": "La sentencia constituye título suficiente; debe cumplirse la orden de registro.",
+      "b": "La sentencia solo sirve como oferta y debe acompañarse de una nueva compraventa.",
+      "c": "El antiguo titular debe autorizar el registro pese a la decisión judicial definitiva.",
+      "d": "La propiedad solo puede reconocerse con un contrato posterior entre particulares."
+    },
+    "respuesta": "a",
+    "explicacion": "El artículo 91 reconoce la sentencia como título suficiente y prevé órdenes de inscripción. No exige la compraventa adicional planteada.",
+    "referencia_normativa": "Ley 1448 de 2011, art. 91.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_1448_2011.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 23,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Restitución: compensación ante riesgo natural",
+    "pregunta": "Las autoridades competentes acreditan que un predio reclamado está en una zona de alto riesgo de desastre y su restitución material resulta imposible. ¿Qué alternativa puede solicitar subsidiariamente la víctima al juez?",
+    "opciones": {
+      "a": "El archivo del proceso sin ninguna medida sustitutiva de restitución.",
+      "b": "Un inmueble de características similares como compensación en especie.",
+      "c": "La entrega obligatoria del mismo predio aunque persista el alto riesgo.",
+      "d": "La exclusión de toda reparación porque el riesgo tiene origen natural."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 97 permite solicitar subsidiariamente compensación en especie cuando se cumplen las causales de imposibilidad material, incluida la de alto riesgo acreditado.",
+    "referencia_normativa": "Ley 1448 de 2011, art. 97, literal a.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_1448_2011.htm",
+    "fecha_revision": "2026-11-18",
+    "fuentes_adicionales": [
+      "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_2421_2024.htm"
+    ],
+    "nota_fuente": "El art. 30 de la Ley 2421 de 2024 añade la causal f al art. 97; no elimina la causal a de alto riesgo que evalúa este ejercicio."
+  },
+  {
+    "id": 24,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Conocimientos específicos",
+    "tema": "Restitución: derechos de ambos integrantes de la pareja",
+    "pregunta": "Está probado que el demandante y su compañera permanente fueron víctimas del despojo del inmueble reclamado. Ella no compareció al proceso. Al otorgarse el dominio, ¿qué dispone la regla especial?",
+    "opciones": {
+      "a": "Registrar solo al demandante porque la comparecencia define quién fue víctima.",
+      "b": "Ordenar restitución y registro a favor de ambos, aunque ella no haya comparecido.",
+      "c": "Excluir a la compañera y exigirle iniciar otro proceso sobre el mismo despojo.",
+      "d": "Dejar su derecho a discreción del demandante después de inscribir la sentencia."
+    },
+    "respuesta": "b",
+    "explicacion": "El artículo 118 protege a ambos integrantes de la pareja víctimas del despojo o abandono, incluso si uno no compareció. El caso cumple ese supuesto.",
+    "referencia_normativa": "Ley 1448 de 2011, art. 118.",
+    "fuente_conceptual": "https://jurinfo.jep.gov.co/Normograma/Compilacion/docs/ley_1448_2011.htm",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 25,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Responsabilidad con la organización · B",
+    "pregunta": "Una nueva línea institucional busca acercar servicios a zonas rurales. Tu equipo detecta que el formulario vigente obliga a desplazamientos evitables. ¿Qué actuación refleja mejor responsabilidad con la organización en nivel B?",
+    "opciones": {
+      "a": "Documentar los desplazamientos en el informe anual, sin proponer ajustes al procedimiento.",
+      "b": "Optimizar el tiempo de digitación de tu oficina, conservando los desplazamientos exigidos.",
+      "c": "Solicitar a las oficinas estadísticas del trámite, sin vincularlas a una propuesta de mejora.",
+      "d": "Proponer un ajuste viable del trámite que reduzca la barrera y preserve sus controles."
+    },
+    "respuesta": "d",
+    "explicacion": "El nivel B une el compromiso institucional con la propuesta de mejoras. El ajuste debe ser viable y respetar los controles. Ejercicio didáctico, no escala psicométrica oficial.",
+    "referencia_normativa": "Diccionario PGN: Responsabilidad con la organización, nivel B.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 26,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Organización del trabajo · B",
+    "pregunta": "Debes programar jornadas trimestrales en seis municipios; solo hay un vehículo y dos equipos, con temporadas de acceso distintas. ¿Qué plan corresponde mejor a organización del trabajo en nivel B?",
+    "opciones": {
+      "a": "Concentrar el plan en la primera jornada y concretar las restantes conforme se acerquen.",
+      "b": "Reservar el vehículo para el trimestre y dejar la secuencia de visitas a cada equipo local.",
+      "c": "Ordenar las visitas por distancia recorrida, dejando el análisis estacional para cada viaje.",
+      "d": "Programar rutas y metas según accesos, personal, vehículo y plazos del trimestre."
+    },
+    "respuesta": "d",
+    "explicacion": "El nivel B programa actividades de mediano plazo considerando recursos y tiempo. Aquí requiere anticipar restricciones y ordenar las jornadas. Ejercicio didáctico.",
+    "referencia_normativa": "Diccionario PGN: Organización en el trabajo, nivel B.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 27,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Investigación · B",
+    "pregunta": "La entidad necesita evaluar si dos métodos de revisión de expedientes reducen errores. Una universidad ofrece colaborar. ¿Qué propuesta se ajusta mejor al nivel B de investigación?",
+    "opciones": {
+      "a": "Reunir valoraciones de expertos sobre ambos métodos y adoptar el que obtenga más apoyos.",
+      "b": "Aplicar un método nuevo a casos sencillos y compararlo con casos complejos del archivo.",
+      "c": "Diseñar con la universidad una comparación con criterios de error y análisis definidos.",
+      "d": "Recopilar descripciones de los métodos usados, sin evaluar diferencias en sus resultados."
+    },
+    "respuesta": "c",
+    "explicacion": "El nivel B contempla estudios conjuntos y métodos para el mejoramiento institucional. La comparación debe diseñarse sin predeterminar la conclusión. Ejercicio didáctico.",
+    "referencia_normativa": "Diccionario PGN: Investigación, nivel B.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 28,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Pensamiento conceptual · A",
+    "pregunta": "En una mesa técnica se usan como sinónimos «riesgo», «daño» e «incumplimiento», generando recomendaciones incompatibles para un conflicto territorial complejo. ¿Qué aporte refleja mejor pensamiento conceptual de nivel A?",
+    "opciones": {
+      "a": "Preparar un glosario general de términos y dejar que cada equipo los aplique por separado.",
+      "b": "Entregar una cronología detallada del conflicto, sin explicar las categorías en discusión.",
+      "c": "Reunir las normas citadas por los equipos, sin resolver las diferencias de interpretación.",
+      "d": "Relacionar los conceptos del caso y fijar criterios claros de actuación."
+    },
+    "respuesta": "d",
+    "explicacion": "El nivel A explica problemas complejos con rigor y formula directrices claras. No basta recopilar definiciones sin una orientación aplicable. Ejercicio didáctico.",
+    "referencia_normativa": "Diccionario PGN: Pensamiento conceptual, nivel A.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 29,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Orientación a resultados · A",
+    "pregunta": "Un piloto permitió atender oportunamente 80 % de alertas críticas. Se busca mejorar el desempeño institucional sin reducir calidad. ¿Qué propuesta expresa mejor orientación a resultados de nivel A?",
+    "opciones": {
+      "a": "Extender a todas las oficinas la meta ya lograda, sin explorar un desempeño más exigente.",
+      "b": "Fijar una meta superior verificable y acordar recursos, plazos y controles para alcanzarla.",
+      "c": "Proponer un porcentaje mayor y conservar el plan previo, sin revisar los recursos requeridos.",
+      "d": "Optimizar el registro de alertas recibidas y aplazar la fijación de nuevas metas de atención."
+    },
+    "respuesta": "b",
+    "explicacion": "El nivel A plantea metas desafiantes y compromete recursos y tiempos para mejorar resultados, preservando su calidad y verificación. Ejercicio didáctico.",
+    "referencia_normativa": "Diccionario PGN: Orientación a resultados, nivel A.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "fecha_revision": "2026-11-18"
+  },
+  {
+    "id": 30,
+    "tipo_pregunta": "opcion_multiple",
+    "categoria": "Competencias comportamentales",
+    "tema": "Cumplimiento de parámetros de trabajo · B",
+    "pregunta": "Coordinarás un equipo que entrega informes a dos procesos institucionales, cada uno con requisitos obligatorios distintos y compatibles. ¿Qué actuación demuestra mejor cumplimiento de parámetros de nivel B?",
+    "opciones": {
+      "a": "Usar una lista de requisitos comunes y dejar las diferencias para la revisión del receptor.",
+      "b": "Alinear los objetivos y entregables del equipo con requisitos definidos de ambos procesos.",
+      "c": "Fijar primero metas de volumen y luego ajustar los requisitos según el avance del equipo.",
+      "d": "Enviar los procedimientos a cada integrante y no traducirlos en objetivos de trabajo comunes."
+    },
+    "respuesta": "b",
+    "explicacion": "El nivel B aplica criterios dentro de los procesos y alinea objetivos del equipo con procedimientos definidos. Ejercicio didáctico, no instrumento oficial.",
+    "referencia_normativa": "Diccionario PGN: Cumplimiento de parámetros de trabajo, nivel B.",
+    "fuente_conceptual": "https://apps.procuraduria.gov.co/portal/media/file/DICCIONARIO%20DE%20COMPETENCIAS%20COMPORTAMENTALES%205-JUL-12.pdf",
+    "fecha_revision": "2026-11-18"
+  }
+]
