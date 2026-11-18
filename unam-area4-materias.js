@@ -48,6 +48,45 @@ function exportHistory(){if(!state.history.length)return;try{const blob=new Blob
 $('exportHistory').onclick=exportHistory;$('exportResults').onclick=exportHistory;
 function showResults(){clearInterval(tick);screen('results');let s=C.stats(active);$('score').textContent=`${s.total.correct} de ${s.total.total}`;$('resultSummary').textContent=`${Math.round(s.total.correct/s.total.total*100)}% · ${s.total.wrong} incorrectas · ${s.total.blank} sin responder`;$('resultMode').textContent=`${active.mode==='exam'?'Modo examen':(active.subject?'Estudio de '+active.subject:'Estudio completo')+' con correcciones durante el intento'}${active.timeout?' · Finalizado por tiempo agotado':''}`;$('subjectResults').replaceChildren();for(const [name,t]of Object.entries(s.subjects)){let box=document.createElement('article');box.className='subjectCard';let title=document.createElement('p');title.textContent=name;let n=document.createElement('strong');n.textContent=`${t.correct}/${t.total}`;let p=document.createElement('p');p.className='muted';p.textContent=`${Math.round(t.correct/t.total*100)}% · ${t.blank} omitidas`;box.append(title,n,p);$('subjectResults').append(box);}review(false);}
 function review(errorsOnly){$('review').replaceChildren();let shown=0;active.questions.forEach((q,i)=>{let a=active.answers[i],ok=a===q.respuesta;if(errorsOnly&&ok)return;shown++;let d=document.createElement('details');d.className='card reviewCard'+(ok?' good':'');let summary=document.createElement('summary');summary.textContent=`${i+1}. ${q.categoria} · ${ok?'Correcta':a?'Incorrecta':'Sin responder'}`;d.append(summary);if(q.lectura)d.append(readingPanel(q.lectura));let question=document.createElement('p');question.textContent=q.pregunta;d.append(question);if(q.grafico)d.append(UnamCharts.render(q.grafico,document));for(let t of [`Tu respuesta: ${a?q.opciones[a]:'Sin responder'}`,`Correcta: ${q.opciones[q.respuesta]}`,q.explicacion]){let p=document.createElement('p');p.textContent=t;d.append(p);}$('review').append(d);});if(!shown)$('review').textContent='¡No hay errores ni preguntas omitidas en este intento!';}
+// A temporary practice round: never mutate the saved attempt or its score.
+function practiceErrors(){
+ if(!active||!active.finished)return;
+ const items=active.questions.map((q,i)=>({q,i})).filter(({q,i})=>active.answers[i]&&active.answers[i]!==q.respuesta);
+ const host=$('review');host.replaceChildren();
+ if(!items.length){host.textContent='No hay respuestas incorrectas para repasar. Puedes consultar las preguntas sin responder en «Ver errores y omitidas».';return;}
+ let index=0,correct=0;
+ function show(){
+  host.replaceChildren();
+  const title=document.createElement('h2');title.tabIndex=-1;
+  title.textContent=`Repasar errores · ${index+1} de ${items.length}`;
+  const note=document.createElement('p');note.className='muted';note.textContent='Práctica temporal, sin cambiar tu resultado ni tu historial.';
+  const card=document.createElement('article');card.className='card';
+  const {q,i}=items[index];
+  const subject=document.createElement('p');subject.className='badge';subject.textContent=`${q.categoria} · pregunta original ${i+1}`;
+  card.append(subject);if(q.lectura)card.append(readingPanel(q.lectura));
+  const question=document.createElement('h3');question.textContent=q.pregunta;question.style.whiteSpace='pre-wrap';card.append(question);
+  if(q.grafico)card.append(UnamCharts.render(q.grafico,document));
+  const options=document.createElement('div');options.style.display='grid';options.style.gap='12px';
+  const feedback=document.createElement('div');feedback.setAttribute('aria-live','polite');feedback.hidden=true;
+  const next=document.createElement('button');next.textContent=index===items.length-1?'Terminar repaso':'Siguiente error →';next.disabled=true;next.style.marginTop='20px';
+  let answered=false;
+  q.order.forEach((key,j)=>{
+   const button=document.createElement('button');button.type='button';button.className='secondary';button.style.textAlign='left';button.style.whiteSpace='pre-wrap';button.textContent=`${'ABCD'[j]}. ${q.opciones[key]}`;
+   button.onclick=()=>{
+    if(answered)return;answered=true;const ok=key===q.respuesta;if(ok)correct++;
+    for(const option of options.children)option.disabled=true;
+    button.setAttribute('aria-pressed','true');
+    const answer=document.createElement('p');answer.textContent=`${ok?'Correcto':'Incorrecto'}. Respuesta: ${q.opciones[q.respuesta]}`;
+    const explanation=document.createElement('p');explanation.textContent=q.explicacion;
+    feedback.append(answer,explanation);feedback.hidden=false;next.disabled=false;
+   };options.append(button);
+  });
+  next.onclick=()=>{if(!answered)return;if(++index<items.length){show();return;}host.replaceChildren();const done=document.createElement('h2');done.tabIndex=-1;done.textContent='Repaso completado';const result=document.createElement('p');result.textContent=`${correct} de ${items.length} respuestas correctas en este repaso. Tu resultado original y tu historial no cambiaron.`;host.append(done,result);done.focus();};
+  card.append(options,feedback,next);host.append(title,note,card);title.focus();
+ }
+ show();
+}
+$('practiceErrors').onclick=practiceErrors;
 $('startExam').onclick=()=>start('exam');$('startStudy').onclick=()=>start('study',$('studySubject').value);$('resume').onclick=()=>{active=state.session;if(active)showWork();};$('prev').onclick=()=>navigate(active.index-1);$('next').onclick=()=>active.index===active.questions.length-1?requestFinish():navigate(active.index+1);$('flag').onclick=()=>{if(!allowed())return;active.flags[active.index]=!active.flags[active.index];save();render();};$('finish').onclick=requestFinish;$('homeButton').onclick=()=>{save();home();};$('newAttempt').onclick=home;$('reviewErrors').onclick=()=>review(true);$('reviewAll').onclick=()=>review(false);
 window.addEventListener('storage',e=>{if(accessOpen&&e.key===KEY)checkConflict();});window.addEventListener('pagehide',save);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')clock();});
 async function boot(){read();home();try{const r=await fetch('data/unam-area4-lecturas-manifest.json',{cache:'no-cache'});if(!r.ok)throw Error();const files=await r.json();if(!Array.isArray(files)||!files.length||files.some(f=>typeof f!=='string'||!/^data\/unam-area4-[a-z0-9-]+\.json$/.test(f))||new Set(files).size!==files.length)throw Error();const batches=await Promise.all(files.map(async f=>{const b=await fetch(f,{cache:'no-cache'});if(!b.ok)throw Error();const questions=await b.json();if(!Array.isArray(questions))throw Error();return questions;}));bank=batches.flat();C.validate(bank);$('bankCount').textContent=`${bank.length} en el banco`;$('loadState').textContent='Banco listo. Tus intentos priorizan las preguntas menos usadas.';for(let id of ['startExam','startStudy'])$(id).disabled=false;$('distribution').textContent=Object.entries(C.QUOTAS).map(([s,n])=>`${s}: ${n} por examen · ${bank.filter(q=>q.categoria===s).length} en el banco`).join(' | ');}catch(e){$('loadState').textContent='No se pudo cargar el banco. Revisa tu conexión y recarga. Una sesión guardada sí puede continuar.';}}
@@ -55,3 +94,4 @@ const ACCESS_KEY='cf-unam-area4-access';
 function openAccess(){if(accessOpen)return;accessOpen=true;$('accessGate').hidden=true;$('appMain').hidden=false;boot();}
 $('accessForm').onsubmit=e=>{e.preventDefault();const code=$('accessCode').value;if(code!=='conejo'){$('accessError').textContent='Código incorrecto. Inténtalo de nuevo.';$('accessCode').value='';return;}$('accessCode').value='';try{localStorage.setItem(ACCESS_KEY,'patita-v1');}catch(e){}openAccess();};
 try{if(localStorage.getItem(ACCESS_KEY)==='patita-v1')openAccess();}catch(e){}
+
