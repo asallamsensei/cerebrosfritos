@@ -731,6 +731,7 @@ let respuestasUsuario = {};
 let preguntasValidadas = {};
 let ordenOpciones = {};
 let accesoActual = null;
+let bancoMezclaPGN = [];
 let modoExamen = false;
 let modoRepaso = false;
 let sesionInicialRepaso = null;
@@ -800,6 +801,39 @@ function borrarProgresoGuardado(){
 }
 
 const ACCESOS = {
+  "procuraduria_mix_1": {
+  "estudiante": "Preparación profesional",
+  "titulo": "Procuraduría · Convocatoria 142–2026 · Mixto 1",
+  "subtitulo": "3PU-17 · 30 preguntas: 10 aleatorias de cada uno de los tres bancos",
+  "archivo": "procuraduria_mix_1_v1",
+  "archivos": [
+    "data/simulacro_procuraduria142_30_preguntas.json",
+    "data/simulacro_procuraduria142_2_30_preguntas.json",
+    "data/simulacro_procuraduria142_3_30_preguntas.json"
+  ],
+  "mezclaPGN": true,
+  "ordenAleatorio": true,
+  "modoExamen": true,
+  "minutos": 45,
+  "esPGN142": true
+},
+  "procuraduria_mix_1_estudiar": {
+  "estudiante": "Preparación profesional",
+  "titulo": "Procuraduría · Convocatoria 142–2026 · Mixto 1 · Estudio",
+  "subtitulo": "3PU-17 · 30 preguntas: 10 aleatorias de cada uno de los tres bancos",
+  "archivo": "procuraduria_mix_1_v1",
+  "archivos": [
+    "data/simulacro_procuraduria142_30_preguntas.json",
+    "data/simulacro_procuraduria142_2_30_preguntas.json",
+    "data/simulacro_procuraduria142_3_30_preguntas.json"
+  ],
+  "mezclaPGN": true,
+  "ordenAleatorio": true,
+  "modoExamen": false,
+  "minutos": 45,
+  "esPGN142": true
+},
+
   "procuraduria142_3": {
   "estudiante": "Preparación profesional",
   "titulo": "Procuraduría · Convocatoria 142–2026 · Simulacro 3",
@@ -1157,18 +1191,28 @@ function cargarSimulacro(archivo, ordenAleatorio = true){
   document.getElementById("btnResponder").disabled = true;
   document.getElementById("btnSiguiente").disabled = true;
   document.getElementById("cargaLocal").classList.add("hidden");
-  fetch(archivo, accesoActual?.esPGN142 ? { cache: "no-store" } : {})
+  const leerBanco = ruta => fetch(ruta, accesoActual?.esPGN142 ? { cache: "no-store" } : {})
     .then(res => {
       if(!res.ok) throw new Error("No se encontró el archivo JSON en la ruta configurada.");
       return res.json();
-    })
+    });
+  const carga = accesoActual?.mezclaPGN
+    ? Promise.all(accesoActual.archivos.map((ruta, banco) => leerBanco(ruta).then(data => {
+        if(!Array.isArray(data) || data.length < 10) throw new Error("Banco insuficiente para la mezcla.");
+        return data.map(p => ({...p, id: `mix${banco + 1}:${p.id}`, bancoOrigen: banco + 1,
+          ...(p.caso_id != null ? {caso_id: `mix${banco + 1}:${p.caso_id}`} : {})}));
+      }))).then(bancos => bancos.flat())
+    : leerBanco(archivo);
+  carga
     .then(data => prepararPreguntas(data, ordenAleatorio))
     .catch(() => {
       document.getElementById("pregunta").innerText = "No se pudo cargar el simulacro automáticamente.";
       document.getElementById("errorCarga").innerText = location.protocol === "file:"
         ? "Al abrir el HTML directamente, el navegador puede bloquear la lectura automática. Selecciona abajo el JSON correspondiente."
         : "Revisa la ruta de la carpeta data o selecciona el JSON correspondiente desde tu equipo.";
-      document.getElementById("cargaLocal").classList.remove("hidden");
+      if(accesoActual?.mezclaPGN){
+        document.getElementById("errorCarga").innerText = "No se pudieron cargar los tres bancos. Actualiza la página para volver a intentarlo.";
+      }else document.getElementById("cargaLocal").classList.remove("hidden");
     });
 }
 
@@ -1184,12 +1228,15 @@ function prepararPreguntas(data, ordenAleatorio){
     }
     ids.add(p.id);
   });
+  if(accesoActual?.mezclaPGN) bancoMezclaPGN = [...data];
   preguntas = ordenAleatorio ? barajarPorCasos([...data]) : [...data];
   document.getElementById("cargaLocal").classList.add("hidden");
   const progreso = cargarProgresoGuardado();
   const puedeRestaurar = progreso && Array.isArray(progreso.ids)
-    && progreso.ids.length === preguntas.length
-    && new Set(progreso.ids).size === preguntas.length
+    && progreso.ids.length === (accesoActual?.mezclaPGN ? 30 : preguntas.length)
+    && new Set(progreso.ids).size === progreso.ids.length
+    && (!accesoActual?.mezclaPGN || (progreso.modoExamen === (accesoActual.modoExamen === true)
+      && [1,2,3].every(banco => progreso.ids.filter(id => preguntas.find(p => p.id === id)?.bancoOrigen === banco).length === 10)))
     && progreso.ids.every(id => preguntas.some(p => p.id === id));
   if(puedeRestaurar){
     preguntas = progreso.ids.map(id => preguntas.find(p => p.id === id));
@@ -1251,6 +1298,12 @@ function configurarModo(){
       ? "Práctica de 45 minutos: 24 preguntas de conocimientos y 6 situaciones comportamentales. Puedes omitir, volver y cambiar respuestas. Las explicaciones aparecen al entregar. "
       : "Modo estudio sin tiempo: responde y pulsa Comprobar para leer la explicación. ")
       + "Selección pedagógica basada en el perfil 142–2026, normas vigentes consultadas y antecedentes oficiales. No es una prueba oficial ni una predicción exacta. La distribución y el tiempo son de práctica. El porcentaje de aciertos no equivale al puntaje oficial. Las situaciones comportamentales entrenan criterios, no reproducen una escala psicométrica.";
+  }
+  if(accesoActual?.mezclaPGN){
+    aviso.innerText = (modoExamen
+      ? "Examen de práctica de 45 minutos. Las explicaciones aparecen al entregar. "
+      : "Modo estudio sin tiempo: responde y pulsa Comprobar para leer la explicación. ")
+      + "Cada nuevo intento selecciona 10 preguntas de cada uno de los tres bancos y mezcla las 30. La distribución por temas varía. Recargar conserva la selección y el avance guardados; Reiniciar o Repetir simulacro genera una selección nueva. Práctica orientativa, no prueba oficial; el porcentaje de aciertos no equivale al puntaje oficial.";
   }
   if(modoRepaso){
     aviso.classList.remove("hidden");
@@ -1773,6 +1826,11 @@ function mostrarRevision(){
 
 function reiniciarSimulacro(){
   if(!preguntas.length) return;
+  if(accesoActual?.mezclaPGN && !modoRepaso){
+    preguntas = barajarPorCasos([1,2,3].flatMap(banco =>
+      fisherYates(bancoMezclaPGN.filter(p => p.bancoOrigen === banco)).slice(0,10)));
+    modoExamen = accesoActual.modoExamen === true;
+  }
   if(!modoRepaso) borrarProgresoGuardado();
   clearInterval(intervaloReloj);
   indiceActual = 0;
@@ -1824,3 +1882,4 @@ document.addEventListener("keydown", function(e){
 
 </body>
 </html>
+
